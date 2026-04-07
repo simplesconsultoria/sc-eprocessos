@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247302",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-06",
+  "description": "a realização de reparo no portão do estacionamento do Teatro Municipal localizado na Rua Gautemala em frente ao número 500 no Bairro Tibery, tendo em vista que o mesmo encontra-se quebrado. A situação compromete a segurança do local, o controle de acesso e o uso adequado do estacionamento, podendo ocasionar transtornos aos usuários e riscos ao patrimônio público. Diante disso, faz-se necessária a intervenção do setor responsável para o conserto do equipamento e a garantia do funcionamento adequado do espaço.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247302_texto_integral.pdf",
+      "filename": "247302_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247302",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-09 12:53:36",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744282_tram.pdf",
+          "filename": "744282_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-09 12:02:12",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744001_tram.pdf",
+          "filename": "744001_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-06 14:54:16",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743699_tram.pdf",
+          "filename": "743699_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-06 14:25:33",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 09:03:22. Matéria incorporada em 06/02/2026 14:25:33 sob protocolo nº 5130/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743413_tram.pdf",
+          "filename": "743413_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247302",
+  "substitute": [],
+  "title": "Requerimento nº 20759/2026",
+  "voteResult": []
+}

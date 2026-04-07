@@ -1,0 +1,140 @@
+{
+  "@id": "/@@materias/251313",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/234117",
+      "@type": "Materia",
+      "annexationDate": "2026-03-04",
+      "description": "TORNA OBRIGATÓRIA A DIVULGAÇÃO E A PUBLICAÇÃO DA AGENDA DE COMPROMISSOS PÚBLICOS DE AGENTE PÚBLICO DO PODER EXECUTIVO NO PORTAL DA PREFEITURA DE UBERLÂNDIA.",
+      "id": "234117",
+      "title": "Projeto de Lei Ordinária nº 699/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-04",
+  "description": "Apreciação, pelo Plenário, do parecer contrário exarado ao Projeto de Lei Ordinária nº 699/2025, que dispõe sobre a obrigatoriedade de divulgação da agenda de compromissos públicos de agentes do Poder Executivo Municipal. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251313_texto_integral.pdf",
+      "filename": "251313_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251313",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-05 12:53:05",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762701_tram.pdf",
+          "filename": "762701_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-05 10:49:23",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762500_tram.pdf",
+          "filename": "762500_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-04 11:56:52",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762304_tram.pdf",
+          "filename": "762304_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-04 11:43:15",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/03/2026 09:59:08. Matéria incorporada em 04/03/2026 11:43:15 sob protocolo nº 8986/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761976_tram.pdf",
+          "filename": "761976_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251313",
+  "substitute": [],
+  "title": "Requerimento nº 20858/2026",
+  "voteResult": []
+}

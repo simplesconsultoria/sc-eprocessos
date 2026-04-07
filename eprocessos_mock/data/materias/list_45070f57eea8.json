@@ -4,6 +4,126 @@
   "description": "Lista de Requerimento do ano de 2026",
   "items": [
     {
+      "@id": "/@@materias/255916",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Edinho Combate Ao Câncer"
+        }
+      ],
+      "date": "2026-04-07",
+      "description": " Avaliação Técnica e Intervenção em Vegetação em Conflito com Rede Elétrica na Rua Quintino Bocaiuva, nº 2979, bairro Lagoinha, conforme solicitação do Sr. Euripedes Gonzaga da Silva.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/255916_texto_integral.pdf",
+          "filename": "255916_texto_integral.pdf",
+          "size": ""
+        }
+      ],
+      "id": "255916",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255916",
+      "title": "Requerimento nº 20931/2026"
+    },
+    {
+      "@id": "/@@materias/255880",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Janaina Guimarães"
+        }
+      ],
+      "date": "2026-04-07",
+      "description": "solicita-se a avaliação da viabilidade de implantação de sinalização restritiva, como por exemplo “Proibido o trânsito de veículos acima de grandes toneladas”, ou outras medidas que se mostrem adequadas para mitigar os impactos relatados na Rua das Primaveras, localizada no Bairro Cidade Jardim.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/255880_texto_integral.pdf",
+          "filename": "255880_texto_integral.pdf",
+          "size": ""
+        }
+      ],
+      "id": "255880",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255880",
+      "title": "Requerimento nº 20930/2026"
+    },
+    {
+      "@id": "/@@materias/255879",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado"
+        }
+      ],
+      "date": "2026-04-07",
+      "description": "Encaminhamento de Proposta – Implantação de Casinhas, Comedouros e Bebedouros no Parque do Sabiá",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/255879_texto_integral.pdf",
+          "filename": "255879_texto_integral.pdf",
+          "size": ""
+        }
+      ],
+      "id": "255879",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255879",
+      "title": "Requerimento nº 20929/2026"
+    },
+    {
+      "@id": "/@@materias/255824",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Prof. Ronaldo"
+        }
+      ],
+      "date": "2026-04-07",
+      "description": "Requer ao Poder Executivo a alteração do Decreto 8.701/2002, que \"INSTITUI O SERVIÇO DE TRANSPORTE ACESSÍVEL PORTA-A-PORTA DESTINADO A ATENDER PESSOAS PORTADORAS DE DEFICIÊNCIA, E DÁ OUTRAS PROVIDÊNCIAS\" para instituir diretrizes de transporte escolar acessível e seguro a estudantes com deficiência, com entrega assistida na unidade escolar. \r\n",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/255824_texto_integral.pdf",
+          "filename": "255824_texto_integral.pdf",
+          "size": ""
+        }
+      ],
+      "id": "255824",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255824",
+      "title": "Requerimento nº 20928/2026"
+    },
+    {
+      "@id": "/@@materias/255823",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Prof. Ronaldo"
+        }
+      ],
+      "date": "2026-04-07",
+      "description": "Requer à Secretaria Municipal de Educação a padronização do entendimento e a adoção de providências administrativas para assegurar que a jornada semanal de 20h seja cumprida nos exatos termos da IN SME nº 001/2014 (24 módulos de 50 minutos = 20h relógio), especialmente quanto às servidoras docentes readaptadas e eventuais, evitando excedentes de jornada decorrentes de interpretações divergentes entre unidades escolares e garantindo isonomia de tratamento.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/255823_texto_integral.pdf",
+          "filename": "255823_texto_integral.pdf",
+          "size": ""
+        }
+      ],
+      "id": "255823",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255823",
+      "title": "Requerimento nº 20927/2026"
+    },
+    {
       "@id": "/@@materias/255677",
       "@type": "Materia",
       "authorship": [

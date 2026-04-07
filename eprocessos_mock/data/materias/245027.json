@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/245027",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Amanda Gondim"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "providências urgentes quanto à capina e limpeza de todo o bairro Nova Uberlândia. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/245027_texto_integral.pdf",
+      "filename": "245027_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "245027",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:24:25",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733826_tram.pdf",
+          "filename": "733826_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:27",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728850_tram.pdf",
+          "filename": "728850_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:50:33",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721812_tram.pdf",
+          "filename": "721812_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 11:30:43",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 20/01/2026 14:04:51. Matéria incorporada em 26/01/2026 11:30:43 sob protocolo nº 3168/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/716441_tram.pdf",
+          "filename": "716441_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=245027",
+  "substitute": [],
+  "title": "Requerimento nº 20695/2026",
+  "voteResult": []
+}

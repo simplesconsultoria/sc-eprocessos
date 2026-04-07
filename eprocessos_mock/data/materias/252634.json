@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/252634",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-12",
+  "description": "Solicitação de manutenção, capina, roçagem e limpeza geral na E.M. Leandro José de Oliveira.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/252634_texto_integral.pdf",
+      "filename": "252634_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "252634",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-13 12:42:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/768085_tram.pdf",
+          "filename": "768085_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-13 12:23:13",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/767902_tram.pdf",
+          "filename": "767902_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-12 14:57:57",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/767715_tram.pdf",
+          "filename": "767715_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-12 14:39:01",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 11/03/2026 15:13:09. Matéria incorporada em 12/03/2026 14:39:01 sob protocolo nº 10269/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/767518_tram.pdf",
+          "filename": "767518_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=252634",
+  "substitute": [],
+  "title": "Requerimento nº 20877/2026",
+  "voteResult": []
+}

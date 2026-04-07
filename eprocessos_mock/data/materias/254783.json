@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/254783",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-26",
+  "description": "Reiteração do Pedido nº 20617/2025 para providências quanto ao ecoponto localizado nas proximidades da Rua do Farmacêutico, nº 11, bairro Jardim das Palmeiras, que vem causando transtornos aos moradores, especialmente devido ao excesso de poeira.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/254783_texto_integral.pdf",
+      "filename": "254783_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "254783",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782493_tram.pdf",
+          "filename": "782493_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-01 12:08:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777478_tram.pdf",
+          "filename": "777478_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-30 10:17:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/774350_tram.pdf",
+          "filename": "774350_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-26 08:57:45",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 25/03/2026 15:29:17. Matéria incorporada em 26/03/2026 08:57:45 sob protocolo nº 12381/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/770280_tram.pdf",
+          "filename": "770280_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=254783",
+  "substitute": [],
+  "title": "Requerimento nº 20898/2026",
+  "voteResult": []
+}

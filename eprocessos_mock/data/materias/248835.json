@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/248835",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-13",
+  "description": "Solicita-se à Secretaria Municipal de Agronegócio a realização de patrolamento das estradas vicinais na zona rural, especificamente na Estrada Vicinal Dâmaso Martins Marques",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248835_texto_integral.pdf",
+      "filename": "248835_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248835",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 13:03:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751949_tram.pdf",
+          "filename": "751949_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:46",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751323_tram.pdf",
+          "filename": "751323_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-13 09:15:20",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749195_tram.pdf",
+          "filename": "749195_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-13 09:12:30",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 14:57:29. Matéria incorporada em 13/02/2026 09:12:30 sob protocolo nº 6564/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749053_tram.pdf",
+          "filename": "749053_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248835",
+  "substitute": [],
+  "title": "Requerimento nº 20812/2026",
+  "voteResult": []
+}

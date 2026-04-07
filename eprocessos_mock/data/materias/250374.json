@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/250374",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-27",
+  "description": "AUTORIZAÇÃO DE DENOMINAÇÃO DE LOGRADOURO PÚBLICO DA RUA 1 – CAMPO BELO ZUE 5, CONFORME MAPA EM ANEXO, com o nome do SR. JAIR JOSÉ INÁCIO, um cidadão de destaque na cidade de Uberlândia. Tal pedido se faz necessário vez que é de meu interesse colocar em votação em plenário um Projeto de Lei com o nome de respectivo logradouro e para isso é necessário apresentar respectiva certidão",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/250374_texto_integral.pdf",
+      "filename": "250374_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "250374",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760415_tram.pdf",
+          "filename": "760415_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756894_tram.pdf",
+          "filename": "756894_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 09:43:01",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/755015_tram.pdf",
+          "filename": "755015_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-27 09:42:50",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 27/02/2026 09:41:49. Matéria incorporada em 27/02/2026 09:42:50 sob protocolo nº 8098/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/755014_tram.pdf",
+          "filename": "755014_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=250374",
+  "substitute": [],
+  "title": "Requerimento nº 20844/2026",
+  "voteResult": []
+}

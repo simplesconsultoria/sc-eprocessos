@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/248866",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-13",
+  "description": "A presente indicação justifica-se pela necessidade urgente de retirada de entulho descartado irregularmente na estrada vicinal Dâmaso Martins Marquez",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248866_texto_integral.pdf",
+      "filename": "248866_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248866",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 13:03:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751952_tram.pdf",
+          "filename": "751952_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:46",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751326_tram.pdf",
+          "filename": "751326_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-13 09:15:20",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749198_tram.pdf",
+          "filename": "749198_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-13 09:13:27",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 16:33:52. Matéria incorporada em 13/02/2026 09:13:27 sob protocolo nº 6595/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749084_tram.pdf",
+          "filename": "749084_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248866",
+  "substitute": [],
+  "title": "Requerimento nº 20815/2026",
+  "voteResult": []
+}

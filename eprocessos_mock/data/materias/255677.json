@@ -1,0 +1,137 @@
+{
+  "@id": "/@@materias/255677",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Conrado Augusto"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-06",
+  "description": "o presente requerimento de convocação do SECRETÁRIO MUNICIPAL DE SAÚDE, para prestar esclarecimentos acerca das denúncias dede falta de medicamentos e insumos na rede municipal de saúde,  da gestão e destinação de recursos públicos para o Hospital Municipal de Uberlândia, UAIs, e demais unidades de saúde, incluindo repasses às organizações sociais, gastos com cargos em comissão e consultorias, a redução de vigilantes e profissionais da equipe de limpeza, bem como sobre o impedimento de acesso de vereadores desta casa legislativa às dependências do Hospital Municipal.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/255677_texto_integral.pdf",
+      "filename": "255677_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "255677",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-07 11:04:34",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783070_tram.pdf",
+          "filename": "783070_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-07 11:03:16",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783068_tram.pdf",
+          "filename": "783068_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Rejeitado"
+    },
+    {
+      "date": "2026-04-06 13:58:30",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/780431_tram.pdf",
+          "filename": "780431_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-06 13:55:14",
+      "description": "",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/780428_tram.pdf",
+          "filename": "780428_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Inclusão de Co-autoria"
+    },
+    {
+      "date": "2026-04-06 13:54:40",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/04/2026 13:49:20. Matéria incorporada em 06/04/2026 13:54:40 sob protocolo nº 13270/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/780427_tram.pdf",
+          "filename": "780427_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255677",
+  "substitute": [],
+  "title": "Requerimento nº 20926/2026",
+  "voteResult": []
+}

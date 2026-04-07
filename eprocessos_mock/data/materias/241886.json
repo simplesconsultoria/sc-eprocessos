@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/241886",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Anderson Lima"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "Solicito providências urgentes para o reforço do policiamento ostensivo na Avenida Rondon Pacheco e na Rua José Nonato Ribeiro, no Bairro Cazeca.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/241886_texto_integral.pdf",
+      "filename": "241886_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "241886",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:11:30",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733774_tram.pdf",
+          "filename": "733774_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728802_tram.pdf",
+          "filename": "728802_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:47:47",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721792_tram.pdf",
+          "filename": "721792_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 08:48:49",
+      "description": "&lt;p&gt;Proposi&amp;ccedil;&amp;atilde;o eletr&amp;ocirc;nica enviada em 12/12/2025 13:07:09. Mat&amp;eacute;ria incorporada em 26/01/2026 08:48:49 sob protocolo n&amp;ordm; 27/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/713300_tram.pdf",
+          "filename": "713300_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=241886",
+  "substitute": [],
+  "title": "Requerimento nº 20653/2026",
+  "voteResult": []
+}

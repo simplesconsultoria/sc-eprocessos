@@ -1,0 +1,69 @@
+{
+  "@id": "/@@materias/255823",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-07",
+  "description": "Requer à Secretaria Municipal de Educação a padronização do entendimento e a adoção de providências administrativas para assegurar que a jornada semanal de 20h seja cumprida nos exatos termos da IN SME nº 001/2014 (24 módulos de 50 minutos = 20h relógio), especialmente quanto às servidoras docentes readaptadas e eventuais, evitando excedentes de jornada decorrentes de interpretações divergentes entre unidades escolares e garantindo isonomia de tratamento.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/255823_texto_integral.pdf",
+      "filename": "255823_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "255823",
+  "inProgress": true,
+  "processing": [
+    {
+      "date": "2026-04-07 13:15:12",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783625_tram.pdf",
+          "filename": "783625_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-07 10:06:51",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 07/04/2026 09:11:10. Matéria incorporada em 07/04/2026 10:06:51 sob protocolo nº 13416/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783038_tram.pdf",
+          "filename": "783038_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255823",
+  "substitute": [],
+  "title": "Requerimento nº 20927/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246580",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-03",
+  "description": "Solicitação de patrolamento e melhorias na via do Assentamento Irmã Dulce, em razão de alagamentos e enchentes recorrentes, que vêm ocasionando o acúmulo de água pluvial, dificultando a trafegabilidade e invadindo residências, gerando riscos à segurança, à saúde e ao patrimônio dos moradores. A situação é especialmente crítica em pontos como Quadra 01, Lote 35; Quadra 01, Lote 26; Lote 26; Quadra 01, Lote 27, entre outros trechos afetados. Faz-se necessária intervenção urgente para nivelamento do solo, melhoria do escoamento das águas pluviais e prevenção de novos alagamentos.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246580_texto_integral.pdf",
+      "filename": "246580_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246580",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-04 13:56:21",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/741556_tram.pdf",
+          "filename": "741556_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-04 12:05:09",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/734843_tram.pdf",
+          "filename": "734843_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-03 13:54:19",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/734615_tram.pdf",
+          "filename": "734615_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-03 13:19:00",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 03/02/2026 11:21:51. Matéria incorporada em 03/02/2026 13:19:00 sob protocolo nº 4415/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/734365_tram.pdf",
+          "filename": "734365_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246580",
+  "substitute": [],
+  "title": "Requerimento nº 20716/2026",
+  "voteResult": []
+}

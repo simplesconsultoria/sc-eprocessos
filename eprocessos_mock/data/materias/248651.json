@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/248651",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/236114",
+      "@type": "Materia",
+      "annexationDate": "2026-02-12",
+      "description": "DISPÕE SOBRE A OBRIGATORIEDADE DE HOSPITAIS PÚBLICOS E PRIVADOS POSSUÍREM EQUIPAMENTOS E MOBILIÁRIOS ADAPTADOS AO ATENDIMENTO DE PESSOAS COM OBESIDADE GRAVE, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "236114",
+      "title": "Projeto de Lei Ordinária nº 754/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Conrado Augusto"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-12",
+  "description": "Solicita apreciação de Parecer Contrário - Art. 172, Regimento Interno - Projeto de Lei Ordinária nº 754/2025 - DISPÕE SOBRE A OBRIGATORIEDADE DE HOSPITAIS PÚBLICOS E PRIVADOS POSSUÍREM EQUIPAMENTOS E MOBILIÁRIOS ADAPTADOS AO ATENDIMENTO DE PESSOAS COM OBESIDADE GRAVE, E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248651_texto_integral.pdf",
+      "filename": "248651_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248651",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 12:54:41",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751334_tram.pdf",
+          "filename": "751334_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:45",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751240_tram.pdf",
+          "filename": "751240_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-12 14:43:36",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748971_tram.pdf",
+          "filename": "748971_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-12 14:17:19",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 12:11:24. Matéria incorporada em 12/02/2026 14:17:19 sob protocolo nº 6380/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748354_tram.pdf",
+          "filename": "748354_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248651",
+  "substitute": [],
+  "title": "Requerimento nº 20804/2026",
+  "voteResult": []
+}

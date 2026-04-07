@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/248625",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-12",
+  "description": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de vias públicas - nivelamento / recapeamento asfáltico na Rodovia AMG-1110, Km 8, Acesso 9000 s/n Zona Rural, MG, 38400-970",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248625_texto_integral.pdf",
+      "filename": "248625_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248625",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 13:03:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751942_tram.pdf",
+          "filename": "751942_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:45",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751232_tram.pdf",
+          "filename": "751232_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-12 14:40:23",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748963_tram.pdf",
+          "filename": "748963_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-12 13:58:03",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 11/02/2026 14:21:46. Matéria incorporada em 12/02/2026 13:58:03 sob protocolo nº 6356/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748330_tram.pdf",
+          "filename": "748330_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248625",
+  "substitute": [],
+  "title": "Requerimento nº 20796/2026",
+  "voteResult": []
+}

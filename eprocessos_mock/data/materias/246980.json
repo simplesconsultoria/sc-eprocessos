@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246980",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Proposta de melhorias na estrutura, ampliação dos dias e horários de atendimento e reforço da equipe de profissionais no posto de saúde localizado próximo ao Assentamento Pica-Pau, visando garantir acesso regular, contínuo e de qualidade aos serviços básicos de saúde para a população local.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246980_texto_integral.pdf",
+      "filename": "246980_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246980",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:17:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743273_tram.pdf",
+          "filename": "743273_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743046_tram.pdf",
+          "filename": "743046_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742656_tram.pdf",
+          "filename": "742656_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:18:59",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:21:29. Matéria incorporada em 05/02/2026 13:18:59 sob protocolo nº 4819/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742255_tram.pdf",
+          "filename": "742255_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246980",
+  "substitute": [],
+  "title": "Requerimento nº 20734/2026",
+  "voteResult": []
+}

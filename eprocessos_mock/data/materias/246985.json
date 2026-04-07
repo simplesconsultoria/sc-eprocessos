@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246985",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Solicito a realização de patrolamento nas vias do Assentamento Pica Pau, com o objetivo de melhorar as condições de tráfego, garantir o acesso seguro de moradores, veículos de transporte e serviços essenciais, reduzir a poeira e os danos causados pelas irregularidades do solo, bem como promover melhores condições de mobilidade, segurança e qualidade de vida da comunidade local.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246985_texto_integral.pdf",
+      "filename": "246985_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246985",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:17:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743278_tram.pdf",
+          "filename": "743278_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743051_tram.pdf",
+          "filename": "743051_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742661_tram.pdf",
+          "filename": "742661_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:19:00",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:21:41. Matéria incorporada em 05/02/2026 13:19:00 sob protocolo nº 4824/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742260_tram.pdf",
+          "filename": "742260_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246985",
+  "substitute": [],
+  "title": "Requerimento nº 20739/2026",
+  "voteResult": []
+}

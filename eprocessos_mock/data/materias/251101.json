@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/251101",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/234495",
+      "@type": "Materia",
+      "annexationDate": "2026-03-03",
+      "description": "INSTITUI A ELABORAÇÃO DE DADOS ESTATÍSTICOS SOBRE A VIOLAÇÃO DE DIREITOS CONTRA A CRIANÇA E O ADOLESCENTE, NA FORMA QUE ESPECIFICA.\r\n",
+      "id": "234495",
+      "title": "Projeto de Lei Ordinária nº 725/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-03",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 725/2025 - INSTITUI A ELABORAÇÃO DE DADOS ESTATÍSTICOS SOBRE A VIOLAÇÃO DE DIREITOS CONTRA A CRIANÇA E O ADOLESCENTE, NA FORMA QUE ESPECIFICA, seja apreciado pelo plenário.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251101_texto_integral.pdf",
+      "filename": "251101_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251101",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-04 11:44:30",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762125_tram.pdf",
+          "filename": "762125_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-04 11:06:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761915_tram.pdf",
+          "filename": "761915_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-03 13:32:34",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761613_tram.pdf",
+          "filename": "761613_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-03 12:02:23",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 03/03/2026 11:59:07. Matéria incorporada em 03/03/2026 12:02:23 sob protocolo nº 8773/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761017_tram.pdf",
+          "filename": "761017_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251101",
+  "substitute": [],
+  "title": "Requerimento nº 20853/2026",
+  "voteResult": []
+}

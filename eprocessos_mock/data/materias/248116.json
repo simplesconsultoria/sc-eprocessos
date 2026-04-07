@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/248116",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Neemias Miquéias"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-11",
+  "description": "Solicita ao PROCON Municipal de Uberlândia, a fiscalização e apuração de possíveis práticas abusivas na formação e no repasse dos preços dos combustíveis no município, diante da não aplicação ao consumidor final da redução anunciada nos valores praticados pelas refinarias.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248116_texto_integral.pdf",
+      "filename": "248116_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248116",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-12 13:12:44",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747645_tram.pdf",
+          "filename": "747645_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-12 11:40:58",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747628_tram.pdf",
+          "filename": "747628_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-11 13:50:23",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747368_tram.pdf",
+          "filename": "747368_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-11 13:17:25",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 10/02/2026 16:27:55. Matéria incorporada em 11/02/2026 13:17:25 sob protocolo nº 5933/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746607_tram.pdf",
+          "filename": "746607_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248116",
+  "substitute": [],
+  "title": "Requerimento nº 20791/2026",
+  "voteResult": []
+}

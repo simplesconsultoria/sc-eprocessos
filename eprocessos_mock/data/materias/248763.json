@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/248763",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/239672",
+      "@type": "Materia",
+      "annexationDate": "2026-02-13",
+      "description": "ALTERA À LEI Nº 10.741, DE 6 DE ABRIL DE 2011, QUE INSTITUI O CÓDIGO MUNICIPAL DE POSTURAS DE UBERLÂNDIA.",
+      "id": "239672",
+      "title": "Projeto de Lei Ordinária nº 820/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-13",
+  "description": "Requer análise de Parecer Contrário ao PL 820/2025 em Plenário desta Casa.\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248763_texto_integral.pdf",
+      "filename": "248763_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248763",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 12:54:41",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751337_tram.pdf",
+          "filename": "751337_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:46",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751319_tram.pdf",
+          "filename": "751319_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-13 09:15:20",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749191_tram.pdf",
+          "filename": "749191_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-13 09:10:08",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 13:26:46. Matéria incorporada em 13/02/2026 09:10:08 sob protocolo nº 6492/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748981_tram.pdf",
+          "filename": "748981_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248763",
+  "substitute": [],
+  "title": "Requerimento nº 20808/2026",
+  "voteResult": []
+}

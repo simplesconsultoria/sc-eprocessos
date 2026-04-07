@@ -1,0 +1,130 @@
+{
+  "@id": "/@@materias/247014",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/231068",
+      "@type": "Materia",
+      "annexationDate": "2026-02-05",
+      "description": "ESTABELECE AS DIRETRIZES DE TRANSPARÊNCIA ATIVA E DIVULGAÇÃO DE INFORMAÇÕES ORÇAMENTÁRIAS E FÍSICAS RELATIVAS ÀS POLÍTICAS DESTINADAS À PRIMEIRA INFÂNCIA, ÀS CRIANÇAS E AOS ADOLESCENTES - ORÇAMENTO PRIMEIRA INFÂNCIA E ORÇAMENTO CRIANÇA E ADOLESCENTE, NO MUNICÍPIO DE UBERLÂNDIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "231068",
+      "title": "Projeto de Lei Ordinária nº 638/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Parecer Contrário - art. 172 do Regimento Interno - REQUER APRECIAÇÃO, PELO PLENÁRIO DA CÂMARA, DO PARECER CONTRÁRIO EXARADO PELA COMISSÃO DE LEGISLAÇÃO, JUSTIÇA E REDAÇÃO NO PROJETO DE LEI ORDINÁRIA 638/2025. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247014_texto_integral.pdf",
+      "filename": "247014_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247014",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:09:55",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743087_tram.pdf",
+          "filename": "743087_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743063_tram.pdf",
+          "filename": "743063_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742673_tram.pdf",
+          "filename": "742673_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:47:52",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:49:56. Matéria incorporada em 05/02/2026 13:47:52 sob protocolo nº 4853/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742297_tram.pdf",
+          "filename": "742297_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247014",
+  "substitute": [],
+  "title": "Requerimento nº 20751/2026",
+  "voteResult": []
+}

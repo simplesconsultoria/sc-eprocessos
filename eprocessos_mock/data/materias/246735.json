@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246735",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Amanda Gondim"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-04",
+  "description": "indicar ao Chefe do Poder Executivo Municipal a adoção de providências legislativas visando a alteração do Estatuto dos Servidores Públicos do Município de Uberlândia, com o objetivo de ampliar o período de licença-paternidade concedido aos servidores municipais.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246735_texto_integral.pdf",
+      "filename": "246735_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246735",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-05 14:04:47",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742461_tram.pdf",
+          "filename": "742461_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-05 11:22:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742056_tram.pdf",
+          "filename": "742056_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-04 14:08:03",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/741877_tram.pdf",
+          "filename": "741877_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-04 13:29:37",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 10:16:22. Matéria incorporada em 04/02/2026 13:29:37 sob protocolo nº 4570/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/738943_tram.pdf",
+          "filename": "738943_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246735",
+  "substitute": [],
+  "title": "Requerimento nº 20720/2026",
+  "voteResult": []
+}

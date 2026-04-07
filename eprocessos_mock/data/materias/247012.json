@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/247012",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/229453",
+      "@type": "Materia",
+      "annexationDate": "2026-02-05",
+      "description": "INSTITUI O PROGRAMA \"ANIMAL LEGAL\" VISANDO O CENSO POPULACIONAL DE ANIMAIS DOMÉSTICOS NO MUNICÍPIO DE UBERLÂNDIA.",
+      "id": "229453",
+      "title": "Projeto de Lei Ordinária nº 575/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 575/2025 - INSTITUI O PROGRAMA \"ANIMAL LEGAL\" VISANDO O CENSO POPULACIONAL DE ANIMAIS DOMÉSTICOS NO MUNICÍPIO DE UBERLÂNDIA, seja apreciado pelo plenário.\r\n\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247012_texto_integral.pdf",
+      "filename": "247012_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247012",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:09:55",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743085_tram.pdf",
+          "filename": "743085_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743061_tram.pdf",
+          "filename": "743061_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742671_tram.pdf",
+          "filename": "742671_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:43:14",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:40:17. Matéria incorporada em 05/02/2026 13:43:14 sob protocolo nº 4851/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742291_tram.pdf",
+          "filename": "742291_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247012",
+  "substitute": [],
+  "title": "Requerimento nº 20749/2026",
+  "voteResult": []
+}

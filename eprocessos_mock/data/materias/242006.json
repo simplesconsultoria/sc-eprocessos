@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/242006",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "RETIRADA DE ENTULHO / GALHOS DA PODA DE ÁRVORES - AVENIDA JOSÉ FONSECA E SILVA, Nº990 / FRENTE A ESCOLA PROFESSOR LEÔNIDAS DE CASTRO SERRA - BAIRRO LUIZOTE DE FREITAS - UBERLÂNDIA/MG - CEP. 38414-348",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/242006_texto_integral.pdf",
+      "filename": "242006_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "242006",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:15:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733782_tram.pdf",
+          "filename": "733782_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728803_tram.pdf",
+          "filename": "728803_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:47:47",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721793_tram.pdf",
+          "filename": "721793_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 10:28:09",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 15/12/2025 09:33:26. Matéria incorporada em 26/01/2026 10:28:09 sob protocolo nº 147/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/713420_tram.pdf",
+          "filename": "713420_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=242006",
+  "substitute": [],
+  "title": "Requerimento nº 20654/2026",
+  "voteResult": []
+}

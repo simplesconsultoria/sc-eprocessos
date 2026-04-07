@@ -1,0 +1,167 @@
+{
+  "@id": "/@@materias/247004",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Anderson Lima"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Pezão Do Esporte"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sargento Ednaldo"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sérvio Túlio"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Solicitação para Reserva de plenário no dia 24/02/2026 das 19h às 21h para entrega das Homenagens: Projeto de Decreto Legislativo nº 111/2025\r\nCONCEDE DIPLOMA DE HONRA AO MÉRITO À VENCER-DO; Projeto de Decreto Legislativo nº 110/2025 CONCEDE DIPLOMA DE HONRA AO MÉRITO À ROBSON NAREK; Projeto de Decreto Legislativo nº 113/2025\r\nCONCEDE TÍTULO DE CIDADÃO HONORÁRIO AO SR. WELLINGTON FAZZI CANCIAN; Projeto de Decreto Legislativo nº 100/2025 CONCEDE TÍTULO DE CIDADÃO HONORÁRIO AO SR. WESLEY LIMA SZABO; Projeto de Decreto Legislativo nº 176/2026\r\nCONCEDE TÍTULO DE CIDADÃO HONORÁRIO AO SR. GIANCARLO RAMOS RODOLPHO.\r\n\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247004_texto_integral.pdf",
+      "filename": "247004_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247004",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-19 10:11:48",
+      "description": "&lt;p&gt;na pastinha.&lt;/p&gt;",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751964_tram.pdf",
+          "filename": "751964_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Cerimonial",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 13:07:11",
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743075_tram.pdf",
+          "filename": "743075_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743057_tram.pdf",
+          "filename": "743057_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742667_tram.pdf",
+          "filename": "742667_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:33:06",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 10:51:30. Matéria incorporada em 05/02/2026 13:33:06 sob protocolo nº 4843/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742280_tram.pdf",
+          "filename": "742280_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247004",
+  "substitute": [],
+  "title": "Requerimento nº 20745/2026",
+  "voteResult": []
+}

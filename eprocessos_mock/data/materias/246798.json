@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246798",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Janaina Guimarães"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-04",
+  "description": "colocação de lixeira na praça localizada na Rua Maria Áurea Araújo, nº 119",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246798_texto_integral.pdf",
+      "filename": "246798_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246798",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-05 14:04:47",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742462_tram.pdf",
+          "filename": "742462_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-05 11:22:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742058_tram.pdf",
+          "filename": "742058_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-04 14:08:03",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/741879_tram.pdf",
+          "filename": "741879_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-04 13:32:06",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 12:12:36. Matéria incorporada em 04/02/2026 13:32:06 sob protocolo nº 4633/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/739006_tram.pdf",
+          "filename": "739006_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246798",
+  "substitute": [],
+  "title": "Requerimento nº 20722/2026",
+  "voteResult": []
+}

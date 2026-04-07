@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/247323",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/234431",
+      "@type": "Materia",
+      "annexationDate": "2026-02-09",
+      "description": "DISPÕE SOBRE A OBRIGATORIEDADE DE DIVULGAÇÃO, NO PORTAL OFICIAL DO MUNICÍPIO DE UBERLÂNDIA, DE LINK DE ACESSO AO CADASTRO NACIONAL DE PEDÓFILOS E PREDADORES SEXUAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "234431",
+      "title": "Projeto de Lei Ordinária nº 724/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 724/2025 QUE DISPÕE SOBRE A OBRIGATORIEDADE DE DIVULGAÇÃO, NO PORTAL OFICIAL DO MUNICÍPIO DE UBERLÂNDIA, DE LINK DE ACESSO AO CADASTRO NACIONAL DE PEDÓFILOS E PREDADORES SEXUAIS, E DÁ OUTRAS PROVIDÊNCIAS, seja apreciado pelo plenário.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247323_texto_integral.pdf",
+      "filename": "247323_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247323",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745660_tram.pdf",
+          "filename": "745660_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745307_tram.pdf",
+          "filename": "745307_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744958_tram.pdf",
+          "filename": "744958_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 08:44:25",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 09:23:50. Matéria incorporada em 09/02/2026 08:44:25 sob protocolo nº 5151/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743709_tram.pdf",
+          "filename": "743709_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247323",
+  "substitute": [],
+  "title": "Requerimento nº 20763/2026",
+  "voteResult": []
+}

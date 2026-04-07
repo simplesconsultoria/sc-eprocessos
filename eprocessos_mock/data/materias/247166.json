@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/247166",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/230137",
+      "@type": "Materia",
+      "annexationDate": "2026-02-06",
+      "description": "INSTITUI, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, O PROGRAMA MUNICIPAL DE CONSCIENTIZAÇÃO, PREVENÇÃO E TRATAMENTO AOS MALEFÍCIOS DOS JOGOS DE APOSTAS ONLINE E FÍSICAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "230137",
+      "title": "Projeto de Lei Ordinária nº 583/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-06",
+  "description": "Nos termos do art. 172 do Regimento Interno da Câmara, requer seja apreciado pelo plenário o parecer contrário da Comissão de Legislação, Justiça e Redação no Projeto de Lei Ordinária nº 583/2025 - INSTITUI, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, O PROGRAMA MUNICIPAL DE CONSCIENTIZAÇÃO, PREVENÇÃO E TRATAMENTO AOS MALEFÍCIOS DOS JOGOS DE APOSTAS ONLINE E FÍSICAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247166_texto_integral.pdf",
+      "filename": "247166_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247166",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-09 12:48:25",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744015_tram.pdf",
+          "filename": "744015_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-09 12:02:12",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744000_tram.pdf",
+          "filename": "744000_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-06 14:54:16",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743698_tram.pdf",
+          "filename": "743698_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-06 08:48:03",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 08:46:19. Matéria incorporada em 06/02/2026 08:48:03 sob protocolo nº 4994/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742829_tram.pdf",
+          "filename": "742829_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247166",
+  "substitute": [],
+  "title": "Requerimento nº 20758/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/251920",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-09",
+  "description": "Solicita à Secretaria Municipal de Trânsito e Transportes de Uberlândia apuração e providências quanto às denúncias de que ônibus da linha A147 – Shopping Park estariam deixando de parar nos pontos para idosos e pessoas com deficiência, além do descumprimento do uso de assentos preferenciais no transporte público do município de Uberlândia.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251920_texto_integral.pdf",
+      "filename": "251920_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251920",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-10 12:32:39",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/765412_tram.pdf",
+          "filename": "765412_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-10 11:15:16",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764971_tram.pdf",
+          "filename": "764971_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-09 13:10:15",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764655_tram.pdf",
+          "filename": "764655_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-09 13:03:37",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 09/03/2026 13:01:13. Matéria incorporada em 09/03/2026 13:03:37 sob protocolo nº 9593/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764444_tram.pdf",
+          "filename": "764444_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251920",
+  "substitute": [],
+  "title": "Requerimento nº 20872/2026",
+  "voteResult": []
+}

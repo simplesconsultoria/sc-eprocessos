@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/247008",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/236046",
+      "@type": "Materia",
+      "annexationDate": "2026-02-05",
+      "description": "INSTITUI, NO MUNICÍPIO DE UBERLÂNDIA, A CAMPANHA PERMANENTE DE CONSCIENTIZAÇÃO ‘NÃO DÊ ESMOLAS, DÊ OPORTUNIDADE’ E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "236046",
+      "title": "Projeto de Lei Ordinária nº 751/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Parecer Contrário exarado ao Projeto de Lei Ordinária nº 751/2025, que “Institui, no Município de Uberlândia, a Campanha Permanente de Conscientização ‘NÃO DÊ ESMOLAS, DÊ OPORTUNIDADE’ e dá outras providências”",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247008_texto_integral.pdf",
+      "filename": "247008_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247008",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:09:55",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743082_tram.pdf",
+          "filename": "743082_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743058_tram.pdf",
+          "filename": "743058_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742668_tram.pdf",
+          "filename": "742668_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:35:25",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:29:33. Matéria incorporada em 05/02/2026 13:35:25 sob protocolo nº 4847/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742284_tram.pdf",
+          "filename": "742284_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247008",
+  "substitute": [],
+  "title": "Requerimento nº 20746/2026",
+  "voteResult": []
+}

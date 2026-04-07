@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/248640",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-12",
+  "description": "Solicitação de reparo e manutenção em veículo do transporte coletivo da linha E131.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248640_texto_integral.pdf",
+      "filename": "248640_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248640",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 13:03:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751947_tram.pdf",
+          "filename": "751947_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:45",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751238_tram.pdf",
+          "filename": "751238_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-12 14:43:36",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748969_tram.pdf",
+          "filename": "748969_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-12 14:10:00",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 01:09:54. Matéria incorporada em 12/02/2026 14:10:00 sob protocolo nº 6369/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748343_tram.pdf",
+          "filename": "748343_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248640",
+  "substitute": [],
+  "title": "Requerimento nº 20802/2026",
+  "voteResult": []
+}

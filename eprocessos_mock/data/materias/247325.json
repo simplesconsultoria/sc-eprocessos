@@ -1,0 +1,130 @@
+{
+  "@id": "/@@materias/247325",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/235124",
+      "@type": "Materia",
+      "annexationDate": "2026-02-09",
+      "description": "DISPÕE SOBRE A DISPONIBILIZAÇÃO, NO ÂMBITO DO SITE OFICIAL DA PREFEITURA DE UBERLÂNDIA, DE FERRAMENTA DE LOCALIZAÇÃO E RESGATE DE ANIMAIS - \"PROCURA PET\", DESTINADO A FACILITAR O REENCONTRO DE ANIMAIS PERDIDOS E ENCONTRADOS NO MUNICÍPIO, E DÁ OUTRAS PROVIDÊNCIAS. ",
+      "id": "235124",
+      "title": "Projeto de Lei Ordinária nº 740/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": "Requerimento - Prof. Ronaldo - art. 172, RI - Requer seja remetido para análise do plenário o parecer contrário exarado pela CLRJ no PL 740/2025, que \"DISPÕE SOBRE A DISPONIBILIZAÇÃO, NO ÂMBITO DO SITE OFICIAL DA PREFEITURA DE UBERLÂNDIA, DE FERRAMENTA DE LOCALIZAÇÃO E RESGATE DE ANIMAIS - \"PROCURA PET\", DESTINADO A FACILITAR O REENCONTRO DE ANIMAIS PERDIDOS E ENCONTRADOS NO MUNICÍPIO, E DÁ OUTRAS PROVIDÊNCIAS.\"",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247325_texto_integral.pdf",
+      "filename": "247325_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247325",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745662_tram.pdf",
+          "filename": "745662_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745309_tram.pdf",
+          "filename": "745309_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744960_tram.pdf",
+          "filename": "744960_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 08:49:30",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 09:25:55. Matéria incorporada em 09/02/2026 08:49:30 sob protocolo nº 5153/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743713_tram.pdf",
+          "filename": "743713_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247325",
+  "substitute": [],
+  "title": "Requerimento nº 20765/2026",
+  "voteResult": []
+}

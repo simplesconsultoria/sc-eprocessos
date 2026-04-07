@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/245000",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "Restabelecimento com URGÊNCIA dos repasses de recursos para manutenção do convênio de cooperação mútua com o Hospital Veterinário da Universidade Federal de Uberlândia (UFU) destinado ao Programa de Assistência Médico Veterinária para o Município\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/245000_texto_integral.pdf",
+      "filename": "245000_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "245000",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:24:25",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733802_tram.pdf",
+          "filename": "733802_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728823_tram.pdf",
+          "filename": "728823_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:50:33",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721839_tram.pdf",
+          "filename": "721839_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 11:20:56",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/01/2026 08:24:24. Matéria incorporada em 26/01/2026 11:20:56 sob protocolo nº 3141/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/716414_tram.pdf",
+          "filename": "716414_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=245000",
+  "substitute": [],
+  "title": "Requerimento nº 20668/2026",
+  "voteResult": []
+}

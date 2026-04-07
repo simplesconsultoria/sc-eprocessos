@@ -1,0 +1,135 @@
+{
+  "@id": "/@@materias/247908",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/241019",
+      "@type": "Materia",
+      "annexationDate": "2026-02-10",
+      "description": "DISPÕE SOBRE A POSSIBILIDADE DE PAGAMENTO VIA PIX DO PAGAMENTO DE MULTAS MUNICIPAIS NO MOMENTO DA APREENSÃO DO VEÍCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "241019",
+      "title": "Projeto de Lei Ordinária nº 859/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Delegada Lia Valechi"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ângela Do Postinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Pezão Do Esporte"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-10",
+  "description": "Requer análise de Parecer Contrário ao PL 859/2025 em Plenário desta Casa.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247908_texto_integral.pdf",
+      "filename": "247908_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247908",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-11 13:33:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747103_tram.pdf",
+          "filename": "747103_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-11 12:09:06",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746412_tram.pdf",
+          "filename": "746412_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-10 14:41:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746165_tram.pdf",
+          "filename": "746165_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-10 14:27:36",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 10/02/2026 10:36:03. Matéria incorporada em 10/02/2026 14:27:36 sob protocolo nº 5729/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745909_tram.pdf",
+          "filename": "745909_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247908",
+  "substitute": [],
+  "title": "Requerimento nº 20788/2026",
+  "voteResult": []
+}

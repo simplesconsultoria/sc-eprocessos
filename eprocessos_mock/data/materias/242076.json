@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/242076",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "TROCA DE POSTE DE ENERGIA - RUA DR. MANOEL TOMÁS TEIXEIRA DE SOUZA, Nº 750 - LADO DO UBSF DO TOCANTINS - BAIRRO TOCANTINS - UBERLÂNDIA/MG - CEP. 38415-270",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/242076_texto_integral.pdf",
+      "filename": "242076_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "242076",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:15:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733783_tram.pdf",
+          "filename": "733783_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728805_tram.pdf",
+          "filename": "728805_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:47:47",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721795_tram.pdf",
+          "filename": "721795_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 10:42:54",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 16/12/2025 08:40:35. Matéria incorporada em 26/01/2026 10:42:54 sob protocolo nº 217/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/713490_tram.pdf",
+          "filename": "713490_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=242076",
+  "substitute": [],
+  "title": "Requerimento nº 20656/2026",
+  "voteResult": []
+}

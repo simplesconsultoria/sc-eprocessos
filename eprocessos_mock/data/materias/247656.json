@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/247656",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/241018",
+      "@type": "Materia",
+      "annexationDate": "2026-02-09",
+      "description": "ALTERA A LEI Nº 10.153, DE 21 DE MAIO DE 2009, QUE DISCIPLINA O SERVIÇO DE TRANSPORTE INDIVIDUAL DE PASSAGEIROS EM VEÍCULOS DE ALUGUEL, NA MODALIDADE TÁXI, NO MUNICÍPIO DE UBERLÂNDIA, REVOGA A LEI Nº 6454, DE 14 DE DEZEMBRO DE 1995 E SUAS ALTERAÇÕES POSTERIORES E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "241018",
+      "title": "Projeto de Lei Ordinária nº 858/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 858/2025 - ALTERA A LEI Nº 10.153, DE 21 DE MAIO DE 2009, QUE DISCIPLINA O SERVIÇO DE TRANSPORTE INDIVIDUAL DE PASSAGEIROS EM VEÍCULOS DE ALUGUEL, NA MODALIDADE TÁXI, NO MUNICÍPIO DE UBERLÂNDIA, REVOGA A LEI Nº 6454, DE 14 DE DEZEMBRO DE 1995 E SUAS ALTERAÇÕES POSTERIORES E DÁ OUTRAS PROVIDÊNCIAS, seja apreciado pelo plenário.\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247656_texto_integral.pdf",
+      "filename": "247656_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247656",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745674_tram.pdf",
+          "filename": "745674_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:27",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745321_tram.pdf",
+          "filename": "745321_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744972_tram.pdf",
+          "filename": "744972_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 14:45:41",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 11:14:46. Matéria incorporada em 09/02/2026 14:45:41 sob protocolo nº 5480/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744617_tram.pdf",
+          "filename": "744617_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247656",
+  "substitute": [],
+  "title": "Requerimento nº 20777/2026",
+  "voteResult": []
+}

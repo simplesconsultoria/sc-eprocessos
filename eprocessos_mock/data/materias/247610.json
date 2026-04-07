@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247610",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ronaldo Tannús"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": " QUE PROCEDA A OPERAÇÃO DE TAPA BURACO NA BR - PRÓXIMO CAPELA\r\nDA SAUDADE.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247610_texto_integral.pdf",
+      "filename": "247610_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247610",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745665_tram.pdf",
+          "filename": "745665_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745312_tram.pdf",
+          "filename": "745312_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744963_tram.pdf",
+          "filename": "744963_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 14:18:09",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 15:04:56. Matéria incorporada em 09/02/2026 14:18:09 sob protocolo nº 5435/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744565_tram.pdf",
+          "filename": "744565_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247610",
+  "substitute": [],
+  "title": "Requerimento nº 20768/2026",
+  "voteResult": []
+}

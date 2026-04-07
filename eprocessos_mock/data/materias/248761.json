@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/248761",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/209369",
+      "@type": "Materia",
+      "annexationDate": "2026-02-13",
+      "description": "PROÍBE A CONTRATAÇÃO DE SHOWS, ARTISTAS E EVENTOS ABERTOS AO PÚBLICO INFANTOJUVENIL QUE ENVOLVAM, NO DECORRER DA APRESENTAÇÃO, EXPRESSÃO DE APOLOGIA AO CRIME ORGANIZADO OU AO USO DE DROGAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "209369",
+      "title": "Projeto de Lei Ordinária nº 217/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-13",
+  "description": "Requer análise de Parecer Contrário ao PL 217/2025 em Plenário desta Casa ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248761_texto_integral.pdf",
+      "filename": "248761_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248761",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 12:54:41",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751335_tram.pdf",
+          "filename": "751335_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:46",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751317_tram.pdf",
+          "filename": "751317_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-13 09:15:20",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749189_tram.pdf",
+          "filename": "749189_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-13 09:09:13",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 13:26:02. Matéria incorporada em 13/02/2026 09:09:13 sob protocolo nº 6490/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748979_tram.pdf",
+          "filename": "748979_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248761",
+  "substitute": [],
+  "title": "Requerimento nº 20806/2026",
+  "voteResult": []
+}

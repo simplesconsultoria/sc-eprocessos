@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246669",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-04",
+  "description": "Indicativo de Projeto de Lei que \"Autoriza a utilização de hidrômetros fabricados em polímeros plásticos no âmbito do Município de Uberlândia, e dá outras providências\"",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246669_texto_integral.pdf",
+      "filename": "246669_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246669",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-05 14:04:47",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742459_tram.pdf",
+          "filename": "742459_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-05 11:22:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742054_tram.pdf",
+          "filename": "742054_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-04 14:08:03",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/741875_tram.pdf",
+          "filename": "741875_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-04 13:25:16",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 03/02/2026 14:30:19. Matéria incorporada em 04/02/2026 13:25:16 sob protocolo nº 4504/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/736377_tram.pdf",
+          "filename": "736377_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246669",
+  "substitute": [],
+  "title": "Requerimento nº 20718/2026",
+  "voteResult": []
+}

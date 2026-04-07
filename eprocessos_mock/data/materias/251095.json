@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/251095",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-03",
+  "description": "Indica ao Chefe do Poder Executivo Municipal a apresentação de Projeto de Lei que institui e regulamenta o afastamento remunerado de servidores públicos municipais para participação em programas de pós-graduação stricto sensu (mestrado e doutorado) e dá outras providências.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251095_texto_integral.pdf",
+      "filename": "251095_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251095",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-04 11:44:30",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762124_tram.pdf",
+          "filename": "762124_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-04 11:06:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761914_tram.pdf",
+          "filename": "761914_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-03 13:32:34",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761612_tram.pdf",
+          "filename": "761612_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-03 11:56:10",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 02/03/2026 16:30:43. Matéria incorporada em 03/03/2026 11:56:10 sob protocolo nº 8767/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761011_tram.pdf",
+          "filename": "761011_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251095",
+  "substitute": [],
+  "title": "Requerimento nº 20852/2026",
+  "voteResult": []
+}
