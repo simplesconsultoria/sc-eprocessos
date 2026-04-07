@@ -9,12 +9,7 @@
  *   GET /@@normas/{id}                     → Norma (detail)
  */
 
-import type {
-  Authorship,
-  BaseItem,
-  FileAttachment,
-  ListResponse,
-} from './common';
+import type { BaseItem, FileAttachment, ListResponse } from './common';
 
 /**
  * Reference to a related materia inside a Norma detail response.
