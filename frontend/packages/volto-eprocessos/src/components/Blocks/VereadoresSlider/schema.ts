@@ -1,0 +1,93 @@
+import { defineMessages } from 'react-intl';
+import type { BlockSchemaProps } from '@plone/types';
+
+const messages = defineMessages({
+  blockTitle: {
+    id: 'Vereadores slider block',
+    defaultMessage: 'Vereadores (slider)',
+  },
+  source: {
+    id: 'Vereadores slider source',
+    defaultMessage: 'Fonte (Vereadores)',
+  },
+  sourceHelp: {
+    id: 'Vereadores slider source help',
+    defaultMessage: 'Selecione o conteúdo “Vereadores” do site.',
+  },
+  allLink: {
+    id: 'Vereadores slider all link',
+    defaultMessage: 'Link “ver todos”',
+  },
+  allLinkLabel: {
+    id: 'Vereadores slider all link label',
+    defaultMessage: 'Texto do link',
+  },
+  size: {
+    id: 'Vereadores slider size',
+    defaultMessage: 'Tamanho',
+  },
+  sizeHelp: {
+    id: 'Vereadores slider size help',
+    defaultMessage: 'Controla o tamanho da foto do vereador.',
+  },
+  sizeS: {
+    id: 'Vereadores slider size small',
+    defaultMessage: 'Pequeno',
+  },
+  sizeM: {
+    id: 'Vereadores slider size medium',
+    defaultMessage: 'Médio',
+  },
+  sizeL: {
+    id: 'Vereadores slider size large',
+    defaultMessage: 'Grande',
+  },
+});
+
+export const VereadoresSliderBlockSchema = (props: BlockSchemaProps): any => {
+  const { intl } = props;
+
+  return {
+    title: intl.formatMessage(messages.blockTitle),
+    fieldsets: [
+      {
+        id: 'default',
+        title: 'default',
+        fields: ['source', 'allLink', 'allLinkLabel', 'size'],
+      },
+    ],
+    properties: {
+      source: {
+        title: intl.formatMessage(messages.source),
+        description: intl.formatMessage(messages.sourceHelp),
+        widget: 'object_browser',
+        mode: 'link',
+        allowExternals: false,
+        selectedItemAttrs: ['Title', '@type'],
+      },
+      allLink: {
+        title: intl.formatMessage(messages.allLink),
+        widget: 'object_browser',
+        mode: 'link',
+        allowExternals: true,
+        selectedItemAttrs: ['Title', '@type'],
+      },
+      allLinkLabel: {
+        title: intl.formatMessage(messages.allLinkLabel),
+        type: 'string',
+        default: 'Ver todos os vereadores',
+      },
+      size: {
+        title: intl.formatMessage(messages.size),
+        description: intl.formatMessage(messages.sizeHelp),
+        choices: [
+          ['s', intl.formatMessage(messages.sizeS)],
+          ['m', intl.formatMessage(messages.sizeM)],
+          ['l', intl.formatMessage(messages.sizeL)],
+        ],
+        default: 'm',
+      },
+    },
+    required: [],
+  };
+};
