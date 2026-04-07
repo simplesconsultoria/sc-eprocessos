@@ -15,11 +15,7 @@
  * are requested, mounting the result under `presenca` / `votacao`.
  */
 
-import type {
-  BaseItem,
-  FileAttachment,
-  ListResponse,
-} from './common';
+import type { BaseItem, FileAttachment, ListResponse } from './common';
 
 /**
  * Attendance record for a single councilor in a session.
