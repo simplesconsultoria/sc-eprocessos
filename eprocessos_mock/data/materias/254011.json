@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/254011",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-20",
+  "description": "PAVIMENTAÇÃO ASFÁLTICA - ESTRADA MUNICIPAL DAMASO MARTINS MARQUES / INÍCIO NA AVENIDA ALDO BORGES LEÃO ATÉ A ESCOLA MUNICIPAL MARIA REGINA  ARANTES LEMES - DISTRITO DE MIRAPORANGA - UBERLÂNDIA/MG ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/254011_texto_integral.pdf",
+      "filename": "254011_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "254011",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782485_tram.pdf",
+          "filename": "782485_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-01 12:08:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777470_tram.pdf",
+          "filename": "777470_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-30 10:17:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/774342_tram.pdf",
+          "filename": "774342_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-20 10:44:07",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 20/03/2026 10:36:08. Matéria incorporada em 20/03/2026 10:44:07 sob protocolo nº 11609/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/769483_tram.pdf",
+          "filename": "769483_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=254011",
+  "substitute": [],
+  "title": "Requerimento nº 20890/2026",
+  "voteResult": []
+}

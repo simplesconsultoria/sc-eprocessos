@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/251309",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/237857",
+      "@type": "Materia",
+      "annexationDate": "2026-03-04",
+      "description": "ALTERA A LEI ORDINÁRIA 13818/2022 QUE \"DISPÕE SOBRE O PLANO DE CARREIRA DOS AGENTES DE COMBATE ÀS ENDEMIAS DA ADMINISTRAÇÃO DIRETA DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.\" E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "237857",
+      "title": "Projeto de Lei Ordinária nº 809/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-04",
+  "description": "Requerimento - art. 172 - Apreciação, pelo plenário, de parecer contrário exarado no PL 809/2025 que \"ALTERA A LEI ORDINÁRIA 13818/2022\r\nQUE \"DISPÕE SOBRE O PLANO DE CARREIRA DOS AGENTES DE COMBATE ÀS ENDEMIAS DA ADMINISTRAÇÃO DIRETA DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.\" E DÁ OUTRAS PROVIDÊNCIAS.\"",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251309_texto_integral.pdf",
+      "filename": "251309_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251309",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-05 12:53:05",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762698_tram.pdf",
+          "filename": "762698_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-05 10:49:23",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762497_tram.pdf",
+          "filename": "762497_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-04 11:56:52",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762301_tram.pdf",
+          "filename": "762301_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-04 11:37:04",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/03/2026 09:31:26. Matéria incorporada em 04/03/2026 11:37:04 sob protocolo nº 8982/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761964_tram.pdf",
+          "filename": "761964_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251309",
+  "substitute": [],
+  "title": "Requerimento nº 20855/2026",
+  "voteResult": []
+}

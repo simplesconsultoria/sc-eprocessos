@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/250488",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Carrijo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-27",
+  "description": "Solicitação de vistoria na  Rua Ivaldete Cordeiro Pacheco, no trecho compreendido entre o antigo Posto Caiapó e a Rua José Pires Defensor, nos fundos do Condomínio Residencial Nova Taiaman 2,",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/250488_texto_integral.pdf",
+      "filename": "250488_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "250488",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760416_tram.pdf",
+          "filename": "760416_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756960_tram.pdf",
+          "filename": "756960_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 13:21:35",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/755289_tram.pdf",
+          "filename": "755289_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-27 13:05:42",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 27/02/2026 12:39:26. Matéria incorporada em 27/02/2026 13:05:42 sob protocolo nº 8211/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/755208_tram.pdf",
+          "filename": "755208_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=250488",
+  "substitute": [],
+  "title": "Requerimento nº 20846/2026",
+  "voteResult": []
+}

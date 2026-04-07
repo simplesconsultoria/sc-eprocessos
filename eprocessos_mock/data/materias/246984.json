@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246984",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Implantação e instalação de caçamba coletora de resíduos sólidos no Assentamento Pica Pau, destinada ao acondicionamento adequado do lixo domiciliar, promover a organização do descarte, prevenir a proliferação de vetores e doenças, melhorar as condições de saneamento básico, saúde pública e higiene local, bem como contribuir para a preservação ambiental e a qualidade de vida da população residente.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246984_texto_integral.pdf",
+      "filename": "246984_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246984",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:17:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743277_tram.pdf",
+          "filename": "743277_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743050_tram.pdf",
+          "filename": "743050_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742660_tram.pdf",
+          "filename": "742660_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:19:00",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 11:22:17. Matéria incorporada em 05/02/2026 13:19:00 sob protocolo nº 4823/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742259_tram.pdf",
+          "filename": "742259_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246984",
+  "substitute": [],
+  "title": "Requerimento nº 20738/2026",
+  "voteResult": []
+}

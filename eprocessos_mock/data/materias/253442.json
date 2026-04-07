@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/253442",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-19",
+  "description": "Solicitando à SECRETARIA MUNICIPAL DE AGRONEGÓCIO a realização de patrolamento de estradas vicinais - zona rural, udi 457/459, estrada do pau furado entrada da vila marielza para chácaras vitoria e saindo na estrada do pau furado.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/253442_texto_integral.pdf",
+      "filename": "253442_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "253442",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782481_tram.pdf",
+          "filename": "782481_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-01 12:08:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777466_tram.pdf",
+          "filename": "777466_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-30 10:17:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/774338_tram.pdf",
+          "filename": "774338_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-19 08:20:12",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 18/03/2026 16:07:13. Matéria incorporada em 19/03/2026 08:20:12 sob protocolo nº 11064/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/768913_tram.pdf",
+          "filename": "768913_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=253442",
+  "substitute": [],
+  "title": "Requerimento nº 20886/2026",
+  "voteResult": []
+}

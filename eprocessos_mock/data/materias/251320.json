@@ -1,0 +1,146 @@
+{
+  "@id": "/@@materias/251320",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Delegada Lia Valechi"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Gláucia da Saúde"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Neemias Miquéias"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Pezão Do Esporte"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Thais Andrade"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-04",
+  "description": "Solicita autorização para utilização do Plenário desta Casa Legislativa no dia 11 de março, no período das 13h00 às 17h00, para a realização de uma palestra, organizada pela Procuradoria Especial da Mulher, sobre prevenção do HPV e Medicina do Estilo de Vida.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251320_texto_integral.pdf",
+      "filename": "251320_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251320",
+  "inProgress": true,
+  "processing": [
+    {
+      "date": "2026-03-05 12:48:49",
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762697_tram.pdf",
+          "filename": "762697_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2026-03-05 10:49:23",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762503_tram.pdf",
+          "filename": "762503_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-04 12:02:05",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762310_tram.pdf",
+          "filename": "762310_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-04 12:01:26",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/03/2026 11:10:12. Matéria incorporada em 04/03/2026 12:01:26 sob protocolo nº 8993/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762309_tram.pdf",
+          "filename": "762309_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251320",
+  "substitute": [],
+  "title": "Requerimento nº 20861/2026",
+  "voteResult": []
+}

@@ -1,0 +1,69 @@
+{
+  "@id": "/@@materias/255916",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-07",
+  "description": " Avaliação Técnica e Intervenção em Vegetação em Conflito com Rede Elétrica na Rua Quintino Bocaiuva, nº 2979, bairro Lagoinha, conforme solicitação do Sr. Euripedes Gonzaga da Silva.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/255916_texto_integral.pdf",
+      "filename": "255916_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "255916",
+  "inProgress": true,
+  "processing": [
+    {
+      "date": "2026-04-07 13:15:12",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783629_tram.pdf",
+          "filename": "783629_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-07 13:02:24",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 07/04/2026 12:08:49. Matéria incorporada em 07/04/2026 13:02:24 sob protocolo nº 13509/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783385_tram.pdf",
+          "filename": "783385_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255916",
+  "substitute": [],
+  "title": "Requerimento nº 20931/2026",
+  "voteResult": []
+}

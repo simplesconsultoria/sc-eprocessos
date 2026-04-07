@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/246802",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/232698",
+      "@type": "Materia",
+      "annexationDate": "2026-02-04",
+      "description": "ALTERA OS §§ 2º E 3º DO ARTIGO 22 DA LEI Nº 8814, DE 30 DE AGOSTO DE 2004, QUE \"DISCIPLINA O PROCESSO ADMINISTRATIVO NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL\"",
+      "id": "232698",
+      "title": "Projeto de Lei Ordinária nº 671/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-04",
+  "description": "REQUER O ENVIO DOS PROJETO DE LEI ORDINÁRIA N° 671/2025 - ALTERA OS §§ 2º E 3º DO ARTIGO 22 DA LEI Nº 8814, DE 30 DE AGOSTO DE 2004, QUE \"DISCIPLINA O PROCESSO ADMINISTRATIVO NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL PARA APRECIAÇÃO DO PARECER CONTRÁRIO",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246802_texto_integral.pdf",
+      "filename": "246802_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246802",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-05 13:00:49",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742123_tram.pdf",
+          "filename": "742123_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-05 11:22:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742061_tram.pdf",
+          "filename": "742061_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-04 14:08:03",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/741882_tram.pdf",
+          "filename": "741882_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-04 13:36:09",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 11:19:55. Matéria incorporada em 04/02/2026 13:36:09 sob protocolo nº 4637/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/739010_tram.pdf",
+          "filename": "739010_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246802",
+  "substitute": [],
+  "title": "Requerimento nº 20725/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/251121",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-03",
+  "description": " a seguinte solicitação de providências em relação ao IPTU",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251121_texto_integral.pdf",
+      "filename": "251121_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251121",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-04 11:44:30",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762126_tram.pdf",
+          "filename": "762126_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-04 11:06:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761916_tram.pdf",
+          "filename": "761916_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-03 13:32:34",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761614_tram.pdf",
+          "filename": "761614_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-03 12:37:21",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 03/03/2026 12:14:56. Matéria incorporada em 03/03/2026 12:37:21 sob protocolo nº 8793/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/761040_tram.pdf",
+          "filename": "761040_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251121",
+  "substitute": [],
+  "title": "Requerimento nº 20854/2026",
+  "voteResult": []
+}

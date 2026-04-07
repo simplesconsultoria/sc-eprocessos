@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/245378",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-28",
+  "description": "QUE SEJA CONCEDIDO O NOME DE \"RENATO SOUSA MARTINS\" A UMA RUA OU LOGRADOURO",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/245378_texto_integral.pdf",
+      "filename": "245378_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "245378",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:24:25",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733808_tram.pdf",
+          "filename": "733808_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728814_tram.pdf",
+          "filename": "728814_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:50:32",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721807_tram.pdf",
+          "filename": "721807_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-28 08:19:49",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 27/01/2026 16:12:49. Matéria incorporada em 28/01/2026 08:19:49 sob protocolo nº 3519/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/716794_tram.pdf",
+          "filename": "716794_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=245378",
+  "substitute": [],
+  "title": "Requerimento nº 20700/2026",
+  "voteResult": []
+}

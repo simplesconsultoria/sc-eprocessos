@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/246973",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/236992",
+      "@type": "Materia",
+      "annexationDate": "2026-02-05",
+      "description": "INSTITUI O PROGRAMA TURISMO PEDAGÓGICO NA REDE PÚBLICA MUNICIPAL DE ENSINO E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "236992",
+      "title": "Projeto de Lei Ordinária nº 785/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Anderson Lima"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Jair Ferraz"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "Encaminhamento ao Plenário do Parecer Contrário emitido pela CLJR ao Projeto de Lei Ordinária nº 785/2025 - INSTITUI O PROGRAMA TURISMO PEDAGÓGICO NA REDE PÚBLICA MUNICIPAL DE ENSINO E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246973_texto_integral.pdf",
+      "filename": "246973_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246973",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:09:55",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743079_tram.pdf",
+          "filename": "743079_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743042_tram.pdf",
+          "filename": "743042_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742652_tram.pdf",
+          "filename": "742652_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:07:56",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 16:48:10. Matéria incorporada em 05/02/2026 13:07:56 sob protocolo nº 4812/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742246_tram.pdf",
+          "filename": "742246_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246973",
+  "substitute": [],
+  "title": "Requerimento nº 20730/2026",
+  "voteResult": []
+}

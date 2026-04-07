@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247896",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-10",
+  "description": "A Paróquia São José, localizada na Rua Polidoro de Freitas Rodrigues, nº 736, Bairro Vigilato Pereira, Uberlândia/MG, CEP 38408-600, vem, respeitosamente, por meio deste, requerer providências quanto à organização do estacionamento de veículos nas imediações da igreja, especialmente nos horários de celebrações religiosas.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247896_texto_integral.pdf",
+      "filename": "247896_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247896",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-11 13:33:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747097_tram.pdf",
+          "filename": "747097_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-11 12:09:05",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746406_tram.pdf",
+          "filename": "746406_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-10 14:41:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746159_tram.pdf",
+          "filename": "746159_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-10 14:16:42",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 09/02/2026 15:09:16. Matéria incorporada em 10/02/2026 14:16:42 sob protocolo nº 5717/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745897_tram.pdf",
+          "filename": "745897_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247896",
+  "substitute": [],
+  "title": "Requerimento nº 20782/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247317",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-06",
+  "description": "INDICATIVO DE PROJETO DE LEI QUE \"DISPÕE SOBRE O RESTABELECIMENTO DA CONTAGEM DE TEMPO E PAGAMENTO DE BENEFÍCIOS AOS SERVIDORES MUNICIPAIS (LC 226/2026), ESTABELECE A INCLUSÃO DOS PROFISSIONAIS DA EDUCAÇÃO INFANTIL NO CONCEITO DE MAGISTÉRIO PARA FINS DE PISO SALARIAL, E DÁ OUTRAS PROVIDÊNCIAS\".",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247317_texto_integral.pdf",
+      "filename": "247317_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247317",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-09 12:53:36",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744284_tram.pdf",
+          "filename": "744284_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-09 12:02:12",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744003_tram.pdf",
+          "filename": "744003_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-06 14:54:16",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743701_tram.pdf",
+          "filename": "743701_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-06 14:39:31",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 14:03:07. Matéria incorporada em 06/02/2026 14:39:31 sob protocolo nº 5145/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743428_tram.pdf",
+          "filename": "743428_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247317",
+  "substitute": [],
+  "title": "Requerimento nº 20761/2026",
+  "voteResult": []
+}

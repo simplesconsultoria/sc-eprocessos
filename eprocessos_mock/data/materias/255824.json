@@ -1,0 +1,69 @@
+{
+  "@id": "/@@materias/255824",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-07",
+  "description": "Requer ao Poder Executivo a alteração do Decreto 8.701/2002, que \"INSTITUI O SERVIÇO DE TRANSPORTE ACESSÍVEL PORTA-A-PORTA DESTINADO A ATENDER PESSOAS PORTADORAS DE DEFICIÊNCIA, E DÁ OUTRAS PROVIDÊNCIAS\" para instituir diretrizes de transporte escolar acessível e seguro a estudantes com deficiência, com entrega assistida na unidade escolar. \r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/255824_texto_integral.pdf",
+      "filename": "255824_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "255824",
+  "inProgress": true,
+  "processing": [
+    {
+      "date": "2026-04-07 13:15:12",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783626_tram.pdf",
+          "filename": "783626_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-07 10:07:31",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 07/04/2026 09:12:09. Matéria incorporada em 07/04/2026 10:07:31 sob protocolo nº 13417/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/783040_tram.pdf",
+          "filename": "783040_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255824",
+  "substitute": [],
+  "title": "Requerimento nº 20928/2026",
+  "voteResult": []
+}

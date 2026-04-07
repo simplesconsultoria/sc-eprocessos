@@ -1,0 +1,125 @@
+{
+  "@id": "/@@materias/251316",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/238753",
+      "@type": "Materia",
+      "annexationDate": "2026-03-04",
+      "description": "AUTORIZA A UTILIZAÇÃO DE ÁREAS PÚBLICAS MUNICIPAIS PARA O CULTIVO DE HORTAS POR PARTICULARES, MEDIANTE A DOAÇÃO DE 20% (VINTE POR CENTO) DA PRODUÇÃO PARA ESCOLAS PÚBLICAS MUNICIPAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "238753",
+      "title": "Projeto de Lei Ordinária nº 813/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Carrijo"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-04",
+  "description": "REQUER O ENVIO DOS PROJETO DE Nº 813/2025, que Fica acrescido o § 4º ao artigo 3º da Lei nº 12.815, DE 16 DE OUTUBRO DE 2017, DISPÕE ACERCA DA AUTORIZAÇÃO DE USO DE ÁREAS PÚBLICAS MUNICIPAIS OCIOSAS, REVOGA A LEI Nº 7953, DE 06 DE MARÇO DE 2002 E DÁ OUTRAS PROVIDÊNCIAS",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251316_texto_integral.pdf",
+      "filename": "251316_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251316",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-05 12:53:05",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762702_tram.pdf",
+          "filename": "762702_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-05 10:49:23",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762502_tram.pdf",
+          "filename": "762502_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-04 11:56:52",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762306_tram.pdf",
+          "filename": "762306_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-04 11:44:58",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/03/2026 11:15:54. Matéria incorporada em 04/03/2026 11:44:58 sob protocolo nº 8989/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/762128_tram.pdf",
+          "filename": "762128_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251316",
+  "substitute": [],
+  "title": "Requerimento nº 20860/2026",
+  "voteResult": []
+}

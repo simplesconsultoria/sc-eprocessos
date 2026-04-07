@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/253443",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Anderson Lima"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-19",
+  "description": "Emissão de Certidão a respeito de logradouro público sem denominação, com o respectivo endereço, a fim de instruir Projeto de Lei para instituir nova denominação ao logradouro público em homenagem ao Sr. FRANCISCO NASCIMENTO DA SILVA, nos termos da Lei nº 5.626, de 13 de agosto de 1992",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/253443_texto_integral.pdf",
+      "filename": "253443_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "253443",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782482_tram.pdf",
+          "filename": "782482_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-01 12:08:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777467_tram.pdf",
+          "filename": "777467_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-30 10:17:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/774339_tram.pdf",
+          "filename": "774339_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-19 08:20:58",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 18/03/2026 17:33:37. Matéria incorporada em 19/03/2026 08:20:58 sob protocolo nº 11065/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/768914_tram.pdf",
+          "filename": "768914_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=253443",
+  "substitute": [],
+  "title": "Requerimento nº 20887/2026",
+  "voteResult": []
+}

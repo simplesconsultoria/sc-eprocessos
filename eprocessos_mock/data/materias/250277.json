@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/250277",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-26",
+  "description": "Solicitação de revisão da mudança de atendimento dos moradores do Bairro Alvorada para a UBS do Bairro Pampulha",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/250277_texto_integral.pdf",
+      "filename": "250277_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "250277",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760413_tram.pdf",
+          "filename": "760413_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756892_tram.pdf",
+          "filename": "756892_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 08:56:48",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/755001_tram.pdf",
+          "filename": "755001_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-26 12:27:49",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 26/02/2026 12:06:17. Matéria incorporada em 26/02/2026 12:27:49 sob protocolo nº 8001/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/753447_tram.pdf",
+          "filename": "753447_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=250277",
+  "substitute": [],
+  "title": "Requerimento nº 20842/2026",
+  "voteResult": []
+}

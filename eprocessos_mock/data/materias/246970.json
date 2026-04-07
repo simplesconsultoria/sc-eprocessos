@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/246970",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Gláucia da Saúde"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "a possibilidade da padronização de Escalas de Trabalho  entre profissionais concursados e terceirizados da àrea da saúde, visto que o gestor da Saúde tem autonomia para organizar o trabalho sem prejuízo da população; que os funcionarios terceirizados SPDM e Missão  Sal da Terra possam usufruir de revezamentos e ou  folga no Natal, Ano Novo e Carnaval a priori.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/246970_texto_integral.pdf",
+      "filename": "246970_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "246970",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:17:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743270_tram.pdf",
+          "filename": "743270_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743039_tram.pdf",
+          "filename": "743039_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742649_tram.pdf",
+          "filename": "742649_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:02:25",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 15:10:12. Matéria incorporada em 05/02/2026 13:02:25 sob protocolo nº 4809/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742241_tram.pdf",
+          "filename": "742241_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246970",
+  "substitute": [],
+  "title": "Requerimento nº 20727/2026",
+  "voteResult": []
+}

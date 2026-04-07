@@ -4,11 +4,41 @@
   "description": "Lista de reuniões plenárias",
   "items": [
     {
+      "@id": "/@@sessoes/id/1677",
+      "@id_presenca": "/@@sessoes/id/1677/presenca",
+      "@id_votacao": "/@@sessoes/id/1677/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [],
+      "date": "2026-04-08",
+      "description": "08/04/2026 09:00",
+      "endTime": "",
+      "id": "1677",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/pauta_sessao/1677_pauta_sessao.pdf",
+          "filename": "1677_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "4ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
       "@id": "/@@sessoes/id/1676",
       "@id_presenca": "/@@sessoes/id/1676/presenca",
       "@id_votacao": "/@@sessoes/id/1676/votacao",
       "@type": "SessaoPlenaria",
-      "ata": [],
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1676_ata_sessao.pdf",
+          "filename": "1676_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
       "date": "2026-04-07",
       "description": "07/04/2026 09:00",
       "endTime": "",

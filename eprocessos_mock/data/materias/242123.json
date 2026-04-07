@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/242123",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "requer certidão de denominação logradouro/próprio público em homenagem a Vithor Ferreira Gonçalves Rios",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/242123_texto_integral.pdf",
+      "filename": "242123_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "242123",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:24:25",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733793_tram.pdf",
+          "filename": "733793_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728806_tram.pdf",
+          "filename": "728806_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:47:47",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721796_tram.pdf",
+          "filename": "721796_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 10:47:50",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 16/12/2025 11:03:57. Matéria incorporada em 26/01/2026 10:47:50 sob protocolo nº 264/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/713537_tram.pdf",
+          "filename": "713537_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=242123",
+  "substitute": [],
+  "title": "Requerimento nº 20657/2026",
+  "voteResult": []
+}

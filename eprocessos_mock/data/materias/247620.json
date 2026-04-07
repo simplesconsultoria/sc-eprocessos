@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247620",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": "Solicitação de reparos e manutenção nos veículos das linhas T131 e T147 e demais ônibus em condições similares.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247620_texto_integral.pdf",
+      "filename": "247620_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247620",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745666_tram.pdf",
+          "filename": "745666_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745313_tram.pdf",
+          "filename": "745313_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744964_tram.pdf",
+          "filename": "744964_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 14:20:54",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 08/02/2026 20:33:34. Matéria incorporada em 09/02/2026 14:20:54 sob protocolo nº 5444/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744574_tram.pdf",
+          "filename": "744574_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247620",
+  "substitute": [],
+  "title": "Requerimento nº 20769/2026",
+  "voteResult": []
+}

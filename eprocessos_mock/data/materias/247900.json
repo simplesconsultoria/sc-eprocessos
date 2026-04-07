@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/247900",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-10",
+  "description": "Requerimento de pagamento de benefícios funcionais congelados no período da pandemia – Administração Pública Direta e Indireta – LC nº 226/2026",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247900_texto_integral.pdf",
+      "filename": "247900_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247900",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-11 13:33:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/747101_tram.pdf",
+          "filename": "747101_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-11 12:09:06",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746410_tram.pdf",
+          "filename": "746410_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-10 14:41:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/746163_tram.pdf",
+          "filename": "746163_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-10 14:17:53",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 10/02/2026 11:14:48. Matéria incorporada em 10/02/2026 14:17:53 sob protocolo nº 5721/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745901_tram.pdf",
+          "filename": "745901_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247900",
+  "substitute": [],
+  "title": "Requerimento nº 20786/2026",
+  "voteResult": []
+}

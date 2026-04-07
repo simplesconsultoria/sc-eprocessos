@@ -1,0 +1,113 @@
+{
+  "@id": "/@@materias/249198",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/240587",
+      "@type": "Materia",
+      "annexationDate": "2026-02-19",
+      "description": "INSTITUI SANÇÕES ADMINISTRATIVAS ÀS PESSOAS FLAGRADAS PORTANDO OU CONSUMINDO DROGAS ILÍCITAS EM AMBIENTE PÚBLICO NO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "240587",
+      "title": "Projeto de Lei Ordinária nº 846/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Anderson Lima"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-19",
+  "description": "Encaminhamento ao Plenário do Parecer Contrário emitido pela CLJR ao Projeto de Lei Ordinária nº 846/2025 - INSTITUI SANÇÕES ADMINISTRATIVAS ÀS PESSOAS FLAGRADAS PORTANDO OU CONSUMINDO DROGAS ILÍCITAS EM AMBIENTE PÚBLICO NO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS, nos termos do art. 172 do Regimento Interno desta Casa.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/249198_texto_integral.pdf",
+      "filename": "249198_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "249198",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 12:24:47",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756867_tram.pdf",
+          "filename": "756867_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 08:56:48",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/754976_tram.pdf",
+          "filename": "754976_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-19 11:26:25",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 13/02/2026 10:14:57. Matéria incorporada em 19/02/2026 11:26:25 sob protocolo nº 6924/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/752292_tram.pdf",
+          "filename": "752292_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=249198",
+  "substitute": [],
+  "title": "Requerimento nº 20817/2026",
+  "voteResult": []
+}

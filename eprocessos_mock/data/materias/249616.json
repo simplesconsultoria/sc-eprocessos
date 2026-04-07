@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/249616",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-23",
+  "description": "Solicitamos que seja realizada vistoria técnica pela Defesa Civil na residência localizada na Rua Aristides Fernandes Morais, Nº12  Bairro Alvorada, Uberlândia/MG, CEP 38407-114.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/249616_texto_integral.pdf",
+      "filename": "249616_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "249616",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760406_tram.pdf",
+          "filename": "760406_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756884_tram.pdf",
+          "filename": "756884_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 08:56:48",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/754993_tram.pdf",
+          "filename": "754993_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-23 12:29:41",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 23/02/2026 12:07:07. Matéria incorporada em 23/02/2026 12:29:41 sob protocolo nº 7342/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/752756_tram.pdf",
+          "filename": "752756_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=249616",
+  "substitute": [],
+  "title": "Requerimento nº 20834/2026",
+  "voteResult": []
+}

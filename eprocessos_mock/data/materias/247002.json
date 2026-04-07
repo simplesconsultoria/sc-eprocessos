@@ -1,0 +1,135 @@
+{
+  "@id": "/@@materias/247002",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/237393",
+      "@type": "Materia",
+      "annexationDate": "2026-02-05",
+      "description": "DISPÕE SOBRE A UTILIZAÇÃO DE VAGAS DE ESTACIONAMENTO ROTATIVO PARA ATENDER EMERGÊNCIAS EM CLÍNICAS E HOSPITAIS VETERINÁRIOS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "237393",
+      "title": "Projeto de Lei Ordinária nº 795/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Anderson Lima"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-05",
+  "description": "REQUER O ENVIO DOS PROJETO DE LEI ORDINÁRIA N° 795/2025, QUE DISPÕE SOBRE A UTILIZAÇÃO DE VAGAS DE ESTACIONAMENTO ROTATIVO PARA ATENDER EMERGÊNCIAS EM CLÍNICAS E HOSPITAIS VETERINÁRIOS E DÁ OUTRAS PROVIDÊNCIAS PARA APRECIAÇÃO DO PARECER CONTRÁRIO",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247002_texto_integral.pdf",
+      "filename": "247002_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247002",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-06 13:09:55",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743081_tram.pdf",
+          "filename": "743081_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-06 12:31:22",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/743056_tram.pdf",
+          "filename": "743056_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-05 14:07:10",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742666_tram.pdf",
+          "filename": "742666_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-05 13:30:36",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 05/02/2026 10:19:13. Matéria incorporada em 05/02/2026 13:30:36 sob protocolo nº 4841/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/742277_tram.pdf",
+          "filename": "742277_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247002",
+  "substitute": [],
+  "title": "Requerimento nº 20744/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/251694",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-06",
+  "description": "Solicita a realização de serviços de limpeza e retirada de lixo na entrada do Bairro Douradinho, com o objetivo de eliminar o acúmulo de resíduos no local, melhorar as condições de higiene e garantir mais limpeza, organização e bem-estar para os moradores e pessoas que transitam pela região.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251694_texto_integral.pdf",
+      "filename": "251694_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251694",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-09 12:46:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764415_tram.pdf",
+          "filename": "764415_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-09 10:55:25",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764065_tram.pdf",
+          "filename": "764065_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-06 13:52:30",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763890_tram.pdf",
+          "filename": "763890_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-06 13:09:51",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/03/2026 13:05:16. Matéria incorporada em 06/03/2026 13:09:51 sob protocolo nº 9367/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763709_tram.pdf",
+          "filename": "763709_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251694",
+  "substitute": [],
+  "title": "Requerimento nº 20869/2026",
+  "voteResult": []
+}

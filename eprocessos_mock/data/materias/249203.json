@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/249203",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-19",
+  "description": "De acordo com as disposições regimentais, requer-se o encaminhamento de expediente à Secretaria Municipal de Educação, solicitando a adoção de providências técnicas e administrativas para a execução de serviços contínuos de manutenção preventiva e corretiva de pequeno porte em todas as unidades da rede municipal de ensino.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/249203_texto_integral.pdf",
+      "filename": "249203_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "249203",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760396_tram.pdf",
+          "filename": "760396_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756870_tram.pdf",
+          "filename": "756870_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 08:56:48",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/754979_tram.pdf",
+          "filename": "754979_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-19 11:31:32",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 13/02/2026 14:17:04. Matéria incorporada em 19/02/2026 11:31:32 sob protocolo nº 6929/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/752298_tram.pdf",
+          "filename": "752298_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=249203",
+  "substitute": [],
+  "title": "Requerimento nº 20820/2026",
+  "voteResult": []
+}

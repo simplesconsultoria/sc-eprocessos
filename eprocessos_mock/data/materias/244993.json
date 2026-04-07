@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/244993",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-26",
+  "description": "O Vereador que esta subscreve, no uso de suas atribuições legais e regimentais, com fundamento no Regimento Interno desta Casa, INDICA ao Poder Executivo Municipal que seja encaminhada à Companhia Energética de Minas Gerais – CEMIG solicitação de providências urgentes quanto às frequentes interrupções no fornecimento de energia elétrica na Rua João Justino Fernandes, localizada no Bairro Presidente Roosevelt, neste município.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/244993_texto_integral.pdf",
+      "filename": "244993_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "244993",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-02 18:15:10",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/733784_tram.pdf",
+          "filename": "733784_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-02 14:54:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/728810_tram.pdf",
+          "filename": "728810_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-01-28 09:47:47",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/721800_tram.pdf",
+          "filename": "721800_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-01-26 11:15:15",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 18/12/2025 10:22:10. Matéria incorporada em 26/01/2026 11:15:15 sob protocolo nº 3134/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/716407_tram.pdf",
+          "filename": "716407_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=244993",
+  "substitute": [],
+  "title": "Requerimento nº 20661/2026",
+  "voteResult": []
+}

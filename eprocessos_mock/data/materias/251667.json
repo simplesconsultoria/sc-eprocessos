@@ -1,0 +1,146 @@
+{
+  "@id": "/@@materias/251667",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ângela Do Postinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Augusto Queijinho"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Gláucia da Saúde"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Nei Borges"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Pezão Do Esporte"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sargento Ednaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-06",
+  "description": "para entrega de homenagens a ser realizada no dia 30 de Março de 2026 das 19:00 h as 21:30 h, com uso da estrutura de som e sem apoio da TV Câmara.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251667_texto_integral.pdf",
+      "filename": "251667_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251667",
+  "inProgress": true,
+  "processing": [
+    {
+      "date": "2026-03-09 12:40:45",
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764258_tram.pdf",
+          "filename": "764258_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2026-03-09 10:55:25",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764061_tram.pdf",
+          "filename": "764061_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-06 13:52:30",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763886_tram.pdf",
+          "filename": "763886_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-06 11:57:47",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/03/2026 10:52:11. Matéria incorporada em 06/03/2026 11:57:47 sob protocolo nº 9340/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763468_tram.pdf",
+          "filename": "763468_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251667",
+  "substitute": [],
+  "title": "Requerimento nº 20865/2026",
+  "voteResult": []
+}

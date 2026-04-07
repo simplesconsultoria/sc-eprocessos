@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/249399",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-20",
+  "description": "que seja encaminhado para a Câmara Municipal para ser objeto de deliberação, discussão e votação projeto de lei que versa sobre a recomposição do salário e do valor do ticket alimentação dos servidores municipais",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/249399_texto_integral.pdf",
+      "filename": "249399_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "249399",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-02 14:00:48",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/760403_tram.pdf",
+          "filename": "760403_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-02 11:51:59",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/756880_tram.pdf",
+          "filename": "756880_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-27 08:56:48",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/754989_tram.pdf",
+          "filename": "754989_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-20 12:46:24",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 20/02/2026 12:18:33. Matéria incorporada em 20/02/2026 12:46:24 sob protocolo nº 7125/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/752539_tram.pdf",
+          "filename": "752539_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=249399",
+  "substitute": [],
+  "title": "Requerimento nº 20830/2026",
+  "voteResult": []
+}

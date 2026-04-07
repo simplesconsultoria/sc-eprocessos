@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/248765",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/239674",
+      "@type": "Materia",
+      "annexationDate": "2026-02-13",
+      "description": "DISPÕE SOBRE A PRIORIDADE DA UTILIZAÇÃO DE MEIOS DIGITAIS E SIMPLIFICAÇÃO DE PROCEDIMENTOS NA PRESTAÇÃO DE SERVIÇOS PÚBLICOS MUNICIPAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "239674",
+      "title": "Projeto de Lei Ordinária nº 822/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-13",
+  "description": "Requer análise de Parecer Contrário ao PL 822/2025 em Plenário desta Casa.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/248765_texto_integral.pdf",
+      "filename": "248765_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "248765",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-13 12:54:41",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751339_tram.pdf",
+          "filename": "751339_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-13 12:25:46",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/751321_tram.pdf",
+          "filename": "751321_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-13 09:15:20",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/749193_tram.pdf",
+          "filename": "749193_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-13 09:10:57",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 12/02/2026 13:27:24. Matéria incorporada em 13/02/2026 09:10:57 sob protocolo nº 6494/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/748983_tram.pdf",
+          "filename": "748983_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=248765",
+  "substitute": [],
+  "title": "Requerimento nº 20810/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/254901",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-27",
+  "description": "Indicativo de Projeto de Lei que \"Dispõe sobre a implantação de faixa de retenção e recuo exclusiva para motocicletas nos semáforos do Município de Uberlândia\".",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/254901_texto_integral.pdf",
+      "filename": "254901_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "254901",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:11",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782494_tram.pdf",
+          "filename": "782494_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-01 12:08:34",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777479_tram.pdf",
+          "filename": "777479_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-30 10:17:54",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/774351_tram.pdf",
+          "filename": "774351_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-27 08:37:10",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 26/03/2026 18:00:20. Matéria incorporada em 27/03/2026 08:37:10 sob protocolo nº 12499/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/770398_tram.pdf",
+          "filename": "770398_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=254901",
+  "substitute": [],
+  "title": "Requerimento nº 20899/2026",
+  "voteResult": []
+}

@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/255447",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-01",
+  "description": "PATROLAMENTO ESTRADA VISCINAL - RODOVIA BR-497 - ENTRADA KM12 E ENTRADA KM14, FAZENDA NOSSA SENHORA ABADIA, ZONA RURAL, UBERLÂNDIA\r\n- MG",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/255447_texto_integral.pdf",
+      "filename": "255447_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "255447",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-04-06 17:41:12",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/782674_tram.pdf",
+          "filename": "782674_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-06 11:37:26",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/779476_tram.pdf",
+          "filename": "779476_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-01 13:19:16",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777808_tram.pdf",
+          "filename": "777808_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-01 13:15:33",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 01/04/2026 10:11:58. Matéria incorporada em 01/04/2026 13:15:33 sob protocolo nº 13040/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/777661_tram.pdf",
+          "filename": "777661_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255447",
+  "substitute": [],
+  "title": "Requerimento nº 20925/2026",
+  "voteResult": []
+}

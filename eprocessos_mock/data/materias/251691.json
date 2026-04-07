@@ -1,0 +1,101 @@
+{
+  "@id": "/@@materias/251691",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-03-06",
+  "description": "Solicita a realização de Patrolamento e nivelamento das vias no Assentamento Renovação, com o objetivo de melhorar as condições de tráfego, garantir mais segurança aos moradores e facilitar o acesso de veículos, transporte escolar e serviços essenciais, especialmente em períodos chuvosos, quando a situação das estradas se agrava.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/251691_texto_integral.pdf",
+      "filename": "251691_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "251691",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-03-09 12:46:53",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764412_tram.pdf",
+          "filename": "764412_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-03-09 10:55:25",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/764062_tram.pdf",
+          "filename": "764062_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-03-06 13:52:30",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763887_tram.pdf",
+          "filename": "763887_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-03-06 13:09:50",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/03/2026 13:01:47. Matéria incorporada em 06/03/2026 13:09:50 sob protocolo nº 9364/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/763706_tram.pdf",
+          "filename": "763706_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251691",
+  "substitute": [],
+  "title": "Requerimento nº 20866/2026",
+  "voteResult": []
+}

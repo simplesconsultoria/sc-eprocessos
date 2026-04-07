@@ -1,0 +1,120 @@
+{
+  "@id": "/@@materias/247657",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/240920",
+      "@type": "Materia",
+      "annexationDate": "2026-02-09",
+      "description": "DISPÕE SOBRE A ISENÇÃO DE PAGAMENTO DE TARIFA NAS LINHAS DE TRANSPORTE COLETIVO DE ÔNIBUS E METRÔ ÀS MULHERES EM SITUAÇÃO DE VIOLÊNCIA E A SEUS DEPENDENTES, NO MUNICÍPIO DE UBERLÂNDIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "240920",
+      "title": "Projeto de Lei Ordinária nº 856/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-02-09",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 856/2025 - DISPÕE SOBRE A ISENÇÃO DE PAGAMENTO DE TARIFA NAS LINHAS DE TRANSPORTE COLETIVO DE ÔNIBUS E METRÔ ÀS MULHERES EM SITUAÇÃO DE VIOLÊNCIA E A SEUS DEPENDENTES, NO MUNICÍPIO DE UBERLÂNDIA, E DÁ OUTRAS PROVIDÊNCIAS, seja apreciado pelo plenário.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/materia/247657_texto_integral.pdf",
+      "filename": "247657_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "247657",
+  "inProgress": false,
+  "processing": [
+    {
+      "date": "2026-02-10 13:52:54",
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745675_tram.pdf",
+          "filename": "745675_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-02-10 12:30:27",
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/745322_tram.pdf",
+          "filename": "745322_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-02-09 15:01:38",
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744973_tram.pdf",
+          "filename": "744973_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-02-09 14:49:13",
+      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 11:15:39. Matéria incorporada em 09/02/2026 14:49:13 sob protocolo nº 5481/2026&lt;/p&gt;",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/materia/tramitacao/744619_tram.pdf",
+          "filename": "744619_tram.pdf",
+          "size": ""
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247657",
+  "substitute": [],
+  "title": "Requerimento nº 20778/2026",
+  "voteResult": []
+}
