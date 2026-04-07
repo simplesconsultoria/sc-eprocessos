@@ -1,0 +1,138 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "1b58d182-4811-45ed-b40f-7390bbf02530": {
+      "@type": "gridBlock",
+      "blocks": {
+        "65bea585-23d3-42ba-8ff5-e70cb5c3b555": {
+          "@type": "teaser",
+          "description": "Vereadores da casa",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/b0bb949c5135446c8c3dd643aeba4653",
+              "@type": "Vereadores",
+              "Description": "Vereadores da casa",
+              "Subject": [],
+              "Title": "Vereadores",
+              "description": "Vereadores da casa",
+              "effective": "2026-04-07T12:21:01+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Vereadores",
+              "type_title": "Vereadores"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Vereadores"
+        },
+        "7dc07a24-9da2-453b-a16f-c558f5451b4d": {
+          "@type": "teaser",
+          "description": "Atividade legislativa",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/a84d6c3e8e504d6f98d0e1a35f7ae24e",
+              "@type": "Document",
+              "Description": "Atividade legislativa",
+              "Subject": [],
+              "Title": "Atividade Legislativa",
+              "description": "Atividade legislativa",
+              "effective": "2026-04-07T12:21:01+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Atividade Legislativa",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Atividade Legislativa"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "65bea585-23d3-42ba-8ff5-e70cb5c3b555",
+          "7dc07a24-9da2-453b-a16f-c558f5451b4d"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "42a5ca1b-d1c6-446e-88f7-34c1d02e186a": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--narrow-container-width)"
+        }
+      },
+      "theme": "default",
+      "url": "resolveuid/6480b873fe4b4910a173e1c9fdbfb242"
+    },
+    "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5f31e9e4-173f-4ec1-ab48-64e9e2789b76",
+      "42a5ca1b-d1c6-446e-88f7-34c1d02e186a",
+      "1b58d182-4811-45ed-b40f-7390bbf02530"
+    ]
+  },
+  "contributors": [],
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 3,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "e-Processos",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

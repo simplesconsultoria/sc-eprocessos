@@ -1,0 +1,1011 @@
+{
+  "@id": "/@@legislaturas/19",
+  "@type": "Legislatura",
+  "data_eleicao": "2020-11-15",
+  "description": "01/01/2021 a 31/12/2024",
+  "end": "2024-12-31",
+  "id": "19",
+  "items": [
+    {
+      "@id": "/@@vereadores/546914",
+      "@type": "Vereador",
+      "cod_autor": "546914",
+      "description": "Abatenio de Andrade Marquez Neto",
+      "id": "546914",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar",
+          "filename": "546914_foto_parlamentar",
+          "height": 350,
+          "size": 221654,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Abatenio Marquez",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar",
+      "votos": "2137"
+    },
+    {
+      "@id": "/@@vereadores/537429",
+      "@type": "Vereador",
+      "cod_autor": "537429",
+      "description": "Adriana Alves Ribeiro",
+      "id": "537429",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537429_foto_parlamentar",
+          "filename": "537429_foto_parlamentar",
+          "height": 350,
+          "size": 173337,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PATRIOTA",
+          "token": "PATRIOTA"
+        }
+      ],
+      "title": "Drika Protetora (in memorian)",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537429_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537428",
+      "@type": "Vereador",
+      "cod_autor": "537428",
+      "description": "Amanda Gondim",
+      "id": "537428",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "filename": "537428_foto_parlamentar",
+          "height": 350,
+          "size": 193355,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Amanda Gondim",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537427",
+      "@type": "Vereador",
+      "cod_autor": "537427",
+      "description": "Anderson Lima",
+      "id": "537427",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar",
+          "filename": "537427_foto_parlamentar",
+          "height": 350,
+          "size": 200492,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Anderson Lima",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537380",
+      "@type": "Vereador",
+      "cod_autor": "537380",
+      "description": "Antônio Augusto Gonçalves Goulart",
+      "id": "537380",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar",
+          "filename": "537380_foto_parlamentar",
+          "height": 350,
+          "size": 212525,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Antônio Augusto Queijinho",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/399041",
+      "@type": "Vereador",
+      "cod_autor": "399041",
+      "description": "Antônio Carrijo",
+      "id": "399041",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+          "filename": "399041_foto_parlamentar",
+          "height": 350,
+          "size": 205422,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Antônio Carrijo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/556175",
+      "@type": "Vereador",
+      "cod_autor": "556180",
+      "description": "Antonio Venancio Ferreira Neto",
+      "id": "556175",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556175_foto_parlamentar",
+          "filename": "556175_foto_parlamentar",
+          "height": 350,
+          "size": 215797,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "REDE SUSTENTABILIDADE",
+          "token": "REDE"
+        }
+      ],
+      "title": "Toninho da Medicina",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556175_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/527863",
+      "@type": "Vereador",
+      "cod_autor": "527863",
+      "description": "Charlie Manzi Fernandes",
+      "id": "527863",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/527863_foto_parlamentar",
+          "filename": "527863_foto_parlamentar",
+          "height": 350,
+          "size": 149184,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Charles Charlão",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/527863_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537426",
+      "@type": "Vereador",
+      "cod_autor": "537426",
+      "description": "Cláudia Guerra",
+      "id": "537426",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537426_foto_parlamentar",
+          "filename": "537426_foto_parlamentar",
+          "height": 350,
+          "size": 175463,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+          "token": "PDT"
+        }
+      ],
+      "title": "Cláudia Guerra",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537426_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/538494",
+      "@type": "Vereador",
+      "cod_autor": "538494",
+      "description": "Cristiano Caporezzo",
+      "id": "538494",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/538494_foto_parlamentar",
+          "filename": "538494_foto_parlamentar",
+          "height": 350,
+          "size": 146347,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Cristiano Caporezzo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/538494_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537425",
+      "@type": "Vereador",
+      "cod_autor": "537425",
+      "description": "Dandara Tonantzin Silva Castro",
+      "id": "537425",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537425_foto_parlamentar",
+          "filename": "537425_foto_parlamentar",
+          "height": 350,
+          "size": 163868,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Dandara",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537425_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/526697",
+      "@type": "Vereador",
+      "cod_autor": "526697",
+      "description": "Ednaldo Régio de Lima",
+      "id": "526697",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "filename": "526697_foto_parlamentar",
+          "height": 350,
+          "size": 223533,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sargento Ednaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/527981",
+      "@type": "Vereador",
+      "cod_autor": "527981",
+      "description": "Eduardo Moraes",
+      "id": "527981",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
+          "filename": "527981_foto_parlamentar",
+          "height": 350,
+          "size": 136492,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "REPUBLICANOS",
+          "token": "REPUBLICANOS"
+        }
+      ],
+      "title": "Eduardo Moraes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537431",
+      "@type": "Vereador",
+      "cod_autor": "537431",
+      "description": "Fabio Dias Queiroz Zavitoski",
+      "id": "537431",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar",
+          "filename": "537431_foto_parlamentar",
+          "height": 350,
+          "size": 225601,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO VERDE",
+          "token": "PV"
+        }
+      ],
+      "title": "Fabão",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/552093",
+      "@type": "Vereador",
+      "cod_autor": "552093",
+      "description": "Gilberto Rezende Sobrinho",
+      "id": "552093",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/552093_foto_parlamentar",
+          "filename": "552093_foto_parlamentar",
+          "height": 350,
+          "size": 165303,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+          "token": "MDB"
+        }
+      ],
+      "title": "Gilberto Rezende",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/552093_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537432",
+      "@type": "Vereador",
+      "cod_autor": "537432",
+      "description": "Gilvan de Melo Machado",
+      "id": "537432",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537432_foto_parlamentar",
+          "filename": "537432_foto_parlamentar",
+          "height": 350,
+          "size": 157776,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Gilvan Masferrer",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537432_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26010",
+      "@type": "Vereador",
+      "cod_autor": "26010",
+      "description": "Gláucia Galante Buíssa",
+      "id": "26010",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "filename": "26010_foto_parlamentar",
+          "height": 350,
+          "size": 182275,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Gláucia da Saúde",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/552091",
+      "@type": "Vereador",
+      "cod_autor": "552091",
+      "description": "Igino Marcos da Mata de Oliveira",
+      "id": "552091",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+          "filename": "552091_foto_parlamentar",
+          "height": 350,
+          "size": 224883,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Dr. Igino",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537433",
+      "@type": "Vereador",
+      "cod_autor": "537433",
+      "description": "Ivan da Silva Nunes",
+      "id": "537433",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+          "filename": "537433_foto_parlamentar",
+          "height": 350,
+          "size": 212052,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Ivan Nunes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/556174",
+      "@type": "Vereador",
+      "cod_autor": "556174",
+      "description": "Jair Ferraz",
+      "id": "556174",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+          "filename": "556174_foto_parlamentar",
+          "height": 350,
+          "size": 206052,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Jair Ferraz",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/526698",
+      "@type": "Vereador",
+      "cod_autor": "526698",
+      "description": "Leandro Cassiano Neves",
+      "id": "526698",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
+          "filename": "526698_foto_parlamentar",
+          "height": 350,
+          "size": 155775,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+          "token": "PRD"
+        }
+      ],
+      "title": "Leandro Neves",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/399022",
+      "@type": "Vereador",
+      "cod_autor": "399022",
+      "description": "Liza Fernandes Prado",
+      "id": "399022",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "filename": "399022_foto_parlamentar",
+          "height": 350,
+          "size": 242980,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "CIDADANIA",
+          "token": "CIDADANIA"
+        }
+      ],
+      "title": "Liza Prado",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/547712",
+      "@type": "Vereador",
+      "cod_autor": "547712",
+      "description": "Luis Paulo Ferreira Rocha",
+      "id": "547712",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/547712_foto_parlamentar",
+          "filename": "547712_foto_parlamentar",
+          "height": 350,
+          "size": 157148,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL DEMOCRÁTICO",
+          "token": "PSD"
+        }
+      ],
+      "title": "Luis Paulo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/547712_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537430",
+      "@type": "Vereador",
+      "cod_autor": "537430",
+      "description": "Luiz Eduardo Ribeiro de Sá",
+      "id": "537430",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537430_foto_parlamentar",
+          "filename": "537430_foto_parlamentar",
+          "height": 350,
+          "size": 146592,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Dudu Luiz Eduardo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537430_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/448134",
+      "@type": "Vereador",
+      "cod_autor": "448134",
+      "description": "Murilo Ferreira",
+      "id": "448134",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/448134_foto_parlamentar",
+          "filename": "448134_foto_parlamentar",
+          "height": 350,
+          "size": 154944,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "REDE SUSTENTABILIDADE",
+          "token": "REDE"
+        }
+      ],
+      "title": "Murilo Ferreira",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/448134_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537434",
+      "@type": "Vereador",
+      "cod_autor": "537434",
+      "description": "Neemias Miquéias",
+      "id": "537434",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+          "filename": "537434_foto_parlamentar",
+          "height": 350,
+          "size": 204520,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Neemias Miquéias",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/527867",
+      "@type": "Vereador",
+      "cod_autor": "527867",
+      "description": "Odair José",
+      "id": "527867",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/527867_foto_parlamentar",
+          "filename": "527867_foto_parlamentar",
+          "height": 350,
+          "size": 149804,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Odair José",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/527867_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537435",
+      "@type": "Vereador",
+      "cod_autor": "537435",
+      "description": "Raphael Leles",
+      "id": "537435",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537435_foto_parlamentar",
+          "filename": "537435_foto_parlamentar",
+          "height": 350,
+          "size": 197659,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Raphael Leles",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537435_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/552954",
+      "@type": "Vereador",
+      "cod_autor": "552954",
+      "description": "Rildo de Oliveira Silva ",
+      "id": "552954",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/552954_foto_parlamentar",
+          "filename": "552954_foto_parlamentar",
+          "height": 350,
+          "size": 138187,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sargento Rildo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/552954_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/528006",
+      "@type": "Vereador",
+      "cod_autor": "528006",
+      "description": "Ronaldo César Vilela Tannús",
+      "id": "528006",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "filename": "528006_foto_parlamentar",
+          "height": 350,
+          "size": 219680,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Ronaldo Tannús",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26097",
+      "@type": "Vereador",
+      "cod_autor": "26097",
+      "description": "Rosenvaldo Correia de Mendonça",
+      "id": "26097",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "filename": "26097_foto_parlamentar",
+          "height": 350,
+          "size": 213974,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Zezinho Mendonça",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/528007",
+      "@type": "Vereador",
+      "cod_autor": "528007",
+      "description": "Sergimar Antonio de Melo",
+      "id": "528007",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+          "filename": "528007_foto_parlamentar",
+          "height": 350,
+          "size": 159012,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sérgio do Bom Preço",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/543274",
+      "@type": "Vereador",
+      "cod_autor": "543274",
+      "description": "Sérvio Túlio",
+      "id": "543274",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar",
+          "filename": "543274_foto_parlamentar",
+          "height": 350,
+          "size": 219550,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Sérvio Túlio",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/547852",
+      "@type": "Vereador",
+      "cod_autor": "547852",
+      "description": "Simone Tiago Braga Cabral",
+      "id": "547852",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/547852_foto_parlamentar",
+          "filename": "547852_foto_parlamentar",
+          "height": 350,
+          "size": 173779,
+          "width": 350
+        }
+      ],
+      "mandato": "Suplente",
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Simone Braga",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/547852_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537436",
+      "@type": "Vereador",
+      "cod_autor": "537436",
+      "description": "Thais Andrade",
+      "id": "537436",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+          "filename": "537436_foto_parlamentar",
+          "height": 350,
+          "size": 202988,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Thais Andrade",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/537488",
+      "@type": "Vereador",
+      "cod_autor": "537488",
+      "description": "Thiarles Santos",
+      "id": "537488",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537488_foto_parlamentar",
+          "filename": "537488_foto_parlamentar",
+          "height": 350,
+          "size": 151985,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL LIBERAL",
+          "token": "PSL"
+        }
+      ],
+      "title": "Thiarles Santos (in memorian)",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537488_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/526015",
+      "@type": "Vereador",
+      "cod_autor": "526015",
+      "description": "Walquir Cleuton do Amaral",
+      "id": "526015",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526015_foto_parlamentar",
+          "filename": "526015_foto_parlamentar",
+          "height": 350,
+          "size": 158489,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Walquir Amaral",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526015_foto_parlamentar",
+      "votos": 0
+    }
+  ],
+  "start": "2021-01-01",
+  "title": "19ª Legislatura"
+}

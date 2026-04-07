@@ -1,0 +1,67 @@
+{
+  "@id": "/atividade-legislativa/legislaturas",
+  "@type": "Legislaturas",
+  "UID": "32fbcfd846b343a3adaa4655a8fe3ab7",
+  "allow_discussion": null,
+  "blocks": {
+    "2752bbf6-e083-4250-8498-e164d1bfc6c0": {
+      "@type": "slate"
+    },
+    "65f474f4-4fad-4a8d-8916-e24e53bc07ce": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "variation": "default"
+    },
+    "79bb82bc-95fd-4b62-97c3-429ee4840543": {
+      "@type": "description"
+    },
+    "95319206-a2e9-4695-b7d2-3d9252e08b95": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "95319206-a2e9-4695-b7d2-3d9252e08b95",
+      "79bb82bc-95fd-4b62-97c3-429ee4840543",
+      "65f474f4-4fad-4a8d-8916-e24e53bc07ce",
+      "2752bbf6-e083-4250-8498-e164d1bfc6c0"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-04-06T20:11:27+00:00",
+  "description": "Todas as legislaturas da c\u00e2mara",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "legislaturas",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-04-07T12:21:01+00:00",
+  "review_state": "published",
+  "title": "Legislaturas",
+  "type_title": "Legislaturas",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-04-06T20:11:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-04-07T12:21:01+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

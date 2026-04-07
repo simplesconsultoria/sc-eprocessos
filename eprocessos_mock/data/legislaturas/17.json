@@ -1,0 +1,288 @@
+{
+  "@id": "/@@legislaturas/17",
+  "@type": "Legislatura",
+  "data_eleicao": "2016-10-02",
+  "description": "01/01/2013 a 31/12/2016",
+  "end": "2016-12-31",
+  "id": "17",
+  "items": [
+    {
+      "@id": "/@@vereadores/25988",
+      "@type": "Vereador",
+      "cod_autor": "25988",
+      "description": "Adriano Zago",
+      "id": "25988",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "filename": "25988_foto_parlamentar",
+          "height": 350,
+          "size": 217172,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+          "token": "PDT"
+        }
+      ],
+      "title": "Adriano Zago",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/25986",
+      "@type": "Vereador",
+      "cod_autor": "25986",
+      "description": "Alexandre Nogueira",
+      "id": "25986",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Alexandre Nogueira",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/417287",
+      "@type": "Vereador",
+      "cod_autor": "417287",
+      "description": "Delfino Rodrigues",
+      "id": "417287",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Delfino Rodrigues",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26012",
+      "@type": "Vereador",
+      "cod_autor": "26012",
+      "description": "Doca Mastroiano",
+      "id": "26012",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Doca Mastroiano",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/390030",
+      "@type": "Vereador",
+      "cod_autor": "390030",
+      "description": "Flávia Carvalho",
+      "id": "390030",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [
+        {
+          "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+          "token": "PDT"
+        }
+      ],
+      "title": "Flávia Carvalho",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26010",
+      "@type": "Vereador",
+      "cod_autor": "26010",
+      "description": "Gláucia Galante Buíssa",
+      "id": "26010",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "filename": "26010_foto_parlamentar",
+          "height": 350,
+          "size": 182275,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Gláucia da Saúde",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+      "votos": "1940"
+    },
+    {
+      "@id": "/@@vereadores/26006",
+      "@type": "Vereador",
+      "cod_autor": "26006",
+      "description": "Isac Cruz",
+      "id": "26006",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Isac Cruz",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/25983",
+      "@type": "Vereador",
+      "cod_autor": "25983",
+      "description": "Ismar Prado",
+      "id": "25983",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Ismar Prado",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/25985",
+      "@type": "Vereador",
+      "cod_autor": "25985",
+      "description": "Juliano Modesto",
+      "id": "25985",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Juliano Modesto",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/25982",
+      "@type": "Vereador",
+      "cod_autor": "25982",
+      "description": "Marcio Nobre",
+      "id": "25982",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Marcio Nobre",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26017",
+      "@type": "Vereador",
+      "cod_autor": "26017",
+      "description": "Marquinho Megabox",
+      "id": "26017",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Marquinho Megabox",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26015",
+      "@type": "Vereador",
+      "cod_autor": "26015",
+      "description": "Michele Bretas",
+      "id": "26015",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Michele Bretas",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/25987",
+      "@type": "Vereador",
+      "cod_autor": "25987",
+      "description": "Rodi Borges",
+      "id": "25987",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Rodi Borges",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26097",
+      "@type": "Vereador",
+      "cod_autor": "26097",
+      "description": "Rosenvaldo Correia de Mendonça",
+      "id": "26097",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "filename": "26097_foto_parlamentar",
+          "height": 350,
+          "size": 213974,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Zezinho Mendonça",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26009",
+      "@type": "Vereador",
+      "cod_autor": "26009",
+      "description": "Silesio Miranda",
+      "id": "26009",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Silesio Miranda",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26016",
+      "@type": "Vereador",
+      "cod_autor": "26016",
+      "description": "Vico",
+      "id": "26016",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Vico",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26000",
+      "@type": "Vereador",
+      "cod_autor": "26000",
+      "description": "Vilmar Resende",
+      "id": "26000",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Vilmar Resende",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    },
+    {
+      "@id": "/@@vereadores/26001",
+      "@type": "Vereador",
+      "cod_autor": "26001",
+      "description": "Wilson Pinheiro",
+      "id": "26001",
+      "image": [],
+      "mandato": "Titular",
+      "partido": [],
+      "title": "Wilson Pinheiro",
+      "url_foto": "/imagens/avatar.png",
+      "votos": 0
+    }
+  ],
+  "start": "2013-01-01",
+  "title": "17ª Legislatura"
+}

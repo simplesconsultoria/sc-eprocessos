@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repositorytool>
+  <policymap>
+    <type name="Comissoes">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Legislaturas">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Materias">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Mesas">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Normas">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Sessoes">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+    <type name="Vereadores">
+      <policy name="at_edit_autoversion" />
+      <policy name="version_on_revert" />
+    </type>
+  </policymap>
+</repositorytool>

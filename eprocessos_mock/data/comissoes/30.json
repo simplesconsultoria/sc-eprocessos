@@ -1,0 +1,560 @@
+{
+  "@id": "/@@comissoes/30",
+  "@type": "Comissao",
+  "description": "CDM",
+  "id": "30",
+  "items": [
+    {
+      "@id": "/@@vereadores/537428",
+      "@type": "ParticipanteComissao",
+      "cargo": "Presidente",
+      "description": "Amanda Gondim",
+      "id": "537428",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "filename": "537428_foto_parlamentar",
+          "height": 350,
+          "size": 193355,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 1,
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Amanda Gondim",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556177",
+      "@type": "ParticipanteComissao",
+      "cargo": "Relator",
+      "description": "Lia Eunice Valechi da Silva",
+      "id": "556177",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar",
+          "filename": "556177_foto_parlamentar",
+          "height": 350,
+          "size": 191842,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 3,
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Delegada Lia Valechi",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537436",
+      "@type": "ParticipanteComissao",
+      "cargo": "Membro",
+      "description": "Thais Andrade",
+      "id": "537436",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+          "filename": "537436_foto_parlamentar",
+          "height": 350,
+          "size": 202988,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 4,
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Thais Andrade",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/26010",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Gláucia Galante Buíssa",
+      "id": "26010",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "filename": "26010_foto_parlamentar",
+          "height": 350,
+          "size": 182275,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Gláucia da Saúde",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399022",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Liza Fernandes Prado",
+      "id": "399022",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "filename": "399022_foto_parlamentar",
+          "height": 350,
+          "size": 242980,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "CIDADANIA",
+          "token": "CIDADANIA"
+        }
+      ],
+      "title": "Liza Prado",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556176",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Ângela Aparecida Caetano Souza",
+      "id": "556176",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar",
+          "filename": "556176_foto_parlamentar",
+          "height": 350,
+          "size": 222042,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Ângela Do Postinho",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar"
+    }
+  ],
+  "periodos": [
+    {
+      "atual": false,
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "16",
+      "items": [
+        {
+          "@id": "/@@vereadores/537436",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Thais Andrade",
+          "id": "537436",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Thais Andrade"
+        },
+        {
+          "@id": "/@@vereadores/26010",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Gláucia Galante Buíssa",
+          "id": "26010",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Gláucia da Saúde"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        },
+        {
+          "@id": "/@@vereadores/546914",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Abatenio de Andrade Marquez Neto",
+          "id": "546914",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Abatenio Marquez"
+        },
+        {
+          "@id": "/@@vereadores/526697",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Ednaldo Régio de Lima",
+          "id": "526697",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Sargento Ednaldo"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        }
+      ],
+      "start": "2024-05-07",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "6",
+      "items": [
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/537436",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Thais Andrade",
+          "id": "537436",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Thais Andrade"
+        },
+        {
+          "@id": "/@@vereadores/399022",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Liza Fernandes Prado",
+          "id": "399022",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "CIDADANIA",
+              "token": "CIDADANIA"
+            }
+          ],
+          "title": "Liza Prado"
+        },
+        {
+          "@id": "/@@vereadores/537432",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gilvan de Melo Machado",
+          "id": "537432",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Gilvan Masferrer"
+        },
+        {
+          "@id": "/@@vereadores/26010",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gláucia Galante Buíssa",
+          "id": "26010",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Gláucia da Saúde"
+        }
+      ],
+      "start": "2023-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "29/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "11",
+      "items": [],
+      "start": "2021-04-29",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "10",
+      "items": [
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        },
+        {
+          "@id": "/@@vereadores/537436",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Thais Andrade",
+          "id": "537436",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Thais Andrade"
+        },
+        {
+          "@id": "/@@vereadores/537425",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Dandara Tonantzin Silva Castro",
+          "id": "537425",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DOS TRABALHADORES",
+              "token": "PT"
+            }
+          ],
+          "title": "Dandara"
+        },
+        {
+          "@id": "/@@vereadores/537432",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gilvan de Melo Machado",
+          "id": "537432",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Gilvan Masferrer"
+        },
+        {
+          "@id": "/@@vereadores/399022",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Liza Fernandes Prado",
+          "id": "399022",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "CIDADANIA",
+              "token": "CIDADANIA"
+            }
+          ],
+          "title": "Liza Prado"
+        }
+      ],
+      "start": "2021-04-23",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "9",
+      "items": [],
+      "start": "2021-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": "8",
+      "items": [],
+      "start": "2021-02-02",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "7",
+      "items": [],
+      "start": "2021-02-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "5",
+      "items": [],
+      "start": "2020-05-19",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "4",
+      "items": [],
+      "start": "2020-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "3",
+      "items": [],
+      "start": "2019-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": "2",
+      "items": [],
+      "start": "2017-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "1",
+      "items": [],
+      "start": "2015-02-05",
+      "title": "Composição da Comissão"
+    }
+  ],
+  "reunioes": {
+    "@type": "ReunioesComissao",
+    "description": "Lista de reuniões da comissão 30",
+    "items": []
+  },
+  "tipo": "Permanente",
+  "title": "Comissão dos Direitos das Mulheres"
+}

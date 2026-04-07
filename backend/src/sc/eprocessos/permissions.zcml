@@ -1,0 +1,32 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <permission
+      id="sc.eprocessos.AddNormas"
+      title="sc.eprocessos: Add Normas"
+      />
+  <permission
+      id="sc.eprocessos.AddVereadores"
+      title="sc.eprocessos: Add Vereadores"
+      />
+  <permission
+      id="sc.eprocessos.AddLegislaturas"
+      title="sc.eprocessos: Add Legislaturas"
+      />
+  <permission
+      id="sc.eprocessos.AddMesas"
+      title="sc.eprocessos: Add Mesas"
+      />
+  <permission
+      id="sc.eprocessos.AddComissoes"
+      title="sc.eprocessos: Add Comissoes"
+      />
+  <permission
+      id="sc.eprocessos.AddMaterias"
+      title="sc.eprocessos: Add Materias"
+      />
+  <permission
+      id="sc.eprocessos.AddSessoes"
+      title="sc.eprocessos: Add Sessoes"
+      />
+
+</configure>

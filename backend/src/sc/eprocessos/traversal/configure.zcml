@@ -1,0 +1,21 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Traversal adapters
+       Must use IBrowserRequest (not IRequest) to beat plone.dexterity's
+       DexterityPublishTraverse which is registered for
+       (IDexterityContent, IBrowserRequest). -->
+  <adapter
+      factory=".adapters.EProcessosFacadeTraverser"
+      provides="zope.publisher.interfaces.IPublishTraverse"
+      for="sc.eprocessos.interfaces.IEProcessosFacade
+           zope.publisher.interfaces.browser.IBrowserRequest"
+      />
+
+  <adapter
+      factory=".adapters.EProcessosItemTraverser"
+      provides="zope.publisher.interfaces.IPublishTraverse"
+      for="sc.eprocessos.interfaces.IEProcessosItem
+           zope.publisher.interfaces.browser.IBrowserRequest"
+      />
+
+</configure>

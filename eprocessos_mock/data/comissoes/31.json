@@ -1,0 +1,469 @@
+{
+  "@id": "/@@comissoes/31",
+  "@type": "Comissao",
+  "description": "CD",
+  "id": "31",
+  "items": [
+    {
+      "@id": "/@@vereadores/537428",
+      "@type": "ParticipanteComissao",
+      "cargo": "Presidente",
+      "description": "Amanda Gondim",
+      "id": "537428",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "filename": "537428_foto_parlamentar",
+          "height": 350,
+          "size": 193355,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 1,
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Amanda Gondim",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399022",
+      "@type": "ParticipanteComissao",
+      "cargo": "Relator",
+      "description": "Liza Fernandes Prado",
+      "id": "399022",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "filename": "399022_foto_parlamentar",
+          "height": 350,
+          "size": 242980,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 3,
+      "partido": [
+        {
+          "title": "CIDADANIA",
+          "token": "CIDADANIA"
+        }
+      ],
+      "title": "Liza Prado",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556184",
+      "@type": "ParticipanteComissao",
+      "cargo": "Membro",
+      "description": "Ronaldo Amélio Ferreira",
+      "id": "556184",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar",
+          "filename": "556184_foto_parlamentar",
+          "height": 350,
+          "size": 215643,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 4,
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Prof. Ronaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537433",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Ivan da Silva Nunes",
+      "id": "537433",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+          "filename": "537433_foto_parlamentar",
+          "height": 350,
+          "size": 212052,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Ivan Nunes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556174",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Jair Ferraz",
+      "id": "556174",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+          "filename": "556174_foto_parlamentar",
+          "height": 350,
+          "size": 206052,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Jair Ferraz",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/528006",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Ronaldo César Vilela Tannús",
+      "id": "528006",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "filename": "528006_foto_parlamentar",
+          "height": 350,
+          "size": 219680,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Ronaldo Tannús",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+    }
+  ],
+  "periodos": [
+    {
+      "atual": false,
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "16",
+      "items": [
+        {
+          "@id": "/@@vereadores/537432",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Gilvan de Melo Machado",
+          "id": "537432",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Gilvan Masferrer"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/537430",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Luiz Eduardo Ribeiro de Sá",
+          "id": "537430",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Dudu Luiz Eduardo"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        },
+        {
+          "@id": "/@@vereadores/552093",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gilberto Rezende Sobrinho",
+          "id": "552093",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+              "token": "MDB"
+            }
+          ],
+          "title": "Gilberto Rezende"
+        },
+        {
+          "@id": "/@@vereadores/26010",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gláucia Galante Buíssa",
+          "id": "26010",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Gláucia da Saúde"
+        }
+      ],
+      "start": "2024-05-07",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "6",
+      "items": [
+        {
+          "@id": "/@@vereadores/537432",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Gilvan de Melo Machado",
+          "id": "537432",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Gilvan Masferrer"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/448134",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Murilo Ferreira",
+          "id": "448134",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "REDE SUSTENTABILIDADE",
+              "token": "REDE"
+            }
+          ],
+          "title": "Murilo Ferreira"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        },
+        {
+          "@id": "/@@vereadores/399022",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Liza Fernandes Prado",
+          "id": "399022",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "CIDADANIA",
+              "token": "CIDADANIA"
+            }
+          ],
+          "title": "Liza Prado"
+        },
+        {
+          "@id": "/@@vereadores/552093",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gilberto Rezende Sobrinho",
+          "id": "552093",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+              "token": "MDB"
+            }
+          ],
+          "title": "Gilberto Rezende"
+        }
+      ],
+      "start": "2023-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "29/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "11",
+      "items": [],
+      "start": "2021-04-29",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "10",
+      "items": [],
+      "start": "2021-04-23",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "9",
+      "items": [],
+      "start": "2021-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": "8",
+      "items": [],
+      "start": "2021-02-02",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "7",
+      "items": [],
+      "start": "2021-02-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "5",
+      "items": [],
+      "start": "2020-05-19",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "4",
+      "items": [],
+      "start": "2020-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "3",
+      "items": [],
+      "start": "2019-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": "2",
+      "items": [],
+      "start": "2017-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "1",
+      "items": [],
+      "start": "2015-02-05",
+      "title": "Composição da Comissão"
+    }
+  ],
+  "reunioes": {
+    "@type": "ReunioesComissao",
+    "description": "Lista de reuniões da comissão 31",
+    "items": []
+  },
+  "tipo": "Permanente",
+  "title": "Comissão de Diversidade"
+}

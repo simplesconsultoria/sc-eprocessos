@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1640",
+  "@id_presenca": "/@@sessoes/id/1640/presenca",
+  "@id_votacao": "/@@sessoes/id/1640/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1640_ata_sessao.pdf",
+      "filename": "1640_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-01-19",
+  "description": "2ª Reunião Extraordinária - 19/01/2026",
+  "endTime": "",
+  "id": "1640",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1640_pauta_sessao.pdf",
+      "filename": "1640_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "10:32",
+  "title": "2ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

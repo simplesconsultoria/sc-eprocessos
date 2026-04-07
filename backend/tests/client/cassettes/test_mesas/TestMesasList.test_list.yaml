@@ -1,0 +1,87 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@mesas
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas\",\n
+        \ \"@type\": \"Mesas\",\n  \"description\": \"Lista de per\xEDodos de composi\xE7\xE3o\",\n
+        \ \"items\": [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/7\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": true,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 20\xAA Legislatura\",\n      \"end\":
+        \"2026-12-31\",\n      \"id\": \"7\",\n      \"legislatura\": \"20\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/20\",\n
+        \     \"start\": \"2025-01-01\",\n      \"title\": \"01/01/2025 a 31/12/2026\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/6\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 19\xAA Legislatura\",\n      \"end\":
+        \"2024-12-31\",\n      \"id\": \"6\",\n      \"legislatura\": \"19\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/19\",\n
+        \     \"start\": \"2023-01-01\",\n      \"title\": \"01/01/2023 a 31/12/2024\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/5\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 19\xAA Legislatura\",\n      \"end\":
+        \"2022-12-31\",\n      \"id\": \"5\",\n      \"legislatura\": \"19\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/19\",\n
+        \     \"start\": \"2021-01-01\",\n      \"title\": \"01/01/2021 a 31/12/2022\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/4\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 18\xAA Legislatura\",\n      \"end\":
+        \"2020-12-31\",\n      \"id\": \"4\",\n      \"legislatura\": \"18\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/18\",\n
+        \     \"start\": \"2020-02-17\",\n      \"title\": \"17/02/2020 a 31/12/2020\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/3\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 18\xAA Legislatura\",\n      \"end\":
+        \"2019-12-26\",\n      \"id\": \"3\",\n      \"legislatura\": \"18\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/18\",\n
+        \     \"start\": \"2019-01-01\",\n      \"title\": \"01/01/2019 a 26/12/2019\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/2\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 18\xAA Legislatura\",\n      \"end\":
+        \"2018-12-31\",\n      \"id\": \"2\",\n      \"legislatura\": \"18\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/18\",\n
+        \     \"start\": \"2017-01-01\",\n      \"title\": \"01/01/2017 a 31/12/2018\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/1\",\n
+        \     \"@type\": \"Mesa\",\n      \"atual\": false,\n      \"description\":
+        \"Per\xEDodo de composi\xE7\xE3o na 17\xAA Legislatura\",\n      \"end\":
+        \"2016-12-31\",\n      \"id\": \"1\",\n      \"legislatura\": \"17\xAA Legislatura\",\n
+        \     \"legislatura_id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/17\",\n
+        \     \"start\": \"2015-06-02\",\n      \"title\": \"02/06/2015 a 31/12/2016\"\n
+        \   }\n  ]\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '3289'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:26 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

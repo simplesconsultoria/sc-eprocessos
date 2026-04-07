@@ -1,0 +1,1 @@
+Promoted `sc.eprocessos.traversal` from a single module to a package with its own `configure.zcml`, removing the inline adapter registrations from the top-level `configure.zcml`. @ericof

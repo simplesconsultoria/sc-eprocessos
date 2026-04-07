@@ -1,0 +1,345 @@
+{
+  "@id": "/@@vereadores/25988",
+  "@type": "Vereador",
+  "biografia": "",
+  "birthday": "1973-04-14",
+  "cod_autor": "25988",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "27",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "13",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2019-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2019-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2019-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2019-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2017-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2017-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Adriano Zago",
+  "email": "",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "AVANTE",
+      "token": "AVANTE"
+    },
+    {
+      "data_desfiliacao": "2016-12-31",
+      "data_filiacao": "2014-01-01",
+      "filiacao_atual": false,
+      "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+      "token": "PDT"
+    }
+  ],
+  "id": "25988",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+      "filename": "25988_foto_parlamentar",
+      "height": "350",
+      "size": "217172",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "4486"
+    },
+    {
+      "@id": "/@@legislaturas/18",
+      "@type": "Mandato",
+      "end": "2020-12-31",
+      "id": 18,
+      "natureza": "Titular",
+      "start": "2017-01-01",
+      "votos": ""
+    },
+    {
+      "@id": "/@@legislaturas/17",
+      "@type": "Mandato",
+      "end": "2016-12-31",
+      "id": 17,
+      "natureza": "Titular",
+      "start": "2013-01-01",
+      "votos": ""
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/1",
+      "@type": "ParticipanteMesa",
+      "description": "02/06/2015 a 31/12/2016",
+      "end": "2016-12-31",
+      "id": "1",
+      "start": "2015-06-02",
+      "title": "1º Vice-Presidente"
+    }
+  ],
+  "telefone_gabinete": "",
+  "title": "Adriano Zago",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+}

@@ -1,0 +1,55 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@sessoes/id/1636
+  response:
+    body:
+      string: "{\n   \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@sessoes/id/1636\",\n
+        \  \"@id_presenca\": \"https://e-processos.camarauberlandia.mg.gov.br/@@sessoes/id/1636/presenca\",\n
+        \  \"@id_votacao\": \"https://e-processos.camarauberlandia.mg.gov.br/@@sessoes/id/1636/votacao\",\n
+        \  \"@type\": \"SessaoPlenaria\",\n   \"ata\": [\n      {\n         \"content-type\":
+        \"application/pdf\",\n         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/ata_sessao/1636_ata_sessao.pdf\",\n
+        \        \"filename\": \"1636_ata_sessao.pdf\",\n         \"size\": \"\"\n
+        \     }\n   ],\n   \"date\": \"2025-12-12\",\n   \"description\": \"10\xAA
+        Reuni\xE3o Ordin\xE1ria - 12/12/2025\",\n   \"endTime\": \"\",\n   \"id\":
+        \"1636\",\n   \"pauta\": [\n      {\n         \"content-type\": \"application/pdf\",\n
+        \        \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/pauta_sessao/1636_pauta_sessao.pdf\",\n
+        \        \"filename\": \"1636_pauta_sessao.pdf\",\n         \"size\": \"\"\n
+        \     }\n   ],\n   \"startTime\": \"09:00\",\n   \"title\": \"10\xAA Reuni\xE3o
+        Ordin\xE1ria\",\n   \"type\": \"Ordin\xE1ria\",\n   \"type_id\": 1\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '1054'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:27:18 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

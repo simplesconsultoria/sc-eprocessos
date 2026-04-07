@@ -1,0 +1,67 @@
+{
+  "@id": "/atividade-legislativa/comissoes",
+  "@type": "Comissoes",
+  "UID": "b440d0fde1654f04b7320cb482d1c615",
+  "allow_discussion": null,
+  "blocks": {
+    "203dcaa7-5a7c-4146-a4b4-902382bf0d0a": {
+      "@type": "description"
+    },
+    "792ab7e0-4353-4aaf-aa7d-94c754a86722": {
+      "@type": "title"
+    },
+    "c896051f-172f-490d-b04a-5c6a6fb94914": {
+      "@type": "slate"
+    },
+    "cad87305-b506-46c3-b6b7-c7e70bddff7c": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "variation": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "792ab7e0-4353-4aaf-aa7d-94c754a86722",
+      "203dcaa7-5a7c-4146-a4b4-902382bf0d0a",
+      "cad87305-b506-46c3-b6b7-c7e70bddff7c",
+      "c896051f-172f-490d-b04a-5c6a6fb94914"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-04-06T20:27:40+00:00",
+  "description": "Comiss\u00f5es da casa",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "comissoes",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-04-07T12:21:01+00:00",
+  "review_state": "published",
+  "title": "Comiss\u00f5es",
+  "type_title": "Comiss\u00f5es",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-04-06T20:27:40+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-04-07T12:21:01+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

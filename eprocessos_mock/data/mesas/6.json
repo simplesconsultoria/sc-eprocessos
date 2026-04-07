@@ -1,0 +1,164 @@
+{
+  "@id": "/@@mesas/6",
+  "@type": "Mesa",
+  "atual": false,
+  "description": "Composição da mesa diretora",
+  "end": "2024-12-31",
+  "id": "6",
+  "items": [
+    {
+      "@id": "/@@vereadores/26097",
+      "@type": "ParticipanteMesa",
+      "cargo": "Presidente",
+      "description": "Rosenvaldo Correia de Mendonça",
+      "id": "26097",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "filename": "26097_foto_parlamentar",
+          "height": "350",
+          "size": "213974",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Zezinho Mendonça",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/528007",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Sergimar Antonio de Melo",
+      "id": "528007",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+          "filename": "528007_foto_parlamentar",
+          "height": "350",
+          "size": "159012",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sérgio do Bom Preço",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537434",
+      "@type": "ParticipanteMesa",
+      "cargo": "2º Vice-Presidente",
+      "description": "Neemias Miquéias",
+      "id": "537434",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+          "filename": "537434_foto_parlamentar",
+          "height": "350",
+          "size": "204520",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Neemias Miquéias",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/527981",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Secretário",
+      "description": "Eduardo Moraes",
+      "id": "527981",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
+          "filename": "527981_foto_parlamentar",
+          "height": "350",
+          "size": "136492",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "REPUBLICANOS",
+          "token": "REPUBLICANOS"
+        }
+      ],
+      "title": "Eduardo Moraes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399022",
+      "@type": "ParticipanteMesa",
+      "cargo": "2ª Secretário",
+      "description": "Liza Fernandes Prado",
+      "id": "399022",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "filename": "399022_foto_parlamentar",
+          "height": "350",
+          "size": "242980",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "CIDADANIA",
+          "token": "CIDADANIA"
+        }
+      ],
+      "title": "Liza Prado",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537436",
+      "@type": "ParticipanteMesa",
+      "cargo": "3ª Vice-Presidente",
+      "description": "Thais Andrade",
+      "id": "537436",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+          "filename": "537436_foto_parlamentar",
+          "height": "350",
+          "size": "202988",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Thais Andrade",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar"
+    }
+  ],
+  "legislatura": "19ª Legislatura",
+  "legislatura_id": "/@@legislaturas/19",
+  "start": "2023-01-01",
+  "title": "01/01/2023 a 31/12/2024"
+}

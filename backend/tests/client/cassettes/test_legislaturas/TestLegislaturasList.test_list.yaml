@@ -1,0 +1,63 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas\",\n
+        \ \"@type\": \"Legislaturas\",\n  \"description\": \"Lista de legislaturas\",\n
+        \ \"items\": [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/20\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": true,\n      \"description\":
+        \"01/01/2025 a 31/12/2028\",\n      \"id\": \"20\",\n      \"title\": \"20\xAA
+        Legislatura\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/19\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": false,\n      \"description\":
+        \"01/01/2021 a 31/12/2024\",\n      \"id\": \"19\",\n      \"title\": \"19\xAA
+        Legislatura\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/18\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": false,\n      \"description\":
+        \"01/01/2017 a 31/12/2020\",\n      \"id\": \"18\",\n      \"title\": \"18\xAA
+        Legislatura\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/17\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": false,\n      \"description\":
+        \"01/01/2013 a 31/12/2016\",\n      \"id\": \"17\",\n      \"title\": \"17\xAA
+        Legislatura\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/16\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": false,\n      \"description\":
+        \"01/01/2009 a 31/12/2012\",\n      \"id\": \"16\",\n      \"title\": \"16\xAA
+        Legislatura\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/15\",\n
+        \     \"@type\": \"Legislatura\",\n      \"atual\": false,\n      \"description\":
+        \"01/01/2004 a 31/12/2008\",\n      \"id\": \"15\",\n      \"title\": \"15\xAA
+        Legislatura\"\n    }\n  ]\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '1637'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:25 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

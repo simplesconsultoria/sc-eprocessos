@@ -1,0 +1,1 @@
+In record mode, `eprocessos_mock` now rewrites all occurrences of the upstream URL in recorded responses to be host-relative. This makes the cached payloads portable: the same data can be served from any host (e.g., `eprocessos-mock:8000` inside the compose network or `localhost:8000` on the host) without leaking the original e-Processos hostname. @ericof

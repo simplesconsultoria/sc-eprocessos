@@ -1,0 +1,11 @@
+{
+  "@id": "/@@legislaturas/16",
+  "@type": "Legislatura",
+  "data_eleicao": "2008-10-07",
+  "description": "01/01/2009 a 31/12/2012",
+  "end": "2012-12-31",
+  "id": "16",
+  "items": [],
+  "start": "2009-01-01",
+  "title": "16ª Legislatura"
+}

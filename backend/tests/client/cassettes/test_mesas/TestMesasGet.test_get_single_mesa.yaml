@@ -1,0 +1,109 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@mesas/7
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@mesas/7\",\n
+        \ \"@type\": \"Mesa\",\n  \"atual\": true,\n  \"description\": \"Composi\xE7\xE3o
+        da mesa diretora\",\n  \"end\": \"2026-12-31\",\n  \"id\": \"7\",\n  \"items\":
+        [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26097\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"Presidente\",\n
+        \     \"description\": \"Rosenvaldo Correia de Mendon\xE7a\",\n      \"id\":
+        \"26097\",\n      \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\",\n
+        \         \"filename\": \"26097_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"213974\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Zezinho Mendon\xE7a\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526697\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"1\xBA Vice-Presidente\",\n
+        \     \"description\": \"Ednaldo R\xE9gio de Lima\",\n      \"id\": \"526697\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\",\n
+        \         \"filename\": \"526697_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"223533\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Sargento Ednaldo\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26010\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"2\xBA Vice-Presidente\",\n
+        \     \"description\": \"Gl\xE1ucia Galante Bu\xEDssa\",\n      \"id\": \"26010\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\",\n
+        \         \"filename\": \"26010_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"182275\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO LIBERAL\",\n          \"token\": \"PL\"\n        }\n      ],\n      \"title\":
+        \"Gl\xE1ucia da Sa\xFAde\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"1\xBA Secret\xE1rio\",\n
+        \     \"description\": \"Liza Fernandes Prado\",\n      \"id\": \"399022\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\",\n
+        \         \"filename\": \"399022_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"242980\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"CIDADANIA\",\n          \"token\": \"CIDADANIA\"\n        }\n      ],\n
+        \     \"title\": \"Liza Prado\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556179\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"2\xAA Secret\xE1rio\",\n
+        \     \"description\": \"Eliusmarcio Alves de Carvalho (Elinho da Academia)\",\n
+        \     \"id\": \"556179\",\n      \"image\": [\n        {\n          \"content-type\":
+        \"image/png\",\n          \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\",\n
+        \         \"filename\": \"556179_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"225249\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DA MOBILIZA\xC7\xC3O NACIONAL\",\n          \"token\": \"MOBILIZA\"\n
+        \       }\n      ],\n      \"title\": \"Elinho Da Academia\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537433\",\n
+        \     \"@type\": \"ParticipanteMesa\",\n      \"cargo\": \"3\xAA Vice-Presidente\",\n
+        \     \"description\": \"Ivan da Silva Nunes\",\n      \"id\": \"537433\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\",\n
+        \         \"filename\": \"537433_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"212052\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Ivan Nunes\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\"\n
+        \   }\n  ],\n  \"legislatura\": \"20\xAA Legislatura\",\n  \"legislatura_id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/20\",\n  \"start\":
+        \"2025-01-01\",\n  \"title\": \"01/01/2025 a 31/12/2026\"\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '5529'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:27 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

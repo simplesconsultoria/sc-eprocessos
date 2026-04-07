@@ -1,0 +1,11 @@
+{
+  "@id": "/@@legislaturas/15",
+  "@type": "Legislatura",
+  "data_eleicao": "2003-10-01",
+  "description": "01/01/2004 a 31/12/2008",
+  "end": "2008-12-31",
+  "id": "15",
+  "items": [],
+  "start": "2004-01-01",
+  "title": "15ª Legislatura"
+}

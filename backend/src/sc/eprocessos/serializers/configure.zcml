@@ -1,0 +1,22 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Summary serializer metadata -->
+  <utility
+      factory=".summary.JSONSummarySerializerMetadata"
+      name="sc.eprocessos.summary_serializer_metadata"
+      />
+
+  <!-- Facade serializer -->
+  <adapter factory=".facade.SerializeFacadeToJson" />
+  <adapter factory=".collections.vereadores.SerializeVereadoresCollectionToJson" />
+
+  <!-- Item serializers -->
+  <adapter factory=".items.norma.SerializeNormaItemToJson" />
+  <adapter factory=".items.vereador.SerializeVereadorItemToJson" />
+  <adapter factory=".items.legislatura.SerializeLegislaturaItemToJson" />
+  <adapter factory=".items.mesa.SerializeMesaItemToJson" />
+  <adapter factory=".items.comissao.SerializeComissaoItemToJson" />
+  <adapter factory=".items.materia.SerializeMateriaItemToJson" />
+  <adapter factory=".items.sessao.SerializeSessaoItemToJson" />
+
+</configure>

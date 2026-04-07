@@ -1,0 +1,1 @@
+Added `eprocessos_mock/scripts/seed.py`, a helper that walks every list endpoint and then fetches each item's detail endpoint to bulk-populate the cache. Defaults to year 2026 for the `ano`-aware services and iterates over every known `tipo` enum value. Both the target host (`MOCK_URL`) and the seed year (`SEED_YEAR`) are configurable via environment variables. @ericof

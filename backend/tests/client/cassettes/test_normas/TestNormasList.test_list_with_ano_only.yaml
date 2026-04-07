@@ -1,0 +1,93 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@normas?ano=2025
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas\",\n
+        \ \"@type\": \"Normas\",\n  \"description\": \"Lista de normas jur\xEDdicas\",\n
+        \ \"exemplo\": {\n    \"urlExemplo\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas?ano=2026&tipo=8\"\n
+        \ },\n  \"filtros\": {\n    \"ano\": [\n      {\n        \"id\": \"2026\",\n
+        \       \"title\": \"2026\"\n      },\n      {\n        \"id\": \"2025\",\n
+        \       \"title\": \"2025\"\n      },\n      {\n        \"id\": \"2024\",\n
+        \       \"title\": \"2024\"\n      },\n      {\n        \"id\": \"2023\",\n
+        \       \"title\": \"2023\"\n      },\n      {\n        \"id\": \"2022\",\n
+        \       \"title\": \"2022\"\n      },\n      {\n        \"id\": \"2021\",\n
+        \       \"title\": \"2021\"\n      },\n      {\n        \"id\": \"2020\",\n
+        \       \"title\": \"2020\"\n      },\n      {\n        \"id\": \"2019\",\n
+        \       \"title\": \"2019\"\n      },\n      {\n        \"id\": \"2018\",\n
+        \       \"title\": \"2018\"\n      },\n      {\n        \"id\": \"2017\",\n
+        \       \"title\": \"2017\"\n      },\n      {\n        \"id\": \"2016\",\n
+        \       \"title\": \"2016\"\n      },\n      {\n        \"id\": \"2015\",\n
+        \       \"title\": \"2015\"\n      },\n      {\n        \"id\": \"2014\",\n
+        \       \"title\": \"2014\"\n      },\n      {\n        \"id\": \"2013\",\n
+        \       \"title\": \"2013\"\n      },\n      {\n        \"id\": \"2012\",\n
+        \       \"title\": \"2012\"\n      },\n      {\n        \"id\": \"2011\",\n
+        \       \"title\": \"2011\"\n      },\n      {\n        \"id\": \"2010\",\n
+        \       \"title\": \"2010\"\n      },\n      {\n        \"id\": \"2009\",\n
+        \       \"title\": \"2009\"\n      },\n      {\n        \"id\": \"2008\",\n
+        \       \"title\": \"2008\"\n      },\n      {\n        \"id\": \"2007\",\n
+        \       \"title\": \"2007\"\n      },\n      {\n        \"id\": \"2006\",\n
+        \       \"title\": \"2006\"\n      },\n      {\n        \"id\": \"2005\",\n
+        \       \"title\": \"2005\"\n      },\n      {\n        \"id\": \"2004\",\n
+        \       \"title\": \"2004\"\n      },\n      {\n        \"id\": \"2003\",\n
+        \       \"title\": \"2003\"\n      },\n      {\n        \"id\": \"2002\",\n
+        \       \"title\": \"2002\"\n      },\n      {\n        \"id\": \"2001\",\n
+        \       \"title\": \"2001\"\n      },\n      {\n        \"id\": \"2000\",\n
+        \       \"title\": \"2000\"\n      },\n      {\n        \"id\": \"1999\",\n
+        \       \"title\": \"1999\"\n      },\n      {\n        \"id\": \"1998\",\n
+        \       \"title\": \"1998\"\n      },\n      {\n        \"id\": \"1997\",\n
+        \       \"title\": \"1997\"\n      },\n      {\n        \"id\": \"1996\",\n
+        \       \"title\": \"1996\"\n      },\n      {\n        \"id\": \"1995\",\n
+        \       \"title\": \"1995\"\n      },\n      {\n        \"id\": \"1994\",\n
+        \       \"title\": \"1994\"\n      },\n      {\n        \"id\": \"1993\",\n
+        \       \"title\": \"1993\"\n      },\n      {\n        \"id\": \"1992\",\n
+        \       \"title\": \"1992\"\n      },\n      {\n        \"id\": \"1991\",\n
+        \       \"title\": \"1991\"\n      },\n      {\n        \"id\": \"1990\",\n
+        \       \"title\": \"1990\"\n      }\n    ],\n    \"tipo\": [\n      {\n        \"id\":
+        \"8\",\n        \"title\": \"Ato do Presidente\"\n      },\n      {\n        \"id\":
+        \"7\",\n        \"title\": \"Decreto Legislativo\"\n      },\n      {\n        \"id\":
+        \"9\",\n        \"title\": \"Decreto Municipal\"\n      },\n      {\n        \"id\":
+        \"10\",\n        \"title\": \"Emenda \xE0 Lei Org\xE2nica\"\n      },\n      {\n
+        \       \"id\": \"3\",\n        \"title\": \"Lei Complementar\"\n      },\n
+        \     {\n        \"id\": \"6\",\n        \"title\": \"Lei Ordin\xE1ria\"\n
+        \     },\n      {\n        \"id\": \"5\",\n        \"title\": \"Lei Org\xE2nica\"\n
+        \     },\n      {\n        \"id\": \"1\",\n        \"title\": \"Portaria\"\n
+        \     },\n      {\n        \"id\": \"4\",\n        \"title\": \"Resolu\xE7\xE3o\"\n
+        \     }\n    ]\n  }\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '3282'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:23 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

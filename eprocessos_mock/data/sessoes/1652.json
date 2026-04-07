@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1652",
+  "@id_presenca": "/@@sessoes/id/1652/presenca",
+  "@id_votacao": "/@@sessoes/id/1652/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1652_ata_sessao.pdf",
+      "filename": "1652_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-11",
+  "description": "4ª Reunião Extraordinária - 11/02/2026",
+  "endTime": "",
+  "id": "1652",
+  "pauta": [],
+  "startTime": "12:30",
+  "title": "4ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

@@ -1,0 +1,1 @@
+Set the `schema` property on every facade FTI XML so that `@types/<TypeName>` lookups no longer raise `ValueError: Neither model source, nor model file, nor schema is specified`. @ericof

@@ -1,0 +1,220 @@
+{
+  "@id": "/@@vereadores/552091",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Igino Marcos da Mata de Oliveira, 50 anos, &amp;eacute; o mais velho de uma fam&amp;iacute;lia de 4 irm&amp;atilde;os. Paulistano, em 1982 se mudou com a fam&amp;iacute;lia para Rond&amp;ocirc;nia, onde ajudava os pais em uma lanchonete. Teve uma educa&amp;ccedil;&amp;atilde;o muito boa.&amp;nbsp;&lt;br /&gt;Por&amp;eacute;m, onde morava n&amp;atilde;o havia estrutura, as casas eram de madeira, n&amp;atilde;o tinha &amp;aacute;gua e esgoto tratado, energia el&amp;eacute;trica, asfalto e equipamentos p&amp;uacute;blicos. Ao longo do tempo, a cidade foi se estruturando e, consequentemente, sua vida e de sua fam&amp;iacute;lia tamb&amp;eacute;m. Aos 18 anos, Igino retornou para a cidade de S&amp;atilde;o Paulo para fazer cursinho e um ano depois se mudou para Uberl&amp;acirc;ndia.&lt;br /&gt;Em nossa cidade ele morou na rep&amp;uacute;blica da Pastoral da Terra, lugar em que iniciou sua hist&amp;oacute;ria profissional e pol&amp;iacute;tica. Desde ent&amp;atilde;o, se envolveu com os movimentos de luta pela terra em Uberl&amp;acirc;ndia e regi&amp;atilde;o, tendo decidido cursar a Faculdade de Direito. Entrou na UFU em 1994, tornou-se Bacharel de Direito em 1999, e se especializou em Direito Notarial e Registral em 2014.&lt;br /&gt;Entre 2012 e 2016 foi Delegado do Minist&amp;eacute;rio do Desenvolvimento, lotado em Belo Horizonte, representando o Ministro de Estado de&lt;br /&gt;Desenvolvimento Agr&amp;aacute;rio em Minas Gerais, visitando assentamentos e articulando politicas p&amp;uacute;blicas para a agricultura familiar e a reforma agr&amp;aacute;ria. Sua primeira grande vit&amp;oacute;ria na trajet&amp;oacute;ria como advogado foi quando conseguiu reduzir os pre&amp;ccedil;os dos contratos das casas do Bairro Morumbi, entre moradores e imobili&amp;aacute;ria. De l&amp;aacute; pra c&amp;aacute;, ele j&amp;aacute; ajudou mais de 15 mil fam&amp;iacute;lias a conquistar uma moradia digna, em pelo menos 50 assentamentos de 12 cidades da regi&amp;atilde;o.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Atuou nos processos judiciais e de Regulariza&amp;ccedil;&amp;atilde;o Fundi&amp;aacute;ria da Comunidade do Gl&amp;oacute;ria (atual Bairro Elisson Prieto), e atua nos processos das comunidades do Man&amp;aacute;, Irm&amp;atilde; Dulce, Fidel Castro, Santa Clara e de mais 40 (quarenta) outras comunidades, evitando a remo&amp;ccedil;&amp;atilde;o for&amp;ccedil;ada de in&amp;uacute;meras fam&amp;iacute;lias. Com a chegada da Pandemia de Covid-19, incentivou a forma&amp;ccedil;&amp;atilde;o das Cozinhas Comunit&amp;aacute;rias, cedendo o espa&amp;ccedil;o f&amp;iacute;sico de seu escrit&amp;oacute;rio de advocacia para a instala&amp;ccedil;&amp;atilde;o da primeira. Hoje por desdobramento desta cozinha comunit&amp;aacute;ria temos ao todo 7 (sete), instaladas em Uberl&amp;acirc;ndia, nos bairros e ocupa&amp;ccedil;&amp;otilde;es Morada Nova, Dom Almir, Man&amp;aacute;, Santa Clara, Renascer/Torres, Fidel Castro e Gl&amp;oacute;ria.&lt;/p&gt;",
+  "birthday": "",
+  "cod_autor": "552091",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "17",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "7",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "28",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "7",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "13",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Igino Marcos da Mata de Oliveira",
+  "email": "dr.igino@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2023-02-02",
+      "filiacao_atual": true,
+      "title": "PARTIDO DOS TRABALHADORES",
+      "token": "PT"
+    }
+  ],
+  "id": "552091",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+      "filename": "552091_foto_parlamentar",
+      "height": "350",
+      "size": "224883",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "5189"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2023-02-01",
+      "votos": ""
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1102",
+  "title": "Dr. Igino",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar"
+}

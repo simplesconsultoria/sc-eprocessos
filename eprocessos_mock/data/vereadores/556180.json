@@ -1,0 +1,134 @@
+{
+  "@id": "/@@vereadores/556180",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Jana&amp;iacute;na Guimar&amp;atilde;es &amp;eacute; uma mulher de princ&amp;iacute;pios s&amp;oacute;lidos e determina&amp;ccedil;&amp;atilde;o inabal&amp;aacute;vel, que dedicou sua vida ao servi&amp;ccedil;o p&amp;uacute;blico e &amp;agrave; defesa dos valores conservadores que considera essenciais para o fortalecimento da sociedade.&lt;/p&gt;\r\n&lt;p&gt;Com 5.050 votos conquistados, se tornou a vereadora mais votada da legislatura 2025 - 2028 em Uberl&amp;acirc;ndia, uma marca que reflete a confian&amp;ccedil;a e o apoio de uma comunidade que acredita em sua lideran&amp;ccedil;a e compromisso.&lt;/p&gt;\r\n&lt;p&gt;Natural de Ituiutaba MG, passou seus primeiros anos de vida em Santa-Vit&amp;oacute;ria MG, e mudou-se para Uberl&amp;acirc;ndia ainda adolescente. Casada, cat&amp;oacute;lica, filha de servidor p&amp;uacute;blico municipal e de professora, m&amp;atilde;e de dois filhos, possui uma postura firme em defesa da vida e contra ideologias que amea&amp;ccedil;am as tradi&amp;ccedil;&amp;otilde;es e valores da sociedade brasileira. &amp;nbsp;Ativista de direita e importante mobilizadora de manifesta&amp;ccedil;&amp;otilde;es pol&amp;iacute;ticas pr&amp;oacute;-liberdade de express&amp;atilde;o e econ&amp;ocirc;mica em Uberl&amp;acirc;ndia e em todo o Brasil, Janaina faz parte do n&amp;uacute;cleo de apoio do ex-presidente Jair Messias Bolsonaro e foi uma das fundadoras e l&amp;iacute;der do movimento &amp;ldquo;Volunt&amp;aacute;rios Pr&amp;oacute; Bolsonaro Uberl&amp;acirc;ndia&amp;rdquo;.&lt;/p&gt;\r\n&lt;p&gt;Em sua trajet&amp;oacute;ria de mais de 17 anos de experi&amp;ecirc;ncia no Poder Executivo, Jana&amp;iacute;na acumulou um conhecimento profundo sobre as necessidades de Uberl&amp;acirc;ndia e o funcionamento da m&amp;aacute;quina p&amp;uacute;blica. E, como assessora parlamentar por 4 anos, obteve conhecimento dos tr&amp;acirc;mites burocr&amp;aacute;ticos do Poder Legislativo.&lt;/p&gt;\r\n&lt;p&gt;Seja como jornalista, empres&amp;aacute;ria, funcion&amp;aacute;ria p&amp;uacute;blica ou assessora parlamentar, ela sempre pautou sua atua&amp;ccedil;&amp;atilde;o pela &amp;eacute;tica, pela transpar&amp;ecirc;ncia e pelo desejo de servir ao pr&amp;oacute;ximo.&lt;/p&gt;\r\n&lt;p&gt;Al&amp;eacute;m disso, lidera o PL Mulher de Uberl&amp;acirc;ndia, mobilizando outras mulheres a lutarem pelos mesmos ideais conservadores.&lt;/p&gt;\r\n&lt;p&gt;Adesguiana, Jana&amp;iacute;na tamb&amp;eacute;m se destaca por sua atua&amp;ccedil;&amp;atilde;o e envolvimento em a&amp;ccedil;&amp;otilde;es solid&amp;aacute;rias, como no voluntariado para a AACD e no Grupo Amigos Solid&amp;aacute;rios, demonstra seu compromisso genu&amp;iacute;no com a comunidade e sua preocupa&amp;ccedil;&amp;atilde;o com os mais vulner&amp;aacute;veis.&lt;/p&gt;\r\n&lt;p&gt;Determinada a continuar trabalhando incansavelmente, Jana&amp;iacute;na Guimar&amp;atilde;es segue como uma voz firme e coerente, buscando inspirar, cativar e conquistar o apoio daqueles que, como ela, acreditam no poder da a&amp;ccedil;&amp;atilde;o e na import&amp;acirc;ncia de lutar pelos valores que sustentam nossa sociedade.&lt;/p&gt;\r\n&lt;p&gt;Sua atua&amp;ccedil;&amp;atilde;o parlamentar na C&amp;acirc;mara de Vereadores, tem como miss&amp;atilde;o fortalecer os conservadores, defender a vida desde a concep&amp;ccedil;&amp;atilde;o, lutar contra a doutrina&amp;ccedil;&amp;atilde;o escolar, a pedofilia e a ideologia de g&amp;ecirc;nero, ser ainda a favor das nossas liberdades, das fam&amp;iacute;lias, da gera&amp;ccedil;&amp;atilde;o de emprego e renda, defensora do agroneg&amp;oacute;cio e ser oposi&amp;ccedil;&amp;atilde;o a pautas de esquerda.&lt;/p&gt;\r\n&lt;p&gt;Deus, P&amp;aacute;tria, Fam&amp;iacute;lia e Liberdade&lt;/p&gt;",
+  "birthday": "1975-06-08",
+  "cod_autor": "556185",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "27",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "29",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "12",
+      "mandato": "Suplente",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Janaina Guimarães Parreira Rezende",
+  "email": "janainaguimaraes@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "PARTIDO LIBERAL",
+      "token": "PL"
+    }
+  ],
+  "id": "556180",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar",
+      "filename": "556180_foto_parlamentar",
+      "height": "350",
+      "size": "229921",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "5050"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1289 | Whatsapp: (34) 99741-2277",
+  "title": "Janaina Guimarães",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar"
+}

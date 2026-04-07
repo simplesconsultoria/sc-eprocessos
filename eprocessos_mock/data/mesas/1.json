@@ -1,0 +1,172 @@
+{
+  "@id": "/@@mesas/1",
+  "@type": "Mesa",
+  "atual": false,
+  "description": "Composição da mesa diretora",
+  "end": "2016-12-31",
+  "id": "1",
+  "items": [
+    {
+      "@id": "/@@vereadores/25986",
+      "@type": "ParticipanteMesa",
+      "cargo": "Presidente",
+      "description": "Alexandre Nogueira",
+      "id": "25986",
+      "image": [],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL DEMOCRÁTICO",
+          "token": "PSD"
+        }
+      ],
+      "title": "Alexandre Nogueira",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/25982",
+      "@type": "ParticipanteMesa",
+      "cargo": "Presidente",
+      "description": "Marcio Nobre",
+      "id": "25982",
+      "image": [],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL DEMOCRÁTICO",
+          "token": "PSD"
+        }
+      ],
+      "title": "Marcio Nobre",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/25988",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Adriano Zago",
+      "id": "25988",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "filename": "25988_foto_parlamentar",
+          "height": "350",
+          "size": "217172",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "AVANTE",
+          "token": "AVANTE"
+        }
+      ],
+      "title": "Adriano Zago",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/26006",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Isac Cruz",
+      "id": "26006",
+      "image": [],
+      "partido": [],
+      "title": "Isac Cruz",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/25983",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Ismar Prado",
+      "id": "25983",
+      "image": [],
+      "partido": [],
+      "title": "Ismar Prado",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/26006",
+      "@type": "ParticipanteMesa",
+      "cargo": "2º Vice-Presidente",
+      "description": "Isac Cruz",
+      "id": "26006",
+      "image": [],
+      "partido": [],
+      "title": "Isac Cruz",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/25986",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Secretário",
+      "description": "Alexandre Nogueira",
+      "id": "25986",
+      "image": [],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL DEMOCRÁTICO",
+          "token": "PSD"
+        }
+      ],
+      "title": "Alexandre Nogueira",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/26010",
+      "@type": "ParticipanteMesa",
+      "cargo": "2ª Secretário",
+      "description": "Gláucia Galante Buíssa",
+      "id": "26010",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "filename": "26010_foto_parlamentar",
+          "height": "350",
+          "size": "182275",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Gláucia da Saúde",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/25985",
+      "@type": "ParticipanteMesa",
+      "cargo": "3ª Vice-Presidente",
+      "description": "Juliano Modesto",
+      "id": "25985",
+      "image": [],
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Juliano Modesto",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/25987",
+      "@type": "ParticipanteMesa",
+      "cargo": "2ª Secretário",
+      "description": "Rodi Borges",
+      "id": "25987",
+      "image": [],
+      "partido": [],
+      "title": "Rodi Borges",
+      "url_foto": "/imagens/avatar.png"
+    }
+  ],
+  "legislatura": "17ª Legislatura",
+  "legislatura_id": "/@@legislaturas/17",
+  "start": "2015-06-02",
+  "title": "02/06/2015 a 31/12/2016"
+}

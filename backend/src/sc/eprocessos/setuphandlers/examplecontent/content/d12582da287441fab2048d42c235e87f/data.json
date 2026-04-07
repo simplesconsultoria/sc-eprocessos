@@ -1,0 +1,67 @@
+{
+  "@id": "/atividade-legislativa/mesas-diretoras",
+  "@type": "Mesas",
+  "UID": "d12582da287441fab2048d42c235e87f",
+  "allow_discussion": null,
+  "blocks": {
+    "4b41f355-60e8-4f83-acea-4a17b878e9dc": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "variation": "default"
+    },
+    "5ece368c-f82d-487d-84b5-21757eb940ed": {
+      "@type": "description"
+    },
+    "a2928a23-5ca9-403e-ad8d-8307b7f72e29": {
+      "@type": "title"
+    },
+    "c7d9245f-630c-4129-afe6-047e9a3786b4": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a2928a23-5ca9-403e-ad8d-8307b7f72e29",
+      "5ece368c-f82d-487d-84b5-21757eb940ed",
+      "4b41f355-60e8-4f83-acea-4a17b878e9dc",
+      "c7d9245f-630c-4129-afe6-047e9a3786b4"
+    ]
+  },
+  "changeNote": "",
+  "created": "2026-04-06T20:29:00+00:00",
+  "description": "Mesas diretoras",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "mesas-diretoras",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-04-07T12:21:01+00:00",
+  "review_state": "published",
+  "title": "Mesas diretoras",
+  "type_title": "Mesas Diretoras",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-04-06T20:29:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-04-07T12:21:01+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

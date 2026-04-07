@@ -1,0 +1,1 @@
+Fixed the Sumario component to read `content.birthday` instead of the misspelled `content.birthdate`, so the councilor's birth date is now displayed when present. @ericof

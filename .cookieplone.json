@@ -1,0 +1,16 @@
+{
+    "title": "Plone e-Processos",
+    "description": "Integra\u00e7\u00e3o do e-Processos com Plone sites",
+    "project_slug": "sc-eprocessos",
+    "author": "Simples Consultoria",
+    "email": "contato@simplesconsultoria.com.br",
+    "use_prerelease_versions": "yes",
+    "plone_version": "6.2.0rc1",
+    "volto_version": "19.0.0-alpha.27",
+    "python_package_name": "sc.eprocessos",
+    "npm_package_name": "@simplesconsultoria/volto-eprocessos",
+    "github_organization": "simplesconsultoria",
+    "container_registry": "github",
+    "initialize_documentation": "0",
+    "__template__": "monorepo_addon"
+}

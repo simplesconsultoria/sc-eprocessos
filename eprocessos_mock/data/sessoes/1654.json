@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1654",
+  "@id_presenca": "/@@sessoes/id/1654/presenca",
+  "@id_votacao": "/@@sessoes/id/1654/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1654_ata_sessao.pdf",
+      "filename": "1654_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-12",
+  "description": "5ª Reunião Extraordinária - 12/02/2026",
+  "endTime": "",
+  "id": "1654",
+  "pauta": [],
+  "startTime": "11:00",
+  "title": "5ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

@@ -1,0 +1,1 @@
+Promoted `sc.eprocessos.utils` from a single module to a package, splitting it into `client`, `urls`, and `images` submodules. Public imports from `sc.eprocessos.utils` are unchanged. @ericof

@@ -1,0 +1,149 @@
+{
+  "@id": "/@@vereadores/26097",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;&lt;strong&gt;Biografia&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;O vereador Rosenvaldo Correia de Mendon&amp;ccedil;a, popularmente conhecido em toda a cidade de Uberl&amp;acirc;ndia, onde nasceu como Zezinho Mendon&amp;ccedil;a, tem 49 anos de idade e &amp;eacute; filho do casal Geraldo Jos&amp;eacute; Correia, j&amp;aacute; falecido, e de D. Maria Aparecida de Mendon&amp;ccedil;a Correia e irm&amp;atilde;o de Ilv&amp;acirc;nia e Ronivaldo Correia de Mendon&amp;ccedil;a. Sendo que seu pai foi servidor p&amp;uacute;blico durante 33 anos.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Zezinho Mendon&amp;ccedil;a residiu no bairro Marta Helena durante 18 anos, onde come&amp;ccedil;ou a trabalhar com apenas 12 anos de idade, no Supermercado Danyela e na loja Moda Brasil e de l&amp;aacute; foi para a empresa Tecidos Miramontes at&amp;eacute; se instalar no bairro Mansour onde montou um com&amp;eacute;rcio em 1995 com apenas 22 anos. Formado em Gest&amp;atilde;o P&amp;uacute;blica, tamb&amp;eacute;m atua no setor de Agroneg&amp;oacute;cio.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Na pol&amp;iacute;tica&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Disputou sua primeira elei&amp;ccedil;&amp;atilde;o a vereador nas elei&amp;ccedil;&amp;otilde;es municipais de 2008, tendo ficado como suplente com 3.025 votos e em 1&amp;ordm; de fevereiro de 2011, assumiu a cadeira da ent&amp;atilde;o vereadora Liza Prado, eleita deputada estadual em 2010.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;J&amp;aacute; em 2012, disputou a reelei&amp;ccedil;&amp;atilde;o, tendo sido o quarto candidato mais votado com 4.129 votos, tendo sido convidado pelo Executivo para assumir a dire&amp;ccedil;&amp;atilde;o geral da Futel &amp;ndash; Funda&amp;ccedil;&amp;atilde;o Uberlandense de Turismo, Esporte e Lazer nos anos de 2013 e 2014, tendo retornado &amp;agrave; C&amp;acirc;mara em 2016 para disputar mais uma vez a elei&amp;ccedil;&amp;atilde;o de vereador e apesar de ter obtido 3.680 votos, infelizmente n&amp;atilde;o conseguiu quociente eleitoral (m&amp;eacute;todo pelo qual se distribuem as cadeiras nas elei&amp;ccedil;&amp;otilde;es pelo sistema proporcional de votos em conjunto com o quociente partid&amp;aacute;rio e a distribui&amp;ccedil;&amp;atilde;o das sobras) e ficou de fora da Legislatura 2017-2020.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Nas elei&amp;ccedil;&amp;otilde;es municipais de 2020, candidatou-se novamente a vereador pelo Progressistas, partido do Prefeito Odelmo Le&amp;atilde;o e retornou &amp;agrave; C&amp;acirc;mara Municipal em 1&amp;ordm; de janeiro de 2021 com 3.049 votos e em novembro de 2022 foi eleito pela maioria de seus pares para presidir a C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia no bi&amp;ecirc;nio 2023/2024, tendo tomado posse em sess&amp;atilde;o solene no dia 14 de dezembro de 2022 e assumindo o cargo de Chefe do Poder Legislativo Municipal em 1&amp;ordm; de janeiro de 2023.&lt;/p&gt;",
+  "birthday": "",
+  "cod_autor": "26097",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Relator"
+    }
+  ],
+  "description": "Rosenvaldo Correia de Mendonça",
+  "email": "zezinhomendonca@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2021-01-01",
+      "filiacao_atual": true,
+      "title": "PROGRESSISTAS",
+      "token": "PP"
+    }
+  ],
+  "id": "26097",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+      "filename": "26097_foto_parlamentar",
+      "height": "350",
+      "size": "213974",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "5064"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    },
+    {
+      "@id": "/@@legislaturas/17",
+      "@type": "Mandato",
+      "end": "2016-12-31",
+      "id": 17,
+      "natureza": "Titular",
+      "start": "2015-03-17",
+      "votos": ""
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2025 a 31/12/2026",
+      "end": "2026-12-31",
+      "id": "7",
+      "start": "2025-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@mesas/6",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2023 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "6",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239-1149",
+  "title": "Zezinho Mendonça",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+}

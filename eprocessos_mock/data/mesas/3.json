@@ -1,0 +1,47 @@
+{
+  "@id": "/@@mesas/3",
+  "@type": "Mesa",
+  "atual": false,
+  "description": "Composição da mesa diretora",
+  "end": "2019-12-26",
+  "id": "3",
+  "items": [
+    {
+      "@id": "/@@vereadores/399018",
+      "@type": "ParticipanteMesa",
+      "cargo": "Presidente",
+      "description": "Baiano",
+      "id": "399018",
+      "image": [],
+      "partido": [],
+      "title": "Baiano",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/26000",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Vilmar Resende",
+      "id": "26000",
+      "image": [],
+      "partido": [],
+      "title": "Vilmar Resende",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/26012",
+      "@type": "ParticipanteMesa",
+      "cargo": "3ª Vice-Presidente",
+      "description": "Doca Mastroiano",
+      "id": "26012",
+      "image": [],
+      "partido": [],
+      "title": "Doca Mastroiano",
+      "url_foto": "/imagens/avatar.png"
+    }
+  ],
+  "legislatura": "18ª Legislatura",
+  "legislatura_id": "/@@legislaturas/18",
+  "start": "2019-01-01",
+  "title": "01/01/2019 a 26/12/2019"
+}

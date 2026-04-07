@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1648",
+  "@id_presenca": "/@@sessoes/id/1648/presenca",
+  "@id_votacao": "/@@sessoes/id/1648/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1648_ata_sessao.pdf",
+      "filename": "1648_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-09",
+  "description": "2ª Reunião Extraordinária - 09/02/2026",
+  "endTime": "",
+  "id": "1648",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1648_pauta_sessao.pdf",
+      "filename": "1648_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "11:00",
+  "title": "2ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

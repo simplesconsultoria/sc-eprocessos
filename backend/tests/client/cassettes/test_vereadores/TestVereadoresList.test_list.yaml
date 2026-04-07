@@ -1,0 +1,321 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@vereadores
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores\",\n
+        \ \"@type\": \"Vereadores\",\n  \"description\": \"Lista de Vereadores em
+        exerc\xEDcio\",\n  \"items\": [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Abatenio de Andrade
+        Marquez Neto\",\n      \"dic_vereador\": \"546914\",\n      \"id\": \"546914\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\",\n
+        \         \"filename\": \"546914_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"221654\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Abatenio Marquez\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/25988\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Adriano Zago\",\n
+        \     \"dic_vereador\": \"25988\",\n      \"id\": \"25988\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar\",\n
+        \         \"filename\": \"25988_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"217172\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"AVANTE\",\n          \"token\": \"AVANTE\"\n        }\n      ],\n      \"title\":
+        \"Adriano Zago\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537428\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Amanda Gondim\",\n
+        \     \"dic_vereador\": \"537428\",\n      \"id\": \"537428\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar\",\n
+        \         \"filename\": \"537428_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"193355\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO SOCIALISTA BRASILEIRO\",\n          \"token\": \"PSB\"\n        }\n
+        \     ],\n      \"title\": \"Amanda Gondim\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537427\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Anderson Lima\",\n
+        \     \"dic_vereador\": \"537427\",\n      \"id\": \"537427\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar\",\n
+        \         \"filename\": \"537427_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"200492\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PODEMOS\",\n          \"token\": \"PODEMOS\"\n        }\n      ],\n      \"title\":
+        \"Anderson Lima\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556176\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"\xC2ngela Aparecida
+        Caetano Souza\",\n      \"dic_vereador\": \"556181\",\n      \"id\": \"556176\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar\",\n
+        \         \"filename\": \"556176_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"222042\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"Solidariedade\",\n          \"token\": \"Solidariedade\"\n        }\n      ],\n
+        \     \"title\": \"\xC2ngela Do Postinho\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537380\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ant\xF4nio Augusto
+        Gon\xE7alves Goulart\",\n      \"dic_vereador\": \"537380\",\n      \"id\":
+        \"537380\",\n      \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar\",\n
+        \         \"filename\": \"537380_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"212525\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n          \"token\": \"PSDB\"\n
+        \       }\n      ],\n      \"title\": \"Ant\xF4nio Augusto Queijinho\",\n
+        \     \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399041\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ant\xF4nio Carrijo\",\n
+        \     \"dic_vereador\": \"399041\",\n      \"id\": \"399041\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar\",\n
+        \         \"filename\": \"399041_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"205422\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Ant\xF4nio Carrijo\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556182\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Celisvaldo da Silva
+        \",\n      \"dic_vereador\": \"556187\",\n      \"id\": \"556182\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar\",\n
+        \         \"filename\": \"556182_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"223072\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"DEMOCRACIA CRIST\xC3\",\n          \"token\": \"DC\"\n        }\n      ],\n
+        \     \"title\": \"Pez\xE3o Do Esporte\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556183\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Conrado Augusto Ferreira
+        de Oliveira\",\n      \"dic_vereador\": \"556188\",\n      \"id\": \"556183\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar\",\n
+        \         \"filename\": \"556183_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"203791\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"MOVIMENTO DEMOCR\xC1TICO BRASILEIRO\",\n          \"token\": \"MDB\"\n        }\n
+        \     ],\n      \"title\": \"Prof. Conrado Augusto\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526697\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ednaldo R\xE9gio
+        de Lima\",\n      \"dic_vereador\": \"526697\",\n      \"id\": \"526697\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\",\n
+        \         \"filename\": \"526697_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"223533\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Sargento Ednaldo\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556178\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Edson Carvalho Ferreira\",\n
+        \     \"dic_vereador\": \"556183\",\n      \"id\": \"556178\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar\",\n
+        \         \"filename\": \"556178_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"216173\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"Democrata\",\n          \"token\": \"DEMOCRATA\"\n        }\n      ],\n
+        \     \"title\": \"Edinho Combate Ao C\xE2ncer\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556179\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Eliusmarcio Alves
+        de Carvalho (Elinho da Academia)\",\n      \"dic_vereador\": \"556184\",\n
+        \     \"id\": \"556179\",\n      \"image\": [\n        {\n          \"content-type\":
+        \"image/png\",\n          \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\",\n
+        \         \"filename\": \"556179_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"225249\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DA MOBILIZA\xC7\xC3O NACIONAL\",\n          \"token\": \"MOBILIZA\"\n
+        \       }\n      ],\n      \"title\": \"Elinho Da Academia\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537431\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Fabio Dias Queiroz
+        Zavitoski\",\n      \"dic_vereador\": \"537431\",\n      \"id\": \"537431\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar\",\n
+        \         \"filename\": \"537431_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"225601\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO VERDE\",\n          \"token\": \"PV\"\n        }\n      ],\n      \"title\":
+        \"Fab\xE3o\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26010\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Gl\xE1ucia Galante
+        Bu\xEDssa\",\n      \"dic_vereador\": \"26010\",\n      \"id\": \"26010\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\",\n
+        \         \"filename\": \"26010_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"182275\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO LIBERAL\",\n          \"token\": \"PL\"\n        }\n      ],\n      \"title\":
+        \"Gl\xE1ucia da Sa\xFAde\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/552091\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Igino Marcos da Mata
+        de Oliveira\",\n      \"dic_vereador\": \"552091\",\n      \"id\": \"552091\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar\",\n
+        \         \"filename\": \"552091_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"224883\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DOS TRABALHADORES\",\n          \"token\": \"PT\"\n        }\n      ],\n
+        \     \"title\": \"Dr. Igino\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537433\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ivan da Silva Nunes\",\n
+        \     \"dic_vereador\": \"537433\",\n      \"id\": \"537433\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\",\n
+        \         \"filename\": \"537433_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"212052\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Ivan Nunes\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556174\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Jair Ferraz\",\n
+        \     \"dic_vereador\": \"556174\",\n      \"id\": \"556174\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar\",\n
+        \         \"filename\": \"556174_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"206052\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Jair Ferraz\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556180\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Janaina Guimar\xE3es
+        Parreira Rezende\",\n      \"dic_vereador\": \"556185\",\n      \"id\": \"556180\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar\",\n
+        \         \"filename\": \"556180_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"229921\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO LIBERAL\",\n          \"token\": \"PL\"\n        }\n      ],\n      \"title\":
+        \"Janaina Guimar\xE3es\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556177\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Lia Eunice Valechi
+        da Silva\",\n      \"dic_vereador\": \"556182\",\n      \"id\": \"556177\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar\",\n
+        \         \"filename\": \"556177_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"191842\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"Un\xE3o Brasil\",\n          \"token\": \"Uni\xE3o Brasil\"\n        }\n
+        \     ],\n      \"title\": \"Delegada Lia Valechi\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Liza Fernandes Prado\",\n
+        \     \"dic_vereador\": \"399022\",\n      \"id\": \"399022\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\",\n
+        \         \"filename\": \"399022_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"242980\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"CIDADANIA\",\n          \"token\": \"CIDADANIA\"\n        }\n      ],\n
+        \     \"title\": \"Liza Prado\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537434\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Neemias Miqu\xE9ias\",\n
+        \     \"dic_vereador\": \"537434\",\n      \"id\": \"537434\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar\",\n
+        \         \"filename\": \"537434_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"204520\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PODEMOS\",\n          \"token\": \"PODEMOS\"\n        }\n      ],\n      \"title\":
+        \"Neemias Miqu\xE9ias\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556181\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Nei Carlos Borges\",\n
+        \     \"dic_vereador\": \"556186\",\n      \"id\": \"556181\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar\",\n
+        \         \"filename\": \"556181_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"217149\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"Solidariedade\",\n          \"token\": \"Solidariedade\"\n        }\n      ],\n
+        \     \"title\": \"Nei Borges\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556184\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ronaldo Am\xE9lio
+        Ferreira\",\n      \"dic_vereador\": \"556189\",\n      \"id\": \"556184\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar\",\n
+        \         \"filename\": \"556184_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"215643\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DOS TRABALHADORES\",\n          \"token\": \"PT\"\n        }\n      ],\n
+        \     \"title\": \"Prof. Ronaldo\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528006\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Ronaldo C\xE9sar
+        Vilela Tann\xFAs\",\n      \"dic_vereador\": \"528006\",\n      \"id\": \"528006\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar\",\n
+        \         \"filename\": \"528006_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"219680\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n          \"token\": \"PSDB\"\n
+        \       }\n      ],\n      \"title\": \"Ronaldo Tann\xFAs\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26097\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Rosenvaldo Correia
+        de Mendon\xE7a\",\n      \"dic_vereador\": \"26097\",\n      \"id\": \"26097\",\n
+        \     \"image\": [\n        {\n          \"content-type\": \"image/png\",\n
+        \         \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\",\n
+        \         \"filename\": \"26097_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"213974\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PROGRESSISTAS\",\n          \"token\": \"PP\"\n        }\n      ],\n      \"title\":
+        \"Zezinho Mendon\xE7a\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/543274\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"S\xE9rvio T\xFAlio\",\n
+        \     \"dic_vereador\": \"543274\",\n      \"id\": \"543274\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar\",\n
+        \         \"filename\": \"543274_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"219550\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n          \"token\": \"PSDB\"\n
+        \       }\n      ],\n      \"title\": \"S\xE9rvio T\xFAlio\",\n      \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537436\",\n
+        \     \"@type\": \"Vereador\",\n      \"description\": \"Thais Andrade\",\n
+        \     \"dic_vereador\": \"537436\",\n      \"id\": \"537436\",\n      \"image\":
+        [\n        {\n          \"content-type\": \"image/png\",\n          \"download\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar\",\n
+        \         \"filename\": \"537436_foto_parlamentar\",\n          \"height\":
+        \"350\",\n          \"size\": \"202988\",\n          \"width\": \"350\"\n
+        \       }\n      ],\n      \"partido\": [\n        {\n          \"title\":
+        \"Un\xE3o Brasil\",\n          \"token\": \"Uni\xE3o Brasil\"\n        }\n
+        \     ],\n      \"title\": \"Thais Andrade\",\n      \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar\"\n
+        \   }\n  ]\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '22979'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:24 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

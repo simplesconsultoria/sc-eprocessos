@@ -1,0 +1,183 @@
+{
+  "@id": "/@@vereadores/556174",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Jair Ferraz &amp;eacute; bacharel em Direito, profissional da &amp;aacute;rea de eventos, tendo sido respons&amp;aacute;vel pela realiza&amp;ccedil;&amp;atilde;o do Uberl&amp;acirc;ndia Show; Villa Mix Uberl&amp;acirc;ndia e de eventos carnavalescos na cidade. Desde 22 janeiro de 2021, nomeado pelo Prefeito Odelmo Le&amp;atilde;o, vinha ocupando o cargo de Diretor de Turismo da Secretaria de Cultura e Turismo de Uberl&amp;acirc;ndia.&lt;/p&gt;\r\n&lt;p&gt;Nas elei&amp;ccedil;&amp;otilde;es municipais de 2020, obteve 1.252 no PSDB, quando se tornou o primeiro suplente da legenda, atr&amp;aacute;s apenas dos vereadores Ant&amp;ocirc;nio Carrijo e Gl&amp;aacute;ucia da Sa&amp;uacute;de.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;FAM&amp;Iacute;LIA&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Casado com Marina &amp;eacute; pai do pequeno Joaquim. &amp;Eacute; filho da Doutora e Mestre em Medicina Veterin&amp;aacute;ria e professora de Farmacologia da UFU (aposentada), Jussara de Sousa Carneiro e do ex-vereador e ex-presidente da C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia por tr&amp;ecirc;s mandados, H&amp;eacute;lio &amp;lsquo;Baiano&amp;rsquo; Ferraz.&lt;/p&gt;\r\n&lt;p&gt;Irm&amp;atilde;o por parte de m&amp;atilde;e do Marcelo, Assessor de Transporte A&amp;eacute;reo da Delega&amp;ccedil;&amp;atilde;o Brasileira na Organiza&amp;ccedil;&amp;atilde;o de Avia&amp;ccedil;&amp;atilde;o Civil Internacional (OACI) - The International Civil Aviation Organization, residente em Montreal, Quebec, Canad&amp;aacute; e da turism&amp;oacute;loga e professora de Educa&amp;ccedil;&amp;atilde;o F&amp;iacute;sica, Carolina, residente em West Palm Beach, Estados Unidos.&lt;/p&gt;\r\n&lt;p&gt;Irm&amp;atilde;o por parte de pai do Br&amp;aacute;ulio Ferraz, Helinho Ferraz e da Helena Ferraz. O vereador Jair Ferraz &amp;eacute; bisneto materno dos professores Jos&amp;eacute; Ign&amp;aacute;cio de Souza e Ana Godoy de Souza, pioneiros educacionais em Uberl&amp;acirc;ndia e que fazem parte da hist&amp;oacute;ria do ensino em nossa cidade. O ex-vereador e presidente da C&amp;acirc;mara (1961), Dr. Manoel Thomaz Teixeira de Souza e o m&amp;eacute;dico cirurgi&amp;atilde;o e vice-prefeito de Uberl&amp;acirc;ndia (1967-1970), Dr. Arnaldo Godoy de Souza, s&amp;atilde;o seus tios-av&amp;oacute;s.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;CULTURA - ESPORTE - TURISMO&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Ao chegar a C&amp;acirc;mara como vereador, Jair Ferraz afirmou que &amp;ldquo;quero continuar olhando com carinho para as quest&amp;otilde;es culturais e esportivas da cidade. Somos polo log&amp;iacute;stico e de neg&amp;oacute;cios do Brasil, temos que dar as caras e mostrar nossa riqueza cultural constru&amp;iacute;da nestes mais de 134 anos de hist&amp;oacute;ria. Precisamos cuidar de todos profissionais do ramo de entretenimento que n&amp;atilde;o possuem uma representatividade efetiva junto ao poder p&amp;uacute;blico, al&amp;eacute;m de oferecer pol&amp;iacute;ticas p&amp;uacute;blicas que apoiem a causa&amp;rdquo;, afirmou.&lt;/p&gt;\r\n&lt;p&gt;Jair afirmou ainda que Uberl&amp;acirc;ndia &amp;eacute; &amp;ldquo;ber&amp;ccedil;o de grandes times de futebol, futsal, v&amp;ocirc;lei, basquete, rugby, dentre tantos outros, com campeonatos amadores de n&amp;iacute;vel profissional e referencia nos esportes paraol&amp;iacute;mpicos, nossa cidade merece investimentos na &amp;aacute;rea para que tenhamos mais atletas de alto n&amp;iacute;vel, consigamos manter quem hoje nos representa e ainda incentivamos a pr&amp;aacute;tica do esporte entre a popula&amp;ccedil;&amp;atilde;o, j&amp;aacute; que esporte tamb&amp;eacute;m &amp;eacute; sa&amp;uacute;de\"!&lt;/p&gt;",
+  "birthday": "1988-03-18",
+  "cod_autor": "556174",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "17",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "13",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/31",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Diversidade",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "31",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/02/2024 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "01/01/2023 a 04/04/2024",
+      "end": "2024-04-04",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "ad hoc"
+    }
+  ],
+  "description": "Jair Ferraz",
+  "email": "jairferraz@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2024-03-26",
+      "filiacao_atual": true,
+      "title": "PROGRESSISTAS",
+      "token": "PP"
+    },
+    {
+      "data_desfiliacao": "2024-03-25",
+      "data_filiacao": "2020-01-01",
+      "filiacao_atual": false,
+      "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "token": "PSDB"
+    }
+  ],
+  "id": "556174",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+      "filename": "556174_foto_parlamentar",
+      "height": "350",
+      "size": "206052",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3343"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-04-04",
+      "id": 19,
+      "natureza": "Suplente",
+      "start": "2023-07-04",
+      "votos": ""
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1121",
+  "title": "Jair Ferraz",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar"
+}

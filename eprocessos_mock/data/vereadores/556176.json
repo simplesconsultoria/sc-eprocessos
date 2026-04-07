@@ -1,0 +1,101 @@
+{
+  "@id": "/@@vereadores/556176",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Meu nome &amp;eacute; Angela Aparecida Caetano, mais conhecida como Angela do Postinho. Nasci em S&amp;atilde;o Gotardo e, h&amp;aacute; 40 anos, escolhi Uberl&amp;acirc;ndia para ser minha cidade, onde constru&amp;iacute; minha vida e minha trajet&amp;oacute;ria. Sou casada h&amp;aacute; 30 anos, e com meu esposo, temos uma filha maravilhosa, Jacqueline, que, em 2024, me presenteou com a alegria de ser av&amp;oacute; da Valentina, minha netinha.&lt;/p&gt;\r\n&lt;p&gt;Desde cedo, me interessei por &amp;aacute;reas que envolvem o bem-estar humano e a justi&amp;ccedil;a social. Tenho diversos cursos voltados para os direitos humanos e, apesar de n&amp;atilde;o ter conclu&amp;iacute;do o ensino superior, sempre nutri o sonho de me formar em Psicologia ou Servi&amp;ccedil;o Social, &amp;aacute;reas com as quais me identifico profundamente.&lt;/p&gt;\r\n&lt;p&gt;Minha trajet&amp;oacute;ria profissional come&amp;ccedil;ou com trabalhos que exigiam muita dedica&amp;ccedil;&amp;atilde;o e cuidado, como bab&amp;aacute; e em uma granja de vacina&amp;ccedil;&amp;atilde;o. No entanto, foi como agente de sa&amp;uacute;de que me encontrei verdadeiramente. Durante os anos em que atuei na &amp;aacute;rea, fui carinhosamente apelidada de \"Angela do Postinho\" pelos moradores da comunidade, e pude vivenciar de perto as dificuldades e necessidades da popula&amp;ccedil;&amp;atilde;o. Esse trabalho me aproximou ainda mais da realidade das pessoas, alimentando meu desejo de lutar por mais direitos e melhores condi&amp;ccedil;&amp;otilde;es de vida para todos. Em 2012, tomei a decis&amp;atilde;o de dar um passo ousado: coloquei meu nome &amp;agrave; disposi&amp;ccedil;&amp;atilde;o para disputar uma vaga na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia.&lt;/p&gt;\r\n&lt;p&gt;Obtive 614 votos, um feito importante, que me motivou ainda mais a continuar no caminho da pol&amp;iacute;tica. N&amp;atilde;o fui eleita naquele momento, mas esse sonho de representar a popula&amp;ccedil;&amp;atilde;o nunca deixou de existir. Nos anos seguintes, iniciei minha atua&amp;ccedil;&amp;atilde;o como assessora parlamentar, um papel que me permitiu ampliar meu alcance e fazer a diferen&amp;ccedil;a na vida das pessoas. Ao longo dessa jornada, consegui promover e apoiar diversas a&amp;ccedil;&amp;otilde;es importantes para a comunidade, com destaque para melhorias nas &amp;aacute;reas de sa&amp;uacute;de, infraestrutura, educa&amp;ccedil;&amp;atilde;o e lazer. Tamb&amp;eacute;m estive &amp;agrave; frente de eventos como o Dia da Mulher, festas juninas, comemora&amp;ccedil;&amp;otilde;es de Dia das Crian&amp;ccedil;as e o Natal, sempre com o objetivo de promover a inclus&amp;atilde;o e combater as desigualdades sociais.&lt;/p&gt;\r\n&lt;p&gt;Em 2024, com um trabalho de muita dedica&amp;ccedil;&amp;atilde;o, fui novamente candidata, e dessa vez conquistei 3.135 votos. Essa vit&amp;oacute;ria representa uma grande responsabilidade, e tenho o compromisso de honrar a confian&amp;ccedil;a de cada pessoa que acreditou no meu trabalho e no meu compromisso com a cidade. O meu trabalho continua sendo pautado pelo cuidado com a popula&amp;ccedil;&amp;atilde;o e pela luta constante por mais justi&amp;ccedil;a social, condi&amp;ccedil;&amp;otilde;es dignas de vida e oportunidades para todos.&lt;/p&gt;\r\n&lt;p&gt;Este &amp;eacute; o meu compromisso, e sigo com a certeza de que posso continuar fazendo a diferen&amp;ccedil;a na vida das pessoas.&lt;/p&gt;",
+  "birthday": "1972-11-08",
+  "cod_autor": "556181",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "17",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Ângela Aparecida Caetano Souza",
+  "email": "angeladopostinho@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "Solidariedade",
+      "token": "Solidariedade"
+    }
+  ],
+  "id": "556176",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar",
+      "filename": "556176_foto_parlamentar",
+      "height": "350",
+      "size": "222042",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3135"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1161 | (34) 3239-1162",
+  "title": "Ângela Do Postinho",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar"
+}

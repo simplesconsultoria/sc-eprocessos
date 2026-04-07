@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="sc.eprocessos.interfaces.IEProcessosSettings"
+           prefix="eprocessos"
+  >
+    <value key="base_url">http://localhost/</value>
+    <value key="default_timeout">30</value>
+    <value key="max_retries">3</value>
+    <value key="retry_delay">1.0</value>
+  </records>
+</registry>

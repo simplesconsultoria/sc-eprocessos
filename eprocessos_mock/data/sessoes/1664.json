@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1664",
+  "@id_presenca": "/@@sessoes/id/1664/presenca",
+  "@id_votacao": "/@@sessoes/id/1664/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1664_ata_sessao.pdf",
+      "filename": "1664_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-03-11",
+  "description": "8ª Reunião Ordinária - 11/03/2026",
+  "endTime": "",
+  "id": "1664",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1664_pauta_sessao.pdf",
+      "filename": "1664_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "8ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

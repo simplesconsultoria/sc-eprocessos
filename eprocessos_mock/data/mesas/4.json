@@ -1,0 +1,155 @@
+{
+  "@id": "/@@mesas/4",
+  "@type": "Mesa",
+  "atual": false,
+  "description": "Composição da mesa diretora",
+  "end": "2020-12-31",
+  "id": "4",
+  "items": [
+    {
+      "@id": "/@@vereadores/528006",
+      "@type": "ParticipanteMesa",
+      "cargo": "Presidente",
+      "description": "Ronaldo César Vilela Tannús",
+      "id": "528006",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "filename": "528006_foto_parlamentar",
+          "height": "350",
+          "size": "219680",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Ronaldo Tannús",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399041",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Antônio Carrijo",
+      "id": "399041",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+          "filename": "399041_foto_parlamentar",
+          "height": "350",
+          "size": "205422",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Antônio Carrijo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/526698",
+      "@type": "ParticipanteMesa",
+      "cargo": "2º Vice-Presidente",
+      "description": "Leandro Cassiano Neves",
+      "id": "526698",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
+          "filename": "526698_foto_parlamentar",
+          "height": "350",
+          "size": "155775",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+          "token": "PRD"
+        }
+      ],
+      "title": "Leandro Neves",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/528007",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Secretário",
+      "description": "Sergimar Antonio de Melo",
+      "id": "528007",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+          "filename": "528007_foto_parlamentar",
+          "height": "350",
+          "size": "159012",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sérgio do Bom Preço",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/526697",
+      "@type": "ParticipanteMesa",
+      "cargo": "2ª Secretário",
+      "description": "Ednaldo Régio de Lima",
+      "id": "526697",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "filename": "526697_foto_parlamentar",
+          "height": "350",
+          "size": "223533",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sargento Ednaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/430275",
+      "@type": "ParticipanteMesa",
+      "cargo": "3ª Vice-Presidente",
+      "description": "Pastor Átila",
+      "id": "430275",
+      "image": [],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Pastor Átila",
+      "url_foto": "/imagens/avatar.png"
+    }
+  ],
+  "legislatura": "18ª Legislatura",
+  "legislatura_id": "/@@legislaturas/18",
+  "start": "2020-02-17",
+  "title": "17/02/2020 a 31/12/2020"
+}

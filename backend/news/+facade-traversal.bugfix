@@ -1,0 +1,1 @@
+Fixed traversal to non-persistent items under `++api++` by overriding `EProcessosFacade.__getitem__`, since `plone.rest.RESTWrapper` instantiates `DefaultPublishTraverse` directly and bypasses registered `IPublishTraverse` adapters. Names starting with `@` are passed through so that REST services like `@lock` and `@sharing` keep working. @ericof

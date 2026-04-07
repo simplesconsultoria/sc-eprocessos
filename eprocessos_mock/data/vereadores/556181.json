@@ -1,0 +1,101 @@
+{
+  "@id": "/@@vereadores/556181",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Natural de Arcos - MG, &lt;strong&gt;Nei Carlos&lt;/strong&gt; Borges mudou-se para Uberl&amp;acirc;ndia em 1975 com sua fam&amp;iacute;lia. T&amp;eacute;cnico em Contabilidade, &amp;eacute; casado com &lt;strong&gt;&amp;Acirc;ngela Regina do Amaral Borges&lt;/strong&gt; e pai de &lt;strong&gt;Guilherme &lt;/strong&gt;e &lt;strong&gt;Gabriel&lt;/strong&gt;.&lt;/p&gt;\r\n&lt;p&gt;Desde jovem, demonstrou voca&amp;ccedil;&amp;atilde;o para a pol&amp;iacute;tica, acompanhando campanhas e discursos de grandes l&amp;iacute;deres. Atuou por &lt;strong&gt;10 anos como l&amp;iacute;der comunit&amp;aacute;rio&lt;/strong&gt;, buscando melhorias em &lt;strong&gt;Sa&amp;uacute;de, Educa&amp;ccedil;&amp;atilde;o, Infraestrutura e Seguran&amp;ccedil;a&lt;/strong&gt;.&lt;/p&gt;\r\n&lt;p&gt;Eleito &lt;strong&gt;vereador em 2024 com 2.896&lt;/strong&gt; votos, dedica-se a representar e servir a popula&amp;ccedil;&amp;atilde;o, garantindo direitos e qualidade de vida para todos. &lt;strong&gt;Com f&amp;eacute; e gratid&amp;atilde;o, segue sua miss&amp;atilde;o de trabalhar por uma Uberl&amp;acirc;ndia melhor&lt;/strong&gt;.&lt;/p&gt;",
+  "birthday": "1969-07-06",
+  "cod_autor": "556186",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Nei Carlos Borges",
+  "email": "neiborges@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "Solidariedade",
+      "token": "Solidariedade"
+    }
+  ],
+  "id": "556181",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar",
+      "filename": "556181_foto_parlamentar",
+      "height": "350",
+      "size": "217149",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "2896"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1225 | (34) 3239-1226",
+  "title": "Nei Borges",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar"
+}

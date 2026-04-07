@@ -1,0 +1,123 @@
+{
+  "@id": "/@@vereadores/556184",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Professor Ronaldo: Vereador em Exerc&amp;iacute;cio, Compromisso com a Educa&amp;ccedil;&amp;atilde;o e os Direitos do Povo&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Ronaldo Am&amp;eacute;lio Ferreira, conhecido como Professor Ronaldo, &amp;eacute; vereador de Uberl&amp;acirc;ndia pelo Partido dos Trabalhadores (PT) e um dos principais defensores da educa&amp;ccedil;&amp;atilde;o, dos servidores p&amp;uacute;blicos e dos direitos da popula&amp;ccedil;&amp;atilde;o trabalhadora. Eleito com forte apoio popular, Ronaldo traz para o legislativo sua trajet&amp;oacute;ria de luta dentro e fora das salas de aula.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Professor da rede p&amp;uacute;blica de ensino, Ronaldo sempre esteve na linha de frente da defesa da educa&amp;ccedil;&amp;atilde;o de qualidade e valoriza&amp;ccedil;&amp;atilde;o dos profissionais da &amp;aacute;rea. Formado pela Universidade Federal de Uberl&amp;acirc;ndia, construiu sua carreira dentro do movimento sindical e popular, sendo um dos principais articuladores das lutas em defesa dos direitos trabalhistas e sociais em Uberl&amp;acirc;ndia.&lt;/p&gt;\r\n&lt;p&gt;Desde o in&amp;iacute;cio do mandato, Professor Ronaldo se destacou na C&amp;acirc;mara Municipal pela atua&amp;ccedil;&amp;atilde;o combativa e fiscalizadora. Ele tem como principais pautas:&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;* Defesa da Educa&amp;ccedil;&amp;atilde;o P&amp;uacute;blica &amp;ndash; luta pela valoriza&amp;ccedil;&amp;atilde;o dos professores e professoras, servidores e servidoras da educa&amp;ccedil;&amp;atilde;o, condi&amp;ccedil;&amp;otilde;es dignas de trabalho e escolas estruturadas.&lt;/p&gt;\r\n&lt;p&gt;* Transpar&amp;ecirc;ncia e fiscaliza&amp;ccedil;&amp;atilde;o do Executivo &amp;ndash; cobra investimentos reais em &amp;aacute;reas essenciais, como sa&amp;uacute;de e transporte p&amp;uacute;blico.&lt;/p&gt;\r\n&lt;p&gt;* Direitos dos Trabalhadores(as) e Servidores(as) P&amp;uacute;blicos &amp;ndash; combate abusos, precariza&amp;ccedil;&amp;atilde;o e injusti&amp;ccedil;as na administra&amp;ccedil;&amp;atilde;o p&amp;uacute;blica.&lt;/p&gt;\r\n&lt;p&gt;* Mobilidade Urbana &amp;ndash; questiona aumentos abusivos da passagem e defende um transporte p&amp;uacute;blico acess&amp;iacute;vel e de qualidade.&lt;/p&gt;\r\n&lt;p&gt;* Compromisso com a Cultura e os Movimentos Populares &amp;ndash; valoriza as manifesta&amp;ccedil;&amp;otilde;es culturais locais e d&amp;aacute; voz aos setores historicamente esquecidos pelo poder p&amp;uacute;blico.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Professor Ronaldo acredita na pol&amp;iacute;tica como ferramenta de transforma&amp;ccedil;&amp;atilde;o social. Seu mandato est&amp;aacute; sempre aberto para ouvir a popula&amp;ccedil;&amp;atilde;o e lutar por suas demandas. Diferente da pol&amp;iacute;tica tradicional, Ronaldo n&amp;atilde;o se esconde da luta &amp;ndash; ele est&amp;aacute; nas ruas, nos protestos e dentro da C&amp;acirc;mara defendendo os interesses do povo.&lt;/p&gt;",
+  "birthday": "1974-05-12",
+  "cod_autor": "556189",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/31",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Diversidade",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "31",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Ronaldo Amélio Ferreira",
+  "email": "professorronaldo@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "PARTIDO DOS TRABALHADORES",
+      "token": "PT"
+    }
+  ],
+  "id": "556184",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar",
+      "filename": "556184_foto_parlamentar",
+      "height": "350",
+      "size": "215643",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3895"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1114 | 3239-1115",
+  "title": "Prof. Ronaldo",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar"
+}

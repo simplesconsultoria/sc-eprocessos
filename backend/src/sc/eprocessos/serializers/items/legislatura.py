@@ -1,0 +1,11 @@
+"""Serializer for LegislaturaItem."""
+
+from sc.eprocessos.interfaces import IBrowserLayer
+from sc.eprocessos.interfaces import ILegislaturaItem
+from sc.eprocessos.serializers.items.base import BaseItemSerializer
+from zope.component import adapter
+
+
+@adapter(ILegislaturaItem, IBrowserLayer)
+class SerializeLegislaturaItemToJson(BaseItemSerializer):
+    pass

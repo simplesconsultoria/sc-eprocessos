@@ -1,0 +1,682 @@
+{
+  "@id": "/@@vereadores",
+  "@type": "Vereadores",
+  "description": "Lista de Vereadores em exercício",
+  "items": [
+    {
+      "@id": "/@@vereadores/546914",
+      "@type": "Vereador",
+      "description": "Abatenio de Andrade Marquez Neto",
+      "dic_vereador": "546914",
+      "id": "546914",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar",
+          "filename": "546914_foto_parlamentar",
+          "height": "350",
+          "size": "221654",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Abatenio Marquez",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/25988",
+      "@type": "Vereador",
+      "description": "Adriano Zago",
+      "dic_vereador": "25988",
+      "id": "25988",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "filename": "25988_foto_parlamentar",
+          "height": "350",
+          "size": "217172",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "AVANTE",
+          "token": "AVANTE"
+        }
+      ],
+      "title": "Adriano Zago",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537428",
+      "@type": "Vereador",
+      "description": "Amanda Gondim",
+      "dic_vereador": "537428",
+      "id": "537428",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "filename": "537428_foto_parlamentar",
+          "height": "350",
+          "size": "193355",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Amanda Gondim",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537427",
+      "@type": "Vereador",
+      "description": "Anderson Lima",
+      "dic_vereador": "537427",
+      "id": "537427",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar",
+          "filename": "537427_foto_parlamentar",
+          "height": "350",
+          "size": "200492",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Anderson Lima",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556176",
+      "@type": "Vereador",
+      "description": "Ângela Aparecida Caetano Souza",
+      "dic_vereador": "556181",
+      "id": "556176",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar",
+          "filename": "556176_foto_parlamentar",
+          "height": "350",
+          "size": "222042",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Ângela Do Postinho",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537380",
+      "@type": "Vereador",
+      "description": "Antônio Augusto Gonçalves Goulart",
+      "dic_vereador": "537380",
+      "id": "537380",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar",
+          "filename": "537380_foto_parlamentar",
+          "height": "350",
+          "size": "212525",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Antônio Augusto Queijinho",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399041",
+      "@type": "Vereador",
+      "description": "Antônio Carrijo",
+      "dic_vereador": "399041",
+      "id": "399041",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+          "filename": "399041_foto_parlamentar",
+          "height": "350",
+          "size": "205422",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Antônio Carrijo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556182",
+      "@type": "Vereador",
+      "description": "Celisvaldo da Silva ",
+      "dic_vereador": "556187",
+      "id": "556182",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar",
+          "filename": "556182_foto_parlamentar",
+          "height": "350",
+          "size": "223072",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "DEMOCRACIA CRISTÃ",
+          "token": "DC"
+        }
+      ],
+      "title": "Pezão Do Esporte",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556183",
+      "@type": "Vereador",
+      "description": "Conrado Augusto Ferreira de Oliveira",
+      "dic_vereador": "556188",
+      "id": "556183",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar",
+          "filename": "556183_foto_parlamentar",
+          "height": "350",
+          "size": "203791",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+          "token": "MDB"
+        }
+      ],
+      "title": "Prof. Conrado Augusto",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/526697",
+      "@type": "Vereador",
+      "description": "Ednaldo Régio de Lima",
+      "dic_vereador": "526697",
+      "id": "526697",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "filename": "526697_foto_parlamentar",
+          "height": "350",
+          "size": "223533",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sargento Ednaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556178",
+      "@type": "Vereador",
+      "description": "Edson Carvalho Ferreira",
+      "dic_vereador": "556183",
+      "id": "556178",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar",
+          "filename": "556178_foto_parlamentar",
+          "height": "350",
+          "size": "216173",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Democrata",
+          "token": "DEMOCRATA"
+        }
+      ],
+      "title": "Edinho Combate Ao Câncer",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556179",
+      "@type": "Vereador",
+      "description": "Eliusmarcio Alves de Carvalho (Elinho da Academia)",
+      "dic_vereador": "556184",
+      "id": "556179",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar",
+          "filename": "556179_foto_parlamentar",
+          "height": "350",
+          "size": "225249",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DA MOBILIZAÇÃO NACIONAL",
+          "token": "MOBILIZA"
+        }
+      ],
+      "title": "Elinho Da Academia",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537431",
+      "@type": "Vereador",
+      "description": "Fabio Dias Queiroz Zavitoski",
+      "dic_vereador": "537431",
+      "id": "537431",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar",
+          "filename": "537431_foto_parlamentar",
+          "height": "350",
+          "size": "225601",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO VERDE",
+          "token": "PV"
+        }
+      ],
+      "title": "Fabão",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/26010",
+      "@type": "Vereador",
+      "description": "Gláucia Galante Buíssa",
+      "dic_vereador": "26010",
+      "id": "26010",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "filename": "26010_foto_parlamentar",
+          "height": "350",
+          "size": "182275",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Gláucia da Saúde",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/552091",
+      "@type": "Vereador",
+      "description": "Igino Marcos da Mata de Oliveira",
+      "dic_vereador": "552091",
+      "id": "552091",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+          "filename": "552091_foto_parlamentar",
+          "height": "350",
+          "size": "224883",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Dr. Igino",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537433",
+      "@type": "Vereador",
+      "description": "Ivan da Silva Nunes",
+      "dic_vereador": "537433",
+      "id": "537433",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+          "filename": "537433_foto_parlamentar",
+          "height": "350",
+          "size": "212052",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Ivan Nunes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556174",
+      "@type": "Vereador",
+      "description": "Jair Ferraz",
+      "dic_vereador": "556174",
+      "id": "556174",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+          "filename": "556174_foto_parlamentar",
+          "height": "350",
+          "size": "206052",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Jair Ferraz",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556180",
+      "@type": "Vereador",
+      "description": "Janaina Guimarães Parreira Rezende",
+      "dic_vereador": "556185",
+      "id": "556180",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar",
+          "filename": "556180_foto_parlamentar",
+          "height": "350",
+          "size": "229921",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Janaina Guimarães",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556177",
+      "@type": "Vereador",
+      "description": "Lia Eunice Valechi da Silva",
+      "dic_vereador": "556182",
+      "id": "556177",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar",
+          "filename": "556177_foto_parlamentar",
+          "height": "350",
+          "size": "191842",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Delegada Lia Valechi",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/399022",
+      "@type": "Vereador",
+      "description": "Liza Fernandes Prado",
+      "dic_vereador": "399022",
+      "id": "399022",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "filename": "399022_foto_parlamentar",
+          "height": "350",
+          "size": "242980",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "CIDADANIA",
+          "token": "CIDADANIA"
+        }
+      ],
+      "title": "Liza Prado",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537434",
+      "@type": "Vereador",
+      "description": "Neemias Miquéias",
+      "dic_vereador": "537434",
+      "id": "537434",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+          "filename": "537434_foto_parlamentar",
+          "height": "350",
+          "size": "204520",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Neemias Miquéias",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556181",
+      "@type": "Vereador",
+      "description": "Nei Carlos Borges",
+      "dic_vereador": "556186",
+      "id": "556181",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar",
+          "filename": "556181_foto_parlamentar",
+          "height": "350",
+          "size": "217149",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Solidariedade",
+          "token": "Solidariedade"
+        }
+      ],
+      "title": "Nei Borges",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556184",
+      "@type": "Vereador",
+      "description": "Ronaldo Amélio Ferreira",
+      "dic_vereador": "556189",
+      "id": "556184",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar",
+          "filename": "556184_foto_parlamentar",
+          "height": "350",
+          "size": "215643",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Prof. Ronaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/528006",
+      "@type": "Vereador",
+      "description": "Ronaldo César Vilela Tannús",
+      "dic_vereador": "528006",
+      "id": "528006",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "filename": "528006_foto_parlamentar",
+          "height": "350",
+          "size": "219680",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Ronaldo Tannús",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/26097",
+      "@type": "Vereador",
+      "description": "Rosenvaldo Correia de Mendonça",
+      "dic_vereador": "26097",
+      "id": "26097",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "filename": "26097_foto_parlamentar",
+          "height": "350",
+          "size": "213974",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Zezinho Mendonça",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/543274",
+      "@type": "Vereador",
+      "description": "Sérvio Túlio",
+      "dic_vereador": "543274",
+      "id": "543274",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar",
+          "filename": "543274_foto_parlamentar",
+          "height": "350",
+          "size": "219550",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Sérvio Túlio",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537436",
+      "@type": "Vereador",
+      "description": "Thais Andrade",
+      "dic_vereador": "537436",
+      "id": "537436",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+          "filename": "537436_foto_parlamentar",
+          "height": "350",
+          "size": "202988",
+          "width": "350"
+        }
+      ],
+      "partido": [
+        {
+          "title": "Unão Brasil",
+          "token": "União Brasil"
+        }
+      ],
+      "title": "Thais Andrade",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar"
+    }
+  ]
+}

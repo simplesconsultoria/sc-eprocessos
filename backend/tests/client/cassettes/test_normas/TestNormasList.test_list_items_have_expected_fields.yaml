@@ -1,0 +1,1828 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@normas?ano=2025&tipo=1
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas\",\n
+        \ \"@type\": \"Normas\",\n  \"description\": \"Lista de normas jur\xEDdicas
+        do ano de 2025\",\n  \"items\": [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18503\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-09-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18503\",\n      \"title\": \"Portaria n\xBA
+        439/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18504\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18504\",\n      \"title\": \"Portaria n\xBA 440/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18502\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18502\",\n      \"title\": \"Portaria n\xBA 438/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18501\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18501\",\n      \"title\": \"Portaria n\xBA 437/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18500\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-14\",\n
+        \     \"description\": \"DISP\xD5ES SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18500\",\n      \"title\": \"Portaria n\xBA 436/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18499\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18499\",\n      \"title\": \"Portaria n\xBA
+        435/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18498\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18498\",\n      \"title\": \"Portaria n\xBA 434/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18497\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18497\",\n      \"title\": \"Portaria n\xBA 433/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18496\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18496\",\n      \"title\": \"Portaria n\xBA 432/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18495\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18495\",\n      \"title\": \"Portaria n\xBA 431/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18494\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18494\",\n      \"title\": \"Portaria n\xBA 430/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18493\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18493\",\n      \"title\": \"Portaria n\xBA 429/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18492\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18492\",\n      \"title\": \"Portaria n\xBA 428/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18491\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18491\",\n      \"title\": \"Portaria n\xBA 427/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18490\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-06\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR MATHEUS VIEIRA COUTO ASTOLPHI
+        PARA RESPONDER INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\":
+        \"18490\",\n      \"title\": \"Portaria n\xBA 426/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18489\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18489\",\n      \"title\": \"Portaria n\xBA 425/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18488\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18488\",\n      \"title\": \"Portaria n\xBA 424/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18487\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18487\",\n      \"title\": \"Portaria n\xBA 423/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18486\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-05\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA ELIANE GUALBERTO PARA RESPONDER
+        INTERINAMENTE PELO CARGOS DE DIRETOR DE DEPARTAMENTO\",\n      \"id\": \"18486\",\n
+        \     \"title\": \"Portaria n\xBA 422/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18481\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-08-05\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18481\",\n
+        \     \"title\": \"Portaria n\xBA 421/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18480\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-08-04\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18480\",\n      \"title\": \"Portaria n\xBA 420/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18479\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-04\",\n
+        \     \"description\": \"CONCEDE PAGAMENTO DE LICEN\xC7A PR\xCAMIO A SERVIDORA
+        QUE MENCIONA\",\n      \"id\": \"18479\",\n      \"title\": \"Portaria n\xBA
+        419/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18478\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-08-01\",\n
+        \     \"description\": \"DECLARA EST\xC1VEL NO SERVI\xC7O P\xDABLICO A SERVIDORA
+        QUE MENCIONA\",\n      \"id\": \"18478\",\n      \"title\": \"Portaria n\xBA
+        418/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18477\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18477\",\n      \"title\": \"Portaria n\xBA 417/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18476\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18476\",\n      \"title\": \"Portaria n\xBA 416/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18475\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18475\",\n      \"title\": \"Portaria n\xBA 415/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18474\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18474\",\n      \"title\": \"Portaria n\xBA 414/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18286\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18286\",\n      \"title\": \"Portaria n\xBA
+        413/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18285\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18285\",\n      \"title\": \"Portaria
+        n\xBA 412/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18284\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR CAPACITA\xC7\xC3O PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18284\",\n      \"title\": \"Portaria
+        n\xBA 411/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18283\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18283\",\n      \"title\": \"Portaria
+        n\xBA 410/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18282\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18282\",\n      \"title\": \"Portaria n\xBA 409/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18281\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18281\",\n      \"title\": \"Portaria n\xBA 408/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18280\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-24\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18280\",\n      \"title\": \"Portaria n\xBA 407/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18279\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-24\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18279\",\n      \"title\": \"Portaria n\xBA 406/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18278\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-24\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18278\",\n      \"title\": \"Portaria n\xBA 405/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18277\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-23\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18277\",\n      \"title\": \"Portaria n\xBA 404/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18276\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-22\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A PRORROGA\xC7\xC3O DA LICEN\xC7A
+        MATERNIDADE ESTABELECIDA NA LEI COMPLEMENTAR N\xBA 516/2010\",\n      \"id\":
+        \"18276\",\n      \"title\": \"Portaria n\xBA 403/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18275\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-22\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A PRORROGA\xC7\xC3O DA LICEN\xC7A
+        MATERNIDADE ESTABELECIDA NA LEI COMPLEMENTAR N\xBA 516/2010\",\n      \"id\":
+        \"18275\",\n      \"title\": \"Portaria n\xBA 402/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18274\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-22\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR SANDOVAL SARAIVA PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\": \"18274\",\n
+        \     \"title\": \"Portaria n\xBA 401/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18273\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-07-21\",\n      \"description\":
+        \"CONCEDE PROGRESS\xC3O \xC0 SERVIDORA QUE MENCIONA\",\n      \"id\": \"18273\",\n
+        \     \"title\": \"Portaria n\xBA 400/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18272\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-07-21\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18272\",\n
+        \     \"title\": \"Portaria n\xBA 399/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18271\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-07-15\",\n      \"description\":
+        \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18271\",\n
+        \     \"title\": \"Portaria n\xBA 398/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18270\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-07-10\",\n      \"description\":
+        \"DESIGNA A SERVIDORA HELEN CRISTINA VIEIRA FREITAS PARA RESPONDER INTERINAMENTE
+        PELO CARGO DE SECRET\xC1RIO GERAL\",\n      \"id\": \"18270\",\n      \"title\":
+        \"Portaria n\xBA 397/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18269\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18269\",\n      \"title\": \"Portaria n\xBA 396/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18268\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-09\",\n
+        \     \"description\": \"PRORROGA O PRAZO DE CONCLUS\xC3O DOS TRABALHOS DA
+        COMISS\xC3O PROCESSANTE INSTITU\xCDDA PELA PORTARIA N\xBA 257/2025\",\n      \"id\":
+        \"18268\",\n      \"title\": \"Portaria n\xBA 395/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18267\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18267\",\n      \"title\": \"Portaria n\xBA
+        394/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18266\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18266\",\n      \"title\": \"Portaria n\xBA
+        393/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18265\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18265\",\n      \"title\": \"Portaria n\xBA 392/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18264\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18264\",\n      \"title\": \"Portaria n\xBA
+        391/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18263\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18263\",\n      \"title\": \"Portaria n\xBA 390/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18262\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-07\",\n
+        \     \"description\": \"DECLARA EST\xC1VEL NO SERVI\xC7O P\xDABLICO MUNICIPAL
+        O SERVIDOR QUE MENCIONA\",\n      \"id\": \"18262\",\n      \"title\": \"Portaria
+        n\xBA 389/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18261\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18261\",\n      \"title\": \"Portaria n\xBA 388/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18260\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18260\",\n      \"title\": \"Portaria n\xBA 387/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18259\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DESIGNA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18259\",\n      \"title\": \"Portaria n\xBA 386/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18258\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA QUE MENCIONA\",\n      \"id\":
+        \"18258\",\n      \"title\": \"Portaria n\xBA 385/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18257\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-03\",\n
+        \     \"description\": \"CANCELA EMPENHOS INSCRITOS EM RESTOS A PAGAR DO EXERC\xCDCIO
+        DE 2024 E D\xC1 OUTRAS PROVID\xCANCIAS\",\n      \"id\": \"18257\",\n      \"title\":
+        \"Portaria n\xBA 384/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18256\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18256\",\n      \"title\": \"Portaria n\xBA 383/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18255\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-01\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18255\",\n      \"title\": \"Portaria n\xBA
+        382/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18254\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-01\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA AMANDA MACEDO DE CAMARGOS PARA
+        RESPONDER INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\":
+        \"18254\",\n      \"title\": \"Portaria n\xBA 381/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18253\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-07-01\",\n
+        \     \"description\": \"DECLARA EST\xC1VEL NO SERVI\xC7O P\xDABLICO  MUNICIPAL
+        OS SERVIDORES QUE MENCIONA\",\n      \"id\": \"18253\",\n      \"title\":
+        \"Portaria n\xBA 380/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18221\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18221\",\n      \"title\": \"Portaria n\xBA 379/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18220\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18220\",\n      \"title\": \"Portaria n\xBA 378/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18219\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-30\",\n
+        \     \"description\": \"DISP\xD5E  SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18219\",\n      \"title\": \"Portaria n\xBA
+        377/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18218\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18218\",\n      \"title\": \"Portaria n\xBA 376/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18217\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18217\",\n      \"title\": \"Portaria n\xBA 375/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18216\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18216\",\n      \"title\": \"Portaria n\xBA
+        374/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18215\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18215\",\n      \"title\": \"Portaria n\xBA 373/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18214\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18214\",\n      \"title\": \"Portaria n\xBA
+        372/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18213\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18213\",\n      \"title\": \"Portaria n\xBA
+        371/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18212\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-25\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DATA DE PAGAMENTO DA FOLHA DE SUBS\xCDDIOS
+        E VENCIMENTOS DA C\xC2MARA MUNICIPAL DE UBERL\xC2NDIA\",\n      \"id\": \"18212\",\n
+        \     \"title\": \"Portaria n\xBA 370/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18211\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-06-24\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18211\",\n
+        \     \"title\": \"Portaria n\xBA 369/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18210\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-06-24\",\n      \"description\":
+        \"CONCEDE PROGRESS\xC3O POR CAPACITA\xC7\xC3O PROFISSIONAL A SERVIDORA QUE
+        MENCIONA\",\n      \"id\": \"18210\",\n      \"title\": \"Portaria n\xBA 368/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18209\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-23\",\n
+        \     \"description\": \"CONCEDE PAGAMENTO DE LICEN\xC7A PR\xCAMIO AO SERVIDOR
+        QUE MENCIONA\",\n      \"id\": \"18209\",\n      \"title\": \"Portaria n\xBA
+        367/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18208\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-18\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA ELOISA FERNANDES RIBEIRO PARA
+        RESPONDER INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\":
+        \"18208\",\n      \"title\": \"Portaria n\xBA 366/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18207\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE O EXPEDIENTE DA C\xC2MARA MUNICIPAL
+        DE UBERL\xC2NDIA  NO DIA 20 DE JUNHO DE 2025\",\n      \"id\": \"18207\",\n
+        \     \"title\": \"Portaria n\xBA 365/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18206\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-06-12\",\n      \"description\":
+        \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18206\",\n
+        \     \"title\": \"Portaria n\xBA 364/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18205\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-06-12\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18205\",\n      \"title\": \"Portaria n\xBA 363/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18204\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18204\",\n      \"title\": \"Portaria n\xBA 362/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18203\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18203\",\n      \"title\": \"Portaria n\xBA
+        361/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18202\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18202\",\n      \"title\": \"Portaria n\xBA 360/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18201\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18201\",\n      \"title\": \"Portaria n\xBA 359/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18200\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18200\",\n      \"title\": \"Portaria n\xBA
+        358/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18199\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18199\",\n      \"title\": \"Portaria n\xBA 357/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18198\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18198\",\n      \"title\": \"Portaria n\xBA 356/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18197\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18197\",\n      \"title\": \"Portaria n\xBA
+        355/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18196\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18196\",\n      \"title\": \"Portaria n\xBA 354/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18195\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18195\",\n      \"title\": \"Portaria n\xBA
+        353/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18194\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18194\",\n      \"title\": \"Portaria n\xBA 352/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18193\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18193\",\n      \"title\": \"Portaria n\xBA 351/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18192\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18192\",\n      \"title\": \"Portaria n\xBA
+        350/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18191\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18191\",\n      \"title\": \"Portaria n\xBA 349/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18190\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-02\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA AMANDA MACEDO DE CAMARGOS PARA
+        RESPONDER INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\":
+        \"18190\",\n      \"title\": \"Portaria n\xBA 348/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18189\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18189\",\n      \"title\": \"Portaria n\xBA 347/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18188\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18188\",\n      \"title\": \"Portaria n\xBA
+        346/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18187\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18187\",\n      \"title\": \"Portaria n\xBA 345/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18186\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-06-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18186\",\n      \"title\": \"Portaria n\xBA 344/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18185\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18185\",\n      \"title\": \"Portaria n\xBA
+        343/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18184\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18184\",\n      \"title\": \"Portaria n\xBA
+        342/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18183\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18183\",\n      \"title\": \"Portaria n\xBA
+        341/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18182\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18182\",\n      \"title\": \"Portaria n\xBA 340/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18181\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18181\",\n      \"title\": \"Portaria n\xBA 339/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18180\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18180\",\n      \"title\": \"Portaria n\xBA 338/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18179\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18179\",\n      \"title\": \"Portaria n\xBA 337/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18178\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR ROBSON COSTA MELLO PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\": \"18178\",\n
+        \     \"title\": \"Portaria n\xBA 336/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18177\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n      \"description\":
+        \"DESIGNA A SERVIDORA ANDREA ALVES RODRIGUES PARA RESPONDER INTERINAMENTE
+        PELO CARGO DE DIRETOR DE DEPARTAMENTO\",\n      \"id\": \"18177\",\n      \"title\":
+        \"Portaria n\xBA 335/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18176\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES  E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18176\",\n      \"title\": \"Portaria n\xBA
+        334/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18175\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18175\",\n      \"title\": \"Portaria n\xBA 333/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18174\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18174\",\n      \"title\": \"Portaria n\xBA 332/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18173\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18173\",\n      \"title\": \"Portaria n\xBA 331/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18172\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18172\",\n      \"title\": \"Portaria n\xBA
+        330/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18171\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18171\",\n      \"title\": \"Portaria n\xBA
+        329/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18170\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA E A NOMEA\xC7\xC3O QUE
+        MENCIONA\",\n      \"id\": \"18170\",\n      \"title\": \"Portaria n\xBA 328/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18169\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA E A NOMEA\xC7\xC3O QUE
+        MENCIONA\",\n      \"id\": \"18169\",\n      \"title\": \"Portaria n\xBA 327/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18167\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA E A NOMEA\xC7\xC3O QUE
+        MENCIONA\",\n      \"id\": \"18167\",\n      \"title\": \"Portaria n\xBA 326/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18166\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA E A NOMEA\xC7\xC3O QUE
+        MENCIONA\",\n      \"id\": \"18166\",\n      \"title\": \"Portaria n\xBA 325/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18165\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA E A NOMEA\xC7\xC3O QUE
+        MENCIONA\",\n      \"id\": \"18165\",\n      \"title\": \"Portaria n\xBA 324/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18164\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18164\",\n      \"title\": \"Portaria n\xBA 323/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18163\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18163\",\n      \"title\": \"Portaria n\xBA 322/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18162\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-23\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18162\",\n      \"title\": \"Portaria n\xBA 321/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18160\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-23\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR EDSON VICENTE DA SILVA PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\": \"18160\",\n
+        \     \"title\": \"Portaria n\xBA 320/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18159\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-05-23\",\n      \"description\":
+        \"DESIGNA A SERVIDORA AINA CHAVES OLIVEIRA PARA RESPONDER INTERINAMENTE PELO
+        CARGO DE DIRETOR DE DEPARTAMENTO\",\n      \"id\": \"18159\",\n      \"title\":
+        \"Portaria n\xBA 319/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18158\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18158\",\n      \"title\": \"Portaria n\xBA 318/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18157\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18157\",\n      \"title\": \"Portaria n\xBA 317/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18156\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18156\",\n      \"title\": \"Portaria n\xBA 316/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18155\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18155\",\n      \"title\": \"Portaria n\xBA 315/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18154\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18154\",\n      \"title\": \"Portaria n\xBA 314/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18153\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-16\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18153\",\n      \"title\": \"Portaria n\xBA 313/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18152\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-16\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18152\",\n      \"title\": \"Portaria n\xBA 312/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18151\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18151\",\n      \"title\": \"Portaria n\xBA 311/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18150\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18150\",\n      \"title\": \"Portaria n\xBA 310/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18161\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18161\",\n      \"title\": \"Portaria n\xBA 309/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18149\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18149\",\n      \"title\": \"Portaria n\xBA 308/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18148\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18148\",\n      \"title\": \"Portaria n\xBA 307/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18147\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18147\",\n      \"title\": \"Portaria n\xBA 306/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18146\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18146\",\n      \"title\": \"Portaria n\xBA 305/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18145\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18145\",\n      \"title\": \"Portaria n\xBA 304/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18144\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18144\",\n      \"title\": \"Portaria n\xBA 303/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18143\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18143\",\n      \"title\": \"Portaria n\xBA 302/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18142\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18142\",\n      \"title\": \"Portaria n\xBA 301/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18141\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18141\",\n      \"title\": \"Portaria n\xBA 300/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18140\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18140\",\n      \"title\": \"Portaria n\xBA 299/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18139\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18139\",\n      \"title\": \"Portaria n\xBA 298/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18138\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18138\",\n      \"title\": \"Portaria n\xBA 297/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18137\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18137\",\n      \"title\": \"Portaria n\xBA 296/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18136\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18136\",\n      \"title\": \"Portaria n\xBA 295/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18135\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-06\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA FRANCES NEY DA COSTA PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE DIRETOR DE DEPARTAMENTO\",\n      \"id\": \"18135\",\n
+        \     \"title\": \"Portaria n\xBA 294/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18134\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-05-06\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18134\",\n
+        \     \"title\": \"Portaria n\xBA 293/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18133\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-05-05\",\n      \"description\":
+        \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18133\",\n
+        \     \"title\": \"Portaria n\xBA 292/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18132\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-05-05\",\n      \"description\":
+        \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18132\",\n      \"title\": \"Portaria n\xBA 291/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18131\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18131\",\n      \"title\": \"Portaria n\xBA 290/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18130\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18130\",\n      \"title\": \"Portaria n\xBA 289/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18129\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-05-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18129\",\n      \"title\": \"Portaria n\xBA 288/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18125\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        A SERVIDORA QUE MENCIOSA\",\n      \"id\": \"18125\",\n      \"title\": \"Portaria
+        n\xBA 287/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18124\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18124\",\n      \"title\": \"Portaria
+        n\xBA 286/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18123\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-30\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18123\",\n      \"title\": \"Portaria
+        n\xBA 285/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18122\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-29\",\n
+        \     \"description\": \"PRORROGA O PRAZO DE CONCLUS\xC3O DOS TRABALHOS DA
+        COMISS\xC3O PROCESSANTE INSTITU\xCDDA PELA PORTARIA N\xBA 129/2025\",\n      \"id\":
+        \"18122\",\n      \"title\": \"Portaria n\xBA 284/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18121\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18121\",\n      \"title\": \"Portaria n\xBA 283/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18120\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-29\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18120\",\n      \"title\": \"Portaria n\xBA 282/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18119\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-28\",\n
+        \     \"description\": \"INSTAURA A COMISS\xC3O DE ELABORA\xC7\xC3O DO PLANO
+        ANUAL DE CONTRATA\xC7\xD5ES DE QUE TRATA A LEI N\xBA 14133/2021\",\n      \"id\":
+        \"18119\",\n      \"title\": \"Portaria n\xBA 281/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18118\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-25\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18118\",\n      \"title\": \"Portaria n\xBA 280/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18117\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-25\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18117\",\n      \"title\": \"Portaria n\xBA 279/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18116\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-25\",\n
+        \     \"description\": \"DISP\xD5E SOBRE O EXPEDIENTE DA C\xC2MARA MUNICIPAL
+        DE UBERL\xC2NDIA NO DIA 02 DE MAIO DE 2025\",\n      \"id\": \"18116\",\n
+        \     \"title\": \"Portaria n\xBA 278/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18115\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-04-25\",\n      \"description\":
+        \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18115\",\n      \"title\": \"Portaria n\xBA 277/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18114\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-25\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18114\",\n      \"title\": \"Portaria n\xBA 276/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18113\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-24\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18113\",\n      \"title\": \"Portaria n\xBA 275/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18112\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-24\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA AMANDA MACEDO DE CAMARGOS PARA
+        RESPONDER INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\":
+        \"18112\",\n      \"title\": \"Portaria n\xBA 274/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18111\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-24\",\n
+        \     \"description\": \"CANCELA EMPENHOS INSCRITOS  EM RESTOS A PAGAR DO
+        EXERC\xCDCIO 2024\",\n      \"id\": \"18111\",\n      \"title\": \"Portaria
+        n\xBA 273/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18110\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-22\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18110\",\n      \"title\": \"Portaria n\xBA 272/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18109\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18109\",\n      \"title\": \"Portaria n\xBA 271/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18108\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18108\",\n      \"title\": \"Portaria n\xBA 270/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18107\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18107\",\n      \"title\": \"Portaria n\xBA 269/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18106\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18106\",\n      \"title\": \"Portaria n\xBA 268/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18105\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18105\",\n      \"title\": \"Portaria n\xBA
+        267/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18104\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18104\",\n      \"title\": \"Portaria n\xBA
+        266/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18103\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18103\",\n      \"title\": \"Portaria n\xBA
+        265/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18102\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18102\",\n      \"title\": \"Portaria n\xBA
+        264/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18101\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18101\",\n      \"title\": \"Portaria n\xBA 263/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18100\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18100\",\n      \"title\": \"Portaria n\xBA 262/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18099\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18099\",\n      \"title\": \"Portaria n\xBA
+        261/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18098\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18098\",\n      \"title\": \"Portaria n\xBA 260/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18097\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18097\",\n      \"title\": \"Portaria n\xBA 259/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18096\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18096\",\n      \"title\": \"Portaria n\xBA 258/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18095\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-07\",\n
+        \     \"description\": \"INSTAURA PROCESSO ADMINISTRATIVO DE RESPONSABILIZA\xC7\xC3O
+        E DESIGNA COMISS\xC3O PROCESSANTE\",\n      \"id\": \"18095\",\n      \"title\":
+        \"Portaria n\xBA 257/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18094\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DESIGNA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18094\",\n      \"title\": \"Portaria n\xBA 256/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18093\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A DISPENSA QUE MENCIONA\",\n      \"id\":
+        \"18093\",\n      \"title\": \"Portaria n\xBA 255/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18092\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-03\",\n
+        \     \"description\": \"PRORROGA PRAZO DE CONCLUS\xC3O DOS TRABALHOS DA COMISS\xC3O
+        PROCESSANTE INSTITU\xCDDA PELA PORTARIA N\xBA 48/2025\",\n      \"id\": \"18092\",\n
+        \     \"title\": \"Portaria n\xBA 254/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18091\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-04-01\",\n      \"description\":
+        \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"18091\",\n
+        \     \"title\": \"Portaria n\xBA 253/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18090\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-04-01\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18090\",\n      \"title\": \"Portaria n\xBA 252/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18089\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-01\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18089\",\n      \"title\": \"Portaria n\xBA 251/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18088\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-01\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18088\",\n      \"title\": \"Portaria n\xBA 250/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18087\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-04-01\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18087\",\n      \"title\": \"Portaria n\xBA
+        249/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18085\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18085\",\n      \"title\": \"Portaria n\xBA 248/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18084\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18084\",\n      \"title\": \"Portaria n\xBA
+        247/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18083\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18083\",\n      \"title\": \"Portaria n\xBA 246/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18082\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18082\",\n      \"title\": \"Portaria n\xBA 245/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18081\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18081\",\n      \"title\": \"Portaria n\xBA 244/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18080\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18080\",\n      \"title\": \"Portaria n\xBA 243/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18079\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-25\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR RENATO AMARAL DE OLIVEIRA PARA
+        RESPONDER INTERINAMENTE PELO CARGO DE DIRETOR DE DEPARTAMENTO\",\n      \"id\":
+        \"18079\",\n      \"title\": \"Portaria n\xBA 242/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18078\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-25\",\n
+        \     \"description\": \"DESIGNA A SERVIDORA AINA CHAVES OLIVEIRA PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\": \"18078\",\n
+        \     \"title\": \"Portaria n\xBA 241/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18077\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-03-25\",\n      \"description\":
+        \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18077\",\n      \"title\": \"Portaria n\xBA 240/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18073\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-24\",\n
+        \     \"description\": \"CANCELA EMPENHOS INSCRITOS EM RESTOS A PAGAR DO EXERC\xCDCIO
+        DE 2023 E 2024\",\n      \"id\": \"18073\",\n      \"title\": \"Portaria n\xBA
+        239/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18072\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR CAPACITA\xC7\xC3O PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18072\",\n      \"title\": \"Portaria
+        n\xBA 238/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18071\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18071\",\n      \"title\": \"Portaria
+        n\xBA 237/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18070\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR CAPACITA\xC7\xC3O PROFISSIONAL
+        AO SERVIDOR QUE MENCIONA\",\n      \"id\": \"18070\",\n      \"title\": \"Portaria
+        n\xBA 236/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18069\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18069\",\n      \"title\": \"Portaria n\xBA 235/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18068\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18068\",\n      \"title\": \"Portaria n\xBA 234/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18067\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18067\",\n      \"title\": \"Portaria n\xBA 233/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18066\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18066\",\n      \"title\": \"Portaria n\xBA 232/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18065\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18065\",\n      \"title\": \"Portaria n\xBA 231/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18064\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18064\",\n      \"title\": \"Portaria n\xBA 230/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18063\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18063\",\n      \"title\": \"Portaria n\xBA 229/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18062\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18062\",\n      \"title\": \"Portaria n\xBA 228/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18061\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18061\",\n      \"title\": \"Portaria n\xBA
+        227/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18060\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18060\",\n      \"title\": \"Portaria n\xBA 226/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18059\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18059\",\n      \"title\": \"Portaria n\xBA
+        225/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18058\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-13\",\n
+        \     \"description\": \"CANCELA EMPENHOS INSCRITOS EM RESTOS A PAGAR DO EXERC\xCDCIO
+        DE 2024\",\n      \"id\": \"18058\",\n      \"title\": \"Portaria n\xBA 224/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18057\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-12\",\n
+        \     \"description\": \"DESIGNA O SERVIDOR SANDOVAL SARAIVA PARA RESPONDER
+        INTERINAMENTE PELO CARGO DE CHEFE DE SE\xC7\xC3O\",\n      \"id\": \"18057\",\n
+        \     \"title\": \"Portaria n\xBA 223/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18056\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-03-12\",\n      \"description\":
+        \"DESIGNA A SERVIDORA LINDAMAR ALVES PEREIRA PARA RESPONDER INTERINAMENTE
+        PELO CARGO DE DIRETOR DE DEPARTAMENTO\",\n      \"id\": \"18056\",\n      \"title\":
+        \"Portaria n\xBA 222/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18055\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18055\",\n      \"title\": \"Portaria n\xBA 221/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18054\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18054\",\n      \"title\": \"Portaria n\xBA 220/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18053\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18053\",\n      \"title\": \"Portaria n\xBA
+        219/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18052\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18052\",\n      \"title\": \"Portaria n\xBA 218/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18051\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18051\",\n      \"title\": \"Portaria n\xBA
+        217/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18050\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18050\",\n      \"title\": \"Portaria n\xBA 216/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18049\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18049\",\n      \"title\": \"Portaria n\xBA 215/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18048\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18048\",\n      \"title\": \"Portaria n\xBA
+        214/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18047\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18047\",\n      \"title\": \"Portaria n\xBA 213/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18046\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18046\",\n      \"title\": \"Portaria n\xBA 212/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18045\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18045\",\n      \"title\": \"Portaria n\xBA
+        211/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18044\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18044\",\n      \"title\": \"Portaria n\xBA 210/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18043\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18043\",\n      \"title\": \"Portaria n\xBA
+        209/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18042\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18042\",\n      \"title\": \"Portaria n\xBA 208/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18041\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18041\",\n      \"title\": \"Portaria n\xBA 207/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18040\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18040\",\n      \"title\": \"Portaria n\xBA 206/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18039\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18039\",\n      \"title\": \"Portaria n\xBA 205/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18038\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18038\",\n      \"title\": \"Portaria n\xBA 204/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18037\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18037\",\n      \"title\": \"Portaria n\xBA
+        203/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18036\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18036\",\n      \"title\": \"Portaria n\xBA 202/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18035\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18035\",\n      \"title\": \"Portaria n\xBA
+        201/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18034\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18034\",\n      \"title\": \"Portaria n\xBA 200/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18033\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18033\",\n      \"title\": \"Portaria n\xBA 199/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18032\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-03-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18032\",\n      \"title\": \"Portaria n\xBA 198/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18031\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A PRORROGA\xC7\xC3O DA LICEN\xC7A
+        MATERNIDADE DA SERVIDORA QUE MENCIONA\",\n      \"id\": \"18031\",\n      \"title\":
+        \"Portaria n\xBA 197/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18030\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18030\",\n      \"title\": \"Portaria n\xBA
+        196/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18029\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18029\",\n      \"title\": \"Portaria n\xBA 195/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18028\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-28\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18028\",\n      \"title\": \"Portaria n\xBA 194/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18027\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-28\",\n
+        \     \"description\": \"CONCEDE PROGRESS\xC3O POR M\xC9RITO PROFISSIONAL
+        \xC0 SERVIDORA QUE MENCIONA\",\n      \"id\": \"18027\",\n      \"title\":
+        \"Portaria n\xBA 193/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18026\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18026\",\n      \"title\": \"Portaria n\xBA 192/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18025\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18025\",\n      \"title\": \"Portaria n\xBA 191/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18024\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18024\",\n      \"title\": \"Portaria n\xBA 190/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18023\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-27\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18023\",\n      \"title\": \"Portaria n\xBA 189/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18022\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18022\",\n      \"title\": \"Portaria n\xBA 188/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18021\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18021\",\n      \"title\": \"Portaria n\xBA 187/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18020\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18020\",\n      \"title\": \"Portaria n\xBA 186/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18019\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18019\",\n      \"title\": \"Portaria n\xBA 185/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18018\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"18018\",\n      \"title\": \"Portaria n\xBA 184/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18017\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18017\",\n      \"title\": \"Portaria n\xBA 183/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18016\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18016\",\n      \"title\": \"Portaria n\xBA 182/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18015\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18015\",\n      \"title\": \"Portaria n\xBA 181/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18014\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18014\",\n      \"title\": \"Portaria n\xBA 180/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18013\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O  E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18013\",\n      \"title\": \"Portaria n\xBA
+        179/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18012\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"18012\",\n      \"title\": \"Portaria n\xBA
+        178/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18011\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18011\",\n      \"title\": \"Portaria n\xBA
+        177/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18010\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-26\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"18010\",\n      \"title\": \"Portaria n\xBA
+        176/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18009\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18009\",\n      \"title\": \"Portaria n\xBA 175/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18008\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-19\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18008\",\n      \"title\": \"Portaria n\xBA 174/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18007\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18007\",\n      \"title\": \"Portaria n\xBA 173/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18006\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18006\",\n      \"title\": \"Portaria n\xBA 172/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18005\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"18005\",\n      \"title\": \"Portaria n\xBA 171/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17931\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-18\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17931\",\n      \"title\": \"Portaria n\xBA 170/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17930\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17930\",\n      \"title\": \"Portaria n\xBA 169/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17929\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17929\",\n      \"title\": \"Portaria n\xBA 168/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17928\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOME\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17928\",\n      \"title\": \"Portaria n\xBA 167/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17927\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17927\",\n      \"title\": \"Portaria n\xBA 166/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17926\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17926\",\n      \"title\": \"Portaria n\xBA
+        165/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17925\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17925\",\n      \"title\": \"Portaria n\xBA 164/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17924\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17924\",\n      \"title\": \"Portaria n\xBA 163/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17923\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-17\",\n
+        \     \"description\": \"TORNA SEM EFEITO A EXONERA\xC7\xC3O DE ALINE OLIVEIRA
+        DE ALBUQUERQUE CONSTANTE NA PORTARIA N\xBA  125/2025\",\n      \"id\": \"17923\",\n
+        \     \"title\": \"Portaria n\xBA 162/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17922\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n      \"description\":
+        \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"17922\",\n
+        \     \"title\": \"Portaria n\xBA 161/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17921\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"17921\",\n
+        \     \"title\": \"Portaria n\xBA 160/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17920\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"17920\",\n
+        \     \"title\": \"Portaria n\xBA 159/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17919\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n      \"description\":
+        \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17919\",\n      \"title\": \"Portaria n\xBA 158/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17918\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17918\",\n      \"title\": \"Portaria n\xBA 157/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17917\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17917\",\n      \"title\": \"Portaria n\xBA 156/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17916\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIOA\",\n
+        \     \"id\": \"17916\",\n      \"title\": \"Portaria n\xBA 155/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17915\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17915\",\n      \"title\": \"Portaria n\xBA 154/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17914\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17914\",\n      \"title\": \"Portaria n\xBA
+        153/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17913\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17913\",\n      \"title\": \"Portaria n\xBA 152/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17912\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-12\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17912\",\n      \"title\": \"Portaria n\xBA 151/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17911\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17911\",\n      \"title\": \"Portaria n\xBA 150/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17910\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17910\",\n      \"title\": \"Portaria n\xBA 149/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17909\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17909\",\n      \"title\": \"Portaria n\xBA 148/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17908\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-11\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17908\",\n      \"title\": \"Portaria n\xBA 147/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17907\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17907\",\n      \"title\": \"Portaria n\xBA 146/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17906\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17906\",\n      \"title\": \"Portaria n\xBA 145/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17905\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17905\",\n      \"title\": \"Portaria n\xBA 144/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17904\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17904\",\n      \"title\": \"Portaria n\xBA 143/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17903\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17903\",\n      \"title\": \"Portaria n\xBA 142/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17902\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17902\",\n      \"title\": \"Portaria n\xBA 141/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17901\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17901\",\n      \"title\": \"Portaria n\xBA 140/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17900\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17900\",\n      \"title\": \"Portaria n\xBA 139/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17899\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A PRORROGA\xC7\xC3O DA LICEN\xC7A
+        MATERNIDADE\",\n      \"id\": \"17899\",\n      \"title\": \"Portaria n\xBA
+        138/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17898\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17898\",\n      \"title\": \"Portaria n\xBA 137/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17897\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17897\",\n      \"title\": \"Portaria n\xBA
+        136/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17896\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-07\",\n
+        \     \"description\": \"DESIGNA COMPONENTES DA COMISS\xC3O DE DESENVOLVIMENTO
+        FUNCIONAL\",\n      \"id\": \"17896\",\n      \"title\": \"Portaria n\xBA
+        135/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17895\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17895\",\n      \"title\": \"Portaria n\xBA 134/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17894\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17894\",\n      \"title\": \"Portaria n\xBA 133/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17893\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-06\",\n
+        \     \"description\": \"TORNA SEM EFEITO A NOMEA\xC7\xC3O DE ADEMAR JOSE
+        DA SILVA CONSTANTE NA PORTARIA N\xBA 124/2025 DE 04 DE FEVEREIRO DE 2025\",\n
+        \     \"id\": \"17893\",\n      \"title\": \"Portaria n\xBA 132/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17892\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17892\",\n      \"title\": \"Portaria n\xBA 131/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17879\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17879\",\n      \"title\": \"Portaria n\xBA 130/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17878\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-05\",\n
+        \     \"description\": \"INSTAURA PROCESSO ADMINISTRATIVO DE RESPONSABILIZA\xC7\xC3O
+        E DESIGNA COMISS\xC3O PROCESSANTE\",\n      \"id\": \"17878\",\n      \"title\":
+        \"Portaria n\xBA 129/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17877\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17877\",\n      \"title\": \"Portaria n\xBA 128/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17876\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-05\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17876\",\n      \"title\": \"Portaria n\xBA
+        127/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17875\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17875\",\n      \"title\": \"Portaria n\xBA
+        126/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17874\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17874\",\n      \"title\": \"Portaria n\xBA 125/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17873\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17873\",\n      \"title\": \"Portaria n\xBA 124/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17872\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17872\",\n      \"title\": \"Portaria n\xBA 123/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17871\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17871\",\n      \"title\": \"Portaria n\xBA 122/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17870\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17870\",\n      \"title\": \"Portaria n\xBA 121/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17869\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17869\",\n      \"title\": \"Portaria n\xBA 120/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17866\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-04\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17866\",\n      \"title\": \"Portaria n\xBA 117/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17868\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17868\",\n      \"title\": \"Portaria n\xBA
+        119/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17867\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17867\",\n      \"title\": \"Portaria n\xBA
+        118/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17865\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17865\",\n      \"title\": \"Portaria n\xBA 116/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17864\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17864\",\n      \"title\": \"Portaria n\xBA 115/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17863\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17863\",\n      \"title\": \"Portaria n\xBA 114/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17862\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-02-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17862\",\n      \"title\": \"Portaria n\xBA 113/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17861\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17861\",\n      \"title\": \"Portaria n\xBA 112/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17860\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17860\",\n      \"title\": \"Portaria n\xBA 111/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17859\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17859\",\n      \"title\": \"Portaria n\xBA 110/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17858\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17858\",\n      \"title\": \"Portaria n\xBA
+        109/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17857\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O\",\n      \"id\":
+        \"17857\",\n      \"title\": \"Portaria n\xBA 108/2025\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17856\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17856\",\n      \"title\": \"Portaria n\xBA
+        107/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17855\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17855\",\n      \"title\": \"Portaria n\xBA 106/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17854\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-31\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17854\",\n      \"title\": \"Portaria n\xBA 105/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17853\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE  A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17853\",\n      \"title\": \"Portaria n\xBA
+        104/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17852\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17852\",\n      \"title\": \"Portaria n\xBA 103/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17851\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17851\",\n      \"title\": \"Portaria n\xBA
+        102/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17850\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17850\",\n      \"title\": \"Portaria n\xBA
+        101/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17815\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17815\",\n      \"title\": \"Portaria n\xBA
+        100/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17814\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17814\",\n      \"title\": \"Portaria n\xBA
+        99/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17813\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17813\",\n      \"title\": \"Portaria n\xBA 98/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17812\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17812\",\n      \"title\": \"Portaria n\xBA 97/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17811\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17811\",\n      \"title\": \"Portaria n\xBA 96/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17810\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17810\",\n      \"title\": \"Portaria n\xBA
+        95/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17809\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17809\",\n      \"title\": \"Portaria n\xBA
+        94/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17808\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17808\",\n      \"title\": \"Portaria n\xBA
+        93/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17807\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17807\",\n      \"title\": \"Portaria n\xBA 92/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17806\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17806\",\n      \"title\": \"Portaria n\xBA 91/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17805\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17805\",\n      \"title\": \"Portaria n\xBA 90/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17804\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-30\",\n
+        \     \"description\": \"DESIGNA AGENTES DE CONTRATA\xC7\xC3O E EQUIPE DE
+        APOIO\",\n      \"id\": \"17804\",\n      \"title\": \"Portaria n\xBA 89/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17803\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-24\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17803\",\n      \"title\": \"Portaria n\xBA 88/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17757\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-22\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17757\",\n      \"title\": \"Portaria n\xBA 87/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17756\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17756\",\n      \"title\": \"Portaria n\xBA 86/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17755\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17755\",\n      \"title\": \"Portaria n\xBA 85/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17754\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17754\",\n      \"title\": \"Portaria n\xBA
+        84/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17753\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-20\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17753\",\n      \"title\": \"Portaria n\xBA
+        83/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17752\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17752\",\n      \"title\": \"Portaria n\xBA 82/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17751\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17751\",\n      \"title\": \"Portaria n\xBA 81/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17750\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17750\",\n      \"title\": \"Portaria n\xBA
+        80/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17749\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-17\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17749\",\n      \"title\": \"Portaria n\xBA 79/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17748\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-16\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17748\",\n      \"title\": \"Portaria n\xBA 78/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17747\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-16\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17747\",\n      \"title\": \"Portaria n\xBA
+        77/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17746\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17746\",\n      \"title\": \"Portaria n\xBA
+        76/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17745\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17745\",\n      \"title\": \"Portaria n\xBA
+        75/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17744\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17744\",\n      \"title\": \"Portaria n\xBA 74/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17743\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-15\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17743\",\n      \"title\": \"Portaria n\xBA 73/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17742\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17742\",\n      \"title\": \"Portaria n\xBA 72/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17741\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-14\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17741\",\n      \"title\": \"Portaria n\xBA 71/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17740\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17740\",\n      \"title\": \"Portaria n\xBA
+        70/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17739\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17739\",\n      \"title\": \"Portaria n\xBA 69/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17738\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17738\",\n      \"title\": \"Portaria n\xBA 68/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17737\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17737\",\n      \"title\": \"Portaria n\xBA 67/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17736\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17736\",\n      \"title\": \"Portaria n\xBA 66/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17735\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17735\",\n      \"title\": \"Portaria n\xBA 65/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17734\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17734\",\n      \"title\": \"Portaria n\xBA
+        64/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17733\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-13\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17733\",\n      \"title\": \"Portaria n\xBA
+        63/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17732\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17732\",\n      \"title\": \"Portaria n\xBA 62/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17731\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17731\",\n      \"title\": \"Portaria n\xBA 61/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17730\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17730\",\n      \"title\": \"Portaria n\xBA 60/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17729\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17729\",\n      \"title\": \"Portaria n\xBA 59/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17728\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17728\",\n      \"title\": \"Portaria n\xBA 58/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17727\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17727\",\n      \"title\": \"Portaria n\xBA
+        57/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17726\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17726\",\n      \"title\": \"Portaria n\xBA 56/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17725\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17725\",\n      \"title\": \"Portaria n\xBA 55/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17724\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17724\",\n      \"title\": \"Portaria n\xBA 54/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17723\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17723\",\n      \"title\": \"Portaria n\xBA 53/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17722\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17722\",\n      \"title\": \"Portaria n\xBA
+        52/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17721\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17721\",\n      \"title\": \"Portaria n\xBA 51/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17720\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17720\",\n      \"title\": \"Portaria n\xBA
+        50/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17719\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17719\",\n      \"title\": \"Portaria n\xBA 49/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17718\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-10\",\n
+        \     \"description\": \"INSTAURA PROCESSO ADMINISTRATIVO DE RESPONSABILIZA\xC7\xC3O
+        E DESIGNA COMISS\xC3O PROCESSANTES\",\n      \"id\": \"17718\",\n      \"title\":
+        \"Portaria n\xBA 48/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17717\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-09\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A LOTA\xC7\xC3O DOS SERVIDORES QUE
+        MENCIONA\",\n      \"id\": \"17717\",\n      \"title\": \"Portaria n\xBA 47/2025\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17716\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17716\",\n      \"title\": \"Portaria n\xBA 46/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17715\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17715\",\n      \"title\": \"Portaria n\xBA 45/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17714\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O  E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17714\",\n      \"title\": \"Portaria n\xBA
+        44/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17713\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-08\",\n
+        \     \"description\": \"DISP\xD5E SOBREA EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17713\",\n      \"title\": \"Portaria n\xBA
+        43/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17712\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-08\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17712\",\n      \"title\": \"Portaria n\xBA
+        42/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17711\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-07\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O\",\n      \"id\":
+        \"17711\",\n      \"title\": \"Portaria n\xBA 41/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17710\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n      \"description\":
+        \"DISP\xD5E SOBRE A DESIGNA\xC7\xC3O QUE MENCIONA\",\n      \"id\": \"17710\",\n
+        \     \"title\": \"Portaria n\xBA 40/2025\"\n    },\n    {\n      \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17709\",\n      \"@type\":
+        \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n      \"description\":
+        \"DISP\xD5E SOBRE A DISPENSA QUE MENCIONA\",\n      \"id\": \"17709\",\n      \"title\":
+        \"Portaria n\xBA 39/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17708\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17708\",\n      \"title\": \"Portaria n\xBA
+        38/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17707\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17707\",\n      \"title\": \"Portaria n\xBA 37/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17706\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17706\",\n      \"title\": \"Portaria n\xBA 36/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17705\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17705\",\n      \"title\": \"Portaria n\xBA 35/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17704\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17704\",\n      \"title\": \"Portaria n\xBA 34/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17703\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-06\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17703\",\n      \"title\": \"Portaria n\xBA 33/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17702\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17702\",\n      \"title\": \"Portaria n\xBA 32/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17701\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17701\",\n      \"title\": \"Portaria n\xBA 31/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17700\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-03\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17700\",\n      \"title\": \"Portaria n\xBA 30/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17699\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-03\",\n
+        \     \"description\": \"TORNA SEMA EFEITO A NOMEA\xC7\xC3O CONSTANTE NA PORTARIA
+        N\xBA 017/2025 DE 02 DE JANEIRO DE 2025\",\n      \"id\": \"17699\",\n      \"title\":
+        \"Portaria n\xBA 29/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17698\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17698\",\n      \"title\": \"Portaria n\xBA 28/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17697\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O
+        QUE MENCIONA\",\n      \"id\": \"17697\",\n      \"title\": \"Portaria n\xBA
+        27/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17696\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17696\",\n      \"title\": \"Portaria n\xBA 26/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17695\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17695\",\n      \"title\": \"Portaria n\xBA 25/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17694\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17694\",\n      \"title\": \"Portaria n\xBA 24/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17693\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17693\",\n      \"title\": \"Portaria n\xBA 23/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17692\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17692\",\n      \"title\": \"Portaria n\xBA 22/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17691\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17691\",\n      \"title\": \"Portaria n\xBA 21/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17690\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17690\",\n      \"title\": \"Portaria n\xBA 20/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17689\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17689\",\n      \"title\": \"Portaria n\xBA 19/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17688\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17688\",\n      \"title\": \"Portaria n\xBA 18/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17687\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17687\",\n      \"title\": \"Portaria n\xBA 17/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17686\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17686\",\n      \"title\": \"Portaria n\xBA 16/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17685\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A EXONERA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17685\",\n      \"title\": \"Portaria n\xBA 15/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17684\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17684\",\n      \"title\": \"Portaria n\xBA
+        14/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17683\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS EXONERA\xC7\xD5ES E AS NOMEA\xC7\xD5ES
+        QUE MENCIONA\",\n      \"id\": \"17683\",\n      \"title\": \"Portaria n\xBA
+        13/2025\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17682\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17682\",\n      \"title\": \"Portaria n\xBA 12/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17681\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17681\",\n      \"title\": \"Portaria n\xBA 11/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17680\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17680\",\n      \"title\": \"Portaria n\xBA 10/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17679\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17679\",\n      \"title\": \"Portaria n\xBA 9/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17678\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17678\",\n      \"title\": \"Portaria n\xBA 8/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17677\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17677\",\n      \"title\": \"Portaria n\xBA 7/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17676\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17676\",\n      \"title\": \"Portaria n\xBA 6/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17675\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17675\",\n      \"title\": \"Portaria n\xBA 5/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17674\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17674\",\n      \"title\": \"Portaria n\xBA 4/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17673\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE A NOMEA\xC7\xC3O QUE MENCIONA\",\n
+        \     \"id\": \"17673\",\n      \"title\": \"Portaria n\xBA 3/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17672\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17672\",\n      \"title\": \"Portaria n\xBA 2/2025\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/17671\",\n
+        \     \"@type\": \"Norma\",\n      \"data_apresentacao\": \"2025-01-02\",\n
+        \     \"description\": \"DISP\xD5E SOBRE AS NOMEA\xC7\xD5ES QUE MENCIONA\",\n
+        \     \"id\": \"17671\",\n      \"title\": \"Portaria n\xBA 1/2025\"\n    }\n
+        \ ]\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '127925'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:23 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

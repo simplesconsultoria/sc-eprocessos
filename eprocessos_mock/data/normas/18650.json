@@ -1,0 +1,41 @@
+{
+  "@id": "/@@normas/18650",
+  "@type": "Norma",
+  "anexos": [],
+  "data_norma": "30/01/2026",
+  "data_publicacao": "30/01/2026",
+  "description": "INSTITUI OS PERÍMETROS URBANOS DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/norma_juridica/18650_texto_integral.pdf",
+      "filename": "18650_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "18650",
+  "materia": [
+    {
+      "@id": "/@@materias/236197",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "description": "INSTITUI OS PERÍMETROS URBANOS DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "236197",
+      "remoteUrl": "/consultas/materia/pasta_digital?cod_materia=236197",
+      "title": "Projeto de Lei Complementar nº 49/2025"
+    }
+  ],
+  "normas_vinculadas": [],
+  "status": "Vigente",
+  "texto_compilado": [],
+  "title": "Lei Complementar nº 814/2026",
+  "veiculo_publicacao": "DIÁRIO OFICIAL"
+}

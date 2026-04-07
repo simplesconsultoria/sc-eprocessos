@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="sc.eprocessos"
+    >
+
+  <!-- Singleton subscribers (disabled for now)
+  <subscriber
+      for="sc.eprocessos.interfaces.IEProcessosFacade
+           zope.lifecycleevent.interfaces.IObjectAddedEvent"
+      handler=".eprocessos_facade.enforce_singleton"
+      />
+
+  <subscriber
+      for="sc.eprocessos.interfaces.IEProcessosFacade
+           zope.lifecycleevent.interfaces.IObjectRemovedEvent"
+      handler=".eprocessos_facade.restore_add_permission"
+      />
+  -->
+
+</configure>

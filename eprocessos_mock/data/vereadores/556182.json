@@ -1,0 +1,101 @@
+{
+  "@id": "/@@vereadores/556182",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;&lt;strong&gt;Celisvaldo da Silva&lt;/strong&gt;, conhecido como &lt;strong&gt;Pez&amp;atilde;o do Esporte&lt;/strong&gt;, &amp;eacute; vereador emUberl&amp;acirc;ndia- MG pelo partido Democracia Crist&amp;atilde; (DC). Nascido em 17 de mar&amp;ccedil;o de 1972, emCentralina-MG, Pez&amp;atilde;o tem 52 anos e uma trajet&amp;oacute;ria marcada pelo compromisso comacomunidade e pelo trabalho social.&lt;/p&gt;\r\n&lt;p&gt;Formado em &lt;strong&gt;Educa&amp;ccedil;&amp;atilde;o F&amp;iacute;sica pelo CREFI&lt;/strong&gt;, construiu sua carreira como &lt;strong&gt;t&amp;eacute;cnico profissional, atleta, vigilante e assessor parlamentar&lt;/strong&gt;, adquirindo experi&amp;ecirc;ncia emdiferentes &amp;aacute;reas antes de ingressar na pol&amp;iacute;tica. Desde sua elei&amp;ccedil;&amp;atilde;o, temse destacadopelo apoio a iniciativas que impactam diretamente a qualidade de vida da popula&amp;ccedil;&amp;atilde;o.&lt;/p&gt;\r\n&lt;p&gt;Entre suas a&amp;ccedil;&amp;otilde;es, apoia o &lt;strong&gt;Projeto Sa&amp;uacute;de Brasil&lt;/strong&gt;, que empresta equipamentos hospitalares para quem precisa, e desenvolve &lt;strong&gt;projetos no terceiro setor&lt;/strong&gt;, auxiliandodiversas comunidades. Seu compromisso social se estende ao apoio a &lt;strong&gt;comunidades cat&amp;oacute;licas, evang&amp;eacute;licas e de umbanda&lt;/strong&gt;, fortalecendo o respeito &amp;agrave; diversidade religiosa.&lt;/p&gt;\r\n&lt;p&gt;Al&amp;eacute;m disso, Pez&amp;atilde;o &amp;eacute; &lt;strong&gt;padrinho de uma ONG que atende mais de 200 crian&amp;ccedil;as&lt;/strong&gt;, refor&amp;ccedil;ando sua dedica&amp;ccedil;&amp;atilde;o ao bem-estar e desenvolvimento social. Comummandatofocado em transformar necessidades em realidade, segue trabalhando por uma Uberl&amp;acirc;ndia mais justa e estruturada.&lt;/p&gt;",
+  "birthday": "1972-03-17",
+  "cod_autor": "556187",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "03/11/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2025-11-03",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Celisvaldo da Silva ",
+  "email": "pezao.guara@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "DEMOCRACIA CRISTÃ",
+      "token": "DC"
+    }
+  ],
+  "id": "556182",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar",
+      "filename": "556182_foto_parlamentar",
+      "height": "350",
+      "size": "223072",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "2331"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1112 | WhatsApp: (34) 9 9144-0596",
+  "title": "Pezão Do Esporte",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar"
+}

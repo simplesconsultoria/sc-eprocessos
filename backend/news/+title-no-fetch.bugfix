@@ -1,0 +1,1 @@
+`EProcessosItem.Title()` no longer triggers an API fetch when called before the item's data has been loaded, falling back to `item_id`. This unblocks display contexts (catalog, breadcrumbs, debug reprs) that expect `Title()` to be cheap. @ericof

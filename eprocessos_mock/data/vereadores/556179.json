@@ -1,0 +1,89 @@
+{
+  "@id": "/@@vereadores/556179",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Eliusmarcio Alves de Carvalho, conhecido popularmente como Elinho da Academia, nasceu em 13 de fevereiro de 1972, na cidade de Mauril&amp;acirc;ndia, em Goi&amp;aacute;s. Filho de Ant&amp;ocirc;nio Alves de Carvalho e Ana Rosa de Carvalho, mudou-se ainda crian&amp;ccedil;a para Uberl&amp;acirc;ndia, Minas Gerais, cidade que adotou como lar e onde construiu sua trajet&amp;oacute;ria pessoal e profissional. &amp;Eacute; casado com Cristiane Dias Gai&amp;atilde;o e pai do pequeno Benjamin Gai&amp;atilde;o Carvalho, formando uma fam&amp;iacute;lia guiada por valores s&amp;oacute;lidos como honestidade, respeito, perseveran&amp;ccedil;a e princ&amp;iacute;pios crist&amp;atilde;os.&lt;/p&gt;\r\n&lt;p&gt;Desde jovem, Elinho demonstrou voca&amp;ccedil;&amp;atilde;o para a lideran&amp;ccedil;a e para o servi&amp;ccedil;o comunit&amp;aacute;rio. Durante a adolesc&amp;ecirc;ncia, atuou como presidente de gr&amp;ecirc;mio estudantil, experi&amp;ecirc;ncia que despertou seu interesse pela pol&amp;iacute;tica e pela mobiliza&amp;ccedil;&amp;atilde;o social. Inspirado pelo exemplo de seu pai, o saudoso senhor Ant&amp;ocirc;nio, teve o primeiro contato com a vida comunit&amp;aacute;ria ao participar, h&amp;aacute; cerca de 25 anos, de uma reuni&amp;atilde;o em uma associa&amp;ccedil;&amp;atilde;o de moradores. A partir desse momento, assumiu como miss&amp;atilde;o trabalhar pelo bem-estar coletivo, dedicando-se &amp;agrave; organiza&amp;ccedil;&amp;atilde;o, representa&amp;ccedil;&amp;atilde;o e defesa das demandas populares.&lt;/p&gt;\r\n&lt;p&gt;Formado em Educa&amp;ccedil;&amp;atilde;o F&amp;iacute;sica, com especializa&amp;ccedil;&amp;otilde;es em Treinamento Esportivo, Fisiologia do Exerc&amp;iacute;cio e Psicologia do Esporte, construiu uma carreira s&amp;oacute;lida como professor de Educa&amp;ccedil;&amp;atilde;o F&amp;iacute;sica, personal trainer e instrutor de forma&amp;ccedil;&amp;atilde;o profissional. Reconhecido pelo incentivo &amp;agrave; pr&amp;aacute;tica esportiva, atua na promo&amp;ccedil;&amp;atilde;o da sa&amp;uacute;de, do bem-estar e da qualidade de vida, estimulando disciplina, supera&amp;ccedil;&amp;atilde;o pessoal e h&amp;aacute;bitos saud&amp;aacute;veis.&lt;/p&gt;\r\n&lt;p&gt;Por aproximadamente 10 anos, presidiu a Associa&amp;ccedil;&amp;atilde;o de Moradores do Bairro Cust&amp;oacute;dio Pereira, consolidando-se como lideran&amp;ccedil;a comunit&amp;aacute;ria e voz ativa nas reivindica&amp;ccedil;&amp;otilde;es da popula&amp;ccedil;&amp;atilde;o local. Filiado ao partido Mobiliza (Mobiliza&amp;ccedil;&amp;atilde;o Nacional), disputou quatro elei&amp;ccedil;&amp;otilde;es municipais, sendo eleito vereador de Uberl&amp;acirc;ndia em 2024 com 2.482 votos, ap&amp;oacute;s tr&amp;ecirc;s mandatos como suplente. Atualmente, exerce seu trabalho legislativo no Gabinete 27 da C&amp;acirc;mara Municipal.&lt;/p&gt;\r\n&lt;p&gt;Comprometido com a capacita&amp;ccedil;&amp;atilde;o e a &amp;eacute;tica na vida p&amp;uacute;blica, participou, juntamente com sua equipe, do curso &amp;ldquo;O Papel do Vereador&amp;rdquo;, promovido pela Escola do Legislativo, refor&amp;ccedil;ando seu empenho em oferecer um mandato eficiente, participativo e transparente. Entre suas principais bandeiras est&amp;atilde;o o incentivo ao esporte como ferramenta de inclus&amp;atilde;o e preven&amp;ccedil;&amp;atilde;o de doen&amp;ccedil;as, a moderniza&amp;ccedil;&amp;atilde;o e humaniza&amp;ccedil;&amp;atilde;o do sistema de sa&amp;uacute;de, o fortalecimento da seguran&amp;ccedil;a p&amp;uacute;blica, a promo&amp;ccedil;&amp;atilde;o da inclus&amp;atilde;o social, al&amp;eacute;m de manter um trabalho constante de fiscaliza&amp;ccedil;&amp;atilde;o e aten&amp;ccedil;&amp;atilde;o &amp;agrave; infraestrutura urbana e rural de&lt;br /&gt;Uberl&amp;acirc;ndia.&lt;/p&gt;\r\n&lt;p&gt;Elinho mant&amp;eacute;m presen&amp;ccedil;a ativa nas redes sociais, especialmente no Instagram (@elinhodaacademia), onde compartilha suas a&amp;ccedil;&amp;otilde;es, projetos e propostas, dialogando de forma direta com a popula&amp;ccedil;&amp;atilde;o. Seu mandato &amp;eacute; guiado pelo compromisso com o trabalho incans&amp;aacute;vel, o di&amp;aacute;logo aberto e a constru&amp;ccedil;&amp;atilde;o de uma Uberl&amp;acirc;ndia mais justa, saud&amp;aacute;vel e com oportunidades para todos.&lt;/p&gt;",
+  "birthday": "1972-02-13",
+  "cod_autor": "556184",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Eliusmarcio Alves de Carvalho (Elinho da Academia)",
+  "email": "elinhodaacademia@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "PARTIDO DA MOBILIZAÇÃO NACIONAL",
+      "token": "MOBILIZA"
+    }
+  ],
+  "id": "556179",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar",
+      "filename": "556179_foto_parlamentar",
+      "height": "350",
+      "size": "225249",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "2482"
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2025 a 31/12/2026",
+      "end": "2026-12-31",
+      "id": "7",
+      "start": "2025-01-01",
+      "title": "2ª Secretário"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239-1166 e 1167",
+  "title": "Elinho Da Academia",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar"
+}

@@ -1,0 +1,1 @@
+Wired plone.restapi expander machinery into `BaseItemSerializer` so REST API requests for non-persistent items support `?expand=breadcrumbs,actions,types,navroot,navigation` and other standard expanders. @ericof

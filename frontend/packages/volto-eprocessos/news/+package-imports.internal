@@ -1,0 +1,1 @@
+Switched all internal imports in components from relative paths to the package name `@simplesconsultoria/volto-eprocessos/...`, matching the convention used elsewhere in the package. @ericof

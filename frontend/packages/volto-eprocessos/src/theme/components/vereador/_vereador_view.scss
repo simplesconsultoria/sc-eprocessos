@@ -1,0 +1,37 @@
+.vereador-view {
+  .sumario {
+    margin-bottom: $spacing-large;
+    #card {
+      display: flex;
+      justify-items: center;
+      @media only screen and (max-width: $largest-mobile-screen) {
+        display: block;
+        text-align: center;
+      }
+
+      .image {
+        display: flex;
+        align-content: center;
+        @media only screen and (max-width: $largest-mobile-screen) {
+          display: block;
+          width: 100% !important;
+        }
+        img.portrait {
+          width: 200px !important;
+          height: 200px !important;
+          border-radius: 50% !important;
+          margin-right: 40px;
+          object-fit: cover;
+        }
+      }
+      .dados {
+        width: 100% !important;
+      }
+    }
+  }
+  .vereador-panels {
+    table.full {
+      width: 100%;
+    }
+  }
+}

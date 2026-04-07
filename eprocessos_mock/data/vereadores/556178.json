@@ -1,0 +1,97 @@
+{
+  "@id": "/@@vereadores/556178",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Edson Carvalho Ferreira, 49 anos, advogado e ativista social, nasceu em Uberl&amp;acirc;ndia, Minas Gerais. Com uma trajet&amp;oacute;ria marcada pelo compromisso com a justi&amp;ccedil;a social e a defesa dos direitos dos cidad&amp;atilde;os, tem se dedicado, ao longo de sua carreira, a diversas &amp;aacute;reas, sempre em busca de solu&amp;ccedil;&amp;otilde;es que promovam o bem-estar da comunidade.&lt;/p&gt;\r\n&lt;p&gt;No &amp;acirc;mbito do Executivo, atuou de forma destacada nas Secretarias Municipais de Servi&amp;ccedil;os Urbanos e Meio Ambiente, contribuindo para o desenvolvimento de pol&amp;iacute;ticas p&amp;uacute;blicas que visaram a melhoria da qualidade de vida no munic&amp;iacute;pio e a preserva&amp;ccedil;&amp;atilde;o ambiental.&lt;/p&gt;\r\n&lt;p&gt;Em sua trajet&amp;oacute;ria no Legislativo, exerceu a fun&amp;ccedil;&amp;atilde;o de Assessor Parlamentar na Assembleia Legislativa de Minas Gerais, atuando como intermedi&amp;aacute;rio entre os parlamentares e a popula&amp;ccedil;&amp;atilde;o mineira. Seu trabalho foi fundamental para resolver problemas e quest&amp;otilde;es enfrentadas pelos cidad&amp;atilde;os, demonstrando seu compromisso com a solu&amp;ccedil;&amp;atilde;o de demandas sociais dentro do Estado.&lt;/p&gt;\r\n&lt;p&gt;Como Presidente de partido, sempre defendeu a transpar&amp;ecirc;ncia, a liberdade de express&amp;atilde;o e o direito &amp;agrave; opini&amp;atilde;o, buscando garantir que as pol&amp;iacute;ticas sociais chegassem aos cidad&amp;atilde;os mais vulner&amp;aacute;veis, especialmente aqueles em situa&amp;ccedil;&amp;atilde;o de risco social.&lt;/p&gt;\r\n&lt;p&gt;No campo social, tem sido uma figura de destaque. Foi Presidente da Associa&amp;ccedil;&amp;atilde;o de Moradores do Bairro Lagoinha, onde desempenhou um papel crucial como interlocutor entre os moradores e os &amp;oacute;rg&amp;atilde;os p&amp;uacute;blicos, buscando solu&amp;ccedil;&amp;otilde;es para os problemas do bairro. Al&amp;eacute;m disso, fundou e presidiu a Associa&amp;ccedil;&amp;atilde;o de Assist&amp;ecirc;ncia aos Portadores de C&amp;acirc;ncer do Tri&amp;acirc;ngulo Mineiro (AAPCTM), uma iniciativa que visa aliviar o sofrimento de pacientes com c&amp;acirc;ncer e suas fam&amp;iacute;lias, prestando apoio e promovendo a conscientiza&amp;ccedil;&amp;atilde;o sobre a doen&amp;ccedil;a.&lt;/p&gt;\r\n&lt;p&gt;Com sua experi&amp;ecirc;ncia pol&amp;iacute;tica, social e comunit&amp;aacute;ria, Edinho Combate ao C&amp;acirc;ncer se dedica a promover o bem-estar coletivo, sempre com foco na justi&amp;ccedil;a, na solidariedade e na dignidade dos cidad&amp;atilde;os.&lt;/p&gt;",
+  "birthday": "1976-08-26",
+  "cod_autor": "556183",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Edson Carvalho Ferreira",
+  "email": "edinho@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-12-10",
+      "filiacao_atual": true,
+      "title": "Democrata",
+      "token": "DEMOCRATA"
+    },
+    {
+      "data_desfiliacao": "2025-12-09",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": false,
+      "title": "PARTIDO DA MULHER BRASILEIRA",
+      "token": "PMB"
+    }
+  ],
+  "id": "556178",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar",
+      "filename": "556178_foto_parlamentar",
+      "height": "350",
+      "size": "216173",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "1859"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1165",
+  "title": "Edinho Combate Ao Câncer",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar"
+}

@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1674",
+  "@id_presenca": "/@@sessoes/id/1674/presenca",
+  "@id_votacao": "/@@sessoes/id/1674/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1674_ata_sessao.pdf",
+      "filename": "1674_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-04-01",
+  "description": "1ª Reunião Extraordinária - 01/04/2026",
+  "endTime": "",
+  "id": "1674",
+  "pauta": [],
+  "startTime": "11:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

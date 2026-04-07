@@ -1,0 +1,233 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914\",\n
+        \ \"@type\": \"Vereador\",\n  \"biografia\": \"&lt;p&gt;O advogado e professor
+        Abatenio de Andrade Marquez Neto, 49 anos, &amp;eacute; vereador do Progressistas
+        em Uberl&amp;acirc;ndia-MG, em 2020 recebeu 2.133 votos assumindo o mandato
+        em 2022 e reeleito em 2024 com 4.542 votos.&lt;/p&gt;\\r\\n&lt;p&gt;Formado
+        em Direito pela Universidade Federal de Uberl&amp;acirc;ndia e mestre pela
+        UEMG, possui ampla experi&amp;ecirc;ncia pol&amp;iacute;tica e administrativa.&lt;/p&gt;\\r\\n&lt;p&gt;Destaques
+        de sua trajet&amp;oacute;ria:&lt;/p&gt;\\r\\n&lt;p&gt;Vice-prefeito de Ituiutaba
+        (2005-2008).&lt;br /&gt;Superintendente do PROCON de Uberl&amp;acirc;ndia
+        (2018-2019).&lt;br /&gt;Procurador-Geral do Munic&amp;iacute;pio de Uberl&amp;acirc;ndia
+        (2019-2020).&lt;br /&gt;Secret&amp;aacute;rio de Agroneg&amp;oacute;cio, Economia
+        e Inova&amp;ccedil;&amp;atilde;o.&lt;br /&gt;Assessor Especial do Prefeito
+        Odelmo Le&amp;atilde;o (2021-2022).&lt;br /&gt;L&amp;iacute;der do Prefeito
+        na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia. (2022 - 2024)&lt;/p&gt;\\r\\n&lt;p&gt;Com
+        s&amp;oacute;lida experi&amp;ecirc;ncia em gest&amp;atilde;o p&amp;uacute;blica
+        e compromisso com causas sociais, Abatenio est&amp;aacute; preparado para
+        assumir a responsabilidade como Secret&amp;aacute;rio de Direito do Consumidor
+        e da Causa Animal, promovendo a&amp;ccedil;&amp;otilde;es efetivas e inovadoras
+        em benef&amp;iacute;cio da popula&amp;ccedil;&amp;atilde;o.&lt;/p&gt;\",\n
+        \ \"birthday\": \"\",\n  \"cod_autor\": \"546914\",\n  \"comissoes\": [\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/16\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        Mista de Participa\xE7\xE3o Popular\",\n      \"description\": \"07/02/2025
+        a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\": \"16\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2025-02-07\",\n      \"title\": \"Relator\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/13\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Ind\xFAstria, Com\xE9rcio, Turismo e Trabalho\",\n      \"description\":
+        \"07/02/2025 a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\":
+        \"13\",\n      \"mandato\": \"Titular\",\n      \"start\": \"2025-02-07\",\n
+        \     \"title\": \"Relator\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/5\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Finan\xE7as, Or\xE7amento e Tributos\",\n      \"description\": \"07/02/2025
+        a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\": \"5\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2025-02-07\",\n      \"title\": \"Relator\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/12\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Administra\xE7\xE3o P\xFAblica\",\n      \"description\": \"07/02/2025
+        a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\": \"12\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2025-02-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/3\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Legisla\xE7\xE3o, Justi\xE7a e Reda\xE7\xE3o\",\n      \"description\":
+        \"07/02/2025 a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\":
+        \"3\",\n      \"mandato\": \"Titular\",\n      \"start\": \"2025-02-07\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/4\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Sa\xFAde e Saneamento\",\n      \"description\": \"07/02/2025 a 07/02/2027\",\n
+        \     \"end\": \"2027-02-07\",\n      \"id\": \"4\",\n      \"mandato\": \"Titular\",\n
+        \     \"start\": \"2025-02-07\",\n      \"title\": \"Suplente\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/14\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Pol\xEDtica Rural e Administra\xE7\xE3o dos Distritos\",\n      \"description\":
+        \"07/02/2025 a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\":
+        \"14\",\n      \"mandato\": \"Titular\",\n      \"start\": \"2025-02-07\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/20\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Meio Ambiente e Defesa Animal\",\n      \"description\": \"07/02/2025 a
+        07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\": \"20\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2025-02-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/25\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Micro e Pequenas Empresas\",\n      \"description\": \"07/02/2025 a 07/02/2027\",\n
+        \     \"end\": \"2027-02-07\",\n      \"id\": \"25\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2025-02-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/29\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        da Pessoa com Defici\xEAncia e da Pessoa com Doen\xE7a Rara\",\n      \"description\":
+        \"07/02/2025 a 07/02/2027\",\n      \"end\": \"2027-02-07\",\n      \"id\":
+        \"29\",\n      \"mandato\": \"Titular\",\n      \"start\": \"2025-02-07\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        Especial\",\n      \"description\": \"07/02/2025 a 07/02/2027\",\n      \"end\":
+        \"2027-02-07\",\n      \"id\": \"22\",\n      \"mandato\": \"Suplente\",\n
+        \     \"start\": \"2025-02-07\",\n      \"title\": \"ad hoc\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/28\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de \xC9tica e Decoro Parlamentar\",\n      \"description\": \"07/05/2024 a
+        31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\": \"28\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2024-05-07\",\n      \"title\": \"Relator\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/5\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Finan\xE7as, Or\xE7amento e Tributos\",\n      \"description\": \"07/05/2024
+        a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\": \"5\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2024-05-07\",\n      \"title\": \"Relator\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/19\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Pol\xEDtica Urbana, Habita\xE7\xE3o e Urbanismo\",\n      \"description\":
+        \"07/05/2024 a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\":
+        \"19\",\n      \"mandato\": \"Titular\",\n      \"start\": \"2024-05-07\",\n
+        \     \"title\": \"Membro\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        Especial\",\n      \"description\": \"07/05/2024 a 31/12/2024\",\n      \"end\":
+        \"2024-12-31\",\n      \"id\": \"22\",\n      \"mandato\": \"Titular\",\n
+        \     \"start\": \"2024-05-07\",\n      \"title\": \"Membro\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/27\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Inova\xE7\xE3o, Tecnologia e Juventude\",\n      \"description\": \"07/05/2024
+        a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\": \"27\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2024-05-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/14\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Pol\xEDtica Rural e Administra\xE7\xE3o dos Distritos\",\n      \"description\":
+        \"07/05/2024 a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\":
+        \"14\",\n      \"mandato\": \"Suplente\",\n      \"start\": \"2024-05-07\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/23\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Pol\xEDticas P\xFAblicas sobre Drogas\",\n      \"description\": \"07/05/2024
+        a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\": \"23\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2024-05-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/30\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        dos Direitos das Mulheres\",\n      \"description\": \"07/05/2024 a 31/12/2024\",\n
+        \     \"end\": \"2024-12-31\",\n      \"id\": \"30\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2024-05-07\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/3\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Legisla\xE7\xE3o, Justi\xE7a e Reda\xE7\xE3o\",\n      \"description\":
+        \"07/05/2024 a 31/12/2024\",\n      \"end\": \"2024-12-31\",\n      \"id\":
+        \"3\",\n      \"mandato\": \"Suplente\",\n      \"start\": \"2024-05-07\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        Especial\",\n      \"description\": \"12/12/2023 a 06/05/2024\",\n      \"end\":
+        \"2024-05-06\",\n      \"id\": \"22\",\n      \"mandato\": \"Titular\",\n
+        \     \"start\": \"2023-12-12\",\n      \"title\": \"Relator\"\n    },\n    {\n
+        \     \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/4\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Sa\xFAde e Saneamento\",\n      \"description\": \"01/01/2023 a 06/05/2024\",\n
+        \     \"end\": \"2024-05-06\",\n      \"id\": \"4\",\n      \"mandato\": \"Titular\",\n
+        \     \"start\": \"2023-01-01\",\n      \"title\": \"Presidente\"\n    },\n
+        \   {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/8\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Educa\xE7\xE3o, Cultura e Ci\xEAncia\",\n      \"description\": \"01/01/2023
+        a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"8\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Membro\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/3\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Legisla\xE7\xE3o, Justi\xE7a e Reda\xE7\xE3o\",\n      \"description\":
+        \"01/01/2023 a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\":
+        \"3\",\n      \"mandato\": \"Suplente\",\n      \"start\": \"2023-01-01\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/27\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Inova\xE7\xE3o, Tecnologia e Juventude\",\n      \"description\": \"01/01/2023
+        a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"27\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/26\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Esporte, Lazer e Paradesporto\",\n      \"description\": \"01/01/2023 a
+        06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"26\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/25\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Micro e Pequenas Empresas\",\n      \"description\": \"01/01/2023 a 06/05/2024\",\n
+        \     \"end\": \"2024-05-06\",\n      \"id\": \"25\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/12\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Administra\xE7\xE3o P\xFAblica\",\n      \"description\": \"01/01/2023
+        a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"12\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/7\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Direitos Humanos, Sociais e do Consumidor\",\n      \"description\": \"01/01/2023
+        a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"7\",\n      \"mandato\":
+        \"Suplente\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/19\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Pol\xEDtica Urbana, Habita\xE7\xE3o e Urbanismo\",\n      \"description\":
+        \"01/01/2023 a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\":
+        \"19\",\n      \"mandato\": \"Suplente\",\n      \"start\": \"2023-01-01\",\n
+        \     \"title\": \"Suplente\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/5\",\n
+        \     \"@type\": \"ParticipanteComissao\",\n      \"comissao\": \"Comiss\xE3o
+        de Finan\xE7as, Or\xE7amento e Tributos\",\n      \"description\": \"01/01/2023
+        a 06/05/2024\",\n      \"end\": \"2024-05-06\",\n      \"id\": \"5\",\n      \"mandato\":
+        \"Titular\",\n      \"start\": \"2023-01-01\",\n      \"title\": \"Suplente\"\n
+        \   }\n  ],\n  \"description\": \"Abatenio de Andrade Marquez Neto\",\n  \"email\":
+        \"abatenio@camarauberlandia.mg.gov.br\",\n  \"filiacoes\": [\n    {\n      \"data_desfiliacao\":
+        \"\",\n      \"data_filiacao\": \"2022-06-01\",\n      \"filiacao_atual\":
+        true,\n      \"title\": \"PROGRESSISTAS\",\n      \"token\": \"PP\"\n    }\n
+        \ ],\n  \"id\": \"546914\",\n  \"image\": [\n    {\n      \"content-type\":
+        \"image/png\",\n      \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\",\n
+        \     \"filename\": \"546914_foto_parlamentar\",\n      \"height\": \"350\",\n
+        \     \"size\": \"221654\",\n      \"width\": \"350\"\n    }\n  ],\n  \"mandatos\":
+        [\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/20\",\n
+        \     \"@type\": \"Mandato\",\n      \"end\": \"2028-12-31\",\n      \"id\":
+        20,\n      \"natureza\": \"Titular\",\n      \"start\": \"2025-01-01\",\n
+        \     \"votos\": \"4541\"\n    },\n    {\n      \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@legislaturas/19\",\n
+        \     \"@type\": \"Mandato\",\n      \"end\": \"2024-12-31\",\n      \"id\":
+        19,\n      \"natureza\": \"Suplente\",\n      \"start\": \"2022-06-01\",\n
+        \     \"votos\": \"2137\"\n    }\n  ],\n  \"mesas\": [],\n  \"telefone_gabinete\":
+        \"(34) 3239-1204\",\n  \"title\": \"Abatenio Marquez\",\n  \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\"\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '14390'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:25 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

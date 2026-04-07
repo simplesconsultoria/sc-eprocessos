@@ -1,0 +1,51 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@normas/18503
+  response:
+    body:
+      string: "{\n  \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@normas/18503\",\n
+        \ \"@type\": \"Norma\",\n  \"anexos\": [],\n  \"data_norma\": \"19/09/2025\",\n
+        \ \"data_publicacao\": \"19/08/2025\",\n  \"description\": \"DISP\xD5E SOBRE
+        A EXONERA\xC7\xC3O E A NOMEA\xC7\xC3O QUE MENCIONA\",\n  \"file\": [\n    {\n
+        \     \"content-type\": \"application/pdf\",\n      \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/norma_juridica/18503_texto_integral.pdf\",\n
+        \     \"filename\": \"18503_texto_integral.pdf\",\n      \"size\": \"\"\n
+        \   }\n  ],\n  \"id\": \"18503\",\n  \"materia\": [],\n  \"normas_vinculadas\":
+        [],\n  \"status\": \"Vigente\",\n  \"texto_compilado\": [],\n  \"title\":
+        \"Portaria n\xBA 439/2025\",\n  \"veiculo_publicacao\": \"JORNAL O LEGISLATIVO\"\n}"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '704'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:24 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

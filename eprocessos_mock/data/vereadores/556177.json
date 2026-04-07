@@ -1,0 +1,112 @@
+{
+  "@id": "/@@vereadores/556177",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Lia Valechi, natural de Ituiutaba, possui uma trajet&amp;oacute;ria marcada por supera&amp;ccedil;&amp;atilde;o e compromisso social. M&amp;atilde;e aos 15 anos, transformou os desafios em motiva&amp;ccedil;&amp;atilde;o para lutar por oportunidades e pela constru&amp;ccedil;&amp;atilde;o de um futuro digno para sua fam&amp;iacute;lia.&lt;/p&gt;\r\n&lt;p&gt;Formada em Direito pela UFU, p&amp;oacute;s graduada em Processo Penal, &amp;eacute; Delegada da Pol&amp;iacute;cia Civil desde 2008, com atua&amp;ccedil;&amp;atilde;o destacada na Delegacia da Mulher, Crian&amp;ccedil;a e do Adolescente e Idoso. Sua dedica&amp;ccedil;&amp;atilde;o &amp;agrave; prote&amp;ccedil;&amp;atilde;o de pessoas em situa&amp;ccedil;&amp;atilde;o de vulnerabilidade reflete seu compromisso com a justi&amp;ccedil;a e a defesa dos direitos fundamentais.&lt;/p&gt;\r\n&lt;p&gt;Antes disso, integrou a Pol&amp;iacute;cia Militar de Minas Gerais, onde atuou por seis anos, incluindo como instrutora do PROERD, prevenindo o envolvimento de jovens com drogas e viol&amp;ecirc;ncia. Tamb&amp;eacute;m foi professora de Direito, inspirando alunos por meio do ensino.&lt;/p&gt;\r\n&lt;p&gt;Eleita vereadora em 2024, em sua primeira candidatura, conduziu uma campanha baseada no apoio popular e no reconhecimento de seu trabalho j&amp;aacute; realizado para a popula&amp;ccedil;&amp;atilde;o de Uberl&amp;acirc;ndia, sem uso de fundo partid&amp;aacute;rio. Casada e m&amp;atilde;e de dois filhos, Lia quer dedicar sua experi&amp;ecirc;ncia &amp;agrave; constru&amp;ccedil;&amp;atilde;o de pol&amp;iacute;ticas p&amp;uacute;blicas que promovam prote&amp;ccedil;&amp;atilde;o, igualdade e bem-estar, especialmente para mulheres, crian&amp;ccedil;as e adolescentes, buscando uma Uberl&amp;acirc;ndia mais justa e segura.&amp;nbsp;&lt;/p&gt;",
+  "birthday": "1982-03-26",
+  "cod_autor": "556182",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "13/11/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Suplente",
+      "start": "2025-11-13",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Lia Eunice Valechi da Silva",
+  "email": "delegadaliavalechi@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "Unão Brasil",
+      "token": "União Brasil"
+    }
+  ],
+  "id": "556177",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar",
+      "filename": "556177_foto_parlamentar",
+      "height": "350",
+      "size": "191842",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3766"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1182 | WhatsApp: (34) 99677-0090",
+  "title": "Delegada Lia Valechi",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar"
+}

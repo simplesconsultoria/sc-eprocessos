@@ -1,0 +1,1 @@
+Added an `@@images` traversable view on Vereador items that proxies councilor photos from e-Processos. Fetches honor the configured timeout, errors map to `HTTPNotFound`/`HTTPBadGateway`, and `HEAD` requests are supported. @ericof

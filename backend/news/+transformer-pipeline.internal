@@ -1,0 +1,1 @@
+Introduced a transformer pipeline in `BaseItemSerializer`: subclasses add `_transform_*` methods that receive `(data, result)` and run in alphabetical order. Added a `collections` class attribute that drives `_transform_collections`, rewriting nested `@id` URLs in declared collection fields. @ericof

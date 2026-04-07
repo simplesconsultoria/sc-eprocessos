@@ -1,0 +1,79 @@
+{
+  "@id": "/@@vereadores/556183",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Eleito pelo voto de confian&amp;ccedil;a de 3.585 pessoas, Conrado &amp;eacute; o 1&amp;ordm; Enfermeiro eleito para o cargo de vereador em Uberl&amp;acirc;ndia, demonstrando a for&amp;ccedil;a da categoria de profissionais da sa&amp;uacute;de e daqueles que defendem o SUS. Participou ativamente da luta pelo piso da Enfermagem desde 2021, sendo refer&amp;ecirc;ncia e lideran&amp;ccedil;a da categoria em Uberl&amp;acirc;ndia e regi&amp;atilde;o. Foi o vereador com o menor custo de voto e menor gasto na campanha de todos os eleitos.&lt;/p&gt;\r\n&lt;p&gt;Nascido em Uberl&amp;acirc;ndia, &amp;eacute; casado h&amp;aacute; 10 anos e pai de uma filha. Possui Bacharelado e Licenciatura em Enfermagem (UFU), Especializa&amp;ccedil;&amp;atilde;o em Gest&amp;atilde;o em Enfermagem (UNIFESP), Especializa&amp;ccedil;&amp;atilde;o em Inform&amp;aacute;tica na Sa&amp;uacute;de (UFRN), Resid&amp;ecirc;ncia em Sa&amp;uacute;de da Fam&amp;iacute;lia e Comunidade (UFSCar) e Mestrado em Gest&amp;atilde;o da Cl&amp;iacute;nica/Sa&amp;uacute;de Coletiva (UFSCar).&lt;/p&gt;\r\n&lt;p&gt;Seu primeiro emprego na doc&amp;ecirc;ncia foi como professor substituto da Escola T&amp;eacute;cnica de Sa&amp;uacute;de da UFU, em 2012. Foi tamb&amp;eacute;m docente no curso de gradua&amp;ccedil;&amp;atilde;o em Enfermagem na UNIPAC, no curso de Medicina do IMEPAC e no Departamento de Sa&amp;uacute;de Coletiva do curso de Medicina da UFU. Na ICL Cursos e Preparat&amp;oacute;rios, escola voltada para a prepara&amp;ccedil;&amp;atilde;o em concursos p&amp;uacute;blicos e resid&amp;ecirc;ncias, foi professor e coordenador pedag&amp;oacute;gico.&lt;/p&gt;\r\n&lt;p&gt;Foi aprovado em concursos da Prefeitura de Uberl&amp;acirc;ndia e Prefeitura de Uberaba, ambos para o cargo de Enfermeiro de Sa&amp;uacute;de da Fam&amp;iacute;lia. Foi aprovado tamb&amp;eacute;m no concurso p&amp;uacute;blico da Secretaria de Estado de Sa&amp;uacute;de de Minas Gerais, atuando como Especialista em Pol&amp;iacute;ticas e Gest&amp;atilde;o da Sa&amp;uacute;de na Superintend&amp;ecirc;ncia Regional de Sa&amp;uacute;de de Uberl&amp;acirc;ndia, no N&amp;uacute;cleo de Vigil&amp;acirc;ncia Sanit&amp;aacute;ria. Tamb&amp;eacute;m teve aprova&amp;ccedil;&amp;atilde;o no concurso p&amp;uacute;blico da EBSERH para o cargo de Enfermeiro de Gest&amp;atilde;o e Gerenciamento de Sa&amp;uacute;de.&lt;/p&gt;\r\n&lt;p&gt;Al&amp;eacute;m das experi&amp;ecirc;ncias como professor e servidor p&amp;uacute;blico, atuou como Gerente de Enfermagem e Coordenador Geral de Enfermagem de dois grandes hospitais privados de Uberl&amp;acirc;ndia. Foi eleito, por duas vezes, presidente do Diret&amp;oacute;rio Acad&amp;ecirc;mico Anna Nery quando aluno do curso de Enfermagem da UFU.&lt;/p&gt;\r\n&lt;p&gt;Em seu primeiro mandato, prop&amp;otilde;e cuidar de quem cuida e fazer o SUS avan&amp;ccedil;ar.&lt;/p&gt;",
+  "birthday": "1989-04-15",
+  "cod_autor": "556188",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Conrado Augusto Ferreira de Oliveira",
+  "email": "profconradoaugusto@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2025-01-01",
+      "filiacao_atual": true,
+      "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "token": "MDB"
+    }
+  ],
+  "id": "556183",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar",
+      "filename": "556183_foto_parlamentar",
+      "height": "350",
+      "size": "203791",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3585"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1179",
+  "title": "Prof. Conrado Augusto",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar"
+}

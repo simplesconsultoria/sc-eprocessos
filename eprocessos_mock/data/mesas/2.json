@@ -1,0 +1,68 @@
+{
+  "@id": "/@@mesas/2",
+  "@type": "Mesa",
+  "atual": false,
+  "description": "Composição da mesa diretora",
+  "end": "2018-12-31",
+  "id": "2",
+  "items": [
+    {
+      "@id": "/@@vereadores/26001",
+      "@type": "ParticipanteMesa",
+      "cargo": "1º Vice-Presidente",
+      "description": "Wilson Pinheiro",
+      "id": "26001",
+      "image": [],
+      "partido": [],
+      "title": "Wilson Pinheiro",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/430278",
+      "@type": "ParticipanteMesa",
+      "cargo": "2º Vice-Presidente",
+      "description": "Ronaldo Alves",
+      "id": "430278",
+      "image": [],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL CRISTÃO",
+          "token": "PSC"
+        }
+      ],
+      "title": "Ronaldo Alves",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/430273",
+      "@type": "ParticipanteMesa",
+      "cargo": "2ª Secretário",
+      "description": "Dra. Jussara",
+      "id": "430273",
+      "image": [],
+      "partido": [
+        {
+          "title": "PARTIDO SOCIAL LIBERAL",
+          "token": "PSL"
+        }
+      ],
+      "title": "Dra. Jussara",
+      "url_foto": "/imagens/avatar.png"
+    },
+    {
+      "@id": "/@@vereadores/26015",
+      "@type": "ParticipanteMesa",
+      "cargo": "3ª Vice-Presidente",
+      "description": "Michele Bretas",
+      "id": "26015",
+      "image": [],
+      "partido": [],
+      "title": "Michele Bretas",
+      "url_foto": "/imagens/avatar.png"
+    }
+  ],
+  "legislatura": "18ª Legislatura",
+  "legislatura_id": "/@@legislaturas/18",
+  "start": "2017-01-01",
+  "title": "01/01/2017 a 31/12/2018"
+}

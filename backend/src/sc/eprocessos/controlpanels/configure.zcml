@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="sc.eprocessos"
+    >
+
+  <!-- -*- extra stuff goes here -*- -->
+  <browser:page
+      name="eprocessos-controlpanel"
+      for="plone.base.interfaces.IPloneSiteRoot"
+      class=".controlpanel.EProcessosSettingsControlPanel"
+      permission="cmf.ManagePortal"
+      layer="sc.eprocessos.interfaces.IBrowserLayer"
+      />
+
+  <adapter
+      factory=".controlpanel.EProcessosSettingsConfigletPanel"
+      provides="plone.restapi.controlpanels.interfaces.IControlpanel"
+      name="eprocessos-settings"
+      />
+
+</configure>

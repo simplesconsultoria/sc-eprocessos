@@ -1,0 +1,704 @@
+{
+  "@id": "/@@comissoes/28",
+  "@type": "Comissao",
+  "description": "CEDP",
+  "id": "28",
+  "items": [
+    {
+      "@id": "/@@vereadores/526697",
+      "@type": "ParticipanteComissao",
+      "cargo": "Presidente",
+      "description": "Ednaldo Régio de Lima",
+      "id": "526697",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "filename": "526697_foto_parlamentar",
+          "height": 350,
+          "size": 223533,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 1,
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Sargento Ednaldo",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/556174",
+      "@type": "ParticipanteComissao",
+      "cargo": "Relator",
+      "description": "Jair Ferraz",
+      "id": "556174",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar",
+          "filename": "556174_foto_parlamentar",
+          "height": 350,
+          "size": 206052,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 3,
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Jair Ferraz",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537427",
+      "@type": "ParticipanteComissao",
+      "cargo": "Membro",
+      "description": "Anderson Lima",
+      "id": "537427",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar",
+          "filename": "537427_foto_parlamentar",
+          "height": 350,
+          "size": 200492,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 4,
+      "partido": [
+        {
+          "title": "PARTIDO LIBERAL",
+          "token": "PL"
+        }
+      ],
+      "title": "Anderson Lima",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/552091",
+      "@type": "ParticipanteComissao",
+      "cargo": "Membro",
+      "description": "Igino Marcos da Mata de Oliveira",
+      "id": "552091",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+          "filename": "552091_foto_parlamentar",
+          "height": 350,
+          "size": 224883,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 4,
+      "partido": [
+        {
+          "title": "PARTIDO DOS TRABALHADORES",
+          "token": "PT"
+        }
+      ],
+      "title": "Dr. Igino",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/543274",
+      "@type": "ParticipanteComissao",
+      "cargo": "Membro",
+      "description": "Sérvio Túlio",
+      "id": "543274",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar",
+          "filename": "543274_foto_parlamentar",
+          "height": 350,
+          "size": 219550,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 4,
+      "partido": [
+        {
+          "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+          "token": "PSDB"
+        }
+      ],
+      "title": "Sérvio Túlio",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537428",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Amanda Gondim",
+      "id": "537428",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "filename": "537428_foto_parlamentar",
+          "height": 350,
+          "size": 193355,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PARTIDO SOCIALISTA BRASILEIRO",
+          "token": "PSB"
+        }
+      ],
+      "title": "Amanda Gondim",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/537433",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Ivan da Silva Nunes",
+      "id": "537433",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+          "filename": "537433_foto_parlamentar",
+          "height": 350,
+          "size": 212052,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PROGRESSISTAS",
+          "token": "PP"
+        }
+      ],
+      "title": "Ivan Nunes",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar"
+    },
+    {
+      "@id": "/@@vereadores/528006",
+      "@type": "ParticipanteComissao",
+      "cargo": "Suplente",
+      "description": "Ronaldo César Vilela Tannús",
+      "id": "528006",
+      "image": [
+        {
+          "content-type": "image/png",
+          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "filename": "528006_foto_parlamentar",
+          "height": 350,
+          "size": 219680,
+          "width": 350
+        }
+      ],
+      "mandato": "Titular",
+      "ordem": 5,
+      "partido": [
+        {
+          "title": "PODEMOS",
+          "token": "PODEMOS"
+        }
+      ],
+      "title": "Ronaldo Tannús",
+      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+    }
+  ],
+  "periodos": [
+    {
+      "atual": false,
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "16",
+      "items": [
+        {
+          "@id": "/@@vereadores/448134",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Murilo Ferreira",
+          "id": "448134",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "REDE SUSTENTABILIDADE",
+              "token": "REDE"
+            }
+          ],
+          "title": "Murilo Ferreira"
+        },
+        {
+          "@id": "/@@vereadores/546914",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Abatenio de Andrade Marquez Neto",
+          "id": "546914",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Abatenio Marquez"
+        },
+        {
+          "@id": "/@@vereadores/526015",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Walquir Cleuton do Amaral",
+          "id": "526015",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+              "token": "PSDB"
+            }
+          ],
+          "title": "Walquir Amaral"
+        },
+        {
+          "@id": "/@@vereadores/526697",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Ednaldo Régio de Lima",
+          "id": "526697",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Sargento Ednaldo"
+        },
+        {
+          "@id": "/@@vereadores/537431",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Fabio Dias Queiroz Zavitoski",
+          "id": "537431",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO VERDE",
+              "token": "PV"
+            }
+          ],
+          "title": "Fabão"
+        },
+        {
+          "@id": "/@@vereadores/528007",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Sergimar Antonio de Melo",
+          "id": "528007",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Sérgio do Bom Preço"
+        },
+        {
+          "@id": "/@@vereadores/543274",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Sérvio Túlio",
+          "id": "543274",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+              "token": "PSDB"
+            }
+          ],
+          "title": "Sérvio Túlio"
+        },
+        {
+          "@id": "/@@vereadores/552091",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Igino Marcos da Mata de Oliveira",
+          "id": "552091",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DOS TRABALHADORES",
+              "token": "PT"
+            }
+          ],
+          "title": "Dr. Igino"
+        }
+      ],
+      "start": "2024-05-07",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "6",
+      "items": [
+        {
+          "@id": "/@@vereadores/528007",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Sergimar Antonio de Melo",
+          "id": "528007",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Sérgio do Bom Preço"
+        },
+        {
+          "@id": "/@@vereadores/528006",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Ronaldo César Vilela Tannús",
+          "id": "528006",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PODEMOS",
+              "token": "PODEMOS"
+            }
+          ],
+          "title": "Ronaldo Tannús"
+        },
+        {
+          "@id": "/@@vereadores/537427",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Anderson Lima",
+          "id": "537427",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Anderson Lima"
+        },
+        {
+          "@id": "/@@vereadores/537430",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Luiz Eduardo Ribeiro de Sá",
+          "id": "537430",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Dudu Luiz Eduardo"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/537380",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Antônio Augusto Gonçalves Goulart",
+          "id": "537380",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+              "token": "PSDB"
+            }
+          ],
+          "title": "Antônio Augusto Queijinho"
+        },
+        {
+          "@id": "/@@vereadores/448134",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Murilo Ferreira",
+          "id": "448134",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "REDE SUSTENTABILIDADE",
+              "token": "REDE"
+            }
+          ],
+          "title": "Murilo Ferreira"
+        },
+        {
+          "@id": "/@@vereadores/552093",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gilberto Rezende Sobrinho",
+          "id": "552093",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+              "token": "MDB"
+            }
+          ],
+          "title": "Gilberto Rezende"
+        }
+      ],
+      "start": "2023-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "29/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "11",
+      "items": [],
+      "start": "2021-04-29",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "10",
+      "items": [],
+      "start": "2021-04-23",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "9",
+      "items": [],
+      "start": "2021-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": "8",
+      "items": [
+        {
+          "@id": "/@@vereadores/527981",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Eduardo Moraes",
+          "id": "527981",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "REPUBLICANOS",
+              "token": "REPUBLICANOS"
+            }
+          ],
+          "title": "Eduardo Moraes"
+        },
+        {
+          "@id": "/@@vereadores/528006",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Ronaldo César Vilela Tannús",
+          "id": "528006",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PODEMOS",
+              "token": "PODEMOS"
+            }
+          ],
+          "title": "Ronaldo Tannús"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/537427",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Anderson Lima",
+          "id": "537427",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Anderson Lima"
+        },
+        {
+          "@id": "/@@vereadores/537430",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Luiz Eduardo Ribeiro de Sá",
+          "id": "537430",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Dudu Luiz Eduardo"
+        },
+        {
+          "@id": "/@@vereadores/537434",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Neemias Miquéias",
+          "id": "537434",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PODEMOS",
+              "token": "PODEMOS"
+            }
+          ],
+          "title": "Neemias Miquéias"
+        },
+        {
+          "@id": "/@@vereadores/537436",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Thais Andrade",
+          "id": "537436",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Thais Andrade"
+        },
+        {
+          "@id": "/@@vereadores/537488",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Thiarles Santos",
+          "id": "537488",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIAL LIBERAL",
+              "token": "PSL"
+            }
+          ],
+          "title": "Thiarles Santos (in memorian)"
+        }
+      ],
+      "start": "2021-02-02",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "7",
+      "items": [],
+      "start": "2021-02-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "5",
+      "items": [],
+      "start": "2020-05-19",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "4",
+      "items": [],
+      "start": "2020-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": "3",
+      "items": [],
+      "start": "2019-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": "2",
+      "items": [],
+      "start": "2017-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "1",
+      "items": [],
+      "start": "2015-02-05",
+      "title": "Composição da Comissão"
+    }
+  ],
+  "reunioes": {
+    "@type": "ReunioesComissao",
+    "description": "Lista de reuniões da comissão 28",
+    "items": []
+  },
+  "tipo": "Permanente",
+  "title": "Comissão de Ética e Decoro Parlamentar"
+}

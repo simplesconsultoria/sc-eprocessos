@@ -1,0 +1,91 @@
+{
+  "@id": "/@@mesas",
+  "@type": "Mesas",
+  "description": "Lista de períodos de composição",
+  "items": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "Mesa",
+      "atual": true,
+      "description": "Período de composição na 20ª Legislatura",
+      "end": "2026-12-31",
+      "id": "7",
+      "legislatura": "20ª Legislatura",
+      "legislatura_id": "/@@legislaturas/20",
+      "start": "2025-01-01",
+      "title": "01/01/2025 a 31/12/2026"
+    },
+    {
+      "@id": "/@@mesas/6",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 19ª Legislatura",
+      "end": "2024-12-31",
+      "id": "6",
+      "legislatura": "19ª Legislatura",
+      "legislatura_id": "/@@legislaturas/19",
+      "start": "2023-01-01",
+      "title": "01/01/2023 a 31/12/2024"
+    },
+    {
+      "@id": "/@@mesas/5",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 19ª Legislatura",
+      "end": "2022-12-31",
+      "id": "5",
+      "legislatura": "19ª Legislatura",
+      "legislatura_id": "/@@legislaturas/19",
+      "start": "2021-01-01",
+      "title": "01/01/2021 a 31/12/2022"
+    },
+    {
+      "@id": "/@@mesas/4",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 18ª Legislatura",
+      "end": "2020-12-31",
+      "id": "4",
+      "legislatura": "18ª Legislatura",
+      "legislatura_id": "/@@legislaturas/18",
+      "start": "2020-02-17",
+      "title": "17/02/2020 a 31/12/2020"
+    },
+    {
+      "@id": "/@@mesas/3",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 18ª Legislatura",
+      "end": "2019-12-26",
+      "id": "3",
+      "legislatura": "18ª Legislatura",
+      "legislatura_id": "/@@legislaturas/18",
+      "start": "2019-01-01",
+      "title": "01/01/2019 a 26/12/2019"
+    },
+    {
+      "@id": "/@@mesas/2",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 18ª Legislatura",
+      "end": "2018-12-31",
+      "id": "2",
+      "legislatura": "18ª Legislatura",
+      "legislatura_id": "/@@legislaturas/18",
+      "start": "2017-01-01",
+      "title": "01/01/2017 a 31/12/2018"
+    },
+    {
+      "@id": "/@@mesas/1",
+      "@type": "Mesa",
+      "atual": false,
+      "description": "Período de composição na 17ª Legislatura",
+      "end": "2016-12-31",
+      "id": "1",
+      "legislatura": "17ª Legislatura",
+      "legislatura_id": "/@@legislaturas/17",
+      "start": "2015-06-02",
+      "title": "02/06/2015 a 31/12/2016"
+    }
+  ]
+}

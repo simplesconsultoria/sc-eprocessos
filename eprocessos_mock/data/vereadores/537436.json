@@ -1,0 +1,424 @@
+{
+  "@id": "/@@vereadores/537436",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Thais Andrade &amp;eacute; assistente social, graduada h&amp;aacute; mais de 15 anos, com uma trajet&amp;oacute;ria marcada pelo compromisso com a justi&amp;ccedil;a social. Seu envolvimento com causas sociais teve in&amp;iacute;cio ainda na adolesc&amp;ecirc;ncia, por meio de trabalhos volunt&amp;aacute;rios em comunidades, e se consolidou ao longo dos anos por meio de atua&amp;ccedil;&amp;otilde;es diretas no atendimento &amp;agrave; popula&amp;ccedil;&amp;atilde;o em situa&amp;ccedil;&amp;atilde;o de rua, fam&amp;iacute;lias em vulnerabilidade social e projetos educacionais em escolas municipais e estaduais.&lt;/p&gt;\r\n&lt;p&gt;Ao longo de sua carreira, atuou na Prefeitura Municipal de Uberl&amp;acirc;ndia, na Secretaria Municipal de Desenvolvimento Social, Trabalho e Habita&amp;ccedil;&amp;atilde;o, onde exerceu os cargos de Diretora da Prote&amp;ccedil;&amp;atilde;o Social B&amp;aacute;sica e Coordenadora do CREAS &amp;ndash; Medidas Socioeducativas. Essa experi&amp;ecirc;ncia fortaleceu ainda mais seu compromisso com pol&amp;iacute;ticas p&amp;uacute;blicas voltadas &amp;agrave; inclus&amp;atilde;o e ao desenvolvimento social.&lt;/p&gt;\r\n&lt;p&gt;Al&amp;eacute;m disso, trabalhou por mais de 10 anos como assistente social na Comunidade Casa, o maior projeto social de Minas Gerais na atualidade, prestando assist&amp;ecirc;ncia a milhares de pessoas em situa&amp;ccedil;&amp;atilde;o de vulnerabilidade.&lt;/p&gt;\r\n&lt;p&gt;Em seu segundo mandato como vereadora, Thais se destaca pela forte atua&amp;ccedil;&amp;atilde;o na defesa dos direitos das pessoas com defici&amp;ecirc;ncia, no fortalecimento do terceiro setor e na prote&amp;ccedil;&amp;atilde;o dos direitos dos idosos. Sua trajet&amp;oacute;ria pol&amp;iacute;tica &amp;eacute; pautada pela luta por pol&amp;iacute;ticas p&amp;uacute;blicas inclusivas e pela garantia dos direitos sociais da popula&amp;ccedil;&amp;atilde;o.&lt;/p&gt;\r\n&lt;p&gt;Al&amp;eacute;m de seu trabalho legislativo, Thais Andrade &amp;eacute; procuradora adjunta da Mulher e integra as comiss&amp;otilde;es de Direitos Humanos, Direitos Sociais e Defesa do Consumidor, al&amp;eacute;m de ser membro da Comiss&amp;atilde;o de Direitos da Mulher na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia, refor&amp;ccedil;ando seu compromisso com a equidade e a justi&amp;ccedil;a social.&lt;/p&gt;\r\n&lt;p&gt;Casada com Claudiney e m&amp;atilde;e de um filho, Thais alia sua experi&amp;ecirc;ncia profissional e pessoal para construir um mandato baseado no di&amp;aacute;logo, na empatia e na transforma&amp;ccedil;&amp;atilde;o social.&lt;/p&gt;",
+  "birthday": "1978-08-10",
+  "cod_autor": "537436",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "14/10/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "20",
+      "mandato": "Suplente",
+      "start": "2025-10-14",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "13/10/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Suplente",
+      "start": "2025-10-13",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "09/09/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2025-09-09",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "29",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "description": "12/08/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "29",
+      "mandato": "Suplente",
+      "start": "2024-08-12",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "04/06/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "8",
+      "mandato": "Suplente",
+      "start": "2024-06-04",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "12",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "04/04/2024 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "20",
+      "mandato": "Suplente",
+      "start": "2024-04-04",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "8",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2021-04-23",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "7",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "17",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2021-02-02",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2021-02-01",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Thais Andrade",
+  "email": "thaisandrade@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2024-02-06",
+      "filiacao_atual": true,
+      "title": "Unão Brasil",
+      "token": "União Brasil"
+    },
+    {
+      "data_desfiliacao": "2023-07-31",
+      "data_filiacao": "2021-01-01",
+      "filiacao_atual": false,
+      "title": "PARTIDO VERDE",
+      "token": "PV"
+    }
+  ],
+  "id": "537436",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+      "filename": "537436_foto_parlamentar",
+      "height": "350",
+      "size": "202988",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Suplente",
+      "start": "2025-01-06",
+      "votos": "2907"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/6",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2023 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "6",
+      "start": "2023-01-01",
+      "title": "3ª Vice-Presidente"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239 1148 / (34) 3239 1248",
+  "title": "Thais Andrade",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar"
+}

@@ -1,0 +1,423 @@
+{
+  "@id": "/@@vereadores/26010",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Gl&amp;aacute;ucia Galante Bu&amp;iacute;ssa, conhecida como Gl&amp;aacute;ucia da Sa&amp;uacute;de, &amp;eacute; vereadora em seu quarto mandato consecutivo na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia e se destaca por defender com firmeza os valores em que acredita: Deus, p&amp;aacute;tria, fam&amp;iacute;lia e liberdade. &amp;Eacute; uma voz ativa do movimento pr&amp;oacute;-vida, contr&amp;aacute;ria ao aborto e comprometida em proteger a vida em todas as suas fases.&lt;/p&gt;\r\n&lt;p&gt;Psic&amp;oacute;loga formada pela Universidade Federal de Uberl&amp;acirc;ndia (UFU), Gl&amp;aacute;ucia tem uma longa trajet&amp;oacute;ria como servidora p&amp;uacute;blica concursada na &amp;aacute;rea da sa&amp;uacute;de desde 1992. Antes de entrar para a pol&amp;iacute;tica, gerenciou por sete anos a Unidade B&amp;aacute;sica de Sa&amp;uacute;de (UBS) Tocantins, coordenou o Programa de Sa&amp;uacute;de da Fam&amp;iacute;lia em bairros e distritos rurais de Uberl&amp;acirc;ndia, e ocupou a dire&amp;ccedil;&amp;atilde;o de distritos sanit&amp;aacute;rios, sempre com foco no cuidado com as pessoas.&lt;/p&gt;\r\n&lt;p&gt;Eleita pela primeira vez em 2012, atua de forma intensa nas &amp;aacute;reas da sa&amp;uacute;de, educa&amp;ccedil;&amp;atilde;o, assist&amp;ecirc;ncia social, seguran&amp;ccedil;a p&amp;uacute;blica, agro e meio ambiente, sendo uma das vereadoras mais atuantes e reconhecidas pelo trabalho s&amp;eacute;rio e pr&amp;oacute;ximo &amp;agrave; popula&amp;ccedil;&amp;atilde;o.&lt;/p&gt;\r\n&lt;p&gt;Ao longo de seus mandatos, j&amp;aacute; destinou mais de R$ 6 milh&amp;otilde;es em emendas parlamentares &amp;mdash; de sua autoria e em parceria com o deputado federal Eros Biondini e a deputada estadual Chiara Biondini &amp;mdash;beneficiando diversas &amp;aacute;reas essenciais para a cidade, como:&lt;/p&gt;\r\n&lt;p&gt;Sa&amp;uacute;de: mais de R$ 700 mil para o Hospital do C&amp;acirc;ncer, R$ 400 mil para UBSs em v&amp;aacute;rias regi&amp;otilde;es e R$ 50 mil para equipamentos m&amp;eacute;dicos;&lt;/p&gt;\r\n&lt;p&gt;Educa&amp;ccedil;&amp;atilde;o: R$ 750 mil para escolas municipais e para a UFU;&lt;/p&gt;\r\n&lt;p&gt;Seguran&amp;ccedil;a p&amp;uacute;blica: R$ 300 mil para viaturas e equipamentos das pol&amp;iacute;cias e bombeiros;&lt;/p&gt;\r\n&lt;p&gt;Meio ambiente: mais de R$ 200 mil para pra&amp;ccedil;as, parques e ONGs ambientais;&lt;/p&gt;\r\n&lt;p&gt;Apoio social: mais de R$ 2 milh&amp;otilde;es para comunidades terap&amp;ecirc;uticas e R$ 1 milh&amp;atilde;o para institui&amp;ccedil;&amp;otilde;es como APAE, Lar Vicentino e Esta&amp;ccedil;&amp;atilde;o Vida;&lt;/p&gt;\r\n&lt;p&gt;Agro: R$ 100 mil para projetos de apoio ao produtor rural.&lt;/p&gt;\r\n&lt;p&gt;Entre os mais de 30 projetos de lei de sua autoria est&amp;atilde;o:&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; &amp;nbsp;Lei do Colar Tulipa Vermelha (Lei 14.152): para identifica&amp;ccedil;&amp;atilde;o de pessoas com Parkinson;&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; &amp;nbsp;Lei dos 30 Dias para Diagn&amp;oacute;stico do C&amp;acirc;ncer (Lei 11.962): garantindo agilidade no tratamento oncol&amp;oacute;gico;&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; &amp;nbsp;Semana de Combate ao C&amp;acirc;ncer de Pr&amp;oacute;stata (Lei 12.033) e Dia Municipal de Combate ao C&amp;acirc;ncer (Lei 13.618);&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; &amp;nbsp;Junho Violeta (Lei 13.681): campanha de preven&amp;ccedil;&amp;atilde;o &amp;agrave; viol&amp;ecirc;ncia contra idosos.&lt;/p&gt;\r\n&lt;p&gt;Com &amp;eacute;tica, transpar&amp;ecirc;ncia e dedica&amp;ccedil;&amp;atilde;o, ela segue sua miss&amp;atilde;o de servir e transformar a pol&amp;iacute;tica em uma ferramenta a servi&amp;ccedil;o das pessoas, sempre pr&amp;oacute;xima &amp;agrave; popula&amp;ccedil;&amp;atilde;o e com resultados que impactam a cidade de forma concreta.&lt;/p&gt;",
+  "birthday": "1964-04-07",
+  "cod_autor": "26010",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "32",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "30",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "23",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "15",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "32",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "20",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "27",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/31",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Diversidade",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "31",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "30",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2015-02-05",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Gláucia Galante Buíssa",
+  "email": "glauciadasaude@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2024-04-01",
+      "filiacao_atual": true,
+      "title": "PARTIDO LIBERAL",
+      "token": "PL"
+    },
+    {
+      "data_desfiliacao": "2024-03-31",
+      "data_filiacao": "2020-05-19",
+      "filiacao_atual": false,
+      "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "token": "PSDB"
+    },
+    {
+      "data_desfiliacao": "2020-05-18",
+      "data_filiacao": "2020-02-03",
+      "filiacao_atual": false,
+      "title": "PARTIDO DA MOBILIZAÇÃO NACIONAL",
+      "token": "MOBILIZA"
+    }
+  ],
+  "id": "26010",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+      "filename": "26010_foto_parlamentar",
+      "height": "350",
+      "size": "182275",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "2915"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    },
+    {
+      "@id": "/@@legislaturas/18",
+      "@type": "Mandato",
+      "end": "2020-12-31",
+      "id": 18,
+      "natureza": "Titular",
+      "start": "2017-01-01",
+      "votos": "3147"
+    },
+    {
+      "@id": "/@@legislaturas/17",
+      "@type": "Mandato",
+      "end": "2016-12-31",
+      "id": 17,
+      "natureza": "Titular",
+      "start": "2013-01-01",
+      "votos": "1940"
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2025 a 31/12/2026",
+      "end": "2026-12-31",
+      "id": "7",
+      "start": "2025-01-01",
+      "title": "2º Vice-Presidente"
+    },
+    {
+      "@id": "/@@mesas/5",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "5",
+      "start": "2021-01-01",
+      "title": "1º Vice-Presidente"
+    },
+    {
+      "@id": "/@@mesas/1",
+      "@type": "ParticipanteMesa",
+      "description": "02/06/2015 a 31/12/2016",
+      "end": "2016-12-31",
+      "id": "1",
+      "start": "2015-06-02",
+      "title": "2ª Secretário"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239-1150",
+  "title": "Gláucia da Saúde",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+}

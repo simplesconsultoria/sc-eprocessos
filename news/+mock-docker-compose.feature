@@ -1,0 +1,1 @@
+Added the `eprocessos-mock` service to the top-level `docker-compose.yml`, including a Dockerfile and a dedicated `vol-eprocessos-data` volume so the recorded cache persists across container restarts. @ericof

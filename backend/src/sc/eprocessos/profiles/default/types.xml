@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object meta_type="Plone Types Tool"
+        name="portal_types"
+>
+  <object meta_type="Dexterity FTI"
+          name="Normas"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Vereadores"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Legislaturas"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Mesas"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Comissoes"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Materias"
+  />
+  <object meta_type="Dexterity FTI"
+          name="Sessoes"
+  />
+</object>

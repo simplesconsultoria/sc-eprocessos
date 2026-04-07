@@ -1,0 +1,751 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22
+  response:
+    body:
+      string: "{\n   \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22\",\n
+        \  \"@type\": \"Comissao\",\n   \"description\": \"CE\",\n   \"id\": \"22\",\n
+        \  \"items\": [\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Abatenio de Andrade Marquez Neto\",\n         \"id\":
+        \"546914\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\",\n
+        \              \"filename\": \"546914_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 221654,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Abatenio Marquez\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/25988\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Adriano Zago\",\n         \"id\": \"25988\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar\",\n
+        \              \"filename\": \"25988_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 217172,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"AVANTE\",\n
+        \              \"token\": \"AVANTE\"\n            }\n         ],\n         \"title\":
+        \"Adriano Zago\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537428\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Amanda Gondim\",\n         \"id\": \"537428\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar\",\n
+        \              \"filename\": \"537428_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 193355,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        SOCIALISTA BRASILEIRO\",\n               \"token\": \"PSB\"\n            }\n
+        \        ],\n         \"title\": \"Amanda Gondim\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537427\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Anderson Lima\",\n         \"id\": \"537427\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar\",\n
+        \              \"filename\": \"537427_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 200492,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PODEMOS\",\n
+        \              \"token\": \"PODEMOS\"\n            }\n         ],\n         \"title\":
+        \"Anderson Lima\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537427_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537380\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ant\xF4nio Augusto Gon\xE7alves Goulart\",\n         \"id\":
+        \"537380\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar\",\n
+        \              \"filename\": \"537380_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 212525,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DA SOCIAL DEMOCRACIA BRASILEIRA\",\n               \"token\": \"PSDB\"\n            }\n
+        \        ],\n         \"title\": \"Ant\xF4nio Augusto Queijinho\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399041\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ant\xF4nio Carrijo\",\n         \"id\": \"399041\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar\",\n
+        \              \"filename\": \"399041_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 205422,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Ant\xF4nio Carrijo\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556177\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Lia Eunice Valechi da Silva\",\n         \"id\":
+        \"556177\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar\",\n
+        \              \"filename\": \"556177_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 191842,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"Un\xE3o
+        Brasil\",\n               \"token\": \"Uni\xE3o Brasil\"\n            }\n
+        \        ],\n         \"title\": \"Delegada Lia Valechi\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556177_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/552091\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Igino Marcos da Mata de Oliveira\",\n         \"id\":
+        \"552091\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar\",\n
+        \              \"filename\": \"552091_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 224883,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DOS TRABALHADORES\",\n               \"token\": \"PT\"\n            }\n         ],\n
+        \        \"title\": \"Dr. Igino\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556178\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Edson Carvalho Ferreira\",\n         \"id\": \"556178\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar\",\n
+        \              \"filename\": \"556178_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 216173,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"Democrata\",\n
+        \              \"token\": \"DEMOCRATA\"\n            }\n         ],\n         \"title\":
+        \"Edinho Combate Ao C\xE2ncer\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556179\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Eliusmarcio Alves de Carvalho (Elinho da Academia)\",\n
+        \        \"id\": \"556179\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\",\n
+        \              \"filename\": \"556179_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 225249,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DA MOBILIZA\xC7\xC3O NACIONAL\",\n               \"token\": \"MOBILIZA\"\n
+        \           }\n         ],\n         \"title\": \"Elinho Da Academia\",\n
+        \        \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537431\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Fabio Dias Queiroz Zavitoski\",\n         \"id\":
+        \"537431\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar\",\n
+        \              \"filename\": \"537431_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 225601,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        VERDE\",\n               \"token\": \"PV\"\n            }\n         ],\n         \"title\":
+        \"Fab\xE3o\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537431_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26010\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Gl\xE1ucia Galante Bu\xEDssa\",\n         \"id\":
+        \"26010\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\",\n
+        \              \"filename\": \"26010_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 182275,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        LIBERAL\",\n               \"token\": \"PL\"\n            }\n         ],\n
+        \        \"title\": \"Gl\xE1ucia da Sa\xFAde\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537433\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ivan da Silva Nunes\",\n         \"id\": \"537433\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\",\n
+        \              \"filename\": \"537433_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 212052,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Ivan Nunes\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556174\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Jair Ferraz\",\n         \"id\": \"556174\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar\",\n
+        \              \"filename\": \"556174_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 206052,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Jair Ferraz\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556174_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556180\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Janaina Guimar\xE3es Parreira Rezende\",\n         \"id\":
+        \"556180\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar\",\n
+        \              \"filename\": \"556180_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 229921,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        LIBERAL\",\n               \"token\": \"PL\"\n            }\n         ],\n
+        \        \"title\": \"Janaina Guimar\xE3es\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Liza Fernandes Prado\",\n         \"id\": \"399022\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\",\n
+        \              \"filename\": \"399022_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 242980,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"CIDADANIA\",\n
+        \              \"token\": \"CIDADANIA\"\n            }\n         ],\n         \"title\":
+        \"Liza Prado\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537434\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Neemias Miqu\xE9ias\",\n         \"id\": \"537434\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar\",\n
+        \              \"filename\": \"537434_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 204520,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PODEMOS\",\n
+        \              \"token\": \"PODEMOS\"\n            }\n         ],\n         \"title\":
+        \"Neemias Miqu\xE9ias\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556181\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Nei Carlos Borges\",\n         \"id\": \"556181\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar\",\n
+        \              \"filename\": \"556181_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 217149,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"Solidariedade\",\n
+        \              \"token\": \"Solidariedade\"\n            }\n         ],\n
+        \        \"title\": \"Nei Borges\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556182\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Celisvaldo da Silva \",\n         \"id\": \"556182\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar\",\n
+        \              \"filename\": \"556182_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 223072,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"DEMOCRACIA
+        CRIST\xC3\",\n               \"token\": \"DC\"\n            }\n         ],\n
+        \        \"title\": \"Pez\xE3o Do Esporte\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556182_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556183\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Conrado Augusto Ferreira de Oliveira\",\n         \"id\":
+        \"556183\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar\",\n
+        \              \"filename\": \"556183_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 203791,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"MOVIMENTO
+        DEMOCR\xC1TICO BRASILEIRO\",\n               \"token\": \"MDB\"\n            }\n
+        \        ],\n         \"title\": \"Prof. Conrado Augusto\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556183_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556184\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ronaldo Am\xE9lio Ferreira\",\n         \"id\":
+        \"556184\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar\",\n
+        \              \"filename\": \"556184_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 215643,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DOS TRABALHADORES\",\n               \"token\": \"PT\"\n            }\n         ],\n
+        \        \"title\": \"Prof. Ronaldo\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556184_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528006\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ronaldo C\xE9sar Vilela Tann\xFAs\",\n         \"id\":
+        \"528006\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar\",\n
+        \              \"filename\": \"528006_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 219680,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DA SOCIAL DEMOCRACIA BRASILEIRA\",\n               \"token\": \"PSDB\"\n            }\n
+        \        ],\n         \"title\": \"Ronaldo Tann\xFAs\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526697\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Ednaldo R\xE9gio de Lima\",\n         \"id\":
+        \"526697\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\",\n
+        \              \"filename\": \"526697_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 223533,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Sargento Ednaldo\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/543274\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"S\xE9rvio T\xFAlio\",\n         \"id\": \"543274\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar\",\n
+        \              \"filename\": \"543274_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 219550,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PARTIDO
+        DA SOCIAL DEMOCRACIA BRASILEIRA\",\n               \"token\": \"PSDB\"\n            }\n
+        \        ],\n         \"title\": \"S\xE9rvio T\xFAlio\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537436\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Thais Andrade\",\n         \"id\": \"537436\",\n
+        \        \"image\": [\n            {\n               \"content-type\": \"image/png\",\n
+        \              \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar\",\n
+        \              \"filename\": \"537436_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 202988,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"Un\xE3o
+        Brasil\",\n               \"token\": \"Uni\xE3o Brasil\"\n            }\n
+        \        ],\n         \"title\": \"Thais Andrade\",\n         \"url_foto\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26097\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"Rosenvaldo Correia de Mendon\xE7a\",\n         \"id\":
+        \"26097\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\",\n
+        \              \"filename\": \"26097_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 213974,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"PROGRESSISTAS\",\n
+        \              \"token\": \"PP\"\n            }\n         ],\n         \"title\":
+        \"Zezinho Mendon\xE7a\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556176\",\n
+        \        \"@type\": \"ParticipanteComissao\",\n         \"cargo\": \"ad hoc\",\n
+        \        \"description\": \"\xC2ngela Aparecida Caetano Souza\",\n         \"id\":
+        \"556176\",\n         \"image\": [\n            {\n               \"content-type\":
+        \"image/png\",\n               \"download\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar\",\n
+        \              \"filename\": \"556176_foto_parlamentar\",\n               \"height\":
+        350,\n               \"size\": 222042,\n               \"width\": 350\n            }\n
+        \        ],\n         \"mandato\": \"Suplente\",\n         \"ordem\": 6,\n
+        \        \"partido\": [\n            {\n               \"title\": \"Solidariedade\",\n
+        \              \"token\": \"Solidariedade\"\n            }\n         ],\n
+        \        \"title\": \"\xC2ngela Do Postinho\",\n         \"url_foto\": \"https://e-processos.camarauberlandia.mg.gov.br/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar\"\n
+        \     }\n   ],\n   \"periodos\": [\n      {\n         \"atual\": false,\n
+        \        \"description\": \"07/05/2024 a 31/12/2024\",\n         \"end\":
+        \"2024-12-31\",\n         \"id\": \"16\",\n         \"items\": [\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537433\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ivan da Silva Nunes\",\n               \"id\":
+        \"537433\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PROGRESSISTAS\",\n
+        \                    \"token\": \"PP\"\n                  }\n               ],\n
+        \              \"title\": \"Ivan Nunes\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526015\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Walquir Cleuton do Amaral\",\n
+        \              \"id\": \"526015\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Walquir Amaral\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537436\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Thais Andrade\",\n               \"id\":
+        \"537436\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Un\xE3o Brasil\",\n
+        \                    \"token\": \"Uni\xE3o Brasil\"\n                  }\n
+        \              ],\n               \"title\": \"Thais Andrade\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/543274\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"S\xE9rvio T\xFAlio\",\n               \"id\":
+        \"543274\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO DA SOCIAL
+        DEMOCRACIA BRASILEIRA\",\n                     \"token\": \"PSDB\"\n                  }\n
+        \              ],\n               \"title\": \"S\xE9rvio T\xFAlio\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528007\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Sergimar Antonio de Melo\",\n
+        \              \"id\": \"528007\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"S\xE9rgio do Bom Pre\xE7o\"\n
+        \           },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528006\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ronaldo C\xE9sar Vilela Tann\xFAs\",\n
+        \              \"id\": \"528006\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Ronaldo Tann\xFAs\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537435\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Raphael Leles\",\n               \"id\":
+        \"537435\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Un\xE3o Brasil\",\n
+        \                    \"token\": \"Uni\xE3o Brasil\"\n                  }\n
+        \              ],\n               \"title\": \"Raphael Leles\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/527867\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Odair Jos\xE9\",\n               \"id\":
+        \"527867\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Solidariedade\",\n
+        \                    \"token\": \"Solidariedade\"\n                  }\n               ],\n
+        \              \"title\": \"Odair Jos\xE9\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537434\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Neemias Miqu\xE9ias\",\n               \"id\":
+        \"537434\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PODEMOS\",\n                     \"token\":
+        \"PODEMOS\"\n                  }\n               ],\n               \"title\":
+        \"Neemias Miqu\xE9ias\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/448134\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Murilo Ferreira\",\n               \"id\":
+        \"448134\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"REDE SUSTENTABILIDADE\",\n
+        \                    \"token\": \"REDE\"\n                  }\n               ],\n
+        \              \"title\": \"Murilo Ferreira\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Liza Fernandes Prado\",\n               \"id\":
+        \"399022\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"CIDADANIA\",\n                     \"token\":
+        \"CIDADANIA\"\n                  }\n               ],\n               \"title\":
+        \"Liza Prado\"\n            },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526698\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Leandro Cassiano Neves\",\n
+        \              \"id\": \"526698\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA RENOVA\xC7\xC3O DEMOCR\xC1TICA\",\n                     \"token\":
+        \"PRD\"\n                  }\n               ],\n               \"title\":
+        \"Leandro Neves\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Abatenio de Andrade Marquez
+        Neto\",\n               \"id\": \"546914\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"Abatenio Marquez\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537432\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Gilvan de Melo Machado\",\n
+        \              \"id\": \"537432\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO SOCIALISTA BRASILEIRO\",\n                     \"token\": \"PSB\"\n
+        \                 }\n               ],\n               \"title\": \"Gilvan
+        Masferrer\"\n            },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/552093\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Gilberto Rezende Sobrinho\",\n
+        \              \"id\": \"552093\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"MOVIMENTO DEMOCR\xC1TICO BRASILEIRO\",\n                     \"token\":
+        \"MDB\"\n                  }\n               ],\n               \"title\":
+        \"Gilberto Rezende\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537431\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Fabio Dias Queiroz Zavitoski\",\n
+        \              \"id\": \"537431\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO VERDE\",\n                     \"token\": \"PV\"\n                  }\n
+        \              ],\n               \"title\": \"Fab\xE3o\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/527981\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Eduardo Moraes\",\n               \"id\":
+        \"527981\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"REPUBLICANOS\",\n
+        \                    \"token\": \"REPUBLICANOS\"\n                  }\n               ],\n
+        \              \"title\": \"Eduardo Moraes\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537430\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Luiz Eduardo Ribeiro de S\xE1\",\n
+        \              \"id\": \"537430\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"Solidariedade\",\n                     \"token\": \"Solidariedade\"\n                  }\n
+        \              ],\n               \"title\": \"Dudu Luiz Eduardo\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/552091\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Igino Marcos da Mata de Oliveira\",\n
+        \              \"id\": \"552091\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DOS TRABALHADORES\",\n                     \"token\": \"PT\"\n                  }\n
+        \              ],\n               \"title\": \"Dr. Igino\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537426\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Cl\xE1udia Guerra\",\n               \"id\":
+        \"537426\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO DEMOCR\xC1TICO
+        TRABALHISTA\",\n                     \"token\": \"PDT\"\n                  }\n
+        \              ],\n               \"title\": \"Cl\xE1udia Guerra\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399041\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ant\xF4nio Carrijo\",\n               \"id\":
+        \"399041\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PROGRESSISTAS\",\n
+        \                    \"token\": \"PP\"\n                  }\n               ],\n
+        \              \"title\": \"Ant\xF4nio Carrijo\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537380\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ant\xF4nio Augusto Gon\xE7alves
+        Goulart\",\n               \"id\": \"537380\",\n               \"mandato\":
+        \"Titular\",\n               \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Ant\xF4nio Augusto Queijinho\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537427\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Anderson Lima\",\n               \"id\":
+        \"537427\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PODEMOS\",\n                     \"token\":
+        \"PODEMOS\"\n                  }\n               ],\n               \"title\":
+        \"Anderson Lima\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537428\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Amanda Gondim\",\n               \"id\":
+        \"537428\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO SOCIALISTA
+        BRASILEIRO\",\n                     \"token\": \"PSB\"\n                  }\n
+        \              ],\n               \"title\": \"Amanda Gondim\"\n            }\n
+        \        ],\n         \"start\": \"2024-05-07\",\n         \"title\": \"Composi\xE7\xE3o
+        da Comiss\xE3o\"\n      },\n      {\n         \"atual\": false,\n         \"description\":
+        \"01/01/2023 a 06/05/2024\",\n         \"end\": \"2024-05-06\",\n         \"id\":
+        \"6\",\n         \"items\": [\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/556174\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Presidente\",\n               \"description\": \"Jair Ferraz\",\n               \"id\":
+        \"556174\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PROGRESSISTAS\",\n
+        \                    \"token\": \"PP\"\n                  }\n               ],\n
+        \              \"title\": \"Jair Ferraz\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/546914\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Relator\",\n               \"description\": \"Abatenio de Andrade Marquez
+        Neto\",\n               \"id\": \"546914\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"Abatenio Marquez\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Liza Fernandes Prado\",\n               \"id\":
+        \"399022\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"CIDADANIA\",\n                     \"token\":
+        \"CIDADANIA\"\n                  }\n               ],\n               \"title\":
+        \"Liza Prado\"\n            },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26097\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Rosenvaldo Correia de Mendon\xE7a\",\n
+        \              \"id\": \"26097\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"Zezinho Mendon\xE7a\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526015\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Walquir Cleuton do Amaral\",\n
+        \              \"id\": \"526015\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Walquir Amaral\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537436\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Thais Andrade\",\n               \"id\":
+        \"537436\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Un\xE3o Brasil\",\n
+        \                    \"token\": \"Uni\xE3o Brasil\"\n                  }\n
+        \              ],\n               \"title\": \"Thais Andrade\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528007\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Sergimar Antonio de Melo\",\n
+        \              \"id\": \"528007\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"S\xE9rgio do Bom Pre\xE7o\"\n
+        \           },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/543274\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"S\xE9rvio T\xFAlio\",\n               \"id\":
+        \"543274\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO DA SOCIAL
+        DEMOCRACIA BRASILEIRA\",\n                     \"token\": \"PSDB\"\n                  }\n
+        \              ],\n               \"title\": \"S\xE9rvio T\xFAlio\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526697\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ednaldo R\xE9gio de Lima\",\n
+        \              \"id\": \"526697\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PROGRESSISTAS\",\n                     \"token\": \"PP\"\n                  }\n
+        \              ],\n               \"title\": \"Sargento Ednaldo\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/528006\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ronaldo C\xE9sar Vilela Tann\xFAs\",\n
+        \              \"id\": \"528006\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Ronaldo Tann\xFAs\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537435\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Raphael Leles\",\n               \"id\":
+        \"537435\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Un\xE3o Brasil\",\n
+        \                    \"token\": \"Uni\xE3o Brasil\"\n                  }\n
+        \              ],\n               \"title\": \"Raphael Leles\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/527867\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Odair Jos\xE9\",\n               \"id\":
+        \"527867\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"Solidariedade\",\n
+        \                    \"token\": \"Solidariedade\"\n                  }\n               ],\n
+        \              \"title\": \"Odair Jos\xE9\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537434\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Neemias Miqu\xE9ias\",\n               \"id\":
+        \"537434\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PODEMOS\",\n                     \"token\":
+        \"PODEMOS\"\n                  }\n               ],\n               \"title\":
+        \"Neemias Miqu\xE9ias\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/448134\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Murilo Ferreira\",\n               \"id\":
+        \"448134\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"REDE SUSTENTABILIDADE\",\n
+        \                    \"token\": \"REDE\"\n                  }\n               ],\n
+        \              \"title\": \"Murilo Ferreira\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399022\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Liza Fernandes Prado\",\n               \"id\":
+        \"399022\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"CIDADANIA\",\n                     \"token\":
+        \"CIDADANIA\"\n                  }\n               ],\n               \"title\":
+        \"Liza Prado\"\n            },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/526698\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Leandro Cassiano Neves\",\n
+        \              \"id\": \"526698\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA RENOVA\xC7\xC3O DEMOCR\xC1TICA\",\n                     \"token\":
+        \"PRD\"\n                  }\n               ],\n               \"title\":
+        \"Leandro Neves\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/26010\",\n               \"@type\":
+        \"ParticipanteComissao\",\n               \"cargo\": \"Membro\",\n               \"description\":
+        \"Gl\xE1ucia Galante Bu\xEDssa\",\n               \"id\": \"26010\",\n               \"mandato\":
+        \"Titular\",\n               \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO LIBERAL\",\n                     \"token\": \"PL\"\n                  }\n
+        \              ],\n               \"title\": \"Gl\xE1ucia da Sa\xFAde\"\n
+        \           },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537432\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Gilvan de Melo Machado\",\n
+        \              \"id\": \"537432\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO SOCIALISTA BRASILEIRO\",\n                     \"token\": \"PSB\"\n
+        \                 }\n               ],\n               \"title\": \"Gilvan
+        Masferrer\"\n            },\n            {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537431\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Fabio Dias Queiroz Zavitoski\",\n
+        \              \"id\": \"537431\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO VERDE\",\n                     \"token\": \"PV\"\n                  }\n
+        \              ],\n               \"title\": \"Fab\xE3o\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/527981\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Eduardo Moraes\",\n               \"id\":
+        \"527981\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"REPUBLICANOS\",\n
+        \                    \"token\": \"REPUBLICANOS\"\n                  }\n               ],\n
+        \              \"title\": \"Eduardo Moraes\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537430\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Luiz Eduardo Ribeiro de S\xE1\",\n
+        \              \"id\": \"537430\",\n               \"mandato\": \"Titular\",\n
+        \              \"partido\": [\n                  {\n                     \"title\":
+        \"Solidariedade\",\n                     \"token\": \"Solidariedade\"\n                  }\n
+        \              ],\n               \"title\": \"Dudu Luiz Eduardo\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537426\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Cl\xE1udia Guerra\",\n               \"id\":
+        \"537426\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO DEMOCR\xC1TICO
+        TRABALHISTA\",\n                     \"token\": \"PDT\"\n                  }\n
+        \              ],\n               \"title\": \"Cl\xE1udia Guerra\"\n            },\n
+        \           {\n               \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/399041\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ant\xF4nio Carrijo\",\n               \"id\":
+        \"399041\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PROGRESSISTAS\",\n
+        \                    \"token\": \"PP\"\n                  }\n               ],\n
+        \              \"title\": \"Ant\xF4nio Carrijo\"\n            },\n            {\n
+        \              \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537380\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Ant\xF4nio Augusto Gon\xE7alves
+        Goulart\",\n               \"id\": \"537380\",\n               \"mandato\":
+        \"Titular\",\n               \"partido\": [\n                  {\n                     \"title\":
+        \"PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA\",\n                     \"token\":
+        \"PSDB\"\n                  }\n               ],\n               \"title\":
+        \"Ant\xF4nio Augusto Queijinho\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537427\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Anderson Lima\",\n               \"id\":
+        \"537427\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PODEMOS\",\n                     \"token\":
+        \"PODEMOS\"\n                  }\n               ],\n               \"title\":
+        \"Anderson Lima\"\n            },\n            {\n               \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@vereadores/537428\",\n
+        \              \"@type\": \"ParticipanteComissao\",\n               \"cargo\":
+        \"Membro\",\n               \"description\": \"Amanda Gondim\",\n               \"id\":
+        \"537428\",\n               \"mandato\": \"Titular\",\n               \"partido\":
+        [\n                  {\n                     \"title\": \"PARTIDO SOCIALISTA
+        BRASILEIRO\",\n                     \"token\": \"PSB\"\n                  }\n
+        \              ],\n               \"title\": \"Amanda Gondim\"\n            }\n
+        \        ],\n         \"start\": \"2023-01-01\",\n         \"title\": \"Composi\xE7\xE3o
+        da Comiss\xE3o\"\n      },\n      {\n         \"atual\": false,\n         \"description\":
+        \"29/04/2021 a 31/12/2022\",\n         \"end\": \"2022-12-31\",\n         \"id\":
+        \"11\",\n         \"items\": [],\n         \"start\": \"2021-04-29\",\n         \"title\":
+        \"Composi\xE7\xE3o da Comiss\xE3o\"\n      },\n      {\n         \"atual\":
+        false,\n         \"description\": \"23/04/2021 a 31/12/2022\",\n         \"end\":
+        \"2022-12-31\",\n         \"id\": \"10\",\n         \"items\": [],\n         \"start\":
+        \"2021-04-23\",\n         \"title\": \"Composi\xE7\xE3o da Comiss\xE3o\"\n
+        \     },\n      {\n         \"atual\": false,\n         \"description\": \"04/02/2021
+        a 31/12/2022\",\n         \"end\": \"2022-12-31\",\n         \"id\": \"9\",\n
+        \        \"items\": [],\n         \"start\": \"2021-02-04\",\n         \"title\":
+        \"Composi\xE7\xE3o da Comiss\xE3o\"\n      },\n      {\n         \"atual\":
+        false,\n         \"description\": \"02/02/2021 a 31/12/2021\",\n         \"end\":
+        \"2021-12-31\",\n         \"id\": \"8\",\n         \"items\": [],\n         \"start\":
+        \"2021-02-02\",\n         \"title\": \"Composi\xE7\xE3o da Comiss\xE3o\"\n
+        \     },\n      {\n         \"atual\": false,\n         \"description\": \"01/02/2021
+        a 31/12/2022\",\n         \"end\": \"2022-12-31\",\n         \"id\": \"7\",\n
+        \        \"items\": [],\n         \"start\": \"2021-02-01\",\n         \"title\":
+        \"Composi\xE7\xE3o da Comiss\xE3o\"\n      },\n      {\n         \"atual\":
+        false,\n         \"description\": \"19/05/2020 a 31/12/2020\",\n         \"end\":
+        \"2020-12-31\",\n         \"id\": \"5\",\n         \"items\": [],\n         \"start\":
+        \"2020-05-19\",\n         \"title\": \"Composi\xE7\xE3o da Comiss\xE3o\"\n
+        \     },\n      {\n         \"atual\": false,\n         \"description\": \"04/02/2020
+        a 18/05/2020\",\n         \"end\": \"2020-05-18\",\n         \"id\": \"4\",\n
+        \        \"items\": [],\n         \"start\": \"2020-02-04\",\n         \"title\":
+        \"Composi\xE7\xE3o da Comiss\xE3o\"\n      },\n      {\n         \"atual\":
+        false,\n         \"description\": \"01/01/2019 a 31/12/2019\",\n         \"end\":
+        \"2019-12-31\",\n         \"id\": \"3\",\n         \"items\": [],\n         \"start\":
+        \"2019-01-01\",\n         \"title\": \"Composi\xE7\xE3o da Comiss\xE3o\"\n
+        \     },\n      {\n         \"atual\": false,\n         \"description\": \"01/01/2017
+        a 31/12/2018\",\n         \"end\": \"2018-12-31\",\n         \"id\": \"2\",\n
+        \        \"items\": [],\n         \"start\": \"2017-01-01\",\n         \"title\":
+        \"Composi\xE7\xE3o da Comiss\xE3o\"\n      },\n      {\n         \"atual\":
+        false,\n         \"description\": \"05/02/2015 a 30/12/2016\",\n         \"end\":
+        \"2016-12-30\",\n         \"id\": \"1\",\n         \"items\": [],\n         \"start\":
+        \"2015-02-05\",\n         \"title\": \"Composi\xE7\xE3o da Comiss\xE3o\"\n
+        \     }\n   ],\n   \"reunioes\": {\n      \"@type\": \"ReunioesComissao\",\n
+        \     \"description\": \"Lista de reuni\xF5es da comiss\xE3o 22\",\n      \"items\":
+        []\n   },\n   \"tipo\": \"Permanente\",\n   \"title\": \"Comiss\xE3o Especial\"\n}"
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '57323'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:28 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1

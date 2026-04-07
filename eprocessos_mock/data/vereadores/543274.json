@@ -1,0 +1,260 @@
+{
+  "@id": "/@@vereadores/543274",
+  "@type": "Vereador",
+  "biografia": "",
+  "birthday": "1989-03-22",
+  "cod_autor": "543274",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "13",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "28",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "25",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "32",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "13",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    }
+  ],
+  "description": "Sérvio Túlio",
+  "email": "serviotulio@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2024-04-05",
+      "filiacao_atual": true,
+      "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "token": "PSDB"
+    },
+    {
+      "data_desfiliacao": "2024-04-04",
+      "data_filiacao": "2021-09-20",
+      "filiacao_atual": false,
+      "title": "Unão Brasil",
+      "token": "União Brasil"
+    }
+  ],
+  "id": "543274",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar",
+      "filename": "543274_foto_parlamentar",
+      "height": "350",
+      "size": "219550",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "4929"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-09-20",
+      "votos": ""
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1123",
+  "title": "Sérvio Túlio",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/543274_foto_parlamentar"
+}

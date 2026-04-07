@@ -1,0 +1,1 @@
+Documented the `eprocessos_mock` service in the top-level `README.md`, covering record vs. replay modes, Docker Compose usage, the recording workflow, the seed script, and the on-disk storage layout. @ericof

@@ -1,0 +1,41 @@
+{
+  "@id": "/@@normas/18648",
+  "@type": "Norma",
+  "anexos": [],
+  "data_norma": "09/01/2026",
+  "data_publicacao": "09/01/2026",
+  "description": "DISPÕE SOBRE O ZONEAMENTO DO USO E OCUPAÇÃO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA E REVOGA A LEI COMPLEMENTAR Nº 525, DE 14 DE ABRIL DE 2011 E SUAS ALTERAÇÕES POSTERIORES.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/norma_juridica/18648_texto_integral.pdf",
+      "filename": "18648_texto_integral.pdf",
+      "size": ""
+    }
+  ],
+  "id": "18648",
+  "materia": [
+    {
+      "@id": "/@@materias/236203",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "description": "DISPÕE SOBRE O ZONEAMENTO DO USO E OCUPAÇÃO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA E REVOGA A LEI COMPLEMENTAR Nº 525, DE 14 DE ABRIL DE 2011 E SUAS ALTERAÇÕES POSTERIORES.",
+      "id": "236203",
+      "remoteUrl": "/consultas/materia/pasta_digital?cod_materia=236203",
+      "title": "Projeto de Lei Complementar nº 47/2025"
+    }
+  ],
+  "normas_vinculadas": [],
+  "status": "Vigente",
+  "texto_compilado": [],
+  "title": "Lei Complementar nº 812/2026",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

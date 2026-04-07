@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1660",
+  "@id_presenca": "/@@sessoes/id/1660/presenca",
+  "@id_votacao": "/@@sessoes/id/1660/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1660_ata_sessao.pdf",
+      "filename": "1660_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-03-05",
+  "description": "4ª Reunião Ordinária - 05/03/2026",
+  "endTime": "",
+  "id": "1660",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1660_pauta_sessao.pdf",
+      "filename": "1660_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "4ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

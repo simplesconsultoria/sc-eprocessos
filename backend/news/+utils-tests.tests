@@ -1,0 +1,1 @@
+Added 44 new tests covering the `sc.eprocessos.utils` package, reaching 100% line and branch coverage on `client`, `urls`, `images`, and the public API re-exports. @ericof

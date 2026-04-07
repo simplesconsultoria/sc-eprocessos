@@ -1,0 +1,396 @@
+{
+  "@id": "/@@vereadores/546914",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;O advogado e professor Abatenio de Andrade Marquez Neto, 49 anos, &amp;eacute; vereador do Progressistas em Uberl&amp;acirc;ndia-MG, em 2020 recebeu 2.133 votos assumindo o mandato em 2022 e reeleito em 2024 com 4.542 votos.&lt;/p&gt;\r\n&lt;p&gt;Formado em Direito pela Universidade Federal de Uberl&amp;acirc;ndia e mestre pela UEMG, possui ampla experi&amp;ecirc;ncia pol&amp;iacute;tica e administrativa.&lt;/p&gt;\r\n&lt;p&gt;Destaques de sua trajet&amp;oacute;ria:&lt;/p&gt;\r\n&lt;p&gt;Vice-prefeito de Ituiutaba (2005-2008).&lt;br /&gt;Superintendente do PROCON de Uberl&amp;acirc;ndia (2018-2019).&lt;br /&gt;Procurador-Geral do Munic&amp;iacute;pio de Uberl&amp;acirc;ndia (2019-2020).&lt;br /&gt;Secret&amp;aacute;rio de Agroneg&amp;oacute;cio, Economia e Inova&amp;ccedil;&amp;atilde;o.&lt;br /&gt;Assessor Especial do Prefeito Odelmo Le&amp;atilde;o (2021-2022).&lt;br /&gt;L&amp;iacute;der do Prefeito na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia. (2022 - 2024)&lt;/p&gt;\r\n&lt;p&gt;Com s&amp;oacute;lida experi&amp;ecirc;ncia em gest&amp;atilde;o p&amp;uacute;blica e compromisso com causas sociais, Abatenio est&amp;aacute; preparado para assumir a responsabilidade como Secret&amp;aacute;rio de Direito do Consumidor e da Causa Animal, promovendo a&amp;ccedil;&amp;otilde;es efetivas e inovadoras em benef&amp;iacute;cio da popula&amp;ccedil;&amp;atilde;o.&lt;/p&gt;",
+  "birthday": "",
+  "cod_autor": "546914",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Mista de Participação Popular",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "16",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "13",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "20",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "29",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-07",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "30",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "27",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "23",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "14",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "12/12/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2023-12-12",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "8",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "27",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "26",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "25",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "12",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "7",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Abatenio de Andrade Marquez Neto",
+  "email": "abatenio@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2022-06-01",
+      "filiacao_atual": true,
+      "title": "PROGRESSISTAS",
+      "token": "PP"
+    }
+  ],
+  "id": "546914",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar",
+      "filename": "546914_foto_parlamentar",
+      "height": "350",
+      "size": "221654",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "4541"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Suplente",
+      "start": "2022-06-01",
+      "votos": "2137"
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1204",
+  "title": "Abatenio Marquez",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/546914_foto_parlamentar"
+}

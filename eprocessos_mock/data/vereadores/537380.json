@@ -1,0 +1,216 @@
+{
+  "@id": "/@@vereadores/537380",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Advogado atuante no ramo do entretenimento (shows e eventos), advocacia empresarial, produtor rural com atua&amp;ccedil;&amp;atilde;o na pecu&amp;aacute;ria leiteira e corte.&lt;/p&gt;\r\n&lt;p&gt;Desenvolve trabalhos sociais, sendo, desde 2004, o &amp;ldquo;Papai Noel&amp;rdquo; do Bairro Dom Almir, realizando tamb&amp;eacute;m, naquele bairro, o Dia das Crian&amp;ccedil;as e o Domingo de P&amp;aacute;scoa.&lt;/p&gt;\r\n&lt;p&gt;Desportista nato come&amp;ccedil;ou nas categorias de base do Uberl&amp;acirc;ndia Esporte Clube, tendo atuado ainda em alguns clubes do Campeonato Amador, dentre eles &amp;ldquo;Guarani e Tubalina&amp;rdquo;.&lt;/p&gt;\r\n&lt;p&gt;&amp;Eacute; filho do saudoso advogado Agostinho Aur&amp;eacute;lio Goulart, popularmente conhecido como &amp;ldquo;Piti&amp;rdquo; e de Regina Antonia Gon&amp;ccedil;alves Goulart. Cursou Agronomia, mas se formou em Direito em 2001, exercendo advocacia desde ent&amp;atilde;o.&lt;/p&gt;",
+  "birthday": "1977-06-13",
+  "cod_autor": "537380",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "04/06/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2024-06-04",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "28",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "19",
+      "mandato": "Titular",
+      "start": "2021-02-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "3",
+      "mandato": "Titular",
+      "start": "2021-02-01",
+      "title": "Membro"
+    }
+  ],
+  "description": "Antônio Augusto Gonçalves Goulart",
+  "email": "vereadorqueijinho@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2024-04-05",
+      "filiacao_atual": true,
+      "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "token": "PSDB"
+    },
+    {
+      "data_desfiliacao": "2024-04-04",
+      "data_filiacao": "2021-01-01",
+      "filiacao_atual": false,
+      "title": "CIDADANIA",
+      "token": "CIDADANIA"
+    }
+  ],
+  "id": "537380",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar",
+      "filename": "537380_foto_parlamentar",
+      "height": "350",
+      "size": "212525",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "4744"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    }
+  ],
+  "mesas": [],
+  "telefone_gabinete": "(34) 3239-1287",
+  "title": "Antônio Augusto Queijinho",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/537380_foto_parlamentar"
+}

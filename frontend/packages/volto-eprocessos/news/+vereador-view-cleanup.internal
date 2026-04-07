@@ -1,0 +1,1 @@
+Removed dead code from `VereadorView`: the unused `Image` import and the orphan `img_src` computation that was already handled by `Sumario`. @ericof

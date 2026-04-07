@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1653",
+  "@id_presenca": "/@@sessoes/id/1653/presenca",
+  "@id_votacao": "/@@sessoes/id/1653/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1653_ata_sessao.pdf",
+      "filename": "1653_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-12",
+  "description": "9ª Reunião Ordinária - 12/02/2026",
+  "endTime": "",
+  "id": "1653",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1653_pauta_sessao.pdf",
+      "filename": "1653_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "9ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

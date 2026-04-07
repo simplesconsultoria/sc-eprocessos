@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1656",
+  "@id_presenca": "/@@sessoes/id/1656/presenca",
+  "@id_votacao": "/@@sessoes/id/1656/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1656_ata_sessao.pdf",
+      "filename": "1656_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-13",
+  "description": "6ª Reunião Extraordinária - 13/02/2026",
+  "endTime": "",
+  "id": "1656",
+  "pauta": [],
+  "startTime": "11:30",
+  "title": "6ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

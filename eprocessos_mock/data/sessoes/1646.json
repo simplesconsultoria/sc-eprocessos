@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1646",
+  "@id_presenca": "/@@sessoes/id/1646/presenca",
+  "@id_votacao": "/@@sessoes/id/1646/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/ata_sessao/1646_ata_sessao.pdf",
+      "filename": "1646_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-02-06",
+  "description": "5ª Reunião Ordinária - 06/02/2026",
+  "endTime": "",
+  "id": "1646",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1646_pauta_sessao.pdf",
+      "filename": "1646_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "5ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

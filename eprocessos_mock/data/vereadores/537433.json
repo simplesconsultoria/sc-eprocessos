@@ -1,0 +1,340 @@
+{
+  "@id": "/@@vereadores/537433",
+  "@type": "Vereador",
+  "biografia": "&lt;p style=\"text-align: justify;\"&gt;Ivan Nunes &amp;eacute; filho de Jos&amp;eacute; Nunes Tomaz e Creuza Raimunda da Silva, crist&amp;atilde;o evang&amp;eacute;lico, se &amp;nbsp;formou em Direito, no Centro Universit&amp;aacute;rio do Tri&amp;acirc;ngulo (UNITRI). Alagoano, veio para Uberl&amp;acirc;ndia na esperan&amp;ccedil;a de uma vida melhor. Encontrou diversas dificuldades pelo caminho, por&amp;eacute;m, atrav&amp;eacute;s do trabalho duro e dos&amp;nbsp; valores familiares conseguiu perseverar, adquiriu um amor imensur&amp;aacute;vel por Uberl&amp;acirc;ndia, e pelo seu povo&amp;nbsp; que o acolheu. Comerciante h&amp;aacute; mais de 24 anos, l&amp;iacute;der comunit&amp;aacute;rio e agente pol&amp;iacute;tico desde 2002, foi&amp;nbsp; presidente da Associa&amp;ccedil;&amp;atilde;o de Moradores do bairro Tubalina, no setor Oeste da cidade. No Departamento&amp;nbsp; Municipal de &amp;Aacute;gua e Esgoto (DMAE) exerceu a fun&amp;ccedil;&amp;atilde;o de diretor por quase oito anos. Durante a&amp;nbsp; administra&amp;ccedil;&amp;atilde;o 2021 a 2024 do prefeito Odelmo Le&amp;atilde;o, foi nomeado secret&amp;aacute;rio municipal de Preven&amp;ccedil;&amp;atilde;o &amp;agrave;s&amp;nbsp; Drogas, Defesa Social e Defesa Civil.&amp;nbsp;&lt;/p&gt;\r\n&lt;p style=\"text-align: justify;\"&gt;Na Prefeitura trabalhou para instala&amp;ccedil;&amp;atilde;o do sistema de videomonitoramento na zona rural; desenvolveu a&amp;ccedil;&amp;otilde;es de enfrentamento &amp;agrave;s enchentes: atualiza&amp;ccedil;&amp;atilde;o das esta&amp;ccedil;&amp;otilde;es meteorol&amp;oacute;gicas e implanta&amp;ccedil;&amp;atilde;o de placas de sinaliza&amp;ccedil;&amp;atilde;o semaf&amp;oacute;rica na avenida Rondon Pacheco, para indicar risco de enchentes. Ivan Nunes ainda deu continuidade &amp;agrave; pol&amp;iacute;tica p&amp;uacute;blica &amp;ldquo;Projeto Prontos&amp;rdquo;, que viabilizou a produ&amp;ccedil;&amp;atilde;o de 1300 len&amp;ccedil;&amp;oacute;is por detentos do sistema prisional, as roupas de cama foram encaminhadas &amp;agrave;s unidades de sa&amp;uacute;de p&amp;uacute;blica do munic&amp;iacute;pio. Tamb&amp;eacute;m, como secret&amp;aacute;rio, mais de 23 mil atendimentos de preven&amp;ccedil;&amp;atilde;o &amp;agrave;s drogas foram realizados, atrav&amp;eacute;s dos programas: &amp;ldquo;Projetos Recome&amp;ccedil;o&amp;rdquo;, &amp;ldquo;Reage&amp;rdquo;, &amp;ldquo;Novo Caminho&amp;rdquo; e &amp;ldquo;Caravana da Preven&amp;ccedil;&amp;atilde;o&amp;rdquo;. Comprometido com a boa pol&amp;iacute;tica, o vereador tem caminhado com os moradores e comerciantes de Uberl&amp;acirc;ndia, realizando uma legislatura popular, que ouvi e conversa com a nossa gente. Dedica-se a um trabalho s&amp;eacute;rio e competente! Pois reconhece que a pol&amp;iacute;tica &amp;eacute; um meio de transforma&amp;ccedil;&amp;atilde;o social.&lt;/p&gt;",
+  "birthday": "1975-08-23",
+  "cod_autor": "537433",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "09/02/2026 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "12",
+      "mandato": "Suplente",
+      "start": "2026-02-09",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "description": "18/12/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "8",
+      "mandato": "Suplente",
+      "start": "2025-12-18",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Meio Ambiente e Defesa Animal",
+      "description": "03/12/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "20",
+      "mandato": "Suplente",
+      "start": "2025-12-03",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "14/11/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2025-11-14",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "09/09/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2025-09-09",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "25",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/31",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Diversidade",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "31",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "13",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "description": "08/10/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "3",
+      "mandato": "Suplente",
+      "start": "2024-10-08",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Urbana, Habitação e Urbanismo",
+      "description": "21/03/2024 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "19",
+      "mandato": "Suplente",
+      "start": "2024-03-21",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2023-01-01",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "17",
+      "mandato": "Suplente",
+      "start": "2023-01-01",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "26",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Administração Pública",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "12",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Suplente"
+    }
+  ],
+  "description": "Ivan da Silva Nunes",
+  "email": "ivannunes@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2021-01-01",
+      "filiacao_atual": true,
+      "title": "PROGRESSISTAS",
+      "token": "PP"
+    }
+  ],
+  "id": "537433",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+      "filename": "537433_foto_parlamentar",
+      "height": "350",
+      "size": "212052",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "3952"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2025 a 31/12/2026",
+      "end": "2026-12-31",
+      "id": "7",
+      "start": "2025-01-01",
+      "title": "3ª Vice-Presidente"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239-1157",
+  "title": "Ivan Nunes",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar"
+}

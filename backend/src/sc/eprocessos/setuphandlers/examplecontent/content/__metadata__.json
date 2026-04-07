@@ -1,0 +1,176 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "6480b873fe4b4910a173e1c9fdbfb242/image/openlegis.png"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "a84d6c3e8e504d6f98d0e1a35f7ae24e/data.json",
+    "b440d0fde1654f04b7320cb482d1c615/data.json",
+    "32fbcfd846b343a3adaa4655a8fe3ab7/data.json",
+    "61b5038681cd43e899c90f8a2ae78faa/data.json",
+    "d12582da287441fab2048d42c235e87f/data.json",
+    "40685dc342de44908b1b029efef98ae7/data.json",
+    "8ff819d61c1040d79fe704c616e4cd05/data.json",
+    "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
+    "6480b873fe4b4910a173e1c9fdbfb242/data.json",
+    "b0bb949c5135446c8c3dd643aeba4653/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "32fbcfd846b343a3adaa4655a8fe3ab7": {},
+    "40685dc342de44908b1b029efef98ae7": {},
+    "61b5038681cd43e899c90f8a2ae78faa": {},
+    "6480b873fe4b4910a173e1c9fdbfb242": {},
+    "8ff819d61c1040d79fe704c616e4cd05": {},
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {},
+    "a84d6c3e8e504d6f98d0e1a35f7ae24e": {},
+    "b0bb949c5135446c8c3dd643aeba4653": {},
+    "b440d0fde1654f04b7320cb482d1c615": {},
+    "d12582da287441fab2048d42c235e87f": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      }
+    }
+  },
+  "local_roles": {
+    "32fbcfd846b343a3adaa4655a8fe3ab7": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "40685dc342de44908b1b029efef98ae7": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "61b5038681cd43e899c90f8a2ae78faa": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "6480b873fe4b4910a173e1c9fdbfb242": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "8ff819d61c1040d79fe704c616e4cd05": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a84d6c3e8e504d6f98d0e1a35f7ae24e": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b0bb949c5135446c8c3dd643aeba4653": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b440d0fde1654f04b7320cb482d1c615": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "d12582da287441fab2048d42c235e87f": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "32fbcfd846b343a3adaa4655a8fe3ab7": 1,
+    "40685dc342de44908b1b029efef98ae7": 4,
+    "61b5038681cd43e899c90f8a2ae78faa": 2,
+    "6480b873fe4b4910a173e1c9fdbfb242": 0,
+    "8ff819d61c1040d79fe704c616e4cd05": 5,
+    "a720393b3c0240e5bd27c43fcd2cfd1e": 41,
+    "a84d6c3e8e504d6f98d0e1a35f7ae24e": 43,
+    "b0bb949c5135446c8c3dd643aeba4653": 42,
+    "b440d0fde1654f04b7320cb482d1c615": 0,
+    "d12582da287441fab2048d42c235e87f": 3
+  },
+  "relations": []
+}

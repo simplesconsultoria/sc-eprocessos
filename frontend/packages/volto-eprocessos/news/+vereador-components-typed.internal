@@ -1,0 +1,1 @@
+Annotated all Vereador view components (`VereadorView`, `Sumario`, `Biografia`, `Filiacoes`, `Mandatos`, `MesaDiretora`, `Comissoes`, `Detalhes`) with proper TypeScript prop types from the new `@simplesconsultoria/volto-eprocessos/types` barrel. Also typed the `DataCurta` and `Link` widgets. @ericof

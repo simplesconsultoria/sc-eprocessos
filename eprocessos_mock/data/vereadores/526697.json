@@ -1,0 +1,389 @@
+{
+  "@id": "/@@vereadores/526697",
+  "@type": "Vereador",
+  "biografia": "&lt;p&gt;Ednaldo R&amp;eacute;gio de Lima, conhecido como Sgt Ednaldo, tem 49 anos, &amp;eacute; casado com Suzana de Assis e &amp;eacute; formado em Hist&amp;oacute;ria pela Universidade Federal de Uberl&amp;acirc;ndia (UFU). Durante mais de 29 anos, dedicou-se &amp;agrave; Pol&amp;iacute;cia Militar do Estado de Minas Gerais, promovendo o bem-estar da sociedade uberlandense como Agente de Seguran&amp;ccedil;a P&amp;uacute;blica.&lt;/p&gt;\r\n&lt;p&gt;Seus in&amp;uacute;meros servi&amp;ccedil;os prestados &amp;agrave; popula&amp;ccedil;&amp;atilde;o lhe renderam reconhecimento, sendo promovido em primeiro lugar no Estado de Minas Gerais &amp;agrave; gradua&amp;ccedil;&amp;atilde;o de 2&amp;ordm; Sargento, por merecimento. Posteriormente, foi promovido a 1&amp;ordm; Sargento, destacando-se por seu compromisso e lideran&amp;ccedil;a.&lt;/p&gt;\r\n&lt;p&gt;Em 2019, foi eleito presidente da Associa&amp;ccedil;&amp;atilde;o dos Policiais e Bombeiros Militares do Tri&amp;acirc;ngulo Mineiro (AMT), exercendo uma gest&amp;atilde;o significativa at&amp;eacute; 2023. Mesmo ap&amp;oacute;s se aposentar da Pol&amp;iacute;cia Militar, Sgt Ednaldo continua defendendo com firmeza os direitos e interesses dos Agentes de Seguran&amp;ccedil;a P&amp;uacute;blica.&lt;/p&gt;\r\n&lt;p&gt;Nas elei&amp;ccedil;&amp;otilde;es de outubro de 2016, recebeu 1.817 votos, ficando como primeiro suplente pelo Partido Progressistas (PP). Em dezembro de 2019, assumiu como vereador titular em Uberl&amp;acirc;ndia e, em pouco mais de um ano, apresentou diversos Projetos de Lei, Requerimentos e Of&amp;iacute;cios, atendendo &amp;agrave;s demandas de milhares de moradores.&lt;/p&gt;\r\n&lt;p&gt;O reconhecimento da popula&amp;ccedil;&amp;atilde;o foi crescente. Nas elei&amp;ccedil;&amp;otilde;es de 15 de novembro de 2020, foi eleito vereador com 3.318 votos, tornando-se o terceiro mais votado de Uberl&amp;acirc;ndia. Em 2024, sua dedica&amp;ccedil;&amp;atilde;o foi novamente reconhecida, sendo reeleito com 5.856 votos e iniciando seu terceiro mandato como vereador.&lt;/p&gt;\r\n&lt;p&gt;&amp;ldquo;Agora, eu e minha equipe trabalharemos em dobro para honrar cada voto recebido. Agrade&amp;ccedil;o muito pela confian&amp;ccedil;a no meu trabalho e me sinto honrado em representar esta cidade que tanto amo&amp;rdquo;, destaca o vereador.&lt;/p&gt;",
+  "birthday": "1975-04-19",
+  "cod_autor": "526697",
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "10/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "22",
+      "mandato": "Suplente",
+      "start": "2025-02-10",
+      "title": "ad hoc"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/02/2025 a 07/02/2027",
+      "end": "2027-02-07",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2025-02-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "28",
+      "mandato": "Titular",
+      "start": "2024-05-07",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "30",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": "4",
+      "mandato": "Suplente",
+      "start": "2024-05-07",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão Especial",
+      "description": "17/08/2022 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": "22",
+      "mandato": "Titular",
+      "start": "2022-08-17",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2021-02-04",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Relator"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "23",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Membro"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "17",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Saúde e Saneamento",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "4",
+      "mandato": "Titular",
+      "start": "2020-05-19",
+      "title": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "5",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "14",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "ParticipanteComissao",
+      "comissao": "Comissão de Segurança Pública",
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": "15",
+      "mandato": "Titular",
+      "start": "2020-02-04",
+      "title": "Presidente"
+    }
+  ],
+  "description": "Ednaldo Régio de Lima",
+  "email": "sgtednaldo@camarauberlandia.mg.gov.br",
+  "filiacoes": [
+    {
+      "data_desfiliacao": "",
+      "data_filiacao": "2021-01-01",
+      "filiacao_atual": true,
+      "title": "PROGRESSISTAS",
+      "token": "PP"
+    }
+  ],
+  "id": "526697",
+  "image": [
+    {
+      "content-type": "image/png",
+      "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+      "filename": "526697_foto_parlamentar",
+      "height": "350",
+      "size": "223533",
+      "width": "350"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "end": "2028-12-31",
+      "id": 20,
+      "natureza": "Titular",
+      "start": "2025-01-01",
+      "votos": "5856"
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "end": "2024-12-31",
+      "id": 19,
+      "natureza": "Titular",
+      "start": "2021-01-01",
+      "votos": ""
+    },
+    {
+      "@id": "/@@legislaturas/18",
+      "@type": "Mandato",
+      "end": "2020-12-31",
+      "id": 18,
+      "natureza": "Titular",
+      "start": "2019-12-02",
+      "votos": ""
+    }
+  ],
+  "mesas": [
+    {
+      "@id": "/@@mesas/7",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2025 a 31/12/2026",
+      "end": "2026-12-31",
+      "id": "7",
+      "start": "2025-01-01",
+      "title": "1º Vice-Presidente"
+    },
+    {
+      "@id": "/@@mesas/5",
+      "@type": "ParticipanteMesa",
+      "description": "01/01/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": "5",
+      "start": "2021-01-01",
+      "title": "2º Vice-Presidente"
+    },
+    {
+      "@id": "/@@mesas/4",
+      "@type": "ParticipanteMesa",
+      "description": "17/02/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": "4",
+      "start": "2020-02-17",
+      "title": "2ª Secretário"
+    }
+  ],
+  "telefone_gabinete": "(34) 3239-1144",
+  "title": "Sargento Ednaldo",
+  "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+}

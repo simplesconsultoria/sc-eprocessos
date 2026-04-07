@@ -1,0 +1,357 @@
+{
+  "@id": "/@@sessoes",
+  "@type": "SessoesPlenarias",
+  "description": "Lista de reuniões plenárias",
+  "items": [
+    {
+      "@id": "/@@sessoes/id/1674",
+      "@id_presenca": "/@@sessoes/id/1674/presenca",
+      "@id_votacao": "/@@sessoes/id/1674/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1674_ata_sessao.pdf",
+          "filename": "1674_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-01",
+      "description": "01/04/2026 11:00",
+      "endTime": "",
+      "id": "1674",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1672",
+      "@id_presenca": "/@@sessoes/id/1672/presenca",
+      "@id_votacao": "/@@sessoes/id/1672/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1672_ata_sessao.pdf",
+          "filename": "1672_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-03-31",
+      "description": "31/03/2026 14:00",
+      "endTime": "",
+      "id": "1672",
+      "pauta": [],
+      "startTime": "14:00",
+      "title": "5ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1671",
+      "@id_presenca": "/@@sessoes/id/1671/presenca",
+      "@id_votacao": "/@@sessoes/id/1671/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1671_ata_sessao.pdf",
+          "filename": "1671_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-03-31",
+      "description": "31/03/2026 11:00",
+      "endTime": "",
+      "id": "1671",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/pauta_sessao/1671_pauta_sessao.pdf",
+          "filename": "1671_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "11:00",
+      "title": "4ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1669",
+      "@id_presenca": "/@@sessoes/id/1669/presenca",
+      "@id_votacao": "/@@sessoes/id/1669/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1669_ata_sessao.pdf",
+          "filename": "1669_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-03-13",
+      "description": "13/03/2026 11:00",
+      "endTime": "",
+      "id": "1669",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1667",
+      "@id_presenca": "/@@sessoes/id/1667/presenca",
+      "@id_votacao": "/@@sessoes/id/1667/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1667_ata_sessao.pdf",
+          "filename": "1667_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-03-12",
+      "description": "12/03/2026 11:00",
+      "endTime": "",
+      "id": "1667",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1665",
+      "@id_presenca": "/@@sessoes/id/1665/presenca",
+      "@id_votacao": "/@@sessoes/id/1665/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1665_ata_sessao.pdf",
+          "filename": "1665_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-03-11",
+      "description": "11/03/2026 11:00",
+      "endTime": "",
+      "id": "1665",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1656",
+      "@id_presenca": "/@@sessoes/id/1656/presenca",
+      "@id_votacao": "/@@sessoes/id/1656/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1656_ata_sessao.pdf",
+          "filename": "1656_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-13",
+      "description": "13/02/2026 11:30",
+      "endTime": "",
+      "id": "1656",
+      "pauta": [],
+      "startTime": "11:30",
+      "title": "6ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1654",
+      "@id_presenca": "/@@sessoes/id/1654/presenca",
+      "@id_votacao": "/@@sessoes/id/1654/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1654_ata_sessao.pdf",
+          "filename": "1654_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-12",
+      "description": "12/02/2026 11:00",
+      "endTime": "",
+      "id": "1654",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "5ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1652",
+      "@id_presenca": "/@@sessoes/id/1652/presenca",
+      "@id_votacao": "/@@sessoes/id/1652/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1652_ata_sessao.pdf",
+          "filename": "1652_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-11",
+      "description": "11/02/2026 12:30",
+      "endTime": "",
+      "id": "1652",
+      "pauta": [],
+      "startTime": "12:30",
+      "title": "4ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1650",
+      "@id_presenca": "/@@sessoes/id/1650/presenca",
+      "@id_votacao": "/@@sessoes/id/1650/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1650_ata_sessao.pdf",
+          "filename": "1650_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-10",
+      "description": "10/02/2026 11:30",
+      "endTime": "",
+      "id": "1650",
+      "pauta": [],
+      "startTime": "11:30",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1648",
+      "@id_presenca": "/@@sessoes/id/1648/presenca",
+      "@id_votacao": "/@@sessoes/id/1648/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1648_ata_sessao.pdf",
+          "filename": "1648_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-09",
+      "description": "09/02/2026 11:00",
+      "endTime": "",
+      "id": "1648",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/pauta_sessao/1648_pauta_sessao.pdf",
+          "filename": "1648_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "11:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1643",
+      "@id_presenca": "/@@sessoes/id/1643/presenca",
+      "@id_votacao": "/@@sessoes/id/1643/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1643_ata_sessao.pdf",
+          "filename": "1643_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-02-03",
+      "description": "03/02/2026 11:00",
+      "endTime": "",
+      "id": "1643",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1640",
+      "@id_presenca": "/@@sessoes/id/1640/presenca",
+      "@id_votacao": "/@@sessoes/id/1640/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1640_ata_sessao.pdf",
+          "filename": "1640_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-01-19",
+      "description": "19/01/2026 10:32",
+      "endTime": "",
+      "id": "1640",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/pauta_sessao/1640_pauta_sessao.pdf",
+          "filename": "1640_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "10:32",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1639",
+      "@id_presenca": "/@@sessoes/id/1639/presenca",
+      "@id_votacao": "/@@sessoes/id/1639/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/ata_sessao/1639_ata_sessao.pdf",
+          "filename": "1639_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-01-19",
+      "description": "19/01/2026 09:00",
+      "endTime": "13:00",
+      "id": "1639",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/sapl_documentos/pauta_sessao/1639_pauta_sessao.pdf",
+          "filename": "1639_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    }
+  ]
+}

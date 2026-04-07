@@ -1,0 +1,191 @@
+{
+  "@id": "/@@comissoes",
+  "@type": "Comissoes",
+  "description": "Lista de comissões",
+  "items": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "Comissao",
+      "description": "CE",
+      "id": "22",
+      "tipo": "Permanente",
+      "title": "Comissão Especial"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "Comissao",
+      "description": "CMPP",
+      "id": "16",
+      "tipo": "Permanente",
+      "title": "Comissão Mista de Participação Popular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "Comissao",
+      "description": "CPDPDR",
+      "id": "29",
+      "tipo": "Permanente",
+      "title": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "Comissao",
+      "description": "CAP",
+      "id": "12",
+      "tipo": "Permanente",
+      "title": "Comissão de Administração Pública"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "Comissao",
+      "description": "CDHSC",
+      "id": "7",
+      "tipo": "Permanente",
+      "title": "Comissão de Direitos Humanos, Sociais e do Consumidor"
+    },
+    {
+      "@id": "/@@comissoes/31",
+      "@type": "Comissao",
+      "description": "CD",
+      "id": "31",
+      "tipo": "Permanente",
+      "title": "Comissão de Diversidade"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "Comissao",
+      "description": "CECC",
+      "id": "8",
+      "tipo": "Permanente",
+      "title": "Comissão de Educação, Cultura e Ciência"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "Comissao",
+      "description": "CELP",
+      "id": "26",
+      "tipo": "Permanente",
+      "title": "Comissão de Esporte, Lazer e Paradesporto"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "Comissao",
+      "description": "CFOT",
+      "id": "5",
+      "tipo": "Permanente",
+      "title": "Comissão de Finanças, Orçamento e Tributos"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "Comissao",
+      "description": "CICTT",
+      "id": "13",
+      "tipo": "Permanente",
+      "title": "Comissão de Indústria, Comércio, Turismo e Trabalho"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "Comissao",
+      "description": "CITJ",
+      "id": "27",
+      "tipo": "Permanente",
+      "title": "Comissão de Inovação, Tecnologia e Juventude"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "Comissao",
+      "description": "CLJR",
+      "id": "3",
+      "tipo": "Permanente",
+      "title": "Comissão de Legislação, Justiça e Redação"
+    },
+    {
+      "@id": "/@@comissoes/20",
+      "@type": "Comissao",
+      "description": "CMADA",
+      "id": "20",
+      "tipo": "Permanente",
+      "title": "Comissão de Meio Ambiente e Defesa Animal"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "Comissao",
+      "description": "CMPE",
+      "id": "25",
+      "tipo": "Permanente",
+      "title": "Comissão de Micro e Pequenas Empresas"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "Comissao",
+      "description": "CPRAD",
+      "id": "14",
+      "tipo": "Permanente",
+      "title": "Comissão de Política Rural e Administração dos Distritos"
+    },
+    {
+      "@id": "/@@comissoes/19",
+      "@type": "Comissao",
+      "description": "CPUHU",
+      "id": "19",
+      "tipo": "Permanente",
+      "title": "Comissão de Política Urbana, Habitação e Urbanismo"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "Comissao",
+      "description": "CPPPCEC",
+      "id": "32",
+      "tipo": "Permanente",
+      "title": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "Comissao",
+      "description": "CPPD",
+      "id": "23",
+      "tipo": "Permanente",
+      "title": "Comissão de Políticas Públicas sobre Drogas"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "Comissao",
+      "description": "CPIR",
+      "id": "17",
+      "tipo": "Permanente",
+      "title": "Comissão de Promoção da Igualdade Racial"
+    },
+    {
+      "@id": "/@@comissoes/4",
+      "@type": "Comissao",
+      "description": "CSS",
+      "id": "4",
+      "tipo": "Permanente",
+      "title": "Comissão de Saúde e Saneamento"
+    },
+    {
+      "@id": "/@@comissoes/15",
+      "@type": "Comissao",
+      "description": "CSP",
+      "id": "15",
+      "tipo": "Permanente",
+      "title": "Comissão de Segurança Pública"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "Comissao",
+      "description": "CEDP",
+      "id": "28",
+      "tipo": "Permanente",
+      "title": "Comissão de Ética e Decoro Parlamentar"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "Comissao",
+      "description": "CDM",
+      "id": "30",
+      "tipo": "Permanente",
+      "title": "Comissão dos Direitos das Mulheres"
+    }
+  ]
+}

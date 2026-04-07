@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1676",
+  "@id_presenca": "/@@sessoes/id/1676/presenca",
+  "@id_votacao": "/@@sessoes/id/1676/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [],
+  "date": "2026-04-07",
+  "description": "3ª Reunião Ordinária - 07/04/2026",
+  "endTime": "",
+  "id": "1676",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/sapl_documentos/pauta_sessao/1676_pauta_sessao.pdf",
+      "filename": "1676_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "3ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

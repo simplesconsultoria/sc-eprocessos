@@ -1,0 +1,127 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - e-processos.camarauberlandia.mg.gov.br
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://e-processos.camarauberlandia.mg.gov.br/@@comissoes
+  response:
+    body:
+      string: "{\n   \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes\",\n
+        \  \"@type\": \"Comissoes\",\n   \"description\": \"Lista de comiss\xF5es\",\n
+        \  \"items\": [\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/22\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CE\",\n         \"id\":
+        \"22\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        Especial\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/16\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CMPP\",\n         \"id\":
+        \"16\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        Mista de Participa\xE7\xE3o Popular\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/29\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CPDPDR\",\n         \"id\": \"29\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o da Pessoa
+        com Defici\xEAncia e da Pessoa com Doen\xE7a Rara\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/12\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CAP\",\n         \"id\": \"12\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Administra\xE7\xE3o
+        P\xFAblica\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/7\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CDHSC\",\n
+        \        \"id\": \"7\",\n         \"tipo\": \"Permanente\",\n         \"title\":
+        \"Comiss\xE3o de Direitos Humanos, Sociais e do Consumidor\"\n      },\n      {\n
+        \        \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/31\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CD\",\n         \"id\":
+        \"31\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Diversidade\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/8\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CECC\",\n         \"id\":
+        \"8\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Educa\xE7\xE3o, Cultura e Ci\xEAncia\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/26\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CELP\",\n         \"id\": \"26\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Esporte,
+        Lazer e Paradesporto\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/5\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CFOT\",\n         \"id\":
+        \"5\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Finan\xE7as, Or\xE7amento e Tributos\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/13\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CICTT\",\n         \"id\": \"13\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Ind\xFAstria,
+        Com\xE9rcio, Turismo e Trabalho\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/27\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CITJ\",\n         \"id\":
+        \"27\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Inova\xE7\xE3o, Tecnologia e Juventude\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/3\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CLJR\",\n         \"id\": \"3\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Legisla\xE7\xE3o,
+        Justi\xE7a e Reda\xE7\xE3o\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/20\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CMADA\",\n
+        \        \"id\": \"20\",\n         \"tipo\": \"Permanente\",\n         \"title\":
+        \"Comiss\xE3o de Meio Ambiente e Defesa Animal\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/25\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CMPE\",\n         \"id\": \"25\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Micro
+        e Pequenas Empresas\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/14\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CPRAD\",\n
+        \        \"id\": \"14\",\n         \"tipo\": \"Permanente\",\n         \"title\":
+        \"Comiss\xE3o de Pol\xEDtica Rural e Administra\xE7\xE3o dos Distritos\"\n
+        \     },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/19\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CPUHU\",\n
+        \        \"id\": \"19\",\n         \"tipo\": \"Permanente\",\n         \"title\":
+        \"Comiss\xE3o de Pol\xEDtica Urbana, Habita\xE7\xE3o e Urbanismo\"\n      },\n
+        \     {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/32\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CPPPCEC\",\n
+        \        \"id\": \"32\",\n         \"tipo\": \"Permanente\",\n         \"title\":
+        \"Comiss\xE3o de Pol\xEDticas P\xFAblicas de Preven\xE7\xE3o, Combate e Enfrentamento
+        ao C\xE2ncer\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/23\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CPPD\",\n         \"id\":
+        \"23\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Pol\xEDticas P\xFAblicas sobre Drogas\"\n      },\n      {\n         \"@id\":
+        \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/17\",\n         \"@type\":
+        \"Comissao\",\n         \"description\": \"CPIR\",\n         \"id\": \"17\",\n
+        \        \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o de Promo\xE7\xE3o
+        da Igualdade Racial\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/4\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CSS\",\n         \"id\":
+        \"4\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Sa\xFAde e Saneamento\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/15\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CSP\",\n         \"id\":
+        \"15\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de Seguran\xE7a P\xFAblica\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/28\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CEDP\",\n         \"id\":
+        \"28\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        de \xC9tica e Decoro Parlamentar\"\n      },\n      {\n         \"@id\": \"https://e-processos.camarauberlandia.mg.gov.br/@@comissoes/30\",\n
+        \        \"@type\": \"Comissao\",\n         \"description\": \"CDM\",\n         \"id\":
+        \"30\",\n         \"tipo\": \"Permanente\",\n         \"title\": \"Comiss\xE3o
+        dos Direitos das Mulheres\"\n      }\n   ]\n}"
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '6533'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 02 Apr 2026 19:26:27 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - waitress
+      Set-Cookie:
+      - ROUTEID=.2; path=/
+      Via:
+      - waitress
+      - 1.1 cmuberlandia.southamerica-east1-b.c.cmuberlandia.internal
+      X-Powered-By:
+      - Zope (www.zope.dev), Python (www.python.org)
+    status:
+      code: 200
+      message: OK
+version: 1
