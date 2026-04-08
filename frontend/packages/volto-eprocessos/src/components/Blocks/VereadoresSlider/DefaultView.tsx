@@ -1,4 +1,10 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import { ConditionalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
@@ -86,7 +92,8 @@ export interface VereadoresSliderDefaultViewProps {
   hasError?: boolean;
   allLink?: Array<{ '@id'?: string; title?: string }>;
   allLinkLabel?: string;
-  size?: 's' | 'm' | 'l';
+  autoplay?: boolean;
+  autoplayIntervalSeconds?: number;
 }
 
 const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
@@ -96,16 +103,113 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   hasError,
   allLink,
   allLinkLabel,
-  size,
+  autoplay,
+  autoplayIntervalSeconds,
 }) => {
   const [index, setIndex] = useState(0);
   const [enterFrom, setEnterFrom] = useState<'left' | 'right' | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
-  const [imagesPreloaded, setImagesPreloaded] = useState(false);
+  const [rowMinHeightPx, setRowMinHeightPx] = useState<number | null>(null);
+
+  const rowRef = useRef<HTMLDivElement | null>(null);
+  const measureRef = useRef<HTMLDivElement | null>(null);
+  const carouselInnerRef = useRef<HTMLDivElement | null>(null);
 
   const safeItems = useMemo(() => (Array.isArray(items) ? items : []), [items]);
 
-  const imageSize = size === 's' ? 120 : size === 'l' ? 200 : 160;
+  const recomputeRowMinHeight = useCallback(() => {
+    if (typeof window === 'undefined') return;
+    if (!safeItems.length) {
+      setRowMinHeightPx(null);
+      return;
+    }
+
+    const measureRoot = measureRef.current;
+    const widthEl = rowRef.current || carouselInnerRef.current;
+    if (!measureRoot || !widthEl) return;
+
+    const containerWidth = widthEl.clientWidth;
+    if (!containerWidth) return;
+
+    // Compute the available width for the "people" column.
+    // Worst-case: reserve space for the image (even if current item has no image),
+    // so text wrapping is measured under the smallest likely width.
+    let peopleWidth = containerWidth;
+    try {
+      const styleEl = rowRef.current || widthEl;
+      const computed = window.getComputedStyle(styleEl);
+
+      const flexDirection = computed.flexDirection;
+      const gapRaw = (computed.gap || computed.columnGap || '0').toString();
+      const gapPx = Number.parseFloat(gapRaw.split(' ')[0]) || 0;
+
+      // Only reserve image space for row layout.
+      if (flexDirection !== 'column') {
+        const imageSizeRaw = computed
+          .getPropertyValue('--vereadores-slider-image-size')
+          .trim();
+
+        const percentMatch = imageSizeRaw.match(/^([0-9.]+)%$/);
+        const pxMatch = imageSizeRaw.match(/^([0-9.]+)px$/);
+
+        if (percentMatch) {
+          const fraction = Number.parseFloat(percentMatch[1]) / 100;
+          if (Number.isFinite(fraction) && fraction > 0 && fraction < 1) {
+            peopleWidth = Math.max(0, containerWidth * (1 - fraction) - gapPx);
+          }
+        } else if (pxMatch) {
+          const imagePx = Number.parseFloat(pxMatch[1]);
+          if (Number.isFinite(imagePx) && imagePx > 0) {
+            peopleWidth = Math.max(0, containerWidth - imagePx - gapPx);
+          }
+        }
+      }
+    } catch {
+      // ignore
+    }
+
+    if (!peopleWidth || peopleWidth < 1) return;
+
+    // Build and measure offscreen nodes with the same classes/styles.
+
+    const fragment = document.createDocumentFragment();
+    safeItems.forEach((item) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'vereadores-slider-block__people people';
+      wrap.style.width = `${Math.round(peopleWidth)}px`;
+
+      const nameText = item?.fullname || item?.title || '';
+      const partyText = item?.description || '';
+
+      const nameEl = document.createElement('p');
+      nameEl.className = 'vereadores-slider-block__name name';
+      nameEl.textContent = nameText;
+      wrap.appendChild(nameEl);
+
+      if (partyText) {
+        const partyEl = document.createElement('p');
+        partyEl.className = 'vereadores-slider-block__party title';
+        partyEl.textContent = partyText;
+        wrap.appendChild(partyEl);
+      }
+
+      fragment.appendChild(wrap);
+    });
+
+    // Avoid innerHTML (faster/safer) and keep nodes detached until ready.
+    measureRoot.replaceChildren(fragment);
+
+    let maxHeight = 0;
+    for (const child of Array.from(measureRoot.children)) {
+      const h = (child as HTMLElement).offsetHeight || 0;
+      if (h > maxHeight) maxHeight = h;
+    }
+
+    // Keep the existing fallback as the minimum.
+    const min = 125;
+    const next = Math.max(min, Math.ceil(maxHeight));
+    setRowMinHeightPx((prev) => (prev === next ? prev : next));
+  }, [safeItems]);
 
   useEffect(() => {
     setIndex((prev) => {
@@ -116,52 +220,85 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    const uniqueSrcs = new Set<string>();
-
-    safeItems.forEach((item) => {
-      const src = resolveItemImageSrc(item);
-      if (src) uniqueSrcs.add(src);
-    });
-
-    const srcs = Array.from(uniqueSrcs);
-    if (!srcs.length) {
-      setImagesPreloaded(true);
-      return;
-    }
+    if (!safeItems.length) return;
 
     let disposed = false;
-    setImagesPreloaded(false);
+    let frame = 0;
 
-    Promise.allSettled(
-      srcs.map(
-        (src) =>
-          new Promise<void>((resolve) => {
-            const img = new window.Image();
-            let done = false;
-            const finish = () => {
-              if (done) return;
-              done = true;
-              resolve();
-            };
-            img.onerror = finish;
-            img.onload = () => {
-              if (typeof (img as any).decode === 'function') {
-                (img as any).decode().then(finish).catch(finish);
-              } else {
-                finish();
-              }
-            };
-            img.src = src;
-          }),
-      ),
-    ).then(() => {
-      if (!disposed) setImagesPreloaded(true);
-    });
+    const schedule = () => {
+      if (disposed) return;
+      if (frame) window.cancelAnimationFrame(frame);
+      frame = window.requestAnimationFrame(() => {
+        recomputeRowMinHeight();
+      });
+    };
+
+    schedule();
+
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver(() => schedule());
+      if (carouselInnerRef.current) ro.observe(carouselInnerRef.current);
+      if (rowRef.current) ro.observe(rowRef.current);
+    } else {
+      window.addEventListener('resize', schedule);
+    }
+
+    // Recompute when fonts finish loading (can change line-wrapping).
+    const fontsReady = (document as any)?.fonts?.ready;
+    if (fontsReady && typeof fontsReady.then === 'function') {
+      fontsReady.then(() => {
+        schedule();
+      });
+    }
 
     return () => {
       disposed = true;
+      if (frame) window.cancelAnimationFrame(frame);
+      if (ro) ro.disconnect();
+      else window.removeEventListener('resize', schedule);
     };
-  }, [safeItems]);
+  }, [recomputeRowMinHeight, safeItems.length]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (isEditMode) return;
+    if (!autoplay) return;
+    if (isLoading || hasError) return;
+
+    const hasMany = safeItems.length > 1;
+    if (!hasMany) return;
+
+    // Respect reduced motion.
+    try {
+      if (window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches)
+        return;
+    } catch {
+      // ignore
+    }
+
+    const rawSeconds =
+      typeof autoplayIntervalSeconds === 'number' ? autoplayIntervalSeconds : 5;
+    const seconds = Number.isFinite(rawSeconds) ? rawSeconds : 5;
+    const intervalMs = Math.max(1, Math.round(seconds)) * 1000;
+
+    const id = window.setInterval(() => {
+      setEnterFrom('right');
+      setAnimationKey((k) => k + 1);
+      setIndex((v) => (safeItems.length ? (v + 1) % safeItems.length : 0));
+    }, intervalMs);
+
+    return () => {
+      window.clearInterval(id);
+    };
+  }, [
+    autoplay,
+    autoplayIntervalSeconds,
+    hasError,
+    isEditMode,
+    isLoading,
+    safeItems.length,
+  ]);
 
   const current = safeItems[index];
 
@@ -175,8 +312,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const hasMany = safeItems.length > 1;
   const canPrev = !isLoading && !hasError && hasMany;
   const canNext = !isLoading && !hasError && hasMany;
-
-  const canNavigate = imagesPreloaded;
 
   const cardClassName = `vereadores-slider-block__card${
     enterFrom === 'left'
@@ -201,7 +336,16 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     allLinkIsInternal && allHref ? flattenToAppURL(allHref) : '';
 
   return (
-    <section className="vereadores-slider-block__testimonials testimonials">
+    <section
+      className="vereadores-slider-block__testimonials testimonials"
+      style={
+        rowMinHeightPx
+          ? ({
+              ['--vereadores-slider-row-min-height' as any]: `${rowMinHeightPx}px`,
+            } as React.CSSProperties)
+          : undefined
+      }
+    >
       <div className="vereadores-slider-block__header">
         <h3 className="vereadores-slider-block__heading section-heading text-highlight">
           Vereadores
@@ -220,7 +364,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
                   : 0,
               );
             }}
-            disabled={!canPrev || !canNavigate}
+            disabled={!canPrev}
             aria-label="Anterior"
           >
             <Icon name={leftSVG} size="24px" />
@@ -236,7 +380,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
                 safeItems.length ? (v + 1) % safeItems.length : 0,
               );
             }}
-            disabled={!canNext || !canNavigate}
+            disabled={!canNext}
             aria-label="Próximo"
           >
             <Icon name={rightSVG} size="24px" />
@@ -249,41 +393,45 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
           className="vereadores-slider-block__carousel testimonials-carousel"
           aria-roledescription="carousel"
         >
-          <div className="vereadores-slider-block__carousel-inner carousel-inner">
+          <div
+            className="vereadores-slider-block__carousel-inner carousel-inner"
+            ref={carouselInnerRef}
+          >
             <div key={animationKey} className={cardClassName}>
               <ConditionalLink
                 condition={!isEditMode && !!itemHref}
                 to={itemHref || ''}
                 className="vereadores-slider-block__item-link"
               >
-                <div className="vereadores-slider-block__row row">
-                  <p className="vereadores-slider-block__people people">
-                    <span className="vereadores-slider-block__name name">
-                      {name}
-                    </span>
-                    <br />
+                <div className="vereadores-slider-block__row row" ref={rowRef}>
+                  <div className="vereadores-slider-block__people people">
+                    <p className="vereadores-slider-block__name name">{name}</p>
                     {party ? (
-                      <span className="vereadores-slider-block__party title">
+                      <p className="vereadores-slider-block__party title">
                         {party}
-                      </span>
+                      </p>
                     ) : null}
-                  </p>
+                  </div>
 
                   {imageSrc ? (
                     <img
                       className="vereadores-slider-block__image profile"
                       src={imageSrc}
                       alt={name}
-                      loading="eager"
+                      loading="lazy"
                       decoding="async"
-                      width={imageSize}
-                      height={imageSize}
                     />
                   ) : null}
                 </div>
               </ConditionalLink>
             </div>
           </div>
+
+          <div
+            ref={measureRef}
+            className="vereadores-slider-block__measure"
+            aria-hidden="true"
+          />
 
           {allHref ? (
             <div className="vereadores-slider-block__all-link">
@@ -294,6 +442,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
                 className="vereadores-slider-block__all-link-anchor read-more"
               >
                 {allLabel}
+                <Icon name={rightSVG} />
               </ConditionalLink>
             </div>
           ) : null}

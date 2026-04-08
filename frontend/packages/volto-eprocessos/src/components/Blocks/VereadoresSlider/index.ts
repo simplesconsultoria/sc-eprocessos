@@ -37,7 +37,8 @@ export interface VereadoresSliderBlockData {
   source?: Array<{ '@id'?: string; title?: string }>;
   allLink?: Array<{ '@id'?: string; title?: string }>;
   allLinkLabel?: string;
-  size?: 's' | 'm' | 'l';
+  autoplay?: boolean;
+  autoplayIntervalSeconds?: number;
   styles?: any;
 }
 

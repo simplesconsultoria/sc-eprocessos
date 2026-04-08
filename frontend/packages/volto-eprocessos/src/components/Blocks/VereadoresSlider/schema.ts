@@ -22,25 +22,21 @@ const messages = defineMessages({
     id: 'Vereadores slider all link label',
     defaultMessage: 'Texto do link',
   },
-  size: {
-    id: 'Vereadores slider size',
-    defaultMessage: 'Tamanho',
+  autoplay: {
+    id: 'Vereadores slider autoplay',
+    defaultMessage: 'Trocar automaticamente',
   },
-  sizeHelp: {
-    id: 'Vereadores slider size help',
-    defaultMessage: 'Controla o tamanho da foto do vereador.',
+  autoplayHelp: {
+    id: 'Vereadores slider autoplay help',
+    defaultMessage: 'Ativa a troca automática de vereador no slider.',
   },
-  sizeS: {
-    id: 'Vereadores slider size small',
-    defaultMessage: 'Pequeno',
+  autoplayInterval: {
+    id: 'Vereadores slider autoplay interval',
+    defaultMessage: 'Intervalo (segundos)',
   },
-  sizeM: {
-    id: 'Vereadores slider size medium',
-    defaultMessage: 'Médio',
-  },
-  sizeL: {
-    id: 'Vereadores slider size large',
-    defaultMessage: 'Grande',
+  autoplayIntervalHelp: {
+    id: 'Vereadores slider autoplay interval help',
+    defaultMessage: 'Tempo em segundos entre as trocas (mínimo 1).',
   },
 });
 
@@ -53,7 +49,13 @@ export const VereadoresSliderBlockSchema = (props: BlockSchemaProps): any => {
       {
         id: 'default',
         title: 'default',
-        fields: ['source', 'allLink', 'allLinkLabel', 'size'],
+        fields: [
+          'source',
+          'allLink',
+          'allLinkLabel',
+          'autoplay',
+          'autoplayIntervalSeconds',
+        ],
       },
     ],
     properties: {
@@ -77,15 +79,18 @@ export const VereadoresSliderBlockSchema = (props: BlockSchemaProps): any => {
         type: 'string',
         default: 'Ver todos os vereadores',
       },
-      size: {
-        title: intl.formatMessage(messages.size),
-        description: intl.formatMessage(messages.sizeHelp),
-        choices: [
-          ['s', intl.formatMessage(messages.sizeS)],
-          ['m', intl.formatMessage(messages.sizeM)],
-          ['l', intl.formatMessage(messages.sizeL)],
-        ],
-        default: 'm',
+      autoplay: {
+        title: intl.formatMessage(messages.autoplay),
+        description: intl.formatMessage(messages.autoplayHelp),
+        type: 'boolean',
+        default: false,
+      },
+      autoplayIntervalSeconds: {
+        title: intl.formatMessage(messages.autoplayInterval),
+        description: intl.formatMessage(messages.autoplayIntervalHelp),
+        type: 'number',
+        default: 5,
+        minimum: 1,
       },
     },
     required: [],

@@ -42,6 +42,44 @@ const ITEMS: VereadoresSliderItem[] = [
   },
 ];
 
+const LONG_NAME_ITEMS: VereadoresSliderItem[] = [
+  {
+    id: '1',
+    fullname: 'Eliusmarcio Alves de Carvalho (Elinho da Academia)',
+    description: 'MOBILIZA',
+    image: [
+      {
+        download: 'https://picsum.photos/seed/vereador-long/350/350',
+        filename: 'long.jpg',
+      },
+    ],
+  },
+  {
+    id: '2',
+    fullname: 'Abatenio de Andrade Marquez Neto',
+    description: 'PP',
+    image: [
+      {
+        download: 'https://picsum.photos/seed/vereador-long-2/350/350',
+        filename: 'long-2.jpg',
+      },
+    ],
+  },
+];
+
+const NO_IMAGE_ITEMS: VereadoresSliderItem[] = [
+  {
+    id: '1',
+    fullname: 'Vereador sem imagem',
+    description: 'SEM PARTIDO',
+  },
+  {
+    id: '2',
+    fullname: 'Outro vereador sem imagem',
+    description: 'INDEPENDENTE',
+  },
+];
+
 type StoryParams = {
   containerWidth?: number;
 };
@@ -54,9 +92,9 @@ const withWrapper: Decorator = (Story, context) => {
     '--theme-color': '#ffffff',
     '--theme-foreground-color': '#1b1c1d',
     '--theme-high-contrast-color': '#e0e0e0',
-    '--theme-high-contrast-foreground-color': '#1b1c1d',
-    '--theme-top-foreground-color': '#1b1c1d',
-    '--theme-low-contrast-foreground-color': '#585858',
+    '--theme-top-high-contrast-foreground-color': '#1b1c1d',
+    '--theme-top-low-contrast-foreground-color': '#585858',
+    '--link-foreground-color': '#1b1c1d',
   } as React.CSSProperties;
 
   return (
@@ -85,7 +123,8 @@ const meta = {
     hasError: { control: 'boolean' },
     allLink: { control: 'object' },
     allLinkLabel: { control: 'text' },
-    size: { control: { type: 'radio' }, options: ['s', 'm', 'l'] },
+    autoplay: { control: 'boolean' },
+    autoplayIntervalSeconds: { control: 'number' },
   },
 } satisfies Meta<typeof DefaultView>;
 
@@ -100,7 +139,62 @@ export const Default: Story = {
     hasError: false,
     allLink: [{ '@id': 'https://example.com/vereadores' }],
     allLinkLabel: 'Ver todos os vereadores',
-    size: 'm',
+    autoplay: false,
+    autoplayIntervalSeconds: 5,
+  },
+};
+
+export const LongNames: Story = {
+  parameters: { containerWidth: 420 },
+  args: {
+    items: LONG_NAME_ITEMS,
+    isEditMode: false,
+    isLoading: false,
+    hasError: false,
+    allLink: [{ '@id': 'https://example.com/vereadores' }],
+    allLinkLabel: 'Ver todos os vereadores',
+    autoplay: false,
+    autoplayIntervalSeconds: 5,
+  },
+};
+
+export const VeryNarrowContainer: Story = {
+  parameters: { containerWidth: 180 },
+  args: {
+    items: LONG_NAME_ITEMS,
+    isEditMode: false,
+    isLoading: false,
+    hasError: false,
+    allLink: [{ '@id': 'https://example.com/vereadores' }],
+    allLinkLabel: 'Ver todos os vereadores',
+    autoplay: false,
+    autoplayIntervalSeconds: 5,
+  },
+};
+
+export const NoImage: Story = {
+  args: {
+    items: NO_IMAGE_ITEMS,
+    isEditMode: false,
+    isLoading: false,
+    hasError: false,
+    allLink: [{ '@id': 'https://example.com/vereadores' }],
+    allLinkLabel: 'Ver todos os vereadores',
+    autoplay: false,
+    autoplayIntervalSeconds: 5,
+  },
+};
+
+export const Autoplay: Story = {
+  args: {
+    items: ITEMS,
+    isEditMode: false,
+    isLoading: false,
+    hasError: false,
+    allLink: [{ '@id': 'https://example.com/vereadores' }],
+    allLinkLabel: 'Ver todos os vereadores',
+    autoplay: true,
+    autoplayIntervalSeconds: 2,
   },
 };
 
@@ -112,7 +206,6 @@ export const EditMode: Story = {
     hasError: false,
     allLink: [{ '@id': 'https://example.com/vereadores' }],
     allLinkLabel: 'Ver todos os vereadores',
-    size: 'm',
   },
 };
 
@@ -122,6 +215,14 @@ export const Loading: Story = {
     isEditMode: true,
     isLoading: true,
     hasError: false,
-    size: 'm',
+  },
+};
+
+export const Error: Story = {
+  args: {
+    items: [],
+    isEditMode: true,
+    isLoading: false,
+    hasError: true,
   },
 };
