@@ -6,15 +6,11 @@ from collections.abc import Callable
 from copy import deepcopy
 from plone.restapi.interfaces import ISerializeToJson
 from plone.restapi.serializer.expansion import expandable_elements
+from sc.eprocessos import logger
 from sc.eprocessos.client.exceptions import EProcessosError
 from sc.eprocessos.utils import facade_urls
 from sc.eprocessos.utils import parse_eprocessos_url
 from zope.interface import implementer
-
-import logging
-
-
-logger = logging.getLogger(__name__)
 
 
 @implementer(ISerializeToJson)

@@ -7,5 +7,6 @@
     <value key="default_timeout">30</value>
     <value key="max_retries">3</value>
     <value key="retry_delay">1.0</value>
+    <value key="cache_ttl">300</value>
   </records>
 </registry>

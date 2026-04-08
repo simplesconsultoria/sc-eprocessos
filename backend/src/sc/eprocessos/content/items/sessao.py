@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from sc.eprocessos.cache import cache
+from sc.eprocessos.content.items.base import _fetch_data_cache_key
 from sc.eprocessos.content.items.base import EProcessosItem
 from sc.eprocessos.interfaces import ISessaoItem
 from sc.eprocessos.utils import get_client
@@ -17,8 +19,13 @@ class SessaoItem(EProcessosItem):
     portal_type = "Sessao"
     service_name = "sessoes"
 
+    @cache(_fetch_data_cache_key)
     def fetch_data(self) -> dict[str, Any]:
-        """Fetch session data with expander support."""
+        """Fetch session data with expander support.
+
+        Cached via ``sc.eprocessos.cache`` keyed by
+        ``(class_name, service_name, item_id, sub_item)``.
+        """
         client = get_client()
         try:
             sub = self.sub_item

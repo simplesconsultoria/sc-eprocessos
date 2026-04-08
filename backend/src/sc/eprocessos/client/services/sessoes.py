@@ -2,16 +2,12 @@
 
 from __future__ import annotations
 
+from sc.eprocessos import logger
 from sc.eprocessos.client.enums import TipoSessao
 from sc.eprocessos.client.services.base import BaseService
 from sc.eprocessos.client.types import SessaoDetail
 from sc.eprocessos.client.types import SessoesResponse
 from sc.eprocessos.settings import CUR_YEAR
-
-import logging
-
-
-logger = logging.getLogger(__name__)
 
 
 class SessoesService(BaseService):
