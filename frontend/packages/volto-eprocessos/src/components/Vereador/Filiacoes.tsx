@@ -5,8 +5,28 @@ import {
   Row,
   Column,
 } from '@simplesconsultoria/volto-eprocessos/components/Tabela';
+import { defineMessages, useIntl } from 'react-intl';
 import type { Filiacao as FiliacaoType } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
+
+const messages = defineMessages({
+  tableLabel: {
+    id: 'Vereador party affiliations table',
+    defaultMessage: 'Party affiliations',
+  },
+  party: {
+    id: 'Vereador party affiliations column party',
+    defaultMessage: 'Party',
+  },
+  affiliation: {
+    id: 'Vereador party affiliations column affiliation',
+    defaultMessage: 'Affiliation',
+  },
+  disaffiliation: {
+    id: 'Vereador party affiliations column disaffiliation',
+    defaultMessage: 'Disaffiliation',
+  },
+});
 
 interface FiliacaoProps {
   item: FiliacaoType;
@@ -31,12 +51,16 @@ interface FiliacoesProps {
 }
 
 const Filiacoes = ({ items }: FiliacoesProps) => {
+  const intl = useIntl();
   return (
-    <Table aria-label="Filiações partidárias" className={'full filiacoes'}>
+    <Table
+      aria-label={intl.formatMessage(messages.tableLabel)}
+      className={'full filiacoes'}
+    >
       <TableHeader>
-        <Column isRowHeader>Partido</Column>
-        <Column>Filiação</Column>
-        <Column>Desfiliação</Column>
+        <Column isRowHeader>{intl.formatMessage(messages.party)}</Column>
+        <Column>{intl.formatMessage(messages.affiliation)}</Column>
+        <Column>{intl.formatMessage(messages.disaffiliation)}</Column>
       </TableHeader>
       <TableBody>
         {items && items.map((item, idx) => <Filiacao key={idx} item={item} />)}

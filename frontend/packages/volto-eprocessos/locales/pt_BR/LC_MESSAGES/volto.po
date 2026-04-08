@@ -15,3 +15,199 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Committee"
+#: components/Vereador/Comissoes
+msgid "Vereador committees column committee"
+msgstr "Comissão"
+
+#. Default: "Committees"
+#: components/Vereador/Comissoes
+msgid "Vereador committees table"
+msgstr "Comissões"
+
+#. Default: "Executive board"
+#: components/Vereador/MesaDiretora
+msgid "Vereador executive board table"
+msgstr "Mesa Diretora"
+
+#. Default: "Affiliation"
+#: components/Vereador/Filiacoes
+msgid "Vereador party affiliations column affiliation"
+msgstr "Filiação"
+
+#. Default: "Disaffiliation"
+#: components/Vereador/Filiacoes
+msgid "Vereador party affiliations column disaffiliation"
+msgstr "Desfiliação"
+
+#. Default: "Party"
+#: components/Vereador/Filiacoes
+msgid "Vereador party affiliations column party"
+msgstr "Partido"
+
+#. Default: "Party affiliations"
+#: components/Vereador/Filiacoes
+msgid "Vereador party affiliations table"
+msgstr "Filiações partidárias"
+
+#. Default: "End"
+#: components/Vereador/Comissoes
+#: components/Vereador/Mandatos
+#: components/Vereador/MesaDiretora
+msgid "Vereador table column end"
+msgstr "Fim"
+
+#. Default: "Start"
+#: components/Vereador/Comissoes
+#: components/Vereador/Mandatos
+#: components/Vereador/MesaDiretora
+msgid "Vereador table column start"
+msgstr "Início"
+
+#. Default: "Title"
+#: components/Vereador/Comissoes
+#: components/Vereador/MesaDiretora
+msgid "Vereador table column title"
+msgstr "Título"
+
+#. Default: "No participation recorded."
+#: components/Vereador/Comissoes
+#: components/Vereador/MesaDiretora
+msgid "Vereador table empty participation"
+msgstr "Nenhuma participação cadastrada."
+
+#. Default: "Legislature"
+#: components/Vereador/Mandatos
+msgid "Vereador terms column legislature"
+msgstr "Legislatura"
+
+#. Default: "Nature"
+#: components/Vereador/Mandatos
+msgid "Vereador terms column nature"
+msgstr "Natureza"
+
+#. Default: "Votes"
+#: components/Vereador/Mandatos
+msgid "Vereador terms column votes"
+msgstr "Votos"
+
+#. Default: "Terms"
+#: components/Vereador/Mandatos
+msgid "Vereador terms table"
+msgstr "Mandatos"
+
+#. Default: "Affiliations"
+#: components/Vereador/VereadorView
+msgid "Vereador view affiliations"
+msgstr "Filiações"
+
+#. Default: "Biography"
+#: components/Vereador/VereadorView
+msgid "Vereador view biography"
+msgstr "Biografia"
+
+#. Default: "Committees"
+#: components/Vereador/VereadorView
+msgid "Vereador view committees"
+msgstr "Comissões"
+
+#. Default: "Executive board"
+#: components/Vereador/VereadorView
+msgid "Vereador view executive board"
+msgstr "Mesa Diretora"
+
+#. Default: "Terms"
+#: components/Vereador/VereadorView
+msgid "Vereador view terms"
+msgstr "Mandatos"
+
+#. Default: "“See all” link"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider all link"
+msgstr "Link “Ver todos”"
+
+#. Default: "Link text"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider all link label"
+msgstr "Texto do link"
+
+#. Default: "See all councilors"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider all link label default"
+msgstr "Ver todos os vereadores"
+
+#. Default: "See all"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider all link label fallback"
+msgstr "Ver todos"
+
+#. Default: "Autoplay"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider autoplay"
+msgstr "Reprodução automática"
+
+#. Default: "Automatically rotates councilors in the slider."
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider autoplay help"
+msgstr "Alterna automaticamente os vereadores no slider."
+
+#. Default: "Interval (seconds)"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider autoplay interval"
+msgstr "Intervalo (segundos)"
+
+#. Default: "Seconds between rotations (minimum 1)."
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider autoplay interval help"
+msgstr "Segundos entre as alternâncias (mínimo 1)."
+
+#. Default: "Councilors (slider)"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider block"
+msgstr "Vereadores (slider)"
+
+#. Default: "No councilor."
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider empty"
+msgstr "Nenhum vereador."
+
+#. Default: "Councilors"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider heading"
+msgstr "Vereadores"
+
+#. Default: "Could not load councilors."
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider load error"
+msgstr "Não foi possível carregar os vereadores."
+
+#. Default: "Loading councilors…"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider loading"
+msgstr "Carregando vereadores…"
+
+#. Default: "Select the councilors source in the sidebar."
+#: components/Blocks/VereadoresSlider/View
+msgid "Vereadores slider missing source"
+msgstr "Selecione a fonte de vereadores na barra lateral."
+
+#. Default: "Next"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider next"
+msgstr "Próximo"
+
+#. Default: "Previous"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider previous"
+msgstr "Anterior"
+
+#. Default: "Source (Councilors)"
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider source"
+msgstr "Fonte (Vereadores)"
+
+#. Default: "Select the “Councilors” content from the site."
+#: components/Blocks/VereadoresSlider/schema
+msgid "Vereadores slider source help"
+msgstr "Selecione o conteúdo “Vereadores” do site."
