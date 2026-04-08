@@ -4,39 +4,43 @@ import type { BlockSchemaProps } from '@plone/types';
 const messages = defineMessages({
   blockTitle: {
     id: 'Vereadores slider block',
-    defaultMessage: 'Vereadores (slider)',
+    defaultMessage: 'Councilors (slider)',
   },
   source: {
     id: 'Vereadores slider source',
-    defaultMessage: 'Fonte (Vereadores)',
+    defaultMessage: 'Source (Councilors)',
   },
   sourceHelp: {
     id: 'Vereadores slider source help',
-    defaultMessage: 'Selecione o conteúdo “Vereadores” do site.',
+    defaultMessage: 'Select the “Councilors” content from the site.',
   },
   allLink: {
     id: 'Vereadores slider all link',
-    defaultMessage: 'Link “ver todos”',
+    defaultMessage: '“See all” link',
   },
   allLinkLabel: {
     id: 'Vereadores slider all link label',
-    defaultMessage: 'Texto do link',
+    defaultMessage: 'Link text',
+  },
+  allLinkLabelDefault: {
+    id: 'Vereadores slider all link label default',
+    defaultMessage: 'See all councilors',
   },
   autoplay: {
     id: 'Vereadores slider autoplay',
-    defaultMessage: 'Trocar automaticamente',
+    defaultMessage: 'Autoplay',
   },
   autoplayHelp: {
     id: 'Vereadores slider autoplay help',
-    defaultMessage: 'Ativa a troca automática de vereador no slider.',
+    defaultMessage: 'Automatically rotates councilors in the slider.',
   },
   autoplayInterval: {
     id: 'Vereadores slider autoplay interval',
-    defaultMessage: 'Intervalo (segundos)',
+    defaultMessage: 'Interval (seconds)',
   },
   autoplayIntervalHelp: {
     id: 'Vereadores slider autoplay interval help',
-    defaultMessage: 'Tempo em segundos entre as trocas (mínimo 1).',
+    defaultMessage: 'Seconds between rotations (minimum 1).',
   },
 });
 
@@ -77,7 +81,7 @@ export const VereadoresSliderBlockSchema = (props: BlockSchemaProps): any => {
       allLinkLabel: {
         title: intl.formatMessage(messages.allLinkLabel),
         type: 'string',
-        default: 'Ver todos os vereadores',
+        default: intl.formatMessage(messages.allLinkLabelDefault),
       },
       autoplay: {
         title: intl.formatMessage(messages.autoplay),

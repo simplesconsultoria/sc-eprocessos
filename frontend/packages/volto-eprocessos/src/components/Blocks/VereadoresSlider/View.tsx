@@ -1,9 +1,17 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Api, getFieldURL, withBlockExtensions } from '@plone/volto/helpers';
+import { defineMessages, useIntl } from 'react-intl';
 
 import type { Vereador } from '@simplesconsultoria/volto-eprocessos/types';
 import DefaultView from './DefaultView';
 import type { VereadoresSliderBlockData, VereadoresSliderItem } from './index';
+
+const messages = defineMessages({
+  missingSource: {
+    id: 'Vereadores slider missing source',
+    defaultMessage: 'Select the councilors source in the sidebar.',
+  },
+});
 
 type VereadoresFacadeResponse = {
   items?: Vereador[];
@@ -66,6 +74,7 @@ interface Props {
 }
 
 const View: React.FC<Props> = ({ data, className, isEditMode, style }) => {
+  const intl = useIntl();
   const sourceUrl = useMemo(() => {
     const urlValue = getFieldURL(data.source);
     const url = Array.isArray(urlValue) ? urlValue[0] : urlValue;
@@ -118,7 +127,7 @@ const View: React.FC<Props> = ({ data, className, isEditMode, style }) => {
       style={style}
     >
       {!sourceUrl && isEditMode ? (
-        <p>Selecione a fonte de Vereadores na barra lateral.</p>
+        <p>{intl.formatMessage(messages.missingSource)}</p>
       ) : (
         <DefaultView
           items={items}

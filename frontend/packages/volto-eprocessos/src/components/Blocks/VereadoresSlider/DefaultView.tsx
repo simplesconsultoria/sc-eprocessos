@@ -5,6 +5,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
+import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import { ConditionalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
@@ -17,6 +18,37 @@ import leftSVG from '@plone/volto/icons/left-key.svg';
 import rightSVG from '@plone/volto/icons/right-key.svg';
 
 import type { VereadoresSliderItem } from './index';
+
+const messages = defineMessages({
+  heading: {
+    id: 'Vereadores slider heading',
+    defaultMessage: 'Councilors',
+  },
+  prev: {
+    id: 'Vereadores slider previous',
+    defaultMessage: 'Previous',
+  },
+  next: {
+    id: 'Vereadores slider next',
+    defaultMessage: 'Next',
+  },
+  allLabelFallback: {
+    id: 'Vereadores slider all link label fallback',
+    defaultMessage: 'See all',
+  },
+  loadError: {
+    id: 'Vereadores slider load error',
+    defaultMessage: 'Could not load councilors.',
+  },
+  loading: {
+    id: 'Vereadores slider loading',
+    defaultMessage: 'Loading councilors…',
+  },
+  empty: {
+    id: 'Vereadores slider empty',
+    defaultMessage: 'No councilor.',
+  },
+});
 
 const sanitizeScaleUrl = (url: string): string =>
   url.startsWith('/++api++') ? url.slice('/++api++'.length) : url;
@@ -106,6 +138,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   autoplay,
   autoplayIntervalSeconds,
 }) => {
+  const intl = useIntl();
   const [index, setIndex] = useState(0);
   const [enterFrom, setEnterFrom] = useState<'left' | 'right' | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
@@ -307,7 +340,9 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const party = current?.description || '';
 
   const allHref = useMemo(() => getSingleLink(allLink), [allLink]);
-  const allLabel = (allLinkLabel || '').trim() || 'Ver todos';
+  const allLabel =
+    (allLinkLabel || '').trim() ||
+    intl.formatMessage(messages.allLabelFallback);
 
   const hasMany = safeItems.length > 1;
   const canPrev = !isLoading && !hasError && hasMany;
@@ -324,9 +359,15 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   if (!safeItems.length) {
     if (!isEditMode) return null;
     if (hasError) {
-      return <p>Não foi possível carregar os vereadores.</p>;
+      return <p>{intl.formatMessage(messages.loadError)}</p>;
     }
-    return <p>{isLoading ? 'Carregando vereadores…' : 'Nenhum vereador.'}</p>;
+    return (
+      <p>
+        {isLoading
+          ? intl.formatMessage(messages.loading)
+          : intl.formatMessage(messages.empty)}
+      </p>
+    );
   }
 
   const itemHref = getVereadorItemPath(current);
@@ -348,7 +389,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     >
       <div className="vereadores-slider-block__header">
         <h3 className="vereadores-slider-block__heading section-heading text-highlight">
-          Vereadores
+          {intl.formatMessage(messages.heading)}
         </h3>
 
         <div className="vereadores-slider-block__controls carousel-controls">
@@ -365,7 +406,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
               );
             }}
             disabled={!canPrev}
-            aria-label="Anterior"
+            aria-label={intl.formatMessage(messages.prev)}
           >
             <Icon name={leftSVG} size="24px" />
           </button>
@@ -381,7 +422,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
               );
             }}
             disabled={!canNext}
-            aria-label="Próximo"
+            aria-label={intl.formatMessage(messages.next)}
           >
             <Icon name={rightSVG} size="24px" />
           </button>

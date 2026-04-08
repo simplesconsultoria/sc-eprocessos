@@ -5,9 +5,37 @@ import {
   Row,
   Column,
 } from '@simplesconsultoria/volto-eprocessos/components/Tabela';
+import { defineMessages, useIntl } from 'react-intl';
 import type { ParticipacaoComissao } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
+
+const messages = defineMessages({
+  tableLabel: {
+    id: 'Vereador committees table',
+    defaultMessage: 'Committees',
+  },
+  committee: {
+    id: 'Vereador committees column committee',
+    defaultMessage: 'Committee',
+  },
+  title: {
+    id: 'Vereador table column title',
+    defaultMessage: 'Title',
+  },
+  start: {
+    id: 'Vereador table column start',
+    defaultMessage: 'Start',
+  },
+  end: {
+    id: 'Vereador table column end',
+    defaultMessage: 'End',
+  },
+  empty: {
+    id: 'Vereador table empty participation',
+    defaultMessage: 'No participation recorded.',
+  },
+});
 
 interface ParticipacaoProps {
   item: ParticipacaoComissao;
@@ -35,14 +63,18 @@ interface ComissoesProps {
 }
 
 const Comissoes = ({ items }: ComissoesProps) => {
+  const intl = useIntl();
   return items && items.length > 0 ? (
-    <Table aria-label="Comissões" className={'full comissoes'}>
+    <Table
+      aria-label={intl.formatMessage(messages.tableLabel)}
+      className={'full comissoes'}
+    >
       <TableHeader>
         <Row>
-          <Column isRowHeader>Comissão</Column>
-          <Column isRowHeader>Título</Column>
-          <Column isRowHeader>Início</Column>
-          <Column isRowHeader>Fim</Column>
+          <Column isRowHeader>{intl.formatMessage(messages.committee)}</Column>
+          <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
+          <Column isRowHeader>{intl.formatMessage(messages.start)}</Column>
+          <Column isRowHeader>{intl.formatMessage(messages.end)}</Column>
         </Row>
       </TableHeader>
       <TableBody>
@@ -52,7 +84,7 @@ const Comissoes = ({ items }: ComissoesProps) => {
       </TableBody>
     </Table>
   ) : (
-    <p>Nenhuma participação cadastrada.</p>
+    <p>{intl.formatMessage(messages.empty)}</p>
   );
 };
 
