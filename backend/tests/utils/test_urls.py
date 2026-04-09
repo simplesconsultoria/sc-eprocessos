@@ -94,3 +94,25 @@ class TestParseEprocessosUrl:
         assert result is not None
         assert result.prefix == expected_prefix
         assert result.service == expected_service
+
+    @pytest.mark.parametrize(
+        "url,expected_prefix,expected_service,expected_id",
+        [
+            ("/@@sessoes/id/1669", "/@@sessoes/id", "sessoes", "1669"),
+            (
+                "https://h/@@sessoes/id/1669",
+                "https://h/@@sessoes/id",
+                "sessoes",
+                "1669",
+            ),
+        ],
+    )
+    def test_sessoes_id_path(
+        self, url, expected_prefix, expected_service, expected_id
+    ):
+        """Sessões use a /@@sessoes/id/{item_id} path style."""
+        result = parse_eprocessos_url(url)
+        assert result is not None
+        assert result.prefix == expected_prefix
+        assert result.service == expected_service
+        assert result.item_id == expected_id

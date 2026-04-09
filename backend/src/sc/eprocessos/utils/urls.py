@@ -18,7 +18,7 @@ class EProcessosItemURL:
 
 
 _EPROCESSOS_URL_PATTERN = re.compile(
-    r"^(?P<prefix>.*/@@(?P<service>.*))/(?P<item_id>\d+)$"
+    r"^(?P<prefix>.*/@@(?P<service>[^/]+).*)/(?P<item_id>\d+)$"
 )
 
 

@@ -205,6 +205,27 @@ async def sessoes_detail(item_id: str):
 
 
 # -- Sessão expanders ---------------------------------------------------------
+# The real API exposes expander data at two equivalent URL shapes:
+#   /@@sessoes/id/{id}/presenca  AND  /@@presenca_sessao/sessao_plenaria/{id}
+# Both are wired to the same storage key so recorded data is shared.
+
+
+@app.get("/@@sessoes/id/{item_id}/presenca")
+async def sessoes_presenca(item_id: str):
+    return await _serve_detail(
+        "presenca_sessao",
+        f"/@@sessoes/id/{item_id}/presenca",
+        item_id,
+    )
+
+
+@app.get("/@@sessoes/id/{item_id}/votacao")
+async def sessoes_votacao(item_id: str):
+    return await _serve_detail(
+        "votacao_sessao",
+        f"/@@sessoes/id/{item_id}/votacao",
+        item_id,
+    )
 
 
 @app.get("/@@presenca_sessao/sessao_plenaria/{item_id}")
