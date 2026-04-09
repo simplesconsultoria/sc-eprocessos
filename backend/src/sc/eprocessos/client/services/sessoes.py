@@ -61,6 +61,12 @@ class SessoesService(BaseService):
             for exp in expanders:
                 exp_url = data.get(f"@id_{exp}")
                 if exp_url:
+                    # The API may return a full URL or a relative path
+                    # (e.g. /@@sessoes/id/1669/presenca).  Normalise to
+                    # a fully-qualified URL so httpx can handle it.
+                    if not exp_url.startswith("http"):
+                        path = exp_url.lstrip("/")
+                        exp_url = f"{self._base_url}/{path}"
                     data[exp] = self._request("GET", exp_url)
                 else:
                     logger.warning(

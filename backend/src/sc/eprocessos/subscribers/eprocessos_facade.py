@@ -3,6 +3,7 @@
 from plone import api
 from sc.eprocessos import logger
 
+
 # Maps portal_type to its add permission title (used by manage_permission)
 PERMISSION_MAP: dict[str, str] = {
     "Normas": "sc.eprocessos: Add Normas",
