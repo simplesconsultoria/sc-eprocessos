@@ -11,7 +11,6 @@ SESSAO_EXPANDERS = ("presenca", "votacao")
 
 @adapter(ISessaoItem, IBrowserLayer)
 class SerializeSessaoItemToJson(BaseItemSerializer):
-
     def _transform_expanders(self, data: dict, result: dict) -> None:
         """Rewrite @id inside expander data and drop @id_* link fields."""
         item_url = self.context.absolute_url()

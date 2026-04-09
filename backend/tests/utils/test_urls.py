@@ -107,9 +107,7 @@ class TestParseEprocessosUrl:
             ),
         ],
     )
-    def test_sessoes_id_path(
-        self, url, expected_prefix, expected_service, expected_id
-    ):
+    def test_sessoes_id_path(self, url, expected_prefix, expected_service, expected_id):
         """Sessões use a /@@sessoes/id/{item_id} path style."""
         result = parse_eprocessos_url(url)
         assert result is not None
