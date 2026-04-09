@@ -9,10 +9,6 @@ from zope.publisher.interfaces.browser import IBrowserPublisher
 from zope.traversing.interfaces import ITraversable
 
 import httpx
-import logging
-
-
-logger = logging.getLogger(__name__)
 
 
 class ImageScale(BrowserView):

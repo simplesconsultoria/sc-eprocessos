@@ -41,6 +41,15 @@ class IEProcessosSettings(Interface):
         required=False,
         default=1.0,
     )
+    cache_ttl = schema.Int(
+        title=_("Cache TTL"),
+        description=_(
+            "Time-to-live, in seconds, for cached e-Processos responses. "
+            "Set to 0 to effectively disable caching."
+        ),
+        required=False,
+        default=300,
+    )
 
 
 # --- Facade interfaces (Dexterity content, persistent) ---

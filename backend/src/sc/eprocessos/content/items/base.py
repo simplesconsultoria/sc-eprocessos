@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from Products.CMFCore.interfaces import IContentish
+from sc.eprocessos.cache import cache
 from sc.eprocessos.utils import get_client
 from typing import Any
 from typing import TYPE_CHECKING
@@ -10,14 +11,24 @@ from zope.globalrequest import getRequest
 from zope.interface import implementer
 
 import Acquisition
-import logging
+
+
+def _fetch_data_cache_key(fun, self) -> tuple[str, ...]:
+    """Cache key for ``EProcessosItem.fetch_data``.
+
+    Keys by class name (so subclasses that override ``fetch_data``
+    don't collide), service name, item id, and sub_item.
+    """
+    return (
+        type(self).__name__,
+        self.service_name,
+        self.item_id,
+        self.sub_item or "",
+    )
 
 
 if TYPE_CHECKING:
     from sc.eprocessos.content.base import EProcessosFacade
-
-
-logger = logging.getLogger(__name__)
 
 
 @implementer(IContentish)
@@ -78,11 +89,15 @@ class EProcessosItem(Acquisition.Implicit):
             self._data = self.fetch_data()
         return self._data
 
+    @cache(_fetch_data_cache_key)
     def fetch_data(self) -> dict[str, Any]:
         """Fetch item data from the e-Processos API.
 
         Override in subclasses for services that need special handling
         (e.g., sessoes with expanders).
+
+        Responses are cached via ``sc.eprocessos.cache`` keyed by
+        ``(class_name, service_name, item_id, sub_item)``.
         """
         client = get_client()
         try:

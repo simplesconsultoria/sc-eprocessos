@@ -12,4 +12,13 @@
       name="formdata"
       />
 
+  <plone:service
+      method="POST"
+      factory=".cache_flush.CacheFlushPost"
+      for="plone.base.interfaces.IPloneSiteRoot"
+      permission="cmf.ManagePortal"
+      layer="sc.eprocessos.interfaces.IBrowserLayer"
+      name="eprocessos-cache-flush"
+      />
+
 </configure>

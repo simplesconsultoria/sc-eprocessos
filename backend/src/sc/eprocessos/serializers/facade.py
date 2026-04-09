@@ -4,19 +4,38 @@ from __future__ import annotations
 
 from plone.restapi.interfaces import ISerializeToJson
 from plone.restapi.serializer.dxcontent import SerializeFolderToJson
+from sc.eprocessos import logger
+from sc.eprocessos.cache import cache
 from sc.eprocessos.client import EProcessosClient
 from sc.eprocessos.client.exceptions import EProcessosError
 from sc.eprocessos.interfaces import IBrowserLayer
 from sc.eprocessos.interfaces import IEProcessosFacade
 from sc.eprocessos.utils import get_client
+from typing import Any
 from zope.component import adapter
 from zope.component import queryMultiAdapter
 from zope.interface import implementer
 
-import logging
+
+def _list_items_cache_key(fun, service_name: str) -> tuple[str, str]:
+    """Cache key for :func:`_list_items` — keyed by service name."""
+    return ("list_items", service_name)
 
 
-logger = logging.getLogger(__name__)
+@cache(_list_items_cache_key)
+def _list_items(service_name: str) -> dict[str, Any]:
+    """Fetch the unparameterized list endpoint for a given service.
+
+    Extracted as a module-level function so ``plone.memoize`` can cache
+    it independently of the serializer instance. Keyed by service name
+    only (these endpoints take no query parameters).
+    """
+    client = get_client()
+    try:
+        service = getattr(client, service_name)
+        return service.list()
+    finally:
+        client.close()
 
 
 @implementer(ISerializeToJson)
@@ -63,21 +82,16 @@ class SerializeFacadeToJson(SerializeFolderToJson):
         result["display_form"] = self.context.display_form
         result["service_name"] = self.context.service_name
 
-        # If no form required, fetch items directly
+        # If no form required, fetch items directly (cached via _list_items)
         if not self.context.display_form:
-            client = self.client
             try:
-                service = getattr(client, self.context.service_name)
-                data = service.list()
-                items = self.serialize_items(data.get("items", []))
-                result["items"] = items
+                data = _list_items(self.context.service_name)
+                result["items"] = self.serialize_items(data.get("items", []))
             except EProcessosError:
                 logger.exception(
                     "Failed to fetch data for %s", self.context.absolute_url()
                 )
                 result["items"] = []
                 result["external_error"] = True
-            finally:
-                client.close()
 
         return result

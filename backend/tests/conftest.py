@@ -103,3 +103,18 @@ def content_factory() -> ContentFactory:
             return api.content.create(container=container, type=portal_type, **kwargs)
 
     return factory
+
+
+@pytest.fixture(autouse=True)
+def _flush_eprocessos_cache() -> Generator[None]:
+    """Flush the e-Processos RAM cache before and after every test.
+
+    The cache is a module-level singleton, so without this fixture
+    entries would bleed across tests and make assertions on fetch
+    counts or error paths unreliable.
+    """
+    from sc.eprocessos.cache import invalidate_all
+
+    invalidate_all()
+    yield
+    invalidate_all()

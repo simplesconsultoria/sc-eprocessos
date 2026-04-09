@@ -9,11 +9,6 @@ from sc.eprocessos.serializers.facade import SerializeFacadeToJson
 from zope.component import adapter
 from zope.interface import implementer
 
-import logging
-
-
-logger = logging.getLogger(__name__)
-
 
 @implementer(ISerializeToJson)
 @adapter(IVereadores, IBrowserLayer)

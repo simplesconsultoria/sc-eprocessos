@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from sc.eprocessos import logger
 from sc.eprocessos.client.exceptions import EProcessosAuthError
 from sc.eprocessos.client.exceptions import EProcessosConnectionError
 from sc.eprocessos.client.exceptions import EProcessosHTTPError
@@ -11,11 +12,7 @@ from sc.eprocessos.client.exceptions import EProcessosServerError
 from typing import Any
 
 import httpx
-import logging
 import time
-
-
-logger = logging.getLogger(__name__)
 
 
 class BaseService:

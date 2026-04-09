@@ -1,11 +1,7 @@
 """Singleton subscribers for EProcessosFacade content types."""
 
 from plone import api
-
-import logging
-
-
-logger = logging.getLogger(__name__)
+from sc.eprocessos import logger
 
 # Maps portal_type to its add permission title (used by manage_permission)
 PERMISSION_MAP: dict[str, str] = {
