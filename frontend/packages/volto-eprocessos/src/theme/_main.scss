@@ -1,4 +1,8 @@
 // This theme extends the volto-light-theme
+@import 'variables';
+@import 'root';
+@import 'components/avatar/avatar';
+@import 'components/vereadorCard/vereador_card';
 @import 'components/vereador/vereador_view';
 @import 'components/legislatura/legislatura_view';
 @import 'blocks/vereadoresSlider';

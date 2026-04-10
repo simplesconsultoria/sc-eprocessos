@@ -1,0 +1,67 @@
+.vereador-outer {
+  display: flex;
+  height: 100%;
+  @include eprocessos-surface(20px, 14%, true, false);
+  color: inherit;
+  text-decoration: none;
+}
+
+.vereador-card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.vereador-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vereador-card-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vereador-card-body p,
+.vereador-card-body h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.vereador-card-body-button {
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  border-radius: 30px;
+  margin-top: 0.5rem;
+  background-color: var(
+    --theme-high-contrast-color,
+    var(--secondary-color, #ecf0f1)
+  );
+  color: var(--primary-foreground-color, black);
+
+  &:hover {
+    background-color: color-mix(
+      in srgb,
+      var(--theme-color, var(--primary-color, white)) 70%,
+      var(--primary-foreground-color, black) 30%
+    );
+    color: color-mix(
+      in srgb,
+      var(--primary-foreground-color, black) 80%,
+      var(--theme-color, var(--primary-color, white)) 20%
+    );
+  }
+
+  &:active {
+    background-color: var(--primary-foreground-color, black);
+    color: var(--theme-color, var(--primary-color, white));
+  }
+}

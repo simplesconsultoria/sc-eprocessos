@@ -1,0 +1,12 @@
+.eprocessos-avatar {
+  display: inline-flex;
+  width: var(--eprocessos-avatar-size, 3rem);
+  height: var(--eprocessos-avatar-size, 3rem);
+  align-items: center;
+  justify-content: center;
+}
+
+.eprocessos-avatar__img,
+.eprocessos-avatar__placeholder {
+  @include eprocessos-circle-media('--eprocessos-avatar-size', 3rem, 0.15rem);
+}

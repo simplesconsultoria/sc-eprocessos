@@ -1,7 +1,4 @@
 import { Container, Button } from '@plone/components';
-import Icon from '@plone/volto/components/theme/Icon/Icon';
-import personSVG from '@plone/volto/icons/user.svg';
-import { useEffect, useRef, useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 
 import type {
@@ -9,8 +6,8 @@ import type {
   LegislaturaVereadorRef,
 } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
-import { UniversalLink } from '@plone/volto/components';
 import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
+import VereadorCard from '@simplesconsultoria/volto-eprocessos/components/VereadorCard/VereadorCard';
 
 interface LegislaturaViewProps {
   content?: Legislatura | null;
@@ -63,82 +60,6 @@ const isCurrentByDateRange = (start?: string, end?: string): boolean => {
   // Dates are ISO-like (YYYY-MM-DD), lexicographic compare works.
   const today = new Date().toISOString().slice(0, 10);
   return start <= today && today <= end;
-};
-
-const VereadorCard = ({ item }: { item: LegislaturaVereadorRef }) => {
-  const intl = useIntl();
-  const imgSrc = resolveVereadorImage(item);
-  const [imageFailed, setImageFailed] = useState(false);
-  const imgRef = useRef<HTMLImageElement | null>(null);
-
-  useEffect(() => {
-    setImageFailed(false);
-  }, [imgSrc]);
-
-  // If the image already failed before hydration (SSR), React's `onError`
-  // won't fire. Detect broken image after mount.
-  useEffect(() => {
-    if (!imgSrc) return;
-    const img = imgRef.current;
-    if (!img) return;
-    if (img.complete && img.naturalWidth === 0) {
-      setImageFailed(true);
-    }
-  }, [imgSrc]);
-
-  const href = item?.id ? `/vereadores/${item.id}` : undefined;
-  const party = Array.isArray(item?.partido)
-    ? item.partido
-        .map((p) => p.token)
-        .filter(Boolean)
-        .join(', ')
-    : '';
-
-  const showPlaceholder = !imgSrc || imageFailed;
-
-  const CardInner = (
-    <div className="vereador-card">
-      <div className="vereador-card-image">
-        {showPlaceholder ? (
-          <Icon
-            name={personSVG}
-            className="vereador-card-image-placeholder"
-            size="7.5rem"
-            style={{ width: '7.5rem' }}
-            ariaHidden={true}
-          />
-        ) : (
-          <img
-            ref={imgRef}
-            src={imgSrc}
-            alt={item.title}
-            onError={() => setImageFailed(true)}
-            fetchPriority="high"
-          />
-        )}
-      </div>
-      <div className="vereador-card-body">
-        <h4 className="vereador-card-title">{item.title}</h4>
-        {party ? <p className="vereador-card-party">{party}</p> : null}
-        <Button
-          className="vereador-card-body-button"
-          aria-label={intl.formatMessage(messages.viewDetails)}
-        >
-          {intl.formatMessage(messages.viewDetails)}
-        </Button>
-      </div>
-    </div>
-  );
-
-  if (href) {
-    return (
-      <UniversalLink href={href} className="vereador-outer" title={item.title}>
-        {CardInner}
-      </UniversalLink>
-    );
-  }
-
-  return <div className="vereador-outer">{CardInner}</div>;
 };
 
 /**
@@ -200,9 +121,33 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
         <h2>{intl.formatMessage(messages.councilors)}</h2>
         {items.length ? (
           <div className="vereadores-grid">
-            {items.map((item) => (
-              <VereadorCard key={item.id} item={item} />
-            ))}
+            {items.map((item) => {
+              const href = item?.id ? `/vereadores/${item.id}` : undefined;
+              const party = Array.isArray(item?.partido)
+                ? item.partido
+                    .map((p) => p.token)
+                    .filter(Boolean)
+                    .join(', ')
+                : '';
+              const imageSrc = resolveVereadorImage(item);
+
+              return (
+                <VereadorCard
+                  key={item.id}
+                  href={href}
+                  imageSrc={imageSrc}
+                  name={item.title}
+                  party={party}
+                >
+                  <Button
+                    className="vereador-card-body-button"
+                    aria-label={intl.formatMessage(messages.viewDetails)}
+                  >
+                    {intl.formatMessage(messages.viewDetails)}
+                  </Button>
+                </VereadorCard>
+              );
+            })}
           </div>
         ) : (
           <p>{intl.formatMessage(messages.empty)}</p>
