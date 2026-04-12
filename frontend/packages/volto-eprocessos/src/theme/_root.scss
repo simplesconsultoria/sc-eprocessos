@@ -1,0 +1,11 @@
+:root {
+  .react-aria-Tabs {
+    overflow-x: scroll;
+
+    .react-aria-TabList {
+      @media (max-width: 600px) {
+        width: max-content;
+      }
+    }
+  }
+}

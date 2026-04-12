@@ -1,0 +1,79 @@
+// Shared mixins for this theme.
+// Note: This file is imported by `_main.scss` so mixins are available to all component styles.
+
+@mixin eprocessos-border($alpha: 14%) {
+  border: 1px solid
+    color-mix(
+      in srgb,
+      var(--primary-foreground-color, black) $alpha,
+      transparent
+    );
+}
+
+@mixin eprocessos-surface(
+  $radius: 12px,
+  $border-alpha: 14%,
+  $with-shadow: true,
+  $with-border: true
+) {
+  @if $with-border {
+    @include eprocessos-border($border-alpha);
+  }
+  border-radius: $radius;
+  background-color: var(
+    --theme-high-contrast-color,
+    var(--secondary-color, #ecf0f1)
+  );
+
+  @if $with-shadow {
+    box-shadow:
+      0 0 24px 0 rgba(0, 0, 0, 0.06),
+      0 1px 0 0 rgba(0, 0, 0, 0.02);
+  }
+}
+
+@mixin eprocessos-circle-media(
+  $size-var: '--eprocessos-avatar-size',
+  $default-size: 3rem,
+  $padding: 0.15rem,
+  $border-alpha: 14%
+) {
+  width: var(#{$size-var}, #{$default-size});
+  height: var(#{$size-var}, #{$default-size}) !important;
+  padding: $padding;
+  @include eprocessos-border($border-alpha);
+  border-radius: 50%;
+  background-color: var(--theme-color, var(--primary-color, #bdc3c7));
+  object-fit: cover;
+}
+
+@mixin eprocessos-icon-button($radius: 8px, $padding: 0.25rem) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $padding;
+  border: 0;
+  border-radius: $radius;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+@mixin eprocessos-view-responsive-margins(
+  $view-class,
+  $layout-breakpoint: 1470px,
+  $default-breakpoint: 1020px,
+  $margin: 20px
+) {
+  .#{$view-class}.layout {
+    @media (max-width: $layout-breakpoint) {
+      margin: 0 $margin !important;
+    }
+  }
+
+  .#{$view-class}.default {
+    @media (max-width: $default-breakpoint) {
+      margin: 0 $margin !important;
+    }
+  }
+}

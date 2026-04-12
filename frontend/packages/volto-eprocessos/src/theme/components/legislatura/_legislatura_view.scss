@@ -1,0 +1,125 @@
+.legislatura-view {
+  .legislatura-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    gap: 1rem;
+  }
+
+  .legislatura-meta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.75rem 1rem;
+
+    .badge-current {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background-color: var(--theme-color, var(--primary-color, #bdc3c7));
+      color: var(--primary-foreground-color, black);
+      font-weight: 600;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .legislatura-dates {
+      display: grid;
+      padding: 0.75rem 1rem;
+      border: 1px solid
+        color-mix(
+          in srgb,
+          var(--primary-foreground-color, black) 12%,
+          var(--theme-high-contrast-color, var(--secondary-color, #ecf0f1))
+        );
+      border-radius: 16px;
+      margin: 0;
+      background-color: var(
+        --theme-high-contrast-color,
+        var(--secondary-color, #ecf0f1)
+      );
+      column-gap: 1.25rem;
+      grid-template-columns: 1fr auto;
+
+      dt,
+      dd {
+        padding: 0.4rem 0;
+        border-bottom: 1px solid
+          color-mix(
+            in srgb,
+            var(--primary-foreground-color, black) 10%,
+            transparent
+          );
+      }
+
+      dt {
+        margin: 0;
+        font-weight: 600;
+        opacity: 0.85;
+      }
+
+      dd {
+        margin: 0;
+        font-weight: 500;
+        text-align: right;
+      }
+
+      dt:last-of-type,
+      dd:last-of-type {
+        border-bottom: 0;
+      }
+
+      @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+
+        dt,
+        dd {
+          border-bottom: 0;
+        }
+
+        dt {
+          padding-bottom: 0.125rem;
+        }
+
+        dd {
+          padding-top: 0;
+          text-align: left;
+        }
+
+        dd:not(:last-of-type) {
+          padding-bottom: 0.65rem;
+          border-bottom: 1px solid
+            color-mix(
+              in srgb,
+              var(--primary-foreground-color, black) 10%,
+              transparent
+            );
+        }
+      }
+    }
+  }
+  .legislatura-vereadores {
+    background-color: var(--theme-color, var(--primary-color, #bdc3c7));
+    .vereadores-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      @media (max-width: 992px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@include eprocessos-view-responsive-margins('legislatura-view');
