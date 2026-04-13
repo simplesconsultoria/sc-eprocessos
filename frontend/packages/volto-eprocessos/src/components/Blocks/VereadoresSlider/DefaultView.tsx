@@ -50,32 +50,15 @@ const messages = defineMessages({
   },
 });
 
-const sanitizeScaleUrl = (url: string): string =>
-  url.startsWith('/++api++') ? url.slice('/++api++'.length) : url;
-
-const resolveImageSrcFromUrl = (raw?: string): string | undefined => {
-  if (!raw) return undefined;
-
-  // External absolute: keep as-is.
-  if (raw.startsWith('http://') || raw.startsWith('https://')) {
-    if (!isInternalURL(raw)) return raw;
-    const flattened = sanitizeScaleUrl(flattenToAppURL(raw));
-    const path = flattened.startsWith('/') ? flattened : `/${flattened}`;
-    return addSubpathPrefix(path);
-  }
-
-  const sanitized = sanitizeScaleUrl(raw);
-  const path = sanitized.startsWith('/') ? sanitized : `/${sanitized}`;
-  return addSubpathPrefix(path);
-};
-
 const getVereadorItemPath = (
   item?: VereadoresSliderItem,
 ): string | undefined => {
   const raw = item?.['@id'];
   if (raw) {
     const path = flattenToAppURL(raw);
-    return path?.startsWith('/') ? path : `/${path}`;
+    if (typeof path === 'string' && path) {
+      return path.startsWith('/') ? path : `/${path}`;
+    }
   }
   if (item?.id) return `/vereadores/${item.id}`;
   return undefined;
@@ -84,29 +67,22 @@ const getVereadorItemPath = (
 const resolveItemImageSrc = (
   item?: VereadoresSliderItem,
 ): string | undefined => {
+  const base = getVereadorItemPath(item);
   const download = item?.image?.[0]?.download;
-  if (download) {
-    const internalOrRaw =
-      (download.startsWith('http://') || download.startsWith('https://')) &&
-      isInternalURL(download)
-        ? flattenToAppURL(download)
-        : download;
-    const sanitized = sanitizeScaleUrl(internalOrRaw);
-    const isBareImages =
-      sanitized.startsWith('@@images/') || sanitized.startsWith('/@@images/');
-    if (isBareImages) {
-      const base = getVereadorItemPath(item);
-      if (base) {
-        const path = `${base}/${sanitized.replace(/^\//, '')}`;
-        return addSubpathPrefix(path);
-      }
-    }
 
-    const resolved = resolveImageSrcFromUrl(download);
-    if (resolved) return resolved;
-  }
+  // Minimal rule (same idea as Sumario): in the slider we expect a backend-served
+  // `@@images/...` path, so we just join it with the vereador base URL.
+  if (!base || !download) return undefined;
 
-  return resolveImageSrcFromUrl(item?.url_foto || undefined);
+  const sanitized = download.startsWith('/++api++')
+    ? download.slice('/++api++'.length)
+    : download;
+
+  const isBareImages =
+    sanitized.startsWith('@@images/') || sanitized.startsWith('/@@images/');
+  if (!isBareImages) return undefined;
+
+  return addSubpathPrefix(`${base}/${sanitized.replace(/^\//, '')}`);
 };
 
 const getSingleLink = (

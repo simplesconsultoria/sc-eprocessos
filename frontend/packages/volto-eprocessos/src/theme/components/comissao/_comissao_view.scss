@@ -1,0 +1,150 @@
+.comissao-view {
+  .sumario {
+    margin-bottom: $spacing-medium;
+
+    #card {
+      display: flex;
+      justify-items: center;
+
+      @media only screen and (max-width: $largest-mobile-screen) {
+        display: block;
+      }
+
+      .dados {
+        width: 100% !important;
+      }
+    }
+  }
+  table {
+    border-collapse: collapse;
+    tr {
+      border-bottom: 1px solid #e7eff7;
+      th {
+        padding: 0.5rem 2rem;
+        text-align: left;
+      }
+    }
+    tbody {
+      tr {
+        padding: 10px 0;
+        background-color: var(--theme-color, var(--primary-color, white));
+      }
+      tr:nth-child(even) {
+        background-color: var(
+          --theme-high-contrast-color,
+          var(--secondary-color, lightgray)
+        );
+      }
+    }
+  }
+
+  .comissao-panels {
+    table.full {
+      width: 100%;
+    }
+  }
+
+  .comissao-participantes {
+    .photo,
+    .foto {
+      text-align: center;
+    }
+  }
+
+  .comissao-periodos {
+    .composition {
+      text-align: center;
+    }
+    .comissao-periodo {
+      .composicao {
+        text-align: center;
+        .comissao-composicao {
+          position: relative;
+          display: inline-flex;
+          align-items: center;
+          &-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.25rem;
+            @include eprocessos-surface(8px, $with-shadow: false);
+            color: inherit;
+            cursor: pointer;
+            font: inherit;
+            text-align: left;
+          }
+          &-menu {
+            position: absolute;
+            z-index: 10;
+            top: calc(100% + 0.35rem);
+            right: 0;
+            display: flex;
+            overflow: hidden;
+            width: min(24rem, calc(100vw - 1rem));
+            max-height: var(--comissao-composicao-max-h, 22rem);
+            box-sizing: border-box;
+            flex-direction: column;
+            padding: 0;
+            transform: translateX(var(--comissao-composicao-shift-x, 0px));
+            @include eprocessos-surface(12px);
+            &[data-placement='top'] {
+              top: auto;
+              bottom: calc(100% + 0.35rem);
+            }
+            &-header {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 0.5rem 0.5rem 0;
+            }
+            &-body {
+              overflow: auto;
+              padding: 0.35rem 0;
+              overscroll-behavior: contain;
+            }
+          }
+          &-title {
+            padding: 0 0.25rem;
+          }
+          &-close {
+            @include eprocessos-icon-button(8px, 0.15rem);
+          }
+          &-link,
+          &-item {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+          }
+          &-line1 {
+            overflow-wrap: anywhere;
+            word-break: break-word;
+          }
+          &-cargo {
+            font-weight: 700;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+          }
+          &-row {
+            padding: 0.55rem 0.75rem;
+            border-bottom: 1px solid
+              color-mix(
+                in srgb,
+                var(--primary-foreground-color, black) 10%,
+                transparent
+              );
+          }
+        }
+
+        .comissao-composicao-menu-body > :last-child .comissao-composicao-row {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .comissao-reunioes {
+    padding-left: 1.25rem;
+  }
+}
+
+@include eprocessos-view-responsive-margins('comissao-view');

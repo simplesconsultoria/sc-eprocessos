@@ -1,0 +1,141 @@
+import { defineMessages, useIntl } from 'react-intl';
+
+import type { ComissaoParticipante } from '@simplesconsultoria/volto-eprocessos/types';
+import {
+  Table,
+  TableHeader,
+  TableBody,
+  Row,
+  Column,
+} from '@simplesconsultoria/volto-eprocessos/components/Tabela';
+import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
+import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
+import Avatar from '@simplesconsultoria/volto-eprocessos/components/Avatar/Avatar';
+
+const messages = defineMessages({
+  tableLabel: {
+    id: 'Comissao view participants heading',
+    defaultMessage: 'Participants',
+  },
+  role: {
+    id: 'Comissao participants role',
+    defaultMessage: 'Role',
+  },
+  name: {
+    id: 'Comissao participants name',
+    defaultMessage: 'Name',
+  },
+  term: {
+    id: 'Comissao participants term',
+    defaultMessage: 'Term',
+  },
+  party: {
+    id: 'Comissao participants party',
+    defaultMessage: 'Party',
+  },
+  photo: {
+    id: 'Comissao participants photo',
+    defaultMessage: 'Photo',
+  },
+  emptyParticipants: {
+    id: 'Comissao empty participants',
+    defaultMessage: 'No participant recorded.',
+  },
+});
+
+const resolveParticipanteImage = (
+  item: ComissaoParticipante,
+): string | undefined => {
+  const download = (item as any)?.image?.[0]?.download;
+  return resolveEprocessosAssetUrl(download || (item as any)?.url_foto);
+};
+
+interface ParticipantesProps {
+  items: ComissaoParticipante[];
+}
+
+const Participantes = ({ items }: ParticipantesProps) => {
+  const intl = useIntl();
+
+  if (!items?.length) {
+    return <p>{intl.formatMessage(messages.emptyParticipants)}</p>;
+  }
+
+  const sorted = [...items].sort((a, b) => {
+    const oa = Number.isFinite((a as any).ordem) ? (a as any).ordem : 999;
+    const ob = Number.isFinite((b as any).ordem) ? (b as any).ordem : 999;
+    if (oa !== ob) return oa - ob;
+    return ((a as any).title || '').localeCompare((b as any).title || '');
+  });
+
+  return (
+    <Table
+      aria-label={intl.formatMessage(messages.tableLabel)}
+      className={'full comissao-participantes'}
+    >
+      <TableHeader>
+        <Row>
+          <Column isRowHeader className={'photo'}>
+            {intl.formatMessage(messages.photo)}
+          </Column>
+          <Column isRowHeader className={'name'}>
+            {intl.formatMessage(messages.name)}
+          </Column>
+          <Column isRowHeader className={'role'}>
+            {intl.formatMessage(messages.role)}
+          </Column>
+          <Column isRowHeader className={'term'}>
+            {intl.formatMessage(messages.term)}
+          </Column>
+          <Column isRowHeader className={'party'}>
+            {intl.formatMessage(messages.party)}
+          </Column>
+        </Row>
+      </TableHeader>
+      <TableBody>
+        {sorted.map((item, idx) => {
+          const href = (item as any)?.id
+            ? `/vereadores/${(item as any).id}`
+            : undefined;
+          const party = Array.isArray((item as any).partido)
+            ? (item as any).partido
+                .map((p: any) => p.token)
+                .filter(Boolean)
+                .join(', ')
+            : '';
+
+          const imgSrc = resolveParticipanteImage(item);
+
+          return (
+            <Row
+              key={`${(item as any).id}-${idx}`}
+              className="comissao-participante"
+            >
+              <Column className="foto">
+                <Avatar
+                  src={imgSrc}
+                  alt={(item as any).title || ''}
+                  size="3rem"
+                />
+              </Column>
+              <Column className="nome">
+                <Link
+                  item={href ?? null}
+                  title={(item as any).title}
+                  defaultValue={(item as any).title}
+                />
+              </Column>
+              <Column className="cargo">{(item as any).cargo}</Column>
+              <Column className="mandato">
+                {(item as any).mandato || '-'}
+              </Column>
+              <Column className="partido">{party || '-'}</Column>
+            </Row>
+          );
+        })}
+      </TableBody>
+    </Table>
+  );
+};
+
+export default Participantes;
