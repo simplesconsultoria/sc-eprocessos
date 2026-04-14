@@ -9,6 +9,8 @@ import MateriaView from '@simplesconsultoria/volto-eprocessos/components/Materia
 import FileSVG from '@plone/volto/icons/file.svg';
 import briefcaseSVG from '@plone/volto/icons/briefcase.svg';
 import MesaView from '@simplesconsultoria/volto-eprocessos/components/Mesa/MesaView';
+import NormaView from '@simplesconsultoria/volto-eprocessos/components/Norma/NormaView';
+import BookSVG from '@plone/volto/icons/book.svg';
 
 export default function install(config: ConfigType) {
   // Icons
@@ -19,6 +21,7 @@ export default function install(config: ConfigType) {
     Comissao: GroupSVG,
     Materia: FileSVG,
     Mesa: briefcaseSVG,
+    Norma: BookSVG,
   };
 
   // Views
@@ -29,6 +32,7 @@ export default function install(config: ConfigType) {
     Comissao: ComissaoView,
     Materia: MateriaView,
     Mesa: MesaView,
+    Norma: NormaView,
   };
 
   return config;

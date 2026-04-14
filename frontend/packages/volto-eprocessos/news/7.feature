@@ -1,0 +1,1 @@
+Implemented view, icon, and Storybook stories for Norma. @humanaice
