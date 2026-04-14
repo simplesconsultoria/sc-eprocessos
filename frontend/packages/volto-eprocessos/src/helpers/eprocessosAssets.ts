@@ -55,6 +55,11 @@ export const DEFAULT_EPROCESSOS_FACADE_REWRITES: PathRewriteRule[] = [
     test: (path) => path.startsWith('/legislaturas/'),
     rewrite: (path) => `${getAtividadeLegislativaBasePath()}${path}`,
   },
+  {
+    // Canonical routes for legislative activity live under `/atividade-legislativa/*`.
+    test: (path) => path.startsWith('/materias/'),
+    rewrite: (path) => `${getAtividadeLegislativaBasePath()}${path}`,
+  },
 ];
 
 /**
