@@ -9,6 +9,10 @@ interface VereadorCardProps {
   imageSrc?: string;
   name: string;
   party?: string;
+  header?: ReactNode;
+  avatarSize?: string;
+  avatarLoading?: 'lazy' | 'eager';
+  avatarFetchPriority?: 'high' | 'low' | 'auto';
   children?: ReactNode;
   className?: string;
 }
@@ -18,6 +22,10 @@ const VereadorCard = ({
   imageSrc,
   name,
   party,
+  header,
+  avatarSize,
+  avatarLoading = 'lazy',
+  avatarFetchPriority,
   children,
   className,
 }: VereadorCardProps) => {
@@ -25,13 +33,14 @@ const VereadorCard = ({
 
   const inner = (
     <div className="vereador-card">
+      {header ? <div className="vereador-card-header">{header}</div> : null}
       <div className="vereador-card-image">
         <Avatar
           src={imageSrc}
           alt={name}
-          size="7.5rem"
-          loading="eager"
-          fetchPriority="high"
+          size={avatarSize || '7.5rem'}
+          loading={avatarLoading}
+          fetchPriority={avatarFetchPriority}
         />
       </div>
       <div className="vereador-card-body">

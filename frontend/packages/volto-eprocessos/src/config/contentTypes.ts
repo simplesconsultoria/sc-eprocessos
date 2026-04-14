@@ -7,6 +7,8 @@ import ComissaoView from '@simplesconsultoria/volto-eprocessos/components/Comiss
 import GroupSVG from '@plone/volto/icons/group.svg';
 import MateriaView from '@simplesconsultoria/volto-eprocessos/components/Materia/MateriaView';
 import FileSVG from '@plone/volto/icons/file.svg';
+import briefcaseSVG from '@plone/volto/icons/briefcase.svg';
+import MesaView from '@simplesconsultoria/volto-eprocessos/components/Mesa/MesaView';
 
 export default function install(config: ConfigType) {
   // Icons
@@ -16,6 +18,7 @@ export default function install(config: ConfigType) {
     Legislatura: calendarSVG,
     Comissao: GroupSVG,
     Materia: FileSVG,
+    Mesa: briefcaseSVG,
   };
 
   // Views
@@ -25,6 +28,7 @@ export default function install(config: ConfigType) {
     Legislatura: LegislaturaView,
     Comissao: ComissaoView,
     Materia: MateriaView,
+    Mesa: MesaView,
   };
 
   return config;
