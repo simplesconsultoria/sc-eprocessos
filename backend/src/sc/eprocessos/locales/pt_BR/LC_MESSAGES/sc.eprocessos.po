@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-08 17:44+0000\n"
+"POT-Creation-Date: 2026-04-14 18:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,135 +10,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "Language-Code: pt_BR\n"
-"Language-Name: English\n"
+"Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: DOMAIN\n"
+"Domain: sc.eprocessos\n"
+
+#: sc/eprocessos/interfaces.py:45
+msgid "Cache TTL"
+msgstr "TTL do cache"
 
 #: sc/eprocessos/profiles/default/types/Comissoes.xml
 msgid "Comissões"
-msgstr ""
+msgstr "Comissões"
 
 #: sc/eprocessos/profiles.zcml:22
 msgid "Create example content to showcase this addon."
-msgstr ""
+msgstr "Criar conteúdo de exemplo para demonstrar este add-on."
 
 #: sc/eprocessos/interfaces.py:27
 msgid "Default timeout"
-msgstr ""
+msgstr "Tempo limite padrão"
 
 #: sc/eprocessos/profiles/default/types/Comissoes.xml
 #: sc/eprocessos/profiles/default/types/Legislaturas.xml
 #: sc/eprocessos/profiles/default/types/Materias.xml
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: sc/eprocessos/profiles/default/types/Vereadores.xml
 msgid "Facade for city councilors"
-msgstr ""
+msgstr "Fachada para vereadores"
 
 #: sc/eprocessos/profiles/default/types/Comissoes.xml
 msgid "Facade for committees"
-msgstr ""
+msgstr "Fachada para comissões"
 
 #: sc/eprocessos/profiles/default/types/Mesas.xml
 msgid "Facade for executive board periods"
-msgstr ""
+msgstr "Fachada para períodos da mesa diretora"
 
 #: sc/eprocessos/profiles/default/types/Materias.xml
 msgid "Facade for legislative matters"
-msgstr ""
+msgstr "Fachada para matérias legislativas"
 
 #: sc/eprocessos/profiles/default/types/Normas.xml
 msgid "Facade for legislative norms"
-msgstr ""
+msgstr "Fachada para normas legislativas"
 
 #: sc/eprocessos/profiles/default/types/Legislaturas.xml
 msgid "Facade for legislative terms"
-msgstr ""
+msgstr "Fachada para legislaturas"
 
 #: sc/eprocessos/profiles/default/types/Sessoes.xml
 msgid "Facade for plenary sessions"
-msgstr ""
+msgstr "Fachada para sessões plenárias"
 
 #: sc/eprocessos/profiles.zcml:13
 msgid "Integração do e-Processos com Plone sites"
-msgstr ""
+msgstr "Integração do e-Processos com Plone sites"
 
 #: sc/eprocessos/profiles/default/types/Legislaturas.xml
 msgid "Legislaturas"
-msgstr ""
+msgstr "Legislaturas"
 
 #: sc/eprocessos/profiles/default/types/Materias.xml
 msgid "Matérias Legislativas"
-msgstr ""
+msgstr "Matérias Legislativas"
 
 #: sc/eprocessos/interfaces.py:33
 msgid "Maximum retries"
-msgstr ""
+msgstr "Número máximo de tentativas"
 
 #: sc/eprocessos/profiles/default/types/Mesas.xml
 msgid "Mesas Diretoras"
-msgstr ""
+msgstr "Mesas Diretoras"
 
 #: sc/eprocessos/profiles/default/types/Normas.xml
 msgid "Normas"
-msgstr ""
+msgstr "Normas"
 
 #: sc/eprocessos/profiles.zcml:22
 msgid "Plone e-Processos: Example content"
-msgstr ""
+msgstr "Plone e-Processos: Conteúdo de exemplo"
 
 #: sc/eprocessos/profiles.zcml:13
 msgid "Plone e-Processos: Install"
-msgstr ""
+msgstr "Plone e-Processos: Instalar"
 
 #: sc/eprocessos/profiles.zcml:30
 msgid "Plone e-Processos: Uninstall"
-msgstr ""
+msgstr "Plone e-Processos: Desinstalar"
 
 #: sc/eprocessos/interfaces.py:39
 msgid "Retry delay"
-msgstr ""
+msgstr "Atraso entre tentativas"
 
 #: sc/eprocessos/profiles/default/types/Sessoes.xml
 msgid "Sessões Plenárias"
-msgstr ""
+msgstr "Sessões Plenárias"
 
 #: sc/eprocessos/interfaces.py:22
 msgid "The base URL for the e-Processos API."
-msgstr ""
+msgstr "A URL base para a API do e-Processos."
 
 #: sc/eprocessos/interfaces.py:28
 msgid "The default timeout for the e-Processos API client."
-msgstr ""
+msgstr "O tempo limite padrão para o cliente da API do e-Processos."
 
 #: sc/eprocessos/interfaces.py:40
 msgid "The delay between retries for the e-Processos API client."
-msgstr ""
+msgstr "O atraso entre tentativas para o cliente da API do e-Processos."
 
 #: sc/eprocessos/interfaces.py:34
 msgid "The maximum number of retries for the e-Processos API client."
-msgstr ""
+msgstr "O número máximo de tentativas para o cliente da API do e-Processos."
+
+#: sc/eprocessos/interfaces.py:46
+msgid "Time-to-live, in seconds, for cached e-Processos responses. Set to 0 to effectively disable caching."
+msgstr "Tempo de vida (TTL), em segundos, para respostas do e-Processos em cache. Defina como 0 para desabilitar o cache na prática."
 
 #: sc/eprocessos/profiles.zcml:30
 msgid "Uninstall Plone e-Processos setup."
-msgstr ""
+msgstr "Desinstalar a configuração do Plone e-Processos."
 
 #: sc/eprocessos/profiles/default/types/Vereadores.xml
 msgid "Vereadores"
-msgstr ""
+msgstr "Vereadores"
 
 #: sc/eprocessos/profiles/default/types/Comissoes.xml
 #: sc/eprocessos/profiles/default/types/Legislaturas.xml
 #: sc/eprocessos/profiles/default/types/Materias.xml
 msgid "View"
-msgstr ""
+msgstr "Visualizar"
 
 #: sc/eprocessos/controlpanels/controlpanel.py:13
 #: sc/eprocessos/profiles/default/controlpanel.xml
 msgid "e-Processos Settings"
-msgstr ""
+msgstr "Configurações do e-Processos"
 
 #: sc/eprocessos/interfaces.py:21
 msgid "e-Processos base address"
-msgstr ""
+msgstr "Endereço base do e-Processos"

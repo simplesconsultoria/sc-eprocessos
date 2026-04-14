@@ -22,10 +22,18 @@
           border-radius: 50% !important;
           margin-right: 40px;
           object-fit: cover;
+          @media (max-width: 768px) {
+            margin: 0;
+          }
         }
       }
       .dados {
+        display: flex;
         width: 100% !important;
+        align-items: center;
+        @media (max-width: 768px) {
+          justify-content: center;
+        }
       }
     }
   }
@@ -35,3 +43,4 @@
     }
   }
 }
+@include eprocessos-view-responsive-margins('vereador-view');

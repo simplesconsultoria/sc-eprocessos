@@ -72,7 +72,11 @@ const VereadorView = ({ content }: VereadorViewProps) => {
   ];
 
   return (
-    <Container id="page-document" className="view-wrapper vereador-view">
+    <Container
+      id="page-document"
+      className="view-wrapper vereador-view"
+      width="default"
+    >
       <Sumario content={content} />
       <Detalhes items={panels} />
     </Container>
