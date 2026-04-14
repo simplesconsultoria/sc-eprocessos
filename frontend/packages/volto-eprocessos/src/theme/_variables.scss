@@ -14,16 +14,29 @@
   $radius: 12px,
   $border-alpha: 14%,
   $with-shadow: true,
-  $with-border: true
+  $with-border: true,
+  $background: var(--theme-high-contrast-color, var(--secondary-color, #bdc3c7)),
+  $color:
+    var(
+      --theme-top-high-contrast-foreground-color,
+      var(--secondary-foreground-color, black)
+    ),
+  $hover: false
 ) {
   @if $with-border {
     @include eprocessos-border($border-alpha);
   }
   border-radius: $radius;
-  background-color: var(
-    --theme-high-contrast-color,
-    var(--secondary-color, #ecf0f1)
-  );
+  background-color: $background;
+  color: $color;
+  @if $hover {
+    &:hover {
+      background-color: color-mix(in srgb, $background 80%, black 20%);
+    }
+    &:active {
+      background-color: color-mix(in srgb, $background 60%, black 40%);
+    }
+  }
 
   @if $with-shadow {
     box-shadow:
