@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-08 17:44+0000\n"
+"POT-Creation-Date: 2026-04-14 18:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+
+#: sc/eprocessos/interfaces.py:45
+msgid "Cache TTL"
+msgstr ""
 
 #: sc/eprocessos/profiles/default/types/Comissoes.xml
 msgid "Comissões"
@@ -118,6 +122,10 @@ msgstr ""
 
 #: sc/eprocessos/interfaces.py:34
 msgid "The maximum number of retries for the e-Processos API client."
+msgstr ""
+
+#: sc/eprocessos/interfaces.py:46
+msgid "Time-to-live, in seconds, for cached e-Processos responses. Set to 0 to effectively disable caching."
 msgstr ""
 
 #: sc/eprocessos/profiles.zcml:30

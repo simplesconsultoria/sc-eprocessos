@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2023-04-06T16:01:32.969Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
-"Language: \n"
+"Language: pt_BR\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,538 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "No meeting recorded."
+#: components/Comissao/Reunioes
+msgid "Comissao empty meetings"
+msgstr "Nenhuma reunião cadastrada."
+
+#. Default: "No participant recorded."
+#: components/Comissao/Participantes
+msgid "Comissao empty participants"
+msgstr "Nenhum participante cadastrado."
+
+#. Default: "No period recorded."
+#: components/Comissao/Periodos
+msgid "Comissao empty periods"
+msgstr "Nenhum período cadastrado."
+
+#. Default: "Name"
+#: components/Comissao/Participantes
+msgid "Comissao participants name"
+msgstr "Nome"
+
+#. Default: "Party"
+#: components/Comissao/Participantes
+msgid "Comissao participants party"
+msgstr "Partido"
+
+#. Default: "Photo"
+#: components/Comissao/Participantes
+msgid "Comissao participants photo"
+msgstr "Foto"
+
+#. Default: "Role"
+#: components/Comissao/Participantes
+msgid "Comissao participants role"
+msgstr "Cargo"
+
+#. Default: "Term"
+#: components/Comissao/Participantes
+msgid "Comissao participants term"
+msgstr "Mandato"
+
+#. Default: "Composition"
+#: components/Comissao/Periodos
+msgid "Comissao period composition"
+msgstr "Composição"
+
+#. Default: "Close composition menu"
+#: components/Comissao/Periodos
+msgid "Comissao period composition close"
+msgstr "Fechar menu de composição"
+
+#. Default: "Vereadores"
+#: components/Comissao/Periodos
+msgid "Comissao period composition title"
+msgstr "Vereadores"
+
+#. Default: "Toggle composition menu ({count})"
+#: components/Comissao/Periodos
+msgid "Comissao period composition toggle"
+msgstr "Alternar menu de composição ({count})"
+
+#. Default: "End"
+#: components/Comissao/Periodos
+msgid "Comissao period end"
+msgstr "Fim"
+
+#. Default: "Id"
+#: components/Comissao/Periodos
+msgid "Comissao period id"
+msgstr "ID"
+
+#. Default: "Start"
+#: components/Comissao/Periodos
+msgid "Comissao period start"
+msgstr "Início"
+
+#. Default: "Acronym"
+#: components/Comissao/Sumario
+msgid "Comissao view acronym label"
+msgstr "Sigla"
+
+#. Default: "Could not load committee."
+#: components/Comissao/ComissaoView
+msgid "Comissao view error"
+msgstr "Não foi possível carregar a comissão."
+
+#. Default: "Meetings"
+#: components/Comissao/ComissaoView
+msgid "Comissao view meetings heading"
+msgstr "Reuniões"
+
+#. Default: "Participants"
+#: components/Comissao/ComissaoView
+#: components/Comissao/Participantes
+msgid "Comissao view participants heading"
+msgstr "Participantes"
+
+#. Default: "Periods"
+#: components/Comissao/ComissaoView
+#: components/Comissao/Periodos
+msgid "Comissao view periods heading"
+msgstr "Períodos"
+
+#. Default: "Type"
+#: components/Comissao/Sumario
+msgid "Comissao view type label"
+msgstr "Tipo"
+
+#. Default: "Download"
+#: components/FileAttachment/FileAttachment
+msgid "File attachment download"
+msgstr "Baixar"
+
+#. Default: "Councilors"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view councilors heading"
+msgstr "Vereadores"
+
+#. Default: "Current"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view current badge"
+msgstr "Atual"
+
+#. Default: "Election date"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view election date"
+msgstr "Data da eleição"
+
+#. Default: "No councilor found."
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view empty councilors"
+msgstr "Nenhum vereador encontrado."
+
+#. Default: "End"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view end"
+msgstr "Fim"
+
+#. Default: "Could not load legislature."
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view error"
+msgstr "Não foi possível carregar a legislatura."
+
+#. Default: "Start"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view start"
+msgstr "Início"
+
+#. Default: "View details"
+#: components/Legislatura/LegislaturaView
+msgid "Legislatura view view details button"
+msgstr "Ver detalhes"
+
+#. Default: "Accessory documents"
+#: components/Materia/MateriaView
+msgid "Materia view accessory documents heading"
+msgstr "Documentos acessórios"
+
+#. Default: "Amendments"
+#: components/Materia/MateriaView
+msgid "Materia view amendments heading"
+msgstr "Emendas"
+
+#. Default: "Attached matters"
+#: components/Materia/MateriaView
+msgid "Materia view attached heading"
+msgstr "Matérias anexadas"
+
+#. Default: "Authorship"
+#: components/Materia/MateriaView
+msgid "Materia view authorship heading"
+msgstr "Autoria"
+
+#. Default: "Authorship"
+#: components/Materia/MateriaView
+msgid "Materia view authorship inline"
+msgstr "Autoria"
+
+#. Default: "Committee opinions"
+#: components/Materia/MateriaView
+msgid "Materia view committee opinions heading"
+msgstr "Pareceres das comissões"
+
+#. Default: "Current status"
+#: components/Materia/MateriaView
+msgid "Materia view current status heading"
+msgstr "Situação atual"
+
+#. Default: "Date"
+#: components/Materia/MateriaView
+msgid "Materia view date label"
+msgstr "Data"
+
+#. Default: "Digital proposition"
+#: components/Materia/MateriaView
+msgid "Materia view digital proposition label"
+msgstr "Proposição digital"
+
+#. Default: "Could not load matter."
+#: components/Materia/MateriaView
+msgid "Materia view error"
+msgstr "Não foi possível carregar a matéria."
+
+#. Default: "Files"
+#: components/Materia/MateriaView
+msgid "Materia view files heading"
+msgstr "Arquivos"
+
+#. Default: "In progress"
+#: components/Materia/MateriaView
+msgid "Materia view in progress badge"
+msgstr "Em tramitação"
+
+#. Default: "Last location"
+#: components/Materia/MateriaView
+msgid "Materia view last location label"
+msgstr "Última localização"
+
+#. Default: "No amendments."
+#: components/Materia/MateriaView
+msgid "Materia view no amendments"
+msgstr "Nenhuma emenda."
+
+#. Default: "No attached matters."
+#: components/Materia/MateriaView
+msgid "Materia view no attached"
+msgstr "Nenhuma matéria anexada."
+
+#. Default: "No authorship information."
+#: components/Materia/MateriaView
+msgid "Materia view no authorship"
+msgstr "Sem informação de autoria."
+
+#. Default: "No committee opinions."
+#: components/Materia/MateriaView
+msgid "Materia view no committee opinions"
+msgstr "Nenhum parecer de comissão."
+
+#. Default: "No files."
+#: components/Materia/MateriaView
+msgid "Materia view no files"
+msgstr "Nenhum arquivo."
+
+#. Default: "No processing history."
+#: components/Materia/MateriaView
+msgid "Materia view no processing"
+msgstr "Sem histórico de tramitação."
+
+#. Default: "No substitutes."
+#: components/Materia/MateriaView
+msgid "Materia view no substitutes"
+msgstr "Nenhum substitutivo."
+
+#. Default: "No vote results."
+#: components/Materia/MateriaView
+msgid "Materia view no vote results"
+msgstr "Sem resultados de votação."
+
+#. Default: "Processing history"
+#: components/Materia/MateriaView
+msgid "Materia view processing heading"
+msgstr "Histórico de tramitação"
+
+#. Default: "Processing regime"
+#: components/Materia/MateriaView
+msgid "Materia view processing regime label"
+msgstr "Regime de tramitação"
+
+#. Default: "Protocol"
+#: components/Materia/MateriaView
+msgid "Materia view protocol label"
+msgstr "Protocolo"
+
+#. Default: "Quorum"
+#: components/Materia/MateriaView
+msgid "Materia view quorum label"
+msgstr "Quórum"
+
+#. Default: "Closed"
+#: components/Materia/MateriaView
+msgid "Materia view status closed"
+msgstr "Encerrada"
+
+#. Default: "In progress"
+#: components/Materia/MateriaView
+msgid "Materia view status in progress"
+msgstr "Em tramitação"
+
+#. Default: "Substitutes"
+#: components/Materia/MateriaView
+msgid "Materia view substitutes heading"
+msgstr "Substitutivos"
+
+#. Default: "Full text"
+#: components/Materia/MateriaView
+msgid "Materia view text integral button"
+msgstr "Texto original"
+
+#. Default: "Vote results"
+#: components/Materia/MateriaView
+msgid "Materia view vote results heading"
+msgstr "Resultados da votação"
+
+#. Default: "Current"
+#: components/Mesa/MesaView
+msgid "Mesa view current badge"
+msgstr "Atual"
+
+#. Default: "No member found."
+#: components/Mesa/MesaView
+msgid "Mesa view empty members"
+msgstr "Nenhum membro encontrado."
+
+#. Default: "End"
+#: components/Mesa/MesaView
+msgid "Mesa view end"
+msgstr "Fim"
+
+#. Default: "Could not load executive board."
+#: components/Mesa/MesaView
+msgid "Mesa view error"
+msgstr "Não foi possível carregar a mesa diretora."
+
+#. Default: "Legislature"
+#: components/Mesa/MesaView
+msgid "Mesa view legislature"
+msgstr "Legislatura"
+
+#. Default: "Members"
+#: components/Mesa/MesaView
+msgid "Mesa view members heading"
+msgstr "Membros"
+
+#. Default: "Start"
+#: components/Mesa/MesaView
+msgid "Mesa view start"
+msgstr "Início"
+
+#. Default: "Attachments"
+#: components/Norma/NormaView
+msgid "Norma view attachments heading"
+msgstr "Anexos"
+
+#. Default: "Compiled text"
+#: components/Norma/NormaView
+msgid "Norma view compiled text heading"
+msgstr "Texto compilado"
+
+#. Default: "Norm date"
+#: components/Norma/NormaView
+msgid "Norma view date norma label"
+msgstr "Data da norma"
+
+#. Default: "Publication date"
+#: components/Norma/NormaView
+msgid "Norma view date publication label"
+msgstr "Data de publicação"
+
+#. Default: "Could not load norm."
+#: components/Norma/NormaView
+msgid "Norma view error"
+msgstr "Não foi possível carregar a norma."
+
+#. Default: "Files"
+#: components/Norma/NormaView
+msgid "Norma view files heading"
+msgstr "Arquivos"
+
+#. Default: "Full text"
+#: components/Norma/NormaView
+msgid "Norma view full text button"
+msgstr "Texto original"
+
+#. Default: "Linked norms"
+#: components/Norma/NormaView
+msgid "Norma view linked norms heading"
+msgstr "Normas vinculadas"
+
+#. Default: "No files."
+#: components/Norma/NormaView
+msgid "Norma view no files"
+msgstr "Nenhum arquivo."
+
+#. Default: "No linked norms."
+#: components/Norma/NormaView
+msgid "Norma view no linked norms"
+msgstr "Nenhuma norma vinculada."
+
+#. Default: "No related matters."
+#: components/Norma/NormaView
+msgid "Norma view no materias"
+msgstr "Nenhuma matéria relacionada."
+
+#. Default: "Origin matter"
+#: components/Norma/NormaView
+msgid "Norma view origin matter label"
+msgstr "Matéria de origem"
+
+#. Default: "Publication vehicle"
+#: components/Norma/NormaView
+msgid "Norma view publication vehicle label"
+msgstr "Veículo de publicação"
+
+#. Default: "Related matters"
+#: components/Norma/NormaView
+msgid "Norma view related materias heading"
+msgstr "Matérias relacionadas"
+
+#. Default: "Status"
+#: components/Norma/NormaView
+msgid "Norma view status label"
+msgstr "Situação"
+
+#. Default: "Minutes"
+#: components/Sessao/SessaoView
+msgid "Sessao view ata heading"
+msgstr "Minuta"
+
+#. Default: "Date"
+#: components/Sessao/SessaoView
+msgid "Sessao view date label"
+msgstr "Data"
+
+#. Default: "Could not load session."
+#: components/Sessao/SessaoView
+msgid "Sessao view error"
+msgstr "Não foi possível carregar a sessão."
+
+#. Default: "No files."
+#: components/Sessao/SessaoView
+msgid "Sessao view no files"
+msgstr "Nenhum arquivo."
+
+#. Default: "Agenda"
+#: components/Sessao/SessaoView
+msgid "Sessao view pauta heading"
+msgstr "Pauta"
+
+#. Default: "Absent"
+#: components/Sessao/Presenca
+msgid "Sessao view presenca absent"
+msgstr "Ausente"
+
+#. Default: "No attendance data."
+#: components/Sessao/Presenca
+msgid "Sessao view presenca empty"
+msgstr "Sem dados de presença."
+
+#. Default: "Attendance"
+#: components/Sessao/SessaoView
+msgid "Sessao view presenca heading"
+msgstr "Presença"
+
+#. Default: "Justified"
+#: components/Sessao/Presenca
+msgid "Sessao view presenca justified"
+msgstr "Justificada"
+
+#. Default: "Order of the day"
+#: components/Sessao/Presenca
+msgid "Sessao view presenca ordem dia"
+msgstr "Ordem do dia"
+
+#. Default: "Present"
+#: components/Sessao/Presenca
+msgid "Sessao view presenca present"
+msgstr "Presente"
+
+#. Default: "Regimental call"
+#: components/Sessao/Presenca
+msgid "Sessao view presenca regimental"
+msgstr "Chamada regimental"
+
+#. Default: "Time"
+#: components/Sessao/SessaoView
+msgid "Sessao view time label"
+msgstr "Horário"
+
+#. Default: "Absent"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao absent"
+msgstr "Ausente"
+
+#. Default: "Abstention"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao abstention"
+msgstr "Abstenção"
+
+#. Default: "Against"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao against"
+msgstr "Contra"
+
+#. Default: "No voting data."
+#: components/Sessao/Votacao
+msgid "Sessao view votacao empty"
+msgstr "Sem dados de votação."
+
+#. Default: "Favorable"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao favorable"
+msgstr "A favor"
+
+#. Default: "Voting"
+#: components/Sessao/SessaoView
+msgid "Sessao view votacao heading"
+msgstr "Votação"
+
+#. Default: "Presidency"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao presidency"
+msgstr "Presidência"
+
+#. Default: "Quorum"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao quorum label"
+msgstr "Quórum"
+
+#. Default: "Result"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao result label"
+msgstr "Resultado"
+
+#. Default: "Round"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao round label"
+msgstr "Turno"
+
+#. Default: "Voting type"
+#: components/Sessao/Votacao
+msgid "Sessao view votacao type label"
+msgstr "Tipo de votação"
 
 #. Default: "Committee"
 #: components/Vereador/Comissoes
