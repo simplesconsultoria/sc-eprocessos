@@ -1,0 +1,1 @@
+Renamed `recorder.proxy_binary()`'s first positional from `path` to `url_path` so callers can safely pass `path=` through `**params`. This unblocks recording the upstream's `/@@sapl_documentos_download?path=...` endpoint, where the binary fetch was raising `TypeError: proxy_binary() got multiple values for argument 'path'`. @ericof
