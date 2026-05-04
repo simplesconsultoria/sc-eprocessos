@@ -5,7 +5,6 @@ from __future__ import annotations
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi import Query
-from fastapi import Request
 from fastapi.responses import JSONResponse
 from fastapi.responses import Response
 
@@ -140,9 +139,7 @@ async def legislaturas_list():
 
 @app.get("/@@legislaturas/{item_id}")
 async def legislaturas_detail(item_id: str):
-    return await _serve_detail(
-        "legislaturas", f"/@@legislaturas/{item_id}", item_id
-    )
+    return await _serve_detail("legislaturas", f"/@@legislaturas/{item_id}", item_id)
 
 
 # -- Mesas --------------------------------------------------------------------
@@ -247,25 +244,40 @@ async def votacao_sessao(item_id: str):
 
 
 # -- Document/image proxy (sapl_documentos) -----------------------------------
+# Upstream switched from path-style /sapl_documentos/<path> to a query-string
+# endpoint /@@sapl_documentos_download?path=<path>. Both are wired here to
+# share the same storage key so old recordings remain reachable.
 
 
-@app.get("/sapl_documentos/{path:path}")
-async def sapl_documentos(path: str, request: Request):
-    """Proxy for document/image files (e.g., vereador photos)."""
+async def _serve_sapl_documentos(path: str) -> Response:
     endpoint = "sapl_documentos"
-    full_path = f"/sapl_documentos/{path}"
-    # Use the path as item_id for storage
     safe_id = path.replace("/", "__")
 
     if RECORD_MODE:
         data, content_type = await recorder.proxy_binary(
-            full_path, endpoint, item_id=safe_id
+            "/@@sapl_documentos_download",
+            endpoint,
+            item_id=safe_id,
+            path=path,
         )
         return Response(content=data, media_type=content_type)
 
     result = storage.load(endpoint, item_id=safe_id, binary=True)
     if result is None:
         return JSONResponse(
-            {"error": f"No recorded data for {full_path}"}, status_code=404
+            {"error": f"No recorded data for /@@sapl_documentos_download?path={path}"},
+            status_code=404,
         )
     return Response(content=result["data"], media_type=result["content_type"])
+
+
+@app.get("/@@sapl_documentos_download")
+async def sapl_documentos_download(path: str = Query(...)):
+    """New upstream shape: ?path=parlamentar/fotos/<id>_foto_parlamentar."""
+    return await _serve_sapl_documentos(path)
+
+
+@app.get("/sapl_documentos/{path:path}")
+async def sapl_documentos_legacy(path: str):
+    """Legacy upstream shape, kept so older recordings remain replayable."""
+    return await _serve_sapl_documentos(path)

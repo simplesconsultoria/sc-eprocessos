@@ -1,0 +1,1 @@
+Added a `/@@sapl_documentos_download?path=...` route to the mock recorder/replayer (legacy `/sapl_documentos/<path>` kept for replay), and extended the seed script to cover the `presenca`/`votacao` session expanders, vereador photos, and multi-year sweeps via `SEED_YEARS`. @ericof

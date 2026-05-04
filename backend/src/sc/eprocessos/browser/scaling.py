@@ -84,10 +84,21 @@ class ImageScaling(BrowserView):
         return base_url.rstrip("/")
 
     def publishTraverse(self, request, name):
-        """Build an ImageScale from the remaining traversal path."""
+        """Build an ImageScale from the remaining traversal path.
+
+        Two URL shapes are emitted, matching upstream's evolution:
+
+        * ``sapl_documentos_download/<path>`` (current upstream) →
+          ``{root}/@@sapl_documentos_download?path=<path>``
+        * any other ``<segment>/<path>`` (legacy) → ``{root}/<segment>/<path>``
+        """
         stack = request.get("TraversalRequestNameStack", [])
         stack_path = "/".join(reversed(stack)) if stack else ""
         # Consume the stack so Zope stops traversing
         del stack[:]
-        url = f"{self.eprocessos_root()}/{name}/{stack_path}"
+        root = self.eprocessos_root()
+        if name == "sapl_documentos_download":
+            url = f"{root}/@@sapl_documentos_download?path={stack_path}"
+        else:
+            url = f"{root}/{name}/{stack_path}"
         return self._scale_view_class(self.context, self.request, url=url)
