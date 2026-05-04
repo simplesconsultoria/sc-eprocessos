@@ -32,6 +32,15 @@ SAMPLE_IMAGE_RELATIVE = {
     "width": "350",
 }
 
+SAMPLE_IMAGE_DOWNLOAD_VIEW = {
+    "content-type": "image/png",
+    "download": ("/@@sapl_documentos_download?path=parlamentar/fotos/546914_foto"),
+    "filename": "546914_foto",
+    "height": "350",
+    "size": "221654",
+    "width": "350",
+}
+
 
 @pytest.fixture()
 def portal(integration: dict[str, Any]) -> PloneSite:
@@ -85,6 +94,16 @@ class TestProcessImageFieldWithData:
         main_image = scales["image"][0]
         assert main_image["download"].startswith("@@images/")
         assert "//" not in main_image["download"]
+
+    def test_rewrites_sapl_documentos_download_view(self):
+        """Query-string upstream URLs are converted to a path-style local URL."""
+        _, scales = process_image_field("image", [SAMPLE_IMAGE_DOWNLOAD_VIEW.copy()])
+        main_image = scales["image"][0]
+        assert main_image["download"] == (
+            "@@images/sapl_documentos_download/parlamentar/fotos/546914_foto"
+        )
+        assert "?" not in main_image["download"]
+        assert "@@" not in main_image["download"][len("@@images/") :]
 
     def test_includes_plone_scales(self):
         _, scales = process_image_field("image", [SAMPLE_IMAGE.copy()])

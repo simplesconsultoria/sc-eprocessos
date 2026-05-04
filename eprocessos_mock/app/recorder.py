@@ -67,11 +67,12 @@ async def proxy_binary(
     path: str,
     endpoint: str,
     item_id: str | None = None,
+    **params: str,
 ) -> tuple[bytes, str]:
     """Forward a binary request to upstream, store the response, and return (bytes, content_type)."""
     client = get_client()
-    logger.info("Recording binary %s", path)
-    response = await client.get(path)
+    logger.info("Recording binary %s %s", path, params or "")
+    response = await client.get(path, params=params or None)
     response.raise_for_status()
     content_type = response.headers.get("content-type", "application/octet-stream")
     storage.store(

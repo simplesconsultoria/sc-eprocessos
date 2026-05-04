@@ -1,0 +1,1 @@
+Adapted the vereador image proxy to the upstream's new `/@@sapl_documentos_download?path=<path>` endpoint, replacing the legacy path-style `/sapl_documentos/<path>` URL. @ericof

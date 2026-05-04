@@ -9,6 +9,8 @@ Usage:
     uv run --with httpx python scripts/seed.py
     # or, against a different host/port:
     MOCK_URL=http://localhost:8000 uv run --with httpx python scripts/seed.py
+    # multiple years (refreshes year-scoped fixtures across the full range):
+    SEED_YEARS=2024,2025,2026 uv run --with httpx python scripts/seed.py
 """
 
 from __future__ import annotations
@@ -20,10 +22,21 @@ import httpx
 
 
 MOCK_URL = os.environ.get("MOCK_URL", "http://localhost:8000").rstrip("/")
-SEED_YEAR = int(os.environ.get("SEED_YEAR", "2026"))
+SEED_YEARS = [
+    int(y)
+    for y in os.environ.get("SEED_YEARS", os.environ.get("SEED_YEAR", "2026")).split(
+        ","
+    )
+]
 
 # Match enums in backend/src/sc/eprocessos/client/enums.py
-TIPOS_NORMA = [1, 2, 3, 4, 5]  # LEI, LEI_COMPLEMENTAR, RESOLUCAO, DECRETO_LEGISLATIVO, DECRETO
+TIPOS_NORMA = [
+    1,
+    2,
+    3,
+    4,
+    5,
+]  # LEI, LEI_COMPLEMENTAR, RESOLUCAO, DECRETO_LEGISLATIVO, DECRETO
 TIPOS_SESSAO = [1, 2, 3, 4, 5, 6, 7, 9]  # ORDINARIA … CONVOCACAO_EXTRAORDINARIA
 TIPOS_MATERIA = [6]  # PROJETO_LEI
 
@@ -44,6 +57,21 @@ def fetch(client: httpx.Client, path: str, **params: int | str) -> dict | list |
         return None
     print(f"  ✓ {path} {params or ''}")
     return response.json()
+
+
+def fetch_raw(client: httpx.Client, path: str) -> bool:
+    """GET path on the mock without parsing the body. Used for binary assets."""
+    try:
+        response = client.get(path)
+        response.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        print(f"  ✗ {path} → {exc.response.status_code}", file=sys.stderr)
+        return False
+    except httpx.HTTPError as exc:
+        print(f"  ✗ {path} → {exc}", file=sys.stderr)
+        return False
+    print(f"  ✓ {path}")
+    return True
 
 
 def seed_items(client: httpx.Client, endpoint: str, items: list[dict]) -> None:
@@ -80,7 +108,9 @@ def seed_with_tipo(
 def seed_sessoes(client: httpx.Client, ano: int) -> None:
     """Sessoes uses path-traversal for listing: /@@sessoes/tipo/{tipo}/ano/{ano}.
 
-    Detail endpoint is /@@sessoes/id/{item_id}.
+    For each session also seeds the two expanders:
+      * /@@sessoes/id/{id}/presenca  → presenca_sessao/{id}.json
+      * /@@sessoes/id/{id}/votacao   → votacao_sessao/{id}.json
     """
     print(f"\n[sessoes] ano={ano}")
     for tipo in TIPOS_SESSAO:
@@ -92,10 +122,40 @@ def seed_sessoes(client: httpx.Client, ano: int) -> None:
             if not item_id:
                 continue
             fetch(client, f"/@@sessoes/id/{item_id}")
+            fetch(client, f"/@@sessoes/id/{item_id}/presenca")
+            fetch(client, f"/@@sessoes/id/{item_id}/votacao")
+
+
+def seed_vereadores(client: httpx.Client) -> None:
+    """Seed vereadores list + each detail, then download every photo.
+
+    Photo URLs come from the detail response (`image[0].download` or
+    `url_foto`); they're served by the mock's /sapl_documentos proxy.
+    """
+    endpoint = "vereadores"
+    print(f"\n[{endpoint}]")
+    data = fetch(client, f"/@@{endpoint}")
+    if not (data and isinstance(data, dict)):
+        return
+    for item in data.get("items", []):
+        item_id = item.get("id")
+        if not item_id:
+            continue
+        detail = fetch(client, f"/@@{endpoint}/{item_id}")
+        if not isinstance(detail, dict):
+            continue
+        photo_url = ""
+        images = detail.get("image") or []
+        if isinstance(images, list) and images:
+            photo_url = images[0].get("download") or ""
+        if not photo_url:
+            photo_url = detail.get("url_foto") or ""
+        if photo_url:
+            fetch_raw(client, photo_url)
 
 
 def main() -> int:
-    print(f"Seeding mock at {MOCK_URL} (year={SEED_YEAR})")
+    print(f"Seeding mock at {MOCK_URL} (years={SEED_YEARS})")
     with httpx.Client(base_url=MOCK_URL, timeout=60.0) as client:
         # Sanity check
         try:
@@ -106,16 +166,18 @@ def main() -> int:
             print(f"Failed to reach mock at {MOCK_URL}: {exc}", file=sys.stderr)
             return 1
 
+        # Vereadores list + details + photo binaries
+        seed_vereadores(client)
+
         # Endpoints with no list parameters
-        for endpoint in ("vereadores", "legislaturas", "mesas", "comissoes"):
+        for endpoint in ("legislaturas", "mesas", "comissoes"):
             seed_simple_list(client, endpoint)
 
-        # Endpoints requiring ano + tipo
-        seed_with_tipo(client, "normas", TIPOS_NORMA, SEED_YEAR)
-        seed_with_tipo(client, "materias", TIPOS_MATERIA, SEED_YEAR)
-
-        # Sessoes (path traversal)
-        seed_sessoes(client, SEED_YEAR)
+        # Endpoints requiring ano + tipo, swept across every requested year
+        for ano in SEED_YEARS:
+            seed_with_tipo(client, "normas", TIPOS_NORMA, ano)
+            seed_with_tipo(client, "materias", TIPOS_MATERIA, ano)
+            seed_sessoes(client, ano)
 
     print("\nDone.")
     return 0
