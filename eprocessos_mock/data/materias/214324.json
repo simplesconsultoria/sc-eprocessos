@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/214324",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Amanda Gondim (PSB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-04",
+  "description": "Recapeamento da Rua José Martins de Resende, no bairro Jardim Patrícia.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/214324_texto_integral.pdf",
+      "filename": "214324_texto_integral.pdf",
+      "size": "69.3 KB"
+    }
+  ],
+  "id": "214324",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-07 14:15:25",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587596_tram.pdf",
+          "filename": "587596_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-07 11:51:53",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587134_tram.pdf",
+          "filename": "587134_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-04 14:05:05",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586744_tram.pdf",
+          "filename": "586744_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-04 12:58:54",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/04/2025 09:53:26. Matéria incorporada em 04/04/2025 12:58:54 sob protocolo nº 9805/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586212_tram.pdf",
+          "filename": "586212_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "9805/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=214324",
+  "substitute": [],
+  "title": "Requerimento nº 9054/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1528",
+      "cod_ordem": 244832,
+      "cod_sessao_plen": 1528,
+      "date": "2025-04-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1528&cod_ordem=244832&cod_materia=214324&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

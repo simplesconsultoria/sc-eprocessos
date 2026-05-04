@@ -1,0 +1,193 @@
+{
+  "@id": "/@@materias/240516",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Conrado Augusto (MDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Anderson Lima (PL)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia (MOBILIZA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães (PL)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Nei Borges (Solidariedade)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sérvio Túlio (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ângela Do Postinho (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-12-03",
+  "description": "Solicitação para Uso do Plenário no dia 09/12/2025 (terça-feira) das 19:00h às 21:00h, para a realização de entrega de 3 títulos de Cidadão Honorário. PDL79/2025, PDL154/2025 e PDL156/2025.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/240516_texto_integral.pdf",
+      "filename": "240516_texto_integral.pdf",
+      "size": "2.5 MB"
+    }
+  ],
+  "id": "240516",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-12-04 12:30:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/706955_tram.pdf",
+          "filename": "706955_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2025-12-04 11:28:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/706836_tram.pdf",
+          "filename": "706836_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-12-03 14:00:30",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/706706_tram.pdf",
+          "filename": "706706_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-12-03 13:13:51",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 03/12/2025 10:27:15. Matéria incorporada em 03/12/2025 13:13:51 sob protocolo nº 35671/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/706188_tram.pdf",
+          "filename": "706188_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "35671/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=240516",
+  "substitute": [],
+  "title": "Requerimento nº 20628/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1627",
+      "cod_ordem": 275029,
+      "cod_sessao_plen": 1627,
+      "date": "2025-12-04",
+      "description": "Expediente da 4ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1627&cod_ordem=275029&cod_materia=240516&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

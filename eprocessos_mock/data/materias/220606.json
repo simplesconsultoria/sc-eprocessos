@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/220606",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-27",
+  "description": "REALIZAR OPERAÇÃO TAPA BURACO NO SEGUINTE ENDEREÇO: AVENIDA DOUTOR MISAEL RODRIGUES DE CASTRO, N°2055, BAIRRO: SEGISMUNDO PEREIRA ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/220606_texto_integral.pdf",
+      "filename": "220606_texto_integral.pdf",
+      "size": "214.5 KB"
+    }
+  ],
+  "id": "220606",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-06-02 14:23:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/622204_tram.pdf",
+          "filename": "622204_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-06-02 11:11:30",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/620448_tram.pdf",
+          "filename": "620448_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-27 13:45:25",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/618453_tram.pdf",
+          "filename": "618453_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-27 13:43:42",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 27/05/2025 13:43:10. Matéria incorporada em 27/05/2025 13:43:42 sob protocolo nº 16025/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/618154_tram.pdf",
+          "filename": "618154_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "16025/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=220606",
+  "substitute": [],
+  "title": "Requerimento nº 14940/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1548",
+      "cod_ordem": 251727,
+      "cod_sessao_plen": 1548,
+      "date": "2025-06-02",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1548&cod_ordem=251727&cod_materia=220606&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

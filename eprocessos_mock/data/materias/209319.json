@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/209319",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Pezão Do Esporte (DC)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-24",
+  "description": "ROÇAGEM - toda extensão  da AVENIDA IPÊ, BAIRRO JARAGUA CEP:  38413-015 ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/209319_texto_integral.pdf",
+      "filename": "209319_texto_integral.pdf",
+      "size": "2 MB"
+    }
+  ],
+  "id": "209319",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-10 15:26:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/565111_tram.pdf",
+          "filename": "565111_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-10 11:55:24",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/562582_tram.pdf",
+          "filename": "562582_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-26 13:27:18",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/559521_tram.pdf",
+          "filename": "559521_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-24 10:57:38",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 24/02/2025 08:23:52. Matéria incorporada em 24/02/2025 10:57:38 sob protocolo nº 4830/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/558900_tram.pdf",
+          "filename": "558900_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "4830/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=209319",
+  "substitute": [],
+  "title": "Requerimento nº 4444/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1512",
+      "cod_ordem": 239827,
+      "cod_sessao_plen": 1512,
+      "date": "2025-03-10",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1512&cod_ordem=239827&cod_materia=209319&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/229108",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Carrijo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-13",
+  "description": "Solicitamos a roçagem e limpeza  da  área localizada na Rua San Diego em frente ao numero 42, no Bairro Novo Mundo",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/229108_texto_integral.pdf",
+      "filename": "229108_texto_integral.pdf",
+      "size": "529.9 KB"
+    }
+  ],
+  "id": "229108",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-14 14:02:18",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/658342_tram.pdf",
+          "filename": "658342_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-14 11:57:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/657801_tram.pdf",
+          "filename": "657801_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-13 13:58:08",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/657076_tram.pdf",
+          "filename": "657076_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-13 13:22:07",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 12/08/2025 15:34:05. Matéria incorporada em 13/08/2025 13:22:07 sob protocolo nº 24458/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/657057_tram.pdf",
+          "filename": "657057_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "24458/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=229108",
+  "substitute": [],
+  "title": "Requerimento nº 20353/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1581",
+      "cod_ordem": 262882,
+      "cod_sessao_plen": 1581,
+      "date": "2025-08-14",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1581&cod_ordem=262882&cod_materia=229108&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

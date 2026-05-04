@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/225473",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-08",
+  "description": "Requer-se a realocação do ponto de ônibus atualmente localizado na Avenida Lidormira Borges do Nascimento, nas proximidades da rotatória, para a Avenida Argemiro Evangelista Ferreira, nas imediações do número 6205, próximo à Associação dos Moradores do Varanda Sul",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/225473_texto_integral.pdf",
+      "filename": "225473_texto_integral.pdf",
+      "size": "206.8 KB"
+    }
+  ],
+  "id": "225473",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-09 12:59:28",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/643195_tram.pdf",
+          "filename": "643195_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-09 11:41:53",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/642996_tram.pdf",
+          "filename": "642996_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-08 13:59:49",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/642741_tram.pdf",
+          "filename": "642741_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-08 13:37:28",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/07/2025 13:29:06. Matéria incorporada em 08/07/2025 13:37:28 sob protocolo nº 20850/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/642554_tram.pdf",
+          "filename": "642554_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "20850/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=225473",
+  "substitute": [],
+  "title": "Requerimento nº 19435/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1566",
+      "cod_ordem": 257066,
+      "cod_sessao_plen": 1566,
+      "date": "2025-07-09",
+      "description": "Expediente da 7ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1566&cod_ordem=257066&cod_materia=225473&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

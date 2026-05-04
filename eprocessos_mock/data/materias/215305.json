@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/215305",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-10",
+  "description": "ENCAMINHO AO PLENÁRIO A SOLICITAÇÃO DO USO DO PLENÁRIO HOMERO SANTOS, BEM COMO OS SERVIÇOS AUDIOVISUAL, FOTO, SOM E ÁGUA, PARA O DIA 24 DE ABRIL DE 2025, ÁS 19:00. PARA DEBATE JANEIRO BRANCO - DE UBERLÂNDIA PARA O MUNDO / SAÚDE MENTAL EM TEMPOS DE GRANDES TRANSFORMAÇÕES.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/215305_texto_integral.pdf",
+      "filename": "215305_texto_integral.pdf",
+      "size": "62.8 KB"
+    }
+  ],
+  "id": "215305",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-11 12:38:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590943_tram.pdf",
+          "filename": "590943_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2025-04-11 11:29:24",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590881_tram.pdf",
+          "filename": "590881_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-10 14:34:49",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590646_tram.pdf",
+          "filename": "590646_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-10 14:11:15",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/04/2025 11:04:34. Matéria incorporada em 10/04/2025 14:11:15 sob protocolo nº 10779/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590505_tram.pdf",
+          "filename": "590505_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "10779/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=215305",
+  "substitute": [],
+  "title": "Requerimento nº 9969/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1533",
+      "cod_ordem": 245789,
+      "cod_sessao_plen": 1533,
+      "date": "2025-04-11",
+      "description": "Expediente da 9ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1533&cod_ordem=245789&cod_materia=215305&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

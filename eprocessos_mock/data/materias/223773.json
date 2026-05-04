@@ -1,0 +1,150 @@
+{
+  "@id": "/@@materias/223773",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-06-25",
+  "description": "Tapa buraco na Rua dos Alecrins, em frente aos números 73 e 83, no Bairro Cidade Jardim.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/223773_texto_integral.pdf",
+      "filename": "223773_texto_integral.pdf",
+      "size": "90.2 KB"
+    }
+  ],
+  "id": "223773",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-01 15:57:56",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/638543_tram.pdf",
+          "filename": "638543_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-01 12:29:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/636891_tram.pdf",
+          "filename": "636891_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-01 12:27:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/634897_tram.pdf",
+          "filename": "634897_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-06-25 13:50:47",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/632738_tram.pdf",
+          "filename": "632738_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-06-25 10:21:01",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 25/06/2025 10:08:06. Matéria incorporada em 25/06/2025 10:21:01 sob protocolo nº 19159/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/632587_tram.pdf",
+          "filename": "632587_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "19159/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=223773",
+  "substitute": [],
+  "title": "Requerimento nº 17898/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1560",
+      "cod_ordem": 255437,
+      "cod_sessao_plen": 1560,
+      "date": "2025-07-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1560&cod_ordem=255437&cod_materia=223773&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

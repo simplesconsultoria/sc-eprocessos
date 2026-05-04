@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/231314",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão (PV)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-09-09",
+  "description": "48412/2025. Solicitação de averiguação e providências quanto à segurança dos alunos da E.M. Prof. Luizmar Antônio dos Santos.\r\nR. Aurelio Antônio de Lima, 101, Monte Hebron - CEP: 38421-567\r\nJustifica-se o uso da modalidade REQUERIMENTO por ausência de tópico específico entre as INDICAÇÕES, nos termos do art. 233 do Regimento Interno.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/231314_texto_integral.pdf",
+      "filename": "231314_texto_integral.pdf",
+      "size": "75.5 KB"
+    }
+  ],
+  "id": "231314",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-09-10 12:40:31",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/668063_tram.pdf",
+          "filename": "668063_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-09-10 10:53:09",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/667848_tram.pdf",
+          "filename": "667848_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-09-09 14:14:07",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/667479_tram.pdf",
+          "filename": "667479_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-09-09 08:30:31",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/09/2025 16:58:44. Matéria incorporada em 09/09/2025 08:30:31 sob protocolo nº 26629/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/667119_tram.pdf",
+          "filename": "667119_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "26629/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=231314",
+  "substitute": [],
+  "title": "Requerimento nº 20438/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1590",
+      "cod_ordem": 265270,
+      "cod_sessao_plen": 1590,
+      "date": "2025-09-10",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1590&cod_ordem=265270&cod_materia=231314&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

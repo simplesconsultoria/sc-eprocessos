@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/206606",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Pezão Do Esporte (DC)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-04",
+  "description": "SOLICITAÇÃO DE substituição DE TAMPA DE BUEIRO QUEBRADA: AVENIDA DOS TAROIS, BAIRRO TAIAMAN CEP : 38415-069 ( PROXIMO A ESCOLA JERONIMO ARANTES)",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/206606_texto_integral.pdf",
+      "filename": "206606_texto_integral.pdf",
+      "size": "434.3 KB"
+    }
+  ],
+  "id": "206606",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-05 12:51:15",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/548945_tram.pdf",
+          "filename": "548945_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-05 11:33:12",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/548714_tram.pdf",
+          "filename": "548714_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-04 13:55:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/547419_tram.pdf",
+          "filename": "547419_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-04 13:44:41",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/02/2025 13:11:40. Matéria incorporada em 04/02/2025 13:44:41 sob protocolo nº 2144/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/547021_tram.pdf",
+          "filename": "547021_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "2144/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=206606",
+  "substitute": [],
+  "title": "Requerimento nº 1927/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1502",
+      "cod_ordem": 237174,
+      "cod_sessao_plen": 1502,
+      "date": "2025-02-05",
+      "description": "Expediente da 3ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1502&cod_ordem=237174&cod_materia=206606&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "@id": "/@@materias/234217",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Conrado Augusto (MDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Abatenio Marquez (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães (PL)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sérvio Túlio (PSDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-09",
+  "description": "Requerimento de abertura de Comissão Parlamentar de Inquérito para investigar desvios na Secretaria Municipal de Saúde.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/234217_texto_integral.pdf",
+      "filename": "234217_texto_integral.pdf",
+      "size": "3.6 MB"
+    }
+  ],
+  "id": "234217",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-11-05 08:23:51",
+      "deadline": null,
+      "description": "<p>PORTARIA N&deg; 518/2025 - INSTITUI COMISS&Atilde;O PARLAMENTAR DE INQU&Eacute;RITO</p>",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/691656_tram.pdf",
+          "filename": "691656_tram.pdf",
+          "size": "1.5 MB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Publicação Jornal Oficial"
+    },
+    {
+      "date": "2025-10-13 12:47:19",
+      "deadline": null,
+      "description": "<p>Of&iacute;cio s/n&ordm; - Indica&ccedil;&atilde;o de Membros CPI - Bloco Parlamentar Independente.</p>",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/681638_tram.pdf",
+          "filename": "681638_tram.pdf",
+          "size": "181 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-13 12:43:20",
+      "deadline": null,
+      "description": "<p>Of&iacute;cio s/n&ordm; - Indica&ccedil;&atilde;o de Membros CPI - Bloco Parlamentar Uberl&acirc;ndia Pra Frente.</p>",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/681637_tram.pdf",
+          "filename": "681637_tram.pdf",
+          "size": "214.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-10 08:55:29",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680986_tram.pdf",
+          "filename": "680986_tram.pdf",
+          "size": "656.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Publicação Jornal Oficial"
+    },
+    {
+      "date": "2025-10-10 08:54:57",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680985_tram.pdf",
+          "filename": "680985_tram.pdf",
+          "size": "2.6 MB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Publicação Jornal Oficial"
+    },
+    {
+      "date": "2025-10-09 08:34:32",
+      "deadline": null,
+      "description": "<p>Para publica&ccedil;&atilde;o no Jornal O Legislativo, nos termos do Art. 106, &sect;2&ordm;, do Regimento Interno.</p>",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680541_tram.pdf",
+          "filename": "680541_tram.pdf",
+          "size": "470.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-09 08:33:01",
+      "deadline": null,
+      "description": "<p>Vereadores Carrijo e Zezinho Mendon&ccedil;a solicitaram a retirada de assinatura que foi registrada por engano.</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680983_tram.pdf",
+          "filename": "680983_tram.pdf",
+          "size": "150.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-09 08:32:22",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/10/2025 19:24:22. Matéria incorporada em 09/10/2025 08:32:22 sob protocolo nº 29474/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680530_tram.pdf",
+          "filename": "680530_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "29474/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=234217",
+  "substitute": [],
+  "title": "Requerimento nº 20506/2025",
+  "voteResult": []
+}

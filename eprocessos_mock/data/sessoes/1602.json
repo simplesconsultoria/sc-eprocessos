@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1602",
+  "@id_presenca": "/@@sessoes/id/1602/presenca",
+  "@id_votacao": "/@@sessoes/id/1602/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1602_ata_sessao.pdf",
+      "filename": "1602_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-10-09",
+  "description": "7ª Reunião Ordinária - 09/10/2025",
+  "endTime": "",
+  "id": "1602",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1602_pauta_sessao.pdf",
+      "filename": "1602_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "7ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/207288",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-07",
+  "description": "Requer-se a realização de serviço de tapa-buracos nas seguintes vias do Bairro Jardim das Palmeiras:\r\n1 - Av. dos Pássaros - em toda sua extensão, no Bairro Jardim das Palmeiras, 38412-258.\r\n2 - R. dos Flamingos, entre a rua das pombas e av dos pássaros, no Bairro Jardim das Palmeiras, 38412-248",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/207288_texto_integral.pdf",
+      "filename": "207288_texto_integral.pdf",
+      "size": "71.3 KB"
+    }
+  ],
+  "id": "207288",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-10 12:46:43",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/553424_tram.pdf",
+          "filename": "553424_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-10 11:48:34",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/553229_tram.pdf",
+          "filename": "553229_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-07 14:03:24",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/553002_tram.pdf",
+          "filename": "553002_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-07 13:47:41",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 07/02/2025 13:04:23. Matéria incorporada em 07/02/2025 13:47:41 sob protocolo nº 2825/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/552815_tram.pdf",
+          "filename": "552815_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "2825/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=207288",
+  "substitute": [],
+  "title": "Requerimento nº 2529/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1505",
+      "cod_ordem": 237810,
+      "cod_sessao_plen": 1505,
+      "date": "2025-02-10",
+      "description": "Expediente da 6ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1505&cod_ordem=237810&cod_materia=207288&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

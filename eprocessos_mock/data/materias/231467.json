@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/231467",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-09-10",
+  "description": "envio de caminhão-pipa para umidificação das vias não asfaltadas, com o objetivo de diminuir a poeira e melhorar as condições de saúde e qualidade de vida da população dos bairro Morada nova 1.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/231467_texto_integral.pdf",
+      "filename": "231467_texto_integral.pdf",
+      "size": "460.2 KB"
+    }
+  ],
+  "id": "231467",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-09-11 13:08:16",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/668838_tram.pdf",
+          "filename": "668838_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-09-11 11:05:06",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/668383_tram.pdf",
+          "filename": "668383_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-09-10 14:33:27",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/668110_tram.pdf",
+          "filename": "668110_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-09-10 08:20:12",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 09/09/2025 14:36:30. Matéria incorporada em 10/09/2025 08:20:12 sob protocolo nº 26774/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/667659_tram.pdf",
+          "filename": "667659_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "26774/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=231467",
+  "substitute": [],
+  "title": "Requerimento nº 20450/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1591",
+      "cod_ordem": 265409,
+      "cod_sessao_plen": 1591,
+      "date": "2025-09-11",
+      "description": "Expediente da 9ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1591&cod_ordem=265409&cod_materia=231467&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

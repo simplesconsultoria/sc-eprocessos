@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/225104",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-04",
+  "description": "Revitalização faixa de pedestre na Rua Rodrigo Pereira Junior, em frente ao número 733, no Bairro Roosevelt.\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/225104_texto_integral.pdf",
+      "filename": "225104_texto_integral.pdf",
+      "size": "101.1 KB"
+    }
+  ],
+  "id": "225104",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-07 13:01:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641660_tram.pdf",
+          "filename": "641660_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-07 10:23:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641397_tram.pdf",
+          "filename": "641397_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-04 15:11:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641033_tram.pdf",
+          "filename": "641033_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-04 14:55:59",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/07/2025 10:41:49. Matéria incorporada em 04/07/2025 14:55:59 sob protocolo nº 20485/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/640751_tram.pdf",
+          "filename": "640751_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "20485/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=225104",
+  "substitute": [],
+  "title": "Requerimento nº 19114/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1564",
+      "cod_ordem": 256715,
+      "cod_sessao_plen": 1564,
+      "date": "2025-07-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1564&cod_ordem=256715&cod_materia=225104&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

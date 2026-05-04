@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/230927",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-09-04",
+  "description": "Solicitamos a Vossa Senhoria a expedição de Certidão de denominação de logradouro público para homenagear a Sra. RÚBIA DE FÁTIMA SOUZA.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/230927_texto_integral.pdf",
+      "filename": "230927_texto_integral.pdf",
+      "size": "860.8 KB"
+    }
+  ],
+  "id": "230927",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-09-05 13:19:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/666538_tram.pdf",
+          "filename": "666538_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-09-05 11:02:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/666354_tram.pdf",
+          "filename": "666354_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-09-04 13:26:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/666001_tram.pdf",
+          "filename": "666001_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-09-04 08:21:48",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 03/09/2025 15:11:38. Matéria incorporada em 04/09/2025 08:21:48 sob protocolo nº 26253/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/665621_tram.pdf",
+          "filename": "665621_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "26253/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=230927",
+  "substitute": [],
+  "title": "Requerimento nº 20417/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1587",
+      "cod_ordem": 264928,
+      "cod_sessao_plen": 1587,
+      "date": "2025-09-05",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1587&cod_ordem=264928&cod_materia=230927&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

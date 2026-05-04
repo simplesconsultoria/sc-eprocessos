@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1500",
+  "@id_presenca": "/@@sessoes/id/1500/presenca",
+  "@id_votacao": "/@@sessoes/id/1500/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1500_ata_sessao.pdf",
+      "filename": "1500_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-01-07",
+  "description": "2ª Reunião Especial - 07/01/2025",
+  "endTime": "",
+  "id": "1500",
+  "pauta": [],
+  "startTime": "08:00",
+  "title": "2ª Reunião Especial",
+  "type": "Especial",
+  "type_id": 4
+}

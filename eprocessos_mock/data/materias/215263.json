@@ -1,0 +1,116 @@
+{
+  "@id": "/@@materias/215263",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Carrijo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-10",
+  "description": "SOLICITA SEJA APRECIADO O PROJETO DE LEI N.º   173/2025 EM 2ª  DISCUSSÃO E VOTAÇÃO SEJA NOMINAL COM FULCRO  ART. 257 R.I.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/215263_texto_integral.pdf",
+      "filename": "215263_texto_integral.pdf",
+      "size": "524.9 KB"
+    }
+  ],
+  "id": "215263",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-11 12:29:57",
+      "deadline": null,
+      "description": "<p>Perdeu o objeto.</p>",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590940_tram.pdf",
+          "filename": "590940_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-10 14:34:49",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/590611_tram.pdf",
+          "filename": "590611_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-10 12:02:54",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/04/2025 12:01:56. Matéria incorporada em 10/04/2025 12:02:54 sob protocolo nº 10739/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/589934_tram.pdf",
+          "filename": "589934_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "10739/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=215263",
+  "substitute": [],
+  "title": "Requerimento nº 9933/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1533",
+      "cod_ordem": 245753,
+      "cod_sessao_plen": 1533,
+      "date": "2025-04-11",
+      "description": "Expediente da 9ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1533&cod_ordem=245753&cod_materia=215263&tipo_materia=expediente&modal=1",
+      "title": "Expediente da 9ª Reunião Ordinária",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

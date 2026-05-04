@@ -1,0 +1,26 @@
+{
+  "@id": "/@@sessoes/id/1637/presenca",
+  "@type": "presencaSessao",
+  "chamadaRegimental": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "description": "5ª Reunião Extraordinária - 12/12/2025",
+  "ordemDia": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "title": "Listas de presença na reunião plenária"
+}

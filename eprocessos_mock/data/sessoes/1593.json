@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1593",
+  "@id_presenca": "/@@sessoes/id/1593/presenca",
+  "@id_votacao": "/@@sessoes/id/1593/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1593_ata_sessao.pdf",
+      "filename": "1593_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-09-12",
+  "description": "1ª Reunião Extraordinária - 12/09/2025",
+  "endTime": "",
+  "id": "1593",
+  "pauta": [],
+  "startTime": "12:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

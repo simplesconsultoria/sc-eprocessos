@@ -15,7 +15,7 @@
       "image": [],
       "partido": [],
       "title": "Baiano",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/26000",
@@ -26,7 +26,7 @@
       "image": [],
       "partido": [],
       "title": "Vilmar Resende",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/26012",
@@ -37,11 +37,12 @@
       "image": [],
       "partido": [],
       "title": "Doca Mastroiano",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     }
   ],
   "legislatura": "18ª Legislatura",
   "legislatura_id": "/@@legislaturas/18",
+  "num_legislatura": 18,
   "start": "2019-01-01",
   "title": "01/01/2019 a 26/12/2019"
 }

@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1518",
+  "@id_presenca": "/@@sessoes/id/1518/presenca",
+  "@id_votacao": "/@@sessoes/id/1518/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1518_ata_sessao.pdf",
+      "filename": "1518_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-03-18",
+  "description": "7ª Reunião Ordinária - 18/03/2025",
+  "endTime": "",
+  "id": "1518",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1518_pauta_sessao.pdf",
+      "filename": "1518_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "7ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

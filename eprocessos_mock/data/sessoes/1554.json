@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1554",
+  "@id_presenca": "/@@sessoes/id/1554/presenca",
+  "@id_votacao": "/@@sessoes/id/1554/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1554_ata_sessao.pdf",
+      "filename": "1554_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-06-10",
+  "description": "7ª Reunião Ordinária - 10/06/2025",
+  "endTime": "",
+  "id": "1554",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1554_pauta_sessao.pdf",
+      "filename": "1554_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "7ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/205961",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-01-30",
+  "description": " REALIZAÇÃO DE PATROLAMENTO E CASCALHAMENTO DA ESTRADA DOS PEREIRA ENTRE RODOVIA NEUZA REZENDE E CAPELA DOS MARTINS - ESTRADA VICINAL UDI 426",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/205961_texto_integral.pdf",
+      "filename": "205961_texto_integral.pdf",
+      "size": "67.6 KB"
+    }
+  ],
+  "id": "205961",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-04 14:17:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/547961_tram.pdf",
+          "filename": "547961_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-03 15:47:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/540933_tram.pdf",
+          "filename": "540933_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-01-30 12:54:36",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534407_tram.pdf",
+          "filename": "534407_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-01-30 11:41:54",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 30/01/2025 10:23:58. Matéria incorporada em 30/01/2025 11:41:54 sob protocolo nº 1500/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534182_tram.pdf",
+          "filename": "534182_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "1500/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=205961",
+  "substitute": [],
+  "title": "Requerimento nº 1341/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1497",
+      "cod_ordem": 236577,
+      "cod_sessao_plen": 1497,
+      "date": "2025-02-03",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1497&cod_ordem=236577&cod_materia=205961&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

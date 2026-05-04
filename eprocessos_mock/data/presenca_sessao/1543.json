@@ -1,0 +1,26 @@
+{
+  "@id": "/@@sessoes/id/1543/presenca",
+  "@type": "presencaSessao",
+  "chamadaRegimental": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "description": "1ª Reunião Extraordinária - 13/05/2025",
+  "ordemDia": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "title": "Listas de presença na reunião plenária"
+}

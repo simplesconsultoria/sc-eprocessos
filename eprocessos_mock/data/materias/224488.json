@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/224488",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Thais Andrade (União Brasil)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-01",
+  "description": "TAPA BURACO RUA OSWALDO SILVERIO DA SILVA NUMERA 172 CEP 38410-202 BAIRRO SÃO JORGE ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/224488_texto_integral.pdf",
+      "filename": "224488_texto_integral.pdf",
+      "size": "483.8 KB"
+    }
+  ],
+  "id": "224488",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-02 13:16:13",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/639439_tram.pdf",
+          "filename": "639439_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-02 11:44:17",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/639309_tram.pdf",
+          "filename": "639309_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-01 14:19:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/637693_tram.pdf",
+          "filename": "637693_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-01 08:52:41",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 30/06/2025 15:00:29. Matéria incorporada em 01/07/2025 08:52:41 sob protocolo nº 19878/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/634129_tram.pdf",
+          "filename": "634129_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "19878/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=224488",
+  "substitute": [],
+  "title": "Requerimento nº 18588/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1561",
+      "cod_ordem": 256130,
+      "cod_sessao_plen": 1561,
+      "date": "2025-07-02",
+      "description": "Expediente da 2ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1561&cod_ordem=256130&cod_materia=224488&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

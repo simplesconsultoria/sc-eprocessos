@@ -1,0 +1,157 @@
+{
+  "@id": "/@@materias/256220",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/247303",
+      "@type": "Materia",
+      "annexationDate": "2026-04-08",
+      "description": "ALTERA A LEI Nº 14.462, DE 22 DE JULHO DE 2025, QUE DISPÕE SOBRE O SISTEMA DE ESTACIONAMENTO ROTATIVO ELETRÔNICO PAGO - ZONA AZUL UDI, NAS VIAS E LOGRADOUROS PÚBLICOS DO MUNICÍPIO DE UBERLÂNDIA, REVOGA A LEI Nº 11.348, DE 22 DE ABRIL DE 2013, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "247303",
+      "title": "Projeto de Lei Ordinária nº 959/2026"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-08",
+  "description": "com fulcro no caput Art. 172 do Regimento Interno, requer que o parecer contrário ao Projeto de Lei Ordinária nº 959/2026 - ALTERA A LEI Nº 14.462, DE 22 DE JULHO DE 2025, QUE DISPÕE SOBRE O SISTEMA DE ESTACIONAMENTO ROTATIVO ELETRÔNICO PAGO - ZONA AZUL UDI, NAS VIAS E LOGRADOUROS PÚBLICOS DO MUNICÍPIO DE UBERLÂNDIA, REVOGA A LEI Nº 11.348, DE 22 DE ABRIL DE 2013, E DÁ OUTRAS PROVIDÊNCIAS, seja apreciado pelo plenário.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/256220_texto_integral.pdf",
+      "filename": "256220_texto_integral.pdf",
+      "size": "1.4 MB"
+    }
+  ],
+  "id": "256220",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-04-09 12:25:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/785492_tram.pdf",
+          "filename": "785492_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-09 10:48:07",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/785290_tram.pdf",
+          "filename": "785290_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-08 12:17:11",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/784521_tram.pdf",
+          "filename": "784521_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-08 11:57:33",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/04/2026 10:19:13. Matéria incorporada em 08/04/2026 11:57:33 sob protocolo nº 13803/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/784252_tram.pdf",
+          "filename": "784252_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "13803/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=256220",
+  "substitute": [],
+  "title": "Requerimento nº 20934/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1678",
+      "cod_ordem": 305246,
+      "cod_sessao_plen": 1678,
+      "date": "2026-04-09",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1678&cod_ordem=305246&cod_materia=256220&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

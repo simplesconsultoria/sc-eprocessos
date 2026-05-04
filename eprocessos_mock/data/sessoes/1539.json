@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1539",
+  "@id_presenca": "/@@sessoes/id/1539/presenca",
+  "@id_votacao": "/@@sessoes/id/1539/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1539_ata_sessao.pdf",
+      "filename": "1539_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-05-08",
+  "description": "4ª Reunião Ordinária - 08/05/2025",
+  "endTime": "",
+  "id": "1539",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1539_pauta_sessao.pdf",
+      "filename": "1539_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "4ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

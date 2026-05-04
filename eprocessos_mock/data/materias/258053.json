@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/258053",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-23",
+  "description": "Solicitando à SECRETARIA MUNICIPAL DE AGRONEGÓCIO a realização de patrolamento de estradas vicinais - zona rural na parte final da Rodovia Municipal RM 155, localizada na região do Barreiro, no Distrito de Cruzeiro dos Peixotos.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/258053_texto_integral.pdf",
+      "filename": "258053_texto_integral.pdf",
+      "size": "487.8 KB"
+    }
+  ],
+  "id": "258053",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-05-04 14:56:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/795924_tram.pdf",
+          "filename": "795924_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-05-04 12:51:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/795295_tram.pdf",
+          "filename": "795295_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-23 14:06:08",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/791499_tram.pdf",
+          "filename": "791499_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-23 13:47:21",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 23/04/2026 13:46:12. Matéria incorporada em 23/04/2026 13:47:21 sob protocolo nº 15616/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/791461_tram.pdf",
+          "filename": "791461_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "15616/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=258053",
+  "substitute": [],
+  "title": "Requerimento nº 20973/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1688",
+      "cod_ordem": 307840,
+      "cod_sessao_plen": 1688,
+      "date": "2026-05-04",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1688&cod_ordem=307840&cod_materia=258053&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

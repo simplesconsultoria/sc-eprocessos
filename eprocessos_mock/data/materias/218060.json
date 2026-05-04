@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/218060",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Elinho Da Academia (MOBILIZA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-07",
+  "description": "PODA DE ÁRVORES E LIMPEZA NA RUA EUCLIDES DA CUNHA COM A RUA JOÃO HORTENCIO.ALTO UMUARAMA NO ABRIGO DE MENORES(ACOLHIMENTO FAMILIAR)",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/218060_texto_integral.pdf",
+      "filename": "218060_texto_integral.pdf",
+      "size": "446.1 KB"
+    }
+  ],
+  "id": "218060",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-08 12:54:15",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/608479_tram.pdf",
+          "filename": "608479_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-08 11:57:57",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/608317_tram.pdf",
+          "filename": "608317_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-07 14:09:37",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/608023_tram.pdf",
+          "filename": "608023_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-07 14:06:33",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 07/05/2025 13:59:50. Matéria incorporada em 07/05/2025 14:06:33 sob protocolo nº 13516/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/607875_tram.pdf",
+          "filename": "607875_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "13516/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=218060",
+  "substitute": [],
+  "title": "Requerimento nº 12612/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1539",
+      "cod_ordem": 248810,
+      "cod_sessao_plen": 1539,
+      "date": "2025-05-08",
+      "description": "Expediente da 4ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1539&cod_ordem=248810&cod_materia=218060&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

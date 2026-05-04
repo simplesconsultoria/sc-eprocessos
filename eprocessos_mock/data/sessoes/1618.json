@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1618",
+  "@id_presenca": "/@@sessoes/id/1618/presenca",
+  "@id_votacao": "/@@sessoes/id/1618/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1618_ata_sessao.pdf",
+      "filename": "1618_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-11-11",
+  "description": "2ª Reunião Extraordinária - 11/11/2025",
+  "endTime": "",
+  "id": "1618",
+  "pauta": [],
+  "startTime": "10:00",
+  "title": "2ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17769",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-02-20",
+  "data_publicacao": "2025-02-21",
+  "description": "ALTERA A LEI COMPLEMENTAR Nº 553, DE 14 DE DEZEMBRO DE 2012 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE A REGULARIZAÇÃO FUNDIÁRIA DE INTERESSE SOCIAL DO LOTEAMENTO MINAS BRASIL, ALTERA A LEI COMPLEMENTAR MUNICIPAL Nº 525, DE 14 DE ABRIL DE 2011, E DÁ OUTRAS PROVIDÊNCIAS\" E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17769&texto_original=1",
+      "filename": "17769_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "650.8 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 783, de 20/02/2025",
+  "id": "17769",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17769&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/207498",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": false,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 553, DE 14 DE DEZEMBRO DE 2012 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE A REGULARIZAÇÃO FUNDIÁRIA DE INTERESSE SOCIAL DO LOTEAMENTO MINAS BRASIL, ALTERA A LEI COMPLEMENTAR MUNICIPAL Nº 525, DE 14 DE ABRIL DE 2011, E DÁ OUTRAS PROVIDÊNCIAS\" E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "207498",
+      "remoteUrl": "/@@pasta_digital?cod_materia=207498",
+      "title": "Projeto de Lei Complementar nº 9/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjA3NDk4"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 783/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-02-20",
+    "dataPromulgacaoBR": "20/02/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 783, de 20/02/2025",
+    "numNorma": 783,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 553, DE 14 DE DEZEMBRO DE 2012 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE A REGULARIZAÇÃO FUNDIÁRIA DE INTERESSE SOCIAL DO LOTEAMENTO MINAS BRASIL, ALTERA A LEI COMPLEMENTAR MUNICIPAL Nº 525, DE 14 DE ABRIL DE 2011, E DÁ OUTRAS PROVIDÊNCIAS\" E DÁ OUTRAS PROVIDÊNCIAS.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17769",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17769",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

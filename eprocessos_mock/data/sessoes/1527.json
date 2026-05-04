@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1527",
+  "@id_presenca": "/@@sessoes/id/1527/presenca",
+  "@id_votacao": "/@@sessoes/id/1527/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1527_ata_sessao.pdf",
+      "filename": "1527_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-04-04",
+  "description": "4ª Reunião Ordinária - 04/04/2025",
+  "endTime": "",
+  "id": "1527",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1527_pauta_sessao.pdf",
+      "filename": "1527_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "4ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

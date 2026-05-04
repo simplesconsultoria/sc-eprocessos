@@ -1,303 +1,1949 @@
 {
-  "@id": "/@@vereadores/537434",
   "@type": "Vereador",
-  "biografia": "&lt;p&gt;Casado com Dulce Rosa &amp;eacute; pai de duas meninas, Emanueli e Elisa. Nascido em um lar crist&amp;atilde;o evang&amp;eacute;lico, formou-se em Servi&amp;ccedil;o Social tendo se especializado em Gest&amp;atilde;o de Pol&amp;iacute;ticas P&amp;uacute;blicas e em Doc&amp;ecirc;ncia do Ensino Superior. &amp;Eacute; ainda, pastor auxiliar da Assembleia de Deus Miss&amp;atilde;o aos Povos.&lt;/p&gt;\r\n&lt;p&gt;Foi professor universit&amp;aacute;rio e coordenador do curso de Servi&amp;ccedil;o Social em uma universidade na cidade de Uberl&amp;acirc;ndia e presidiu a Funda&amp;ccedil;&amp;atilde;o Filad&amp;eacute;lfia desenvolvendo projetos de ajuda humanit&amp;aacute;ria como o &amp;ldquo;Gera&amp;ccedil;&amp;atilde;o do Bem&amp;rdquo;, que leva servi&amp;ccedil;os sociais a comunidades carentes. Ampliou a assist&amp;ecirc;ncia odontol&amp;oacute;gica oferecendo tratamento gratuito &amp;agrave; comunidade e estabeleceu na cidade a Rede Ceia, com cinco unidades escolares oferecendo educa&amp;ccedil;&amp;atilde;o e ensino gratuito para cerca de 2200 alunos.&lt;/p&gt;\r\n&lt;p&gt;P&amp;aacute;ginas na Internet&lt;/p&gt;\r\n&lt;p&gt;Instagram: @ver.neemiasmiqueias&lt;/p&gt;\r\n&lt;p&gt;Facebook: ver.neemiasmiqueias&lt;/p&gt;",
-  "birthday": "1989-08-18",
-  "cod_autor": "537434",
-  "comissoes": [
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "10/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "22",
-      "mandato": "Suplente",
-      "start": "2025-02-10",
-      "title": "ad hoc"
-    },
-    {
-      "@id": "/@@comissoes/29",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "29",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Presidente"
-    },
-    {
-      "@id": "/@@comissoes/23",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Políticas Públicas sobre Drogas",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "23",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Presidente"
-    },
-    {
-      "@id": "/@@comissoes/17",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Promoção da Igualdade Racial",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "17",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/3",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Legislação, Justiça e Redação",
-      "description": "07/08/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "3",
-      "mandato": "Suplente",
-      "start": "2024-08-07",
-      "title": "ad hoc"
-    },
-    {
-      "@id": "/@@comissoes/8",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Educação, Cultura e Ciência",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "8",
-      "mandato": "Titular",
-      "start": "2024-05-07",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "22",
-      "mandato": "Titular",
-      "start": "2024-05-07",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/17",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Promoção da Igualdade Racial",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "17",
-      "mandato": "Titular",
-      "start": "2024-05-07",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/29",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "29",
-      "mandato": "Suplente",
-      "start": "2024-05-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/32",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "32",
-      "mandato": "Suplente",
-      "start": "2024-05-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/13",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "13",
-      "mandato": "Suplente",
-      "start": "2024-05-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/7",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "7",
-      "mandato": "Suplente",
-      "start": "2024-05-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/8",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Educação, Cultura e Ciência",
-      "description": "01/01/2023 a 06/05/2024",
-      "end": "2024-05-06",
-      "id": "8",
-      "mandato": "Titular",
-      "start": "2023-01-01",
-      "title": "Relator"
-    },
-    {
-      "@id": "/@@comissoes/29",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
-      "description": "01/01/2023 a 06/05/2024",
-      "end": "2024-05-06",
-      "id": "29",
-      "mandato": "Suplente",
-      "start": "2023-01-01",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "17/08/2022 a 06/05/2024",
-      "end": "2024-05-06",
-      "id": "22",
-      "mandato": "Titular",
-      "start": "2022-08-17",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/29",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
-      "description": "29/04/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "29",
-      "mandato": "Titular",
-      "start": "2021-04-29",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/8",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Educação, Cultura e Ciência",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "8",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Relator"
-    },
-    {
-      "@id": "/@@comissoes/23",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Políticas Públicas sobre Drogas",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "23",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Relator"
-    },
-    {
-      "@id": "/@@comissoes/17",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Promoção da Igualdade Racial",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "17",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/7",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "7",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/28",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Ética e Decoro Parlamentar",
-      "description": "02/02/2021 a 31/12/2021",
-      "end": "2021-12-31",
-      "id": "28",
-      "mandato": "Titular",
-      "start": "2021-02-02",
-      "title": "Suplente"
-    }
-  ],
+  "@id": "/@@vereadores/537434",
+  "id": "537434",
+  "_scope": "all",
+  "title": "Neemias Miquéias",
   "description": "Neemias Miquéias",
   "email": "ver.neemiasmiqueias@camarauberlandia.mg.gov.br",
-  "filiacoes": [
-    {
-      "data_desfiliacao": "",
-      "data_filiacao": "2024-04-01",
-      "filiacao_atual": true,
-      "title": "PODEMOS",
-      "token": "PODEMOS"
-    },
-    {
-      "data_desfiliacao": "2024-03-31",
-      "data_filiacao": "2021-01-01",
-      "filiacao_atual": false,
-      "title": "PARTIDO SOCIAL DEMOCRÁTICO",
-      "token": "PSD"
-    }
-  ],
-  "id": "537434",
+  "telefone_gabinete": "(34) 3239-1125",
+  "whatsapp_gabinete": "",
+  "cod_autor": "537434",
+  "em_exercicio": true,
+  "partido_atual": {
+    "sgl": "PODEMOS",
+    "nome": "PODEMOS",
+    "cod_partido": 37,
+    "url_logo": ""
+  },
+  "biografia": "<p>Casado com Dulce Rosa &eacute; pai de duas meninas, Emanueli e Elisa. Nascido em um lar crist&atilde;o evang&eacute;lico, formou-se em Servi&ccedil;o Social tendo se especializado em Gest&atilde;o de Pol&iacute;ticas P&uacute;blicas e em Doc&ecirc;ncia do Ensino Superior. &Eacute; ainda, pastor auxiliar da Assembleia de Deus Miss&atilde;o aos Povos.</p>\r\n<p>Foi professor universit&aacute;rio e coordenador do curso de Servi&ccedil;o Social em uma universidade na cidade de Uberl&acirc;ndia e presidiu a Funda&ccedil;&atilde;o Filad&eacute;lfia desenvolvendo projetos de ajuda humanit&aacute;ria como o &ldquo;Gera&ccedil;&atilde;o do Bem&rdquo;, que leva servi&ccedil;os sociais a comunidades carentes. Ampliou a assist&ecirc;ncia odontol&oacute;gica oferecendo tratamento gratuito &agrave; comunidade e estabeleceu na cidade a Rede Ceia, com cinco unidades escolares oferecendo educa&ccedil;&atilde;o e ensino gratuito para cerca de 2200 alunos.</p>\r\n<p>P&aacute;ginas na Internet</p>\r\n<p>Instagram: @ver.neemiasmiqueias</p>\r\n<p>Facebook: ver.neemiasmiqueias</p>",
+  "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/537434_foto_parlamentar",
   "image": [
     {
-      "content-type": "image/png",
-      "download": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+      "content-type": "image/jpeg",
+      "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537434_foto_parlamentar",
       "filename": "537434_foto_parlamentar",
-      "height": "350",
-      "size": "204520",
-      "width": "350"
+      "width": "0",
+      "height": "0",
+      "size": "0"
+    }
+  ],
+  "labels": {
+    "reuniao_sessao": "Reunião",
+    "reuniao_sessao_plural": "Reuniões",
+    "nome_mesa": "Mesa Diretora"
+  },
+  "filiacoes": [
+    {
+      "data_filiacao": "2021-01-01",
+      "data_desfiliacao": "2024-03-31",
+      "filiacao_atual": false,
+      "token": "PSD",
+      "title": "PARTIDO SOCIAL DEMOCRÁTICO"
+    },
+    {
+      "data_filiacao": "2024-04-01",
+      "data_desfiliacao": "",
+      "filiacao_atual": true,
+      "token": "PODEMOS",
+      "title": "PODEMOS"
     }
   ],
   "mandatos": [
     {
       "@id": "/@@legislaturas/20",
       "@type": "Mandato",
-      "end": "2028-12-31",
       "id": 20,
-      "natureza": "Titular",
+      "votos": 5997,
       "start": "2025-01-01",
-      "votos": "5997"
+      "end": "2028-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2025,
+      "legislatura_ano_fim": 2028
     },
     {
       "@id": "/@@legislaturas/19",
       "@type": "Mandato",
-      "end": "2024-12-31",
       "id": 19,
-      "natureza": "Titular",
+      "votos": "",
       "start": "2021-01-01",
-      "votos": ""
+      "end": "2024-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2021,
+      "legislatura_ano_fim": 2024
     }
   ],
   "mesas": [
     {
       "@id": "/@@mesas/6",
       "@type": "ParticipanteMesa",
-      "description": "01/01/2023 a 31/12/2024",
-      "end": "2024-12-31",
       "id": "6",
+      "title": "2º Vice-Presidente",
+      "cod_cargo": 3,
+      "description": "01/01/2023 a 31/12/2024",
       "start": "2023-01-01",
-      "title": "2º Vice-Presidente"
+      "end": "2024-12-31"
     }
   ],
-  "telefone_gabinete": "(34) 3239-1125",
-  "title": "Neemias Miquéias",
-  "url_foto": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar"
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "ad hoc",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 10,
+      "start": "2025-02-10",
+      "end": "2027-02-07",
+      "description": "10/02/2025 a 07/02/2027",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "id": "23",
+      "title": "Presidente",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "cod_cargo": 1,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Presidente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 1,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "id": "17",
+      "title": "Suplente",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "cod_cargo": 9,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/3",
+      "@type": "ParticipanteComissao",
+      "id": "3",
+      "title": "ad hoc",
+      "comissao": "Comissão de Legislação, Justiça e Redação",
+      "cod_cargo": 10,
+      "start": "2024-08-07",
+      "end": "2024-12-31",
+      "description": "07/08/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "id": "8",
+      "title": "Membro",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "cod_cargo": 8,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "id": "17",
+      "title": "Membro",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "cod_cargo": 8,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "Membro",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 8,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "id": "7",
+      "title": "Suplente",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "id": "13",
+      "title": "Suplente",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Suplente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "id": "32",
+      "title": "Suplente",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "id": "8",
+      "title": "Relator",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "cod_cargo": 7,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Suplente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 9,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "Membro",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 8,
+      "start": "2022-08-17",
+      "end": "2024-05-06",
+      "description": "17/08/2022 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Suplente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 9,
+      "start": "2021-04-29",
+      "end": "2022-12-31",
+      "description": "29/04/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/8",
+      "@type": "ParticipanteComissao",
+      "id": "8",
+      "title": "Relator",
+      "comissao": "Comissão de Educação, Cultura e Ciência",
+      "cod_cargo": 7,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/23",
+      "@type": "ParticipanteComissao",
+      "id": "23",
+      "title": "Relator",
+      "comissao": "Comissão de Políticas Públicas sobre Drogas",
+      "cod_cargo": 7,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "id": "17",
+      "title": "Membro",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "cod_cargo": 8,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/7",
+      "@type": "ParticipanteComissao",
+      "id": "7",
+      "title": "Suplente",
+      "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+      "cod_cargo": 9,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/28",
+      "@type": "ParticipanteComissao",
+      "id": "28",
+      "title": "Suplente",
+      "comissao": "Comissão de Ética e Decoro Parlamentar",
+      "cod_cargo": 9,
+      "start": "2021-02-02",
+      "end": "2021-12-31",
+      "description": "02/02/2021 a 31/12/2021",
+      "mandato": "Titular"
+    }
+  ],
+  "proposicoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 1301,
+    "items": [
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258720",
+        "id": "258720",
+        "title": "IND 27939/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de calçada / passeio - limpeza / capina / roçagem na Alameda Alfredo Petri, Enfrente ao nº 204, no bairro Jardim Karaíba, CEP 38411-200.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=246605#substitutivo",
+        "id": "s-61",
+        "title": "Substitutivo nº 1 ao PL 940/2026",
+        "ementa": "SUBSTITUTIVO AO PL 940/2026 QUE “ALTERA A LEI Nº 13.080, DE 11 DE ABRIL DE 2019 QUE DISPÕE SOBRE A ISENÇÃO À DOADORES DE PAGAR TAXA DE INSCRIÇÃO PARA CONCURSOS PÚBLICOS REALIZADOS NA CIDADE DE UBERLÂNDIA EM ÂMBITO MUNICIPAL E DA OUTRAS PROVIDÊNCIAS”.",
+        "data_apresentacao": "28/04/2026",
+        "tipo": "Substitutivo",
+        "item_kind": "substitutivo",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258158",
+        "id": "258158",
+        "title": "PL 1127/2026",
+        "ementa": "DENOMINA DE RUA RICARDO CESAR SIQUEIRA DA SILVA O LOGRADOURO PÚBLICO QUE ESPECIFICA.",
+        "data_apresentacao": "24/04/2026",
+        "tipo": "Projeto de Lei Ordinária",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258157",
+        "id": "258157",
+        "title": "PL 1126/2026",
+        "ementa": "DENOMINA DE RUA LEIDIANE GUIMARÃES BRAGA O LOGRADOURO PÚBLICO QUE ESPECIFICA.",
+        "data_apresentacao": "24/04/2026",
+        "tipo": "Projeto de Lei Ordinária",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258139",
+        "id": "258139",
+        "title": "PL 1125/2026",
+        "ementa": "DISPÕE SOBRE A OBRIGATORIEDADE DE INSTALAÇÃO DE MAPAS TÁTEIS E INFORMAÇÕES EM BRAILE EM LOCAIS DE GRANDE CIRCULAÇÃO NO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+        "data_apresentacao": "24/04/2026",
+        "tipo": "Projeto de Lei Ordinária",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=257838",
+        "id": "257838",
+        "title": "IND 27085/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de calçada / passeio - limpeza / capina / roçagem na Avenida Lidormira Borges do Nascimento, 2005, no bairro Shopping Park, CEP 38425-270.",
+        "data_apresentacao": "22/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=257836",
+        "id": "257836",
+        "title": "IND 27083/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de calçada / passeio - limpeza / capina / roçagem na Avenida Landscape, Em todo canteiro , no bairro Jardim Sul, CEP 38411-694.",
+        "data_apresentacao": "22/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=257680",
+        "id": "257680",
+        "title": "IND 26953/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de sinalização - implantação / reforma de faixa de pedestre na Avenida José Fonseca e Silva, 4350, no bairro Luizote de Freitas, CEP 38414-348.",
+        "data_apresentacao": "17/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=257445",
+        "id": "257445",
+        "title": "MOC 838/2026",
+        "ementa": "Aplauso ao Instituto de Desenvolvimento Humano Escola da Vida IEV",
+        "data_apresentacao": "15/04/2026",
+        "tipo": "Moção",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=256256",
+        "id": "256256",
+        "title": "MOC 810/2026",
+        "ementa": "APLAUSO Á CONTROLA+",
+        "data_apresentacao": "08/04/2026",
+        "tipo": "Moção",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 56
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 63
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 137
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 4
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 76
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 3
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 90
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 5
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 858
+        },
+        {
+          "value": "substitutivo",
+          "label": "Substitutivo",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 70
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 193
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 117
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 255
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 273
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 393
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 56
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 63
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 137
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 4
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 76
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 3
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 90
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 5
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 858
+        },
+        {
+          "value": "substitutivo",
+          "label": "Substitutivo",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 70
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 193
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 117
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 255
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 273
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 393
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "EMEI",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2021",
+          "count": 28
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2021",
+          "count": 11
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2021",
+          "count": 26
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "PR",
+          "ano": "2021",
+          "count": 3
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2021",
+          "count": 320
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2022",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2022",
+          "count": 2
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2022",
+          "count": 30
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2022",
+          "count": 8
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2022",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "ano": "2022",
+          "count": 20
+        },
+        {
+          "tipo": "PR",
+          "ano": "2022",
+          "count": 2
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2022",
+          "count": 208
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2023",
+          "count": 22
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2023",
+          "count": 23
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2023",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "ano": "2023",
+          "count": 13
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2023",
+          "count": 2
+        },
+        {
+          "tipo": "PR",
+          "ano": "2023",
+          "count": 3
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2023",
+          "count": 188
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2024",
+          "count": 22
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2024",
+          "count": 20
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2024",
+          "count": 12
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2024",
+          "count": 4
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2024",
+          "count": 58
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2025",
+          "count": 31
+        },
+        {
+          "tipo": "IND",
+          "ano": "2025",
+          "count": 16
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2025",
+          "count": 32
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2025",
+          "count": 21
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2025",
+          "count": 10
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2025",
+          "count": 81
+        },
+        {
+          "tipo": "IND",
+          "ano": "2026",
+          "count": 43
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2026",
+          "count": 5
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2026",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2026",
+          "count": 17
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2026",
+          "count": 3
+        },
+        {
+          "tipo": "substitutivo",
+          "ano": "2026",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "relatorias": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 16,
+    "items": [
+      {
+        "id": "892",
+        "title": "PL 1731/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=201771",
+        "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+        "num_parecer": 36,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "13/11/2024",
+        "data_designacao": "12/12/2024",
+        "data_destituicao": "12/12/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "639",
+        "title": "PDL 541/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=200315",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 241,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "17/10/2024",
+        "data_designacao": "18/10/2024",
+        "data_destituicao": "18/10/2024",
+        "tipo": "Projeto de Decreto Legislativo",
+        "ano": "2024"
+      },
+      {
+        "id": "601",
+        "title": "PL 1694/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=199571",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 227,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "12/09/2024",
+        "data_designacao": "08/10/2024",
+        "data_destituicao": "08/10/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "600",
+        "title": "PL 1693/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=199570",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 226,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "12/09/2024",
+        "data_designacao": "08/10/2024",
+        "data_destituicao": "08/10/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "599",
+        "title": "PL 1688/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=199316",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 225,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "05/09/2024",
+        "data_designacao": "08/10/2024",
+        "data_destituicao": "08/10/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "598",
+        "title": "PL 1671/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=199005",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 224,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "28/08/2024",
+        "data_designacao": "08/10/2024",
+        "data_destituicao": "08/10/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "458",
+        "title": "PL 1630/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=197041",
+        "comissao": "Comissão de Legislação, Justiça e Redação",
+        "num_parecer": 177,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "04/07/2024",
+        "data_designacao": "07/08/2024",
+        "data_destituicao": "07/08/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "580",
+        "title": "PL 1615/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=195995",
+        "comissao": "Comissão de Educação, Cultura e Ciência",
+        "num_parecer": 8,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "13/06/2024",
+        "data_designacao": "11/09/2024",
+        "data_destituicao": "11/09/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "330",
+        "title": "PL 1601/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=194611",
+        "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+        "num_parecer": 12,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "20/05/2024",
+        "data_designacao": "13/06/2024",
+        "data_destituicao": "13/06/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      },
+      {
+        "id": "329",
+        "title": "PL 1601/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=194611",
+        "comissao": "Comissão de Direitos Humanos, Sociais e do Consumidor",
+        "num_parecer": 11,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Contrário",
+        "resultado_comissao": "Parecer Contrário",
+        "data_apresentacao": "20/05/2024",
+        "data_designacao": "13/06/2024",
+        "data_destituicao": "13/06/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 1
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 15
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 14
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 2
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 1
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 15
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 14
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 2
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PL",
+          "ano": "2023",
+          "count": 2
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2024",
+          "count": 13
+        }
+      ]
+    }
+  },
+  "frequencia": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 706,
+    "items": [
+      {
+        "id": "69403",
+        "sessao_id": "1688",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1688&dat_sessao=04/05/2026",
+        "title": "1ª Reunião Ordinária",
+        "identificacao_sessao": "1ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-04",
+        "data_sessao_br": "04/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69349",
+        "sessao_id": "1686",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1686&dat_sessao=16/04/2026",
+        "title": "10ª Reunião Ordinária",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "10",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69376",
+        "sessao_id": "1687",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1687&dat_sessao=16/04/2026",
+        "title": "5ª Reunião Extraordinária",
+        "identificacao_sessao": "5ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "5",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69295",
+        "sessao_id": "1684",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "title": "9ª Reunião Ordinária",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "9",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69322",
+        "sessao_id": "1685",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "title": "4ª Reunião Extraordinária",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "4",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "F",
+        "frequencia_label": "Falta",
+        "justificativa": ""
+      },
+      {
+        "id": "69241",
+        "sessao_id": "1682",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "title": "8ª Reunião Ordinária",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "8",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69268",
+        "sessao_id": "1683",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "title": "3ª Reunião Extraordinária",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "3",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69187",
+        "sessao_id": "1680",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "title": "7ª Reunião Ordinária",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "7",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69214",
+        "sessao_id": "1681",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1681&dat_sessao=13/04/2026",
+        "title": "2ª Reunião Extraordinária",
+        "identificacao_sessao": "2ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "2",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69160",
+        "sessao_id": "1679",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1679&dat_sessao=10/04/2026",
+        "title": "6ª Reunião Ordinária",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "6",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-10",
+        "data_sessao_br": "10/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "resumo": {
+      "presencas": 327,
+      "ausencias_justificadas": 6,
+      "faltas": 373,
+      "total_sessoes": 706,
+      "frequencia_percentual": 47.17
+    },
+    "facets_select": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 580
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ]
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 580
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 580
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "1",
+          "ano": "2021",
+          "count": 109
+        },
+        {
+          "tipo": "2",
+          "ano": "2021",
+          "count": 7
+        },
+        {
+          "tipo": "1",
+          "ano": "2022",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2022",
+          "count": 18
+        },
+        {
+          "tipo": "1",
+          "ano": "2023",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2023",
+          "count": 30
+        },
+        {
+          "tipo": "1",
+          "ano": "2024",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2024",
+          "count": 17
+        },
+        {
+          "tipo": "4",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "1",
+          "ano": "2025",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2025",
+          "count": 32
+        },
+        {
+          "tipo": "3",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "4",
+          "ano": "2025",
+          "count": 2
+        },
+        {
+          "tipo": "1",
+          "ano": "2026",
+          "count": 31
+        },
+        {
+          "tipo": "2",
+          "ano": "2026",
+          "count": 18
+        }
+      ]
+    }
+  },
+  "votacoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 531,
+    "items": [
+      {
+        "cod_materia": 255958,
+        "cod_votacao": "129429",
+        "id": "129429",
+        "title": "PL 1066/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE SAÚDE NO VALOR DE R$ 4.707.278,40 (QUATRO MILHÕES, SETECENTOS E SETE MIL, DUZENTOS E SETENTA E OITO REAIS E QUARENTA CENTAVOS) E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255958",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255958,
+        "cod_votacao": "129430",
+        "id": "129430",
+        "title": "PL 1066/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE SAÚDE NO VALOR DE R$ 4.707.278,40 (QUATRO MILHÕES, SETECENTOS E SETE MIL, DUZENTOS E SETENTA E OITO REAIS E QUARENTA CENTAVOS) E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255958",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255959,
+        "cod_votacao": "129431",
+        "id": "129431",
+        "title": "PL 1067/2026",
+        "ementa": "ALTERA OS ANEXOS IV E IX DA LEI Nº 12.048, DE 18 DE DEZEMBRO DE 2014, E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE O PLANO DE CARREIRA DOS SERVIDORES PÚBLICOS DO DEPARTAMENTO MUNICIPAL DE ÁGUA E ESGOTO - DMAE E DÁ OUTRAS PROVIDÊNCIAS”.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255959",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255959,
+        "cod_votacao": "129432",
+        "id": "129432",
+        "title": "PL 1067/2026",
+        "ementa": "ALTERA OS ANEXOS IV E IX DA LEI Nº 12.048, DE 18 DE DEZEMBRO DE 2014, E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE O PLANO DE CARREIRA DOS SERVIDORES PÚBLICOS DO DEPARTAMENTO MUNICIPAL DE ÁGUA E ESGOTO - DMAE E DÁ OUTRAS PROVIDÊNCIAS”.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255959",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255961,
+        "cod_votacao": "129433",
+        "id": "129433",
+        "title": "PL 1069/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 61.561.691,09 (SESSENTA E UM MILHÕES, QUINHENTOS E SESSENTA E UM MIL, SEISCENTOS E NOVENTA E UM REAIS E NOVE CENTAVOS) NO ORÇAMENTO DO DEPARTAMENTO MUNICIPAL DE ÁGUA E ESGOTO – DMAE E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255961",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255961,
+        "cod_votacao": "129434",
+        "id": "129434",
+        "title": "PL 1069/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 61.561.691,09 (SESSENTA E UM MILHÕES, QUINHENTOS E SESSENTA E UM MIL, SEISCENTOS E NOVENTA E UM REAIS E NOVE CENTAVOS) NO ORÇAMENTO DO DEPARTAMENTO MUNICIPAL DE ÁGUA E ESGOTO – DMAE E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255961",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "data_votacao": "2026-04-14",
+        "data_votacao_br": "14/04/2026",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255956,
+        "cod_votacao": "129033",
+        "id": "129033",
+        "title": "PL 1064/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA FUNDAÇÃO UBERLANDENSE DO TURISMO, ESPORTE E LAZER - FUTEL, NO VALOR DE R$ 80.000,00 (OITENTA MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, ÀS ENTIDADES QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255956",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "data_votacao": "2026-04-13",
+        "data_votacao_br": "13/04/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255956,
+        "cod_votacao": "129034",
+        "id": "129034",
+        "title": "PL 1064/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA FUNDAÇÃO UBERLANDENSE DO TURISMO, ESPORTE E LAZER - FUTEL, NO VALOR DE R$ 80.000,00 (OITENTA MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, ÀS ENTIDADES QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255956",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "data_votacao": "2026-04-13",
+        "data_votacao_br": "13/04/2026",
+        "identificacao_sessao": "2ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1681&dat_sessao=13/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255957,
+        "cod_votacao": "129035",
+        "id": "129035",
+        "title": "PL 1065/2026",
+        "ementa": "AUTORIZA A TRANSFERÊNCIA DE RECURSOS DO ORÇAMENTO DA SECRETARIA MUNICIPAL DE SAÚDE NO VALOR DE R$ 290.000,00 (DUZENTOS E NOVENTA MIL REAIS) ÀS ENTIDADES QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255957",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "data_votacao": "2026-04-13",
+        "data_votacao_br": "13/04/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255960,
+        "cod_votacao": "129037",
+        "id": "129037",
+        "title": "PL 1068/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 368.663,32 (TREZENTOS E SESSENTA E OITO MIL, SEISCENTOS E SESSENTA E TRÊS REAIS E TRINTA E DOIS CENTAVOS) NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE EDUCAÇÃO E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255960",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "data_votacao": "2026-04-13",
+        "data_votacao_br": "13/04/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      }
+    ],
+    "resumo": {
+      "voto_sim": 524,
+      "voto_nao": 7,
+      "voto_abstencao": 0
+    },
+    "filters": {
+      "tipo": "",
+      "voto": "",
+      "voto_desc": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "DEN",
+          "label": "Denúncia",
+          "count": 1
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 1
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 3
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 112
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 406
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 6
+        },
+        {
+          "value": "VET",
+          "label": "Veto",
+          "count": 2
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 524
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 7
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "DEN",
+          "label": "Denúncia",
+          "count": 1
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 1
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 3
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 112
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 406
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 6
+        },
+        {
+          "value": "VET",
+          "label": "Veto",
+          "count": 2
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 524
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 7
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PDL",
+          "voto": "nao",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "voto": "nao",
+          "count": 6
+        },
+        {
+          "tipo": "DEN",
+          "voto": "sim",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "voto": "sim",
+          "count": 1
+        },
+        {
+          "tipo": "PDL",
+          "voto": "sim",
+          "count": 2
+        },
+        {
+          "tipo": "PELO",
+          "voto": "sim",
+          "count": 6
+        },
+        {
+          "tipo": "PL",
+          "voto": "sim",
+          "count": 400
+        },
+        {
+          "tipo": "PLC",
+          "voto": "sim",
+          "count": 112
+        },
+        {
+          "tipo": "VET",
+          "voto": "sim",
+          "count": 2
+        }
+      ]
+    }
+  }
 }

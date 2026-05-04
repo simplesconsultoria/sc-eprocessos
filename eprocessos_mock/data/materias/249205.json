@@ -8,7 +8,7 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Nei Borges"
+      "title": "Nei Borges (Solidariedade)"
     }
   ],
   "committeeOpinion": [],
@@ -17,16 +17,24 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/249205_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/249205_texto_integral.pdf",
       "filename": "249205_texto_integral.pdf",
-      "size": ""
+      "size": "540.7 KB"
     }
   ],
   "id": "249205",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-03-02 12:24:47",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [],
@@ -36,14 +44,15 @@
     },
     {
       "date": "2026-03-02 11:51:59",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/756871_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/756871_tram.pdf",
           "filename": "756871_tram.pdf",
-          "size": ""
+          "size": "21.2 KB"
         }
       ],
       "last": false,
@@ -52,14 +61,15 @@
     },
     {
       "date": "2026-02-27 08:56:48",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/754980_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/754980_tram.pdf",
           "filename": "754980_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -68,14 +78,15 @@
     },
     {
       "date": "2026-02-19 11:32:48",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 13/02/2026 16:57:47. Matéria incorporada em 19/02/2026 11:32:48 sob protocolo nº 6931/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 13/02/2026 16:57:47. Matéria incorporada em 19/02/2026 11:32:48 sob protocolo nº 6931/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/752300_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/752300_tram.pdf",
           "filename": "752300_tram.pdf",
-          "size": ""
+          "size": "21.4 KB"
         }
       ],
       "last": false,
@@ -85,10 +96,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "6931/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=249205",
   "substitute": [],
   "title": "Requerimento nº 20821/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1657",
+      "cod_ordem": 296737,
+      "cod_sessao_plen": 1657,
+      "date": "2026-03-02",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1657&cod_ordem=296737&cod_materia=249205&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

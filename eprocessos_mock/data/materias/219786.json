@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/219786",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-20",
+  "description": " Solicitar informações e apresentar uma sugestão em relação ao funcionamento da linha de ônibus Expresso das 5:20 h – Martinésia, especialmente quanto à proposta de transformá-lo em parador, bem como sua possível alteração de trajeto para incluir paradas no bairro Cruzeiro e outras localidades.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/219786_texto_integral.pdf",
+      "filename": "219786_texto_integral.pdf",
+      "size": "71.2 KB"
+    }
+  ],
+  "id": "219786",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-06-02 14:05:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/621438_tram.pdf",
+          "filename": "621438_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-06-02 11:08:16",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/619671_tram.pdf",
+          "filename": "619671_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-20 10:40:31",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/616872_tram.pdf",
+          "filename": "616872_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-20 09:49:54",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 19/05/2025 13:13:01. Matéria incorporada em 20/05/2025 09:49:54 sob protocolo nº 15202/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/616488_tram.pdf",
+          "filename": "616488_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "15202/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=219786",
+  "substitute": [],
+  "title": "Requerimento nº 14163/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1548",
+      "cod_ordem": 250950,
+      "cod_sessao_plen": 1548,
+      "date": "2025-06-02",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1548&cod_ordem=250950&cod_materia=219786&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

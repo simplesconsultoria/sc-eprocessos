@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/206173",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão (PV)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-01-31",
+  "description": "Proposição Eletrônica nº 21698/2025 esta solicitação para que envie uma equipe com o intuito de realizar a manutenção da via urbana asfaltada, através da operação tapa buracos,\r\nno endereço abaixo:\r\nRua Aguapé, 83 e por toda sua extensão no bairro Chácaras Tubalina - CEP 38413-288. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/206173_texto_integral.pdf",
+      "filename": "206173_texto_integral.pdf",
+      "size": "519.6 KB"
+    }
+  ],
+  "id": "206173",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-04 14:17:22",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/548156_tram.pdf",
+          "filename": "548156_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-03 15:51:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/541129_tram.pdf",
+          "filename": "541129_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-01-31 12:29:02",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534801_tram.pdf",
+          "filename": "534801_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-01-31 10:51:09",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 31/01/2025 10:46:21. Matéria incorporada em 31/01/2025 10:51:09 sob protocolo nº 1712/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534643_tram.pdf",
+          "filename": "534643_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "1712/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=206173",
+  "substitute": [],
+  "title": "Requerimento nº 1537/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1497",
+      "cod_ordem": 236773,
+      "cod_sessao_plen": 1497,
+      "date": "2025-02-03",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1497&cod_ordem=236773&cod_materia=206173&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

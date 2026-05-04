@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1497",
+  "@id_presenca": "/@@sessoes/id/1497/presenca",
+  "@id_votacao": "/@@sessoes/id/1497/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1497_ata_sessao.pdf",
+      "filename": "1497_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-02-03",
+  "description": "1ª Reunião Ordinária - 03/02/2025",
+  "endTime": "",
+  "id": "1497",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1497_pauta_sessao.pdf",
+      "filename": "1497_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "1ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

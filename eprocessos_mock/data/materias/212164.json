@@ -1,0 +1,153 @@
+{
+  "@id": "/@@materias/212164",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "attachedTo": [
+    {
+      "@id": "/@@materias/204470",
+      "@type": "Materia",
+      "description": "ESTABELECE ATENDIMENTO PRIORITÁRIO NOS PROGRAMAS MUNICIPAIS PARA MULHERES VÍTIMAS DE VIOLÊNCIA DOMÉSTICA E CONJUGAL.",
+      "id": "204470",
+      "isVeto": false,
+      "title": "Projeto de Lei Ordinária nº 10/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Carrijo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-20",
+  "description": "apreciação do parecer contrário da Comissão de Legislação, Justiça e Redação ao PL 10/2025.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/212164_texto_integral.pdf",
+      "filename": "212164_texto_integral.pdf",
+      "size": "1.1 MB"
+    }
+  ],
+  "id": "212164",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-21 13:26:51",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/573780_tram.pdf",
+          "filename": "573780_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-21 09:50:27",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/573530_tram.pdf",
+          "filename": "573530_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-20 14:38:45",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/573278_tram.pdf",
+          "filename": "573278_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-20 13:43:32",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 20/03/2025 09:52:10. Matéria incorporada em 20/03/2025 13:43:32 sob protocolo nº 7664/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/572999_tram.pdf",
+          "filename": "572999_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "7664/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=212164",
+  "substitute": [],
+  "title": "Requerimento nº 7062/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1521",
+      "cod_ordem": 242754,
+      "cod_sessao_plen": 1521,
+      "date": "2025-03-21",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1521&cod_ordem=242754&cod_materia=212164&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

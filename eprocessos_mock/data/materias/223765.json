@@ -1,0 +1,232 @@
+{
+  "@id": "/@@materias/223765",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Elinho Da Academia (MOBILIZA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Gláucia da Saúde (PL)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto (MDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sargento Ednaldo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sérvio Túlio (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Thais Andrade (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ângela Do Postinho (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-06-25",
+  "description": "SOLICITAÇÃO DE RESERVA DE PLENÁRIO NO DIA 19 DE SETEMBRO DE 2025, PARA ABERTURA DO 6º FESTIVAL NACIONAL DE CAPOEIRA, CULTURA POPULAR E AFROMINEIRIDADE.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/223765_texto_integral.pdf",
+      "filename": "223765_texto_integral.pdf",
+      "size": "3.9 MB"
+    }
+  ],
+  "id": "223765",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-11 14:06:49",
+      "deadline": null,
+      "description": "<p>impresso e colocado na pastinha em 11/07</p>",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/644312_tram.pdf",
+          "filename": "644312_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Cerimonial",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-01 15:17:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Cerimonial",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/637838_tram.pdf",
+          "filename": "637838_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Moção / Requerimento enviada(o) ao Cerimonial"
+    },
+    {
+      "date": "2025-07-01 12:29:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/636883_tram.pdf",
+          "filename": "636883_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-01 12:27:02",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/634889_tram.pdf",
+          "filename": "634889_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-06-25 13:50:47",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/632730_tram.pdf",
+          "filename": "632730_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-06-25 09:34:54",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 25/06/2025 07:30:57. Matéria incorporada em 25/06/2025 09:34:54 sob protocolo nº 19151/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/632579_tram.pdf",
+          "filename": "632579_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "19151/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=223765",
+  "substitute": [],
+  "title": "Requerimento nº 17890/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1560",
+      "cod_ordem": 255429,
+      "cod_sessao_plen": 1560,
+      "date": "2025-07-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1560&cod_ordem=255429&cod_materia=223765&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

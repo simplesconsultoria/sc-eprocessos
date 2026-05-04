@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1595",
+  "@id_presenca": "/@@sessoes/id/1595/presenca",
+  "@id_votacao": "/@@sessoes/id/1595/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1595_ata_sessao.pdf",
+      "filename": "1595_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-10-02",
+  "description": "2ª Reunião Ordinária - 02/10/2025",
+  "endTime": "",
+  "id": "1595",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1595_pauta_sessao.pdf",
+      "filename": "1595_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "2ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

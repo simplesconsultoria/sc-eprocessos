@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1608",
+  "@id_presenca": "/@@sessoes/id/1608/presenca",
+  "@id_votacao": "/@@sessoes/id/1608/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1608_ata_sessao.pdf",
+      "filename": "1608_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-10-14",
+  "description": "10ª Reunião Ordinária - 14/10/2025",
+  "endTime": "",
+  "id": "1608",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1608_pauta_sessao.pdf",
+      "filename": "1608_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "10ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

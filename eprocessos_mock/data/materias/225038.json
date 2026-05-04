@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/225038",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Anderson Lima (PL)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-04",
+  "description": "Instalação de placa de PARE na R. Costa Pereira, 153 - Bom Jesus, 38400-625",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/225038_texto_integral.pdf",
+      "filename": "225038_texto_integral.pdf",
+      "size": "125.9 KB"
+    }
+  ],
+  "id": "225038",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-07 13:01:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641722_tram.pdf",
+          "filename": "641722_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-07 10:23:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641333_tram.pdf",
+          "filename": "641333_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-04 15:11:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/640969_tram.pdf",
+          "filename": "640969_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-04 14:36:23",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 03/07/2025 16:28:10. Matéria incorporada em 04/07/2025 14:36:23 sob protocolo nº 20419/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/640685_tram.pdf",
+          "filename": "640685_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "20419/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=225038",
+  "substitute": [],
+  "title": "Requerimento nº 19050/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1564",
+      "cod_ordem": 256651,
+      "cod_sessao_plen": 1564,
+      "date": "2025-07-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1564&cod_ordem=256651&cod_materia=225038&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

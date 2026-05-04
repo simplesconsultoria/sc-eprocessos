@@ -1,0 +1,57 @@
+{
+  "@id": "/@@normas/18279",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-07-24",
+  "data_publicacao": "2025-07-25",
+  "description": "DISPÕE SOBRE A EXONERAÇÃO QUE MENCIONA",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18279&texto_original=1",
+      "filename": "18279_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "253.1 KB"
+    }
+  ],
+  "heading_label": "Portaria nº 406, de 24/07/2025",
+  "id": "18279",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18279&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Portaria nº 406/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-07-24",
+    "dataPromulgacaoBR": "24/07/2025",
+    "desTipoNorma": "Portaria",
+    "headingLabel": "Portaria nº 406, de 24/07/2025",
+    "numNorma": 406,
+    "sglTipoNorma": "POR"
+  },
+  "txt_ementa": "DISPÕE SOBRE A EXONERAÇÃO QUE MENCIONA",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18279",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18279",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

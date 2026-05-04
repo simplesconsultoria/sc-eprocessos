@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/211372",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-14",
+  "description": "Atendendo aos pedidos dos moradores do BAIRRO SANTA ROSA, A AVENIDA  ALEXANDRINO ALVES VIEIRA NAS PROXIMIDADES DO CENTRO DE CONTROLE DE ZOONOSES, O CANTEIRO CENTRAL SE ENCONTRA DESTRUÍDO, PRECISANDO SER RECONSTRUIDO, DIFICULTANDO O TRÁFEGO E A PASSAGEM DE PEDESTRES , CAUSANDO TRANSTORNO A TODOS QUE TRANSITAM NAS PROXIMIDADES DO LOCAL.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/211372_texto_integral.pdf",
+      "filename": "211372_texto_integral.pdf",
+      "size": "237.2 KB"
+    }
+  ],
+  "id": "211372",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-17 14:13:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/570754_tram.pdf",
+          "filename": "570754_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-17 09:50:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/570144_tram.pdf",
+          "filename": "570144_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-14 12:37:46",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/569663_tram.pdf",
+          "filename": "569663_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-14 08:28:57",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 13/03/2025 17:30:17. Matéria incorporada em 14/03/2025 08:28:57 sob protocolo nº 6881/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/569515_tram.pdf",
+          "filename": "569515_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "6881/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=211372",
+  "substitute": [],
+  "title": "Requerimento nº 6357/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1517",
+      "cod_ordem": 241966,
+      "cod_sessao_plen": 1517,
+      "date": "2025-03-17",
+      "description": "Expediente da 6ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1517&cod_ordem=241966&cod_materia=211372&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

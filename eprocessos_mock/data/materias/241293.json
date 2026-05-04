@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/241293",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-12-11",
+  "description": "Solicito à Secretaria Municipal de Trânsito e Transporte a melhoria da sinalização viária, incluindo sinalização horizontal e vertical, bem como a revitalização das faixas de pedestres na Avenida Solidariedade, especificamente na rotatória situada na esquina com a Rua Nova Era.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/241293_texto_integral.pdf",
+      "filename": "241293_texto_integral.pdf",
+      "size": "517.2 KB"
+    }
+  ],
+  "id": "241293",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-12-18 14:25:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/713093_tram.pdf",
+          "filename": "713093_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-12-13 08:31:39",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/711545_tram.pdf",
+          "filename": "711545_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-12-11 14:59:27",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/710862_tram.pdf",
+          "filename": "710862_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-12-11 13:23:20",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/12/2025 16:11:35. Matéria incorporada em 11/12/2025 13:23:20 sob protocolo nº 36416/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/709603_tram.pdf",
+          "filename": "709603_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "36416/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=241293",
+  "substitute": [],
+  "title": "Requerimento nº 20649/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1636",
+      "cod_ordem": 276925,
+      "cod_sessao_plen": 1636,
+      "date": "2025-12-12",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1636&cod_ordem=276925&cod_materia=241293&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

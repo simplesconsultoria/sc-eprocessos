@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/209863",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-28",
+  "description": "QUE PROCEDA A NOTIFICAÇÃO AO PROPRIETÁRIO DO TERRENO/LOTE, COM A FINALIDADE DE REALIZAR A MANUTENÇÃO DA LIMPEZA/CAPINA/ROÇAGEM, NO SEGUINTE ENDEREÇO: RUA  DAS ROSA, BAIRRO: CIDADE JARDIM, AO LODO DA RESIDÊNCIA NO N° 394",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/209863_texto_integral.pdf",
+      "filename": "209863_texto_integral.pdf",
+      "size": "123.3 KB"
+    }
+  ],
+  "id": "209863",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-10 15:26:06",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/565615_tram.pdf",
+          "filename": "565615_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-10 11:55:26",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/563119_tram.pdf",
+          "filename": "563119_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-07 10:00:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/560680_tram.pdf",
+          "filename": "560680_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-28 09:06:14",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 27/02/2025 15:16:33. Matéria incorporada em 28/02/2025 09:06:14 sob protocolo nº 5374/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/560045_tram.pdf",
+          "filename": "560045_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "5374/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=209863",
+  "substitute": [],
+  "title": "Requerimento nº 4955/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1512",
+      "cod_ordem": 240336,
+      "cod_sessao_plen": 1512,
+      "date": "2025-03-10",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1512&cod_ordem=240336&cod_materia=209863&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

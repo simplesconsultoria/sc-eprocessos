@@ -1,0 +1,115 @@
+{
+  "@id": "/@@materias/221643",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Zezinho Mendonça (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-06-04",
+  "description": "PRAZO APRESENTAÇÃO EMENDA AO PL 359/2025 QUE \"ESTABELECE AS DIRETRIZES A SEREM OBSERVADAS NA ELABORAÇÃO DA LEI ORÇAMENTÁRIA DO MUNICÍPIO DE UBERLÂNDIA PARA O EXERCÍCIO DE 2026 E DÁ OUTRAS PROVIDÊNCIAS.\"",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/221643_texto_integral.pdf",
+      "filename": "221643_texto_integral.pdf",
+      "size": "532.9 KB"
+    }
+  ],
+  "id": "221643",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-06-05 13:17:35",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/625545_tram.pdf",
+          "filename": "625545_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-06-05 10:57:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/624916_tram.pdf",
+          "filename": "624916_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-06-04 13:16:57",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/624537_tram.pdf",
+          "filename": "624537_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=221643",
+  "substitute": [],
+  "title": "Requerimento nº 15903/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1551",
+      "cod_ordem": 252727,
+      "cod_sessao_plen": 1551,
+      "date": "2025-06-05",
+      "description": "Expediente da 4ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1551&cod_ordem=252727&cod_materia=221643&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

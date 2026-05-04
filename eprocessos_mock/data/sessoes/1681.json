@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1681",
+  "@id_presenca": "/@@sessoes/id/1681/presenca",
+  "@id_votacao": "/@@sessoes/id/1681/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1681_ata_sessao.pdf",
+      "filename": "1681_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-04-13",
+  "description": "2ª Reunião Extraordinária - 13/04/2026",
+  "endTime": "",
+  "id": "1681",
+  "pauta": [],
+  "startTime": "10:00",
+  "title": "2ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

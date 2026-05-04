@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/210324",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Nei Borges (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-07",
+  "description": " a realização de serviços de patrolamento e alargamento da estrada vicinal que se inicia na antiga Cerâmica Velha, seguindo em direção ao setor de chácaras próximo ao Rio Capim Branco 1, com destino ao Tablado do Juninho, Rancho do Dirceu e demais propriedades na região. A estrada, cujo acesso se dá pela BR 050, com entrada à direita após o Posto Décio, seguindo o estradão batido e passando pela antiga Cerâmica Velha, encontra-se em estado precário, estreita e com irregularidades que dificultam a circulação de veículos e colocam em risco a segurança dos usuários.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/210324_texto_integral.pdf",
+      "filename": "210324_texto_integral.pdf",
+      "size": "625.6 KB"
+    }
+  ],
+  "id": "210324",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-10 15:26:07",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/566023_tram.pdf",
+          "filename": "566023_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-10 11:55:28",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/563544_tram.pdf",
+          "filename": "563544_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-07 11:36:10",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/561220_tram.pdf",
+          "filename": "561220_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-07 10:59:32",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/03/2025 17:09:59. Matéria incorporada em 07/03/2025 10:59:32 sob protocolo nº 5834/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/561102_tram.pdf",
+          "filename": "561102_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "5834/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=210324",
+  "substitute": [],
+  "title": "Requerimento nº 5369/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1512",
+      "cod_ordem": 240750,
+      "cod_sessao_plen": 1512,
+      "date": "2025-03-10",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1512&cod_ordem=240750&cod_materia=210324&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

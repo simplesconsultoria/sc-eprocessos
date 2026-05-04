@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1493",
+  "@id_presenca": "/@@sessoes/id/1493/presenca",
+  "@id_votacao": "/@@sessoes/id/1493/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1493_ata_sessao.pdf",
+      "filename": "1493_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-01-07",
+  "description": "2ª Reunião Extraordinária - 07/01/2025",
+  "endTime": "",
+  "id": "1493",
+  "pauta": [],
+  "startTime": "11:20",
+  "title": "2ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

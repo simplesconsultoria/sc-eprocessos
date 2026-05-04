@@ -4,11 +4,251 @@
   "description": "Lista de reuniões plenárias",
   "items": [
     {
+      "@id": "/@@sessoes/id/1689",
+      "@id_presenca": "/@@sessoes/id/1689/presenca",
+      "@id_votacao": "/@@sessoes/id/1689/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [],
+      "date": "2026-05-05",
+      "description": "05/05/2026 09:00",
+      "endTime": "",
+      "id": "1689",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1689_pauta_sessao.pdf",
+          "filename": "1689_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "2ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1688",
+      "@id_presenca": "/@@sessoes/id/1688/presenca",
+      "@id_votacao": "/@@sessoes/id/1688/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1688_ata_sessao.pdf",
+          "filename": "1688_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-04",
+      "description": "04/05/2026 09:00",
+      "endTime": "",
+      "id": "1688",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1688_pauta_sessao.pdf",
+          "filename": "1688_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "1ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1686",
+      "@id_presenca": "/@@sessoes/id/1686/presenca",
+      "@id_votacao": "/@@sessoes/id/1686/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1686_ata_sessao.pdf",
+          "filename": "1686_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-16",
+      "description": "16/04/2026 09:00",
+      "endTime": "",
+      "id": "1686",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1686_pauta_sessao.pdf",
+          "filename": "1686_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "10ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1684",
+      "@id_presenca": "/@@sessoes/id/1684/presenca",
+      "@id_votacao": "/@@sessoes/id/1684/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1684_ata_sessao.pdf",
+          "filename": "1684_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-15",
+      "description": "15/04/2026 09:00",
+      "endTime": "",
+      "id": "1684",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1684_pauta_sessao.pdf",
+          "filename": "1684_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "9ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1682",
+      "@id_presenca": "/@@sessoes/id/1682/presenca",
+      "@id_votacao": "/@@sessoes/id/1682/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1682_ata_sessao.pdf",
+          "filename": "1682_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-14",
+      "description": "14/04/2026 09:00",
+      "endTime": "",
+      "id": "1682",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1682_pauta_sessao.pdf",
+          "filename": "1682_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "8ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1680",
+      "@id_presenca": "/@@sessoes/id/1680/presenca",
+      "@id_votacao": "/@@sessoes/id/1680/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1680_ata_sessao.pdf",
+          "filename": "1680_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-13",
+      "description": "13/04/2026 09:00",
+      "endTime": "",
+      "id": "1680",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1680_pauta_sessao.pdf",
+          "filename": "1680_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "7ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1679",
+      "@id_presenca": "/@@sessoes/id/1679/presenca",
+      "@id_votacao": "/@@sessoes/id/1679/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1679_ata_sessao.pdf",
+          "filename": "1679_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-10",
+      "description": "10/04/2026 09:00",
+      "endTime": "",
+      "id": "1679",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1679_pauta_sessao.pdf",
+          "filename": "1679_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "6ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1678",
+      "@id_presenca": "/@@sessoes/id/1678/presenca",
+      "@id_votacao": "/@@sessoes/id/1678/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1678_ata_sessao.pdf",
+          "filename": "1678_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-04-09",
+      "description": "09/04/2026 09:00",
+      "endTime": "",
+      "id": "1678",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1678_pauta_sessao.pdf",
+          "filename": "1678_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "5ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
       "@id": "/@@sessoes/id/1677",
       "@id_presenca": "/@@sessoes/id/1677/presenca",
       "@id_votacao": "/@@sessoes/id/1677/votacao",
       "@type": "SessaoPlenaria",
-      "ata": [],
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1677_ata_sessao.pdf",
+          "filename": "1677_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
       "date": "2026-04-08",
       "description": "08/04/2026 09:00",
       "endTime": "",
@@ -16,7 +256,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1677_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1677_pauta_sessao.pdf",
           "filename": "1677_pauta_sessao.pdf",
           "size": ""
         }
@@ -34,7 +274,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1676_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1676_ata_sessao.pdf",
           "filename": "1676_ata_sessao.pdf",
           "size": ""
         }
@@ -46,7 +286,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1676_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1676_pauta_sessao.pdf",
           "filename": "1676_pauta_sessao.pdf",
           "size": ""
         }
@@ -64,7 +304,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1675_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1675_ata_sessao.pdf",
           "filename": "1675_ata_sessao.pdf",
           "size": ""
         }
@@ -76,7 +316,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1675_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1675_pauta_sessao.pdf",
           "filename": "1675_pauta_sessao.pdf",
           "size": ""
         }
@@ -94,7 +334,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1670_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1670_ata_sessao.pdf",
           "filename": "1670_ata_sessao.pdf",
           "size": ""
         }
@@ -106,7 +346,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1670_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1670_pauta_sessao.pdf",
           "filename": "1670_pauta_sessao.pdf",
           "size": ""
         }
@@ -124,7 +364,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1668_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1668_ata_sessao.pdf",
           "filename": "1668_ata_sessao.pdf",
           "size": ""
         }
@@ -136,7 +376,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1668_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1668_pauta_sessao.pdf",
           "filename": "1668_pauta_sessao.pdf",
           "size": ""
         }
@@ -154,7 +394,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1666_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1666_ata_sessao.pdf",
           "filename": "1666_ata_sessao.pdf",
           "size": ""
         }
@@ -166,7 +406,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1666_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1666_pauta_sessao.pdf",
           "filename": "1666_pauta_sessao.pdf",
           "size": ""
         }
@@ -184,7 +424,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1664_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1664_ata_sessao.pdf",
           "filename": "1664_ata_sessao.pdf",
           "size": ""
         }
@@ -196,7 +436,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1664_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1664_pauta_sessao.pdf",
           "filename": "1664_pauta_sessao.pdf",
           "size": ""
         }
@@ -214,7 +454,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1663_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1663_ata_sessao.pdf",
           "filename": "1663_ata_sessao.pdf",
           "size": ""
         }
@@ -226,7 +466,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1663_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1663_pauta_sessao.pdf",
           "filename": "1663_pauta_sessao.pdf",
           "size": ""
         }
@@ -244,7 +484,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1662_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1662_ata_sessao.pdf",
           "filename": "1662_ata_sessao.pdf",
           "size": ""
         }
@@ -256,7 +496,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1662_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1662_pauta_sessao.pdf",
           "filename": "1662_pauta_sessao.pdf",
           "size": ""
         }
@@ -274,7 +514,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1661_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1661_ata_sessao.pdf",
           "filename": "1661_ata_sessao.pdf",
           "size": ""
         }
@@ -286,7 +526,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1661_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1661_pauta_sessao.pdf",
           "filename": "1661_pauta_sessao.pdf",
           "size": ""
         }
@@ -304,7 +544,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1660_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1660_ata_sessao.pdf",
           "filename": "1660_ata_sessao.pdf",
           "size": ""
         }
@@ -316,7 +556,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1660_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1660_pauta_sessao.pdf",
           "filename": "1660_pauta_sessao.pdf",
           "size": ""
         }
@@ -334,7 +574,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1659_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1659_ata_sessao.pdf",
           "filename": "1659_ata_sessao.pdf",
           "size": ""
         }
@@ -346,7 +586,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1659_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1659_pauta_sessao.pdf",
           "filename": "1659_pauta_sessao.pdf",
           "size": ""
         }
@@ -364,7 +604,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1658_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1658_ata_sessao.pdf",
           "filename": "1658_ata_sessao.pdf",
           "size": ""
         }
@@ -376,7 +616,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1658_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1658_pauta_sessao.pdf",
           "filename": "1658_pauta_sessao.pdf",
           "size": ""
         }
@@ -394,7 +634,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1657_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1657_ata_sessao.pdf",
           "filename": "1657_ata_sessao.pdf",
           "size": ""
         }
@@ -406,7 +646,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1657_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1657_pauta_sessao.pdf",
           "filename": "1657_pauta_sessao.pdf",
           "size": ""
         }
@@ -424,7 +664,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1655_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1655_ata_sessao.pdf",
           "filename": "1655_ata_sessao.pdf",
           "size": ""
         }
@@ -436,7 +676,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1655_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1655_pauta_sessao.pdf",
           "filename": "1655_pauta_sessao.pdf",
           "size": ""
         }
@@ -454,7 +694,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1653_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1653_ata_sessao.pdf",
           "filename": "1653_ata_sessao.pdf",
           "size": ""
         }
@@ -466,7 +706,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1653_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1653_pauta_sessao.pdf",
           "filename": "1653_pauta_sessao.pdf",
           "size": ""
         }
@@ -484,7 +724,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1651_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1651_ata_sessao.pdf",
           "filename": "1651_ata_sessao.pdf",
           "size": ""
         }
@@ -496,7 +736,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1651_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1651_pauta_sessao.pdf",
           "filename": "1651_pauta_sessao.pdf",
           "size": ""
         }
@@ -514,7 +754,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1649_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1649_ata_sessao.pdf",
           "filename": "1649_ata_sessao.pdf",
           "size": ""
         }
@@ -526,7 +766,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1649_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1649_pauta_sessao.pdf",
           "filename": "1649_pauta_sessao.pdf",
           "size": ""
         }
@@ -544,7 +784,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1647_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1647_ata_sessao.pdf",
           "filename": "1647_ata_sessao.pdf",
           "size": ""
         }
@@ -556,7 +796,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1647_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1647_pauta_sessao.pdf",
           "filename": "1647_pauta_sessao.pdf",
           "size": ""
         }
@@ -574,7 +814,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1646_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1646_ata_sessao.pdf",
           "filename": "1646_ata_sessao.pdf",
           "size": ""
         }
@@ -586,7 +826,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1646_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1646_pauta_sessao.pdf",
           "filename": "1646_pauta_sessao.pdf",
           "size": ""
         }
@@ -604,7 +844,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1645_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1645_ata_sessao.pdf",
           "filename": "1645_ata_sessao.pdf",
           "size": ""
         }
@@ -616,7 +856,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1645_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1645_pauta_sessao.pdf",
           "filename": "1645_pauta_sessao.pdf",
           "size": ""
         }
@@ -634,7 +874,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1644_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1644_ata_sessao.pdf",
           "filename": "1644_ata_sessao.pdf",
           "size": ""
         }
@@ -646,7 +886,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1644_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1644_pauta_sessao.pdf",
           "filename": "1644_pauta_sessao.pdf",
           "size": ""
         }
@@ -664,7 +904,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1642_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1642_ata_sessao.pdf",
           "filename": "1642_ata_sessao.pdf",
           "size": ""
         }
@@ -676,7 +916,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1642_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1642_pauta_sessao.pdf",
           "filename": "1642_pauta_sessao.pdf",
           "size": ""
         }
@@ -694,7 +934,7 @@
       "ata": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/ata_sessao/1641_ata_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1641_ata_sessao.pdf",
           "filename": "1641_ata_sessao.pdf",
           "size": ""
         }
@@ -706,7 +946,7 @@
       "pauta": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/pauta_sessao/1641_pauta_sessao.pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1641_pauta_sessao.pdf",
           "filename": "1641_pauta_sessao.pdf",
           "size": ""
         }

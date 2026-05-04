@@ -1,0 +1,157 @@
+{
+  "@id": "/@@materias/234971",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/224655",
+      "@type": "Materia",
+      "annexationDate": "2025-10-16",
+      "description": "ALTERA DISPOSITIVOS DA LEI COMPLEMENTAR Nº 622, DE 09 DE AGOSTO DE 2017 QUE “DISPÕE SOBRE O PROGRAMA DE REGULARIZAÇÃO DE EDIFICAÇÕES – PRED TÔ LEGAL”, NO MUNICÍPIO DE UBERLÂNDIA E DE SEUS DISTRITOS, REVOGA AS LEIS COMPLEMENTARES Nº 549 DE 13 DE NOVEMBRO DE 2012, Nº 554 DE 19 DE DEZEMBRO DE 2012 3 Nº 611 DE 14 DE ABRIL DE 2016 E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "224655",
+      "title": "Projeto de Lei Complementar nº 34/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto (MDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-16",
+  "description": "REQUER O ENVIO DO PROJETO DE LEI COMPLEMENTAR Nº 34/2025 QUE ALTERA A LEI COMPLEMENTAR Nº 745, DE 28 DE DEZEMBRO DE 2022 QUE “DISPÕE SOBRE O PROGRAMA DE REGULARIZAÇÃO DE EDIFICAÇÕES - PRED NO MUNICÍPIO DE UBERLÂNDIA E SEUS DISTRITOS, REVOGA A LEI COMPLEMENTAR Nº 622, DE 9 DE AGOSTO DE 2017 E SUAS ALTERAÇÕES E DÁ OUTRAS PROVIDÊNCIAS, PARA\r\nAPRECIAÇÃO DO PARECER CONTRÁRIO",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/234971_texto_integral.pdf",
+      "filename": "234971_texto_integral.pdf",
+      "size": "1.7 MB"
+    }
+  ],
+  "id": "234971",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-11-03 14:07:54",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/686606_tram.pdf",
+          "filename": "686606_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-11-03 12:46:51",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/685153_tram.pdf",
+          "filename": "685153_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-10-27 08:50:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682847_tram.pdf",
+          "filename": "682847_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-10-16 09:08:49",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 15/10/2025 15:08:17. Matéria incorporada em 16/10/2025 09:08:49 sob protocolo nº 30203/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682693_tram.pdf",
+          "filename": "682693_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "30203/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=234971",
+  "substitute": [],
+  "title": "Requerimento nº 20517/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1610",
+      "cod_ordem": 270074,
+      "cod_sessao_plen": 1610,
+      "date": "2025-11-03",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1610&cod_ordem=270074&cod_materia=234971&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

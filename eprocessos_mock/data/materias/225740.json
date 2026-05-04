@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/225740",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/212962",
+      "@type": "Materia",
+      "annexationDate": "2025-07-10",
+      "description": "ALTERA A LEI Nº 10.741, DE 6 DE ABRIL DE 2011, QUE INSTITUI O CÓDIGO MUNICIPAL DE POSTURAS DE UBERLÂNDIA E REVOGA A LEI Nº 4744, DE 05 DE JULHO DE 1988 E SUAS ALTERAÇÕES.",
+      "id": "212962",
+      "title": "Projeto de Lei Ordinária nº 270/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-10",
+  "description": "com fulcro no caput Art. 172, Regimento Interno requer que o Projeto de Lei Ordinária nº 270/2025 - ALTERA A LEI Nº 10.741, DE 6 DE ABRIL DE 2011, QUE INSTITUI O CÓDIGO MUNICIPAL DE POSTURAS DE UBERLÂNDIA E REVOGA A LEI Nº 4744, DE 05 DE JULHO DE 1988 E SUAS ALTERAÇÕES, seja apreciado pelo plenário. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/225740_texto_integral.pdf",
+      "filename": "225740_texto_integral.pdf",
+      "size": "1.2 MB"
+    }
+  ],
+  "id": "225740",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-11 13:59:25",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/644289_tram.pdf",
+          "filename": "644289_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-11 12:46:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/644113_tram.pdf",
+          "filename": "644113_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-10 15:06:18",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/643962_tram.pdf",
+          "filename": "643962_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-10 14:32:05",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/07/2025 13:47:09. Matéria incorporada em 10/07/2025 14:32:05 sob protocolo nº 21125/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/643821_tram.pdf",
+          "filename": "643821_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "21125/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=225740",
+  "substitute": [],
+  "title": "Requerimento nº 19673/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1569",
+      "cod_ordem": 257322,
+      "cod_sessao_plen": 1569,
+      "date": "2025-07-11",
+      "description": "Expediente da 9ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1569&cod_ordem=257322&cod_materia=225740&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

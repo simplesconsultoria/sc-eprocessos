@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1504",
+  "@id_presenca": "/@@sessoes/id/1504/presenca",
+  "@id_votacao": "/@@sessoes/id/1504/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1504_ata_sessao.pdf",
+      "filename": "1504_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-02-07",
+  "description": "5ª Reunião Ordinária - 07/02/2025",
+  "endTime": "",
+  "id": "1504",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1504_pauta_sessao.pdf",
+      "filename": "1504_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "5ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

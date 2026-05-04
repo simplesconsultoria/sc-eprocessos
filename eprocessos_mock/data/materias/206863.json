@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/206863",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-05",
+  "description": "QUE FAÇA ESTUDO TÉCNICO DE VIABILIDADE PARA MUDANÇA/RETIRADA DO BUEIRO LOCALIZADO NA  AV. DR. JAIME RIBEIRO DA LUZ ESQUINA COM A RUA JOÃO BALBINO, Nº 1960, NO BAIRRO SANTA MÔNICA.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/206863_texto_integral.pdf",
+      "filename": "206863_texto_integral.pdf",
+      "size": "68.9 KB"
+    }
+  ],
+  "id": "206863",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-06 12:59:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/549903_tram.pdf",
+          "filename": "549903_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-06 12:26:36",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/549657_tram.pdf",
+          "filename": "549657_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-05 14:25:26",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/549348_tram.pdf",
+          "filename": "549348_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-05 14:08:49",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 05/02/2025 12:26:44. Matéria incorporada em 05/02/2025 14:08:49 sob protocolo nº 2401/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/549066_tram.pdf",
+          "filename": "549066_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "2401/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=206863",
+  "substitute": [],
+  "title": "Requerimento nº 2136/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1503",
+      "cod_ordem": 237399,
+      "cod_sessao_plen": 1503,
+      "date": "2025-02-06",
+      "description": "Expediente da 4ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1503&cod_ordem=237399&cod_materia=206863&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

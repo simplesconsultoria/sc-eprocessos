@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/228418",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/213836",
+      "@type": "Materia",
+      "annexationDate": "2025-08-08",
+      "description": "AUTORIZA O PODER EXECUTIVO A DESENVOLVER E DISPONIBILIZAR, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, APLICATIVO MUNICIPAL DE APOIO À PESSOA COM TRANSTORNO DO ESPECTRO AUTISTA (TEA)",
+      "id": "213836",
+      "title": "Projeto de Lei Ordinária nº 288/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-07",
+  "description": "REQUER SEJA COLOCADO EM PAUTA, PARA APRECIAÇÃO, PARECER CONTRÁRIO PROFERIDO PELA COMISSÃO DE LEGISLAÇÃO E JUSTIÇA NO PL 288/2025, QUE \"AUTORIZA O PODER EXECUTIVO A DESENVOLVER E DISPONIBILIZAR, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, APLICATIVO MUNICIPAL DE APOIO À PESSOA COM TRANSTORNO DO ESPECTRO AUTISTA (TEA)\" NOS TERMOS DO ART. 172 DO REGIMENTO INTERNO.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/228418_texto_integral.pdf",
+      "filename": "228418_texto_integral.pdf",
+      "size": "793.8 KB"
+    }
+  ],
+  "id": "228418",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-08 13:35:25",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655005_tram.pdf",
+          "filename": "655005_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-08 10:27:27",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/654608_tram.pdf",
+          "filename": "654608_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-07 14:19:12",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/654192_tram.pdf",
+          "filename": "654192_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-07 13:56:39",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 07/08/2025 10:12:02. Matéria incorporada em 07/08/2025 13:56:39 sob protocolo nº 23781/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/654184_tram.pdf",
+          "filename": "654184_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "23781/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=228418",
+  "substitute": [],
+  "title": "Requerimento nº 20263/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1577",
+      "cod_ordem": 261791,
+      "cod_sessao_plen": 1577,
+      "date": "2025-08-08",
+      "description": "Expediente da 6ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1577&cod_ordem=261791&cod_materia=228418&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

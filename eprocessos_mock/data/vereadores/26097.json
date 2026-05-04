@@ -1,149 +1,1642 @@
 {
-  "@id": "/@@vereadores/26097",
   "@type": "Vereador",
-  "biografia": "&lt;p&gt;&lt;strong&gt;Biografia&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;O vereador Rosenvaldo Correia de Mendon&amp;ccedil;a, popularmente conhecido em toda a cidade de Uberl&amp;acirc;ndia, onde nasceu como Zezinho Mendon&amp;ccedil;a, tem 49 anos de idade e &amp;eacute; filho do casal Geraldo Jos&amp;eacute; Correia, j&amp;aacute; falecido, e de D. Maria Aparecida de Mendon&amp;ccedil;a Correia e irm&amp;atilde;o de Ilv&amp;acirc;nia e Ronivaldo Correia de Mendon&amp;ccedil;a. Sendo que seu pai foi servidor p&amp;uacute;blico durante 33 anos.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Zezinho Mendon&amp;ccedil;a residiu no bairro Marta Helena durante 18 anos, onde come&amp;ccedil;ou a trabalhar com apenas 12 anos de idade, no Supermercado Danyela e na loja Moda Brasil e de l&amp;aacute; foi para a empresa Tecidos Miramontes at&amp;eacute; se instalar no bairro Mansour onde montou um com&amp;eacute;rcio em 1995 com apenas 22 anos. Formado em Gest&amp;atilde;o P&amp;uacute;blica, tamb&amp;eacute;m atua no setor de Agroneg&amp;oacute;cio.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Na pol&amp;iacute;tica&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Disputou sua primeira elei&amp;ccedil;&amp;atilde;o a vereador nas elei&amp;ccedil;&amp;otilde;es municipais de 2008, tendo ficado como suplente com 3.025 votos e em 1&amp;ordm; de fevereiro de 2011, assumiu a cadeira da ent&amp;atilde;o vereadora Liza Prado, eleita deputada estadual em 2010.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;J&amp;aacute; em 2012, disputou a reelei&amp;ccedil;&amp;atilde;o, tendo sido o quarto candidato mais votado com 4.129 votos, tendo sido convidado pelo Executivo para assumir a dire&amp;ccedil;&amp;atilde;o geral da Futel &amp;ndash; Funda&amp;ccedil;&amp;atilde;o Uberlandense de Turismo, Esporte e Lazer nos anos de 2013 e 2014, tendo retornado &amp;agrave; C&amp;acirc;mara em 2016 para disputar mais uma vez a elei&amp;ccedil;&amp;atilde;o de vereador e apesar de ter obtido 3.680 votos, infelizmente n&amp;atilde;o conseguiu quociente eleitoral (m&amp;eacute;todo pelo qual se distribuem as cadeiras nas elei&amp;ccedil;&amp;otilde;es pelo sistema proporcional de votos em conjunto com o quociente partid&amp;aacute;rio e a distribui&amp;ccedil;&amp;atilde;o das sobras) e ficou de fora da Legislatura 2017-2020.&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Nas elei&amp;ccedil;&amp;otilde;es municipais de 2020, candidatou-se novamente a vereador pelo Progressistas, partido do Prefeito Odelmo Le&amp;atilde;o e retornou &amp;agrave; C&amp;acirc;mara Municipal em 1&amp;ordm; de janeiro de 2021 com 3.049 votos e em novembro de 2022 foi eleito pela maioria de seus pares para presidir a C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia no bi&amp;ecirc;nio 2023/2024, tendo tomado posse em sess&amp;atilde;o solene no dia 14 de dezembro de 2022 e assumindo o cargo de Chefe do Poder Legislativo Municipal em 1&amp;ordm; de janeiro de 2023.&lt;/p&gt;",
-  "birthday": "",
-  "cod_autor": "26097",
-  "comissoes": [
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "10/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "22",
-      "mandato": "Suplente",
-      "start": "2025-02-10",
-      "title": "ad hoc"
-    },
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "17/08/2022 a 06/05/2024",
-      "end": "2024-05-06",
-      "id": "22",
-      "mandato": "Titular",
-      "start": "2022-08-17",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/25",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Micro e Pequenas Empresas",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "25",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Relator"
-    },
-    {
-      "@id": "/@@comissoes/14",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Política Rural e Administração dos Distritos",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "14",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/5",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Finanças, Orçamento e Tributos",
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "5",
-      "mandato": "Titular",
-      "start": "2021-02-04",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/5",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Finanças, Orçamento e Tributos",
-      "description": "05/02/2015 a 30/12/2016",
-      "end": "2016-12-30",
-      "id": "5",
-      "mandato": "Titular",
-      "start": "2015-02-05",
-      "title": "Relator"
-    }
-  ],
+  "@id": "/@@vereadores/26097",
+  "id": "26097",
+  "_scope": "all",
+  "title": "Zezinho Mendonça",
   "description": "Rosenvaldo Correia de Mendonça",
   "email": "zezinhomendonca@camarauberlandia.mg.gov.br",
-  "filiacoes": [
-    {
-      "data_desfiliacao": "",
-      "data_filiacao": "2021-01-01",
-      "filiacao_atual": true,
-      "title": "PROGRESSISTAS",
-      "token": "PP"
-    }
-  ],
-  "id": "26097",
+  "telefone_gabinete": "(34) 3239-1149",
+  "whatsapp_gabinete": "",
+  "cod_autor": "26097",
+  "em_exercicio": true,
+  "partido_atual": {
+    "sgl": "PP",
+    "nome": "PROGRESSISTAS",
+    "cod_partido": 5,
+    "url_logo": ""
+  },
+  "biografia": "<p><strong>Biografia</strong>&nbsp;</p>\r\n<p>O vereador Rosenvaldo Correia de Mendon&ccedil;a, popularmente conhecido em toda a cidade de Uberl&acirc;ndia, onde nasceu como Zezinho Mendon&ccedil;a, tem 49 anos de idade e &eacute; filho do casal Geraldo Jos&eacute; Correia, j&aacute; falecido, e de D. Maria Aparecida de Mendon&ccedil;a Correia e irm&atilde;o de Ilv&acirc;nia e Ronivaldo Correia de Mendon&ccedil;a. Sendo que seu pai foi servidor p&uacute;blico durante 33 anos.&nbsp;</p>\r\n<p>Zezinho Mendon&ccedil;a residiu no bairro Marta Helena durante 18 anos, onde come&ccedil;ou a trabalhar com apenas 12 anos de idade, no Supermercado Danyela e na loja Moda Brasil e de l&aacute; foi para a empresa Tecidos Miramontes at&eacute; se instalar no bairro Mansour onde montou um com&eacute;rcio em 1995 com apenas 22 anos. Formado em Gest&atilde;o P&uacute;blica, tamb&eacute;m atua no setor de Agroneg&oacute;cio.&nbsp;</p>\r\n<p><strong>Na pol&iacute;tica</strong></p>\r\n<p>Disputou sua primeira elei&ccedil;&atilde;o a vereador nas elei&ccedil;&otilde;es municipais de 2008, tendo ficado como suplente com 3.025 votos e em 1&ordm; de fevereiro de 2011, assumiu a cadeira da ent&atilde;o vereadora Liza Prado, eleita deputada estadual em 2010.&nbsp;</p>\r\n<p>J&aacute; em 2012, disputou a reelei&ccedil;&atilde;o, tendo sido o quarto candidato mais votado com 4.129 votos, tendo sido convidado pelo Executivo para assumir a dire&ccedil;&atilde;o geral da Futel &ndash; Funda&ccedil;&atilde;o Uberlandense de Turismo, Esporte e Lazer nos anos de 2013 e 2014, tendo retornado &agrave; C&acirc;mara em 2016 para disputar mais uma vez a elei&ccedil;&atilde;o de vereador e apesar de ter obtido 3.680 votos, infelizmente n&atilde;o conseguiu quociente eleitoral (m&eacute;todo pelo qual se distribuem as cadeiras nas elei&ccedil;&otilde;es pelo sistema proporcional de votos em conjunto com o quociente partid&aacute;rio e a distribui&ccedil;&atilde;o das sobras) e ficou de fora da Legislatura 2017-2020.&nbsp;</p>\r\n<p>Nas elei&ccedil;&otilde;es municipais de 2020, candidatou-se novamente a vereador pelo Progressistas, partido do Prefeito Odelmo Le&atilde;o e retornou &agrave; C&acirc;mara Municipal em 1&ordm; de janeiro de 2021 com 3.049 votos e em novembro de 2022 foi eleito pela maioria de seus pares para presidir a C&acirc;mara Municipal de Uberl&acirc;ndia no bi&ecirc;nio 2023/2024, tendo tomado posse em sess&atilde;o solene no dia 14 de dezembro de 2022 e assumindo o cargo de Chefe do Poder Legislativo Municipal em 1&ordm; de janeiro de 2023.</p>",
+  "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/26097_foto_parlamentar",
   "image": [
     {
-      "content-type": "image/png",
-      "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+      "content-type": "image/jpeg",
+      "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26097_foto_parlamentar",
       "filename": "26097_foto_parlamentar",
-      "height": "350",
-      "size": "213974",
-      "width": "350"
+      "width": "0",
+      "height": "0",
+      "size": "0"
+    }
+  ],
+  "labels": {
+    "reuniao_sessao": "Reunião",
+    "reuniao_sessao_plural": "Reuniões",
+    "nome_mesa": "Mesa Diretora"
+  },
+  "filiacoes": [
+    {
+      "data_filiacao": "2021-01-01",
+      "data_desfiliacao": "",
+      "filiacao_atual": true,
+      "token": "PP",
+      "title": "PROGRESSISTAS"
     }
   ],
   "mandatos": [
     {
       "@id": "/@@legislaturas/20",
       "@type": "Mandato",
-      "end": "2028-12-31",
       "id": 20,
-      "natureza": "Titular",
+      "votos": 5064,
       "start": "2025-01-01",
-      "votos": "5064"
+      "end": "2028-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2025,
+      "legislatura_ano_fim": 2028
     },
     {
       "@id": "/@@legislaturas/19",
       "@type": "Mandato",
-      "end": "2024-12-31",
       "id": 19,
-      "natureza": "Titular",
+      "votos": "",
       "start": "2021-01-01",
-      "votos": ""
+      "end": "2024-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2021,
+      "legislatura_ano_fim": 2024
     },
     {
       "@id": "/@@legislaturas/17",
       "@type": "Mandato",
-      "end": "2016-12-31",
       "id": 17,
-      "natureza": "Titular",
+      "votos": "",
       "start": "2015-03-17",
-      "votos": ""
+      "end": "2016-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2013,
+      "legislatura_ano_fim": 2016
     }
   ],
   "mesas": [
     {
       "@id": "/@@mesas/7",
       "@type": "ParticipanteMesa",
-      "description": "01/01/2025 a 31/12/2026",
-      "end": "2026-12-31",
       "id": "7",
+      "title": "Presidente",
+      "cod_cargo": 1,
+      "description": "01/01/2025 a 31/12/2026",
       "start": "2025-01-01",
-      "title": "Presidente"
+      "end": "2026-12-31"
     },
     {
       "@id": "/@@mesas/6",
       "@type": "ParticipanteMesa",
-      "description": "01/01/2023 a 31/12/2024",
-      "end": "2024-12-31",
       "id": "6",
+      "title": "Presidente",
+      "cod_cargo": 1,
+      "description": "01/01/2023 a 31/12/2024",
       "start": "2023-01-01",
-      "title": "Presidente"
+      "end": "2024-12-31"
     }
   ],
-  "telefone_gabinete": "(34) 3239-1149",
-  "title": "Zezinho Mendonça",
-  "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "ad hoc",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 10,
+      "start": "2025-02-10",
+      "end": "2027-02-07",
+      "description": "10/02/2025 a 07/02/2027",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "Membro",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 8,
+      "start": "2022-08-17",
+      "end": "2024-05-06",
+      "description": "17/08/2022 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "id": "5",
+      "title": "Suplente",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "cod_cargo": 9,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/14",
+      "@type": "ParticipanteComissao",
+      "id": "14",
+      "title": "Membro",
+      "comissao": "Comissão de Política Rural e Administração dos Distritos",
+      "cod_cargo": 8,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "id": "25",
+      "title": "Relator",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "cod_cargo": 7,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/5",
+      "@type": "ParticipanteComissao",
+      "id": "5",
+      "title": "Relator",
+      "comissao": "Comissão de Finanças, Orçamento e Tributos",
+      "cod_cargo": 7,
+      "start": "2015-02-05",
+      "end": "2016-12-30",
+      "description": "05/02/2015 a 30/12/2016",
+      "mandato": "Titular"
+    }
+  ],
+  "proposicoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 9457,
+    "items": [
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258819",
+        "id": "258819",
+        "title": "IND 28030/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE a realização de parque santa luzia - revitalização / reforma na Avenida Alípio Abrão, Nº 600, no bairro Santa Luzia, CEP 38408-758.",
+        "data_apresentacao": "04/05/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258818",
+        "id": "258818",
+        "title": "IND 28029/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE a realização de parque santa luzia - revitalização / reforma na Avenida Alípio Abrão, Nº 600, no bairro Santa Luzia, CEP 38408-758.",
+        "data_apresentacao": "04/05/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258815",
+        "id": "258815",
+        "title": "IND 28026/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de sinalização/ implantação/ manutenção de sinalização estatigráfica na Rua Geralda Francisca Borges, ROTATÓRIA RUA TAXISTA FÁBIO CARDOSO, no bairro São Jorge, CEP 38410-178.",
+        "data_apresentacao": "04/05/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258722",
+        "id": "258722",
+        "title": "IND 27941/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de lote / terreno - limpeza / capina / roçagem na Avenida Comendador Alexandrino Garcia, Nº 35, no bairro Marta Helena, CEP 38402-228.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258721",
+        "id": "258721",
+        "title": "IND 27940/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de sinalização - instalação / manutenção de semáforo na Avenida Getúlio Vargas, ROTATÓRIA AVENIDA OLÍMPÍO DE FREITAS, no bairro Jaraguá, CEP 38413-023.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258717",
+        "id": "258717",
+        "title": "IND 27936/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE a realização de árvores e galhos - poda / corte / destocamento/ recolhimento na Rua Ângelo Cunha, POR TODO CANTEIRO, no bairro São Jorge, CEP 38410-206.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258703",
+        "id": "258703",
+        "title": "IND 27933/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de canteiro central - limpeza / capina / roçagem na Rua Ângelo Cunha, POR TODO CANTEIRO, no bairro São Jorge, CEP 38410-206.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258700",
+        "id": "258700",
+        "title": "IND 27930/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Rua Ângelo Cunha, POR TODA EXTENSÃO DA VIA, no bairro São Jorge, CEP 38410-206.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258698",
+        "id": "258698",
+        "title": "IND 27928/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de sinalização/ implantação/ manutenção de sinalização estatigráfica na Rua Ângelo Cunha, POR TODOS OS CRUZAMENTOS, no bairro São Jorge, CEP 38410-206.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258696",
+        "id": "258696",
+        "title": "IND 27926/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de sinalização/ implantação/ manutenção de sinalização estatigráfica na Rua Ângelo Cunha, Nº 128 TRAVESSIA / PARE / FAIXA PEDESTRE, no bairro São Jorge, CEP 38410-206.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "em:emenda",
+          "label": "Emenda",
+          "count": 1
+        },
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 57
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 1557
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 201
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 15
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 62
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 9
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 192
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 7
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 7345
+        },
+        {
+          "value": "substitutivo",
+          "label": "Substitutivo",
+          "count": 3
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 1086
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1726
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 1573
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 1716
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 1505
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 950
+        },
+        {
+          "value": "2016",
+          "label": "2016",
+          "count": 331
+        },
+        {
+          "value": "2015",
+          "label": "2015",
+          "count": 410
+        },
+        {
+          "value": "2014",
+          "label": "2014",
+          "count": 160
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "em:emenda",
+          "label": "Emenda",
+          "count": 1
+        },
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 57
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 1557
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 201
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 15
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 62
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 9
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 192
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 7
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 7345
+        },
+        {
+          "value": "substitutivo",
+          "label": "Substitutivo",
+          "count": 3
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 1086
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1726
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 1573
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 1716
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 1505
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 950
+        },
+        {
+          "value": "2016",
+          "label": "2016",
+          "count": 331
+        },
+        {
+          "value": "2015",
+          "label": "2015",
+          "count": 410
+        },
+        {
+          "value": "2014",
+          "label": "2014",
+          "count": 160
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "IND",
+          "ano": "2014",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2014",
+          "count": 6
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2014",
+          "count": 153
+        },
+        {
+          "tipo": "IND",
+          "ano": "2015",
+          "count": 2
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2015",
+          "count": 13
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2015",
+          "count": 395
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2016",
+          "count": 9
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2016",
+          "count": 322
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2021",
+          "count": 2
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2021",
+          "count": 13
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2021",
+          "count": 6
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2021",
+          "count": 2
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2021",
+          "count": 6
+        },
+        {
+          "tipo": "PL",
+          "ano": "2021",
+          "count": 61
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "PR",
+          "ano": "2021",
+          "count": 3
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2021",
+          "count": 855
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2022",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2022",
+          "count": 53
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2022",
+          "count": 5
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2022",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "ano": "2022",
+          "count": 12
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2022",
+          "count": 1
+        },
+        {
+          "tipo": "PR",
+          "ano": "2022",
+          "count": 2
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2022",
+          "count": 1429
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2023",
+          "count": 60
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2023",
+          "count": 17
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2023",
+          "count": 3
+        },
+        {
+          "tipo": "PL",
+          "ano": "2023",
+          "count": 20
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2023",
+          "count": 3
+        },
+        {
+          "tipo": "PR",
+          "ano": "2023",
+          "count": 3
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2023",
+          "count": 1607
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2024",
+          "count": 24
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2024",
+          "count": 8
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2024",
+          "count": 14
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2024",
+          "count": 11
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2024",
+          "count": 2
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2024",
+          "count": 1510
+        },
+        {
+          "tipo": "substitutivo",
+          "ano": "2024",
+          "count": 2
+        },
+        {
+          "tipo": "em:emenda",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2025",
+          "count": 30
+        },
+        {
+          "tipo": "IND",
+          "ano": "2025",
+          "count": 485
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2025",
+          "count": 39
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2025",
+          "count": 20
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2025",
+          "count": 3
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2025",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "ano": "2025",
+          "count": 86
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2025",
+          "count": 1058
+        },
+        {
+          "tipo": "substitutivo",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2026",
+          "count": 1066
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2026",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2026",
+          "count": 2
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2026",
+          "count": 1
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2026",
+          "count": 16
+        }
+      ]
+    }
+  },
+  "relatorias": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 0,
+    "items": [],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [],
+      "ano": []
+    },
+    "facets": {
+      "tipo": [],
+      "ano": [],
+      "xy": []
+    }
+  },
+  "frequencia": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 906,
+    "items": [
+      {
+        "id": "69407",
+        "sessao_id": "1688",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1688&dat_sessao=04/05/2026",
+        "title": "1ª Reunião Ordinária",
+        "identificacao_sessao": "1ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-04",
+        "data_sessao_br": "04/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69353",
+        "sessao_id": "1686",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1686&dat_sessao=16/04/2026",
+        "title": "10ª Reunião Ordinária",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "10",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69380",
+        "sessao_id": "1687",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1687&dat_sessao=16/04/2026",
+        "title": "5ª Reunião Extraordinária",
+        "identificacao_sessao": "5ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "5",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69299",
+        "sessao_id": "1684",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "title": "9ª Reunião Ordinária",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "9",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69326",
+        "sessao_id": "1685",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "title": "4ª Reunião Extraordinária",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "4",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69245",
+        "sessao_id": "1682",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "title": "8ª Reunião Ordinária",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "8",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69272",
+        "sessao_id": "1683",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "title": "3ª Reunião Extraordinária",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "3",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69191",
+        "sessao_id": "1680",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "title": "7ª Reunião Ordinária",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "7",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69218",
+        "sessao_id": "1681",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1681&dat_sessao=13/04/2026",
+        "title": "2ª Reunião Extraordinária",
+        "identificacao_sessao": "2ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "2",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69164",
+        "sessao_id": "1679",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1679&dat_sessao=10/04/2026",
+        "title": "6ª Reunião Ordinária",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "6",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-10",
+        "data_sessao_br": "10/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "resumo": {
+      "presencas": 395,
+      "ausencias_justificadas": 1,
+      "faltas": 510,
+      "total_sessoes": 906,
+      "frequencia_percentual": 43.71
+    },
+    "facets_select": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 780
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        },
+        {
+          "value": "2016",
+          "label": "2016",
+          "count": 110
+        },
+        {
+          "value": "2015",
+          "label": "2015",
+          "count": 90
+        }
+      ]
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 780
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        },
+        {
+          "value": "2016",
+          "label": "2016",
+          "count": 110
+        },
+        {
+          "value": "2015",
+          "label": "2015",
+          "count": 90
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 3
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 122
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 780
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        },
+        {
+          "value": "2016",
+          "label": "2016",
+          "count": 110
+        },
+        {
+          "value": "2015",
+          "label": "2015",
+          "count": 90
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "1",
+          "ano": "2015",
+          "count": 90
+        },
+        {
+          "tipo": "1",
+          "ano": "2016",
+          "count": 110
+        },
+        {
+          "tipo": "1",
+          "ano": "2021",
+          "count": 109
+        },
+        {
+          "tipo": "2",
+          "ano": "2021",
+          "count": 7
+        },
+        {
+          "tipo": "1",
+          "ano": "2022",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2022",
+          "count": 18
+        },
+        {
+          "tipo": "1",
+          "ano": "2023",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2023",
+          "count": 30
+        },
+        {
+          "tipo": "1",
+          "ano": "2024",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2024",
+          "count": 17
+        },
+        {
+          "tipo": "4",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "1",
+          "ano": "2025",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2025",
+          "count": 32
+        },
+        {
+          "tipo": "3",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "4",
+          "ano": "2025",
+          "count": 2
+        },
+        {
+          "tipo": "1",
+          "ano": "2026",
+          "count": 31
+        },
+        {
+          "tipo": "2",
+          "ano": "2026",
+          "count": 18
+        }
+      ]
+    }
+  },
+  "votacoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 68,
+    "items": [
+      {
+        "cod_materia": 252458,
+        "cod_votacao": "115720",
+        "id": "115720",
+        "title": "PL 1032/2026",
+        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=252458",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-03-13",
+        "data_sessao_br": "13/03/2026",
+        "data_votacao": "2026-03-13",
+        "data_votacao_br": "13/03/2026",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1668&dat_sessao=13/03/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 248159,
+        "cod_votacao": "107469",
+        "id": "107469",
+        "title": "PL 971/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 1.408.120,39 (UM MILHÃO, QUATROCENTOS E OITO MIL, CENTO E VINTE REAIS E TRINTA E NOVE CENTAVOS) E A TRANSFERÊNCIA DE RECURSOS NO VALOR DE R$ 1.408.120,39 (UM MILHÃO, QUATROCENTOS E OITO MIL, CENTO E VINTE REAIS E TRINTA E NOVE CENTAVOS) À ENTIDADE QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=248159",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-02-12",
+        "data_sessao_br": "12/02/2026",
+        "data_votacao": "2026-02-12",
+        "data_votacao_br": "12/02/2026",
+        "identificacao_sessao": "5ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1654&dat_sessao=12/02/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 236202,
+        "cod_votacao": "80364",
+        "id": "80364",
+        "title": "PLC 46/2025",
+        "ementa": "DISPÕE SOBRE O PARCELAMENTO DO SOLO URBANO DO MUNICÍPIO DE UBERLÂNDIA E SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=236202",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2025",
+        "data_sessao": "2025-12-12",
+        "data_sessao_br": "12/12/2025",
+        "data_votacao": "2025-12-12",
+        "data_votacao_br": "12/12/2025",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1636&dat_sessao=12/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 240381,
+        "cod_votacao": "78922",
+        "id": "78922",
+        "title": "PL 829/2025",
+        "ementa": "DISPÕE SOBRE O CONSELHO MUNICIPAL DOS DIREITOS DA MULHER E DO FUNDO MUNICIPAL DOS DIREITOS DA MULHER E REVOGA AS LEIS N.º 11.843, DE 20 DE JUNHO DE 2014 E N.º 11.873, DE 18 DE JUNHO DE 2014, E SUAS ALTERAÇÕES.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=240381",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-10",
+        "data_sessao_br": "10/12/2025",
+        "data_votacao": "2025-12-10",
+        "data_votacao_br": "10/12/2025",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1633&dat_sessao=10/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 240407,
+        "cod_votacao": "78630",
+        "id": "78630",
+        "title": "PLC 52/2025",
+        "ementa": "ALTERA A LEI COMPLEMENTAR Nº 775, DE 13 DE DEZEMBRO DE 2024 E SUAS ALTERAÇÕES, QUE “DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO – IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS PARA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS”",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=240407",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2025",
+        "data_sessao": "2025-12-09",
+        "data_sessao_br": "09/12/2025",
+        "data_votacao": "2025-12-09",
+        "data_votacao_br": "09/12/2025",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1632&dat_sessao=09/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 240381,
+        "cod_votacao": "78632",
+        "id": "78632",
+        "title": "PL 829/2025",
+        "ementa": "DISPÕE SOBRE O CONSELHO MUNICIPAL DOS DIREITOS DA MULHER E DO FUNDO MUNICIPAL DOS DIREITOS DA MULHER E REVOGA AS LEIS N.º 11.843, DE 20 DE JUNHO DE 2014 E N.º 11.873, DE 18 DE JUNHO DE 2014, E SUAS ALTERAÇÕES.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=240381",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-09",
+        "data_sessao_br": "09/12/2025",
+        "data_votacao": "2025-12-09",
+        "data_votacao_br": "09/12/2025",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1632&dat_sessao=09/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 233387,
+        "cod_votacao": "78493",
+        "id": "78493",
+        "title": "PL 679/2025",
+        "ementa": "ESTABELECE O PLANO PLURIANUAL DO MUNICÍPIO DE UBERLÂNDIA PARA O PERÍODO DE 2026 A 2029 E DEFINE AS METAS E PRIORIDADES DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL PARA O EXERCÍCIO DE 2026.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=233387",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-08",
+        "data_sessao_br": "08/12/2025",
+        "data_votacao": "2025-12-08",
+        "data_votacao_br": "08/12/2025",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1630&dat_sessao=08/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 233387,
+        "cod_votacao": "78494",
+        "id": "78494",
+        "title": "PL 679/2025",
+        "ementa": "ESTABELECE O PLANO PLURIANUAL DO MUNICÍPIO DE UBERLÂNDIA PARA O PERÍODO DE 2026 A 2029 E DEFINE AS METAS E PRIORIDADES DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL PARA O EXERCÍCIO DE 2026.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=233387",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-08",
+        "data_sessao_br": "08/12/2025",
+        "data_votacao": "2025-12-08",
+        "data_votacao_br": "08/12/2025",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1630&dat_sessao=08/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 233387,
+        "cod_votacao": "78495",
+        "id": "78495",
+        "title": "PL 679/2025",
+        "ementa": "ESTABELECE O PLANO PLURIANUAL DO MUNICÍPIO DE UBERLÂNDIA PARA O PERÍODO DE 2026 A 2029 E DEFINE AS METAS E PRIORIDADES DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL PARA O EXERCÍCIO DE 2026.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=233387",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-08",
+        "data_sessao_br": "08/12/2025",
+        "data_votacao": "2025-12-08",
+        "data_votacao_br": "08/12/2025",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1630&dat_sessao=08/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 233387,
+        "cod_votacao": "78496",
+        "id": "78496",
+        "title": "PL 679/2025",
+        "ementa": "ESTABELECE O PLANO PLURIANUAL DO MUNICÍPIO DE UBERLÂNDIA PARA O PERÍODO DE 2026 A 2029 E DEFINE AS METAS E PRIORIDADES DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL PARA O EXERCÍCIO DE 2026.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=233387",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025",
+        "data_sessao": "2025-12-08",
+        "data_sessao_br": "08/12/2025",
+        "data_votacao": "2025-12-08",
+        "data_votacao_br": "08/12/2025",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1630&dat_sessao=08/12/2025",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      }
+    ],
+    "resumo": {
+      "voto_sim": 67,
+      "voto_nao": 1,
+      "voto_abstencao": 0
+    },
+    "filters": {
+      "tipo": "",
+      "voto": "",
+      "voto_desc": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 9
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 59
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 67
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 1
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 9
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 59
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 67
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 1
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PL",
+          "voto": "nao",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "voto": "sim",
+          "count": 58
+        },
+        {
+          "tipo": "PLC",
+          "voto": "sim",
+          "count": 9
+        }
+      ]
+    }
+  }
 }

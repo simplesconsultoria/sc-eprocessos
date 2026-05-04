@@ -1,0 +1,89 @@
+{
+  "@id": "/@@sessoes/id/1574/votacao",
+  "@type": "votacaoNominal",
+  "description": "3ª Reunião Ordinária – 05/08/2025",
+  "items": [
+    {
+      "@id": "/@@materias/206800",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "552091",
+          "primeiro_autor": true,
+          "title": "Dr. Igino"
+        }
+      ],
+      "contrario": 0,
+      "description": "DISPÕE SOBRE A OBRIGATORIEDADE DE AFIXAÇÃO DE CARTAZ INFORMATIVO SOBRE A VIGÊNCIA DA LEI Nº 14.443, DE 02 DE SETEMBRO DE 2022, QUE TRATA DOS CRITÉRIOS PARA A REALIZAÇÃO DE ESTERILIZAÇÃO VOLUNTÁRIA DE HOMENS E MULHERES",
+      "favoravel": 0,
+      "id": "206800",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 170/2025",
+      "turno": "Apreciar veto",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [
+        {
+          "resultado": "Aprovado em 2ª Discussão"
+        }
+      ],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [
+        {
+          "resultado": "Aprovado em 2ª Discussão"
+        }
+      ],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    }
+  ],
+  "title": "Lista de votação nominal"
+}

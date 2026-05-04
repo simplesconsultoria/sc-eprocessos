@@ -1,0 +1,150 @@
+{
+  "@id": "/@@materias/216155",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-22",
+  "description": "Solicitação urgente de sinalização viária – Região da Av. Alípio Abraão e vias -  Instalação de sinalização viária nas seguintes vias localizadas na região do Parque. Visando à segurança de motoristas, pedestres e frequentadores do local:\r\n\r\nCruzamento das ruas Abadio Bonifácio e Angelino Favato\r\n\r\nNecessidade de placas de trânsito e sinalização horizontal (faixas de parada, faixas de pedestre etc.).\r\n\r\nCruzamento das ruas Jurandir André com São Simão e com Geraldo Abraão\r\n\r\nSinalização urgente para redução de velocidade e orientação adequada aos condutores.\r\n\r\nAv. Cornélio Arantes nos cruzamentos com Alípio Abraão, Geraldo Abraão e Angelino Favato\r\n\r\nAs quatro esquinas são de mão dupla, com alto fluxo e velocidade e sem qualquer tipo de sinalização atual.\r\n\r\nRelatos indicam que acidentes ocorrem quase diariamente, especialmente na Avenida Alípio Abraão, o que justifica a urgência.\r\n\r\nAv. Alípio Abraão (principal via da região)\r\n\r\nInstalação de placas de advertência como “Devagar – Pedestres”, “Área Escolar”, “Reduza a Velocidade” e outras que se julgarem adequadas para garantir a segurança de quem utiliza o local, inclusive frequentadores do Parque.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/216155_texto_integral.pdf",
+      "filename": "216155_texto_integral.pdf",
+      "size": "71.6 KB"
+    }
+  ],
+  "id": "216155",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-05 14:20:22",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/604458_tram.pdf",
+          "filename": "604458_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-05 14:18:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/602476_tram.pdf",
+          "filename": "602476_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-05 11:02:47",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/596483_tram.pdf",
+          "filename": "596483_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-28 12:51:11",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/594101_tram.pdf",
+          "filename": "594101_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-22 09:19:28",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 21/04/2025 13:25:49. Matéria incorporada em 22/04/2025 09:19:28 sob protocolo nº 11617/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/592934_tram.pdf",
+          "filename": "592934_tram.pdf",
+          "size": "22.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "11617/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=216155",
+  "substitute": [],
+  "title": "Requerimento nº 10771/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1536",
+      "cod_ordem": 246952,
+      "cod_sessao_plen": 1536,
+      "date": "2025-05-05",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1536&cod_ordem=246952&cod_materia=216155&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

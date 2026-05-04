@@ -11,21 +11,12 @@
       "@type": "Vereador",
       "cod_autor": "25988",
       "description": "Adriano Zago",
-      "id": "25988",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
-          "filename": "25988_foto_parlamentar",
-          "height": 350,
-          "size": 217172,
-          "width": 350
-        }
-      ],
+      "id": 25988,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Adriano Zago",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar",
       "votos": 0
     },
     {
@@ -33,7 +24,7 @@
       "@type": "Vereador",
       "cod_autor": "530607",
       "description": "Airton Pinhal",
-      "id": "530607",
+      "id": 530607,
       "image": [],
       "mandato": "Suplente",
       "partido": [],
@@ -46,7 +37,7 @@
       "@type": "Vereador",
       "cod_autor": "25986",
       "description": "Alexandre Nogueira",
-      "id": "25986",
+      "id": 25986,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -64,7 +55,7 @@
       "@type": "Vereador",
       "cod_autor": "527862",
       "description": "Amado Júnior",
-      "id": "527862",
+      "id": 527862,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -82,17 +73,8 @@
       "@type": "Vereador",
       "cod_autor": "399041",
       "description": "Antônio Carrijo",
-      "id": "399041",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
-          "filename": "399041_foto_parlamentar",
-          "height": 350,
-          "size": 205422,
-          "width": 350
-        }
-      ],
+      "id": 399041,
+      "image": [],
       "mandato": "Titular",
       "partido": [
         {
@@ -101,7 +83,7 @@
         }
       ],
       "title": "Antônio Carrijo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/399041_foto_parlamentar",
       "votos": 0
     },
     {
@@ -109,7 +91,7 @@
       "@type": "Vereador",
       "cod_autor": "503920",
       "description": "Araujo",
-      "id": "503920",
+      "id": 503920,
       "image": [],
       "mandato": "Suplente",
       "partido": [
@@ -127,7 +109,7 @@
       "@type": "Vereador",
       "cod_autor": "399018",
       "description": "Baiano",
-      "id": "399018",
+      "id": 399018,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -145,7 +127,7 @@
       "@type": "Vereador",
       "cod_autor": "527865",
       "description": "Bozó",
-      "id": "527865",
+      "id": 527865,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -163,7 +145,7 @@
       "@type": "Vereador",
       "cod_autor": "430280",
       "description": "Ceará",
-      "id": "430280",
+      "id": 430280,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -181,21 +163,12 @@
       "@type": "Vereador",
       "cod_autor": "527863",
       "description": "Charlie Manzi Fernandes",
-      "id": "527863",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/527863_foto_parlamentar",
-          "filename": "527863_foto_parlamentar",
-          "height": 350,
-          "size": 149184,
-          "width": 350
-        }
-      ],
+      "id": 527863,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Charles Charlão",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/527863_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/527863_foto_parlamentar",
       "votos": 0
     },
     {
@@ -203,7 +176,7 @@
       "@type": "Vereador",
       "cod_autor": "527864",
       "description": "Cleyton César",
-      "id": "527864",
+      "id": 527864,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -216,7 +189,7 @@
       "@type": "Vereador",
       "cod_autor": "417287",
       "description": "Delfino Rodrigues",
-      "id": "417287",
+      "id": 417287,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -234,7 +207,7 @@
       "@type": "Vereador",
       "cod_autor": "26012",
       "description": "Doca Mastroiano",
-      "id": "26012",
+      "id": 26012,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -252,7 +225,7 @@
       "@type": "Vereador",
       "cod_autor": "430273",
       "description": "Dra. Jussara",
-      "id": "430273",
+      "id": 430273,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -270,21 +243,12 @@
       "@type": "Vereador",
       "cod_autor": "526697",
       "description": "Ednaldo Régio de Lima",
-      "id": "526697",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
-          "filename": "526697_foto_parlamentar",
-          "height": 350,
-          "size": 223533,
-          "width": 350
-        }
-      ],
+      "id": 526697,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Sargento Ednaldo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/526697_foto_parlamentar",
       "votos": 0
     },
     {
@@ -292,17 +256,8 @@
       "@type": "Vereador",
       "cod_autor": "527981",
       "description": "Eduardo Moraes",
-      "id": "527981",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
-          "filename": "527981_foto_parlamentar",
-          "height": 350,
-          "size": 136492,
-          "width": 350
-        }
-      ],
+      "id": 527981,
+      "image": [],
       "mandato": "Titular",
       "partido": [
         {
@@ -311,7 +266,7 @@
         }
       ],
       "title": "Eduardo Moraes",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/527981_foto_parlamentar",
       "votos": 0
     },
     {
@@ -319,7 +274,7 @@
       "@type": "Vereador",
       "cod_autor": "430274",
       "description": "Felipe Felps",
-      "id": "430274",
+      "id": 430274,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -337,7 +292,7 @@
       "@type": "Vereador",
       "cod_autor": "390030",
       "description": "Flávia Carvalho",
-      "id": "390030",
+      "id": 390030,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -355,17 +310,8 @@
       "@type": "Vereador",
       "cod_autor": "26010",
       "description": "Gláucia Galante Buíssa",
-      "id": "26010",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
-          "filename": "26010_foto_parlamentar",
-          "height": 350,
-          "size": 182275,
-          "width": 350
-        }
-      ],
+      "id": 26010,
+      "image": [],
       "mandato": "Titular",
       "partido": [
         {
@@ -374,15 +320,15 @@
         }
       ],
       "title": "Gláucia da Saúde",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
-      "votos": "3147"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/26010_foto_parlamentar",
+      "votos": 3147
     },
     {
       "@id": "/@@vereadores/530545",
       "@type": "Vereador",
       "cod_autor": "530545",
       "description": "Guilherme Miranda",
-      "id": "530545",
+      "id": 530545,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -395,7 +341,7 @@
       "@type": "Vereador",
       "cod_autor": "26006",
       "description": "Isac Cruz",
-      "id": "26006",
+      "id": 26006,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -408,7 +354,7 @@
       "@type": "Vereador",
       "cod_autor": "25983",
       "description": "Ismar Prado",
-      "id": "25983",
+      "id": 25983,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -426,7 +372,7 @@
       "@type": "Vereador",
       "cod_autor": "25985",
       "description": "Juliano Modesto",
-      "id": "25985",
+      "id": 25985,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -444,21 +390,12 @@
       "@type": "Vereador",
       "cod_autor": "526698",
       "description": "Leandro Cassiano Neves",
-      "id": "526698",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
-          "filename": "526698_foto_parlamentar",
-          "height": 350,
-          "size": 155775,
-          "width": 350
-        }
-      ],
+      "id": 526698,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Leandro Neves",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/526698_foto_parlamentar",
       "votos": 0
     },
     {
@@ -466,21 +403,12 @@
       "@type": "Vereador",
       "cod_autor": "399022",
       "description": "Liza Fernandes Prado",
-      "id": "399022",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
-          "filename": "399022_foto_parlamentar",
-          "height": 350,
-          "size": 242980,
-          "width": 350
-        }
-      ],
+      "id": 399022,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Liza Prado",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/399022_foto_parlamentar",
       "votos": 0
     },
     {
@@ -488,7 +416,7 @@
       "@type": "Vereador",
       "cod_autor": "527866",
       "description": "Magoo",
-      "id": "527866",
+      "id": 527866,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -506,7 +434,7 @@
       "@type": "Vereador",
       "cod_autor": "526378",
       "description": "Marcelo Cunha",
-      "id": "526378",
+      "id": 526378,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -519,7 +447,7 @@
       "@type": "Vereador",
       "cod_autor": "25982",
       "description": "Marcio Nobre",
-      "id": "25982",
+      "id": 25982,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -537,7 +465,7 @@
       "@type": "Vereador",
       "cod_autor": "26015",
       "description": "Michele Bretas",
-      "id": "26015",
+      "id": 26015,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -555,7 +483,7 @@
       "@type": "Vereador",
       "cod_autor": "528166",
       "description": "Mineia do Glória",
-      "id": "528166",
+      "id": 528166,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -568,7 +496,7 @@
       "@type": "Vereador",
       "cod_autor": "448132",
       "description": "Misac Lacerda",
-      "id": "448132",
+      "id": 448132,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -586,21 +514,12 @@
       "@type": "Vereador",
       "cod_autor": "448134",
       "description": "Murilo Ferreira",
-      "id": "448134",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/448134_foto_parlamentar",
-          "filename": "448134_foto_parlamentar",
-          "height": 350,
-          "size": 154944,
-          "width": 350
-        }
-      ],
+      "id": 448134,
+      "image": [],
       "mandato": "Suplente",
       "partido": [],
       "title": "Murilo Ferreira",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/448134_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/448134_foto_parlamentar",
       "votos": 0
     },
     {
@@ -608,21 +527,12 @@
       "@type": "Vereador",
       "cod_autor": "527867",
       "description": "Odair José",
-      "id": "527867",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/527867_foto_parlamentar",
-          "filename": "527867_foto_parlamentar",
-          "height": 350,
-          "size": 149804,
-          "width": 350
-        }
-      ],
+      "id": 527867,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Odair José",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/527867_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/527867_foto_parlamentar",
       "votos": 0
     },
     {
@@ -630,7 +540,7 @@
       "@type": "Vereador",
       "cod_autor": "430279",
       "description": "Pamela Volp",
-      "id": "430279",
+      "id": 430279,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -648,7 +558,7 @@
       "@type": "Vereador",
       "cod_autor": "430275",
       "description": "Pastor Átila",
-      "id": "430275",
+      "id": 430275,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -666,7 +576,7 @@
       "@type": "Vereador",
       "cod_autor": "430281",
       "description": "Paulo César - PC",
-      "id": "430281",
+      "id": 430281,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -684,7 +594,7 @@
       "@type": "Vereador",
       "cod_autor": "527860",
       "description": "Prof. Edilson Graciolli",
-      "id": "527860",
+      "id": 527860,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -702,7 +612,7 @@
       "@type": "Vereador",
       "cod_autor": "430276",
       "description": "Ricardo Santos",
-      "id": "430276",
+      "id": 430276,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -720,7 +630,7 @@
       "@type": "Vereador",
       "cod_autor": "25987",
       "description": "Rodi Borges",
-      "id": "25987",
+      "id": 25987,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -738,7 +648,7 @@
       "@type": "Vereador",
       "cod_autor": "430271",
       "description": "Roger Dantas",
-      "id": "430271",
+      "id": 430271,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -756,7 +666,7 @@
       "@type": "Vereador",
       "cod_autor": "430278",
       "description": "Ronaldo Alves",
-      "id": "430278",
+      "id": 430278,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -774,21 +684,12 @@
       "@type": "Vereador",
       "cod_autor": "528006",
       "description": "Ronaldo César Vilela Tannús",
-      "id": "528006",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
-          "filename": "528006_foto_parlamentar",
-          "height": 350,
-          "size": 219680,
-          "width": 350
-        }
-      ],
+      "id": 528006,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Ronaldo Tannús",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/528006_foto_parlamentar",
       "votos": 0
     },
     {
@@ -796,21 +697,12 @@
       "@type": "Vereador",
       "cod_autor": "528007",
       "description": "Sergimar Antonio de Melo",
-      "id": "528007",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
-          "filename": "528007_foto_parlamentar",
-          "height": 350,
-          "size": 159012,
-          "width": 350
-        }
-      ],
+      "id": 528007,
+      "image": [],
       "mandato": "Titular",
       "partido": [],
       "title": "Sérgio do Bom Preço",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/528007_foto_parlamentar",
       "votos": 0
     },
     {
@@ -818,7 +710,7 @@
       "@type": "Vereador",
       "cod_autor": "26009",
       "description": "Silesio Miranda",
-      "id": "26009",
+      "id": 26009,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -836,7 +728,7 @@
       "@type": "Vereador",
       "cod_autor": "430277",
       "description": "Thiago Fernandes",
-      "id": "430277",
+      "id": 430277,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -854,7 +746,7 @@
       "@type": "Vereador",
       "cod_autor": "528105",
       "description": "Tunico",
-      "id": "528105",
+      "id": 528105,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -867,7 +759,7 @@
       "@type": "Vereador",
       "cod_autor": "26016",
       "description": "Vico",
-      "id": "26016",
+      "id": 26016,
       "image": [],
       "mandato": "Titular",
       "partido": [
@@ -885,7 +777,7 @@
       "@type": "Vereador",
       "cod_autor": "26000",
       "description": "Vilmar Resende",
-      "id": "26000",
+      "id": 26000,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -898,17 +790,8 @@
       "@type": "Vereador",
       "cod_autor": "526015",
       "description": "Walquir Cleuton do Amaral",
-      "id": "526015",
-      "image": [
-        {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526015_foto_parlamentar",
-          "filename": "526015_foto_parlamentar",
-          "height": 350,
-          "size": 158489,
-          "width": 350
-        }
-      ],
+      "id": 526015,
+      "image": [],
       "mandato": "Titular",
       "partido": [
         {
@@ -917,7 +800,7 @@
         }
       ],
       "title": "Walquir Amaral",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526015_foto_parlamentar",
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/526015_foto_parlamentar",
       "votos": 0
     },
     {
@@ -925,7 +808,7 @@
       "@type": "Vereador",
       "cod_autor": "430161",
       "description": "Wender Marques",
-      "id": "430161",
+      "id": 430161,
       "image": [],
       "mandato": "Titular",
       "partido": [],
@@ -938,7 +821,7 @@
       "@type": "Vereador",
       "cod_autor": "26001",
       "description": "Wilson Pinheiro",
-      "id": "26001",
+      "id": 26001,
       "image": [],
       "mandato": "Titular",
       "partido": [

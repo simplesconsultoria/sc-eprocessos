@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/206159",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Nei Borges (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-01-31",
+  "description": "Solicitamos a realização de tapa-buracos nas seguintes vias:\r\nBairro Planalto:\r\n\r\nAvenida Dimas Machado (toda a extensão)\r\nRua do Marceneiro (toda a extensão)\r\nRua do Cinegrafista, esquina com a Rua da Secretaria\r\nRua do Estudante (toda a extensão)\r\n\r\nBairro Santo Inácio:\r\n\r\nRua do Motorista, em frente ao número 949",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/206159_texto_integral.pdf",
+      "filename": "206159_texto_integral.pdf",
+      "size": "826.9 KB"
+    }
+  ],
+  "id": "206159",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-04 14:17:22",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/548142_tram.pdf",
+          "filename": "548142_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-03 15:51:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/541115_tram.pdf",
+          "filename": "541115_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-01-31 12:29:02",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534787_tram.pdf",
+          "filename": "534787_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-01-31 10:39:26",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 31/01/2025 10:22:44. Matéria incorporada em 31/01/2025 10:39:26 sob protocolo nº 1698/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/534629_tram.pdf",
+          "filename": "534629_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "1698/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=206159",
+  "substitute": [],
+  "title": "Requerimento nº 1523/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1497",
+      "cod_ordem": 236759,
+      "cod_sessao_plen": 1497,
+      "date": "2025-02-03",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1497&cod_ordem=236759&cod_materia=206159&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

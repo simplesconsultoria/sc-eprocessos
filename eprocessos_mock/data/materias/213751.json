@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/213751",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-01",
+  "description": "PARA QUE FAÇA ESTUDO TÉCNICO DE VIABILIDADE PARA IMPLANTAÇÃO DE REDUTOR DE VELOCIDADE (TRAVESSIA ELEVADA OU QUEBRA-MOLAS) NA RUA CAMPOS SÁLES, NÚMERO 514, BAIRR TUBALINA.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/213751_texto_integral.pdf",
+      "filename": "213751_texto_integral.pdf",
+      "size": "118.9 KB"
+    }
+  ],
+  "id": "213751",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-02 13:00:17",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/584724_tram.pdf",
+          "filename": "584724_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-02 11:59:06",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/584496_tram.pdf",
+          "filename": "584496_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-01 13:23:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/580650_tram.pdf",
+          "filename": "580650_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-01 12:59:19",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 01/04/2025 10:51:05. Matéria incorporada em 01/04/2025 12:59:19 sob protocolo nº 9238/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/580448_tram.pdf",
+          "filename": "580448_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "9238/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=213751",
+  "substitute": [],
+  "title": "Requerimento nº 8536/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1524",
+      "cod_ordem": 244273,
+      "cod_sessao_plen": 1524,
+      "date": "2025-04-02",
+      "description": "Expediente da 2ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1524&cod_ordem=244273&cod_materia=213751&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

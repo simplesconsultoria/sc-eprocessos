@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/256983",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Janaina Guimarães (PL)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-13",
+  "description": "aplicação de frieza asfáltica – Linha de ônibus – Setor Chácara/Parque das Andorinhas \r\n•\tRua 2\r\n•\tRua 3\r\n•\tAvenida das Andorinhas\r\n•\tAvenida Marimbondos\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/256983_texto_integral.pdf",
+      "filename": "256983_texto_integral.pdf",
+      "size": "627.5 KB"
+    }
+  ],
+  "id": "256983",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-04-14 13:25:33",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/788622_tram.pdf",
+          "filename": "788622_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-14 12:28:17",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/788412_tram.pdf",
+          "filename": "788412_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-13 13:55:35",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/788179_tram.pdf",
+          "filename": "788179_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-13 12:36:53",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 13/04/2026 09:16:43. Matéria incorporada em 13/04/2026 12:36:53 sob protocolo nº 14567/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/787434_tram.pdf",
+          "filename": "787434_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "14567/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=256983",
+  "substitute": [],
+  "title": "Requerimento nº 20956/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1682",
+      "cod_ordem": 306185,
+      "cod_sessao_plen": 1682,
+      "date": "2026-04-14",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1682&cod_ordem=306185&cod_materia=256983&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

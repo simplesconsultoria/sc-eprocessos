@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1525",
+  "@id_presenca": "/@@sessoes/id/1525/presenca",
+  "@id_votacao": "/@@sessoes/id/1525/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1525_ata_sessao.pdf",
+      "filename": "1525_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-04-02",
+  "description": "1ª Reunião Extraordinária - 02/04/2025",
+  "endTime": "",
+  "id": "1525",
+  "pauta": [],
+  "startTime": "11:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

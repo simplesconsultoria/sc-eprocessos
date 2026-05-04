@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/219230",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Jair Ferraz (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-14",
+  "description": "REALIZAR UM ESTUDO DE VIABILIADE TÉCNICA PARA INSTALAÇÃO DE TRAVESSIA ELEVADA / REDUTOR DE VELOCIDADE NO SEGUINTE ENDEREÇO: RUA DA CEREJA, EM FRENTE AO N° 337, BAIRRO: PACAEMBU (EM FRENTE AO BRINQUEDO DA PRAÇA VIRGÍLIO RODRIGUES DA CUNHA NETO) ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/219230_texto_integral.pdf",
+      "filename": "219230_texto_integral.pdf",
+      "size": "71.1 KB"
+    }
+  ],
+  "id": "219230",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-16 14:22:45",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615935_tram.pdf",
+          "filename": "615935_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-16 13:44:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615583_tram.pdf",
+          "filename": "615583_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-15 14:08:54",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615231_tram.pdf",
+          "filename": "615231_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-14 17:05:05",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 14/05/2025 14:10:48. Matéria incorporada em 14/05/2025 17:05:05 sob protocolo nº 14668/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/614587_tram.pdf",
+          "filename": "614587_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "14668/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=219230",
+  "substitute": [],
+  "title": "Requerimento nº 13671/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1546",
+      "cod_ordem": 250400,
+      "cod_sessao_plen": 1546,
+      "date": "2025-05-16",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1546&cod_ordem=250400&cod_materia=219230&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

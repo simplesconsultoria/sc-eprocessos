@@ -1,0 +1,177 @@
+{
+  "@id": "/@@materias/209931",
+  "@type": "Materia",
+  "accessoryDocument": [
+    {
+      "authorship": "Fabio Dias Queiroz Zavitoski",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 209931,
+      "date": "2025-03-06 08:47:46",
+      "description": "Juntada de Documento",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/1036.pdf",
+          "filename": "1036.pdf",
+          "size": "964.2 KB"
+        }
+      ],
+      "id": "1036",
+      "odtDownload": null,
+      "title": "Anexo LGPD"
+    }
+  ],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão (PV)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-28",
+  "description": "25892/2025. Solicitação de agilidade em atendimento odontológico para J. E. S.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/209931_texto_integral.pdf",
+      "filename": "209931_texto_integral.pdf",
+      "size": "73.3 KB"
+    }
+  ],
+  "id": "209931",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-10 15:26:06",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/565680_tram.pdf",
+          "filename": "565680_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-10 11:55:26",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/563185_tram.pdf",
+          "filename": "563185_tram.pdf",
+          "size": "21.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-07 10:00:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/560746_tram.pdf",
+          "filename": "560746_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-06 08:47:56",
+      "deadline": null,
+      "description": "<p>Anexo LGPD anexado em 06/03/2025 às 08:47</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/560142_tram.pdf",
+          "filename": "560142_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Juntada - Documento"
+    },
+    {
+      "date": "2025-02-28 10:45:03",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 28/02/2025 10:32:59. Matéria incorporada em 28/02/2025 10:45:03 sob protocolo nº 5442/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/560113_tram.pdf",
+          "filename": "560113_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "5442/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=209931",
+  "signedProposition": {
+    "checksum": "P3700988483/25994",
+    "cod_proposicao": 25994,
+    "download": "/@@sapl_documentos_download?path=proposicao/25994_signed.pdf",
+    "filename": "25994_signed.pdf"
+  },
+  "substitute": [],
+  "title": "Requerimento nº 5021/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1512",
+      "cod_ordem": 240402,
+      "cod_sessao_plen": 1512,
+      "date": "2025-03-10",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1512&cod_ordem=240402&cod_materia=209931&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

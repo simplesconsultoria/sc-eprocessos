@@ -1,0 +1,153 @@
+{
+  "@id": "/@@materias/211756",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "attachedTo": [
+    {
+      "@id": "/@@materias/204496",
+      "@type": "Materia",
+      "description": "DISPÕE SOBRE A OBRIGATORIEDADE DA AFIXAÇÃO DO COMPROVANTE DE CAPACITAÇÃO TÉCNICA DOS PROFISSIONAIS TOSADORES E BANHISTAS NOS ESTABELECIMENTOS QUE PROMOVAM O SERVIÇO DE ESTÉTICA E OU HIGIENIZAÇÃO PARA ANIMAIS DOMÉSTICOS NO MUNICÍPIO DE UBERLÂNDIA",
+      "id": "204496",
+      "isVeto": false,
+      "title": "Projeto de Lei Ordinária nº 28/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-18",
+  "description": "com fulcro no caput art.  172 do Regimento interno venho requerer que o Projeto de Lei Ordinária nº 28/2025 - DISPÕE SOBRE A OBRIGATORIEDADE DA AFIXAÇÃO DO COMPROVANTE DE CAPACITAÇÃO TÉCNICA DOS PROFISSIONAIS TOSADORES E BANHISTAS NOS ESTABELECIMENTOS QUE PROMOVAM O SERVIÇO DE ESTÉTICA E OU HIGIENIZAÇÃO PARA ANIMAIS DOMÉSTICOS NO MUNICÍPIO DE UBERLÂNDIA, seja apreciado pelo plenário. \r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/211756_texto_integral.pdf",
+      "filename": "211756_texto_integral.pdf",
+      "size": "1.2 MB"
+    }
+  ],
+  "id": "211756",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-19 13:01:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/572308_tram.pdf",
+          "filename": "572308_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-19 10:37:46",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/571952_tram.pdf",
+          "filename": "571952_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-18 14:27:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/571591_tram.pdf",
+          "filename": "571591_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-18 13:28:53",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 18/03/2025 09:09:02. Matéria incorporada em 18/03/2025 13:28:53 sob protocolo nº 7260/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/571317_tram.pdf",
+          "filename": "571317_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "7260/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=211756",
+  "substitute": [],
+  "title": "Requerimento nº 6707/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1519",
+      "cod_ordem": 242358,
+      "cod_sessao_plen": 1519,
+      "date": "2025-03-19",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1519&cod_ordem=242358&cod_materia=211756&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/217623",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-06",
+  "description": "PARA QUE FAÇA ESTUDO TÉCNICO DE VIABILIDADE PARA IMPLANTAÇÃO DE REDUTOR DE VELOCIDADE (TRAVESSIA ELEVADA OU QUEBRA-MOLAS) NA RUA SÃO FRANCISCO DE ASSIS, NÚMERO 903, BAIRRO LAGOINHA.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/217623_texto_integral.pdf",
+      "filename": "217623_texto_integral.pdf",
+      "size": "68.6 KB"
+    }
+  ],
+  "id": "217623",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-07 13:26:07",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/607523_tram.pdf",
+          "filename": "607523_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-07 11:02:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/607133_tram.pdf",
+          "filename": "607133_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-06 14:15:17",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/606830_tram.pdf",
+          "filename": "606830_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-06 12:37:11",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 05/05/2025 15:37:45. Matéria incorporada em 06/05/2025 12:37:11 sob protocolo nº 13083/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/606117_tram.pdf",
+          "filename": "606117_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "13083/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=217623",
+  "substitute": [],
+  "title": "Requerimento nº 12190/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1538",
+      "cod_ordem": 248385,
+      "cod_sessao_plen": 1538,
+      "date": "2025-05-07",
+      "description": "Expediente da 3ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1538&cod_ordem=248385&cod_materia=217623&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

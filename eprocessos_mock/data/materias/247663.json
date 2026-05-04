@@ -8,47 +8,47 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Prof. Conrado Augusto"
+      "title": "Prof. Conrado Augusto (MDB)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Abatenio Marquez"
+      "title": "Abatenio Marquez (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Adriano Zago"
+      "title": "Adriano Zago (AVANTE)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Amanda Gondim"
+      "title": "Amanda Gondim (PSB)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Dr. Igino"
+      "title": "Dr. Igino (PT)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Fabão"
+      "title": "Fabão (PV)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Gláucia da Saúde"
+      "title": "Gláucia da Saúde (PL)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Janaina Guimarães"
+      "title": "Janaina Guimarães (PL)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Prof. Ronaldo"
+      "title": "Prof. Ronaldo (PT)"
     }
   ],
   "committeeOpinion": [],
@@ -57,24 +57,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/247663_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/247663_texto_integral.pdf",
       "filename": "247663_texto_integral.pdf",
-      "size": ""
+      "size": "2.7 MB"
     }
   ],
   "id": "247663",
   "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-02-09 14:55:28",
-      "description": "&lt;p&gt;Aguardando em atendimento ao Art. 109 do Regimento Interno - Requerimentos n&amp;ordm;s 20506, 20518, 20519 e 20520/25.&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Aguardando em atendimento ao Art. 109 do Regimento Interno - Requerimentos n&ordm;s 20506, 20518, 20519 e 20520/25.</p>",
       "destinationUnit": "Seção de Apoio às Comissões",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/744628_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/744628_tram.pdf",
           "filename": "744628_tram.pdf",
-          "size": ""
+          "size": "21.7 KB"
         }
       ],
       "last": true,
@@ -83,14 +91,15 @@
     },
     {
       "date": "2026-02-09 14:54:40",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 16:49:53. Matéria incorporada em 09/02/2026 14:54:40 sob protocolo nº 5487/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/02/2026 16:49:53. Matéria incorporada em 09/02/2026 14:54:40 sob protocolo nº 5487/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/744627_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/744627_tram.pdf",
           "filename": "744627_tram.pdf",
-          "size": ""
+          "size": "21.8 KB"
         }
       ],
       "last": false,
@@ -100,6 +109,7 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "5487/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247663",

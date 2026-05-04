@@ -1,0 +1,80 @@
+{
+  "@id": "/@@materias/258835",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Dr. Igino (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-05-04",
+  "description": "Solicita a realização de patrolamento nas vias do Assentamento Bom Jesus, visando melhorar as condições de tráfego e garantir mais segurança e mobilidade aos moradores.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/258835_texto_integral.pdf",
+      "filename": "258835_texto_integral.pdf",
+      "size": "571.6 KB"
+    }
+  ],
+  "id": "258835",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processNumber": "20981/2026",
+  "processing": [
+    {
+      "date": "2026-05-04 12:50:05",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/793092_tram.pdf",
+          "filename": "793092_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-05-04 11:40:40",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/05/2026 08:30:01. Matéria incorporada em 04/05/2026 11:40:39 sob protocolo nº 16399/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/792983_tram.pdf",
+          "filename": "792983_tram.pdf",
+          "size": "19.1 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "16399/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=258835",
+  "substitute": [],
+  "title": "Requerimento nº 20981/2026",
+  "voteResult": []
+}

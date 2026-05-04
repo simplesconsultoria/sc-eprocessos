@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18311",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-08-20",
+  "data_publicacao": "2025-08-20",
+  "description": "INSTITUI AS ZONAS DE URBANIZAÇÃO ESPECÍFICA PARA REGULARIZAÇÃO FUNDIÁRIA, E ALTERA AS LEIS COMPLEMENTARES NºS 525, DE 14 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, 523, DE 7 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, E 790, DE 21 DE MAIO DE 2025.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18311&texto_original=1",
+      "filename": "18311_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "1.1 MB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 800, de 20/08/2025",
+  "id": "18311",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18311&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/228662",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "INSTITUI AS ZONAS DE URBANIZAÇÃO ESPECÍFICA PARA REGULARIZAÇÃO FUNDIÁRIA, E ALTERA AS LEIS COMPLEMENTARES NºS 525, DE 14 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, 523, DE 7 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, E 790, DE 21 DE MAIO DE 2025.",
+      "id": "228662",
+      "remoteUrl": "/@@pasta_digital?cod_materia=228662",
+      "title": "Projeto de Lei Complementar nº 36/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjI4NjYy"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNICÍPIO "
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 800/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-08-20",
+    "dataPromulgacaoBR": "20/08/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 800, de 20/08/2025",
+    "numNorma": 800,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "INSTITUI AS ZONAS DE URBANIZAÇÃO ESPECÍFICA PARA REGULARIZAÇÃO FUNDIÁRIA, E ALTERA AS LEIS COMPLEMENTARES NºS 525, DE 14 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, 523, DE 7 DE ABRIL DE 2011, E SUAS ALTERAÇÕES, E 790, DE 21 DE MAIO DE 2025.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18311",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18311",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNICÍPIO "
+}

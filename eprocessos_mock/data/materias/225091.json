@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/225091",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-04",
+  "description": "Solicitação para devidas providências urgentes quanto a vazamento de água localizado na Rua João Rodrigues Queiróz Filho, em frente ao número 1114, no bairro Santa Mônica.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/225091_texto_integral.pdf",
+      "filename": "225091_texto_integral.pdf",
+      "size": "187.6 KB"
+    }
+  ],
+  "id": "225091",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-07 13:01:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641673_tram.pdf",
+          "filename": "641673_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-07 10:23:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641384_tram.pdf",
+          "filename": "641384_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-04 15:11:50",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/641020_tram.pdf",
+          "filename": "641020_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-04 14:53:02",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/07/2025 09:19:03. Matéria incorporada em 04/07/2025 14:53:02 sob protocolo nº 20472/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/640738_tram.pdf",
+          "filename": "640738_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "20472/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=225091",
+  "substitute": [],
+  "title": "Requerimento nº 19101/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1564",
+      "cod_ordem": 256702,
+      "cod_sessao_plen": 1564,
+      "date": "2025-07-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1564&cod_ordem=256702&cod_materia=225091&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

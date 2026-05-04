@@ -1,0 +1,157 @@
+{
+  "@id": "/@@materias/218404",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/212967",
+      "@type": "Materia",
+      "annexationDate": "2025-05-09",
+      "description": "ACRESCENTA DISPOSITIVOS NO ART. 3º DA RESOLUÇÃO 061, DE 02 DE DEZEMBRO DE 2005, QUE DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL.",
+      "id": "212967",
+      "title": "Projeto de Resolução nº 1/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-09",
+  "description": "com fulcro no caput Art. 172, Regimento Interno - Projeto de Resolução nº 1/2025 - ACRESCENTA DISPOSITIVOS NO ART. 3º DA RESOLUÇÃO 061, DE 02 DE DEZEMBRO DE 2005, QUE DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL, seja apreciado pelo plenário. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/218404_texto_integral.pdf",
+      "filename": "218404_texto_integral.pdf",
+      "size": "1 MB"
+    }
+  ],
+  "id": "218404",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-09 14:07:57",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/609513_tram.pdf",
+          "filename": "609513_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-09 12:13:37",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/609409_tram.pdf",
+          "filename": "609409_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-09 08:09:09",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/609025_tram.pdf",
+          "filename": "609025_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-09 07:44:19",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/05/2025 11:17:37. Matéria incorporada em 09/05/2025 07:44:19 sob protocolo nº 13853/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/608919_tram.pdf",
+          "filename": "608919_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "13853/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=218404",
+  "substitute": [],
+  "title": "Requerimento nº 12901/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1540",
+      "cod_ordem": 249382,
+      "cod_sessao_plen": 1540,
+      "date": "2025-05-09",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1540&cod_ordem=249382&cod_materia=218404&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

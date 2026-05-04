@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1581",
+  "@id_presenca": "/@@sessoes/id/1581/presenca",
+  "@id_votacao": "/@@sessoes/id/1581/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1581_ata_sessao.pdf",
+      "filename": "1581_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-08-14",
+  "description": "10ª Reunião Ordinária - 14/08/2025",
+  "endTime": "",
+  "id": "1581",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1581_pauta_sessao.pdf",
+      "filename": "1581_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "10ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

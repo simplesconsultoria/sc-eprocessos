@@ -1,101 +1,1178 @@
 {
-  "@id": "/@@vereadores/556176",
   "@type": "Vereador",
-  "biografia": "&lt;p&gt;Meu nome &amp;eacute; Angela Aparecida Caetano, mais conhecida como Angela do Postinho. Nasci em S&amp;atilde;o Gotardo e, h&amp;aacute; 40 anos, escolhi Uberl&amp;acirc;ndia para ser minha cidade, onde constru&amp;iacute; minha vida e minha trajet&amp;oacute;ria. Sou casada h&amp;aacute; 30 anos, e com meu esposo, temos uma filha maravilhosa, Jacqueline, que, em 2024, me presenteou com a alegria de ser av&amp;oacute; da Valentina, minha netinha.&lt;/p&gt;\r\n&lt;p&gt;Desde cedo, me interessei por &amp;aacute;reas que envolvem o bem-estar humano e a justi&amp;ccedil;a social. Tenho diversos cursos voltados para os direitos humanos e, apesar de n&amp;atilde;o ter conclu&amp;iacute;do o ensino superior, sempre nutri o sonho de me formar em Psicologia ou Servi&amp;ccedil;o Social, &amp;aacute;reas com as quais me identifico profundamente.&lt;/p&gt;\r\n&lt;p&gt;Minha trajet&amp;oacute;ria profissional come&amp;ccedil;ou com trabalhos que exigiam muita dedica&amp;ccedil;&amp;atilde;o e cuidado, como bab&amp;aacute; e em uma granja de vacina&amp;ccedil;&amp;atilde;o. No entanto, foi como agente de sa&amp;uacute;de que me encontrei verdadeiramente. Durante os anos em que atuei na &amp;aacute;rea, fui carinhosamente apelidada de \"Angela do Postinho\" pelos moradores da comunidade, e pude vivenciar de perto as dificuldades e necessidades da popula&amp;ccedil;&amp;atilde;o. Esse trabalho me aproximou ainda mais da realidade das pessoas, alimentando meu desejo de lutar por mais direitos e melhores condi&amp;ccedil;&amp;otilde;es de vida para todos. Em 2012, tomei a decis&amp;atilde;o de dar um passo ousado: coloquei meu nome &amp;agrave; disposi&amp;ccedil;&amp;atilde;o para disputar uma vaga na C&amp;acirc;mara Municipal de Uberl&amp;acirc;ndia.&lt;/p&gt;\r\n&lt;p&gt;Obtive 614 votos, um feito importante, que me motivou ainda mais a continuar no caminho da pol&amp;iacute;tica. N&amp;atilde;o fui eleita naquele momento, mas esse sonho de representar a popula&amp;ccedil;&amp;atilde;o nunca deixou de existir. Nos anos seguintes, iniciei minha atua&amp;ccedil;&amp;atilde;o como assessora parlamentar, um papel que me permitiu ampliar meu alcance e fazer a diferen&amp;ccedil;a na vida das pessoas. Ao longo dessa jornada, consegui promover e apoiar diversas a&amp;ccedil;&amp;otilde;es importantes para a comunidade, com destaque para melhorias nas &amp;aacute;reas de sa&amp;uacute;de, infraestrutura, educa&amp;ccedil;&amp;atilde;o e lazer. Tamb&amp;eacute;m estive &amp;agrave; frente de eventos como o Dia da Mulher, festas juninas, comemora&amp;ccedil;&amp;otilde;es de Dia das Crian&amp;ccedil;as e o Natal, sempre com o objetivo de promover a inclus&amp;atilde;o e combater as desigualdades sociais.&lt;/p&gt;\r\n&lt;p&gt;Em 2024, com um trabalho de muita dedica&amp;ccedil;&amp;atilde;o, fui novamente candidata, e dessa vez conquistei 3.135 votos. Essa vit&amp;oacute;ria representa uma grande responsabilidade, e tenho o compromisso de honrar a confian&amp;ccedil;a de cada pessoa que acreditou no meu trabalho e no meu compromisso com a cidade. O meu trabalho continua sendo pautado pelo cuidado com a popula&amp;ccedil;&amp;atilde;o e pela luta constante por mais justi&amp;ccedil;a social, condi&amp;ccedil;&amp;otilde;es dignas de vida e oportunidades para todos.&lt;/p&gt;\r\n&lt;p&gt;Este &amp;eacute; o meu compromisso, e sigo com a certeza de que posso continuar fazendo a diferen&amp;ccedil;a na vida das pessoas.&lt;/p&gt;",
-  "birthday": "1972-11-08",
-  "cod_autor": "556181",
-  "comissoes": [
-    {
-      "@id": "/@@comissoes/22",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Especial",
-      "description": "10/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "22",
-      "mandato": "Suplente",
-      "start": "2025-02-10",
-      "title": "ad hoc"
-    },
-    {
-      "@id": "/@@comissoes/17",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Promoção da Igualdade Racial",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "17",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Membro"
-    },
-    {
-      "@id": "/@@comissoes/16",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão Mista de Participação Popular",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "16",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/30",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão dos Direitos das Mulheres",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "30",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Suplente"
-    },
-    {
-      "@id": "/@@comissoes/32",
-      "@type": "ParticipanteComissao",
-      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
-      "description": "07/02/2025 a 07/02/2027",
-      "end": "2027-02-07",
-      "id": "32",
-      "mandato": "Titular",
-      "start": "2025-02-07",
-      "title": "Suplente"
-    }
-  ],
+  "@id": "/@@vereadores/556176",
+  "id": "556176",
+  "_scope": "all",
+  "title": "Ângela Do Postinho",
   "description": "Ângela Aparecida Caetano Souza",
   "email": "angeladopostinho@camarauberlandia.mg.gov.br",
-  "filiacoes": [
-    {
-      "data_desfiliacao": "",
-      "data_filiacao": "2025-01-01",
-      "filiacao_atual": true,
-      "title": "Solidariedade",
-      "token": "Solidariedade"
-    }
-  ],
-  "id": "556176",
+  "telefone_gabinete": "(34) 3239-1161 | (34) 3239-1162",
+  "whatsapp_gabinete": "",
+  "cod_autor": "556181",
+  "em_exercicio": true,
+  "partido_atual": {
+    "sgl": "Solidariedade",
+    "nome": "Solidariedade",
+    "cod_partido": 25,
+    "url_logo": ""
+  },
+  "biografia": "<p>Meu nome &eacute; Angela Aparecida Caetano, mais conhecida como Angela do Postinho. Nasci em S&atilde;o Gotardo e, h&aacute; 40 anos, escolhi Uberl&acirc;ndia para ser minha cidade, onde constru&iacute; minha vida e minha trajet&oacute;ria. Sou casada h&aacute; 30 anos, e com meu esposo, temos uma filha maravilhosa, Jacqueline, que, em 2024, me presenteou com a alegria de ser av&oacute; da Valentina, minha netinha.</p>\r\n<p>Desde cedo, me interessei por &aacute;reas que envolvem o bem-estar humano e a justi&ccedil;a social. Tenho diversos cursos voltados para os direitos humanos e, apesar de n&atilde;o ter conclu&iacute;do o ensino superior, sempre nutri o sonho de me formar em Psicologia ou Servi&ccedil;o Social, &aacute;reas com as quais me identifico profundamente.</p>\r\n<p>Minha trajet&oacute;ria profissional come&ccedil;ou com trabalhos que exigiam muita dedica&ccedil;&atilde;o e cuidado, como bab&aacute; e em uma granja de vacina&ccedil;&atilde;o. No entanto, foi como agente de sa&uacute;de que me encontrei verdadeiramente. Durante os anos em que atuei na &aacute;rea, fui carinhosamente apelidada de \"Angela do Postinho\" pelos moradores da comunidade, e pude vivenciar de perto as dificuldades e necessidades da popula&ccedil;&atilde;o. Esse trabalho me aproximou ainda mais da realidade das pessoas, alimentando meu desejo de lutar por mais direitos e melhores condi&ccedil;&otilde;es de vida para todos. Em 2012, tomei a decis&atilde;o de dar um passo ousado: coloquei meu nome &agrave; disposi&ccedil;&atilde;o para disputar uma vaga na C&acirc;mara Municipal de Uberl&acirc;ndia.</p>\r\n<p>Obtive 614 votos, um feito importante, que me motivou ainda mais a continuar no caminho da pol&iacute;tica. N&atilde;o fui eleita naquele momento, mas esse sonho de representar a popula&ccedil;&atilde;o nunca deixou de existir. Nos anos seguintes, iniciei minha atua&ccedil;&atilde;o como assessora parlamentar, um papel que me permitiu ampliar meu alcance e fazer a diferen&ccedil;a na vida das pessoas. Ao longo dessa jornada, consegui promover e apoiar diversas a&ccedil;&otilde;es importantes para a comunidade, com destaque para melhorias nas &aacute;reas de sa&uacute;de, infraestrutura, educa&ccedil;&atilde;o e lazer. Tamb&eacute;m estive &agrave; frente de eventos como o Dia da Mulher, festas juninas, comemora&ccedil;&otilde;es de Dia das Crian&ccedil;as e o Natal, sempre com o objetivo de promover a inclus&atilde;o e combater as desigualdades sociais.</p>\r\n<p>Em 2024, com um trabalho de muita dedica&ccedil;&atilde;o, fui novamente candidata, e dessa vez conquistei 3.135 votos. Essa vit&oacute;ria representa uma grande responsabilidade, e tenho o compromisso de honrar a confian&ccedil;a de cada pessoa que acreditou no meu trabalho e no meu compromisso com a cidade. O meu trabalho continua sendo pautado pelo cuidado com a popula&ccedil;&atilde;o e pela luta constante por mais justi&ccedil;a social, condi&ccedil;&otilde;es dignas de vida e oportunidades para todos.</p>\r\n<p>Este &eacute; o meu compromisso, e sigo com a certeza de que posso continuar fazendo a diferen&ccedil;a na vida das pessoas.</p>",
+  "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/556176_foto_parlamentar",
   "image": [
     {
-      "content-type": "image/png",
-      "download": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar",
+      "content-type": "image/jpeg",
+      "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556176_foto_parlamentar",
       "filename": "556176_foto_parlamentar",
-      "height": "350",
-      "size": "222042",
-      "width": "350"
+      "width": "0",
+      "height": "0",
+      "size": "0"
+    }
+  ],
+  "labels": {
+    "reuniao_sessao": "Reunião",
+    "reuniao_sessao_plural": "Reuniões",
+    "nome_mesa": "Mesa Diretora"
+  },
+  "filiacoes": [
+    {
+      "data_filiacao": "2025-01-01",
+      "data_desfiliacao": "",
+      "filiacao_atual": true,
+      "token": "Solidariedade",
+      "title": "Solidariedade"
     }
   ],
   "mandatos": [
     {
       "@id": "/@@legislaturas/20",
       "@type": "Mandato",
-      "end": "2028-12-31",
       "id": 20,
-      "natureza": "Titular",
+      "votos": 3135,
       "start": "2025-01-01",
-      "votos": "3135"
+      "end": "2028-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2025,
+      "legislatura_ano_fim": 2028
     }
   ],
   "mesas": [],
-  "telefone_gabinete": "(34) 3239-1161 | (34) 3239-1162",
-  "title": "Ângela Do Postinho",
-  "url_foto": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar"
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "ad hoc",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 10,
+      "start": "2025-02-10",
+      "end": "2027-02-07",
+      "description": "10/02/2025 a 07/02/2027",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/16",
+      "@type": "ParticipanteComissao",
+      "id": "16",
+      "title": "Suplente",
+      "comissao": "Comissão Mista de Participação Popular",
+      "cod_cargo": 9,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/17",
+      "@type": "ParticipanteComissao",
+      "id": "17",
+      "title": "Membro",
+      "comissao": "Comissão de Promoção da Igualdade Racial",
+      "cod_cargo": 8,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/30",
+      "@type": "ParticipanteComissao",
+      "id": "30",
+      "title": "Suplente",
+      "comissao": "Comissão dos Direitos das Mulheres",
+      "cod_cargo": 9,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/32",
+      "@type": "ParticipanteComissao",
+      "id": "32",
+      "title": "Suplente",
+      "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+      "cod_cargo": 9,
+      "start": "2025-02-07",
+      "end": "2027-02-07",
+      "description": "07/02/2025 a 07/02/2027",
+      "mandato": "Titular"
+    }
+  ],
+  "proposicoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 2547,
+    "items": [
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258798",
+        "id": "258798",
+        "title": "IND 28009/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de ponto de ônibus - implantação / manutenção / mudança de local na Avenida Cipriano del Favero, Praça Adolfo Fonseca, no bairro Centro, CEP 38400-106.",
+        "data_apresentacao": "04/05/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258796",
+        "id": "258796",
+        "title": "IND 28007/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de ponto de ônibus - implantação / manutenção / mudança de local na Praça Tubal Vilela, limpeza de cobertura de pontos de ônibus, no bairro Centro, CEP 38400-186.",
+        "data_apresentacao": "04/05/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258690",
+        "id": "258690",
+        "title": "IND 27920/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de canaleta - construção / manutenção / reforma na Rua Decápolis, esquina com a rua Tabor, no bairro Jardim Canaã, CEP 38412-380.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258689",
+        "id": "258689",
+        "title": "IND 27919/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Rua Ivo José de Oliveira, 30, no bairro Nova Uberlândia, CEP 38412-628.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258688",
+        "id": "258688",
+        "title": "IND 27918/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Rua Tebas, 42, no bairro Jardim Canaã, CEP 38412-446.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258687",
+        "id": "258687",
+        "title": "IND 27917/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de vias públicas - nivelamento / recapeamento asfáltico na Rua Emaús, 280, no bairro Jardim Canaã, CEP 38412-406.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258686",
+        "id": "258686",
+        "title": "IND 27916/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Rua Mileto, esquina coma rua Mara, no bairro Jardim Canaã, CEP 38412-394.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258685",
+        "id": "258685",
+        "title": "IND 27915/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Rua Elim, esquina com a rua Mileto, no bairro Jardim Canaã, CEP 38412-422.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258684",
+        "id": "258684",
+        "title": "IND 27914/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de vias públicas - nivelamento / recapeamento asfáltico na Avenida Jericó, 204, no bairro Jardim Canaã, CEP 38412-416.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258683",
+        "id": "258683",
+        "title": "IND 27913/2026",
+        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS a realização de lote / terreno - limpeza / capina / roçagem na Rua Libna, 1091, no bairro Jardim Canaã, CEP 38412-426.",
+        "data_apresentacao": "30/04/2026",
+        "tipo": "Indicação",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 47
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 1408
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 16
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 3
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 7
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 2
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 1064
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 756
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1791
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 47
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 1408
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 16
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 3
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 7
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 2
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 1064
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 756
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1791
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "EMEI",
+          "ano": "2025",
+          "count": 47
+        },
+        {
+          "tipo": "IND",
+          "ano": "2025",
+          "count": 659
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2025",
+          "count": 15
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2025",
+          "count": 3
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2025",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "ano": "2025",
+          "count": 5
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2025",
+          "count": 1060
+        },
+        {
+          "tipo": "IND",
+          "ano": "2026",
+          "count": 749
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2026",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2026",
+          "count": 2
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2026",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "relatorias": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 1,
+    "items": [
+      {
+        "id": "1284",
+        "title": "PL 116/2025",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=206147",
+        "comissao": "Comissão de Políticas Públicas de Prevenção, Combate e Enfrentamento ao Câncer",
+        "num_parecer": 1,
+        "ano_parecer": 2025,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "31/01/2025",
+        "data_designacao": "03/04/2025",
+        "data_destituicao": "03/04/2025",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2025"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 1
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PL",
+          "ano": "2025",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "frequencia": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 194,
+    "items": [
+      {
+        "id": "69387",
+        "sessao_id": "1688",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1688&dat_sessao=04/05/2026",
+        "title": "1ª Reunião Ordinária",
+        "identificacao_sessao": "1ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-04",
+        "data_sessao_br": "04/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69333",
+        "sessao_id": "1686",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1686&dat_sessao=16/04/2026",
+        "title": "10ª Reunião Ordinária",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "10",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69360",
+        "sessao_id": "1687",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1687&dat_sessao=16/04/2026",
+        "title": "5ª Reunião Extraordinária",
+        "identificacao_sessao": "5ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "5",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-16",
+        "data_sessao_br": "16/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69279",
+        "sessao_id": "1684",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "title": "9ª Reunião Ordinária",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "9",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69306",
+        "sessao_id": "1685",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "title": "4ª Reunião Extraordinária",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "4",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69225",
+        "sessao_id": "1682",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
+        "title": "8ª Reunião Ordinária",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "8",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69252",
+        "sessao_id": "1683",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
+        "title": "3ª Reunião Extraordinária",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "3",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-14",
+        "data_sessao_br": "14/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69171",
+        "sessao_id": "1680",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
+        "title": "7ª Reunião Ordinária",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "7",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69198",
+        "sessao_id": "1681",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1681&dat_sessao=13/04/2026",
+        "title": "2ª Reunião Extraordinária",
+        "identificacao_sessao": "2ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "2",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-04-13",
+        "data_sessao_br": "13/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69144",
+        "sessao_id": "1679",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1679&dat_sessao=10/04/2026",
+        "title": "6ª Reunião Ordinária",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "6",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-04-10",
+        "data_sessao_br": "10/04/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "resumo": {
+      "presencas": 190,
+      "ausencias_justificadas": 1,
+      "faltas": 3,
+      "total_sessoes": 194,
+      "frequencia_percentual": 98.45
+    },
+    "facets_select": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 50
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 141
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        }
+      ]
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 50
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 141
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 50
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 141
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2026",
+          "label": "2026",
+          "count": 49
+        },
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 145
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "1",
+          "ano": "2025",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2025",
+          "count": 32
+        },
+        {
+          "tipo": "3",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "4",
+          "ano": "2025",
+          "count": 2
+        },
+        {
+          "tipo": "1",
+          "ano": "2026",
+          "count": 31
+        },
+        {
+          "tipo": "2",
+          "ano": "2026",
+          "count": 18
+        }
+      ]
+    }
+  },
+  "votacoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 492,
+    "items": [
+      {
+        "cod_materia": 255963,
+        "cod_votacao": "129783",
+        "id": "129783",
+        "title": "PL 1071/2026",
+        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255963,
+        "cod_votacao": "129784",
+        "id": "129784",
+        "title": "PL 1071/2026",
+        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255963,
+        "cod_votacao": "129785",
+        "id": "129785",
+        "title": "PL 1071/2026",
+        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255964,
+        "cod_votacao": "129786",
+        "id": "129786",
+        "title": "PL 1072/2026",
+        "ementa": "ALTERA OS ANEXOS V – PROGRAMAS DE GOVERNO E VI – METAS E PRIORIDADES PARA 2026 – DA LEI Nº 14.649, DE 17 DE DEZEMBRO DE 2025, E SUAS ALTERAÇÕES – PLANO PLURIANUAL – PPA 2026-2029, AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 859.500,00 (OITOCENTOS E CINQUENTA E NOVE MIL E QUINHENTOS REAIS) NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255964",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 255964,
+        "cod_votacao": "129787",
+        "id": "129787",
+        "title": "PL 1072/2026",
+        "ementa": "ALTERA OS ANEXOS V – PROGRAMAS DE GOVERNO E VI – METAS E PRIORIDADES PARA 2026 – DA LEI Nº 14.649, DE 17 DE DEZEMBRO DE 2025, E SUAS ALTERAÇÕES – PLANO PLURIANUAL – PPA 2026-2029, AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 859.500,00 (OITOCENTOS E CINQUENTA E NOVE MIL E QUINHENTOS REAIS) NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255964",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 256307,
+        "cod_votacao": "129788",
+        "id": "129788",
+        "title": "PL 1075/2026",
+        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 256307,
+        "cod_votacao": "129789",
+        "id": "129789",
+        "title": "PL 1075/2026",
+        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 256307,
+        "cod_votacao": "129790",
+        "id": "129790",
+        "title": "PL 1075/2026",
+        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 257232,
+        "cod_votacao": "129791",
+        "id": "129791",
+        "title": "PL 1117/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE CULTURA E TURISMO NO VALOR DE R$ 300.000,00 (TREZENTOS MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=257232",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 257232,
+        "cod_votacao": "129792",
+        "id": "129792",
+        "title": "PL 1117/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE CULTURA E TURISMO NO VALOR DE R$ 300.000,00 (TREZENTOS MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=257232",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-04-15",
+        "data_sessao_br": "15/04/2026",
+        "data_votacao": "2026-04-15",
+        "data_votacao_br": "15/04/2026",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      }
+    ],
+    "resumo": {
+      "voto_sim": 483,
+      "voto_nao": 9,
+      "voto_abstencao": 0
+    },
+    "filters": {
+      "tipo": "",
+      "voto": "",
+      "voto_desc": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "DEN",
+          "label": "Denúncia",
+          "count": 1
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 1
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 107
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 376
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 5
+        },
+        {
+          "value": "VET",
+          "label": "Veto",
+          "count": 2
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 483
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 9
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "DEN",
+          "label": "Denúncia",
+          "count": 1
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 1
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 107
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 376
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 5
+        },
+        {
+          "value": "VET",
+          "label": "Veto",
+          "count": 2
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 483
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 9
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PDL",
+          "voto": "nao",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "voto": "nao",
+          "count": 8
+        },
+        {
+          "tipo": "DEN",
+          "voto": "sim",
+          "count": 1
+        },
+        {
+          "tipo": "PELO",
+          "voto": "sim",
+          "count": 5
+        },
+        {
+          "tipo": "PL",
+          "voto": "sim",
+          "count": 368
+        },
+        {
+          "tipo": "PLC",
+          "voto": "sim",
+          "count": 107
+        },
+        {
+          "tipo": "VET",
+          "voto": "sim",
+          "count": 2
+        }
+      ]
+    }
+  }
 }

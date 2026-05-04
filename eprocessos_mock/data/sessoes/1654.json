@@ -6,7 +6,7 @@
   "ata": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/ata_sessao/1654_ata_sessao.pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1654_ata_sessao.pdf",
       "filename": "1654_ata_sessao.pdf",
       "size": ""
     }

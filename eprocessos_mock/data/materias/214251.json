@@ -1,0 +1,162 @@
+{
+  "@id": "/@@materias/214251",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/204517",
+      "@type": "Materia",
+      "annexationDate": "2025-04-04",
+      "description": "ESTABELECE A POLÍTICA MUNICIPAL DE PROTEÇÃO DOS DIREITOS DA PESSOA COM TRANSTORNO DO DESENVOLVIMENTO DA LINGUAGEM (TDL)",
+      "id": "204517",
+      "title": "Projeto de Lei Ordinária nº 49/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-04",
+  "description": "com fulcro no caput art.  172 do Regimento interno venho requerer que o Projeto de Lei Ordinária nº 49/2025 - ESTABELECE A POLÍTICA MUNICIPAL DE PROTEÇÃO DOS DIREITOS DA PESSOA COM TRANSTORNO DO DESENVOLVIMENTO DA LINGUAGEM (TDL), seja apreciado pelo plenário. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/214251_texto_integral.pdf",
+      "filename": "214251_texto_integral.pdf",
+      "size": "906.2 KB"
+    }
+  ],
+  "id": "214251",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-07 13:22:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587334_tram.pdf",
+          "filename": "587334_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-07 11:51:53",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587062_tram.pdf",
+          "filename": "587062_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-04 14:05:05",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586672_tram.pdf",
+          "filename": "586672_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-04 12:16:25",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/04/2025 08:12:39. Matéria incorporada em 04/04/2025 12:16:25 sob protocolo nº 9733/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586140_tram.pdf",
+          "filename": "586140_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "9733/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=214251",
+  "substitute": [],
+  "title": "Requerimento nº 8982/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1528",
+      "cod_ordem": 244760,
+      "cod_sessao_plen": 1528,
+      "date": "2025-04-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1528&cod_ordem=244760&cod_materia=214251&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

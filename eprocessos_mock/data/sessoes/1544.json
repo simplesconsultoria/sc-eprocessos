@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1544",
+  "@id_presenca": "/@@sessoes/id/1544/presenca",
+  "@id_votacao": "/@@sessoes/id/1544/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1544_ata_sessao.pdf",
+      "filename": "1544_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-05-14",
+  "description": "8ª Reunião Ordinária - 14/05/2025",
+  "endTime": "",
+  "id": "1544",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1544_pauta_sessao.pdf",
+      "filename": "1544_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "8ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

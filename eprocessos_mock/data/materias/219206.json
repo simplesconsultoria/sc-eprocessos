@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/219206",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-14",
+  "description": "atendendo aos pedidos dos moradores do BAIRRO MORADA DA COLINA, NA RUA CARIOCA, PRÓXIMO AO NÚMERO 1330, SOLICITO A CONSTRUÇÃO DE UMA COBERTURA (ABRIGO) E BANCOS PARA O PONTO DE ÔNIBUS NA VIA MENCIONADA, POIS OS USUÁRIOS E COMUNIDADE NECESSITA PRINCIALMENTE EM HORÁRIO DE PICO, ONDE OS MESMOS FICAM DESPROVIDO DE COBERTURA  E A MERCÊ DAS INTEMPÉRIES.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/219206_texto_integral.pdf",
+      "filename": "219206_texto_integral.pdf",
+      "size": "118.9 KB"
+    }
+  ],
+  "id": "219206",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-16 14:22:44",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615913_tram.pdf",
+          "filename": "615913_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-16 13:44:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615561_tram.pdf",
+          "filename": "615561_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-15 14:08:54",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615209_tram.pdf",
+          "filename": "615209_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-14 16:55:34",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 14/05/2025 12:59:38. Matéria incorporada em 14/05/2025 16:55:34 sob protocolo nº 14644/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/614563_tram.pdf",
+          "filename": "614563_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "14644/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=219206",
+  "substitute": [],
+  "title": "Requerimento nº 13649/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1546",
+      "cod_ordem": 250378,
+      "cod_sessao_plen": 1546,
+      "date": "2025-05-16",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1546&cod_ordem=250378&cod_materia=219206&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

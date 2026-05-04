@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/224464",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-01",
+  "description": "solicitação se segue em razão das constantes reclamações dos moradores e pedestres do JARDIM BRASÍLIA, NA AVENIDA RURAL NÚMERO 340, que SOLICITA A INSTALAÇÃO DE UM REDUTOR DE VELOCIDADE OU QUEBRA MOLA, por ser de interesse público e pelo fato da sinalização existente não ser respeitada  pelos condutores de veículos, que infringem  o limite de velocidade e não dão preferência à passagem de ciclistas e pedestres.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/224464_texto_integral.pdf",
+      "filename": "224464_texto_integral.pdf",
+      "size": "68.9 KB"
+    }
+  ],
+  "id": "224464",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-02 13:16:13",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/639415_tram.pdf",
+          "filename": "639415_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-02 11:44:17",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/639285_tram.pdf",
+          "filename": "639285_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-01 14:19:03",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/637669_tram.pdf",
+          "filename": "637669_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-01 08:29:37",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 30/06/2025 14:44:56. Matéria incorporada em 01/07/2025 08:29:37 sob protocolo nº 19854/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/634105_tram.pdf",
+          "filename": "634105_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "19854/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=224464",
+  "substitute": [],
+  "title": "Requerimento nº 18564/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1561",
+      "cod_ordem": 256106,
+      "cod_sessao_plen": 1561,
+      "date": "2025-07-02",
+      "description": "Expediente da 2ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1561&cod_ordem=256106&cod_materia=224464&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

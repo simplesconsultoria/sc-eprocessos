@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/211411",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-14",
+  "description": "Placa de Proibido Virar à Direita, na avenida Nicomedes dos Santos, sentido ao Bairro Shopping Park. \r\n\r\nObservação: Nas fotos anexadas, percebi que os carros que trafegam pela Avenida Nicomedes Alves dos Santos, ao chegarem à rotatória próxima à faculdade Unitri, no sentido oposto ao Shopping Park, estão virando à direita. No entanto, essa conversão é proibida, pois a Rua Waldemar Cupertino Bernardes é de mão única no sentido contrário, não permitindo conversão à direita. \r\n\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/211411_texto_integral.pdf",
+      "filename": "211411_texto_integral.pdf",
+      "size": "699.7 KB"
+    }
+  ],
+  "id": "211411",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-03-17 14:13:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/570789_tram.pdf",
+          "filename": "570789_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-03-17 09:50:21",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/570179_tram.pdf",
+          "filename": "570179_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-14 12:37:46",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/569698_tram.pdf",
+          "filename": "569698_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-14 10:25:05",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 14/03/2025 09:37:37. Matéria incorporada em 14/03/2025 10:25:05 sob protocolo nº 6920/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/569555_tram.pdf",
+          "filename": "569555_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "6920/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=211411",
+  "substitute": [],
+  "title": "Requerimento nº 6392/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1517",
+      "cod_ordem": 242001,
+      "cod_sessao_plen": 1517,
+      "date": "2025-03-17",
+      "description": "Expediente da 6ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1517&cod_ordem=242001&cod_materia=211411&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

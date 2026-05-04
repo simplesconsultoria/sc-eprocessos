@@ -1,0 +1,9 @@
+{
+  "@id": "/@@normas",
+  "@type": "Normas",
+  "ano": "2025",
+  "description": "Lista de normas jurídicas do ano 2025 (tip_norma=2)",
+  "items": [],
+  "ordem": "data_desc",
+  "tipNorma": "2"
+}

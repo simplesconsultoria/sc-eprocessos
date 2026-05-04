@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17780",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-03-07",
+  "data_publicacao": "2025-03-10",
+  "description": "DISPÕE SOBRE A POLÍTICA MUNICIPAL DE HABITAÇÃO DE INTERESSE SOCIAL E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17780&texto_original=1",
+      "filename": "17780_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "10.4 MB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 784, de 07/03/2025",
+  "id": "17780",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17780&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/207496",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": false,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "DISPÕE SOBRE A POLÍTICA MUNICIPAL DE HABITAÇÃO DE INTERESSE SOCIAL E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "207496",
+      "remoteUrl": "/@@pasta_digital?cod_materia=207496",
+      "title": "Projeto de Lei Complementar nº 7/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjA3NDk2"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 784/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-03-07",
+    "dataPromulgacaoBR": "07/03/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 784, de 07/03/2025",
+    "numNorma": 784,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "DISPÕE SOBRE A POLÍTICA MUNICIPAL DE HABITAÇÃO DE INTERESSE SOCIAL E DÁ OUTRAS PROVIDÊNCIAS.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17780",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17780",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+}

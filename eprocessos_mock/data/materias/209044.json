@@ -1,0 +1,79 @@
+{
+  "@id": "/@@materias/209044",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-20",
+  "description": "implantação de vagas para embarque e desembarque, na Rua Goiás n.° 481, Centro",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/209044_texto_integral.pdf",
+      "filename": "209044_texto_integral.pdf",
+      "size": "68.7 KB"
+    }
+  ],
+  "id": "209044",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-20 10:58:50",
+      "deadline": null,
+      "description": "<p>Por solicita&ccedil;&atilde;o do Autor</p>",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/558461_tram.pdf",
+          "filename": "558461_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-20 10:07:46",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 20/02/2025 09:56:21. Matéria incorporada em 20/02/2025 10:07:46 sob protocolo nº 4555/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/558453_tram.pdf",
+          "filename": "558453_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "4555/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=209044",
+  "substitute": [],
+  "title": "Requerimento nº 4176/2025",
+  "voteResult": []
+}

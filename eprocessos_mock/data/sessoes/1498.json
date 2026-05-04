@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1498",
+  "@id_presenca": "/@@sessoes/id/1498/presenca",
+  "@id_votacao": "/@@sessoes/id/1498/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1498_ata_sessao.pdf",
+      "filename": "1498_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-01-01",
+  "description": "1ª Reunião Especial - 01/01/2025",
+  "endTime": "",
+  "id": "1498",
+  "pauta": [],
+  "startTime": "11:30",
+  "title": "1ª Reunião Especial",
+  "type": "Especial",
+  "type_id": 4
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/257777",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-22",
+  "description": "A presente solicitação tem como objetivo a implantação e/ou revitalização da sinalização horizontal na Rodovia Municipal Joaquim Ferreira, via de acesso ao IFTM, incluindo a pintura de faixas de sinalização e demarcação de limite de pista.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/257777_texto_integral.pdf",
+      "filename": "257777_texto_integral.pdf",
+      "size": "82.5 KB"
+    }
+  ],
+  "id": "257777",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-05-04 14:56:00",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/795928_tram.pdf",
+          "filename": "795928_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-05-04 12:51:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/795577_tram.pdf",
+          "filename": "795577_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-22 10:27:46",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/790996_tram.pdf",
+          "filename": "790996_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-22 08:24:08",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 17/04/2026 15:48:32. Matéria incorporada em 22/04/2026 08:24:08 sob protocolo nº 15340/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/790878_tram.pdf",
+          "filename": "790878_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "15340/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=257777",
+  "substitute": [],
+  "title": "Requerimento nº 20970/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1688",
+      "cod_ordem": 307837,
+      "cod_sessao_plen": 1688,
+      "date": "2026-05-04",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1688&cod_ordem=307837&cod_materia=257777&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

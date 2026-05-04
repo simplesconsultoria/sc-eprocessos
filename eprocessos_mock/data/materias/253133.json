@@ -8,77 +8,77 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Sargento Ednaldo"
+      "title": "Sargento Ednaldo (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Anderson Lima"
+      "title": "Anderson Lima (PL)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Ângela Do Postinho"
+      "title": "Antônio Augusto Queijinho (PSDB)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Antônio Augusto Queijinho"
+      "title": "Antônio Carrijo (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Antônio Carrijo"
+      "title": "Delegada Lia Valechi (União Brasil)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Delegada Lia Valechi"
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Edinho Combate Ao Câncer"
+      "title": "Elinho Da Academia (MOBILIZA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Elinho Da Academia"
+      "title": "Ivan Nunes (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Ivan Nunes"
+      "title": "Jair Ferraz (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Jair Ferraz"
+      "title": "Neemias Miquéias (PODEMOS)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Neemias Miquéias"
+      "title": "Pezão Do Esporte (DC)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Pezão Do Esporte"
+      "title": "Ronaldo Tannús (PODEMOS)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Ronaldo Tannús"
+      "title": "Thais Andrade (União Brasil)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Thais Andrade"
+      "title": "Zezinho Mendonça (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Zezinho Mendonça"
+      "title": "Ângela Do Postinho (Solidariedade)"
     }
   ],
   "committeeOpinion": [],
@@ -87,24 +87,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/253133_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/253133_texto_integral.pdf",
       "filename": "253133_texto_integral.pdf",
-      "size": ""
+      "size": "2.6 MB"
     }
   ],
   "id": "253133",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-04-06 17:41:11",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/782478_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/782478_tram.pdf",
           "filename": "782478_tram.pdf",
-          "size": ""
+          "size": "21.7 KB"
         }
       ],
       "last": true,
@@ -113,14 +121,15 @@
     },
     {
       "date": "2026-04-01 12:08:34",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/777463_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/777463_tram.pdf",
           "filename": "777463_tram.pdf",
-          "size": ""
+          "size": "21.7 KB"
         }
       ],
       "last": false,
@@ -129,14 +138,15 @@
     },
     {
       "date": "2026-03-30 10:17:54",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/774335_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/774335_tram.pdf",
           "filename": "774335_tram.pdf",
-          "size": ""
+          "size": "21.8 KB"
         }
       ],
       "last": false,
@@ -145,14 +155,15 @@
     },
     {
       "date": "2026-03-17 11:21:16",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 13/03/2026 11:39:02. Matéria incorporada em 17/03/2026 11:21:16 sob protocolo nº 10756/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 13/03/2026 11:39:02. Matéria incorporada em 17/03/2026 11:21:16 sob protocolo nº 10756/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/768592_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/768592_tram.pdf",
           "filename": "768592_tram.pdf",
-          "size": ""
+          "size": "21.9 KB"
         }
       ],
       "last": false,
@@ -162,10 +173,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "10756/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=253133",
   "substitute": [],
   "title": "Requerimento nº 20883/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1670",
+      "cod_ordem": 303683,
+      "cod_sessao_plen": 1670,
+      "date": "2026-04-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1670&cod_ordem=303683&cod_materia=253133&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

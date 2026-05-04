@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17802",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-03-27",
+  "data_publicacao": "2025-03-27",
+  "description": "INSTITUI O PROGRAMA TEMPORÁRIO DE REFINANCIAMENTO MUNICIPAL – REFIM E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17802&texto_original=1",
+      "filename": "17802_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "790.4 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 785, de 27/03/2025",
+  "id": "17802",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17802&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/212081",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "INSTITUI O PROGRAMA TEMPORÁRIO DE REFINANCIAMENTO MUNICIPAL – REFIM E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "212081",
+      "remoteUrl": "/@@pasta_digital?cod_materia=212081",
+      "title": "Projeto de Lei Complementar nº 16/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjEyMDgx"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 785/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-03-27",
+    "dataPromulgacaoBR": "27/03/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 785, de 27/03/2025",
+    "numNorma": 785,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "INSTITUI O PROGRAMA TEMPORÁRIO DE REFINANCIAMENTO MUNICIPAL – REFIM E DÁ OUTRAS PROVIDÊNCIAS.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17802",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17802",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1686",
+  "@id_presenca": "/@@sessoes/id/1686/presenca",
+  "@id_votacao": "/@@sessoes/id/1686/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1686_ata_sessao.pdf",
+      "filename": "1686_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-04-16",
+  "description": "10ª Reunião Ordinária - 16/04/2026",
+  "endTime": "",
+  "id": "1686",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1686_pauta_sessao.pdf",
+      "filename": "1686_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "10ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

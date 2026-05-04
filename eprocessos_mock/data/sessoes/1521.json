@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1521",
+  "@id_presenca": "/@@sessoes/id/1521/presenca",
+  "@id_votacao": "/@@sessoes/id/1521/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1521_ata_sessao.pdf",
+      "filename": "1521_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-03-21",
+  "description": "10ª Reunião Ordinária - 21/03/2025",
+  "endTime": "",
+  "id": "1521",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1521_pauta_sessao.pdf",
+      "filename": "1521_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "10ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

@@ -1,0 +1,57 @@
+{
+  "@id": "/@@normas/18034",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-03-05",
+  "data_publicacao": "2025-03-06",
+  "description": "DISPÕE SOBRE A EXONERAÇÃO QUE MENCIONA",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18034&texto_original=1",
+      "filename": "18034_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "254 KB"
+    }
+  ],
+  "heading_label": "Portaria nº 200, de 05/03/2025",
+  "id": "18034",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18034&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Portaria nº 200/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-03-05",
+    "dataPromulgacaoBR": "05/03/2025",
+    "desTipoNorma": "Portaria",
+    "headingLabel": "Portaria nº 200, de 05/03/2025",
+    "numNorma": 200,
+    "sglTipoNorma": "POR"
+  },
+  "txt_ementa": "DISPÕE SOBRE A EXONERAÇÃO QUE MENCIONA",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18034",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18034",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

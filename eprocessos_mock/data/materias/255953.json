@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/255953",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Conrado Augusto (MDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Abatenio Marquez (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Janaina Guimarães (PL)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-07",
+  "description": "De acordo com o art. 233, da Resolução nº 031/02, REQUEREMOS a Vossa Excelência que seja encaminhado a SECRETARIA MUNICIPAL DE SAÚDE o presente requerimento de CONVOCAÇÃO do SECRETÁRIO MUNICIPAL DE SAÚDE e dos DIRIGENTES do Hospital e Maternidade Municipal Dr. Odelmo Leão Carneiro (HMMDOLC), para prestar esclarecimentos à Câmara Municipal de Uberlândia acerca das denúncias de falta de medicamentos e insumos na rede municipal de saúde, da gestão e destinação de recursos públicos para o HMMDOLC, UAIs, e demais unidades de saúde, incluindo repasses às organizações sociais, gastos com cargos em comissão e consultorias, a redução de vigilantes e profissionais da equipe de limpeza, bem como sobre o impedimento de acesso de vereadores desta casa legislativa às dependências do HMMDOLC.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/255953_texto_integral.pdf",
+      "filename": "255953_texto_integral.pdf",
+      "size": "1.4 MB"
+    }
+  ],
+  "id": "255953",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-04-08 10:45:41",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783909_tram.pdf",
+          "filename": "783909_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-08 10:45:28",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783908_tram.pdf",
+          "filename": "783908_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Retirado pelo(a) autor(a)"
+    },
+    {
+      "date": "2026-04-07 16:03:29",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783703_tram.pdf",
+          "filename": "783703_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-07 16:02:52",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 07/04/2026 14:25:53. Matéria incorporada em 07/04/2026 16:02:52 sob protocolo nº 13545/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783702_tram.pdf",
+          "filename": "783702_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "13545/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255953",
+  "substitute": [],
+  "title": "Requerimento nº 20932/2026",
+  "voteResult": []
+}

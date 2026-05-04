@@ -1,0 +1,80 @@
+{
+  "@id": "/@@materias/258751",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Sargento Ednaldo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-05-04",
+  "description": "Lêda Cecílio Milkem",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/258751_texto_integral.pdf",
+      "filename": "258751_texto_integral.pdf",
+      "size": "324.6 KB"
+    }
+  ],
+  "id": "258751",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processNumber": "20979/2026",
+  "processing": [
+    {
+      "date": "2026-05-04 12:50:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/793008_tram.pdf",
+          "filename": "793008_tram.pdf",
+          "size": "18.8 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-05-04 10:28:36",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/05/2026 10:26:32. Matéria incorporada em 04/05/2026 10:28:36 sob protocolo nº 16315/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/792899_tram.pdf",
+          "filename": "792899_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "16315/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=258751",
+  "substitute": [],
+  "title": "Requerimento nº 20979/2026",
+  "voteResult": []
+}

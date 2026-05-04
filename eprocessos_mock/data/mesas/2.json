@@ -15,7 +15,7 @@
       "image": [],
       "partido": [],
       "title": "Wilson Pinheiro",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/430278",
@@ -31,7 +31,7 @@
         }
       ],
       "title": "Ronaldo Alves",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/430273",
@@ -47,7 +47,7 @@
         }
       ],
       "title": "Dra. Jussara",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/26015",
@@ -58,11 +58,12 @@
       "image": [],
       "partido": [],
       "title": "Michele Bretas",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     }
   ],
   "legislatura": "18ª Legislatura",
   "legislatura_id": "/@@legislaturas/18",
+  "num_legislatura": 18,
   "start": "2017-01-01",
   "title": "01/01/2017 a 31/12/2018"
 }

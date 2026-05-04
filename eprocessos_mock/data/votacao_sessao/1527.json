@@ -1,0 +1,218 @@
+{
+  "@id": "/@@sessoes/id/1527/votacao",
+  "@type": "votacaoNominal",
+  "description": "4ª Reunião Ordinária – 04/04/2025",
+  "items": [
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "Devolução a(o) autor(a)",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "Devolução a(o) autor(a)",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "Devolução a(o) autor(a)",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "Devolução a(o) autor(a)",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "Devolução a(o) autor(a)",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [
+        {
+          "resultado": "Aprovado em 2ª Discussão"
+        }
+      ],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/204470",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "546914",
+          "primeiro_autor": true,
+          "title": "Abatenio Marquez"
+        }
+      ],
+      "contrario": 0,
+      "description": "ESTABELECE ATENDIMENTO PRIORITÁRIO NOS PROGRAMAS MUNICIPAIS PARA MULHERES VÍTIMAS DE VIOLÊNCIA DOMÉSTICA E CONJUGAL.",
+      "favoravel": 0,
+      "id": "204470",
+      "presidencia": 0,
+      "quorum": "Maioria qualificada - 2/3",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 10/2025",
+      "turno": "Apreciar parecer contrário",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/204502",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "399022",
+          "primeiro_autor": true,
+          "title": "Liza Prado"
+        }
+      ],
+      "contrario": 0,
+      "description": "ESTABELECE A RESERVA DE ASSENTOS PREFERENCIAIS PARA IDOSOS, GESTANTES, OBESOS, LACTANTES E PESSOAS COM DEFICIÊNCIA OU MOBILIDADE REDUZIDA EM TERMINAIS DE INTEGRAÇÃO, ESTAÇÃO FECHADA, ESTAÇÃO DE TRANSFERÊNCIA E PONTOS DE PARADA DE ÔNIBUS NO MUNICÍPIO DE UBERLÂNDIA. ",
+      "favoravel": 0,
+      "id": "204502",
+      "presidencia": 0,
+      "quorum": "Maioria qualificada - 2/3",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 34/2025",
+      "turno": "Apreciar parecer contrário",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    }
+  ],
+  "title": "Lista de votação nominal"
+}

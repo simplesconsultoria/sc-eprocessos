@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/228490",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/217909",
+      "@type": "Materia",
+      "annexationDate": "2025-08-08",
+      "description": "ALTERA A LEI Nº 9.279, DE 25 DE JULHO DE 2006, DISPÕE SOBRE A ORGANIZAÇÃO DO SERVIÇO PÚBLICO DE TRANSPORTE DE PASSAGEIROS DO MUNICÍPIO UBERLÂNDIA, CRIA A JARIT - JUNTA ADMINISTRATIVA DE RECURSOS DE INFRAÇÃO DE TRANSPORTE E REVOGA AS LEIS Nº 7.834, DE 03 DE OUTUBRO DE 2001 E ALTERAÇÕES POSTERIORES E 8.748, DE 05 DE AGOSTO DE 2004.",
+      "id": "217909",
+      "title": "Projeto de Lei Ordinária nº 326/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-08",
+  "description": "com fulcro no caput Art. 172, Regimento Interno requer que o Projeto de Lei Ordinária nº 326/2025 - ALTERA A LEI Nº 9.279, DE 25 DE JULHO DE 2006, DISPÕE SOBRE A ORGANIZAÇÃO DO SERVIÇO PÚBLICO DE TRANSPORTE DE PASSAGEIROS DO MUNICÍPIO UBERLÂNDIA, CRIA A JARIT - JUNTA ADMINISTRATIVA DE RECURSOS DE INFRAÇÃO DE TRANSPORTE E REVOGA AS LEIS Nº 7.834, DE 03 DE OUTUBRO DE 2001 E ALTERAÇÕES POSTERIORES E 8.748, DE 05 DE AGOSTO DE 2004, seja apreciado pelo plenário. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/228490_texto_integral.pdf",
+      "filename": "228490_texto_integral.pdf",
+      "size": "1.2 MB"
+    }
+  ],
+  "id": "228490",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-11 13:19:51",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655635_tram.pdf",
+          "filename": "655635_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-11 10:28:46",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655327_tram.pdf",
+          "filename": "655327_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-08 13:38:20",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655133_tram.pdf",
+          "filename": "655133_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-08 13:29:03",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 08/08/2025 12:29:38. Matéria incorporada em 08/08/2025 13:29:03 sob protocolo nº 23855/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/654827_tram.pdf",
+          "filename": "654827_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "23855/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=228490",
+  "substitute": [],
+  "title": "Requerimento nº 20271/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1578",
+      "cod_ordem": 261876,
+      "cod_sessao_plen": 1578,
+      "date": "2025-08-11",
+      "description": "Expediente da 7ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1578&cod_ordem=261876&cod_materia=228490&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

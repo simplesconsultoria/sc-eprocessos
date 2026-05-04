@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1502",
+  "@id_presenca": "/@@sessoes/id/1502/presenca",
+  "@id_votacao": "/@@sessoes/id/1502/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1502_ata_sessao.pdf",
+      "filename": "1502_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-02-05",
+  "description": "3ª Reunião Ordinária - 05/02/2025",
+  "endTime": "",
+  "id": "1502",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1502_pauta_sessao.pdf",
+      "filename": "1502_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "3ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

@@ -1,0 +1,169 @@
+{
+  "@id": "/@@materias/229187",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/222294",
+      "@type": "Materia",
+      "annexationDate": "2025-08-19",
+      "description": "INSTITUI O PROGRAMA DE APOIO PSICOSSOCIAL E REABILITAÇÃO PARA PACIENTES COM CÂNCER DE MAMA NO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "222294",
+      "title": "Projeto de Lei Ordinária nº 421/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-19",
+  "description": "O Vereador que subscreve, no uso de suas atribuições regimentais, com fundamento no Regimento Interno desta Casa, REQUER a Vossa Excelência que seja encaminhado ao Plenário, para deliberação, o Projeto de Lei Ordinária nº 421/2025, de autoria do Vereador Edinho Combate ao Câncer, que “Institui o Programa de Apoio Psicossocial e Reabilitação para Pacientes com Câncer de Mama no Município de Uberlândia e dá outras providências”, a fim de que seja apreciado pelo soberano Plenário, para possível derrubada do parecer contrário exarado pela Comissão de Legislação, Justiça e Redação.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/229187_texto_integral.pdf",
+      "filename": "229187_texto_integral.pdf",
+      "size": "1.2 MB"
+    }
+  ],
+  "id": "229187",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-09-01 14:30:38",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/663169_tram.pdf",
+          "filename": "663169_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-09-01 12:01:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/661741_tram.pdf",
+          "filename": "661741_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-09-01 12:00:49",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/661241_tram.pdf",
+          "filename": "661241_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-21 13:53:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/658997_tram.pdf",
+          "filename": "658997_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-19 10:15:28",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 13/08/2025 15:15:31. Matéria incorporada em 19/08/2025 10:15:28 sob protocolo nº 24519/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/658475_tram.pdf",
+          "filename": "658475_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "24519/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=229187",
+  "substitute": [],
+  "title": "Requerimento nº 20360/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1583",
+      "cod_ordem": 264087,
+      "cod_sessao_plen": 1583,
+      "date": "2025-09-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1583&cod_ordem=264087&cod_materia=229187&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

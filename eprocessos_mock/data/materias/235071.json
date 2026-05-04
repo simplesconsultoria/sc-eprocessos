@@ -1,0 +1,202 @@
+{
+  "@id": "/@@materias/235071",
+  "@type": "Materia",
+  "accessoryDocument": [
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 235071,
+      "date": "2025-10-27 08:45:07",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/1874.pdf",
+          "filename": "1874.pdf",
+          "size": "819.1 KB"
+        }
+      ],
+      "id": "1874",
+      "odtDownload": null,
+      "title": "PUBLICAÇÃO JORNAL \"O LEGISLATIVO\""
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 235071,
+      "date": "2026-04-07 09:46:43",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2222.pdf",
+          "filename": "2222.pdf",
+          "size": "285.2 KB"
+        }
+      ],
+      "id": "2222",
+      "odtDownload": null,
+      "title": "Publicação"
+    }
+  ],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Pezão Do Esporte (DC)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Carrijo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Neemias Miquéias (PODEMOS)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Nei Borges (Solidariedade)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sargento Ednaldo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Thais Andrade (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Zezinho Mendonça (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ângela Do Postinho (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-20",
+  "description": "Requer a criação de Comissão Parlamentar de Inquérito (CPI), com fundamento nos arts. 106 e 233 da Resolução nº 031/02 (Regimento Interno da Câmara Municipal de Uberlândia), para apurar os feminicídios consumados ocorridos no Município de Uberlândia/MG nos anos de 2024 e 2025, com especial atenção à subnotificação, à eficácia das investigações penais e administrativas, e à atuação da rede de proteção à mulher.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/235071_texto_integral.pdf",
+      "filename": "235071_texto_integral.pdf",
+      "size": "4.4 MB"
+    }
+  ],
+  "id": "235071",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-10-27 08:42:13",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682817_tram.pdf",
+          "filename": "682817_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Publicação Jornal Oficial"
+    },
+    {
+      "date": "2025-10-20 14:01:45",
+      "deadline": null,
+      "description": "<p>Para publica&ccedil;&atilde;o no Jornal O Legislativo, nos termos do Art. 106, &sect;2&ordm;, do Regimento Interno.</p>",
+      "destinationUnit": "Gabinete da Presidência",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682810_tram.pdf",
+          "filename": "682810_tram.pdf",
+          "size": "471.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-20 14:01:15",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 15/10/2025 17:13:39. Matéria incorporada em 20/10/2025 14:01:15 sob protocolo nº 30296/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682809_tram.pdf",
+          "filename": "682809_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "30296/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=235071",
+  "substitute": [],
+  "title": "Requerimento nº 20519/2025",
+  "voteResult": []
+}

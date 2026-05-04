@@ -1,6 +1,9 @@
 {
   "@id": "/@@normas",
   "@type": "Normas",
-  "description": "Lista de normas jurídicas do ano de 2026",
-  "items": []
+  "ano": "2026",
+  "description": "Lista de normas jurídicas do ano 2026 (tip_norma=5)",
+  "items": [],
+  "ordem": "data_desc",
+  "tipNorma": "5"
 }

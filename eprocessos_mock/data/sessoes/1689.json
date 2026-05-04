@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1689",
+  "@id_presenca": "/@@sessoes/id/1689/presenca",
+  "@id_votacao": "/@@sessoes/id/1689/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [],
+  "date": "2026-05-05",
+  "description": "2ª Reunião Ordinária - 05/05/2026",
+  "endTime": "",
+  "id": "1689",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1689_pauta_sessao.pdf",
+      "filename": "1689_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "2ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

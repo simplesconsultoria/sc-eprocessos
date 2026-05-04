@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/233901",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão (PV)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-06",
+  "description": "51233/2025. Solicitação de melhorias no atendimento e na prestação de serviços do Hospital e Maternidade Municipal Dr. ODelmo Leão Carneiro.\r\nR. Mata dos Pinhais, 410 - Jardim Botânico, CEP: 38410-651\r\nJustifica-se o uso da modalidade REQUERIMENTO, nos termos do art. 233 do Regimento Interno, por tratar-se de solicitação sem endereço definido, o que inviabiliza sua apresentação como INDICAÇÃO. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/233901_texto_integral.pdf",
+      "filename": "233901_texto_integral.pdf",
+      "size": "524.5 KB"
+    }
+  ],
+  "id": "233901",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-10-07 13:13:05",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679815_tram.pdf",
+          "filename": "679815_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-10-07 11:07:02",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679680_tram.pdf",
+          "filename": "679680_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-10-06 15:19:04",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679435_tram.pdf",
+          "filename": "679435_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-10-06 14:26:24",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/10/2025 09:42:39. Matéria incorporada em 06/10/2025 14:26:24 sob protocolo nº 29170/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679351_tram.pdf",
+          "filename": "679351_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "29170/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=233901",
+  "substitute": [],
+  "title": "Requerimento nº 20491/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1599",
+      "cod_ordem": 267699,
+      "cod_sessao_plen": 1599,
+      "date": "2025-10-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1599&cod_ordem=267699&cod_materia=233901&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -17,32 +17,32 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Delegada Lia Valechi"
+      "title": "Delegada Lia Valechi (União Brasil)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Ângela Do Postinho"
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Edinho Combate Ao Câncer"
+      "title": "Elinho Da Academia (MOBILIZA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Elinho Da Academia"
+      "title": "Pezão Do Esporte (DC)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Pezão Do Esporte"
+      "title": "Ronaldo Tannús (PODEMOS)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Ronaldo Tannús"
+      "title": "Ângela Do Postinho (Solidariedade)"
     }
   ],
   "committeeOpinion": [],
@@ -51,24 +51,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/247908_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/247908_texto_integral.pdf",
       "filename": "247908_texto_integral.pdf",
-      "size": ""
+      "size": "2.4 MB"
     }
   ],
   "id": "247908",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-02-11 13:33:10",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/747103_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/747103_tram.pdf",
           "filename": "747103_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": true,
@@ -77,14 +85,15 @@
     },
     {
       "date": "2026-02-11 12:09:06",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/746412_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/746412_tram.pdf",
           "filename": "746412_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -93,14 +102,15 @@
     },
     {
       "date": "2026-02-10 14:41:54",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/746165_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/746165_tram.pdf",
           "filename": "746165_tram.pdf",
-          "size": ""
+          "size": "21.4 KB"
         }
       ],
       "last": false,
@@ -109,14 +119,15 @@
     },
     {
       "date": "2026-02-10 14:27:36",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 10/02/2026 10:36:03. Matéria incorporada em 10/02/2026 14:27:36 sob protocolo nº 5729/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/02/2026 10:36:03. Matéria incorporada em 10/02/2026 14:27:36 sob protocolo nº 5729/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/745909_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/745909_tram.pdf",
           "filename": "745909_tram.pdf",
-          "size": ""
+          "size": "21.5 KB"
         }
       ],
       "last": false,
@@ -126,10 +137,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "5729/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247908",
   "substitute": [],
   "title": "Requerimento nº 20788/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1651",
+      "cod_ordem": 293779,
+      "cod_sessao_plen": 1651,
+      "date": "2026-02-11",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1651&cod_ordem=293779&cod_materia=247908&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

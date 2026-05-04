@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/207476",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-10",
+  "description": "Requer-se a realização de serviço de tapa-buracos nas seguintes vias do Bairro Bairro Nossa Senhora das Graças E Umuarama:\r\n1 - R. Ceará - cruzamento com Av Brasil, Bairro Umuarama, 38402-018;\r\n2 - Av. Levino de Souza, cruzamento com a Rua Iguaçu, próximo a UFU, no Bairro Umuarama\r\n3 - Av. Frei Caneca, esquina com Rua Paraíba, Bairro Nossa Senhora das Graças.\r\n4 - Av. Bárbara Eleodora - Cruzamento com Rua Rio Grande do Norte, Bairro Nossa Senhora das Graças, 38402-312",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/207476_texto_integral.pdf",
+      "filename": "207476_texto_integral.pdf",
+      "size": "520.6 KB"
+    }
+  ],
+  "id": "207476",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-12 13:34:35",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554767_tram.pdf",
+          "filename": "554767_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-12 11:39:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554473_tram.pdf",
+          "filename": "554473_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-11 14:14:23",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554250_tram.pdf",
+          "filename": "554250_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-10 14:22:15",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/02/2025 14:19:51. Matéria incorporada em 10/02/2025 14:22:15 sob protocolo nº 3013/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/553724_tram.pdf",
+          "filename": "553724_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "3013/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=207476",
+  "substitute": [],
+  "title": "Requerimento nº 2706/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1507",
+      "cod_ordem": 237997,
+      "cod_sessao_plen": 1507,
+      "date": "2025-02-12",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1507&cod_ordem=237997&cod_materia=207476&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

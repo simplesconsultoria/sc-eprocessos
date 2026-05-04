@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17953",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-05-21",
+  "data_publicacao": "2025-05-22",
+  "description": "AUTORIZA A REGULARIZAÇÃO FUNDIÁRIA URBANA DE INTERESSE SOCIAL NOS NÚCLEOS URBANOS INFORMAIS CONSOLIDADOS QUE MENCIONA.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17953&texto_original=1",
+      "filename": "17953_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "20 MB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 790, de 21/05/2025",
+  "id": "17953",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17953&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/219290",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "AUTORIZA A REGULARIZAÇÃO FUNDIÁRIA URBANA DE INTERESSE SOCIAL NOS NÚCLEOS URBANOS INFORMAIS CONSOLIDADOS QUE MENCIONA.",
+      "id": "219290",
+      "remoteUrl": "/@@pasta_digital?cod_materia=219290",
+      "title": "Projeto de Lei Complementar nº 26/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjE5Mjkw"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 790/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-05-21",
+    "dataPromulgacaoBR": "21/05/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 790, de 21/05/2025",
+    "numNorma": 790,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "AUTORIZA A REGULARIZAÇÃO FUNDIÁRIA URBANA DE INTERESSE SOCIAL NOS NÚCLEOS URBANOS INFORMAIS CONSOLIDADOS QUE MENCIONA.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17953",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17953",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+}
