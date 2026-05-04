@@ -64,15 +64,20 @@ async def proxy_json(
 
 
 async def proxy_binary(
-    path: str,
+    url_path: str,
     endpoint: str,
     item_id: str | None = None,
     **params: str,
 ) -> tuple[bytes, str]:
-    """Forward a binary request to upstream, store the response, and return (bytes, content_type)."""
+    """Forward a binary request to upstream, store the response, and return (bytes, content_type).
+
+    The first positional is named ``url_path`` (not ``path``) so callers can
+    safely pass ``path=`` through ``**params`` — the new
+    ``/@@sapl_documentos_download?path=…`` upstream endpoint requires that.
+    """
     client = get_client()
-    logger.info("Recording binary %s %s", path, params or "")
-    response = await client.get(path, params=params or None)
+    logger.info("Recording binary %s %s", url_path, params or "")
+    response = await client.get(url_path, params=params or None)
     response.raise_for_status()
     content_type = response.headers.get("content-type", "application/octet-stream")
     storage.store(
