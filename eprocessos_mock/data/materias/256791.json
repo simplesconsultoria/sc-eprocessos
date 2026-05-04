@@ -1,0 +1,157 @@
+{
+  "@id": "/@@materias/256791",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/246976",
+      "@type": "Materia",
+      "annexationDate": "2026-04-10",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 40 DE 30 DE DEZEMBRO DE 1992, QUE DISPÕE SOBRE O ESTATUTO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE UBERLÂNDIA, SUAS AUTARQUIAS, FUNDAÇÕES PÚBLICAS E CÂMARA MUNICIPAL, E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "246976",
+      "title": "Projeto de Lei Complementar nº 63/2026"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Prof. Ronaldo (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-10",
+  "description": "Requer apreciação, pelo plenário desta Casa, de parecer da Comissão de Legislação, Justiça e Redação exarado no Projeto de Lei Complementar 63/2026, que - \"ALTERA A LEI COMPLEMENTAR Nº 40 DE 30 DE DEZEMBRO DE 1992, QUE DISPÕE SOBRE O ESTATUTO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE UBERLÂNDIA, SUAS AUTARQUIAS, FUNDAÇÕES PÚBLICAS E CÂMARA MUNICIPAL, E DÁ OUTRAS PROVIDÊNCIAS\" para aumentar a licença paternidade aos servidores públicos.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/256791_texto_integral.pdf",
+      "filename": "256791_texto_integral.pdf",
+      "size": "1.8 MB"
+    }
+  ],
+  "id": "256791",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-04-13 13:16:18",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/787952_tram.pdf",
+          "filename": "787952_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-13 10:52:23",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/787279_tram.pdf",
+          "filename": "787279_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-10 13:58:48",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/786729_tram.pdf",
+          "filename": "786729_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-10 12:12:10",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 09/04/2026 16:12:33. Matéria incorporada em 10/04/2026 12:12:10 sob protocolo nº 14374/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/786421_tram.pdf",
+          "filename": "786421_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "14374/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=256791",
+  "substitute": [],
+  "title": "Requerimento nº 20950/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1680",
+      "cod_ordem": 305989,
+      "cod_sessao_plen": 1680,
+      "date": "2026-04-13",
+      "description": "Expediente da 7ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1680&cod_ordem=305989&cod_materia=256791&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

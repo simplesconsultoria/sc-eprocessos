@@ -1,0 +1,757 @@
+{
+  "@id": "/@@sessoes",
+  "@type": "SessoesPlenarias",
+  "description": "Lista de reuniões plenárias",
+  "items": [
+    {
+      "@id": "/@@sessoes/id/1637",
+      "@id_presenca": "/@@sessoes/id/1637/presenca",
+      "@id_votacao": "/@@sessoes/id/1637/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1637_ata_sessao.pdf",
+          "filename": "1637_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-12-12",
+      "description": "12/12/2025 15:30",
+      "endTime": "",
+      "id": "1637",
+      "pauta": [],
+      "startTime": "15:30",
+      "title": "5ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1634",
+      "@id_presenca": "/@@sessoes/id/1634/presenca",
+      "@id_votacao": "/@@sessoes/id/1634/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1634_ata_sessao.pdf",
+          "filename": "1634_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-12-10",
+      "description": "10/12/2025 12:30",
+      "endTime": "",
+      "id": "1634",
+      "pauta": [],
+      "startTime": "12:30",
+      "title": "4ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1631",
+      "@id_presenca": "/@@sessoes/id/1631/presenca",
+      "@id_votacao": "/@@sessoes/id/1631/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1631_ata_sessao.pdf",
+          "filename": "1631_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-12-08",
+      "description": "08/12/2025 11:00",
+      "endTime": "",
+      "id": "1631",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1629",
+      "@id_presenca": "/@@sessoes/id/1629/presenca",
+      "@id_votacao": "/@@sessoes/id/1629/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1629_ata_sessao.pdf",
+          "filename": "1629_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-12-05",
+      "description": "05/12/2025 11:00",
+      "endTime": "",
+      "id": "1629",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1625",
+      "@id_presenca": "/@@sessoes/id/1625/presenca",
+      "@id_votacao": "/@@sessoes/id/1625/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1625_ata_sessao.pdf",
+          "filename": "1625_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-12-02",
+      "description": "02/12/2025 11:00",
+      "endTime": "",
+      "id": "1625",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1622",
+      "@id_presenca": "/@@sessoes/id/1622/presenca",
+      "@id_votacao": "/@@sessoes/id/1622/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1622_ata_sessao.pdf",
+          "filename": "1622_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-11-14",
+      "description": "14/11/2025 12:00",
+      "endTime": "",
+      "id": "1622",
+      "pauta": [],
+      "startTime": "12:00",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1618",
+      "@id_presenca": "/@@sessoes/id/1618/presenca",
+      "@id_votacao": "/@@sessoes/id/1618/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1618_ata_sessao.pdf",
+          "filename": "1618_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-11-11",
+      "description": "11/11/2025 10:00",
+      "endTime": "",
+      "id": "1618",
+      "pauta": [],
+      "startTime": "10:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1616",
+      "@id_presenca": "/@@sessoes/id/1616/presenca",
+      "@id_votacao": "/@@sessoes/id/1616/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1616_ata_sessao.pdf",
+          "filename": "1616_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-11-10",
+      "description": "10/11/2025 11:00",
+      "endTime": "",
+      "id": "1616",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1609",
+      "@id_presenca": "/@@sessoes/id/1609/presenca",
+      "@id_votacao": "/@@sessoes/id/1609/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1609_ata_sessao.pdf",
+          "filename": "1609_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-14",
+      "description": "14/10/2025 11:30",
+      "endTime": "",
+      "id": "1609",
+      "pauta": [],
+      "startTime": "11:30",
+      "title": "6ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1607",
+      "@id_presenca": "/@@sessoes/id/1607/presenca",
+      "@id_votacao": "/@@sessoes/id/1607/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1607_ata_sessao.pdf",
+          "filename": "1607_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-13",
+      "description": "13/10/2025 12:00",
+      "endTime": "",
+      "id": "1607",
+      "pauta": [],
+      "startTime": "12:00",
+      "title": "5ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1605",
+      "@id_presenca": "/@@sessoes/id/1605/presenca",
+      "@id_votacao": "/@@sessoes/id/1605/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1605_ata_sessao.pdf",
+          "filename": "1605_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-10",
+      "description": "10/10/2025 10:30",
+      "endTime": "",
+      "id": "1605",
+      "pauta": [],
+      "startTime": "10:30",
+      "title": "4ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1603",
+      "@id_presenca": "/@@sessoes/id/1603/presenca",
+      "@id_votacao": "/@@sessoes/id/1603/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1603_ata_sessao.pdf",
+          "filename": "1603_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-09",
+      "description": "09/10/2025 10:30",
+      "endTime": "",
+      "id": "1603",
+      "pauta": [],
+      "startTime": "10:30",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1600",
+      "@id_presenca": "/@@sessoes/id/1600/presenca",
+      "@id_votacao": "/@@sessoes/id/1600/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1600_ata_sessao.pdf",
+          "filename": "1600_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-07",
+      "description": "07/10/2025 11:00",
+      "endTime": "",
+      "id": "1600",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1597",
+      "@id_presenca": "/@@sessoes/id/1597/presenca",
+      "@id_votacao": "/@@sessoes/id/1597/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1597_ata_sessao.pdf",
+          "filename": "1597_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-10-03",
+      "description": "03/10/2025 10:30",
+      "endTime": "",
+      "id": "1597",
+      "pauta": [],
+      "startTime": "10:30",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1593",
+      "@id_presenca": "/@@sessoes/id/1593/presenca",
+      "@id_votacao": "/@@sessoes/id/1593/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1593_ata_sessao.pdf",
+          "filename": "1593_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-09-12",
+      "description": "12/09/2025 12:00",
+      "endTime": "",
+      "id": "1593",
+      "pauta": [],
+      "startTime": "12:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1582",
+      "@id_presenca": "/@@sessoes/id/1582/presenca",
+      "@id_votacao": "/@@sessoes/id/1582/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1582_ata_sessao.pdf",
+          "filename": "1582_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-08-14",
+      "description": "14/08/2025 14:00",
+      "endTime": "",
+      "id": "1582",
+      "pauta": [],
+      "startTime": "14:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1571",
+      "@id_presenca": "/@@sessoes/id/1571/presenca",
+      "@id_votacao": "/@@sessoes/id/1571/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1571_ata_sessao.pdf",
+          "filename": "1571_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-07-14",
+      "description": "14/07/2025 12:40",
+      "endTime": "",
+      "id": "1571",
+      "pauta": [],
+      "startTime": "12:40",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1567",
+      "@id_presenca": "/@@sessoes/id/1567/presenca",
+      "@id_votacao": "/@@sessoes/id/1567/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1567_ata_sessao.pdf",
+          "filename": "1567_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-07-09",
+      "description": "09/07/2025 11:00",
+      "endTime": "",
+      "id": "1567",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1559",
+      "@id_presenca": "/@@sessoes/id/1559/presenca",
+      "@id_votacao": "/@@sessoes/id/1559/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1559_ata_sessao.pdf",
+          "filename": "1559_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-06-13",
+      "description": "13/06/2025 10:30",
+      "endTime": "",
+      "id": "1559",
+      "pauta": [],
+      "startTime": "10:30",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1556",
+      "@id_presenca": "/@@sessoes/id/1556/presenca",
+      "@id_votacao": "/@@sessoes/id/1556/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1556_ata_sessao.pdf",
+          "filename": "1556_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-06-11",
+      "description": "11/06/2025 11:00",
+      "endTime": "",
+      "id": "1556",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1547",
+      "@id_presenca": "/@@sessoes/id/1547/presenca",
+      "@id_votacao": "/@@sessoes/id/1547/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1547_ata_sessao.pdf",
+          "filename": "1547_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-05-16",
+      "description": "16/05/2025 12:00",
+      "endTime": "",
+      "id": "1547",
+      "pauta": [],
+      "startTime": "12:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1543",
+      "@id_presenca": "/@@sessoes/id/1543/presenca",
+      "@id_votacao": "/@@sessoes/id/1543/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1543_ata_sessao.pdf",
+          "filename": "1543_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-05-13",
+      "description": "13/05/2025 10:00",
+      "endTime": "",
+      "id": "1543",
+      "pauta": [],
+      "startTime": "10:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1535",
+      "@id_presenca": "/@@sessoes/id/1535/presenca",
+      "@id_votacao": "/@@sessoes/id/1535/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1535_ata_sessao.pdf",
+          "filename": "1535_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-04-14",
+      "description": "14/04/2025 10:30",
+      "endTime": "",
+      "id": "1535",
+      "pauta": [],
+      "startTime": "10:30",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1532",
+      "@id_presenca": "/@@sessoes/id/1532/presenca",
+      "@id_votacao": "/@@sessoes/id/1532/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1532_ata_sessao.pdf",
+          "filename": "1532_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-04-10",
+      "description": "10/04/2025 11:00",
+      "endTime": "",
+      "id": "1532",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1525",
+      "@id_presenca": "/@@sessoes/id/1525/presenca",
+      "@id_votacao": "/@@sessoes/id/1525/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1525_ata_sessao.pdf",
+          "filename": "1525_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-04-02",
+      "description": "02/04/2025 11:00",
+      "endTime": "",
+      "id": "1525",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1522",
+      "@id_presenca": "/@@sessoes/id/1522/presenca",
+      "@id_votacao": "/@@sessoes/id/1522/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1522_ata_sessao.pdf",
+          "filename": "1522_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-03-21",
+      "description": "21/03/2025 11:00",
+      "endTime": "",
+      "id": "1522",
+      "pauta": [],
+      "startTime": "11:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1511",
+      "@id_presenca": "/@@sessoes/id/1511/presenca",
+      "@id_votacao": "/@@sessoes/id/1511/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1511_ata_sessao.pdf",
+          "filename": "1511_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-02-14",
+      "description": "14/02/2025 13:00",
+      "endTime": "",
+      "id": "1511",
+      "pauta": [],
+      "startTime": "13:00",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1509",
+      "@id_presenca": "/@@sessoes/id/1509/presenca",
+      "@id_votacao": "/@@sessoes/id/1509/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1509_ata_sessao.pdf",
+          "filename": "1509_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-02-13",
+      "description": "13/02/2025 11:30",
+      "endTime": "",
+      "id": "1509",
+      "pauta": [],
+      "startTime": "11:30",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1494",
+      "@id_presenca": "/@@sessoes/id/1494/presenca",
+      "@id_votacao": "/@@sessoes/id/1494/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1494_ata_sessao.pdf",
+          "filename": "1494_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-09",
+      "description": "09/01/2025 09:00",
+      "endTime": "",
+      "id": "1494",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1494_pauta_sessao.pdf",
+          "filename": "1494_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "3ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1495",
+      "@id_presenca": "/@@sessoes/id/1495/presenca",
+      "@id_votacao": "/@@sessoes/id/1495/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1495_ata_sessao.pdf",
+          "filename": "1495_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-09",
+      "description": "09/01/2025 10:32",
+      "endTime": "",
+      "id": "1495",
+      "pauta": [],
+      "startTime": "10:32",
+      "title": "4ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1492",
+      "@id_presenca": "/@@sessoes/id/1492/presenca",
+      "@id_votacao": "/@@sessoes/id/1492/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1492_ata_sessao.pdf",
+          "filename": "1492_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-07",
+      "description": "07/01/2025 09:00",
+      "endTime": "",
+      "id": "1492",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1492_pauta_sessao.pdf",
+          "filename": "1492_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "1ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    },
+    {
+      "@id": "/@@sessoes/id/1493",
+      "@id_presenca": "/@@sessoes/id/1493/presenca",
+      "@id_votacao": "/@@sessoes/id/1493/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1493_ata_sessao.pdf",
+          "filename": "1493_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-07",
+      "description": "07/01/2025 11:20",
+      "endTime": "",
+      "id": "1493",
+      "pauta": [],
+      "startTime": "11:20",
+      "title": "2ª Reunião Extraordinária",
+      "type": "Extraordinária",
+      "type_id": 2
+    }
+  ]
+}

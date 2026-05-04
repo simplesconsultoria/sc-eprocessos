@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18445",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-10-09",
+  "data_publicacao": "2025-10-14",
+  "description": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18445&texto_original=1",
+      "filename": "18445_texto_integral.pdf",
+      "ind_assinado": true,
+      "size": "956.9 KB"
+    }
+  ],
+  "heading_label": "Resolução nº 147, de 09/10/2025",
+  "id": "18445",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18445&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/232542",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=556176",
+          "@type": "Autor",
+          "id": "556176",
+          "primeiro_autor": true,
+          "title": "Mesa Diretora"
+        }
+      ],
+      "autoria_nomes": "Mesa Diretora",
+      "description": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "232542",
+      "remoteUrl": "/@@pasta_digital?cod_materia=232542",
+      "title": "Projeto de Resolução nº 2/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjMyNTQy"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": 3,
+  "num_pag_inicio_publ": 2,
+  "publicacao": {
+    "numPagFim": 3,
+    "numPagInicio": 2,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": true,
+  "title": "Resolução nº 147/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-10-09",
+    "dataPromulgacaoBR": "09/10/2025",
+    "desTipoNorma": "Resolução",
+    "headingLabel": "Resolução nº 147, de 09/10/2025",
+    "numNorma": 147,
+    "sglTipoNorma": "RES"
+  },
+  "txt_ementa": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18445",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18445",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

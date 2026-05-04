@@ -1,0 +1,74 @@
+{
+  "@id": "/@@sessoes/id/1505/votacao",
+  "@type": "votacaoNominal",
+  "description": "6ª Reunião Ordinária – 10/02/2025",
+  "items": [
+    {
+      "@id": "/@@materias/186443",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "552093",
+          "primeiro_autor": true,
+          "title": "Gilberto Rezende"
+        }
+      ],
+      "contrario": 0,
+      "description": "DISPÕE SOBRE A OBRIGATORIEDADE DE DIVULGAÇÃO DE INFORMAÇÕES SOBRE INJÚRIA RACIAL EM EVENTOS ESPORTIVOS NA CIDADE DE UBERLÂNDIA-MG E DÁ OUTRAS PROVIDÊNCIAS. ",
+      "favoravel": 0,
+      "id": "186443",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1510/2024",
+      "turno": "Apreciar veto",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/198300",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "546914",
+          "primeiro_autor": true,
+          "title": "Abatenio Marquez"
+        }
+      ],
+      "contrario": 0,
+      "description": "ALTERA A LEI Nº 12.417, DE 2 DE MAIO DE 2016 QUE DISPÕE DISPÕE SOBRE A AUTORIZAÇÃO DE CIRCULAÇÃO DE TÁXI NOS CORREDORES E FAIXAS DE ÔNIBUS, NO MUNICÍPIO DE UBERLÂNDIA.",
+      "favoravel": 0,
+      "id": "198300",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1659/2024",
+      "turno": "Apreciar veto",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    }
+  ],
+  "title": "Lista de votação nominal"
+}

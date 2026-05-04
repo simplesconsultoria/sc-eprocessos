@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1567",
+  "@id_presenca": "/@@sessoes/id/1567/presenca",
+  "@id_votacao": "/@@sessoes/id/1567/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1567_ata_sessao.pdf",
+      "filename": "1567_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-07-09",
+  "description": "1ª Reunião Extraordinária - 09/07/2025",
+  "endTime": "",
+  "id": "1567",
+  "pauta": [],
+  "startTime": "11:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

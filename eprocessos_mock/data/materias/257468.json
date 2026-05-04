@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/257468",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/246448",
+      "@type": "Materia",
+      "annexationDate": "2026-04-15",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 775, DE 13 DE DEZEMBRO DE 2024, DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "246448",
+      "title": "Projeto de Lei Complementar nº 62/2026"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto (MDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-04-15",
+  "description": "solicitação para Apreciação do parecer contrário exarado ao Projeto de Lei Complementar nº 62/2026, ALTERA A LEI COMPLEMENTAR Nº 775, DE 13 DE DEZEMBRO DE 2024, DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/257468_texto_integral.pdf",
+      "filename": "257468_texto_integral.pdf",
+      "size": "557.3 KB"
+    }
+  ],
+  "id": "257468",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-04-16 13:26:10",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/790089_tram.pdf",
+          "filename": "790089_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2026-04-16 11:54:32",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/790066_tram.pdf",
+          "filename": "790066_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2026-04-15 14:37:23",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/789825_tram.pdf",
+          "filename": "789825_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-04-15 14:29:36",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 15/04/2026 12:20:18. Matéria incorporada em 15/04/2026 14:29:36 sob protocolo nº 15033/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/789598_tram.pdf",
+          "filename": "789598_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "15033/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=257468",
+  "substitute": [],
+  "title": "Requerimento nº 20965/2026",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1686",
+      "cod_ordem": 306585,
+      "cod_sessao_plen": 1686,
+      "date": "2026-04-16",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1686&cod_ordem=306585&cod_materia=257468&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

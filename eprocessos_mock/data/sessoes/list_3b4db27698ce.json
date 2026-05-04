@@ -1,0 +1,53 @@
+{
+  "@id": "/@@sessoes",
+  "@type": "SessoesPlenarias",
+  "description": "Lista de reuniões plenárias",
+  "items": [
+    {
+      "@id": "/@@sessoes/id/1500",
+      "@id_presenca": "/@@sessoes/id/1500/presenca",
+      "@id_votacao": "/@@sessoes/id/1500/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1500_ata_sessao.pdf",
+          "filename": "1500_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-07",
+      "description": "07/01/2025 08:00",
+      "endTime": "",
+      "id": "1500",
+      "pauta": [],
+      "startTime": "08:00",
+      "title": "2ª Reunião Especial",
+      "type": "Especial",
+      "type_id": 4
+    },
+    {
+      "@id": "/@@sessoes/id/1498",
+      "@id_presenca": "/@@sessoes/id/1498/presenca",
+      "@id_votacao": "/@@sessoes/id/1498/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1498_ata_sessao.pdf",
+          "filename": "1498_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-01",
+      "description": "01/01/2025 11:30",
+      "endTime": "",
+      "id": "1498",
+      "pauta": [],
+      "startTime": "11:30",
+      "title": "1ª Reunião Especial",
+      "type": "Especial",
+      "type_id": 4
+    }
+  ]
+}

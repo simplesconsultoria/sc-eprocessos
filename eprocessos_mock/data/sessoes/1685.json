@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1685",
+  "@id_presenca": "/@@sessoes/id/1685/presenca",
+  "@id_votacao": "/@@sessoes/id/1685/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1685_ata_sessao.pdf",
+      "filename": "1685_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-04-15",
+  "description": "4ª Reunião Extraordinária - 15/04/2026",
+  "endTime": "",
+  "id": "1685",
+  "pauta": [],
+  "startTime": "12:00",
+  "title": "4ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17840",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-04-21",
+  "data_publicacao": "2025-04-22",
+  "description": "ALTERA O ANEXO IV DA LEI COMPLEMENTAR Nº 525, DE 14 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE O ZONEAMENTO DO USO E OCUPAÇÃO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA”",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17840&texto_original=1",
+      "filename": "17840_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "628.6 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 787, de 21/04/2025",
+  "id": "17840",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17840&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/210278",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=26097",
+          "@type": "Autor",
+          "id": "26097",
+          "primeiro_autor": true,
+          "title": "Zezinho Mendonça"
+        }
+      ],
+      "autoria_nomes": "Zezinho Mendonça",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 525, DE 14 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE O ZONEAMENTO DO USO E OCUPAÇÃO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA”",
+      "id": "210278",
+      "remoteUrl": "/@@pasta_digital?cod_materia=210278",
+      "title": "Projeto de Lei Complementar nº 14/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjEwMjc4"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 787/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-04-21",
+    "dataPromulgacaoBR": "21/04/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 787, de 21/04/2025",
+    "numNorma": 787,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA O ANEXO IV DA LEI COMPLEMENTAR Nº 525, DE 14 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE \"DISPÕE SOBRE O ZONEAMENTO DO USO E OCUPAÇÃO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA”",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17840",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17840",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+}

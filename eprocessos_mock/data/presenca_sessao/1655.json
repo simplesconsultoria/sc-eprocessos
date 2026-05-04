@@ -1,0 +1,26 @@
+{
+  "@id": "/@@sessoes/id/1655/presenca",
+  "@type": "presencaSessao",
+  "chamadaRegimental": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "description": "10ª Reunião Ordinária - 13/02/2026",
+  "ordemDia": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "title": "Listas de presença na reunião plenária"
+}

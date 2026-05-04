@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/207484",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-10",
+  "description": "Requer-se a realização de serviço de tapa-buracos nas seguintes vias dos Bairros citados: (Saraiva, São Jorge, Vigilato Pereira, Lagoinha, Laranjeiras, Granada)\r\nBairro Saraiva:\r\nR. Luíza de Jesus, proximo ao nº 1436- Bairro Saraiva, 38408-002\r\nBairro São Jorge:\r\nR. Serra do Cachimbo - Bairro São Jorge, em toda extensão, 38410-376\r\nR. Ângelo Cunha, proximo ao nº 290 - São Jorge, 38410-206\r\nR. Geralda Francisca Borges - São Jorge\r\nAv. Serra da Canastra, 626 - São Jorge\r\nBairro Vigilato Pereira:\r\nR. José Joaquim Francisco - proximo ao nº 322, Bairro Vigilato Pereira, 38408-610\r\nBairro Lagoinha:\r\nR. Aldorando José de Souza, em toda sua extensão, Bairro Lagoinha, 38408-579.\r\nBairro Laranjeiras:\r\nAv. Continental - em toda extensão, Laranjeiras, 38410-314\r\nBairro Granada:\r\nR. Salto Grande, proximo nº 31 - Bairro Granada, 38410629",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/207484_texto_integral.pdf",
+      "filename": "207484_texto_integral.pdf",
+      "size": "72.8 KB"
+    }
+  ],
+  "id": "207484",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-12 13:34:35",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554775_tram.pdf",
+          "filename": "554775_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-12 11:39:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554481_tram.pdf",
+          "filename": "554481_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-11 14:14:23",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554258_tram.pdf",
+          "filename": "554258_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-10 14:25:34",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/02/2025 14:21:14. Matéria incorporada em 10/02/2025 14:25:34 sob protocolo nº 3021/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/553732_tram.pdf",
+          "filename": "553732_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "3021/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=207484",
+  "substitute": [],
+  "title": "Requerimento nº 2714/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1507",
+      "cod_ordem": 238005,
+      "cod_sessao_plen": 1507,
+      "date": "2025-02-12",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1507&cod_ordem=238005&cod_materia=207484&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

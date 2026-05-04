@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18310",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-08-20",
+  "data_publicacao": "2025-08-20",
+  "description": "ALTERA A LEI COMPLEMENTAR Nº 747, DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18310&texto_original=1",
+      "filename": "18310_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "194.6 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 798, de 20/08/2025",
+  "id": "18310",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18310&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/228661",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 747, DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”",
+      "id": "228661",
+      "remoteUrl": "/@@pasta_digital?cod_materia=228661",
+      "title": "Projeto de Lei Complementar nº 35/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjI4NjYx"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNICÍPIO "
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 798/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-08-20",
+    "dataPromulgacaoBR": "20/08/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 798, de 20/08/2025",
+    "numNorma": 798,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 747, DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18310",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18310",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNICÍPIO "
+}

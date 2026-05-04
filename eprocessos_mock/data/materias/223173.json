@@ -1,0 +1,172 @@
+{
+  "@id": "/@@materias/223173",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/206419",
+      "@type": "Materia",
+      "annexationDate": "2025-06-16",
+      "description": "DISPÕE SOBRE A CONCESSÃO DO BENEFICIO DA MEIA ENTRADA, PARA ELEITORES NOMEADOS PARA ATUAR NAS ELEIÇÕES GERAIS OU MUNICIPAIS DA ZONA ELEITORAL DE UBERLÂNDIA, PLEBISCITOS E REFERENDOS, EM ESPETÁCULOS ARTISTICOS-CULTURAIS E ESPORTIVOS.",
+      "id": "206419",
+      "title": "Projeto de Lei Ordinária nº 130/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Conrado Augusto (MDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-06-16",
+  "description": "com fulcro no caput do Art. 172 do Regimento Interno, o presente requerimento para que seja apreciado em Plenário o parecer do Projeto de Lei Ordinária nº 130/2025 “DISPÕE SOBRE A CONCESSÃO DO BENEFICIO DA MEIA ENTRADA, PARA ELEITORES NOMEADOS PARA ATUAR NAS ELEIÇÕES GERAIS OU MUNICIPAIS DE UBERLÂNDIA, PLEBISCITOS E REFERENDOS, EM ESPETÁCULOS ARTISTICOS-CULTURAIS E ESPORTIVOS.”\t",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/223173_texto_integral.pdf",
+      "filename": "223173_texto_integral.pdf",
+      "size": "1.7 MB"
+    }
+  ],
+  "id": "223173",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-07-01 14:41:08",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/637821_tram.pdf",
+          "filename": "637821_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-07-01 12:23:59",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/634326_tram.pdf",
+          "filename": "634326_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-06-24 10:38:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/632014_tram.pdf",
+          "filename": "632014_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-06-16 11:36:55",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 16/06/2025 09:33:35. Matéria incorporada em 16/06/2025 11:36:55 sob protocolo nº 18560/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/631309_tram.pdf",
+          "filename": "631309_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "18560/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=223173",
+  "substitute": [],
+  "title": "Requerimento nº 17332/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1560",
+      "cod_ordem": 254871,
+      "cod_sessao_plen": 1560,
+      "date": "2025-07-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1560&cod_ordem=254871&cod_materia=223173&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

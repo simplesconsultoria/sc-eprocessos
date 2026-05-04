@@ -17,17 +17,17 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Anderson Lima"
+      "title": "Anderson Lima (PL)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Jair Ferraz"
+      "title": "Jair Ferraz (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Janaina Guimarães"
+      "title": "Janaina Guimarães (PL)"
     }
   ],
   "committeeOpinion": [],
@@ -36,24 +36,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/246972_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/246972_texto_integral.pdf",
       "filename": "246972_texto_integral.pdf",
-      "size": ""
+      "size": "1.3 MB"
     }
   ],
   "id": "246972",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-02-06 13:09:55",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/743078_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/743078_tram.pdf",
           "filename": "743078_tram.pdf",
-          "size": ""
+          "size": "21.4 KB"
         }
       ],
       "last": true,
@@ -62,14 +70,15 @@
     },
     {
       "date": "2026-02-06 12:31:22",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/743041_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/743041_tram.pdf",
           "filename": "743041_tram.pdf",
-          "size": ""
+          "size": "21.4 KB"
         }
       ],
       "last": false,
@@ -78,14 +87,15 @@
     },
     {
       "date": "2026-02-05 14:07:10",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/742651_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/742651_tram.pdf",
           "filename": "742651_tram.pdf",
-          "size": ""
+          "size": "21.5 KB"
         }
       ],
       "last": false,
@@ -94,14 +104,15 @@
     },
     {
       "date": "2026-02-05 13:06:14",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/02/2026 16:46:21. Matéria incorporada em 05/02/2026 13:06:14 sob protocolo nº 4811/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/02/2026 16:46:21. Matéria incorporada em 05/02/2026 13:06:14 sob protocolo nº 4811/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/742244_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/742244_tram.pdf",
           "filename": "742244_tram.pdf",
-          "size": ""
+          "size": "21.6 KB"
         }
       ],
       "last": false,
@@ -111,10 +122,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "4811/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=246972",
   "substitute": [],
   "title": "Requerimento nº 20729/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1646",
+      "cod_ordem": 292903,
+      "cod_sessao_plen": 1646,
+      "date": "2026-02-06",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1646&cod_ordem=292903&cod_materia=246972&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

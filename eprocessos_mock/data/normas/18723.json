@@ -2,18 +2,29 @@
   "@id": "/@@normas/18723",
   "@type": "Norma",
   "anexos": [],
-  "data_norma": "18/03/2026",
-  "data_publicacao": "18/03/2026",
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2026-03-18",
+  "data_publicacao": "2026-03-18",
   "description": "ALTERA A LEI COMPLEMENTAR Nº 811, DE 9 DE JANEIRO DE 2026, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO URBANO DO MUNICÍPIO DE UBERLÂNDIA E SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/norma_juridica/18723_texto_integral.pdf",
+      "download": "/@@download_norma?cod_norma=18723&texto_original=1",
       "filename": "18723_texto_integral.pdf",
-      "size": ""
+      "ind_assinado": false,
+      "size": "189 KB"
     }
   ],
+  "heading_label": "Lei Complementar nº 816, de 18/03/2026",
   "id": "18723",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18723&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
   "materia": [
     {
       "@id": "/@@materias/251962",
@@ -27,15 +38,40 @@
           "title": "Prefeito Municipal"
         }
       ],
+      "autoria_nomes": "Prefeito Municipal",
       "description": "ALTERA A LEI COMPLEMENTAR Nº 811, DE 9 DE JANEIRO DE 2026, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO URBANO DO MUNICÍPIO DE UBERLÂNDIA E SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
       "id": "251962",
-      "remoteUrl": "/consultas/materia/pasta_digital?cod_materia=251962",
-      "title": "Projeto de Lei Complementar nº 70/2026"
+      "remoteUrl": "/@@pasta_digital?cod_materia=251962",
+      "title": "Projeto de Lei Complementar nº 70/2026",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjUxOTYy"
     }
   ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
   "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
   "status": "Vigente",
   "texto_compilado": [],
+  "texto_original_assinado": false,
   "title": "Lei Complementar nº 816/2026",
+  "title_parts": {
+    "anoNorma": 2026,
+    "dataPromulgacao": "2026-03-18",
+    "dataPromulgacaoBR": "18/03/2026",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 816, de 18/03/2026",
+    "numNorma": 816,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 811, DE 9 DE JANEIRO DE 2026, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO URBANO DO MUNICÍPIO DE UBERLÂNDIA E SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18723",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18723",
   "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
 }

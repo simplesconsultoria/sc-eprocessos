@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1522",
+  "@id_presenca": "/@@sessoes/id/1522/presenca",
+  "@id_votacao": "/@@sessoes/id/1522/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1522_ata_sessao.pdf",
+      "filename": "1522_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-03-21",
+  "description": "1ª Reunião Extraordinária - 21/03/2025",
+  "endTime": "",
+  "id": "1522",
+  "pauta": [],
+  "startTime": "11:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

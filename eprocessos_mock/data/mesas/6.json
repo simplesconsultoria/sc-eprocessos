@@ -14,12 +14,12 @@
       "id": "26097",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26097_foto_parlamentar",
           "filename": "26097_foto_parlamentar",
-          "height": "350",
-          "size": "213974",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -29,7 +29,7 @@
         }
       ],
       "title": "Zezinho Mendonça",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//26097_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/528007",
@@ -39,12 +39,12 @@
       "id": "528007",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/528007_foto_parlamentar",
           "filename": "528007_foto_parlamentar",
-          "height": "350",
-          "size": "159012",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -54,7 +54,7 @@
         }
       ],
       "title": "Sérgio do Bom Preço",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//528007_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/537434",
@@ -64,12 +64,12 @@
       "id": "537434",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537434_foto_parlamentar",
           "filename": "537434_foto_parlamentar",
-          "height": "350",
-          "size": "204520",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -79,7 +79,7 @@
         }
       ],
       "title": "Neemias Miquéias",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/537434_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//537434_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/527981",
@@ -89,12 +89,12 @@
       "id": "527981",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/527981_foto_parlamentar",
           "filename": "527981_foto_parlamentar",
-          "height": "350",
-          "size": "136492",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -104,7 +104,7 @@
         }
       ],
       "title": "Eduardo Moraes",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/527981_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//527981_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/399022",
@@ -114,12 +114,12 @@
       "id": "399022",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/399022_foto_parlamentar",
           "filename": "399022_foto_parlamentar",
-          "height": "350",
-          "size": "242980",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -129,7 +129,7 @@
         }
       ],
       "title": "Liza Prado",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//399022_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/537436",
@@ -139,12 +139,12 @@
       "id": "537436",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537436_foto_parlamentar",
           "filename": "537436_foto_parlamentar",
-          "height": "350",
-          "size": "202988",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -154,11 +154,12 @@
         }
       ],
       "title": "Thais Andrade",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/537436_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//537436_foto_parlamentar"
     }
   ],
   "legislatura": "19ª Legislatura",
   "legislatura_id": "/@@legislaturas/19",
+  "num_legislatura": 19,
   "start": "2023-01-01",
   "title": "01/01/2023 a 31/12/2024"
 }

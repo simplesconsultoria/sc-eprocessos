@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/226584",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Abatenio Marquez (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-07-22",
+  "description": "Solicitando à SECRETARIA MUNICIPAL DE EDUCAÇÃO, nos casos de substituição, aquisição e/ou contratação de veículos destinados ao transporte escolar, seja obrigatoriamente observado o critério de vida útil do veículo, estabelecido em até 16 anos de fabricação, conforme as normas técnicas e de segurança vigentes. Essa exigência deve ser aplicada tanto para novos prestadores que venham a ingressar no sistema quanto para os que já atuam, permitindo-se, nesses casos, a substituição do veículo atualmente cadastrado por outro que atenda ao referido critério.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/226584_texto_integral.pdf",
+      "filename": "226584_texto_integral.pdf",
+      "size": "75.7 KB"
+    }
+  ],
+  "id": "226584",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-01 14:36:53",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/651914_tram.pdf",
+          "filename": "651914_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-01 12:10:28",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/648968_tram.pdf",
+          "filename": "648968_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-07-22 14:03:36",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/646089_tram.pdf",
+          "filename": "646089_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-07-22 14:01:44",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 22/07/2025 14:01:08. Matéria incorporada em 22/07/2025 14:01:44 sob protocolo nº 21953/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/646088_tram.pdf",
+          "filename": "646088_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "21953/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=226584",
+  "substitute": [],
+  "title": "Requerimento nº 20188/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1572",
+      "cod_ordem": 260824,
+      "cod_sessao_plen": 1572,
+      "date": "2025-08-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1572&cod_ordem=260824&cod_materia=226584&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

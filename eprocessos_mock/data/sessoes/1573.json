@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1573",
+  "@id_presenca": "/@@sessoes/id/1573/presenca",
+  "@id_votacao": "/@@sessoes/id/1573/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1573_ata_sessao.pdf",
+      "filename": "1573_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-08-04",
+  "description": "2ª Reunião Ordinária - 04/08/2025",
+  "endTime": "",
+  "id": "1573",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1573_pauta_sessao.pdf",
+      "filename": "1573_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "2ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17952",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-05-21",
+  "data_publicacao": "2025-05-22",
+  "description": "ALTERA A LEI COMPLEMENTAR N° 523, DE 07 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA E DE SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17952&texto_original=1",
+      "filename": "17952_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "528.2 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 789, de 21/05/2025",
+  "id": "17952",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17952&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/219293",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "ALTERA A LEI COMPLEMENTAR N° 523, DE 07 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA E DE SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
+      "id": "219293",
+      "remoteUrl": "/@@pasta_digital?cod_materia=219293",
+      "title": "Projeto de Lei Complementar nº 27/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjE5Mjkz"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 789/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-05-21",
+    "dataPromulgacaoBR": "21/05/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 789, de 21/05/2025",
+    "numNorma": 789,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR N° 523, DE 07 DE ABRIL DE 2011 E SUAS ALTERAÇÕES, QUE “DISPÕE SOBRE O PARCELAMENTO DO SOLO DO MUNICÍPIO DE UBERLÂNDIA E DE SEUS DISTRITOS E DÁ OUTRAS PROVIDÊNCIAS”.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17952",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17952",
+  "veiculo_publicacao": "DIÁRIO OFICIAL DO MUNÍCIPIO"
+}

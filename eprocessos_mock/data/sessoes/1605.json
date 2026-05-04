@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1605",
+  "@id_presenca": "/@@sessoes/id/1605/presenca",
+  "@id_votacao": "/@@sessoes/id/1605/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1605_ata_sessao.pdf",
+      "filename": "1605_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-10-10",
+  "description": "4ª Reunião Extraordinária - 10/10/2025",
+  "endTime": "",
+  "id": "1605",
+  "pauta": [],
+  "startTime": "10:30",
+  "title": "4ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

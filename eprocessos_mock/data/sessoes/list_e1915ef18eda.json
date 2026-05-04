@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes",
+  "@type": "SessoesPlenarias",
+  "description": "Lista de reuniões plenárias",
+  "items": [
+    {
+      "@id": "/@@sessoes/id/1499",
+      "@id_presenca": "/@@sessoes/id/1499/presenca",
+      "@id_votacao": "/@@sessoes/id/1499/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1499_ata_sessao.pdf",
+          "filename": "1499_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2025-01-01",
+      "description": "01/01/2025 09:00",
+      "endTime": "",
+      "id": "1499",
+      "pauta": [],
+      "startTime": "09:00",
+      "title": "1ª Reunião Solene",
+      "type": "Solene",
+      "type_id": 3
+    }
+  ]
+}

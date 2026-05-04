@@ -20,7 +20,7 @@
         }
       ],
       "title": "Alexandre Nogueira",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/25982",
@@ -36,7 +36,7 @@
         }
       ],
       "title": "Marcio Nobre",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/25988",
@@ -46,12 +46,12 @@
       "id": "25988",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar",
           "filename": "25988_foto_parlamentar",
-          "height": "350",
-          "size": "217172",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -61,7 +61,7 @@
         }
       ],
       "title": "Adriano Zago",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//25988_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/26006",
@@ -72,7 +72,7 @@
       "image": [],
       "partido": [],
       "title": "Isac Cruz",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/25983",
@@ -83,7 +83,7 @@
       "image": [],
       "partido": [],
       "title": "Ismar Prado",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/26006",
@@ -94,7 +94,7 @@
       "image": [],
       "partido": [],
       "title": "Isac Cruz",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/25986",
@@ -110,7 +110,7 @@
         }
       ],
       "title": "Alexandre Nogueira",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/26010",
@@ -120,12 +120,12 @@
       "id": "26010",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26010_foto_parlamentar",
           "filename": "26010_foto_parlamentar",
-          "height": "350",
-          "size": "182275",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -135,7 +135,7 @@
         }
       ],
       "title": "Gláucia da Saúde",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//26010_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/25985",
@@ -151,7 +151,7 @@
         }
       ],
       "title": "Juliano Modesto",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     },
     {
       "@id": "/@@vereadores/25987",
@@ -162,11 +162,12 @@
       "image": [],
       "partido": [],
       "title": "Rodi Borges",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     }
   ],
   "legislatura": "17ª Legislatura",
   "legislatura_id": "/@@legislaturas/17",
+  "num_legislatura": 17,
   "start": "2015-06-02",
   "title": "02/06/2015 a 31/12/2016"
 }

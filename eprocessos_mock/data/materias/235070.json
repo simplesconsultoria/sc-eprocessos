@@ -1,0 +1,202 @@
+{
+  "@id": "/@@materias/235070",
+  "@type": "Materia",
+  "accessoryDocument": [
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 235070,
+      "date": "2025-10-27 08:46:29",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/1875.pdf",
+          "filename": "1875.pdf",
+          "size": "518.1 KB"
+        }
+      ],
+      "id": "1875",
+      "odtDownload": null,
+      "title": "PUBLICAÇÃO JORNAL \"O LEGISALTIVO\""
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 235070,
+      "date": "2026-04-07 09:42:41",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2221.pdf",
+          "filename": "2221.pdf",
+          "size": "403.9 KB"
+        }
+      ],
+      "id": "2221",
+      "odtDownload": null,
+      "title": "Publicação"
+    }
+  ],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Nei Borges (Solidariedade)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Antônio Carrijo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Delegada Lia Valechi (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Neemias Miquéias (PODEMOS)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Pezão Do Esporte (DC)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Sargento Ednaldo (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Thais Andrade (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Zezinho Mendonça (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ângela Do Postinho (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-20",
+  "description": "Exmo. Sr. Presidente, \r\nDe acordo com os artigos 106 e 233 da Resolução nº 031/02, REQUEREMOS a Vossa Excelência que seja encaminhado à MESA DIRETORA solicitação para o presente Requerimento de Criação de Comissão Parlamentar de Inquérito, com a finalidade de apurar indícios de comercialização e distribuição de bebidas alcoólicas adulteradas com metanol no Município de Uberlândia/MG, em possível afronta à legislação sanitária e penal vigente, no período de 2025.\r\nA referida Comissão será constituída para apuração de fato determinado com prazo certo (art. 106 do Regimento Interno da Câmara Municipal de Uberlândia), tendo sua duração pelo prazo de 120 dias, podendo ser prorrogáveis por até metade, nos termos do art. 35, § 3º do Regimento Interno da Câmara dos Deputados (RICD).",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/235070_texto_integral.pdf",
+      "filename": "235070_texto_integral.pdf",
+      "size": "4.3 MB"
+    }
+  ],
+  "id": "235070",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-10-27 08:46:08",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682841_tram.pdf",
+          "filename": "682841_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Apoio às Comissões",
+      "title": "Publicação Jornal Oficial"
+    },
+    {
+      "date": "2025-10-20 13:59:13",
+      "deadline": null,
+      "description": "<p>Para publica&ccedil;&atilde;o no Jornal O Legislativo, nos termos do Art. 106, &sect;2&ordm;, do Regimento Interno.</p>",
+      "destinationUnit": "Gabinete da Presidência",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682808_tram.pdf",
+          "filename": "682808_tram.pdf",
+          "size": "471.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Despacho"
+    },
+    {
+      "date": "2025-10-20 13:54:58",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 15/10/2025 16:11:39. Matéria incorporada em 20/10/2025 13:54:58 sob protocolo nº 30295/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/682807_tram.pdf",
+          "filename": "682807_tram.pdf",
+          "size": "22.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "30295/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=235070",
+  "substitute": [],
+  "title": "Requerimento nº 20518/2025",
+  "voteResult": []
+}

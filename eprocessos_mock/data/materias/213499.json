@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/213499",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/204502",
+      "@type": "Materia",
+      "annexationDate": "2025-03-31",
+      "description": "ESTABELECE A RESERVA DE ASSENTOS PREFERENCIAIS PARA IDOSOS, GESTANTES, OBESOS, LACTANTES E PESSOAS COM DEFICIÊNCIA OU MOBILIDADE REDUZIDA EM TERMINAIS DE INTEGRAÇÃO, ESTAÇÃO FECHADA, ESTAÇÃO DE TRANSFERÊNCIA E PONTOS DE PARADA DE ÔNIBUS NO MUNICÍPIO DE UBERLÂNDIA. ",
+      "id": "204502",
+      "title": "Projeto de Lei Ordinária nº 34/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Liza Prado (CIDADANIA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Prof. Ronaldo (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-03-31",
+  "description": "com fulcro no caput art.  172 do Regimento interno venho requerer que o Projeto de Lei Ordinária nº 34/2025 - ESTABELECE A RESERVA DE ASSENTOS PREFERENCIAIS PARA IDOSOS, GESTANTES, OBESOS, LACTANTES E PESSOAS COM DEFICIÊNCIA OU MOBILIDADE REDUZIDA EM TERMINAIS DE INTEGRAÇÃO, ESTAÇÃO FECHADA, ESTAÇÃO DE TRANSFERÊNCIA E PONTOS DE PARADA DE ÔNIBUS NO MUNICÍPIO DE UBERLÂNDIA, seja apreciado pelo plenário. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/213499_texto_integral.pdf",
+      "filename": "213499_texto_integral.pdf",
+      "size": "1.1 MB"
+    }
+  ],
+  "id": "213499",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-01 14:18:39",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/580800_tram.pdf",
+          "filename": "580800_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-01 11:04:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/580275_tram.pdf",
+          "filename": "580275_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-03-31 13:01:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/576411_tram.pdf",
+          "filename": "576411_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-03-31 11:47:56",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 31/03/2025 10:01:48. Matéria incorporada em 31/03/2025 11:47:56 sob protocolo nº 8985/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/576207_tram.pdf",
+          "filename": "576207_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "8985/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=213499",
+  "substitute": [],
+  "title": "Requerimento nº 8297/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1523",
+      "cod_ordem": 244030,
+      "cod_sessao_plen": 1523,
+      "date": "2025-04-01",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1523&cod_ordem=244030&cod_materia=213499&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

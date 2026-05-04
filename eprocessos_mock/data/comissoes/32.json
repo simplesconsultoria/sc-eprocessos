@@ -1,6 +1,32 @@
 {
   "@id": "/@@comissoes/32",
   "@type": "Comissao",
+  "ativa": true,
+  "composicao_exibir_datas_membros": false,
+  "composicao_periodo_effective": 17,
+  "composicao_periodos": [
+    {
+      "atual": true,
+      "end": "2027-02-07",
+      "id": 17,
+      "label": "07/02/2025 a 07/02/2027",
+      "start": "2025-02-07"
+    },
+    {
+      "atual": false,
+      "end": "2024-12-31",
+      "id": 16,
+      "label": "07/05/2024 a 31/12/2024",
+      "start": "2024-05-07"
+    },
+    {
+      "atual": false,
+      "end": "2024-05-06",
+      "id": 6,
+      "label": "01/01/2023 a 06/05/2024",
+      "start": "2023-01-01"
+    }
+  ],
   "description": "CPPPCEC",
   "id": "32",
   "items": [
@@ -8,16 +34,19 @@
       "@id": "/@@vereadores/556181",
       "@type": "ParticipanteComissao",
       "cargo": "Presidente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Nei Carlos Borges",
       "id": "556181",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556181_foto_parlamentar",
           "filename": "556181_foto_parlamentar",
-          "height": 350,
-          "size": 217149,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -28,23 +57,30 @@
           "token": "Solidariedade"
         }
       ],
+      "partido_vigente": {
+        "title": "Solidariedade",
+        "token": "Solidariedade"
+      },
       "title": "Nei Borges",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/556181_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/556181_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/556178",
       "@type": "ParticipanteComissao",
       "cargo": "Relator",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Edson Carvalho Ferreira",
       "id": "556178",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556178_foto_parlamentar",
           "filename": "556178_foto_parlamentar",
-          "height": 350,
-          "size": 216173,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -55,23 +91,30 @@
           "token": "DEMOCRATA"
         }
       ],
+      "partido_vigente": {
+        "title": "Democrata",
+        "token": "DEMOCRATA"
+      },
       "title": "Edinho Combate Ao Câncer",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/556178_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/556178_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/26010",
       "@type": "ParticipanteComissao",
       "cargo": "Membro",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Gláucia Galante Buíssa",
       "id": "26010",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26010_foto_parlamentar",
           "filename": "26010_foto_parlamentar",
-          "height": 350,
-          "size": 182275,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -82,23 +125,30 @@
           "token": "PL"
         }
       ],
+      "partido_vigente": {
+        "title": "PARTIDO LIBERAL",
+        "token": "PL"
+      },
       "title": "Gláucia da Saúde",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/26010_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/25988",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Adriano Zago",
       "id": "25988",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar",
           "filename": "25988_foto_parlamentar",
-          "height": 350,
-          "size": 217172,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -109,23 +159,30 @@
           "token": "AVANTE"
         }
       ],
+      "partido_vigente": {
+        "title": "AVANTE",
+        "token": "AVANTE"
+      },
       "title": "Adriano Zago",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/552091",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Igino Marcos da Mata de Oliveira",
       "id": "552091",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/552091_foto_parlamentar",
           "filename": "552091_foto_parlamentar",
-          "height": 350,
-          "size": 224883,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -136,23 +193,30 @@
           "token": "PT"
         }
       ],
+      "partido_vigente": {
+        "title": "PARTIDO DOS TRABALHADORES",
+        "token": "PT"
+      },
       "title": "Dr. Igino",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/552091_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/552091_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/556176",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Ângela Aparecida Caetano Souza",
       "id": "556176",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556176_foto_parlamentar",
           "filename": "556176_foto_parlamentar",
-          "height": 350,
-          "size": 222042,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -163,116 +227,110 @@
           "token": "Solidariedade"
         }
       ],
+      "partido_vigente": {
+        "title": "Solidariedade",
+        "token": "Solidariedade"
+      },
       "title": "Ângela Do Postinho",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/556176_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/556176_foto_parlamentar"
     }
   ],
   "periodos": [
     {
       "atual": false,
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "16",
-      "items": [
-        {
-          "@id": "/@@vereadores/527867",
-          "@type": "ParticipanteComissao",
-          "cargo": "Presidente",
-          "description": "Odair José",
-          "id": "527867",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "Solidariedade",
-              "token": "Solidariedade"
-            }
-          ],
-          "title": "Odair José"
-        },
-        {
-          "@id": "/@@vereadores/537430",
-          "@type": "ParticipanteComissao",
-          "cargo": "Relator",
-          "description": "Luiz Eduardo Ribeiro de Sá",
-          "id": "537430",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "Solidariedade",
-              "token": "Solidariedade"
-            }
-          ],
-          "title": "Dudu Luiz Eduardo"
-        },
-        {
-          "@id": "/@@vereadores/526698",
-          "@type": "ParticipanteComissao",
-          "cargo": "Membro",
-          "description": "Leandro Cassiano Neves",
-          "id": "526698",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
-              "token": "PRD"
-            }
-          ],
-          "title": "Leandro Neves"
-        },
-        {
-          "@id": "/@@vereadores/26010",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Gláucia Galante Buíssa",
-          "id": "26010",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PARTIDO LIBERAL",
-              "token": "PL"
-            }
-          ],
-          "title": "Gláucia da Saúde"
-        },
-        {
-          "@id": "/@@vereadores/537434",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Neemias Miquéias",
-          "id": "537434",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PODEMOS",
-              "token": "PODEMOS"
-            }
-          ],
-          "title": "Neemias Miquéias"
-        },
-        {
-          "@id": "/@@vereadores/528006",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Ronaldo César Vilela Tannús",
-          "id": "528006",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PODEMOS",
-              "token": "PODEMOS"
-            }
-          ],
-          "title": "Ronaldo Tannús"
-        }
-      ],
-      "start": "2024-05-07",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": 1,
+      "items": [],
+      "start": "2015-02-05",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": 2,
+      "items": [],
+      "start": "2017-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": 3,
+      "items": [],
+      "start": "2019-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2020 a 18/05/2020",
+      "end": "2020-05-18",
+      "id": 4,
+      "items": [],
+      "start": "2020-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": 5,
+      "items": [],
+      "start": "2020-05-19",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 7,
+      "items": [],
+      "start": "2021-02-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": 8,
+      "items": [],
+      "start": "2021-02-02",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 9,
+      "items": [],
+      "start": "2021-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 10,
+      "items": [],
+      "start": "2021-04-23",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "29/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 11,
+      "items": [],
+      "start": "2021-04-29",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
       "description": "01/01/2023 a 06/05/2024",
       "end": "2024-05-06",
-      "id": "6",
+      "id": 6,
       "items": [
         {
           "@id": "/@@vereadores/537430",
@@ -370,92 +428,102 @@
     },
     {
       "atual": false,
-      "description": "29/04/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "11",
-      "items": [],
-      "start": "2021-04-29",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "23/04/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "10",
-      "items": [],
-      "start": "2021-04-23",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "9",
-      "items": [],
-      "start": "2021-02-04",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "02/02/2021 a 31/12/2021",
-      "end": "2021-12-31",
-      "id": "8",
-      "items": [],
-      "start": "2021-02-02",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "01/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "7",
-      "items": [],
-      "start": "2021-02-01",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "19/05/2020 a 31/12/2020",
-      "end": "2020-12-31",
-      "id": "5",
-      "items": [],
-      "start": "2020-05-19",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "04/02/2020 a 18/05/2020",
-      "end": "2020-05-18",
-      "id": "4",
-      "items": [],
-      "start": "2020-02-04",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "01/01/2019 a 31/12/2019",
-      "end": "2019-12-31",
-      "id": "3",
-      "items": [],
-      "start": "2019-01-01",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "01/01/2017 a 31/12/2018",
-      "end": "2018-12-31",
-      "id": "2",
-      "items": [],
-      "start": "2017-01-01",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "05/02/2015 a 30/12/2016",
-      "end": "2016-12-30",
-      "id": "1",
-      "items": [],
-      "start": "2015-02-05",
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": 16,
+      "items": [
+        {
+          "@id": "/@@vereadores/527867",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Odair José",
+          "id": "527867",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Odair José"
+        },
+        {
+          "@id": "/@@vereadores/537430",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Luiz Eduardo Ribeiro de Sá",
+          "id": "537430",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Dudu Luiz Eduardo"
+        },
+        {
+          "@id": "/@@vereadores/526698",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Leandro Cassiano Neves",
+          "id": "526698",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+              "token": "PRD"
+            }
+          ],
+          "title": "Leandro Neves"
+        },
+        {
+          "@id": "/@@vereadores/26010",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gláucia Galante Buíssa",
+          "id": "26010",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Gláucia da Saúde"
+        },
+        {
+          "@id": "/@@vereadores/537434",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Neemias Miquéias",
+          "id": "537434",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PODEMOS",
+              "token": "PODEMOS"
+            }
+          ],
+          "title": "Neemias Miquéias"
+        },
+        {
+          "@id": "/@@vereadores/528006",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Ronaldo César Vilela Tannús",
+          "id": "528006",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PODEMOS",
+              "token": "PODEMOS"
+            }
+          ],
+          "title": "Ronaldo Tannús"
+        }
+      ],
+      "start": "2024-05-07",
       "title": "Composição da Comissão"
     }
   ],

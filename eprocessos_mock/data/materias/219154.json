@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/219154",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-05-14",
+  "description": "Requer-se a realização de serviço de tapa-buracos no bairro Lagoinha, nos seguintes endereços abaixo:\r\nR. Wilson Batista - nº 88 e 52 - Lagoinha, 38408-490.\r\nR. Bento de Faria - nº 490, 469, 499, 432 - Lagoinha, 38408-514.\r\nR. Álvares de Azevedo - nº 280, 70, 110, 426, 335 - Lagoinha, 38408-597.\r\nR. Aldorando José de Souza, nº 325, 309, 213, 271 - Lagoinha, 38408-579.\r\nR. Antônio de Castro Andrade - nº 238, Lagoinha, 38408-490.\r\nR. Berthoaldo Thomaz de Aquino - nº 163, Lagoinha, 38408-288.\r\nR. Hercílio Alvim - nº 147, 160, 62, 486, Lagoinha, 38408-510.\r\nR. Dária Pereira Alvim - nº 215, Lagoinha, 38408-512.\r\nRua Porongaba, Nº 261 - Lagoinha, 38408-595.\r\nR. São Bernardo, Nº 256 - Lagoinha, 38408-524.\r\nR. Emília Saraíva, Nº 358, 378 - Lagoinha, 38408-380.\r\nR. Quintino Bocaiúva, Nº 2329 - Lagoinha, 38408-372.\r\nRua Sócrates, nº 202 - Lagoinha, 38408-490.\r\nR. São Tomás de Aquino - nº 248, 212, 517,m 546, 258 - Lagoinha, 38408-288\r\nR. Quitandinha - nº 262 - Lagoinha.\r\nR. Walace - nº 602, 644 - Lagoinha, 38408-288.\r\nR. Pedro Ivo - nº 461, 122 - Lagoinha, 38408-556.\r\nR. Luís de Camões, nº 665, 38408-560.\r\nAlameda Arnolde de Almeida Castro - Nº 208, 238, 250, 295 - Lagoinha.\r\nR. Aristóteles - nº 219, Lagoinha, 38408-288.\r\nR. Platão - nº 183, 167, 57, 25 - Lagoinha, 38408-288.\r\nR. Geralda Maria da Silva - nº 156, 148 - Lagoinha, 38408-288.\r\nR. Antônio Teodoro - nº 39 - Lagoinha, 38408-288.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/219154_texto_integral.pdf",
+      "filename": "219154_texto_integral.pdf",
+      "size": "73.6 KB"
+    }
+  ],
+  "id": "219154",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-05-16 14:22:44",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615862_tram.pdf",
+          "filename": "615862_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-05-16 13:44:42",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615510_tram.pdf",
+          "filename": "615510_tram.pdf",
+          "size": "22 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-05-15 14:08:54",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/615158_tram.pdf",
+          "filename": "615158_tram.pdf",
+          "size": "22.1 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-05-14 16:37:33",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 14/05/2025 11:56:45. Matéria incorporada em 14/05/2025 16:37:33 sob protocolo nº 14592/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/614511_tram.pdf",
+          "filename": "614511_tram.pdf",
+          "size": "22.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "14592/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=219154",
+  "substitute": [],
+  "title": "Requerimento nº 13598/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1546",
+      "cod_ordem": 250327,
+      "cod_sessao_plen": 1546,
+      "date": "2025-05-16",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1546&cod_ordem=250327&cod_materia=219154&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

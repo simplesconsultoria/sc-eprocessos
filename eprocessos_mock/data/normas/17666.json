@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/17666",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-01-14",
+  "data_publicacao": "2025-01-14",
+  "description": "ALTERA A LEI COMPLEMENTAR Nº 751, DE 15 DE MARÇO DE 2023, QUE ESTABELECE A ESTRUTURA ORGÂNICA DA ADMINISTRAÇÃO PÚBLICA DO PODER EXECUTIVO DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS, E DÁ OUTRAS PROVIDÊNCIAS",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17666&texto_original=1",
+      "filename": "17666_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "1.8 MB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 778, de 14/01/2025",
+  "id": "17666",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17666&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/204451",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": false,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 751, DE 15 DE MARÇO DE 2023, QUE ESTABELECE A ESTRUTURA ORGÂNICA DA ADMINISTRAÇÃO PÚBLICA DO PODER EXECUTIVO DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS, E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "204451",
+      "remoteUrl": "/@@pasta_digital?cod_materia=204451",
+      "title": "Projeto de Lei Complementar nº 1/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjA0NDUx"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 778/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-01-14",
+    "dataPromulgacaoBR": "14/01/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 778, de 14/01/2025",
+    "numNorma": 778,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 751, DE 15 DE MARÇO DE 2023, QUE ESTABELECE A ESTRUTURA ORGÂNICA DA ADMINISTRAÇÃO PÚBLICA DO PODER EXECUTIVO DO MUNICÍPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS, E DÁ OUTRAS PROVIDÊNCIAS",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17666",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17666",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

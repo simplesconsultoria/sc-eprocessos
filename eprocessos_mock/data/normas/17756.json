@@ -1,0 +1,57 @@
+{
+  "@id": "/@@normas/17756",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-01-20",
+  "data_publicacao": "2025-01-21",
+  "description": "DISPÕE SOBRE A NOMEAÇÃO QUE MENCIONA",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=17756&texto_original=1",
+      "filename": "17756_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "252.7 KB"
+    }
+  ],
+  "heading_label": "Portaria nº 86, de 20/01/2025",
+  "id": "17756",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=17756&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Portaria nº 86/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-01-20",
+    "dataPromulgacaoBR": "20/01/2025",
+    "desTipoNorma": "Portaria",
+    "headingLabel": "Portaria nº 86, de 20/01/2025",
+    "numNorma": 86,
+    "sglTipoNorma": "POR"
+  },
+  "txt_ementa": "DISPÕE SOBRE A NOMEAÇÃO QUE MENCIONA",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17756",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=17756",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

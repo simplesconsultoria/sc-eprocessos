@@ -1,0 +1,1522 @@
+{
+  "@type": "Vereador",
+  "@id": "/@@vereadores/537435",
+  "id": "537435",
+  "_scope": "all",
+  "title": "Raphael Leles",
+  "description": "Raphael Leles",
+  "email": "raphael.leles@camarauberlandia.mg.gov.br",
+  "telefone_gabinete": "(34) 3239-1148",
+  "whatsapp_gabinete": "",
+  "cod_autor": "537435",
+  "em_exercicio": true,
+  "partido_atual": {
+    "sgl": "União Brasil",
+    "nome": "Unão Brasil",
+    "cod_partido": 33,
+    "url_logo": ""
+  },
+  "biografia": "<p>Raphael Leles, tem 37 anos, &eacute; casado com a Cl&aacute;udia e pai da J&uacute;lia e do Gabriel. Sua hist&oacute;ria &eacute; marcada pela honestidade, determina&ccedil;&atilde;o, disciplina e muita f&eacute; em Deus.</p>\r\n<p>Ao longo da sua vida, sempre usou os servi&ccedil;os oferecidos pelo Setor P&uacute;blico. Transporte coletivo. Sa&uacute;de p&uacute;blica. E ensino p&uacute;blico, da creche &agrave; universidade federal. &Eacute; administrador. Ma&ccedil;om. Triatleta e atleta de Mountain Bike.</p>\r\n<p>Carrega no peito o orgulho de ser Oficial do Ex&eacute;rcito. Por muitos anos se dedicou &agrave; carreira militar e ao servi&ccedil;o da P&aacute;tria. Ama nosso pa&iacute;s, nosso Estado, nossa cidade e sempre honrar&aacute; nossas bandeiras. Ele acredita que a educa&ccedil;&atilde;o, a inclus&atilde;o e o esporte transformam vidas.</p>\r\n<p>Nos &uacute;ltimos 4 anos esteve ao lado do Prefeito Odelmo Le&atilde;o ajudando a realizar projetos que est&atilde;o mudando a hist&oacute;ria da nossa cidade. Foi Secret&aacute;rio de Desenvolvimento Econ&ocirc;mico, Inova&ccedil;&atilde;o e Turismo, Secret&aacute;rio de Gest&atilde;o Estrat&eacute;gica, Presidente do Comit&ecirc; Gestor de Parcerias P&uacute;blico-Privadas e atuou no Conselho Municipal da Pessoa com Defici&ecirc;ncia.</p>\r\n<p>E agora, como vereador, ele vai ouvir, representar e trabalhar pra fazer o bem e manter nossa Uberl&acirc;ndia sempre forte!</p>",
+  "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/537435_foto_parlamentar",
+  "image": [
+    {
+      "content-type": "image/jpeg",
+      "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537435_foto_parlamentar",
+      "filename": "537435_foto_parlamentar",
+      "width": "0",
+      "height": "0",
+      "size": "0"
+    }
+  ],
+  "labels": {
+    "reuniao_sessao": "Reunião",
+    "reuniao_sessao_plural": "Reuniões",
+    "nome_mesa": "Mesa Diretora"
+  },
+  "filiacoes": [
+    {
+      "data_filiacao": "2021-01-01",
+      "data_desfiliacao": "2021-10-06",
+      "filiacao_atual": false,
+      "token": "DEM",
+      "title": "DEMOCRATAS"
+    },
+    {
+      "data_filiacao": "2021-10-06",
+      "data_desfiliacao": "",
+      "filiacao_atual": true,
+      "token": "União Brasil",
+      "title": "Unão Brasil"
+    }
+  ],
+  "mandatos": [
+    {
+      "@id": "/@@legislaturas/20",
+      "@type": "Mandato",
+      "id": 20,
+      "votos": 3962,
+      "start": "2025-01-01",
+      "end": "2028-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2025,
+      "legislatura_ano_fim": 2028
+    },
+    {
+      "@id": "/@@legislaturas/19",
+      "@type": "Mandato",
+      "id": 19,
+      "votos": "",
+      "start": "2021-01-01",
+      "end": "2024-12-31",
+      "natureza": "Titular",
+      "legislatura_ano_inicio": 2021,
+      "legislatura_ano_fim": 2024
+    }
+  ],
+  "mesas": [],
+  "comissoes": [
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "id": "26",
+      "title": "Presidente",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "cod_cargo": 1,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "id": "27",
+      "title": "Presidente",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "cod_cargo": 1,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Presidente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 1,
+      "start": "2024-05-07",
+      "end": "2024-08-07",
+      "description": "07/05/2024 a 07/08/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "id": "13",
+      "title": "Relator",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "cod_cargo": 7,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "Membro",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 8,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "id": "12",
+      "title": "Suplente",
+      "comissao": "Comissão de Administração Pública",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "id": "25",
+      "title": "Suplente",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "cod_cargo": 9,
+      "start": "2024-05-07",
+      "end": "2024-12-31",
+      "description": "07/05/2024 a 31/12/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "id": "25",
+      "title": "Presidente",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "cod_cargo": 1,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "id": "26",
+      "title": "Presidente",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "cod_cargo": 1,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Presidente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 1,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "id": "12",
+      "title": "Suplente",
+      "comissao": "Comissão de Administração Pública",
+      "cod_cargo": 9,
+      "start": "2023-01-01",
+      "end": "2024-05-06",
+      "description": "01/01/2023 a 06/05/2024",
+      "mandato": "Suplente"
+    },
+    {
+      "@id": "/@@comissoes/22",
+      "@type": "ParticipanteComissao",
+      "id": "22",
+      "title": "Membro",
+      "comissao": "Comissão Especial",
+      "cod_cargo": 8,
+      "start": "2022-08-17",
+      "end": "2024-05-06",
+      "description": "17/08/2022 a 06/05/2024",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/29",
+      "@type": "ParticipanteComissao",
+      "id": "29",
+      "title": "Presidente",
+      "comissao": "Comissão da Pessoa com Deficiência e da Pessoa com Doença Rara",
+      "cod_cargo": 1,
+      "start": "2021-04-29",
+      "end": "2022-12-31",
+      "description": "29/04/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/13",
+      "@type": "ParticipanteComissao",
+      "id": "13",
+      "title": "Presidente",
+      "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+      "cod_cargo": 1,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/25",
+      "@type": "ParticipanteComissao",
+      "id": "25",
+      "title": "Presidente",
+      "comissao": "Comissão de Micro e Pequenas Empresas",
+      "cod_cargo": 1,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/26",
+      "@type": "ParticipanteComissao",
+      "id": "26",
+      "title": "Relator",
+      "comissao": "Comissão de Esporte, Lazer e Paradesporto",
+      "cod_cargo": 7,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/27",
+      "@type": "ParticipanteComissao",
+      "id": "27",
+      "title": "Relator",
+      "comissao": "Comissão de Inovação, Tecnologia e Juventude",
+      "cod_cargo": 7,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    },
+    {
+      "@id": "/@@comissoes/12",
+      "@type": "ParticipanteComissao",
+      "id": "12",
+      "title": "Suplente",
+      "comissao": "Comissão de Administração Pública",
+      "cod_cargo": 9,
+      "start": "2021-02-04",
+      "end": "2022-12-31",
+      "description": "04/02/2021 a 31/12/2022",
+      "mandato": "Titular"
+    }
+  ],
+  "proposicoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 920,
+    "items": [
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=204285",
+        "id": "204285",
+        "title": "PR 33/2024",
+        "ementa": "ALTERA O ART. 20, INCISO I e O ART. 85, INCISO III, DA RESOLUÇÃO Nº 031, DE 19 DE DEZEMBRO DE 2002, QUE \"DISPÕE SOBRE O REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS\"",
+        "data_apresentacao": "12/12/2024",
+        "tipo": "Projeto de Resolução",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203737",
+        "id": "203737",
+        "title": "EMEI 708/2024",
+        "ementa": "Secretaria Municipal de Saúde  -  INSTITUTO PCD BRASIL - R$260.000,00",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203736",
+        "id": "203736",
+        "title": "EMEI 707/2024",
+        "ementa": "Secretaria Municipal de Saúde  - GRUPO LUTA PELA VIDA - LPV - R$30.000,00",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203735",
+        "id": "203735",
+        "title": "EMEI 706/2024",
+        "ementa": "Secretaria Municipal de Saúde  - CASA DAS BEM AVENTURANÇAS - CBA - R$40.000,00.",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203734",
+        "id": "203734",
+        "title": "EMEI 705/2024",
+        "ementa": "Secretaria Municipal de Saúde  - INSTITUTO SAÚDE BRASIL - R$200.000,00.",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203733",
+        "id": "203733",
+        "title": "EMEI 704/2024",
+        "ementa": "Secretaria Municipal de Saúde - INSTITUTO VIVA IRIS - R$50.000,00",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203731",
+        "id": "203731",
+        "title": "EMEI 703/2024",
+        "ementa": "Secretaria Municipal de Saúde - ASSOCIAÇÃO RENOVANDO LAÇOS - R$35.152,76 (ASSOCIAÇÃO DE PAIS E AMIGOS DOS EXCEPCIONAIS - APAE - R$ R$ 85.152,76 - Aglutinada às Emendas Impositivas nºs 398/2024 e 664/2024)",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203730",
+        "id": "203730",
+        "title": "EMEI 702/2024",
+        "ementa": "Secretaria Municipal de Saúde - CORPO DE BOMBEIROS MILITAR DE MINAS GERAIS - R$50.000,00",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203729",
+        "id": "203729",
+        "title": "EMEI 701/2024",
+        "ementa": "Secretaria Municipal de Saúde - MISSÃO SAL DA TERRA - R$80.000,00.",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=203728",
+        "id": "203728",
+        "title": "EMEI 700/2024",
+        "ementa": "Secretaria Municipal de Saúde - ASSOCIAÇÃO DE ASSISTÊNCIA A CRIANÇA DEFICIENTE - AACD - R$30.000,00.",
+        "data_apresentacao": "05/12/2024",
+        "tipo": "Emenda Impositiva",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2024",
+        "ultima_votacao_resultado": ""
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 50
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 7
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 107
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 2
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 38
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 2
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 43
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 2
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 661
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 217
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 138
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 210
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 355
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "EMEI",
+          "label": "Emenda Impositiva",
+          "count": 50
+        },
+        {
+          "value": "IND",
+          "label": "Indicação",
+          "count": 7
+        },
+        {
+          "value": "MOC",
+          "label": "Moção",
+          "count": 107
+        },
+        {
+          "value": "PINFO",
+          "label": "Pedido de Informação",
+          "count": 2
+        },
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 38
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 2
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 43
+        },
+        {
+          "value": "PR",
+          "label": "Projeto de Resolução",
+          "count": 8
+        },
+        {
+          "value": "PELO",
+          "label": "Proposta de Emenda à Lei Orgânica",
+          "count": 2
+        },
+        {
+          "value": "REQ",
+          "label": "Requerimento",
+          "count": 661
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 217
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 138
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 210
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 355
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "IND",
+          "ano": "2021",
+          "count": 5
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2021",
+          "count": 21
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2021",
+          "count": 9
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2021",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2021",
+          "count": 24
+        },
+        {
+          "tipo": "PLC",
+          "ano": "2021",
+          "count": 2
+        },
+        {
+          "tipo": "PR",
+          "ano": "2021",
+          "count": 4
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2021",
+          "count": 289
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2022",
+          "count": 1
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2022",
+          "count": 32
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2022",
+          "count": 14
+        },
+        {
+          "tipo": "PL",
+          "ano": "2022",
+          "count": 9
+        },
+        {
+          "tipo": "PR",
+          "ano": "2022",
+          "count": 1
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2022",
+          "count": 153
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "IND",
+          "ano": "2023",
+          "count": 2
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2023",
+          "count": 19
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2023",
+          "count": 8
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "PINFO",
+          "ano": "2023",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2023",
+          "count": 7
+        },
+        {
+          "tipo": "PR",
+          "ano": "2023",
+          "count": 2
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2023",
+          "count": 97
+        },
+        {
+          "tipo": "EMEI",
+          "ano": "2024",
+          "count": 48
+        },
+        {
+          "tipo": "MOC",
+          "ano": "2024",
+          "count": 35
+        },
+        {
+          "tipo": "PDL",
+          "ano": "2024",
+          "count": 7
+        },
+        {
+          "tipo": "PELO",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "PL",
+          "ano": "2024",
+          "count": 3
+        },
+        {
+          "tipo": "PR",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "REQ",
+          "ano": "2024",
+          "count": 122
+        }
+      ]
+    }
+  },
+  "relatorias": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_dat_apresentacao": "desc",
+    "total": 1,
+    "items": [
+      {
+        "id": "402",
+        "title": "PL 1617/2024",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=196350",
+        "comissao": "Comissão de Indústria, Comércio, Turismo e Trabalho",
+        "num_parecer": 1,
+        "ano_parecer": 2024,
+        "conclusao_parecer": "Favorável",
+        "resultado_comissao": "Parecer Favorável",
+        "data_apresentacao": "21/06/2024",
+        "data_designacao": "11/07/2024",
+        "data_destituicao": "11/07/2024",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024"
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 1
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 1
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PL",
+          "ano": "2024",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "frequencia": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 514,
+    "items": [
+      {
+        "id": "falta-1499",
+        "sessao_id": "1499",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1499&dat_sessao=01/01/2025",
+        "title": "1ª Reunião Solene",
+        "identificacao_sessao": "1ª Reunião Solene",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "3",
+        "tipo_sessao": "Solene",
+        "data_sessao": "2025-01-01",
+        "data_sessao_br": "01/01/2025",
+        "ano": "2025",
+        "frequencia": "F",
+        "frequencia_label": "Falta",
+        "justificativa": ""
+      },
+      {
+        "id": "falta-1498",
+        "sessao_id": "1498",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1498&dat_sessao=01/01/2025",
+        "title": "1ª Reunião Especial",
+        "identificacao_sessao": "1ª Reunião Especial",
+        "identificacao_legislativa": "1ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "4",
+        "tipo_sessao": "Especial",
+        "data_sessao": "2025-01-01",
+        "data_sessao_br": "01/01/2025",
+        "ano": "2025",
+        "frequencia": "F",
+        "frequencia_label": "Falta",
+        "justificativa": ""
+      },
+      {
+        "id": "64192",
+        "sessao_id": "1488",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1488&dat_sessao=13/12/2024",
+        "title": "10ª Reunião Ordinária",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "10",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2024-12-13",
+        "data_sessao_br": "13/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "64219",
+        "sessao_id": "1489",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1489&dat_sessao=13/12/2024",
+        "title": "5ª Reunião Extraordinária",
+        "identificacao_sessao": "5ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "5",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2024-12-13",
+        "data_sessao_br": "13/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "64165",
+        "sessao_id": "1486",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "title": "9ª Reunião Ordinária",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "9",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "falta-1487",
+        "sessao_id": "1487",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1487&dat_sessao=12/12/2024",
+        "title": "4ª Reunião Extraordinária",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "4",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "ano": "2024",
+        "frequencia": "F",
+        "frequencia_label": "Falta",
+        "justificativa": ""
+      },
+      {
+        "id": "64111",
+        "sessao_id": "1484",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1484&dat_sessao=11/12/2024",
+        "title": "8ª Reunião Ordinária",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "8",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2024-12-11",
+        "data_sessao_br": "11/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "64138",
+        "sessao_id": "1485",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1485&dat_sessao=11/12/2024",
+        "title": "3ª Reunião Extraordinária",
+        "identificacao_sessao": "3ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "3",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2024-12-11",
+        "data_sessao_br": "11/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "64057",
+        "sessao_id": "1482",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1482&dat_sessao=10/12/2024",
+        "title": "7ª Reunião Ordinária",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "7",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2024-12-10",
+        "data_sessao_br": "10/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "64084",
+        "sessao_id": "1483",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1483&dat_sessao=10/12/2024",
+        "title": "2ª Reunião Extraordinária",
+        "identificacao_sessao": "2ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "numero_sessao": "2",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2024-12-10",
+        "data_sessao_br": "10/12/2024",
+        "ano": "2024",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      }
+    ],
+    "filters": {
+      "tipo": "",
+      "ano": "",
+      "tipo_desc": ""
+    },
+    "resumo": {
+      "presencas": 137,
+      "ausencias_justificadas": 5,
+      "faltas": 372,
+      "total_sessoes": 514,
+      "frequencia_percentual": 27.63
+    },
+    "facets_select": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 72
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 439
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 2
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ]
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 72
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 439
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 2
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "4",
+          "label": "Especial",
+          "count": 2
+        },
+        {
+          "value": "2",
+          "label": "Extraordinária",
+          "count": 72
+        },
+        {
+          "value": "1",
+          "label": "Ordinária",
+          "count": 439
+        },
+        {
+          "value": "3",
+          "label": "Solene",
+          "count": 1
+        }
+      ],
+      "ano": [
+        {
+          "value": "2025",
+          "label": "2025",
+          "count": 2
+        },
+        {
+          "value": "2024",
+          "label": "2024",
+          "count": 128
+        },
+        {
+          "value": "2023",
+          "label": "2023",
+          "count": 140
+        },
+        {
+          "value": "2022",
+          "label": "2022",
+          "count": 128
+        },
+        {
+          "value": "2021",
+          "label": "2021",
+          "count": 116
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "1",
+          "ano": "2021",
+          "count": 109
+        },
+        {
+          "tipo": "2",
+          "ano": "2021",
+          "count": 7
+        },
+        {
+          "tipo": "1",
+          "ano": "2022",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2022",
+          "count": 18
+        },
+        {
+          "tipo": "1",
+          "ano": "2023",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2023",
+          "count": 30
+        },
+        {
+          "tipo": "1",
+          "ano": "2024",
+          "count": 110
+        },
+        {
+          "tipo": "2",
+          "ano": "2024",
+          "count": 17
+        },
+        {
+          "tipo": "4",
+          "ano": "2024",
+          "count": 1
+        },
+        {
+          "tipo": "3",
+          "ano": "2025",
+          "count": 1
+        },
+        {
+          "tipo": "4",
+          "ano": "2025",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "votacoes": {
+    "page": 1,
+    "page_size": 10,
+    "ordem_data_sessao": "desc",
+    "total": 114,
+    "items": [
+      {
+        "cod_materia": 167427,
+        "cod_votacao": "24886",
+        "id": "24886",
+        "title": "PLC 80/2023",
+        "ementa": "ALTERA E ACRESCENTA DISPOSITIVOS NA LEI COMPLEMENTAR Nº 524, DE 08 DE ABRIL DE 2011, QUE \"INSTITUI O CÓDIGO MUNICIPAL DE OBRAS DO MUNICÍPIO DE UBERLÂNDIA E DE SEUS DISTRITOS\"",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=167427",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2024",
+        "data_sessao": "2024-12-13",
+        "data_sessao_br": "13/12/2024",
+        "data_votacao": "2024-12-13",
+        "data_votacao_br": "13/12/2024",
+        "identificacao_sessao": "10ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1488&dat_sessao=13/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Cláudia Guerra (PDT)"
+      },
+      {
+        "cod_materia": 204141,
+        "cod_votacao": "24759",
+        "id": "24759",
+        "title": "PLC 123/2024",
+        "ementa": "DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204141",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204141,
+        "cod_votacao": "24760",
+        "id": "24760",
+        "title": "PLC 123/2024",
+        "ementa": "DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204141",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204141,
+        "cod_votacao": "24761",
+        "id": "24761",
+        "title": "PLC 123/2024",
+        "ementa": "DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204141",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204138,
+        "cod_votacao": "24763",
+        "id": "24763",
+        "title": "PL 1762/2024",
+        "ementa": "AUTORIZA A TRANSFERÊNCIA DOS SUPERÁVITS FINANCEIROS DOS EXERCÍCIOS DE 2023 A 2027 E DOS RECURSOS TOTAIS EXISTENTES NO EXERCÍCIO DE 2024 DOS FUNDOS ESPECIAIS MUNICIPAIS QUE MENCIONA E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204138",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204140,
+        "cod_votacao": "24764",
+        "id": "24764",
+        "title": "PL 1763/2024",
+        "ementa": "AUTORIZA O PODER EXECUTIVO A EFETUAR TRANSFERÊNCIA DE RECURSOS FINANCEIROS ÀS ORGANIZAÇÕES DA SOCIEDADE CIVIL E ÀS ENTIDADES QUE MENCIONA, PARA O EXERCÍCIO DE 2025, E DÁ OUTRAS PROVIDÊNCIAS",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204140",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1486&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204141,
+        "cod_votacao": "24765",
+        "id": "24765",
+        "title": "PLC 123/2024",
+        "ementa": "DISPÕE SOBRE O IMPOSTO PREDIAL E TERRITORIAL URBANO - IPTU NO MUNICÍPIO DE UBERLÂNDIA, DEFINE CRITÉRIOS DA SUA BASE DE CÁLCULO E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204141",
+        "tipo": "Projeto de Lei Complementar",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1487&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204138,
+        "cod_votacao": "24767",
+        "id": "24767",
+        "title": "PL 1762/2024",
+        "ementa": "AUTORIZA A TRANSFERÊNCIA DOS SUPERÁVITS FINANCEIROS DOS EXERCÍCIOS DE 2023 A 2027 E DOS RECURSOS TOTAIS EXISTENTES NO EXERCÍCIO DE 2024 DOS FUNDOS ESPECIAIS MUNICIPAIS QUE MENCIONA E DÁ OUTRAS PROVIDÊNCIAS.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204138",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1487&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 204140,
+        "cod_votacao": "24768",
+        "id": "24768",
+        "title": "PL 1763/2024",
+        "ementa": "AUTORIZA O PODER EXECUTIVO A EFETUAR TRANSFERÊNCIA DE RECURSOS FINANCEIROS ÀS ORGANIZAÇÕES DA SOCIEDADE CIVIL E ÀS ENTIDADES QUE MENCIONA, PARA O EXERCÍCIO DE 2025, E DÁ OUTRAS PROVIDÊNCIAS",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=204140",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024",
+        "data_sessao": "2024-12-12",
+        "data_sessao_br": "12/12/2024",
+        "data_votacao": "2024-12-12",
+        "data_votacao_br": "12/12/2024",
+        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1487&dat_sessao=12/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      },
+      {
+        "cod_materia": 199920,
+        "cod_votacao": "24620",
+        "id": "24620",
+        "title": "PL 1700/2024",
+        "ementa": "ESTIMA A RECEITA E FIXA A DESPESA DO MUNICÍPIO PARA O EXERCÍCIO FINANCEIRO DE 2025.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=199920",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2024",
+        "data_sessao": "2024-12-11",
+        "data_sessao_br": "11/12/2024",
+        "data_votacao": "2024-12-11",
+        "data_votacao_br": "11/12/2024",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "4ª Sessão Legislativa da 19ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1484&dat_sessao=11/12/2024",
+        "vot_parlamentar": "Sim",
+        "voto_classe": "sim",
+        "voto_label": "Sim",
+        "autoria": "Prefeito Municipal"
+      }
+    ],
+    "resumo": {
+      "voto_sim": 111,
+      "voto_nao": 3,
+      "voto_abstencao": 0
+    },
+    "filters": {
+      "tipo": "",
+      "voto": "",
+      "voto_desc": "",
+      "tipo_desc": ""
+    },
+    "facets_todos": {
+      "tipo": [
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 2
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 15
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 97
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 111
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 3
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ]
+    },
+    "facets": {
+      "tipo": [
+        {
+          "value": "PDL",
+          "label": "Projeto de Decreto Legislativo",
+          "count": 2
+        },
+        {
+          "value": "PLC",
+          "label": "Projeto de Lei Complementar",
+          "count": 15
+        },
+        {
+          "value": "PL",
+          "label": "Projeto de Lei Ordinária",
+          "count": 97
+        }
+      ],
+      "voto": [
+        {
+          "value": "sim",
+          "label": "Sim",
+          "count": 111
+        },
+        {
+          "value": "nao",
+          "label": "Não",
+          "count": 3
+        },
+        {
+          "value": "abstencao",
+          "label": "Abstenção",
+          "count": 0
+        }
+      ],
+      "xy": [
+        {
+          "tipo": "PL",
+          "voto": "nao",
+          "count": 3
+        },
+        {
+          "tipo": "PDL",
+          "voto": "sim",
+          "count": 2
+        },
+        {
+          "tipo": "PL",
+          "voto": "sim",
+          "count": 94
+        },
+        {
+          "tipo": "PLC",
+          "voto": "sim",
+          "count": 15
+        }
+      ]
+    }
+  }
+}

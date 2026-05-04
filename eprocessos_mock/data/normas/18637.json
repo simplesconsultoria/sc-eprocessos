@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18637",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-12-23",
+  "data_publicacao": "2025-12-23",
+  "description": "ALTERA A LEI COMPLEMENTAR Nº 797, DE JULHO DE 2025, QUE \"APROVA A REVISÃO DO PLANO DIRETOR DO MUNICÍPIO DE UBERLÂNDIA, ESTABELECE OS PRINCÍPIOS BÁSICOS E DIRETRIZES PARA SUA IMPLANTAÇÃO E REVOGA A LEI COMPLEMENTAR Nº 432, DE 19 DE OUTUBRO DE 2006 E SUAS ALTERAÇÕES\".",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18637&texto_original=1",
+      "filename": "18637_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "173.7 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 810, de 23/12/2025",
+  "id": "18637",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18637&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/241392",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=537380",
+          "@type": "Autor",
+          "id": "537380",
+          "primeiro_autor": true,
+          "title": "Antônio Augusto Queijinho"
+        }
+      ],
+      "autoria_nomes": "Antônio Augusto Queijinho",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 797, DE JULHO DE 2025, QUE \"APROVA A REVISÃO DO PLANO DIRETOR DO MUNICÍPIO DE UBERLÂNDIA, ESTABELECE OS PRINCÍPIOS BÁSICOS E DIRETRIZES PARA SUA IMPLANTAÇÃO E REVOGA A LEI COMPLEMENTAR Nº 432, DE 19 DE OUTUBRO DE 2006 E SUAS ALTERAÇÕES\".",
+      "id": "241392",
+      "remoteUrl": "/@@pasta_digital?cod_materia=241392",
+      "title": "Projeto de Lei Complementar nº 56/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjQxMzky"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 810/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-12-23",
+    "dataPromulgacaoBR": "23/12/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 810, de 23/12/2025",
+    "numNorma": 810,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 797, DE JULHO DE 2025, QUE \"APROVA A REVISÃO DO PLANO DIRETOR DO MUNICÍPIO DE UBERLÂNDIA, ESTABELECE OS PRINCÍPIOS BÁSICOS E DIRETRIZES PARA SUA IMPLANTAÇÃO E REVOGA A LEI COMPLEMENTAR Nº 432, DE 19 DE OUTUBRO DE 2006 E SUAS ALTERAÇÕES\".",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18637",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18637",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

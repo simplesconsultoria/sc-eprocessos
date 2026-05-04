@@ -1,0 +1,80 @@
+{
+  "@id": "/@@materias/258834",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-05-04",
+  "description": "que faça a manutenção periódica na piscina do SESI Mansour.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/258834_texto_integral.pdf",
+      "filename": "258834_texto_integral.pdf",
+      "size": "82.7 KB"
+    }
+  ],
+  "id": "258834",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processNumber": "20980/2026",
+  "processing": [
+    {
+      "date": "2026-05-04 12:50:05",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/793091_tram.pdf",
+          "filename": "793091_tram.pdf",
+          "size": "18.9 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2026-05-04 11:40:26",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 30/04/2026 15:42:05. Matéria incorporada em 04/05/2026 11:40:25 sob protocolo nº 16398/2026</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/792982_tram.pdf",
+          "filename": "792982_tram.pdf",
+          "size": "19 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "16398/2026",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=258834",
+  "substitute": [],
+  "title": "Requerimento nº 20980/2026",
+  "voteResult": []
+}

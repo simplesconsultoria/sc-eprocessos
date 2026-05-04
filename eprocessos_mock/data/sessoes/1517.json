@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1517",
+  "@id_presenca": "/@@sessoes/id/1517/presenca",
+  "@id_votacao": "/@@sessoes/id/1517/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1517_ata_sessao.pdf",
+      "filename": "1517_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-03-17",
+  "description": "6ª Reunião Ordinária - 17/03/2025",
+  "endTime": "",
+  "id": "1517",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1517_pauta_sessao.pdf",
+      "filename": "1517_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "6ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

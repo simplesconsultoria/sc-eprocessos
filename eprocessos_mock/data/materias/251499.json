@@ -17,22 +17,22 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Delegada Lia Valechi"
+      "title": "Delegada Lia Valechi (União Brasil)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Edinho Combate Ao Câncer"
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Elinho Da Academia"
+      "title": "Elinho Da Academia (MOBILIZA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Gláucia da Saúde"
+      "title": "Gláucia da Saúde (PL)"
     }
   ],
   "committeeOpinion": [],
@@ -41,24 +41,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/251499_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/251499_texto_integral.pdf",
       "filename": "251499_texto_integral.pdf",
-      "size": ""
+      "size": "1001.6 KB"
     }
   ],
   "id": "251499",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-03-06 12:30:13",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/763690_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/763690_tram.pdf",
           "filename": "763690_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": true,
@@ -67,14 +75,15 @@
     },
     {
       "date": "2026-03-06 10:40:14",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/763398_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/763398_tram.pdf",
           "filename": "763398_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -83,14 +92,15 @@
     },
     {
       "date": "2026-03-05 13:02:28",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/763071_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/763071_tram.pdf",
           "filename": "763071_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -99,14 +109,15 @@
     },
     {
       "date": "2026-03-05 11:58:01",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 04/03/2026 18:29:33. Matéria incorporada em 05/03/2026 11:58:01 sob protocolo nº 9172/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/03/2026 18:29:33. Matéria incorporada em 05/03/2026 11:58:01 sob protocolo nº 9172/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/762678_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/762678_tram.pdf",
           "filename": "762678_tram.pdf",
-          "size": ""
+          "size": "21.5 KB"
         }
       ],
       "last": false,
@@ -116,10 +127,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "9172/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=251499",
   "substitute": [],
   "title": "Requerimento nº 20862/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1661",
+      "cod_ordem": 297719,
+      "cod_sessao_plen": 1661,
+      "date": "2026-03-06",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1661&cod_ordem=297719&cod_materia=251499&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

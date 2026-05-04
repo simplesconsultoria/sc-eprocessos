@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18619",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-12-15",
+  "data_publicacao": "2025-12-15",
+  "description": "INSTITUI, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, A POLÍTICA MUNICIPAL DE ATRAÇÃO DE INVESTIMENTOS, CRIA INCENTIVOS FISCAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18619&texto_original=1",
+      "filename": "18619_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "228.9 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 806, de 15/12/2025",
+  "id": "18619",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18619&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/240919",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "INSTITUI, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, A POLÍTICA MUNICIPAL DE ATRAÇÃO DE INVESTIMENTOS, CRIA INCENTIVOS FISCAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "240919",
+      "remoteUrl": "/@@pasta_digital?cod_materia=240919",
+      "title": "Projeto de Lei Complementar nº 54/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjQwOTE5"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 806/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-12-15",
+    "dataPromulgacaoBR": "15/12/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 806, de 15/12/2025",
+    "numNorma": 806,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "INSTITUI, NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA, A POLÍTICA MUNICIPAL DE ATRAÇÃO DE INVESTIMENTOS, CRIA INCENTIVOS FISCAIS, E DÁ OUTRAS PROVIDÊNCIAS.",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18619",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18619",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

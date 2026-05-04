@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1576",
+  "@id_presenca": "/@@sessoes/id/1576/presenca",
+  "@id_votacao": "/@@sessoes/id/1576/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1576_ata_sessao.pdf",
+      "filename": "1576_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-08-07",
+  "description": "5ª Reunião Ordinária - 07/08/2025",
+  "endTime": "",
+  "id": "1576",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1576_pauta_sessao.pdf",
+      "filename": "1576_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "5ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

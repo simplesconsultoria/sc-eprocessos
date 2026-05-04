@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/221829",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/210284",
+      "@type": "Materia",
+      "annexationDate": "2025-06-05",
+      "description": "INSTITUI A CAMPANHA ANUAL DE CONSCIENTIZAÇÃO E INCENTIVO À DOAÇÃO E AO TRANSPLANTE DE ÓRGÃOS E TECIDO, E DÁ OUTRAS PROVIDENCIAS  ",
+      "id": "210284",
+      "title": "Projeto de Lei Ordinária nº 239/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-06-05",
+  "description": "Requerer que o Projeto de Lei Ordinária nº 239/2025, de sua autoria, seja encaminhado ao Plenário para deliberação, mesmo diante do parecer contrário emitido pela Comissão de Legislação, Justiça e Redação.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/221829_texto_integral.pdf",
+      "filename": "221829_texto_integral.pdf",
+      "size": "1.1 MB"
+    }
+  ],
+  "id": "221829",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-06-06 13:07:36",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/626137_tram.pdf",
+          "filename": "626137_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-06-06 11:19:01",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/626027_tram.pdf",
+          "filename": "626027_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-06-05 13:59:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/625795_tram.pdf",
+          "filename": "625795_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-06-05 13:20:07",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 05/06/2025 09:43:28. Matéria incorporada em 05/06/2025 13:20:07 sob protocolo nº 17236/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/625574_tram.pdf",
+          "filename": "625574_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "17236/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=221829",
+  "substitute": [],
+  "title": "Requerimento nº 16068/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1552",
+      "cod_ordem": 253113,
+      "cod_sessao_plen": 1552,
+      "date": "2025-06-06",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1552&cod_ordem=253113&cod_materia=221829&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/207545",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Nei Borges (Solidariedade)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-02-11",
+  "description": "Solicito a a realização da operação tapa-buracos em diversas vias urbanas dos bairros Minas Gerais e Tubalina. As vias listadas abaixo apresentam um grande número de buracos, o que dificulta significativamente a circulação de veículos e tem gerado inúmeras reclamações por parte dos moradores, que enfrentam dificuldades e riscos ao trafegar pelas ruas:\r\nBairro Minas Gerais:\r\n- Rua Gáliano Torrano\r\n- Rua Virgílio Carrijo\r\n- Rua do Centeio\r\n- Rua da Produção\r\n- Rua Manoel Bandeira\r\n- Rua Manoel Beckman\r\n- Rua da Safra\r\n- Rua do Paiol\r\n- Rua Ceres, nº 1836\r\n- Rua Silvio Romero, nº 45\r\n- Rua da Lavoura\r\n- Rua da Fartura\r\n- Avenida Airton Borges da Silva, nº 965 e 1029\r\n\r\nBairro Tubalina:\r\n\r\n- Rua dos Orixás, em frente ao número 920",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/207545_texto_integral.pdf",
+      "filename": "207545_texto_integral.pdf",
+      "size": "782.5 KB"
+    }
+  ],
+  "id": "207545",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-02-12 13:34:35",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554819_tram.pdf",
+          "filename": "554819_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-02-12 11:39:58",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554527_tram.pdf",
+          "filename": "554527_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-02-11 14:14:23",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554304_tram.pdf",
+          "filename": "554304_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-02-11 13:24:29",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 10/02/2025 17:45:48. Matéria incorporada em 11/02/2025 13:24:29 sob protocolo nº 3071/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/554085_tram.pdf",
+          "filename": "554085_tram.pdf",
+          "size": "21.9 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "3071/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=207545",
+  "substitute": [],
+  "title": "Requerimento nº 2760/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1507",
+      "cod_ordem": 238051,
+      "cod_sessao_plen": 1507,
+      "date": "2025-02-12",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1507&cod_ordem=238051&cod_materia=207545&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@id": "/@@sessoes/id/1661/votacao",
+  "@type": "votacaoNominal",
+  "description": "5ª Reunião Ordinária – 06/03/2026",
+  "items": [
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    }
+  ],
+  "title": "Lista de votação nominal"
+}

@@ -14,12 +14,12 @@
       "id": "528006",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/528006_foto_parlamentar",
           "filename": "528006_foto_parlamentar",
-          "height": "350",
-          "size": "219680",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -29,7 +29,7 @@
         }
       ],
       "title": "Ronaldo Tannús",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//528006_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/399041",
@@ -39,12 +39,12 @@
       "id": "399041",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/399041_foto_parlamentar",
           "filename": "399041_foto_parlamentar",
-          "height": "350",
-          "size": "205422",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -54,7 +54,7 @@
         }
       ],
       "title": "Antônio Carrijo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//399041_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/526698",
@@ -64,12 +64,12 @@
       "id": "526698",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/526698_foto_parlamentar",
           "filename": "526698_foto_parlamentar",
-          "height": "350",
-          "size": "155775",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -79,7 +79,7 @@
         }
       ],
       "title": "Leandro Neves",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526698_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//526698_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/528007",
@@ -89,12 +89,12 @@
       "id": "528007",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/528007_foto_parlamentar",
           "filename": "528007_foto_parlamentar",
-          "height": "350",
-          "size": "159012",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -104,7 +104,7 @@
         }
       ],
       "title": "Sérgio do Bom Preço",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528007_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//528007_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/526697",
@@ -114,12 +114,12 @@
       "id": "526697",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/526697_foto_parlamentar",
           "filename": "526697_foto_parlamentar",
-          "height": "350",
-          "size": "223533",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -129,7 +129,7 @@
         }
       ],
       "title": "Sargento Ednaldo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//526697_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/430275",
@@ -145,11 +145,12 @@
         }
       ],
       "title": "Pastor Átila",
-      "url_foto": "/imagens/avatar.png"
+      "url_foto": ""
     }
   ],
   "legislatura": "18ª Legislatura",
   "legislatura_id": "/@@legislaturas/18",
+  "num_legislatura": 18,
   "start": "2020-02-17",
   "title": "17/02/2020 a 31/12/2020"
 }

@@ -1,0 +1,79 @@
+{
+  "@id": "/@@materias/240429",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Fabão (PV)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-12-03",
+  "description": "Regulamentação de comemorações de torcidas na Av. Rondon Pacheco",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/240429_texto_integral.pdf",
+      "filename": "240429_texto_integral.pdf",
+      "size": "515.5 KB"
+    }
+  ],
+  "id": "240429",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-12-03 10:43:40",
+      "deadline": null,
+      "description": "<p>Arquivado a pedido do autor.</p>",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/705173_tram.pdf",
+          "filename": "705173_tram.pdf",
+          "size": "21.3 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-12-03 09:20:09",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 03/12/2025 09:12:54. Matéria incorporada em 03/12/2025 09:20:09 sob protocolo nº 35582/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/705153_tram.pdf",
+          "filename": "705153_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "35582/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=240429",
+  "substitute": [],
+  "title": "Requerimento nº 20623/2025",
+  "voteResult": []
+}

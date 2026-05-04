@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1568",
+  "@id_presenca": "/@@sessoes/id/1568/presenca",
+  "@id_votacao": "/@@sessoes/id/1568/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1568_ata_sessao.pdf",
+      "filename": "1568_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-07-10",
+  "description": "8ª Reunião Ordinária - 10/07/2025",
+  "endTime": "",
+  "id": "1568",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1568_pauta_sessao.pdf",
+      "filename": "1568_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "8ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}

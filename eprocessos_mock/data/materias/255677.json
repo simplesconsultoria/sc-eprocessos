@@ -8,27 +8,27 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Prof. Conrado Augusto"
+      "title": "Prof. Conrado Augusto (MDB)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Abatenio Marquez"
+      "title": "Abatenio Marquez (PP)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Adriano Zago"
+      "title": "Adriano Zago (AVANTE)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Amanda Gondim"
+      "title": "Amanda Gondim (PSB)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Janaina Guimarães"
+      "title": "Janaina Guimarães (PL)"
     }
   ],
   "committeeOpinion": [],
@@ -37,24 +37,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/255677_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/255677_texto_integral.pdf",
       "filename": "255677_texto_integral.pdf",
-      "size": ""
+      "size": "1 MB"
     }
   ],
   "id": "255677",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-04-07 11:04:34",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/783070_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783070_tram.pdf",
           "filename": "783070_tram.pdf",
-          "size": ""
+          "size": "21.7 KB"
         }
       ],
       "last": true,
@@ -63,14 +71,15 @@
     },
     {
       "date": "2026-04-07 11:03:16",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/783068_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/783068_tram.pdf",
           "filename": "783068_tram.pdf",
-          "size": ""
+          "size": "918.8 KB"
         }
       ],
       "last": false,
@@ -79,14 +88,15 @@
     },
     {
       "date": "2026-04-06 13:58:30",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/780431_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/780431_tram.pdf",
           "filename": "780431_tram.pdf",
-          "size": ""
+          "size": "21.7 KB"
         }
       ],
       "last": false,
@@ -95,14 +105,15 @@
     },
     {
       "date": "2026-04-06 13:55:14",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/780428_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/780428_tram.pdf",
           "filename": "780428_tram.pdf",
-          "size": ""
+          "size": "952 KB"
         }
       ],
       "last": false,
@@ -111,14 +122,15 @@
     },
     {
       "date": "2026-04-06 13:54:40",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/04/2026 13:49:20. Matéria incorporada em 06/04/2026 13:54:40 sob protocolo nº 13270/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/04/2026 13:49:20. Matéria incorporada em 06/04/2026 13:54:40 sob protocolo nº 13270/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/780427_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/780427_tram.pdf",
           "filename": "780427_tram.pdf",
-          "size": ""
+          "size": "21.8 KB"
         }
       ],
       "last": false,
@@ -128,10 +140,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "13270/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=255677",
   "substitute": [],
   "title": "Requerimento nº 20926/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1676",
+      "cod_ordem": 304098,
+      "cod_sessao_plen": 1676,
+      "date": "2026-04-07",
+      "description": "Expediente da 3ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1676&cod_ordem=304098&cod_materia=255677&tipo_materia=expediente&modal=1",
+      "title": "Rejeitado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

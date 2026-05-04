@@ -17,27 +17,27 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Dr. Igino"
+      "title": "Dr. Igino (PT)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Adriano Zago"
+      "title": "Adriano Zago (AVANTE)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Fabão"
+      "title": "Fabão (PV)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Liza Prado"
+      "title": "Liza Prado (CIDADANIA)"
     },
     {
       "description": "Parlamentar",
       "firstAuthor": false,
-      "title": "Prof. Ronaldo"
+      "title": "Prof. Ronaldo (PT)"
     }
   ],
   "committeeOpinion": [],
@@ -46,24 +46,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/247644_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/247644_texto_integral.pdf",
       "filename": "247644_texto_integral.pdf",
-      "size": ""
+      "size": "1.8 MB"
     }
   ],
   "id": "247644",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-02-10 13:52:53",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/745668_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/745668_tram.pdf",
           "filename": "745668_tram.pdf",
-          "size": ""
+          "size": "21.2 KB"
         }
       ],
       "last": true,
@@ -72,14 +80,15 @@
     },
     {
       "date": "2026-02-10 12:30:27",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/745315_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/745315_tram.pdf",
           "filename": "745315_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -88,14 +97,15 @@
     },
     {
       "date": "2026-02-09 15:01:38",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/744966_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/744966_tram.pdf",
           "filename": "744966_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -104,14 +114,15 @@
     },
     {
       "date": "2026-02-09 14:31:05",
-      "description": "&lt;p&gt;Proposição eletrônica enviada em 06/02/2026 09:42:39. Matéria incorporada em 09/02/2026 14:31:05 sob protocolo nº 5468/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/02/2026 09:42:39. Matéria incorporada em 09/02/2026 14:31:05 sob protocolo nº 5468/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/744599_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/744599_tram.pdf",
           "filename": "744599_tram.pdf",
-          "size": ""
+          "size": "21.4 KB"
         }
       ],
       "last": false,
@@ -121,10 +132,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "5468/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=247644",
   "substitute": [],
   "title": "Requerimento nº 20771/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1649",
+      "cod_ordem": 293528,
+      "cod_sessao_plen": 1649,
+      "date": "2026-02-10",
+      "description": "Expediente da 7ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1649&cod_ordem=293528&cod_materia=247644&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

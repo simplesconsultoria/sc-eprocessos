@@ -1,0 +1,157 @@
+{
+  "@id": "/@@materias/228512",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/221232",
+      "@type": "Materia",
+      "annexationDate": "2025-08-11",
+      "description": "INSTITUI A CRIAÇÃO DE POLÍTICA PÚBLICA MUNICIPAL DE ATENDIMENTO FONOAUDIOLÓGICO NO ÂMBITO DO MUNICÍPIO DE UBERLÂNDIA - MG.",
+      "id": "221232",
+      "title": "Projeto de Lei Ordinária nº 393/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Edinho Combate Ao Câncer (DEMOCRATA)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ivan Nunes (PP)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Liza Prado (CIDADANIA)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-11",
+  "description": "Nos termos regimentais, e considerando o parecer exarado pela Comissão de Legislação, Justiça e Redação  CLJR, que emitiu parecer contrário à tramitação do Projeto de Lei Ordinária nº 393/2025, que “Institui a criação de Política Pública Municipal de Atendimento Fonoaudiológico no âmbito do Município de Uberlândia MG” , requeiro o retorno do presente parecer a esta Casa Legislativa para que seja submetido ao Plenário para deliberação final.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/228512_texto_integral.pdf",
+      "filename": "228512_texto_integral.pdf",
+      "size": "1.5 MB"
+    }
+  ],
+  "id": "228512",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-12 12:33:32",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/656151_tram.pdf",
+          "filename": "656151_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-12 10:26:32",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/656023_tram.pdf",
+          "filename": "656023_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-11 13:04:19",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655499_tram.pdf",
+          "filename": "655499_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-11 08:49:44",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 11/08/2025 08:27:28. Matéria incorporada em 11/08/2025 08:49:44 sob protocolo nº 23878/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/655233_tram.pdf",
+          "filename": "655233_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "23878/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=228512",
+  "substitute": [],
+  "title": "Requerimento nº 20275/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1579",
+      "cod_ordem": 262157,
+      "cod_sessao_plen": 1579,
+      "date": "2025-08-12",
+      "description": "Expediente da 8ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1579&cod_ordem=262157&cod_materia=228512&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

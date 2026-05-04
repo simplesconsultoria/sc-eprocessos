@@ -1,0 +1,133 @@
+{
+  "@id": "/@@materias/234029",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Augusto Queijinho (PSDB)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-10-07",
+  "description": "Solicitando à SECRETARIA MUNICIPAL DE TRÂNSITO E TRANSPORTES a realização de vias públicas - mudança de mão de direção nas Ruas José Divino Cardoso, Galileu Sófio Pereira, Izídio de Paiva Rezende, Realina Maria Da Silva, Cornélio Arantes, Isac Vitor Brandão, Jurandir André De Oliveira, Delermando De Brito E Wilibaldo Alves Ferreira, no bairro Santa Luzia, CEP 38408-776.\r\n\r\nA presente solicitação atende a reiteradas reivindicações de moradores e comerciantes da região, que relatam constantes transtornos no tráfego local, como congestionamentos, dificuldade de manobras e risco elevado de acidentes, especialmente em horários de pico.\r\n\r\nA ruas possuem características que dificultam a circulação de veículos nos dois sentidos, como estreitamento da via, presença de veículos estacionados em ambos os lados e alta circulação de pedestres. As conversões das vias em mão única trará maior fluidez ao trânsito, aumentará a segurança dos pedestres e motoristas, e contribuirá para a organização do tráfego local.\r\n\r\nDessa forma, solicito que seja realizado um estudo técnico pela Secretaria competente, com vistas à implantação da medida o mais breve possível.\r\n",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/234029_texto_integral.pdf",
+      "filename": "234029_texto_integral.pdf",
+      "size": "8.9 MB"
+    }
+  ],
+  "id": "234029",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-10-08 12:46:26",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680358_tram.pdf",
+          "filename": "680358_tram.pdf",
+          "size": "22.1 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-10-08 11:21:38",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/680200_tram.pdf",
+          "filename": "680200_tram.pdf",
+          "size": "22.1 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-10-07 14:24:12",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679953_tram.pdf",
+          "filename": "679953_tram.pdf",
+          "size": "22.2 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-10-07 13:38:43",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 06/10/2025 17:52:45. Matéria incorporada em 07/10/2025 13:38:43 sob protocolo nº 29294/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/679866_tram.pdf",
+          "filename": "679866_tram.pdf",
+          "size": "22.3 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "29294/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=234029",
+  "substitute": [],
+  "title": "Requerimento nº 20499/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1601",
+      "cod_ordem": 267819,
+      "cod_sessao_plen": 1601,
+      "date": "2025-10-08",
+      "description": "Expediente da 6ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1601&cod_ordem=267819&cod_materia=234029&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

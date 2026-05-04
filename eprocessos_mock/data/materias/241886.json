@@ -8,7 +8,7 @@
     {
       "description": "Parlamentar",
       "firstAuthor": true,
-      "title": "Anderson Lima"
+      "title": "Anderson Lima (PL)"
     }
   ],
   "committeeOpinion": [],
@@ -17,24 +17,32 @@
   "file": [
     {
       "content-type": "application/pdf",
-      "download": "/sapl_documentos/materia/241886_texto_integral.pdf",
+      "download": "/@@sapl_documentos_download?path=materia/241886_texto_integral.pdf",
       "filename": "241886_texto_integral.pdf",
-      "size": ""
+      "size": "460.1 KB"
     }
   ],
   "id": "241886",
   "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
   "processing": [
     {
       "date": "2026-02-02 18:11:30",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Arquivo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/733774_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/733774_tram.pdf",
           "filename": "733774_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": true,
@@ -43,14 +51,15 @@
     },
     {
       "date": "2026-02-02 14:54:26",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Seção de Controle de Processo Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/728802_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/728802_tram.pdf",
           "filename": "728802_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -59,14 +68,15 @@
     },
     {
       "date": "2026-01-28 09:47:47",
+      "deadline": null,
       "description": "",
       "destinationUnit": "Plenário",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/721792_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/721792_tram.pdf",
           "filename": "721792_tram.pdf",
-          "size": ""
+          "size": "21.3 KB"
         }
       ],
       "last": false,
@@ -75,14 +85,15 @@
     },
     {
       "date": "2026-01-26 08:48:49",
-      "description": "&lt;p&gt;Proposi&amp;ccedil;&amp;atilde;o eletr&amp;ocirc;nica enviada em 12/12/2025 13:07:09. Mat&amp;eacute;ria incorporada em 26/01/2026 08:48:49 sob protocolo n&amp;ordm; 27/2026&lt;/p&gt;",
+      "deadline": null,
+      "description": "<p>Proposi&ccedil;&atilde;o eletr&ocirc;nica enviada em 12/12/2025 13:07:09. Mat&eacute;ria incorporada em 26/01/2026 08:48:49 sob protocolo n&ordm; 27/2026</p>",
       "destinationUnit": "Departamento Técnico Legislativo",
       "file": [
         {
           "content-type": "application/pdf",
-          "download": "/sapl_documentos/materia/tramitacao/713300_tram.pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/713300_tram.pdf",
           "filename": "713300_tram.pdf",
-          "size": ""
+          "size": "21.5 KB"
         }
       ],
       "last": false,
@@ -92,10 +103,31 @@
   ],
   "processingRegime": "Ordinário",
   "processingRegime_id": "1",
+  "protocol": "27/2026",
   "quorum": "Maioria simples",
   "quorum_id": "1",
   "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=241886",
   "substitute": [],
   "title": "Requerimento nº 20653/2026",
-  "voteResult": []
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1641",
+      "cod_ordem": 291957,
+      "cod_sessao_plen": 1641,
+      "date": "2026-02-02",
+      "description": "Expediente da 1ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1641&cod_ordem=291957&cod_materia=241886&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
 }

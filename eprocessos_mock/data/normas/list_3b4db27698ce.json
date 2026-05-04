@@ -1,0 +1,28 @@
+{
+  "@id": "/@@normas",
+  "@type": "Normas",
+  "ano": "2025",
+  "description": "Lista de normas jurídicas do ano 2025 (tip_norma=4)",
+  "items": [
+    {
+      "@id": "/@@normas/18445",
+      "@type": "Norma",
+      "anoNorma": 2025,
+      "dataApresentacao": "2025-10-09",
+      "dataNormaBr": "09/10/2025",
+      "dataPublicacao": "2025-10-14",
+      "dataPublicacaoBr": "14/10/2025",
+      "data_apresentacao": "2025-10-09",
+      "description": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+      "ementa": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+      "id": "18445",
+      "numNorma": "147",
+      "title": "Resolução nº 147/2025",
+      "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18445",
+      "urlConsulta": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18445",
+      "veiculoPublicacao": "JORNAL O LEGISLATIVO"
+    }
+  ],
+  "ordem": "data_desc",
+  "tipNorma": "4"
+}

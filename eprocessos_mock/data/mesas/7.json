@@ -14,12 +14,12 @@
       "id": "26097",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26097_foto_parlamentar",
           "filename": "26097_foto_parlamentar",
-          "height": "350",
-          "size": "213974",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -29,7 +29,7 @@
         }
       ],
       "title": "Zezinho Mendonça",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26097_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//26097_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/526697",
@@ -39,12 +39,12 @@
       "id": "526697",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/526697_foto_parlamentar",
           "filename": "526697_foto_parlamentar",
-          "height": "350",
-          "size": "223533",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -54,7 +54,7 @@
         }
       ],
       "title": "Sargento Ednaldo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/526697_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//526697_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/26010",
@@ -64,12 +64,12 @@
       "id": "26010",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/26010_foto_parlamentar",
           "filename": "26010_foto_parlamentar",
-          "height": "350",
-          "size": "182275",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -79,7 +79,7 @@
         }
       ],
       "title": "Gláucia da Saúde",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/26010_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//26010_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/399022",
@@ -89,12 +89,12 @@
       "id": "399022",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/399022_foto_parlamentar",
           "filename": "399022_foto_parlamentar",
-          "height": "350",
-          "size": "242980",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -104,7 +104,7 @@
         }
       ],
       "title": "Liza Prado",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//399022_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/556179",
@@ -114,12 +114,12 @@
       "id": "556179",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556179_foto_parlamentar",
           "filename": "556179_foto_parlamentar",
-          "height": "350",
-          "size": "225249",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -129,7 +129,7 @@
         }
       ],
       "title": "Elinho Da Academia",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/556179_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//556179_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/537433",
@@ -139,12 +139,12 @@
       "id": "537433",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537433_foto_parlamentar",
           "filename": "537433_foto_parlamentar",
-          "height": "350",
-          "size": "212052",
-          "width": "350"
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "partido": [
@@ -154,11 +154,12 @@
         }
       ],
       "title": "Ivan Nunes",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/537433_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos//537433_foto_parlamentar"
     }
   ],
   "legislatura": "20ª Legislatura",
   "legislatura_id": "/@@legislaturas/20",
+  "num_legislatura": 20,
   "start": "2025-01-01",
   "title": "01/01/2025 a 31/12/2026"
 }

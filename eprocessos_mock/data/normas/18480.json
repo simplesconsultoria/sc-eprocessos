@@ -1,0 +1,57 @@
+{
+  "@id": "/@@normas/18480",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-08-04",
+  "data_publicacao": "2025-08-05",
+  "description": "DISPÕE SOBRE A EXONERAÇÃO E A NOMEAÇÃO QUE MENCIONA",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18480&texto_original=1",
+      "filename": "18480_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "320.9 KB"
+    }
+  ],
+  "heading_label": "Portaria nº 420, de 04/08/2025",
+  "id": "18480",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18480&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Portaria nº 420/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-08-04",
+    "dataPromulgacaoBR": "04/08/2025",
+    "desTipoNorma": "Portaria",
+    "headingLabel": "Portaria nº 420, de 04/08/2025",
+    "numNorma": 420,
+    "sglTipoNorma": "POR"
+  },
+  "txt_ementa": "DISPÕE SOBRE A EXONERAÇÃO E A NOMEAÇÃO QUE MENCIONA",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18480",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18480",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

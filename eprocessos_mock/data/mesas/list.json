@@ -12,6 +12,7 @@
       "id": "7",
       "legislatura": "20ª Legislatura",
       "legislatura_id": "/@@legislaturas/20",
+      "num_legislatura": 20,
       "start": "2025-01-01",
       "title": "01/01/2025 a 31/12/2026"
     },
@@ -24,6 +25,7 @@
       "id": "6",
       "legislatura": "19ª Legislatura",
       "legislatura_id": "/@@legislaturas/19",
+      "num_legislatura": 19,
       "start": "2023-01-01",
       "title": "01/01/2023 a 31/12/2024"
     },
@@ -36,6 +38,7 @@
       "id": "5",
       "legislatura": "19ª Legislatura",
       "legislatura_id": "/@@legislaturas/19",
+      "num_legislatura": 19,
       "start": "2021-01-01",
       "title": "01/01/2021 a 31/12/2022"
     },
@@ -48,6 +51,7 @@
       "id": "4",
       "legislatura": "18ª Legislatura",
       "legislatura_id": "/@@legislaturas/18",
+      "num_legislatura": 18,
       "start": "2020-02-17",
       "title": "17/02/2020 a 31/12/2020"
     },
@@ -60,6 +64,7 @@
       "id": "3",
       "legislatura": "18ª Legislatura",
       "legislatura_id": "/@@legislaturas/18",
+      "num_legislatura": 18,
       "start": "2019-01-01",
       "title": "01/01/2019 a 26/12/2019"
     },
@@ -72,6 +77,7 @@
       "id": "2",
       "legislatura": "18ª Legislatura",
       "legislatura_id": "/@@legislaturas/18",
+      "num_legislatura": 18,
       "start": "2017-01-01",
       "title": "01/01/2017 a 31/12/2018"
     },
@@ -84,6 +90,7 @@
       "id": "1",
       "legislatura": "17ª Legislatura",
       "legislatura_id": "/@@legislaturas/17",
+      "num_legislatura": 17,
       "start": "2015-06-02",
       "title": "02/06/2015 a 31/12/2016"
     }

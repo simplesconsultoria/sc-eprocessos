@@ -1,0 +1,57 @@
+{
+  "@id": "/@@normas/18276",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-07-22",
+  "data_publicacao": "2025-07-23",
+  "description": "DISPÕE SOBRE A PRORROGAÇÃO DA LICENÇA MATERNIDADE ESTABELECIDA NA LEI COMPLEMENTAR Nº 516/2010",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18276&texto_original=1",
+      "filename": "18276_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "273.5 KB"
+    }
+  ],
+  "heading_label": "Portaria nº 403, de 22/07/2025",
+  "id": "18276",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18276&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "JORNAL O LEGISLATIVO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Portaria nº 403/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-07-22",
+    "dataPromulgacaoBR": "22/07/2025",
+    "desTipoNorma": "Portaria",
+    "headingLabel": "Portaria nº 403, de 22/07/2025",
+    "numNorma": 403,
+    "sglTipoNorma": "POR"
+  },
+  "txt_ementa": "DISPÕE SOBRE A PRORROGAÇÃO DA LICENÇA MATERNIDADE ESTABELECIDA NA LEI COMPLEMENTAR Nº 516/2010",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18276",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18276",
+  "veiculo_publicacao": "JORNAL O LEGISLATIVO"
+}

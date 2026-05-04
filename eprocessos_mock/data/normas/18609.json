@@ -1,0 +1,77 @@
+{
+  "@id": "/@@normas/18609",
+  "@type": "Norma",
+  "anexos": [],
+  "arquivo_permanente": [],
+  "assuntos": [],
+  "codSituacao": 1,
+  "cod_situacao": 1,
+  "data_norma": "2025-12-15",
+  "data_publicacao": "2025-12-15",
+  "description": "ALTERA A LEI COMPLEMENTAR Nº 774, DE 12 DE DEZEMBRO DE 2024, QUE “AUTORIZA A TRANSFERÊNCIA DOS SUPERÁVITS FINANCEIROS DOS EXERCÍCIOS DE 2023 A 2027 E DOS RECURSOS TOTAIS EXISTENTES NO EXERCÍCIO DE 2024 DOS FUNDOS ESPECIAIS MUNICIPAIS QUE MENCIONA, E DÁ OUTRAS PROVIDÊNCIAS”",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@download_norma?cod_norma=18609&texto_original=1",
+      "filename": "18609_texto_integral.pdf",
+      "ind_assinado": false,
+      "size": "173.7 KB"
+    }
+  ],
+  "heading_label": "Lei Complementar nº 805, de 15/12/2025",
+  "id": "18609",
+  "links": {
+    "downloadTextoOriginal": "/@@download_norma?cod_norma=18609&texto_original=1",
+    "pesquisaNormas": "/consultas/norma_juridica/pesquisa_normas",
+    "pesquisa_normas": "/consultas/norma_juridica/pesquisa_normas"
+  },
+  "materia": [
+    {
+      "@id": "/@@materias/240408",
+      "@type": "MateriaLegislativa",
+      "autoria": [
+        {
+          "@id": "/@@autor?id=434780",
+          "@type": "Autor",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "autoria_nomes": "Prefeito Municipal",
+      "description": "ALTERA A LEI COMPLEMENTAR Nº 774, DE 12 DE DEZEMBRO DE 2024, QUE “AUTORIZA A TRANSFERÊNCIA DOS SUPERÁVITS FINANCEIROS DOS EXERCÍCIOS DE 2023 A 2027 E DOS RECURSOS TOTAIS EXISTENTES NO EXERCÍCIO DE 2024 DOS FUNDOS ESPECIAIS MUNICIPAIS QUE MENCIONA, E DÁ OUTRAS PROVIDÊNCIAS”",
+      "id": "240408",
+      "remoteUrl": "/@@pasta_digital?cod_materia=240408",
+      "title": "Projeto de Lei Complementar nº 53/2025",
+      "url_consulta": "/consultas/materia/materia_mostrar_proc?cod_materia=MjQwNDA4"
+    }
+  ],
+  "normas_que_referem_esta": [],
+  "normas_referidas_por_esta": [],
+  "normas_vinculadas": [],
+  "num_pag_fim_publ": null,
+  "num_pag_inicio_publ": null,
+  "publicacao": {
+    "numPagFim": null,
+    "numPagInicio": null,
+    "veiculo": "DIÁRIO OFICIAL O MUNICÍPIO"
+  },
+  "status": "Vigente",
+  "texto_compilado": [],
+  "texto_original_assinado": false,
+  "title": "Lei Complementar nº 805/2025",
+  "title_parts": {
+    "anoNorma": 2025,
+    "dataPromulgacao": "2025-12-15",
+    "dataPromulgacaoBR": "15/12/2025",
+    "desTipoNorma": "Lei Complementar",
+    "headingLabel": "Lei Complementar nº 805, de 15/12/2025",
+    "numNorma": 805,
+    "sglTipoNorma": "LC"
+  },
+  "txt_ementa": "ALTERA A LEI COMPLEMENTAR Nº 774, DE 12 DE DEZEMBRO DE 2024, QUE “AUTORIZA A TRANSFERÊNCIA DOS SUPERÁVITS FINANCEIROS DOS EXERCÍCIOS DE 2023 A 2027 E DOS RECURSOS TOTAIS EXISTENTES NO EXERCÍCIO DE 2024 DOS FUNDOS ESPECIAIS MUNICIPAIS QUE MENCIONA, E DÁ OUTRAS PROVIDÊNCIAS”",
+  "txt_observacao": "",
+  "uriConsultaPublica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18609",
+  "uri_consulta_publica": "/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=18609",
+  "veiculo_publicacao": "DIÁRIO OFICIAL O MUNICÍPIO"
+}

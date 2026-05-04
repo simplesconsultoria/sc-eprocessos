@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/214494",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/206068",
+      "@type": "Materia",
+      "annexationDate": "2025-04-04",
+      "description": "DISPÕE SOBRE A EFETIVAÇÃO DE AÇÕES DE SAÚDE QUE ASSEGUREM A PREVENÇÃO, A DETECÇÃO, O TRATAMENTO E O SEGUIMENTO DOS CÂNCERES DE COLO UTERINO, MAMA E COLORRETAL NO ÂMBITO DO SISTEMA ÚNICO DE SAÚDE (SUS)",
+      "id": "206068",
+      "title": "Projeto de Lei Ordinária nº 112/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Amanda Gondim (PSB)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Fabão (PV)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Ronaldo Tannús (PODEMOS)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-04-04",
+  "description": " para que seja apreciado em Plenário o parecer do Projeto de Lei Ordinária nº 112/2025 - DISPÕE SOBRE A EFETIVAÇÃO DE AÇÕES DE SAÚDE QUE ASSEGUREM A PREVENÇÃO, A DETECÇÃO, O TRATAMENTO E O SEGUIMENTO DOS CÂNCERES DE COLO UTERINO, MAMA E COLORRETAL NO ÂMBITO DO SISTEMA ÚNICO DE SAÚDE (SUS).",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/214494_texto_integral.pdf",
+      "filename": "214494_texto_integral.pdf",
+      "size": "871.2 KB"
+    }
+  ],
+  "id": "214494",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-04-07 13:22:40",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587337_tram.pdf",
+          "filename": "587337_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-04-07 11:51:54",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/587301_tram.pdf",
+          "filename": "587301_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-04-04 14:05:06",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586911_tram.pdf",
+          "filename": "586911_tram.pdf",
+          "size": "21.5 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-04-04 13:59:05",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 04/04/2025 09:39:20. Matéria incorporada em 04/04/2025 13:59:05 sob protocolo nº 9975/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/586606_tram.pdf",
+          "filename": "586606_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "9975/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=214494",
+  "substitute": [],
+  "title": "Requerimento nº 9221/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1528",
+      "cod_ordem": 244999,
+      "cod_sessao_plen": 1528,
+      "date": "2025-04-07",
+      "description": "Expediente da 5ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1528&cod_ordem=244999&cod_materia=214494&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

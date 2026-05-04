@@ -1,0 +1,152 @@
+{
+  "@id": "/@@materias/228794",
+  "@type": "Materia",
+  "accessoryDocument": [],
+  "amendment": [],
+  "attached": [
+    {
+      "@id": "/@@materias/218824",
+      "@type": "Materia",
+      "annexationDate": "2025-08-13",
+      "description": "DISPÕE SOBRE O PROGRAMA AGENTE DE SAÚDE VOLUNTÁRIO DE COMBATE À DENGUE E OUTRAS DOENÇAS TRANSMITIDAS PELO MOSQUITO AEDES AEGYPTI, COMO DENGUE, CHIKUNGUNHA, VÍRUS ZIKA OUTRAS, NO MUNÍCIPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "id": "218824",
+      "title": "Projeto de Lei Ordinária nº 346/2025"
+    }
+  ],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Thais Andrade (União Brasil)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Adriano Zago (AVANTE)"
+    },
+    {
+      "description": "Parlamentar",
+      "firstAuthor": false,
+      "title": "Dr. Igino (PT)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2025-08-13",
+  "description": "De acordo com o art. 233, da Resolução nº 031/02, REQUEREMOS a Vossa Excelência que seja encaminhado a PLENÁRIO solicitação para com fulcro no caput Art. 172, Regimento Interno requer que o Projeto de Lei Ordinária nº 346/2025 DISPÕE SOBRE O PROGRAMA AGENTE DE SAÚDE VOLUNTÁRIO DE COMBATE À DENGUE E OUTRAS DOENÇAS TRANSMITIDAS PELO MOSQUITO AEDES AEGYPTI, COMO DENGUE, CHIKUNGUNHA, VÍRUS ZIKA OUTRAS, NO MUNÍCIPIO DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/228794_texto_integral.pdf",
+      "filename": "228794_texto_integral.pdf",
+      "size": "1.2 MB"
+    }
+  ],
+  "id": "228794",
+  "inProgress": false,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2025-08-14 13:41:44",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Arquivo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/658054_tram.pdf",
+          "filename": "658054_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Seção de Controle de Processo Legislativo",
+      "title": "Arquivado"
+    },
+    {
+      "date": "2025-08-14 11:57:52",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Seção de Controle de Processo Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/657739_tram.pdf",
+          "filename": "657739_tram.pdf",
+          "size": "21.6 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Plenário",
+      "title": "Aprovado"
+    },
+    {
+      "date": "2025-08-13 13:58:08",
+      "deadline": null,
+      "description": "",
+      "destinationUnit": "Plenário",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/657138_tram.pdf",
+          "filename": "657138_tram.pdf",
+          "size": "21.7 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Incluído na Pauta - Requerimento/Indicação/Moção/Pedido Inf"
+    },
+    {
+      "date": "2025-08-13 11:25:27",
+      "deadline": null,
+      "description": "<p>Proposição eletrônica enviada em 12/08/2025 09:46:54. Matéria incorporada em 13/08/2025 11:25:27 sob protocolo nº 24145/2025</p>",
+      "destinationUnit": "Departamento Técnico Legislativo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/656632_tram.pdf",
+          "filename": "656632_tram.pdf",
+          "size": "21.8 KB"
+        }
+      ],
+      "last": false,
+      "sourceUnit": "Protocolo Eletrônico",
+      "title": "Recebimento no Protocolo"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "protocol": "24145/2025",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=228794",
+  "substitute": [],
+  "title": "Requerimento nº 20291/2025",
+  "voteResult": [
+    {
+      "@id": "/@@sessoes/1581",
+      "cod_ordem": 262820,
+      "cod_sessao_plen": 1581,
+      "date": "2025-08-14",
+      "description": "Expediente da 10ª Reunião Ordinária",
+      "result": [
+        {
+          "absent": 0,
+          "abstention": 0,
+          "contrary": 0,
+          "favorable": 0
+        }
+      ],
+      "resultModalUrl": "/consultas/sessao_plenaria/sessao_plenaria_mostrar_painel_proc?cod_sessao_plen=1581&cod_ordem=262820&cod_materia=228794&tipo_materia=expediente&modal=1",
+      "title": "Aprovado",
+      "turn": "",
+      "votingType": "Simbólica"
+    }
+  ]
+}

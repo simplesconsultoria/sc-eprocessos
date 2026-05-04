@@ -1,6 +1,60 @@
 {
   "@id": "/@@comissoes/27",
   "@type": "Comissao",
+  "ativa": true,
+  "composicao_exibir_datas_membros": false,
+  "composicao_periodo_effective": 17,
+  "composicao_periodos": [
+    {
+      "atual": true,
+      "end": "2027-02-07",
+      "id": 17,
+      "label": "07/02/2025 a 07/02/2027",
+      "start": "2025-02-07"
+    },
+    {
+      "atual": false,
+      "end": "2024-12-31",
+      "id": 16,
+      "label": "07/05/2024 a 31/12/2024",
+      "start": "2024-05-07"
+    },
+    {
+      "atual": false,
+      "end": "2024-05-06",
+      "id": 6,
+      "label": "01/01/2023 a 06/05/2024",
+      "start": "2023-01-01"
+    },
+    {
+      "atual": false,
+      "end": "2022-12-31",
+      "id": 9,
+      "label": "04/02/2021 a 31/12/2022",
+      "start": "2021-02-04"
+    },
+    {
+      "atual": false,
+      "end": "2020-12-31",
+      "id": 5,
+      "label": "19/05/2020 a 31/12/2020",
+      "start": "2020-05-19"
+    },
+    {
+      "atual": false,
+      "end": "2020-05-18",
+      "id": 4,
+      "label": "04/02/2020 a 18/05/2020",
+      "start": "2020-02-04"
+    },
+    {
+      "atual": false,
+      "end": "2019-12-31",
+      "id": 3,
+      "label": "01/01/2019 a 31/12/2019",
+      "start": "2019-01-01"
+    }
+  ],
   "description": "CITJ",
   "id": "27",
   "items": [
@@ -8,16 +62,19 @@
       "@id": "/@@vereadores/25988",
       "@type": "ParticipanteComissao",
       "cargo": "Presidente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Adriano Zago",
       "id": "25988",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar",
           "filename": "25988_foto_parlamentar",
-          "height": 350,
-          "size": 217172,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -28,23 +85,30 @@
           "token": "AVANTE"
         }
       ],
+      "partido_vigente": {
+        "title": "AVANTE",
+        "token": "AVANTE"
+      },
       "title": "Adriano Zago",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/25988_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/25988_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/556180",
       "@type": "ParticipanteComissao",
       "cargo": "Relator",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Janaina Guimarães Parreira Rezende",
       "id": "556180",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/556180_foto_parlamentar",
           "filename": "556180_foto_parlamentar",
-          "height": 350,
-          "size": 229921,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -55,23 +119,30 @@
           "token": "PL"
         }
       ],
+      "partido_vigente": {
+        "title": "PARTIDO LIBERAL",
+        "token": "PL"
+      },
       "title": "Janaina Guimarães",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/556180_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/556180_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/537428",
       "@type": "ParticipanteComissao",
       "cargo": "Membro",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Amanda Gondim",
       "id": "537428",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/537428_foto_parlamentar",
           "filename": "537428_foto_parlamentar",
-          "height": 350,
-          "size": 193355,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -82,23 +153,30 @@
           "token": "PSB"
         }
       ],
+      "partido_vigente": {
+        "title": "PARTIDO SOCIALISTA BRASILEIRO",
+        "token": "PSB"
+      },
       "title": "Amanda Gondim",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/537428_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/537428_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/399041",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Antônio Carrijo",
       "id": "399041",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/399041_foto_parlamentar",
           "filename": "399041_foto_parlamentar",
-          "height": 350,
-          "size": 205422,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -109,23 +187,30 @@
           "token": "PP"
         }
       ],
+      "partido_vigente": {
+        "title": "PROGRESSISTAS",
+        "token": "PP"
+      },
       "title": "Antônio Carrijo",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399041_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/399041_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/399022",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Liza Fernandes Prado",
       "id": "399022",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/399022_foto_parlamentar",
           "filename": "399022_foto_parlamentar",
-          "height": 350,
-          "size": 242980,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -136,23 +221,30 @@
           "token": "CIDADANIA"
         }
       ],
+      "partido_vigente": {
+        "title": "CIDADANIA",
+        "token": "CIDADANIA"
+      },
       "title": "Liza Prado",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/399022_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/399022_foto_parlamentar"
     },
     {
       "@id": "/@@vereadores/528006",
       "@type": "ParticipanteComissao",
       "cargo": "Suplente",
+      "dat_designacao": "07/02/2025",
+      "dat_desligamento": "",
+      "dat_desligamento_exibicao": "07/02/2027",
       "description": "Ronaldo César Vilela Tannús",
       "id": "528006",
       "image": [
         {
-          "content-type": "image/png",
-          "download": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar",
+          "content-type": "image/jpeg",
+          "download": "/@@sapl_documentos_download?path=parlamentar/fotos/528006_foto_parlamentar",
           "filename": "528006_foto_parlamentar",
-          "height": 350,
-          "size": 219680,
-          "width": 350
+          "height": "0",
+          "size": "0",
+          "width": "0"
         }
       ],
       "mandato": "Titular",
@@ -163,286 +255,55 @@
           "token": "PODEMOS"
         }
       ],
+      "partido_vigente": {
+        "title": "PODEMOS",
+        "token": "PODEMOS"
+      },
       "title": "Ronaldo Tannús",
-      "url_foto": "/sapl_documentos/parlamentar/fotos/528006_foto_parlamentar"
+      "url_foto": "/@@sapl_documentos_download?path=parlamentar/fotos/528006_foto_parlamentar"
     }
   ],
   "periodos": [
     {
       "atual": false,
-      "description": "07/05/2024 a 31/12/2024",
-      "end": "2024-12-31",
-      "id": "16",
-      "items": [
-        {
-          "@id": "/@@vereadores/537435",
-          "@type": "ParticipanteComissao",
-          "cargo": "Presidente",
-          "description": "Raphael Leles",
-          "id": "537435",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "Unão Brasil",
-              "token": "União Brasil"
-            }
-          ],
-          "title": "Raphael Leles"
-        },
-        {
-          "@id": "/@@vereadores/537430",
-          "@type": "ParticipanteComissao",
-          "cargo": "Relator",
-          "description": "Luiz Eduardo Ribeiro de Sá",
-          "id": "537430",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "Solidariedade",
-              "token": "Solidariedade"
-            }
-          ],
-          "title": "Dudu Luiz Eduardo"
-        },
-        {
-          "@id": "/@@vereadores/526698",
-          "@type": "ParticipanteComissao",
-          "cargo": "Membro",
-          "description": "Leandro Cassiano Neves",
-          "id": "526698",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
-              "token": "PRD"
-            }
-          ],
-          "title": "Leandro Neves"
-        },
-        {
-          "@id": "/@@vereadores/546914",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Abatenio de Andrade Marquez Neto",
-          "id": "546914",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PROGRESSISTAS",
-              "token": "PP"
-            }
-          ],
-          "title": "Abatenio Marquez"
-        },
-        {
-          "@id": "/@@vereadores/26010",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Gláucia Galante Buíssa",
-          "id": "26010",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PARTIDO LIBERAL",
-              "token": "PL"
-            }
-          ],
-          "title": "Gláucia da Saúde"
-        },
-        {
-          "@id": "/@@vereadores/537426",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Cláudia Guerra",
-          "id": "537426",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
-              "token": "PDT"
-            }
-          ],
-          "title": "Cláudia Guerra"
-        }
-      ],
-      "start": "2024-05-07",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "01/01/2023 a 06/05/2024",
-      "end": "2024-05-06",
-      "id": "6",
-      "items": [
-        {
-          "@id": "/@@vereadores/527981",
-          "@type": "ParticipanteComissao",
-          "cargo": "Presidente",
-          "description": "Eduardo Moraes",
-          "id": "527981",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "REPUBLICANOS",
-              "token": "REPUBLICANOS"
-            }
-          ],
-          "title": "Eduardo Moraes"
-        },
-        {
-          "@id": "/@@vereadores/526698",
-          "@type": "ParticipanteComissao",
-          "cargo": "Relator",
-          "description": "Leandro Cassiano Neves",
-          "id": "526698",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
-              "token": "PRD"
-            }
-          ],
-          "title": "Leandro Neves"
-        },
-        {
-          "@id": "/@@vereadores/526015",
-          "@type": "ParticipanteComissao",
-          "cargo": "Membro",
-          "description": "Walquir Cleuton do Amaral",
-          "id": "526015",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
-              "token": "PSDB"
-            }
-          ],
-          "title": "Walquir Amaral"
-        },
-        {
-          "@id": "/@@vereadores/537428",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Amanda Gondim",
-          "id": "537428",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PARTIDO SOCIALISTA BRASILEIRO",
-              "token": "PSB"
-            }
-          ],
-          "title": "Amanda Gondim"
-        },
-        {
-          "@id": "/@@vereadores/546914",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Abatenio de Andrade Marquez Neto",
-          "id": "546914",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PROGRESSISTAS",
-              "token": "PP"
-            }
-          ],
-          "title": "Abatenio Marquez"
-        },
-        {
-          "@id": "/@@vereadores/537426",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Cláudia Guerra",
-          "id": "537426",
-          "mandato": "Suplente",
-          "partido": [
-            {
-              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
-              "token": "PDT"
-            }
-          ],
-          "title": "Cláudia Guerra"
-        }
-      ],
-      "start": "2023-01-01",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "29/04/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "11",
+      "description": "05/02/2015 a 30/12/2016",
+      "end": "2016-12-30",
+      "id": 1,
       "items": [],
-      "start": "2021-04-29",
+      "start": "2015-02-05",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
-      "description": "23/04/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "10",
+      "description": "01/01/2017 a 31/12/2018",
+      "end": "2018-12-31",
+      "id": 2,
       "items": [],
-      "start": "2021-04-23",
+      "start": "2017-01-01",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
-      "description": "04/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "9",
+      "description": "01/01/2019 a 31/12/2019",
+      "end": "2019-12-31",
+      "id": 3,
       "items": [
         {
-          "@id": "/@@vereadores/527981",
+          "@id": "/@@vereadores/430271",
           "@type": "ParticipanteComissao",
           "cargo": "Presidente",
-          "description": "Eduardo Moraes",
-          "id": "527981",
+          "description": "Roger Dantas",
+          "id": "430271",
           "mandato": "Titular",
-          "partido": [
-            {
-              "title": "REPUBLICANOS",
-              "token": "REPUBLICANOS"
-            }
-          ],
-          "title": "Eduardo Moraes"
+          "partido": [],
+          "title": "Roger Dantas"
         },
         {
-          "@id": "/@@vereadores/537435",
+          "@id": "/@@vereadores/430274",
           "@type": "ParticipanteComissao",
           "cargo": "Relator",
-          "description": "Raphael Leles",
-          "id": "537435",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "Unão Brasil",
-              "token": "União Brasil"
-            }
-          ],
-          "title": "Raphael Leles"
-        },
-        {
-          "@id": "/@@vereadores/527863",
-          "@type": "ParticipanteComissao",
-          "cargo": "Membro",
-          "description": "Charlie Manzi Fernandes",
-          "id": "527863",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PROGRESSISTAS",
-              "token": "PP"
-            }
-          ],
-          "title": "Charles Charlão"
-        },
-        {
-          "@id": "/@@vereadores/537428",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Amanda Gondim",
-          "id": "537428",
+          "description": "Felipe Felps",
+          "id": "430274",
           "mandato": "Titular",
           "partido": [
             {
@@ -450,85 +311,12 @@
               "token": "PSB"
             }
           ],
-          "title": "Amanda Gondim"
-        },
-        {
-          "@id": "/@@vereadores/537425",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Dandara Tonantzin Silva Castro",
-          "id": "537425",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DOS TRABALHADORES",
-              "token": "PT"
-            }
-          ],
-          "title": "Dandara"
-        },
-        {
-          "@id": "/@@vereadores/526698",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Leandro Cassiano Neves",
-          "id": "526698",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
-              "token": "PRD"
-            }
-          ],
-          "title": "Leandro Neves"
-        }
-      ],
-      "start": "2021-02-04",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "02/02/2021 a 31/12/2021",
-      "end": "2021-12-31",
-      "id": "8",
-      "items": [],
-      "start": "2021-02-02",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "01/02/2021 a 31/12/2022",
-      "end": "2022-12-31",
-      "id": "7",
-      "items": [],
-      "start": "2021-02-01",
-      "title": "Composição da Comissão"
-    },
-    {
-      "atual": false,
-      "description": "19/05/2020 a 31/12/2020",
-      "end": "2020-12-31",
-      "id": "5",
-      "items": [
-        {
-          "@id": "/@@vereadores/527981",
-          "@type": "ParticipanteComissao",
-          "cargo": "Presidente",
-          "description": "Eduardo Moraes",
-          "id": "527981",
-          "mandato": "Titular",
-          "partido": [
-            {
-              "title": "REPUBLICANOS",
-              "token": "REPUBLICANOS"
-            }
-          ],
-          "title": "Eduardo Moraes"
+          "title": "Felipe Felps"
         },
         {
           "@id": "/@@vereadores/430277",
           "@type": "ParticipanteComissao",
-          "cargo": "Relator",
+          "cargo": "Membro",
           "description": "Thiago Fernandes",
           "id": "430277",
           "mandato": "Titular",
@@ -541,64 +329,54 @@
           "title": "Thiago Fernandes"
         },
         {
-          "@id": "/@@vereadores/530545",
-          "@type": "ParticipanteComissao",
-          "cargo": "Membro",
-          "description": "Guilherme Miranda",
-          "id": "530545",
-          "mandato": "Titular",
-          "partido": [],
-          "title": "Guilherme Miranda"
-        },
-        {
-          "@id": "/@@vereadores/526015",
+          "@id": "/@@vereadores/26012",
           "@type": "ParticipanteComissao",
           "cargo": "Suplente",
-          "description": "Walquir Cleuton do Amaral",
-          "id": "526015",
+          "description": "Doca Mastroiano",
+          "id": "26012",
+          "mandato": "Titular",
+          "partido": [],
+          "title": "Doca Mastroiano"
+        },
+        {
+          "@id": "/@@vereadores/25982",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Marcio Nobre",
+          "id": "25982",
           "mandato": "Titular",
           "partido": [
             {
-              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
-              "token": "PSDB"
+              "title": "PARTIDO SOCIAL DEMOCRÁTICO",
+              "token": "PSD"
             }
           ],
-          "title": "Walquir Amaral"
+          "title": "Marcio Nobre"
         },
         {
-          "@id": "/@@vereadores/527862",
+          "@id": "/@@vereadores/26016",
           "@type": "ParticipanteComissao",
           "cargo": "Suplente",
-          "description": "Amado Júnior",
-          "id": "527862",
+          "description": "Vico",
+          "id": "26016",
           "mandato": "Titular",
           "partido": [
             {
-              "title": "PARTIDO SOCIAL CRISTÃO",
-              "token": "PSC"
+              "title": "CIDADANIA",
+              "token": "CIDADANIA"
             }
           ],
-          "title": "Amado Júnior"
-        },
-        {
-          "@id": "/@@vereadores/527864",
-          "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Cleyton César",
-          "id": "527864",
-          "mandato": "Titular",
-          "partido": [],
-          "title": "Cleyton César"
+          "title": "Vico"
         }
       ],
-      "start": "2020-05-19",
+      "start": "2019-01-01",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
       "description": "04/02/2020 a 18/05/2020",
       "end": "2020-05-18",
-      "id": "4",
+      "id": 4,
       "items": [
         {
           "@id": "/@@vereadores/430277",
@@ -696,39 +474,29 @@
     },
     {
       "atual": false,
-      "description": "01/01/2019 a 31/12/2019",
-      "end": "2019-12-31",
-      "id": "3",
+      "description": "19/05/2020 a 31/12/2020",
+      "end": "2020-12-31",
+      "id": 5,
       "items": [
         {
-          "@id": "/@@vereadores/430271",
+          "@id": "/@@vereadores/527981",
           "@type": "ParticipanteComissao",
           "cargo": "Presidente",
-          "description": "Roger Dantas",
-          "id": "430271",
-          "mandato": "Titular",
-          "partido": [],
-          "title": "Roger Dantas"
-        },
-        {
-          "@id": "/@@vereadores/430274",
-          "@type": "ParticipanteComissao",
-          "cargo": "Relator",
-          "description": "Felipe Felps",
-          "id": "430274",
+          "description": "Eduardo Moraes",
+          "id": "527981",
           "mandato": "Titular",
           "partido": [
             {
-              "title": "PARTIDO SOCIALISTA BRASILEIRO",
-              "token": "PSB"
+              "title": "REPUBLICANOS",
+              "token": "REPUBLICANOS"
             }
           ],
-          "title": "Felipe Felps"
+          "title": "Eduardo Moraes"
         },
         {
           "@id": "/@@vereadores/430277",
           "@type": "ParticipanteComissao",
-          "cargo": "Membro",
+          "cargo": "Relator",
           "description": "Thiago Fernandes",
           "id": "430277",
           "mandato": "Titular",
@@ -741,65 +509,393 @@
           "title": "Thiago Fernandes"
         },
         {
-          "@id": "/@@vereadores/26012",
+          "@id": "/@@vereadores/530545",
           "@type": "ParticipanteComissao",
-          "cargo": "Suplente",
-          "description": "Doca Mastroiano",
-          "id": "26012",
+          "cargo": "Membro",
+          "description": "Guilherme Miranda",
+          "id": "530545",
           "mandato": "Titular",
           "partido": [],
-          "title": "Doca Mastroiano"
+          "title": "Guilherme Miranda"
         },
         {
-          "@id": "/@@vereadores/25982",
+          "@id": "/@@vereadores/526015",
           "@type": "ParticipanteComissao",
           "cargo": "Suplente",
-          "description": "Marcio Nobre",
-          "id": "25982",
+          "description": "Walquir Cleuton do Amaral",
+          "id": "526015",
           "mandato": "Titular",
           "partido": [
             {
-              "title": "PARTIDO SOCIAL DEMOCRÁTICO",
-              "token": "PSD"
+              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+              "token": "PSDB"
             }
           ],
-          "title": "Marcio Nobre"
+          "title": "Walquir Amaral"
         },
         {
-          "@id": "/@@vereadores/26016",
+          "@id": "/@@vereadores/527862",
           "@type": "ParticipanteComissao",
           "cargo": "Suplente",
-          "description": "Vico",
-          "id": "26016",
+          "description": "Amado Júnior",
+          "id": "527862",
           "mandato": "Titular",
           "partido": [
             {
-              "title": "CIDADANIA",
-              "token": "CIDADANIA"
+              "title": "PARTIDO SOCIAL CRISTÃO",
+              "token": "PSC"
             }
           ],
-          "title": "Vico"
+          "title": "Amado Júnior"
+        },
+        {
+          "@id": "/@@vereadores/527864",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Cleyton César",
+          "id": "527864",
+          "mandato": "Titular",
+          "partido": [],
+          "title": "Cleyton César"
         }
       ],
-      "start": "2019-01-01",
+      "start": "2020-05-19",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
-      "description": "01/01/2017 a 31/12/2018",
-      "end": "2018-12-31",
-      "id": "2",
+      "description": "01/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 7,
       "items": [],
-      "start": "2017-01-01",
+      "start": "2021-02-01",
       "title": "Composição da Comissão"
     },
     {
       "atual": false,
-      "description": "05/02/2015 a 30/12/2016",
-      "end": "2016-12-30",
-      "id": "1",
+      "description": "02/02/2021 a 31/12/2021",
+      "end": "2021-12-31",
+      "id": 8,
       "items": [],
-      "start": "2015-02-05",
+      "start": "2021-02-02",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "04/02/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 9,
+      "items": [
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/527863",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Charlie Manzi Fernandes",
+          "id": "527863",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Charles Charlão"
+        },
+        {
+          "@id": "/@@vereadores/537425",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Dandara Tonantzin Silva Castro",
+          "id": "537425",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DOS TRABALHADORES",
+              "token": "PT"
+            }
+          ],
+          "title": "Dandara"
+        },
+        {
+          "@id": "/@@vereadores/527981",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Eduardo Moraes",
+          "id": "527981",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "REPUBLICANOS",
+              "token": "REPUBLICANOS"
+            }
+          ],
+          "title": "Eduardo Moraes"
+        },
+        {
+          "@id": "/@@vereadores/526698",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Leandro Cassiano Neves",
+          "id": "526698",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+              "token": "PRD"
+            }
+          ],
+          "title": "Leandro Neves"
+        },
+        {
+          "@id": "/@@vereadores/537435",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Raphael Leles",
+          "id": "537435",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Raphael Leles"
+        }
+      ],
+      "start": "2021-02-04",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "23/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 10,
+      "items": [],
+      "start": "2021-04-23",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "29/04/2021 a 31/12/2022",
+      "end": "2022-12-31",
+      "id": 11,
+      "items": [],
+      "start": "2021-04-29",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "01/01/2023 a 06/05/2024",
+      "end": "2024-05-06",
+      "id": 6,
+      "items": [
+        {
+          "@id": "/@@vereadores/527981",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Eduardo Moraes",
+          "id": "527981",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "REPUBLICANOS",
+              "token": "REPUBLICANOS"
+            }
+          ],
+          "title": "Eduardo Moraes"
+        },
+        {
+          "@id": "/@@vereadores/526698",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Leandro Cassiano Neves",
+          "id": "526698",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+              "token": "PRD"
+            }
+          ],
+          "title": "Leandro Neves"
+        },
+        {
+          "@id": "/@@vereadores/526015",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Walquir Cleuton do Amaral",
+          "id": "526015",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+              "token": "PSDB"
+            }
+          ],
+          "title": "Walquir Amaral"
+        },
+        {
+          "@id": "/@@vereadores/537428",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Amanda Gondim",
+          "id": "537428",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO SOCIALISTA BRASILEIRO",
+              "token": "PSB"
+            }
+          ],
+          "title": "Amanda Gondim"
+        },
+        {
+          "@id": "/@@vereadores/546914",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Abatenio de Andrade Marquez Neto",
+          "id": "546914",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Abatenio Marquez"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        }
+      ],
+      "start": "2023-01-01",
+      "title": "Composição da Comissão"
+    },
+    {
+      "atual": false,
+      "description": "07/05/2024 a 31/12/2024",
+      "end": "2024-12-31",
+      "id": 16,
+      "items": [
+        {
+          "@id": "/@@vereadores/537435",
+          "@type": "ParticipanteComissao",
+          "cargo": "Presidente",
+          "description": "Raphael Leles",
+          "id": "537435",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Unão Brasil",
+              "token": "União Brasil"
+            }
+          ],
+          "title": "Raphael Leles"
+        },
+        {
+          "@id": "/@@vereadores/537430",
+          "@type": "ParticipanteComissao",
+          "cargo": "Relator",
+          "description": "Luiz Eduardo Ribeiro de Sá",
+          "id": "537430",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "Solidariedade",
+              "token": "Solidariedade"
+            }
+          ],
+          "title": "Dudu Luiz Eduardo"
+        },
+        {
+          "@id": "/@@vereadores/526698",
+          "@type": "ParticipanteComissao",
+          "cargo": "Membro",
+          "description": "Leandro Cassiano Neves",
+          "id": "526698",
+          "mandato": "Titular",
+          "partido": [
+            {
+              "title": "PARTIDO DA RENOVAÇÃO DEMOCRÁTICA",
+              "token": "PRD"
+            }
+          ],
+          "title": "Leandro Neves"
+        },
+        {
+          "@id": "/@@vereadores/546914",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Abatenio de Andrade Marquez Neto",
+          "id": "546914",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PROGRESSISTAS",
+              "token": "PP"
+            }
+          ],
+          "title": "Abatenio Marquez"
+        },
+        {
+          "@id": "/@@vereadores/26010",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Gláucia Galante Buíssa",
+          "id": "26010",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO LIBERAL",
+              "token": "PL"
+            }
+          ],
+          "title": "Gláucia da Saúde"
+        },
+        {
+          "@id": "/@@vereadores/537426",
+          "@type": "ParticipanteComissao",
+          "cargo": "Suplente",
+          "description": "Cláudia Guerra",
+          "id": "537426",
+          "mandato": "Suplente",
+          "partido": [
+            {
+              "title": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+              "token": "PDT"
+            }
+          ],
+          "title": "Cláudia Guerra"
+        }
+      ],
+      "start": "2024-05-07",
       "title": "Composição da Comissão"
     }
   ],

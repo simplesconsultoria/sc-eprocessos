@@ -1,0 +1,23 @@
+{
+  "@id": "/@@sessoes/id/1582",
+  "@id_presenca": "/@@sessoes/id/1582/presenca",
+  "@id_votacao": "/@@sessoes/id/1582/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1582_ata_sessao.pdf",
+      "filename": "1582_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2025-08-14",
+  "description": "1ª Reunião Extraordinária - 14/08/2025",
+  "endTime": "",
+  "id": "1582",
+  "pauta": [],
+  "startTime": "14:00",
+  "title": "1ª Reunião Extraordinária",
+  "type": "Extraordinária",
+  "type_id": 2
+}

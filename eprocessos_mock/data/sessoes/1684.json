@@ -1,0 +1,30 @@
+{
+  "@id": "/@@sessoes/id/1684",
+  "@id_presenca": "/@@sessoes/id/1684/presenca",
+  "@id_votacao": "/@@sessoes/id/1684/votacao",
+  "@type": "SessaoPlenaria",
+  "ata": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=ata_sessao/1684_ata_sessao.pdf",
+      "filename": "1684_ata_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "date": "2026-04-15",
+  "description": "9ª Reunião Ordinária - 15/04/2026",
+  "endTime": "",
+  "id": "1684",
+  "pauta": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=pauta_sessao/1684_pauta_sessao.pdf",
+      "filename": "1684_pauta_sessao.pdf",
+      "size": ""
+    }
+  ],
+  "startTime": "09:00",
+  "title": "9ª Reunião Ordinária",
+  "type": "Ordinária",
+  "type_id": 1
+}
