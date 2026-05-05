@@ -7,7 +7,7 @@ import ComissaoView from './ComissaoView';
 
 import comissaoFull from '../../../../../../eprocessos_mock/data/comissoes/32.json';
 
-const withWrapper: Decorator = (Story) => {
+const withWrapper: Decorator = (Story: any) => {
   const themeStyle = {
     '--theme-color': '#ffffff',
     '--theme-foreground-color': '#1b1c1d',

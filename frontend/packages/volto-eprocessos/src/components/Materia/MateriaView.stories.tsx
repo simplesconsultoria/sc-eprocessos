@@ -8,7 +8,7 @@ import MateriaView from './MateriaView';
 import materiaManyAuthors from '../../../../../../eprocessos_mock/data/materias/253133.json';
 import materiaInProgress from '../../../../../../eprocessos_mock/data/materias/251667.json';
 
-const withWrapper: Decorator = (Story) => {
+const withWrapper: Decorator = (Story: any) => {
   const themeStyle = {
     '--theme-color': '#ffffff',
     '--theme-foreground-color': '#1b1c1d',

@@ -27,8 +27,6 @@ const Avatar = ({
     setFailed(false);
   }, [src]);
 
-  // If the image already failed before hydration (SSR), React's `onError`
-  // won't fire. Detect broken image after mount.
   useEffect(() => {
     if (!src) return;
     const img = imgRef.current;

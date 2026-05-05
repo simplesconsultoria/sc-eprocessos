@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 
 import Avatar from '@simplesconsultoria/volto-eprocessos/components/Avatar/Avatar';
 
