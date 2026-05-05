@@ -72,21 +72,82 @@
   cursor: pointer;
 }
 
-@mixin eprocessos-view-responsive-margins(
-  $view-class,
-  $layout-breakpoint: 1470px,
-  $default-breakpoint: 1020px,
-  $margin: 20px
+@mixin eprocessos-action-button($radius: 10px) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.75rem;
+  border-radius: $radius;
+  @include eprocessos-surface($hover: true, $with-border: false);
+  @include body-text-bold();
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@mixin eprocessos-pill-badge(
+  $background: var(--theme-color, var(--primary-color, #bdc3c7)),
+  $color: var(--primary-foreground-color, black)
 ) {
-  .#{$view-class}.layout {
-    @media (max-width: $layout-breakpoint) {
-      margin: 0 $margin !important;
-    }
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background-color: $background;
+  color: $color;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+@mixin eprocessos-meta-definition-list-card(
+  $radius: 16px,
+  $border-alpha: 12%,
+  $column-gap: 1.25rem
+) {
+  display: grid;
+  padding: 0.75rem 1rem;
+  @include eprocessos-surface($radius, $border-alpha, false, true);
+  margin: 0;
+  column-gap: $column-gap;
+  grid-template-columns: 1fr auto;
+
+  dt,
+  dd {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid
+      color-mix(
+        in srgb,
+        var(--primary-foreground-color, black) 10%,
+        transparent
+      );
   }
 
-  .#{$view-class}.default {
-    @media (max-width: $default-breakpoint) {
-      margin: 0 $margin !important;
+  dt {
+    margin: 0;
+    font-weight: 600;
+    opacity: 0.85;
+  }
+
+  dd {
+    margin: 0;
+    font-weight: 500;
+    text-align: right;
+  }
+
+  dt:last-of-type,
+  dd:last-of-type {
+    border-bottom: 0;
+  }
+
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+
+    dt,
+    dd {
+      border-bottom: 0;
+    }
+
+    dd {
+      text-align: left;
     }
   }
 }

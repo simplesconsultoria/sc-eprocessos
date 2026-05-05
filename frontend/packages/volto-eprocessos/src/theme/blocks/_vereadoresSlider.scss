@@ -1,31 +1,48 @@
 .vereadores-slider-block {
-  max-width: calc(var(--default-container-width) + 20px) !important;
-  border-top: 2px solid;
-  background-color: var(--theme-high-contrast-color, red) !important;
-  border-image: linear-gradient(
-      to right,
-      var(--theme-top-high-contrast-foreground-color, var(--accent-color, red))
-        60%,
-      transparent 40%
-    )
-    100% 1;
-  container-name: vereadoresSlider;
-  container-type: inline-size;
-  --vereadores-slider-image-size: 40%;
-  --vereadores-slider-heading-font-size: max(18px, max(1.5vw, 6cqw));
-  --vereadores-slider-normal-text: max(14px, 4cqw);
-  --vereadores-slider-arrow-padding: max(0.3rem, 0.5cqw);
-  --vereadores-slider-arrow-size: max(22px, 4cqw);
-  --vereadores-slider-anim-duration: 320ms;
-  --vereadores-slider-anim-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  min-width: 0;
+  height: fit-content;
+  align-self: flex-start;
 
-  &:not(.contained) {
-    margin: 0 auto !important;
+  &__container {
+    @include eprocessos-surface(
+      12px,
+      14%,
+      true,
+      false,
+      var(--theme-high-contrast-color, var(--secondary-color)),
+      var(
+        --theme-top-high-contrast-foreground-color,
+        var(--secondary-foreground-color, black)
+      )
+    );
+
+    width: 100%;
+
+    border-top: 2px solid;
+    border-image: linear-gradient(
+        to right,
+        var(
+            --theme-top-high-contrast-foreground-color,
+            var(--accent-foreground-color, currentColor)
+          )
+          60%,
+        transparent 40%
+      )
+      100% 1;
+
+    container-name: vereadoresSlider;
+    container-type: inline-size;
+    --vereadores-slider-image-size: 40%;
+    --vereadores-slider-arrow-padding: 0.35rem;
+    --vereadores-slider-arrow-size: 24px;
+    --vereadores-slider-anim-duration: 320ms;
+    --vereadores-slider-anim-ease: cubic-bezier(0.22, 1, 0.36, 1);
   }
+
   &__testimonials {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: $spacing-medium;
     gap: 1rem;
   }
 
@@ -40,10 +57,8 @@
 
   &__heading {
     margin: 0;
-    color: var(--theme-top-high-contrast-foreground-color, black);
-    font-size: var(--vereadores-slider-heading-font-size);
-    font-weight: normal;
-    line-height: 1;
+    @include text-heading-h2();
+    color: var(--theme-top-high-contrast-foreground-color, currentColor);
     word-break: keep-all;
     word-wrap: none;
   }
@@ -55,16 +70,12 @@
   }
 
   &__arrow {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--vereadores-slider-arrow-padding);
-    border: 0;
-    border-radius: 100%;
-    background: transparent;
+    @include eprocessos-icon-button(
+      999px,
+      var(--vereadores-slider-arrow-padding)
+    );
     background-color: var(--theme-color, transparent);
     color: var(--theme-foreground-color, currentColor);
-    cursor: pointer;
     svg {
       height: var(--vereadores-slider-arrow-size) !important;
     }
@@ -142,18 +153,22 @@
   &__name {
     border: 0 !important;
     margin: 0 0 0.5rem !important;
-    color: var(--theme-top-high-contrast-foreground-color, black) !important;
-    font-size: var(--vereadores-slider-normal-text);
-    line-height: 1.2;
+    @include text-heading-h3();
+    color: var(
+      --theme-top-high-contrast-foreground-color,
+      currentColor
+    ) !important;
     word-break: keep-all;
     word-wrap: break-word;
   }
 
   &__party {
     margin: 0 !important;
-    color: var(--theme-top-low-contrast-foreground-color, black) !important;
-    font-size: var(--vereadores-slider-normal-text);
-    line-height: 1;
+    @include introduction();
+    color: var(
+      --theme-top-low-contrast-foreground-color,
+      currentColor
+    ) !important;
     word-break: keep-all;
     word-wrap: none;
   }
@@ -162,13 +177,12 @@
     display: inline-flex;
     align-items: center;
     align-self: flex-start;
-    margin-top: 1rem;
+    margin-top: $spacing-small;
     color: var(
       --theme-top-high-contrast-foreground-color,
       var(--link-foreground-color)
     ) !important;
-    font-size: var(--vereadores-slider-normal-text);
-    line-height: 1;
+    @include body-text-bold();
     text-decoration: none !important;
     &::after {
       display: none !important;
@@ -193,6 +207,27 @@
       height: var(--vereadores-slider-arrow-size) !important;
     }
   }
+}
+
+#page-document
+  .blocks-group-wrapper
+  > .block.vereadores-slider-block:not(.contained) {
+  @include default-container-width();
+  @include adjustMarginsToContainer($default-container-width);
+}
+
+#page-add,
+#page-edit {
+  .block.vereadores-slider-block:not(.contained) {
+    @include default-container-width();
+    @include adjustMarginsToEditContainer($default-container-width);
+  }
+}
+
+.block.gridBlock .block.vereadores-slider-block,
+.block.gridBlock .vereadores-slider-block {
+  width: 100%;
+  min-width: 0;
 }
 
 @keyframes vereadoresSliderFromLeft {
@@ -224,6 +259,18 @@
   }
 }
 
+@container vereadoresSlider (max-width: 180px) {
+  .vereadores-slider-block__people {
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+  }
+  .vereadores-slider-block__heading {
+    @include text-heading-h3();
+    @include add(weight, bold);
+  }
+}
+
 @container vereadoresSlider (max-width: 360px) {
   .vereadores-slider-block__testimonials {
     padding: 15px;
@@ -232,6 +279,10 @@
   .vereadores-slider-block__people {
     line-height: 1;
     text-align: left;
+    .party,
+    .title {
+      @include body-text();
+    }
   }
 
   .vereadores-slider-block__header {
@@ -243,42 +294,43 @@
     align-self: center;
     margin: 0;
   }
-}
-
-@container vereadoresSlider (max-width: 150px) {
   .vereadores-slider-block__row {
     flex-direction: column;
     align-items: center;
-  }
-
-  .vereadores-slider-block__people {
-    width: 100%;
-    min-height: auto;
-    text-align: center;
+    margin-bottom: 15px;
   }
 }
 
-@supports not (container-type: inline-size) {
-  @media (max-width: 360px) {
-    .vereadores-slider-block {
-      &__testimonials {
-        padding: 15px;
-      }
+@container vereadoresSlider (min-width: 700px) {
+  .vereadores-slider-block__heading {
+    @include highlight-title();
+  }
 
-      &__people {
-        text-align: center;
-      }
-      &__row {
-        flex-direction: column;
-        align-items: center;
-      }
-      &__header {
-        flex-direction: column;
-        align-items: center;
-      }
-      &__all-link {
-        align-self: center;
-      }
+  .vereadores-slider-block__people {
+    .name {
+      @include text-heading-h2();
+    }
+    .party,
+    .title {
+      @include body-text-bold();
+    }
+  }
+}
+
+@container vereadoresSlider (min-width: 930px) {
+  .vereadores-slider-block__heading {
+    @include block-title();
+    @include add(weight, bold);
+  }
+
+  .vereadores-slider-block__people {
+    .name {
+      @include block-title();
+      @include add(weight, bold);
+    }
+    .party,
+    .title {
+      @include introduction();
     }
   }
 }

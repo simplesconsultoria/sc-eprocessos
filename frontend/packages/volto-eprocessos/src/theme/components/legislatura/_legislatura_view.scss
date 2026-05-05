@@ -14,14 +14,7 @@
     gap: 0.75rem 1rem;
 
     .badge-current {
-      display: inline-flex;
-      align-items: center;
-      border-radius: 999px;
-      background-color: var(--theme-color, var(--primary-color, #bdc3c7));
-      color: var(--primary-foreground-color, black);
-      font-weight: 600;
-      line-height: 1.2;
-      white-space: nowrap;
+      @include eprocessos-pill-badge();
     }
 
     .legislatura-dates {
@@ -121,4 +114,39 @@
   }
 }
 
-@include eprocessos-view-responsive-margins('legislatura-view');
+#page-document.view-wrapper.legislatura-view {
+  &.layout {
+    @include layout-container-width();
+    @include adjustMarginsToContainer($layout-container-width);
+  }
+
+  &.default {
+    @include default-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+  }
+
+  &.narrow {
+    @include narrow-container-width();
+    @include adjustMarginsToContainer($narrow-container-width);
+  }
+}
+
+#page-add,
+#page-edit {
+  #page-document.view-wrapper.legislatura-view {
+    &.layout {
+      @include layout-container-width();
+      @include adjustMarginsToEditContainer($layout-container-width);
+    }
+
+    &.default {
+      @include default-container-width();
+      @include adjustMarginsToEditContainer($default-container-width);
+    }
+
+    &.narrow {
+      @include narrow-container-width();
+      @include adjustMarginsToEditContainer($narrow-container-width);
+    }
+  }
+}

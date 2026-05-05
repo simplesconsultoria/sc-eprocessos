@@ -7,8 +7,8 @@ import React, {
 } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
-import { ConditionalLink } from '@plone/volto/components';
-import { flattenToAppURL } from '@plone/volto/helpers';
+import ConditionalLink from '@plone/volto/components/manage/ConditionalLink/ConditionalLink';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import {
   addSubpathPrefix,
   getFieldURL,
@@ -16,6 +16,8 @@ import {
 } from '@plone/volto/helpers/Url/Url';
 import leftSVG from '@plone/volto/icons/left-key.svg';
 import rightSVG from '@plone/volto/icons/right-key.svg';
+import playSVG from '@plone/volto/icons/play.svg';
+import pauseSVG from '@plone/volto/icons/pause.svg';
 
 import type { VereadoresSliderItem } from './index';
 
@@ -48,6 +50,22 @@ const messages = defineMessages({
     id: 'Vereadores slider empty',
     defaultMessage: 'No councilor.',
   },
+  pauseAutoplay: {
+    id: 'Vereadores slider pause autoplay',
+    defaultMessage: 'Pause autoplay',
+  },
+  resumeAutoplay: {
+    id: 'Vereadores slider resume autoplay',
+    defaultMessage: 'Resume autoplay',
+  },
+  carouselLabel: {
+    id: 'Vereadores slider carousel label',
+    defaultMessage: 'Councilors carousel',
+  },
+  slideLabel: {
+    id: 'Vereadores slider slide label',
+    defaultMessage: 'Slide {current} of {total}',
+  },
 });
 
 const getVereadorItemPath = (
@@ -70,8 +88,6 @@ const resolveItemImageSrc = (
   const base = getVereadorItemPath(item);
   const download = item?.image?.[0]?.download;
 
-  // Minimal rule (same idea as Sumario): in the slider we expect a backend-served
-  // `@@images/...` path, so we just join it with the vereador base URL.
   if (!base || !download) return undefined;
 
   const sanitized = download.startsWith('/++api++')
@@ -88,7 +104,7 @@ const resolveItemImageSrc = (
 const getSingleLink = (
   value: Array<{ '@id'?: string; title?: string }> | undefined,
 ): string | undefined => {
-  const urlValue = getFieldURL(value);
+  const urlValue = value ? getFieldURL(value as any) : undefined;
   const url = Array.isArray(urlValue) ? urlValue[0] : urlValue;
   return typeof url === 'string' && url ? url : undefined;
 };
@@ -119,12 +135,56 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const [enterFrom, setEnterFrom] = useState<'left' | 'right' | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
   const [rowMinHeightPx, setRowMinHeightPx] = useState<number | null>(null);
+  const [isAutoplayPaused, setIsAutoplayPaused] = useState(false);
 
   const rowRef = useRef<HTMLDivElement | null>(null);
   const measureRef = useRef<HTMLDivElement | null>(null);
   const carouselInnerRef = useRef<HTMLDivElement | null>(null);
 
   const safeItems = useMemo(() => (Array.isArray(items) ? items : []), [items]);
+
+  const hasMany = safeItems.length > 1;
+  const canPrev = !isLoading && !hasError && hasMany;
+  const canNext = !isLoading && !hasError && hasMany;
+
+  const reducedMotion = useMemo(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      return !!window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
+    } catch {
+      return false;
+    }
+  }, []);
+
+  const autoplayConfigured = !!autoplay;
+  const autoplayActive =
+    autoplayConfigured &&
+    !isEditMode &&
+    !isAutoplayPaused &&
+    !isLoading &&
+    !hasError &&
+    hasMany &&
+    !reducedMotion;
+
+  useEffect(() => {
+    if (!autoplayConfigured) setIsAutoplayPaused(false);
+  }, [autoplayConfigured]);
+
+  const goPrev = useCallback(() => {
+    if (!canPrev) return;
+    setEnterFrom('left');
+    setAnimationKey((k) => k + 1);
+    setIndex((v) =>
+      safeItems.length ? (v - 1 + safeItems.length) % safeItems.length : 0,
+    );
+  }, [canPrev, safeItems.length]);
+
+  const goNext = useCallback(() => {
+    if (!canNext) return;
+    setEnterFrom('right');
+    setAnimationKey((k) => k + 1);
+    setIndex((v) => (safeItems.length ? (v + 1) % safeItems.length : 0));
+  }, [canNext, safeItems.length]);
 
   const recomputeRowMinHeight = useCallback(() => {
     if (typeof window === 'undefined') return;
@@ -140,9 +200,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     const containerWidth = widthEl.clientWidth;
     if (!containerWidth) return;
 
-    // Compute the available width for the "people" column.
-    // Worst-case: reserve space for the image (even if current item has no image),
-    // so text wrapping is measured under the smallest likely width.
     let peopleWidth = containerWidth;
     try {
       const styleEl = rowRef.current || widthEl;
@@ -152,7 +209,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       const gapRaw = (computed.gap || computed.columnGap || '0').toString();
       const gapPx = Number.parseFloat(gapRaw.split(' ')[0]) || 0;
 
-      // Only reserve image space for row layout.
       if (flexDirection !== 'column') {
         const imageSizeRaw = computed
           .getPropertyValue('--vereadores-slider-image-size')
@@ -173,13 +229,9 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
           }
         }
       }
-    } catch {
-      // ignore
-    }
+    } catch {}
 
     if (!peopleWidth || peopleWidth < 1) return;
-
-    // Build and measure offscreen nodes with the same classes/styles.
 
     const fragment = document.createDocumentFragment();
     safeItems.forEach((item) => {
@@ -205,7 +257,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       fragment.appendChild(wrap);
     });
 
-    // Avoid innerHTML (faster/safer) and keep nodes detached until ready.
     measureRoot.replaceChildren(fragment);
 
     let maxHeight = 0;
@@ -214,7 +265,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       if (h > maxHeight) maxHeight = h;
     }
 
-    // Keep the existing fallback as the minimum.
     const min = 125;
     const next = Math.max(min, Math.ceil(maxHeight));
     setRowMinHeightPx((prev) => (prev === next ? prev : next));
@@ -253,7 +303,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       window.addEventListener('resize', schedule);
     }
 
-    // Recompute when fonts finish loading (can change line-wrapping).
     const fontsReady = (document as any)?.fonts?.ready;
     if (fontsReady && typeof fontsReady.then === 'function') {
       fontsReady.then(() => {
@@ -271,20 +320,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    if (isEditMode) return;
-    if (!autoplay) return;
-    if (isLoading || hasError) return;
-
-    const hasMany = safeItems.length > 1;
-    if (!hasMany) return;
-
-    // Respect reduced motion.
-    try {
-      if (window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches)
-        return;
-    } catch {
-      // ignore
-    }
+    if (!autoplayActive) return;
 
     const rawSeconds =
       typeof autoplayIntervalSeconds === 'number' ? autoplayIntervalSeconds : 5;
@@ -292,22 +328,13 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     const intervalMs = Math.max(1, Math.round(seconds)) * 1000;
 
     const id = window.setInterval(() => {
-      setEnterFrom('right');
-      setAnimationKey((k) => k + 1);
-      setIndex((v) => (safeItems.length ? (v + 1) % safeItems.length : 0));
+      goNext();
     }, intervalMs);
 
     return () => {
       window.clearInterval(id);
     };
-  }, [
-    autoplay,
-    autoplayIntervalSeconds,
-    hasError,
-    isEditMode,
-    isLoading,
-    safeItems.length,
-  ]);
+  }, [autoplayIntervalSeconds, autoplayActive, goNext]);
 
   const current = safeItems[index];
 
@@ -320,9 +347,16 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     (allLinkLabel || '').trim() ||
     intl.formatMessage(messages.allLabelFallback);
 
-  const hasMany = safeItems.length > 1;
-  const canPrev = !isLoading && !hasError && hasMany;
-  const canNext = !isLoading && !hasError && hasMany;
+  const autoplayToggleLabel = autoplayConfigured
+    ? intl.formatMessage(
+        isAutoplayPaused ? messages.resumeAutoplay : messages.pauseAutoplay,
+      )
+    : '';
+
+  const slideLabel = intl.formatMessage(messages.slideLabel, {
+    current: safeItems.length ? index + 1 : 0,
+    total: safeItems.length,
+  });
 
   const cardClassName = `vereadores-slider-block__card${
     enterFrom === 'left'
@@ -355,6 +389,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   return (
     <section
       className="vereadores-slider-block__testimonials testimonials"
+      aria-label={intl.formatMessage(messages.carouselLabel)}
       style={
         rowMinHeightPx
           ? ({
@@ -364,39 +399,38 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       }
     >
       <div className="vereadores-slider-block__header">
-        <h3 className="vereadores-slider-block__heading section-heading text-highlight">
+        <h2 className="vereadores-slider-block__heading section-heading text-highlight">
           {intl.formatMessage(messages.heading)}
-        </h3>
+        </h2>
 
         <div className="vereadores-slider-block__controls carousel-controls">
           <button
             type="button"
             className="vereadores-slider-block__arrow vereadores-slider-block__arrow--prev prev"
-            onClick={() => {
-              setEnterFrom('left');
-              setAnimationKey((k) => k + 1);
-              setIndex((v) =>
-                safeItems.length
-                  ? (v - 1 + safeItems.length) % safeItems.length
-                  : 0,
-              );
-            }}
+            onClick={goPrev}
             disabled={!canPrev}
             aria-label={intl.formatMessage(messages.prev)}
           >
             <Icon name={leftSVG} size="24px" />
           </button>
 
+          {autoplayConfigured ? (
+            <button
+              type="button"
+              className="vereadores-slider-block__arrow vereadores-slider-block__arrow--autoplay-toggle"
+              onClick={() => setIsAutoplayPaused((v) => !v)}
+              aria-label={autoplayToggleLabel}
+              aria-pressed={isAutoplayPaused}
+              disabled={!!isLoading || !!hasError || !hasMany}
+            >
+              <Icon name={isAutoplayPaused ? playSVG : pauseSVG} size="24px" />
+            </button>
+          ) : null}
+
           <button
             type="button"
             className="vereadores-slider-block__arrow vereadores-slider-block__arrow--next next"
-            onClick={() => {
-              setEnterFrom('right');
-              setAnimationKey((k) => k + 1);
-              setIndex((v) =>
-                safeItems.length ? (v + 1) % safeItems.length : 0,
-              );
-            }}
+            onClick={goNext}
             disabled={!canNext}
             aria-label={intl.formatMessage(messages.next)}
           >
@@ -409,12 +443,18 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
         <div
           className="vereadores-slider-block__carousel testimonials-carousel"
           aria-roledescription="carousel"
+          aria-label={slideLabel}
         >
           <div
             className="vereadores-slider-block__carousel-inner carousel-inner"
             ref={carouselInnerRef}
           >
-            <div key={animationKey} className={cardClassName}>
+            <div
+              key={animationKey}
+              className={cardClassName}
+              aria-live={autoplayActive ? 'off' : 'polite'}
+              aria-atomic="true"
+            >
               <ConditionalLink
                 condition={!isEditMode && !!itemHref}
                 to={itemHref || ''}
