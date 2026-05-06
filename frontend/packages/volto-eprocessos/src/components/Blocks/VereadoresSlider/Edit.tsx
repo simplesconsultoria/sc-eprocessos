@@ -1,6 +1,6 @@
 import React from 'react';
-import { SidebarPortal } from '@plone/volto/components';
-import { withBlockExtensions } from '@plone/volto/helpers';
+import SidebarPortal from '@plone/volto/components/manage/Sidebar/SidebarPortal';
+import withBlockExtensions from '@plone/volto/helpers/Extensions/withBlockExtensions';
 
 import Data from './Data';
 import View from './View';

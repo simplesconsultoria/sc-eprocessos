@@ -1,10 +1,8 @@
-import {
-  Table,
-  TableHeader,
-  TableBody,
-  Row,
-  Column,
-} from '@simplesconsultoria/volto-eprocessos/components/Tabela';
+import { TableBody } from 'react-aria-components';
+import { Table } from '@plone/components';
+import { TableHeader } from '@plone/components';
+import { Row } from '@plone/components';
+import { Column } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
 import type { ParticipacaoMesa } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';

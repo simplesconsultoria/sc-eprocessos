@@ -13,7 +13,7 @@ type LegislaturasList = {
   items?: Array<{ id: string; atual?: boolean }>;
 };
 
-const withWrapper: Decorator = (Story) => {
+const withWrapper: Decorator = (Story: any) => {
   const themeStyle = {
     '--theme-color': '#ffffff',
     '--theme-foreground-color': '#1b1c1d',

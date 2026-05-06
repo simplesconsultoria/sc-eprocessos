@@ -2,18 +2,16 @@ import { defineMessages, useIntl } from 'react-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 import Icon from '@plone/volto/components/theme/Icon/Icon';
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import downSVG from '@plone/volto/icons/down.svg';
 import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 
 import type { ComissaoPeriodo } from '@simplesconsultoria/volto-eprocessos/types';
-import {
-  Table,
-  TableHeader,
-  TableBody,
-  Row,
-  Column,
-} from '@simplesconsultoria/volto-eprocessos/components/Tabela';
+import { TableBody } from 'react-aria-components';
+import { Table } from '@plone/components';
+import { TableHeader } from '@plone/components';
+import { Row } from '@plone/components';
+import { Column } from '@plone/components';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
 
 const messages = defineMessages({

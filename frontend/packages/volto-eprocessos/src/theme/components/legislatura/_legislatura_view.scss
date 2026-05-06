@@ -1,106 +1,39 @@
 .legislatura-view {
+  color: var(--eprocessos-foreground-color);
   .legislatura-header {
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
     gap: 1rem;
-  }
 
-  .legislatura-meta {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 0.75rem 1rem;
-
-    .badge-current {
-      display: inline-flex;
-      align-items: center;
-      border-radius: 999px;
-      background-color: var(--theme-color, var(--primary-color, #bdc3c7));
-      color: var(--primary-foreground-color, black);
-      font-weight: 600;
-      line-height: 1.2;
-      white-space: nowrap;
+    .documentFirstHeading,
+    .documentDescription {
+      color: var(--eprocessos-foreground-color);
     }
 
-    .legislatura-dates {
-      display: grid;
-      padding: 0.75rem 1rem;
-      border: 1px solid
-        color-mix(
-          in srgb,
-          var(--primary-foreground-color, black) 12%,
-          var(--theme-high-contrast-color, var(--secondary-color, #ecf0f1))
+    .legislatura-meta {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 0.75rem 1rem;
+
+      .badge-current {
+        @include eprocessos-pill-badge();
+      }
+
+      .legislatura-dates {
+        @include eprocessos-meta-definition-list-card(
+          $border-alpha: 15%,
+          $background: var(--eprocessos-secondary-color),
+          $color: var(--eprocessos-secondary-foreground-color),
+          $border-width: 2px
         );
-      border-radius: 16px;
-      margin: 0;
-      background-color: var(
-        --theme-high-contrast-color,
-        var(--secondary-color, #ecf0f1)
-      );
-      column-gap: 1.25rem;
-      grid-template-columns: 1fr auto;
-
-      dt,
-      dd {
-        padding: 0.4rem 0;
-        border-bottom: 1px solid
-          color-mix(
-            in srgb,
-            var(--primary-foreground-color, black) 10%,
-            transparent
-          );
-      }
-
-      dt {
-        margin: 0;
-        font-weight: 600;
-        opacity: 0.85;
-      }
-
-      dd {
-        margin: 0;
-        font-weight: 500;
-        text-align: right;
-      }
-
-      dt:last-of-type,
-      dd:last-of-type {
-        border-bottom: 0;
-      }
-
-      @media (max-width: 576px) {
-        grid-template-columns: 1fr;
-
-        dt,
-        dd {
-          border-bottom: 0;
-        }
-
-        dt {
-          padding-bottom: 0.125rem;
-        }
-
-        dd {
-          padding-top: 0;
-          text-align: left;
-        }
-
-        dd:not(:last-of-type) {
-          padding-bottom: 0.65rem;
-          border-bottom: 1px solid
-            color-mix(
-              in srgb,
-              var(--primary-foreground-color, black) 10%,
-              transparent
-            );
-        }
       }
     }
   }
+
   .legislatura-vereadores {
-    background-color: var(--theme-color, var(--primary-color, #bdc3c7));
     .vereadores-grid {
       display: grid;
       gap: 1rem;
@@ -121,4 +54,39 @@
   }
 }
 
-@include eprocessos-view-responsive-margins('legislatura-view');
+#page-document.view-wrapper.legislatura-view {
+  &.layout {
+    @include layout-container-width();
+    @include adjustMarginsToContainer($layout-container-width);
+  }
+
+  &.default {
+    @include default-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+  }
+
+  &.narrow {
+    @include narrow-container-width();
+    @include adjustMarginsToContainer($narrow-container-width);
+  }
+}
+
+#page-add,
+#page-edit {
+  #page-document.view-wrapper.legislatura-view {
+    &.layout {
+      @include layout-container-width();
+      @include adjustMarginsToEditContainer($layout-container-width);
+    }
+
+    &.default {
+      @include default-container-width();
+      @include adjustMarginsToEditContainer($default-container-width);
+    }
+
+    &.narrow {
+      @include narrow-container-width();
+      @include adjustMarginsToEditContainer($narrow-container-width);
+    }
+  }
+}

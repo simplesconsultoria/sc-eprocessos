@@ -1,4 +1,4 @@
-import { flattenToAppURL } from '@plone/volto/helpers';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import { addSubpathPrefix, isInternalURL } from '@plone/volto/helpers/Url/Url';
 
 const getEnv = (): Record<string, string | undefined> => {

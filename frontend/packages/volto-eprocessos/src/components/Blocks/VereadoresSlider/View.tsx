@@ -1,5 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Api, getFieldURL, withBlockExtensions } from '@plone/volto/helpers';
+import { Container } from '@plone/components';
+import withBlockExtensions from '@plone/volto/helpers/Extensions/withBlockExtensions';
+import Api from '@plone/volto/helpers/Api/Api';
+import { getFieldURL } from '@plone/volto/helpers/Url/Url';
+
 import { defineMessages, useIntl } from 'react-intl';
 
 import type { Vereador } from '@simplesconsultoria/volto-eprocessos/types';
@@ -76,7 +80,7 @@ interface Props {
 const View: React.FC<Props> = ({ data, className, isEditMode, style }) => {
   const intl = useIntl();
   const sourceUrl = useMemo(() => {
-    const urlValue = getFieldURL(data.source);
+    const urlValue = data.source ? getFieldURL(data.source as any) : undefined;
     const url = Array.isArray(urlValue) ? urlValue[0] : urlValue;
     return typeof url === 'string' && url ? url : undefined;
   }, [data.source]);
@@ -120,27 +124,31 @@ const View: React.FC<Props> = ({ data, className, isEditMode, style }) => {
   if (!sourceUrl && !isEditMode) return null;
 
   return (
-    <div
+    <Container
       className={['block', 'vereadores-slider-block', className]
         .filter(Boolean)
         .join(' ')}
       style={style}
     >
-      {!sourceUrl && isEditMode ? (
-        <p>{intl.formatMessage(messages.missingSource)}</p>
-      ) : (
-        <DefaultView
-          items={items}
-          isEditMode={isEditMode ?? false}
-          isLoading={isLoading}
-          hasError={hasError}
-          allLink={data.allLink}
-          allLinkLabel={data.allLinkLabel}
-          autoplay={data.autoplay}
-          autoplayIntervalSeconds={data.autoplayIntervalSeconds}
-        />
-      )}
-    </div>
+      <Container className="default vereadores-slider-block__container">
+        {!sourceUrl && isEditMode ? (
+          <p className="vereadores-slider-block__message">
+            {intl.formatMessage(messages.missingSource)}
+          </p>
+        ) : (
+          <DefaultView
+            items={items}
+            isEditMode={isEditMode ?? false}
+            isLoading={isLoading}
+            hasError={hasError}
+            allLink={data.allLink}
+            allLinkLabel={data.allLinkLabel}
+            autoplay={data.autoplay}
+            autoplayIntervalSeconds={data.autoplayIntervalSeconds}
+          />
+        )}
+      </Container>
+    </Container>
   );
 };
 

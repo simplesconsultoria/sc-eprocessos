@@ -15,7 +15,8 @@
     14%,
     false,
     true,
-    $background: var(--primary-color)
+    $background: var(--eprocessos-color),
+    $color: var(--eprocessos-foreground-color)
   );
 }
 
@@ -27,6 +28,11 @@
 .eprocessos-file-attachment__label {
   overflow-wrap: anywhere;
   word-break: break-word;
+  @include text-color-template(
+    $foreground-color: var(--eprocessos-link-color),
+    $hover: true,
+    $hover-foreground-color: var(--eprocessos-color)
+  );
 }
 
 .eprocessos-file-attachment__meta {
