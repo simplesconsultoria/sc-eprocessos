@@ -4,11 +4,6 @@
   }
 
   .materia-card {
-    .materia-section-title {
-      margin: 1rem 0 0.75rem;
-      @include text-heading-h4();
-    }
-
     &__header {
       display: grid;
       align-items: center;
@@ -22,8 +17,10 @@
     }
 
     &__title {
-      .documentFirstHeading {
+      .documentFirstHeading,
+      .documentDescription {
         margin: 0;
+        color: var(--eprocessos-foreground-color);
       }
     }
 
@@ -43,6 +40,7 @@
     &__ementa {
       margin: 0.85rem 0 0.35rem;
       @include body-text-bold();
+      color: var(--eprocessos-foreground-color);
       opacity: 0.9;
     }
 
@@ -50,6 +48,7 @@
       display: flex;
       flex-direction: column;
       margin-top: 0.65rem;
+      color: var(--eprocessos-foreground-color);
       gap: 0.35rem;
 
       .materia-info-line {
@@ -59,6 +58,11 @@
       a {
         overflow-wrap: anywhere;
         word-break: break-word;
+        @include text-color-template(
+          $foreground-color: var(--eprocessos-link-color),
+          $hover: true,
+          $hover-foreground-color: var(--eprocessos-color)
+        );
       }
     }
 
@@ -70,17 +74,15 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 0.75rem;
+        color: var(--eprocessos-foreground-color);
         gap: 0.75rem;
 
         .materia-badge {
-          --materia-badge-accent: var(
-            --theme-color,
-            var(--primary-color, var(--quanta-cobalt))
-          );
+          --materia-badge-accent: var(--eprocessos-color, var(--quanta-cobalt));
           --materia-badge-bg: color-mix(
             in srgb,
             var(--materia-badge-accent) 18%,
-            var(--theme-high-contrast-color, white)
+            var(--eprocessos-secondary-color)
           );
           --materia-badge-border: color-mix(
             in srgb,
@@ -94,27 +96,25 @@
           border-radius: 999px;
           background-color: var(--materia-badge-bg);
           box-shadow: inset 0 0 0 1px var(--materia-badge-border);
+          color: var(--eprocessos-secondary-foreground-color);
           font-size: 0.9em;
           font-weight: 700;
           line-height: 1.2;
 
           &--primary {
-            --materia-badge-accent: var(
-              --quanta-cobalt,
-              var(--theme-color, var(--primary-color))
-            );
+            --materia-badge-accent: var(--quanta-cobalt, gray);
           }
 
           &--success {
-            --materia-badge-accent: var(--quanta-neon, var(--theme-color));
+            --materia-badge-accent: var(--quanta-neon, green);
           }
 
           &--warning {
-            --materia-badge-accent: var(--quanta-lemmon, var(--theme-color));
+            --materia-badge-accent: var(--quanta-lemmon, darkyellow);
           }
 
           &--danger {
-            --materia-badge-accent: var(--quanta-candy, var(--theme-color));
+            --materia-badge-accent: var(--quanta-candy, darkred);
           }
         }
       }
@@ -177,6 +177,8 @@
   }
 
   .materia-processing {
+    color: var(--eprocessos-foreground-color);
+
     .processing-list {
       display: flex;
       flex-direction: column;
@@ -204,11 +206,11 @@
         width: var(--processing-dot-size);
         height: var(--processing-dot-size);
         border-radius: 999px;
-        background-color: var(--primary-color, var(--quanta-cobalt));
+        background-color: var(--eprocessos-accent-color);
         box-shadow: 0 0 0 2px
           color-mix(
             in srgb,
-            var(--primary-foreground-color, black) 10%,
+            var(---eprocessos-foreground-color) 10%,
             transparent
           );
         content: '';
@@ -225,14 +227,14 @@
         width: 2px;
         background-color: color-mix(
           in srgb,
-          var(--primary-foreground-color, black) 12%,
+          var(--eprocessos-foreground-color) 12%,
           transparent
         );
         content: '';
       }
 
       &:first-child::before {
-        background-color: var(--theme-accent-color, var(--accent-color, blue));
+        background-color: var(--eprocessos-accent-color);
       }
 
       &:first-child::after {
@@ -249,7 +251,7 @@
         box-shadow: 0 0 0 2px
           color-mix(
             in srgb,
-            var(--primary-foreground-color, black) 10%,
+            var(--eprocessos-foreground-color) 10%,
             transparent
           );
       }

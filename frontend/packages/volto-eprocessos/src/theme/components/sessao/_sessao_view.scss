@@ -4,6 +4,10 @@
     flex-direction: column;
     margin-bottom: 1.5rem;
     gap: 0.65rem;
+    .documentFirstHeading,
+    .documentDescription {
+      color: var(--eprocessos-foreground-color);
+    }
   }
 
   .sessao-meta {
@@ -23,7 +27,14 @@
   }
 
   .sessao-presenca-block {
-    @include eprocessos-surface(16px, 12%, false, true);
+    @include eprocessos-surface(
+      16px,
+      12%,
+      false,
+      true,
+      var(--eprocessos-secondary-color),
+      var(--eprocessos-secondary-foreground-color)
+    );
     padding: 0.85rem 1rem;
     margin-bottom: 1rem;
 
@@ -60,7 +71,14 @@
   }
 
   .sessao-votacao-item {
-    @include eprocessos-surface(16px, 12%, false, true);
+    @include eprocessos-surface(
+      16px,
+      12%,
+      false,
+      true,
+      var(--eprocessos-secondary-color),
+      var(--eprocessos-secondary-foreground-color)
+    );
     padding: 0.85rem 1rem;
     margin-bottom: 1rem;
 

@@ -1,13 +1,6 @@
-// Shared mixins for this theme.
-// Note: This file is imported by `_main.scss` so mixins are available to all component styles.
-
 @mixin eprocessos-border($alpha: 14%) {
   border: 1px solid
-    color-mix(
-      in srgb,
-      var(--primary-foreground-color, black) $alpha,
-      transparent
-    );
+    color-mix(in srgb, var(--eprocessos-foreground-color) $alpha, transparent);
 }
 
 @mixin eprocessos-surface(
@@ -15,12 +8,8 @@
   $border-alpha: 14%,
   $with-shadow: true,
   $with-border: true,
-  $background: var(--theme-high-contrast-color, var(--secondary-color, #bdc3c7)),
-  $color:
-    var(
-      --theme-top-high-contrast-foreground-color,
-      var(--secondary-foreground-color, black)
-    ),
+  $background: var(--eprocessos-secondary-color),
+  $color: var(--eprocessos-secondary-foreground-color),
   $hover: false
 ) {
   @if $with-border {
@@ -31,10 +20,10 @@
   color: $color;
   @if $hover {
     &:hover {
-      background-color: color-mix(in srgb, $background 80%, black 20%);
+      background-color: color-mix(in srgb, $background 80%, $color 20%);
     }
     &:active {
-      background-color: color-mix(in srgb, $background 60%, black 40%);
+      background-color: color-mix(in srgb, $background 60%, $color 40%);
     }
   }
 
@@ -56,7 +45,7 @@
   padding: $padding;
   @include eprocessos-border($border-alpha);
   border-radius: 50%;
-  background-color: var(--theme-color, var(--primary-color, #bdc3c7));
+  background-color: var(--eprocessos-accent-color);
   object-fit: cover;
 }
 
@@ -72,24 +61,35 @@
   cursor: pointer;
 }
 
-@mixin eprocessos-action-button($radius: 10px) {
+@mixin eprocessos-action-button(
+  $radius: 10px,
+  $background: var(--eprocessos-secondary-color),
+  $color: var(--eprocessos-secondary-foreground-color)
+) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0.45rem 0.75rem;
   border-radius: $radius;
-  @include eprocessos-surface($hover: true, $with-border: false);
+  @include eprocessos-surface(
+    $hover: true,
+    $with-border: false,
+    $background: $background,
+    $color: $color
+  );
   @include body-text-bold();
   text-decoration: none;
   white-space: nowrap;
 }
 
 @mixin eprocessos-pill-badge(
-  $background: var(--theme-color, var(--primary-color, #bdc3c7)),
-  $color: var(--primary-foreground-color, black)
+  $background: var(--eprocessos-accent-color),
+  $color: var(--eprocessos-accent-foreground-color),
+  $padding: 0.25rem 0.75rem
 ) {
   display: inline-flex;
   align-items: center;
+  padding: $padding;
   border-radius: 999px;
   background-color: $background;
   color: $color;
@@ -101,11 +101,22 @@
 @mixin eprocessos-meta-definition-list-card(
   $radius: 16px,
   $border-alpha: 12%,
-  $column-gap: 1.25rem
+  $column-gap: 1.25rem,
+  $background: var(--eprocessos-secondary-color),
+  $color: var(--eprocessos-secondary-foreground-color),
+  $border-width: 1px
 ) {
   display: grid;
-  padding: 0.75rem 1rem;
-  @include eprocessos-surface($radius, $border-alpha, false, true);
+  @include eprocessos-surface(
+    $radius,
+    $border-alpha,
+    false,
+    true,
+    $background,
+    $color
+  );
+  padding: 1rem;
+  border-width: $border-width;
   margin: 0;
   column-gap: $column-gap;
   grid-template-columns: 1fr auto;
@@ -113,24 +124,28 @@
   dt,
   dd {
     padding: 0.4rem 0;
-    border-bottom: 1px solid
-      color-mix(
-        in srgb,
-        var(--primary-foreground-color, black) 10%,
-        transparent
-      );
+    border-bottom: 1px solid color-mix(in srgb, $color 10%, transparent);
   }
 
   dt {
     margin: 0;
+    color: $color;
     font-weight: 600;
     opacity: 0.85;
   }
 
   dd {
     margin: 0;
+    color: $color;
     font-weight: 500;
     text-align: right;
+    a {
+      @include text-color-template(
+        $foreground-color: $color,
+        $hover: true,
+        $hover-foreground-color: var(--eprocessos-link-color)
+      );
+    }
   }
 
   dt:last-of-type,
@@ -148,6 +163,34 @@
 
     dd {
       text-align: left;
+    }
+  }
+}
+
+@mixin text-color-template(
+  $background-color: transparent,
+  $foreground-color: var(--primary-foreground-color, black),
+  $hover: false,
+  $hover-foreground-color: null
+) {
+  color: $foreground-color;
+  @if $background-color != transparent {
+    background-color: $background-color;
+  }
+  @if $hover {
+    &:hover {
+      @if $background-color != transparent {
+        background-color: color-mix(
+          in srgb,
+          $background-color 60%,
+          $foreground-color 40%
+        );
+      }
+      color: color-mix(
+        in srgb,
+        $foreground-color 60%,
+        $hover-foreground-color 40%
+      );
     }
   }
 }

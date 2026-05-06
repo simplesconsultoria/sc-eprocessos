@@ -1,10 +1,73 @@
 :root {
+  --eprocessos-color: var(--theme-color, var(--primary-color, white));
+  --eprocessos-foreground-color: var(
+    --theme-foreground-color,
+    var(--primary-foreground-color, black)
+  );
+
+  --eprocessos-secondary-color: var(
+    --theme-high-contrast-color,
+    var(--secondary-color, lightgray)
+  );
+  --eprocessos-secondary-foreground-color: var(
+    --theme-top-foreground-color,
+    var(--secondary-foreground-color, black)
+  );
+
+  --eprocessos-accent-color: var(
+    --theme-accent-color,
+    var(--accent-color, var(--primary-color, white))
+  );
+  --eprocessos-accent-foreground-color: var(
+    --theme-accent-foreground-color,
+    var(--accent-foreground-color, var(--primary-foreground-color, black))
+  );
+
+  --eprocessos-link-color: var(
+    --theme-link-color,
+    var(--link-foreground-color, var(--eprocessos-foreground-color))
+  );
+
+  /*
+   * Custom content views apply @container rules on #page-document itself.
+   * Since an element cannot query itself, we define #view as the ancestor
+   * query container so adjustMarginsToContainer() rules can resolve.
+   */
+  #view {
+    container-type: inline-size;
+  }
+
   .react-aria-Tabs {
+    color: var(--eprocessos-foreground-color);
     overflow-x: scroll;
 
     .react-aria-TabList {
+      border-color: color-mix(
+        in srgb,
+        var(--eprocessos-foreground-color) 50%,
+        transparent 50%
+      );
+      .react-aria-Tab {
+        color: var(--eprocessos-foreground-color);
+        &[data-selected] {
+          border-color: var(--eprocessos-foreground-color);
+        }
+      }
       @media (max-width: 600px) {
         width: max-content;
+      }
+    }
+  }
+  .react-aria-TableBody {
+    tr {
+      th {
+        a {
+          @include text-color-template(
+            $foreground-color: var(--eprocessos-link-color),
+            $hover: true,
+            $hover-foreground-color: var(--eprocessos-color)
+          );
+        }
       }
     }
   }

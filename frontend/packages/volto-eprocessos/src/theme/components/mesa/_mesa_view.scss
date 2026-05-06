@@ -1,4 +1,9 @@
 .mesa-view {
+  color: var(--eprocessos-foreground-color);
+  .documentFirstHeading,
+  .documentDescription {
+    color: var(--eprocessos-foreground-color);
+  }
   .mesa-header {
     display: flex;
     flex-direction: column;
@@ -18,7 +23,10 @@
     }
 
     dl {
-      @include eprocessos-meta-definition-list-card();
+      @include eprocessos-meta-definition-list-card(
+        $background: var(--eprocessos-secondary-color),
+        $color: var(--eprocessos-secondary-foreground-color)
+      );
     }
   }
 

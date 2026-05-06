@@ -1,4 +1,6 @@
 .norma-view {
+  color: var(--eprocessos-foreground-color);
+
   .norma-header {
     display: flex;
     flex-direction: column;
@@ -58,6 +60,13 @@
 
       p:first-child {
         margin-top: 0;
+      }
+      a {
+        @include text-color-template(
+          $foreground-color: var(--eprocessos-link-color),
+          $hover: true,
+          $hover-foreground-color: var(--eprocessos-color)
+        );
       }
     }
   }
