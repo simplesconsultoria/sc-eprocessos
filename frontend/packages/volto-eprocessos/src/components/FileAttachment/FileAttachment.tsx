@@ -1,8 +1,6 @@
 import { defineMessages, useIntl } from 'react-intl';
-
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import attachmentSVG from '@plone/volto/icons/attachment.svg';
-
 import type { FileAttachment as FileAttachmentType } from '@simplesconsultoria/volto-eprocessos/types';
 import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 
@@ -16,6 +14,15 @@ const messages = defineMessages({
     id: 'File attachment download',
     defaultMessage: 'Download',
   },
+  opensInNewWindow: {
+    id: 'Opens in a new window',
+    defaultMessage: 'abre em uma nova janela',
+  },
+  pdfWarning: {
+    id: 'PDF document warning',
+    defaultMessage:
+      'Este documento PDF pode ter limitações de acessibilidade e requer um programa externo para visualização.',
+  },
 });
 
 const resolveDownloadUrl = (attachment?: FileAttachmentType | null): string => {
@@ -27,11 +34,19 @@ const FileAttachment = ({ item, className }: FileAttachmentProps) => {
   const intl = useIntl();
 
   const href = resolveDownloadUrl(item);
-  const label = item?.filename || href || intl.formatMessage(messages.download);
+  const isPDF =
+    item?.['content-type'] === 'application/pdf' ||
+    href.toLowerCase().endsWith('.pdf');
+
+  const label = item?.filename || intl.formatMessage(messages.download);
+  const pdfSuffix = isPDF ? ' (PDF)' : '';
 
   const classes = ['eprocessos-file-attachment', className]
     .filter(Boolean)
     .join(' ');
+
+  // Constrói um aria-label completo para tecnologias assistivas
+  const ariaLabel = `${intl.formatMessage(messages.download)}: ${label}${pdfSuffix}. ${intl.formatMessage(messages.opensInNewWindow)}.`;
 
   return (
     <div className={classes}>
@@ -42,14 +57,18 @@ const FileAttachment = ({ item, className }: FileAttachmentProps) => {
         ariaHidden={true}
       />
       {href ? (
-        <a
-          className="eprocessos-file-attachment__link"
-          href={href}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {label}
-        </a>
+        <>
+          <a
+            className="eprocessos-file-attachment__link"
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={ariaLabel}
+            title={isPDF ? intl.formatMessage(messages.pdfWarning) : undefined}
+          >
+            {label + pdfSuffix}
+          </a>
+        </>
       ) : (
         <span className="eprocessos-file-attachment__label">{label}</span>
       )}

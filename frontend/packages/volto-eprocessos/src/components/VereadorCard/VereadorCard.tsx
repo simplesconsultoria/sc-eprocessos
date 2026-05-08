@@ -44,7 +44,7 @@ const VereadorCard = ({
         />
       </div>
       <div className="vereador-card-body">
-        <h4 className="vereador-card-title">{name}</h4>
+        <h3 className="vereador-card-title">{name}</h3>
         {party ? <p className="vereador-card-party">{party}</p> : null}
         {children}
       </div>
