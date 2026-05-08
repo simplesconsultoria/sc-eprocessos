@@ -328,10 +328,6 @@ const MateriaView = ({ content }: MateriaViewProps) => {
   );
   const processingForDisplay = [...processingChronological].reverse();
 
-  const lastProcessing =
-    processingChronological.find((p) => p.last) ||
-    processingChronological[processingChronological.length - 1];
-
   const protocol = extractProtocol(processingChronological);
   const digitalUrl = content.remoteUrl;
 
@@ -448,31 +444,6 @@ const MateriaView = ({ content }: MateriaViewProps) => {
                   : intl.formatMessage(messages.statusClosed)}
               </span>
             </div>
-
-            {/* {lastProcessing ? (
-              <div className="materia-status-card">
-                <p className="materia-status-line">
-                  <strong>{intl.formatMessage(messages.lastLocation)}:</strong>{' '}
-                  {lastProcessing.date ? (
-                    <span>{lastProcessing.date}</span>
-                  ) : null}
-                  {lastProcessing.destinationUnit ? (
-                    <span> — {lastProcessing.destinationUnit}</span>
-                  ) : null}
-                </p>
-                <div className="materia-status-files">
-                  {lastProcessing.title ? (
-                    <div className="materia-status-step">
-                      <strong>{lastProcessing.title}</strong>
-                    </div>
-                  ) : null}
-                  {Array.isArray(lastProcessing.file) &&
-                  lastProcessing.file.length ? (
-                    <FileAttachmentList items={lastProcessing.file} />
-                  ) : null}
-                </div>
-              </div>
-            ) : null} */}
           </div>
         ) : null}
 
