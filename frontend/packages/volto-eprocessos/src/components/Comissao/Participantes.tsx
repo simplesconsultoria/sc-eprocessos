@@ -6,6 +6,7 @@ import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
 import { Column } from '@plone/components';
+import { Cell } from 'react-aria-components';
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
 import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import Avatar from '@simplesconsultoria/volto-eprocessos/components/Avatar/Avatar';
@@ -109,25 +110,40 @@ const Participantes = ({ items }: ParticipantesProps) => {
               key={`${(item as any).id}-${idx}`}
               className="comissao-participante"
             >
-              <Column className="foto">
+              {/* MUDANÇA AQUI: De Column para Cell */}
+              <Cell
+                className="foto"
+                textValue={intl.formatMessage(messages.photo)}
+              >
                 <Avatar
                   src={imgSrc}
                   alt={(item as any).title || ''}
                   size="3rem"
                 />
-              </Column>
-              <Column className="nome">
+              </Cell>
+
+              <Cell className="nome" textValue={(item as any).title || ''}>
                 <Link
                   item={href ?? null}
                   title={(item as any).title}
                   defaultValue={(item as any).title}
                 />
-              </Column>
-              <Column className="cargo">{(item as any).cargo}</Column>
-              <Column className="mandato">
+              </Cell>
+
+              <Cell className="cargo" textValue={(item as any).cargo || ''}>
+                {(item as any).cargo}
+              </Cell>
+
+              <Cell
+                className="mandato"
+                textValue={(item as any).mandato || '-'}
+              >
                 {(item as any).mandato || '-'}
-              </Column>
-              <Column className="partido">{party || '-'}</Column>
+              </Cell>
+
+              <Cell className="partido" textValue={party || '-'}>
+                {party || '-'}
+              </Cell>
             </Row>
           );
         })}

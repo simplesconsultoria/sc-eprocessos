@@ -1,4 +1,4 @@
-import { TableBody } from 'react-aria-components';
+import { TableBody, Cell } from 'react-aria-components';
 import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
@@ -42,16 +42,19 @@ interface ParticipacaoProps {
 const Participacao = ({ item }: ParticipacaoProps) => {
   return (
     <Row className="participacao-comissao">
-      <Column className="comissao">
+      {/* MUDANÇA: `<Column>` alterado para `<Cell>` com a prop `textValue` */}
+      <Cell className="comissao" textValue={item.comissao || 'Comissão'}>
         <Link item={item} title={item.comissao} />
-      </Column>
-      <Column className="titulo">{item.title}</Column>
-      <Column>
+      </Cell>
+      <Cell className="titulo" textValue={item.title || 'Título'}>
+        {item.title}
+      </Cell>
+      <Cell textValue={item.start || 'Início'}>
         <DataCurta date={item.start} />
-      </Column>
-      <Column>
+      </Cell>
+      <Cell textValue={item.end || 'Fim'}>
         <DataCurta date={item.end} />
-      </Column>
+      </Cell>
     </Row>
   );
 };
@@ -69,6 +72,7 @@ const Comissoes = ({ items }: ComissoesProps) => {
     >
       <TableHeader>
         <Row>
+          {/* Aqui continua sendo `<Column>`, pois é o cabeçalho */}
           <Column isRowHeader>{intl.formatMessage(messages.committee)}</Column>
           <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
           <Column isRowHeader>{intl.formatMessage(messages.start)}</Column>

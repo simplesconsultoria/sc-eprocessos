@@ -242,7 +242,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       const nameText = item?.fullname || item?.title || '';
       const partyText = item?.description || '';
 
-      const nameEl = document.createElement('p');
+      const nameEl = document.createElement('h2');
       nameEl.className = 'vereadores-slider-block__name name';
       nameEl.textContent = nameText;
       wrap.appendChild(nameEl);
@@ -462,7 +462,9 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
               >
                 <div className="vereadores-slider-block__row row" ref={rowRef}>
                   <div className="vereadores-slider-block__people people">
-                    <p className="vereadores-slider-block__name name">{name}</p>
+                    <h2 className="vereadores-slider-block__name name">
+                      {name}
+                    </h2>
                     {party ? (
                       <p className="vereadores-slider-block__party title">
                         {party}

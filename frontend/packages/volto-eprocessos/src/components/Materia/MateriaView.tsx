@@ -449,7 +449,7 @@ const MateriaView = ({ content }: MateriaViewProps) => {
               </span>
             </div>
 
-            {lastProcessing ? (
+            {/* {lastProcessing ? (
               <div className="materia-status-card">
                 <p className="materia-status-line">
                   <strong>{intl.formatMessage(messages.lastLocation)}:</strong>{' '}
@@ -472,7 +472,7 @@ const MateriaView = ({ content }: MateriaViewProps) => {
                   ) : null}
                 </div>
               </div>
-            ) : null}
+            ) : null} */}
           </div>
         ) : null}
 
