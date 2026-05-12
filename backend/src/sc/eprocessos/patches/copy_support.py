@@ -40,10 +40,10 @@ def patch__verifyObjectPaste():
     _ORIGINAL_OFS_VERIFY = CopyContainer._verifyObjectPaste
     _ORIGINAL_DX_VERIFY = PasteBehaviourMixin._verifyObjectPaste
 
-    def _ofs_verify_object_paste_singleton_aware(self, object, validate_src=1):
-        if _is_existing_singleton(object):
+    def _ofs_verify_object_paste_singleton_aware(self, obj, validate_src=1):
+        if _is_existing_singleton(obj):
             return
-        return _ORIGINAL_OFS_VERIFY(self, object, validate_src)
+        return _ORIGINAL_OFS_VERIFY(self, obj, validate_src)
 
     def _dx_verify_object_paste_singleton_aware(self, obj, validate_src=True):
         if _is_existing_singleton(obj):

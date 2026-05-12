@@ -112,10 +112,9 @@ class TestSingletonAllowsMoveAndRename:
             id=f"test-{portal_type}",
             title=f"Test {portal_type}",
         )
-        with api.env.adopt_roles(["Manager"]):
-            with pytest.raises(BadRequest):
-                api.content.copy(
-                    source=self.portal[f"test-{portal_type}"],
-                    target=self.portal,
-                    safe_id=True,
-                )
+        with api.env.adopt_roles(["Manager"]), pytest.raises(BadRequest):
+            api.content.copy(
+                source=self.portal[f"test-{portal_type}"],
+                target=self.portal,
+                safe_id=True,
+            )
