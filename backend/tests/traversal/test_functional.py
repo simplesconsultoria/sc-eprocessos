@@ -72,14 +72,16 @@ def content_factory() -> ContentFactory:
 def vereadores_facade(
     portal_functional: PloneSite, content_factory: ContentFactory
 ) -> EProcessosFacade:
-    return content_factory(portal_functional, "Vereadores", title="Vereadores")
+    return content_factory(
+        portal_functional, "Vereadores", id="vereadores", title="Vereadores"
+    )
 
 
 @pytest.fixture()
 def normas_facade(
     portal_functional: PloneSite, content_factory: ContentFactory
 ) -> EProcessosFacade:
-    return content_factory(portal_functional, "Normas", title="Normas")
+    return content_factory(portal_functional, "Normas", id="normas", title="Normas")
 
 
 class TestFacadeSerialization:

@@ -58,7 +58,9 @@ class TestContentType:
     @pytest.fixture(autouse=True)
     def _setup(self, portal, content_factory):
         self.portal = portal
-        self.content = content_factory(portal, PORTAL_TYPE, title="Legislaturas")
+        self.content = content_factory(
+            portal, PORTAL_TYPE, id="legislaturas", title="Legislaturas"
+        )
 
     def test_create(self):
         """Content is created with the correct portal_type."""

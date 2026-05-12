@@ -18,3 +18,13 @@ logger = logging.getLogger(PACKAGE_NAME)
 # Operators can bump these back to DEBUG via Zope's logging config if needed.
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
+
+
+def _apply_patches() -> None:
+    """Apply monkey-patches at package import time (i.e. Zope startup)."""
+    from .patches import apply_patches
+
+    apply_patches()
+
+
+_apply_patches()

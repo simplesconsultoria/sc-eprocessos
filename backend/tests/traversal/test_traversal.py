@@ -59,7 +59,7 @@ class TestEProcessosFacadeTraverser:
 
     def test_no_item_class_raises_keyerror(self, portal, content_factory, http_request):
         """A facade with no item_class raises KeyError on traversal."""
-        facade = content_factory(portal, "Vereadores", title="Test")
+        facade = content_factory(portal, "Vereadores", id="test", title="Test")
         facade.item_class = None
         traverser = EProcessosFacadeTraverser(facade, http_request)
         with pytest.raises(KeyError):

@@ -59,7 +59,7 @@ class TestContentType:
     def _setup(self, portal, content_factory):
         self.portal = portal
         self.content = content_factory(
-            portal, PORTAL_TYPE, title="Matérias Legislativas"
+            portal, PORTAL_TYPE, id="materias", title="Matérias Legislativas"
         )
 
     def test_create(self):
