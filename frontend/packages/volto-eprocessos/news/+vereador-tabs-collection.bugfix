@@ -1,0 +1,1 @@
+Fixed the Vereador `Detalhes` component to wrap dynamic tab panels in `<TabPanels>`, restoring rendering on react-aria-components 1.17+. @ericof
