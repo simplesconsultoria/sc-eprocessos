@@ -1,5 +1,7 @@
 packages:
-  # all packages in direct subdirs of packages/
-  - 'core/packages/*'
-  - 'packages/*'
-  - 'packages/**/packages/*'
+  - core/packages/*
+  - packages/*
+  - packages/**/packages/*
+
+catalog:
+  react-aria-components: ^1.17.0
