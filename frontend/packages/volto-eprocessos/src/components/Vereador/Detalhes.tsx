@@ -1,5 +1,5 @@
 import { Container, Tabs } from '@plone/components';
-import { Tab, TabList, TabPanel } from 'react-aria-components';
+import { Tab, TabList, TabPanel, TabPanels } from 'react-aria-components';
 import type { ReactNode } from 'react';
 
 interface DetalhesPanel {
@@ -16,20 +16,12 @@ const Detalhes = ({ items }: DetalhesProps) => {
   return (
     <Container className="vereador-panels" width={'layout'}>
       <Tabs>
-        <TabList aria-label="Detalhes do Vereador">
-          {items &&
-            items.map((item) => (
-              <Tab key={item.id} id={item.id}>
-                {item.title}
-              </Tab>
-            ))}
+        <TabList aria-label="Detalhes do Vereador" items={items}>
+          {(item) => <Tab id={item.id}>{item.title}</Tab>}
         </TabList>
-        {items &&
-          items.map((item) => (
-            <TabPanel key={item.id} id={item.id}>
-              {item.content}
-            </TabPanel>
-          ))}
+        <TabPanels items={items}>
+          {(item) => <TabPanel id={item.id}>{item.content}</TabPanel>}
+        </TabPanels>
       </Tabs>
     </Container>
   );
