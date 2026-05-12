@@ -11,7 +11,7 @@ interface SumarioProps {
 const Sumario = ({ content }: SumarioProps) => {
   const { title, image } = content;
   const img_src = image && image.length > 0 ? image[0].download : null;
-
+  const fotoAlt = `Foto de ${title}`;
   return (
     <Container width={'default'} className="sumario">
       <h1 className="documentFirstHeading">{title}</h1>
@@ -20,6 +20,7 @@ const Sumario = ({ content }: SumarioProps) => {
           {img_src && (
             <Image
               src={`${content['@id']}/${img_src}`}
+              alt={fotoAlt}
               className={'portrait'}
             />
           )}
