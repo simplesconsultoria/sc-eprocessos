@@ -1,4 +1,4 @@
-import { TableBody } from 'react-aria-components';
+import { TableBody, Cell } from 'react-aria-components';
 import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
@@ -41,15 +41,20 @@ interface MandatoProps {
 const Mandato = ({ item }: MandatoProps) => {
   return (
     <Row className="mandato">
-      <Column className="mandato">{item.id}</Column>
-      <Column>
+      <Cell
+        className="legislatura"
+        textValue={item.legislatura || item.id || ''}
+      >
+        {item.legislatura || item.id}
+      </Cell>
+      <Cell textValue={item.start || '-'}>
         <DataCurta date={item.start} />
-      </Column>
-      <Column>
+      </Cell>
+      <Cell textValue={item.end || '-'}>
         <DataCurta date={item.end} />
-      </Column>
-      <Column>{item.natureza}</Column>
-      <Column>{item.votos}</Column>
+      </Cell>
+      <Cell textValue={item.natureza || '-'}>{item.natureza || '-'}</Cell>
+      <Cell textValue={String(item.votos || '-')}>{item.votos || '-'}</Cell>
     </Row>
   );
 };

@@ -60,6 +60,7 @@
   }
   .react-aria-TableBody {
     tr {
+      td,
       th {
         a {
           @include text-color-template(

@@ -50,6 +50,47 @@
       }
     }
   }
+  table {
+    width: 100%;
+    margin-bottom: $spacing-large;
+    border-collapse: collapse;
+
+    thead {
+      tr {
+        border-bottom: 2px solid var(--eprocessos-foreground-color);
+
+        th {
+          padding: 0.75rem 0.5rem;
+          color: var(--eprocessos-foreground-color);
+          font-weight: 600;
+          text-align: left;
+        }
+      }
+    }
+    tr {
+      border-bottom: 1px solid
+        color-mix(in srgb, var(--eprocessos-foreground-color) 15%, transparent);
+    }
+
+    tbody {
+      td {
+        padding: 0.75rem 0.5rem;
+        color: var(--eprocessos-foreground-color);
+      }
+
+      tr {
+        background-color: var(--eprocessos-color);
+        transition: background-color 0.2s ease;
+        &:nth-child(even) {
+          background-color: color-mix(
+            in srgb,
+            var(--eprocessos-color) 90%,
+            var(--eprocessos-foreground-color) 10%
+          );
+        }
+      }
+    }
+  }
   .vereador-panels {
     table.full {
       width: 100%;
