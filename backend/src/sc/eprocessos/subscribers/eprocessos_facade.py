@@ -1,12 +1,17 @@
 """Singleton subscribers for EProcessosFacade content types."""
 
+from OFS.event import ObjectWillBeAddedEvent
 from plone import api
+from plone.api.exc import CannotGetPortalError
 from sc.eprocessos import logger
+from sc.eprocessos.content.base import EProcessosFacade
 from sc.eprocessos.permissions import PERMISSION_MAP
 from zExceptions import BadRequest
+from zope.lifecycleevent import ObjectAddedEvent
+from zope.lifecycleevent import ObjectRemovedEvent
 
 
-def prevent_duplicate_creation(obj, _event):
+def prevent_duplicate_creation(obj: EProcessosFacade, _event: ObjectWillBeAddedEvent):
     """Block adding a second singleton instance.
 
     Defense-in-depth for the copy+paste path: ``_verifyObjectPaste`` is
@@ -31,7 +36,7 @@ def prevent_duplicate_creation(obj, _event):
     )
 
 
-def enforce_singleton(obj, _event):
+def enforce_singleton(obj: EProcessosFacade, _event: ObjectAddedEvent):
     """Strip the facade's add permission from the portal once an instance exists.
 
     Fires on ``IObjectAddedEvent``. Removing the permission makes the type
@@ -53,7 +58,7 @@ def enforce_singleton(obj, _event):
     )
 
 
-def restore_add_permission(obj, _event):
+def restore_add_permission(obj: EProcessosFacade, _event: ObjectRemovedEvent):
     """Restore the facade's add permission after the singleton is deleted.
 
     Fires on ``IObjectRemovedEvent``. Re-grants the permission to
@@ -63,7 +68,18 @@ def restore_add_permission(obj, _event):
     permission = PERMISSION_MAP.get(obj.portal_type)
     if not permission:
         return
-    portal = api.portal.get()
+    try:
+        portal = api.portal.get()
+    except CannotGetPortalError:
+        # This happens when the singleton is removed as part of site deletion.
+        # In that case we don't care about restoring the permission, and the portal
+        # won't be around to complain about it, so just log and exit.
+        logger.warning(
+            "Could not restore '%s' permission after removing %s: portal not found",
+            permission,
+            obj.portal_type,
+        )
+        return
     portal.manage_permission(
         permission,
         roles=["Manager", "Site Administrator"],
