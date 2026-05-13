@@ -7,7 +7,7 @@ import downSVG from '@plone/volto/icons/down.svg';
 import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 
 import type { ComissaoPeriodo } from '@simplesconsultoria/volto-eprocessos/types';
-import { TableBody } from 'react-aria-components';
+import { TableBody, Cell } from 'react-aria-components';
 import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
@@ -231,7 +231,7 @@ const Composicao = ({
           <div className="comissao-composicao-menu-body">
             {sorted.map((item, idx) => {
               const id = item?.id;
-              const href = id ? `/vereadores/${id}` : undefined;
+              const href = id ? `/vereadores/vereadores/${id}` : undefined;
               const name = getParticipanteLabel(item) || '-';
               const party = getPartyLabel(item);
               const cargo = getParticipanteCargo(item);
@@ -293,35 +293,35 @@ const Periodos = ({ periods }: PeriodosProps) => {
       className={'full comissao-periodos'}
     >
       <TableHeader>
-        <Row>
-          <Column isRowHeader className={'id'}>
-            {intl.formatMessage(messages.idPeriodo)}
-          </Column>
-          <Column className={'start'}>
-            {intl.formatMessage(messages.start)}
-          </Column>
-          <Column className={'end'}>{intl.formatMessage(messages.end)}</Column>
-          <Column className={'composition'}>
-            {intl.formatMessage(messages.composition)}
-          </Column>
-        </Row>
+        <Column isRowHeader className={'id'}>
+          {intl.formatMessage(messages.idPeriodo)}
+        </Column>
+        <Column isRowHeader className={'start'}>
+          {intl.formatMessage(messages.start)}
+        </Column>
+        <Column isRowHeader className={'end'}>
+          {intl.formatMessage(messages.end)}
+        </Column>
+        <Column isRowHeader className={'composition'}>
+          {intl.formatMessage(messages.composition)}
+        </Column>
       </TableHeader>
       <TableBody>
         {sorted.map((p, idx) => (
           <Row key={(p as any).id ?? idx} className="comissao-periodo">
-            <Column className="id">{(p as any).id ?? '-'}</Column>
-            <Column>
+            <Cell className="id">{(p as any).id ?? '-'}</Cell>
+            <Cell>
               <DataCurta date={p.start} defaultValue="-" />
-            </Column>
-            <Column>
+            </Cell>
+            <Cell>
               <DataCurta date={p.end} defaultValue="-" />
-            </Column>
-            <Column className="composicao">
+            </Cell>
+            <Cell className="composicao">
               <Composicao
                 items={(p as any).items}
                 periodKey={String((p as any).id ?? idx)}
               />
-            </Column>
+            </Cell>
           </Row>
         ))}
       </TableBody>

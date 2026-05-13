@@ -71,13 +71,10 @@ const Comissoes = ({ items }: ComissoesProps) => {
       className={'full comissoes'}
     >
       <TableHeader>
-        <Row>
-          {/* Aqui continua sendo `<Column>`, pois é o cabeçalho */}
-          <Column isRowHeader>{intl.formatMessage(messages.committee)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.start)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.end)}</Column>
-        </Row>
+        <Column isRowHeader>{intl.formatMessage(messages.committee)}</Column>
+        <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
+        <Column isRowHeader>{intl.formatMessage(messages.start)}</Column>
+        <Column isRowHeader>{intl.formatMessage(messages.end)}</Column>
       </TableHeader>
       <TableBody>
         {items.map((item, idx) => (

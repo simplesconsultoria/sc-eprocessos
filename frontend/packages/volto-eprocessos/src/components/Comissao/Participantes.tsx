@@ -73,28 +73,26 @@ const Participantes = ({ items }: ParticipantesProps) => {
       className={'full comissao-participantes'}
     >
       <TableHeader>
-        <Row>
-          <Column isRowHeader className={'photo'}>
-            {intl.formatMessage(messages.photo)}
-          </Column>
-          <Column isRowHeader className={'name'}>
-            {intl.formatMessage(messages.name)}
-          </Column>
-          <Column isRowHeader className={'role'}>
-            {intl.formatMessage(messages.role)}
-          </Column>
-          <Column isRowHeader className={'term'}>
-            {intl.formatMessage(messages.term)}
-          </Column>
-          <Column isRowHeader className={'party'}>
-            {intl.formatMessage(messages.party)}
-          </Column>
-        </Row>
+        <Column isRowHeader className={'photo'}>
+          {intl.formatMessage(messages.photo)}
+        </Column>
+        <Column isRowHeader className={'name'}>
+          {intl.formatMessage(messages.name)}
+        </Column>
+        <Column isRowHeader className={'role'}>
+          {intl.formatMessage(messages.role)}
+        </Column>
+        <Column isRowHeader className={'term'}>
+          {intl.formatMessage(messages.term)}
+        </Column>
+        <Column isRowHeader className={'party'}>
+          {intl.formatMessage(messages.party)}
+        </Column>
       </TableHeader>
       <TableBody>
         {sorted.map((item, idx) => {
           const href = (item as any)?.id
-            ? `/vereadores/${(item as any).id}`
+            ? `/vereadores/vereadores/${(item as any).id}`
             : undefined;
           const party = Array.isArray((item as any).partido)
             ? (item as any).partido

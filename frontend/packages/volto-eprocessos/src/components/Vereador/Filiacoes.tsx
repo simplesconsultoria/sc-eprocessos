@@ -1,4 +1,4 @@
-import { TableBody } from 'react-aria-components';
+import { TableBody, Cell } from 'react-aria-components';
 import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
@@ -33,13 +33,15 @@ interface FiliacaoProps {
 const Filiacao = ({ item }: FiliacaoProps) => {
   return (
     <Row className="filiacao">
-      <Column className="token">{item.token}</Column>
-      <Column>
+      <Cell className="token" textValue={item.token || ''}>
+        {item.token}
+      </Cell>
+      <Cell textValue={item.data_filiacao || '-'}>
         <DataCurta date={item.data_filiacao} />
-      </Column>
-      <Column>
+      </Cell>
+      <Cell textValue={item.data_desfiliacao || '-'}>
         <DataCurta date={item.data_desfiliacao} />
-      </Column>
+      </Cell>
     </Row>
   );
 };

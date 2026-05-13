@@ -219,33 +219,141 @@ const VoteResults = ({ items }: { items?: MateriaVoteResult[] }) => {
     (a.date || '').localeCompare(b.date || ''),
   );
 
-  return (
-    <ul className="materia-vote-results">
-      {sorted.map((v, idx) => (
-        <li key={`${v.date}-${v.result}-${idx}`}>
-          <div className="materia-vote-results__title">
-            <strong>{v.result || '-'}</strong>
-            {v.date ? (
+  const getCount = (obj: any, keys: string[]) => {
+    if (!obj) return null;
+    for (const k of keys) {
+      const val = obj[k];
+      if (Number.isFinite(val)) return val;
+    }
+    return null;
+  };
+
+  const extractCounts = (v: any) => {
+    const yesKeys = ['yes', 'favorable', 'favourable', 'favour', 'sim'];
+    const noKeys = ['no', 'contrary', 'against', 'contrario', 'nao', 'não'];
+    const abstKeys = [
+      'abstention',
+      'abst',
+      'abstentions',
+      'abstencoes',
+      'abstencao',
+    ];
+    const absentKeys = ['absent', 'absentees', 'ausentes', 'ausente'];
+
+    const find = (obj: any) => ({
+      yes: getCount(obj, yesKeys),
+      no: getCount(obj, noKeys),
+      abst: getCount(obj, abstKeys),
+      absent: getCount(obj, absentKeys),
+    });
+
+    // try top-level
+    let found = find(v);
+    if (
+      found.yes !== null ||
+      found.no !== null ||
+      found.abst !== null ||
+      found.absent !== null
+    )
+      return found;
+
+    // consider v.result if present (could be array or object)
+    let candidate = v && v.result !== undefined ? v.result : null;
+    if (!candidate) return { yes: null, no: null, abst: null, absent: null };
+
+    if (Array.isArray(candidate) && candidate.length) candidate = candidate[0];
+
+    // if numeric-keyed object, pick first
+    if (candidate && typeof candidate === 'object') {
+      const numericKey = Object.keys(candidate).find((k) => /^[0-9]+$/.test(k));
+      if (numericKey) candidate = candidate[numericKey];
+    }
+
+    found = find(candidate);
+    if (
+      found.yes !== null ||
+      found.no !== null ||
+      found.abst !== null ||
+      found.absent !== null
+    )
+      return found;
+
+    // try one level deeper
+    if (candidate && typeof candidate === 'object') {
+      for (const val of Object.values(candidate)) {
+        if (val && typeof val === 'object') {
+          found = find(val);
+          if (
+            found.yes !== null ||
+            found.no !== null ||
+            found.abst !== null ||
+            found.absent !== null
+          )
+            return found;
+        }
+      }
+    }
+
+    return { yes: null, no: null, abst: null, absent: null };
+  };
+
+  const showPerItemDate = sorted.length > 1;
+
+  const itemsToRender = sorted
+    .map((v, idx) => {
+      const { yes, no, abst, absent } = extractCounts(v);
+      const hasAnyCount =
+        yes !== null || no !== null || abst !== null || absent !== null;
+
+      if (!hasAnyCount) return null;
+
+      return (
+        <li key={`${v.date || 'no-date'}-${idx}`}>
+          {showPerItemDate && v.date ? (
+            <div className="materia-vote-results__meta">
               <span className="materia-vote-results__date">
                 <DataCurta date={v.date} defaultValue={v.date} />
               </span>
-            ) : null}
-          </div>
-          <div className="materia-vote-results__counts">
-            <span className="materia-badge materia-badge--success">
-              Sim: {Number.isFinite(v.yes) ? v.yes : '-'}
-            </span>
-            <span className="materia-badge materia-badge--danger">
-              Não: {Number.isFinite(v.no) ? v.no : '-'}
-            </span>
-            <span className="materia-badge materia-badge--primary">
-              Abstenções: {Number.isFinite(v.abstention) ? v.abstention : '-'}
-            </span>
+            </div>
+          ) : null}
+
+          <div className="materia-vote-results__boxes">
+            <div className="materia-vote-box">
+              <div className="materia-vote-box__label">Sim</div>
+              <div className="materia-vote-box__value">
+                {yes !== null ? yes : '-'}
+              </div>
+            </div>
+
+            <div className="materia-vote-box">
+              <div className="materia-vote-box__label">Não</div>
+              <div className="materia-vote-box__value">
+                {no !== null ? no : '-'}
+              </div>
+            </div>
+
+            <div className="materia-vote-box">
+              <div className="materia-vote-box__label">Abstenções</div>
+              <div className="materia-vote-box__value">
+                {abst !== null ? abst : '-'}
+              </div>
+            </div>
+
+            <div className="materia-vote-box">
+              <div className="materia-vote-box__label">Ausentes</div>
+              <div className="materia-vote-box__value">
+                {absent !== null ? absent : '-'}
+              </div>
+            </div>
           </div>
         </li>
-      ))}
-    </ul>
-  );
+      );
+    })
+    .filter((el): el is JSX.Element => el !== null);
+
+  if (!itemsToRender.length) return null;
+
+  return <ul className="materia-vote-results">{itemsToRender}</ul>;
 };
 
 const ProcessingItem = ({ item }: { item: MateriaProcessing }) => {
@@ -334,8 +442,15 @@ const MateriaView = ({ content }: MateriaViewProps) => {
   const hasAccessoryDocs =
     Array.isArray(content.accessoryDocument) &&
     content.accessoryDocument.length;
-  const hasVoteResults =
-    Array.isArray(content.voteResult) && content.voteResult.length;
+  const voteResults = Array.isArray(content.voteResult)
+    ? content.voteResult
+    : [];
+  const hasVoteResults = voteResults.length;
+  const latestVoteDate = voteResults
+    .map((v) => v?.date)
+    .filter(Boolean)
+    .sort()
+    .at(-1);
   const hasAmendments =
     Array.isArray(content.amendment) && content.amendment.length;
   const hasAttached =
@@ -372,10 +487,10 @@ const MateriaView = ({ content }: MateriaViewProps) => {
         </div>
 
         {content.description ? (
-          <p className="materia-card__ementa">
+          <h2 className="materia-card__ementa">
             {content.description.charAt(0).toUpperCase() +
               content.description.slice(1)}
-          </p>
+          </h2>
         ) : null}
 
         <div className="materia-card__info">
@@ -432,13 +547,7 @@ const MateriaView = ({ content }: MateriaViewProps) => {
               <span className="materia-status-title">
                 {intl.formatMessage(messages.currentStatus)}
               </span>
-              <span
-                className={
-                  content.inProgress
-                    ? 'materia-badge materia-badge--warning'
-                    : 'materia-badge materia-badge--success'
-                }
-              >
+              <span className="materia-badge">
                 {content.inProgress
                   ? intl.formatMessage(messages.statusInProgress)
                   : intl.formatMessage(messages.statusClosed)}
@@ -468,8 +577,18 @@ const MateriaView = ({ content }: MateriaViewProps) => {
 
       {hasVoteResults ? (
         <section className="materia-votes">
-          <h2>{intl.formatMessage(messages.voteResults)}</h2>
-          <VoteResults items={content.voteResult} />
+          <div className="materia-votes__header">
+            <h2>{intl.formatMessage(messages.voteResults)}</h2>
+            {latestVoteDate ? (
+              <span className="materia-votes__date">
+                <DataCurta
+                  date={latestVoteDate}
+                  defaultValue={latestVoteDate}
+                />
+              </span>
+            ) : null}
+          </div>
+          <VoteResults items={voteResults} />
         </section>
       ) : null}
 
