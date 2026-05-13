@@ -153,8 +153,12 @@ export const resolveEprocessosAssetUrl = (
 
   const path = sanitized.startsWith('/') ? sanitized : `/${sanitized}`;
 
-  // `/sapl_documentos/...` is served outside the Volto frontend.
-  if (path.startsWith('/sapl_documentos/')) {
+  if (
+    path.startsWith('/sapl_documentos/') ||
+    path.startsWith('/sapl_documentos_download/') ||
+    path.startsWith('/@@sapl_documentos_download') ||
+    path.startsWith('/@@images/sapl_documentos_download/')
+  ) {
     return `${getSapldocumentosBaseUrl()}${path}`;
   }
 

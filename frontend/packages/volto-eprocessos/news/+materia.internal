@@ -1,0 +1,1 @@
+Refactored MateriaView to normalize vote-result payloads from different shapes, improve the vote summary layout, promote the ementa to a heading, and show the latest vote date in the section header. @humanaice

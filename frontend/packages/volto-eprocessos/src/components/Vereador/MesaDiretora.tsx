@@ -1,4 +1,4 @@
-import { TableBody } from 'react-aria-components';
+import { TableBody, Cell } from 'react-aria-components';
 import { Table } from '@plone/components';
 import { TableHeader } from '@plone/components';
 import { Row } from '@plone/components';
@@ -37,13 +37,15 @@ interface ParticipacaoProps {
 const Participacao = ({ item }: ParticipacaoProps) => {
   return (
     <Row className="participacao-mesa-diretora">
-      <Column className="titulo">{item.title}</Column>
-      <Column>
+      <Cell className="titulo" textValue={item.title || 'Título'}>
+        {item.title}
+      </Cell>
+      <Cell textValue={item.start || 'Início'}>
         <DataCurta date={item.start} />
-      </Column>
-      <Column>
+      </Cell>
+      <Cell textValue={item.end || 'Fim'}>
         <DataCurta date={item.end} />
-      </Column>
+      </Cell>
     </Row>
   );
 };

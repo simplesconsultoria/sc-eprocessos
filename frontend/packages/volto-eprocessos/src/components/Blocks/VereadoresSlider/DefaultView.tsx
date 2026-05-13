@@ -6,6 +6,7 @@ import React, {
   useState,
 } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
+import { useLocation } from 'react-router-dom';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import ConditionalLink from '@plone/volto/components/manage/ConditionalLink/ConditionalLink';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
@@ -69,7 +70,8 @@ const messages = defineMessages({
 });
 
 const getVereadorItemPath = (
-  item?: VereadoresSliderItem,
+  item: VereadoresSliderItem | undefined,
+  basePathFallback: string,
 ): string | undefined => {
   const raw = item?.['@id'];
   if (raw) {
@@ -78,14 +80,17 @@ const getVereadorItemPath = (
       return path.startsWith('/') ? path : `/${path}`;
     }
   }
-  if (item?.id) return `/vereadores/${item.id}`;
+  if (item?.id) {
+    return `${basePathFallback}/vereadores/${item.id}`.replace(/\/\//g, '/');
+  }
   return undefined;
 };
 
 const resolveItemImageSrc = (
-  item?: VereadoresSliderItem,
+  item: VereadoresSliderItem | undefined,
+  basePathFallback: string,
 ): string | undefined => {
-  const base = getVereadorItemPath(item);
+  const base = getVereadorItemPath(item, basePathFallback);
   const download = item?.image?.[0]?.download;
 
   if (!base || !download) return undefined;
@@ -131,6 +136,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   autoplayIntervalSeconds,
 }) => {
   const intl = useIntl();
+  const location = useLocation();
   const [index, setIndex] = useState(0);
   const [enterFrom, setEnterFrom] = useState<'left' | 'right' | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
@@ -140,6 +146,13 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const rowRef = useRef<HTMLDivElement | null>(null);
   const measureRef = useRef<HTMLDivElement | null>(null);
   const carouselInnerRef = useRef<HTMLDivElement | null>(null);
+
+  const basePathFallback = useMemo(() => {
+    const match = location.pathname.match(
+      /^(.*)\/(mesa-diretora|vereadores|comissoes)(\/|$)/,
+    );
+    return match ? match[1] : '/vereadores';
+  }, [location.pathname]);
 
   const safeItems = useMemo(() => (Array.isArray(items) ? items : []), [items]);
 
@@ -338,7 +351,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
 
   const current = safeItems[index];
 
-  const imageSrc = resolveItemImageSrc(current);
+  const imageSrc = resolveItemImageSrc(current, basePathFallback);
   const name = current?.fullname || current?.title || '';
   const party = current?.description || '';
 
@@ -380,7 +393,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     );
   }
 
-  const itemHref = getVereadorItemPath(current);
+  const itemHref = getVereadorItemPath(current, basePathFallback);
 
   const allLinkIsInternal = allHref ? isInternalURL(allHref) : false;
   const allLinkTo =

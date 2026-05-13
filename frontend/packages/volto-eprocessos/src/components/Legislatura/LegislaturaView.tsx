@@ -1,5 +1,6 @@
 import { Container, Button } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
 import type {
   Legislatura,
@@ -55,6 +56,7 @@ const resolveVereadorImage = (
   return resolveEprocessosAssetUrl(download || item?.url_foto);
 };
 
+// Dates are ISO-like (YYYY-MM-DD), lexicographic compare works.
 const isCurrentByDateRange = (start?: string, end?: string): boolean => {
   if (!start || !end) return false;
   // Dates are ISO-like (YYYY-MM-DD), lexicographic compare works.
@@ -81,6 +83,17 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
   const isCurrent =
     (content as any).atual === true ||
     isCurrentByDateRange(content.start, content.end);
+
+  const rawId = content?.['@id'] || '';
+  const appUrl = flattenToAppURL(rawId) || '';
+  let basePath = '/vereadores';
+
+  const match = appUrl.match(
+    /^(.*)\/(legislaturas|mesa-diretora|vereadores|comissoes)(\/|$)/,
+  );
+  if (match) {
+    basePath = match[1];
+  }
 
   return (
     <Container
@@ -122,7 +135,10 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
         {items.length ? (
           <div className="vereadores-grid">
             {items.map((item) => {
-              const href = item?.id ? `/vereadores/${item.id}` : undefined;
+              const href = item?.id
+                ? `${basePath}/vereadores/${item.id}`.replace(/\/\//g, '/')
+                : undefined;
+
               const party = Array.isArray(item?.partido)
                 ? item.partido
                     .map((p) => p.token)
