@@ -37,7 +37,7 @@ def _setup_registry(portal: PloneSite) -> None:
 
 @pytest.fixture()
 def vereadores_facade(portal, content_factory):
-    return content_factory(portal, "Vereadores", title="Vereadores")
+    return content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
 
 
 class TestFetchDataCache:

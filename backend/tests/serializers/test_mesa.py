@@ -14,7 +14,7 @@ def _c(name: str) -> str:
 
 @pytest.fixture()
 def facade(portal, content_factory):
-    return content_factory(portal, "Mesas", title="Mesas Diretoras")
+    return content_factory(portal, "Mesas", id="mesas", title="Mesas Diretoras")
 
 
 class TestMesaSerialization:

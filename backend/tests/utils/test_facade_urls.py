@@ -24,20 +24,20 @@ class TestFacadeUrls:
         assert result == {}
 
     def test_returns_vereadores_url(self, portal: PloneSite, content_factory):
-        content_factory(portal, "Vereadores", title="Vereadores")
+        content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
         result = facade_urls()
         assert "vereadores" in result
         assert result["vereadores"].endswith("/vereadores")
 
     def test_returns_multiple_facades(self, portal: PloneSite, content_factory):
-        content_factory(portal, "Vereadores", title="Vereadores")
-        content_factory(portal, "Normas", title="Normas")
+        content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
+        content_factory(portal, "Normas", id="normas", title="Normas")
         result = facade_urls()
         assert "vereadores" in result
         assert "normas" in result
 
     def test_keys_are_lowercase(self, portal: PloneSite, content_factory):
-        content_factory(portal, "Vereadores", title="Vereadores")
+        content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
         result = facade_urls()
         for key in result:
             assert key == key.lower()

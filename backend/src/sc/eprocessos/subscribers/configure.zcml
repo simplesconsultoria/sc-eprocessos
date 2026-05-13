@@ -3,7 +3,12 @@
     i18n_domain="sc.eprocessos"
     >
 
-  <!-- Singleton subscribers (disabled for now)
+  <subscriber
+      for="sc.eprocessos.interfaces.IEProcessosFacade
+           OFS.interfaces.IObjectWillBeAddedEvent"
+      handler=".eprocessos_facade.prevent_duplicate_creation"
+      />
+
   <subscriber
       for="sc.eprocessos.interfaces.IEProcessosFacade
            zope.lifecycleevent.interfaces.IObjectAddedEvent"
@@ -15,6 +20,5 @@
            zope.lifecycleevent.interfaces.IObjectRemovedEvent"
       handler=".eprocessos_facade.restore_add_permission"
       />
-  -->
 
 </configure>

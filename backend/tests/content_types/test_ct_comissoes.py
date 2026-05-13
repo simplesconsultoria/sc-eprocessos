@@ -11,8 +11,11 @@ from typing import Any
 import pytest
 
 
-PORTAL_TYPE = "Comissoes"
-PERMISSION_ADD = "sc.eprocessos: Add Comissoes"
+@pytest.fixture(scope="module")
+def portal_type():
+    return "Comissoes"
+
+
 EXPECTED_BEHAVIORS = (
     "plone.basic",
     "plone.namefromtitle",
@@ -27,8 +30,8 @@ class TestFTI:
     """Test Factory Type Information registration for Comissoes."""
 
     @pytest.fixture(autouse=True)
-    def _setup(self, get_fti_class):
-        self.fti = get_fti_class(PORTAL_TYPE)
+    def _setup(self, get_fti_class, portal_type):
+        self.fti = get_fti_class(portal_type)
 
     def test_fti_exists(self):
         """Comissoes FTI is registered as a DexterityFTI."""
@@ -56,13 +59,15 @@ class TestContentType:
     """Test Comissoes content type creation and class attributes."""
 
     @pytest.fixture(autouse=True)
-    def _setup(self, portal, content_factory):
+    def _setup(self, portal, content_factory, portal_type):
         self.portal = portal
-        self.content = content_factory(portal, PORTAL_TYPE, title="Comissões")
+        self.content = content_factory(
+            portal, portal_type, id="comissoes", title="Comissões"
+        )
 
-    def test_create(self):
+    def test_create(self, portal_type):
         """Content is created with the correct portal_type."""
-        assert self.content.portal_type == PORTAL_TYPE
+        assert self.content.portal_type == portal_type
 
     def test_instance_class(self):
         """Content is an instance of Comissoes and EProcessosFacade."""
@@ -86,6 +91,9 @@ class TestContentType:
         """Traversed items are ComissaoItem instances."""
         assert self.content.item_class is ComissaoItem
 
+    def test_type_in_navigation(self, type_in_navigation, portal_type):
+        assert type_in_navigation(portal_type) is True
+
 
 class TestPermissions:
     """Test add permission for Comissoes."""
@@ -105,7 +113,9 @@ class TestPermissions:
             ("Reader", False),
         ),
     )
-    def test_roles_with_add_permission(self, role, can_add, roles_with_permission):
+    def test_roles_with_add_permission(
+        self, role, can_add, roles_with_permission, permission_add
+    ):
         """Only Manager and Site Administrator can add Comissoes."""
         container = self.portal
-        assert (role in roles_with_permission(container, PERMISSION_ADD)) is can_add
+        assert (role in roles_with_permission(container, permission_add)) is can_add

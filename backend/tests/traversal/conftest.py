@@ -24,16 +24,16 @@ def http_request(integration: dict[str, Any]) -> Any:
 @pytest.fixture()
 def vereadores_facade(portal: PloneSite, content_factory) -> EProcessosFacade:
     """Create a Vereadores facade in the portal."""
-    return content_factory(portal, "Vereadores", title="Vereadores")
+    return content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
 
 
 @pytest.fixture()
 def normas_facade(portal: PloneSite, content_factory) -> EProcessosFacade:
     """Create a Normas facade in the portal."""
-    return content_factory(portal, "Normas", title="Normas")
+    return content_factory(portal, "Normas", id="normas", title="Normas")
 
 
 @pytest.fixture()
 def sessoes_facade(portal: PloneSite, content_factory) -> EProcessosFacade:
     """Create a Sessoes facade in the portal."""
-    return content_factory(portal, "Sessoes", title="Sessões Plenárias")
+    return content_factory(portal, "Sessoes", id="sessoes", title="Sessões Plenárias")
