@@ -90,7 +90,10 @@ const TabelaPaginada = ({
 
   return (
     <>
-      <Table aria-label={label} className={`full paginada ${className}`}>
+      <Table
+        aria-label={label}
+        className={['full', 'paginada', className].filter(Boolean).join(' ')}
+      >
         <TableHeader>
           {columns.map((col, idx) => (
             <Column

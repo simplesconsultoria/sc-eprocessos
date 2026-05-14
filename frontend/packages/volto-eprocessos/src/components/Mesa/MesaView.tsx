@@ -1,6 +1,6 @@
 import { Container } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
-
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import type {
   Mesa,
   MesaParticipante,
@@ -62,17 +62,14 @@ const cargoRank = (cargo: string): number => {
 
   if (c === '') return 999;
 
-  // Presidente (but not vice-president)
   if (c.includes('presidente') && !c.includes('vice')) return 0;
 
-  // Vice-presidentes with ordinal.
   if (c.includes('vice-presidente') || c.includes('vice presidente')) {
     const m = c.match(/(\d+)/);
     const ord = m ? Number.parseInt(m[1], 10) : 99;
     return 10 + (Number.isFinite(ord) ? ord : 99);
   }
 
-  // Secretários with ordinal.
   if (c.includes('secret')) {
     const m = c.match(/(\d+)/);
     const ord = m ? Number.parseInt(m[1], 10) : 99;
@@ -95,9 +92,30 @@ const sortMembers = (items: MesaParticipante[]): MesaParticipante[] => {
   });
 };
 
-const ParticipanteCard = ({ item }: { item: MesaParticipante }) => {
+/**
+ * Resolve mesa participante href from item['@id'].
+ */
+const getParticipanteHref = (
+  item: MesaParticipante | undefined,
+): string | undefined => {
+  if (!item) return undefined;
+  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
+  if (typeof appUrl === 'string' && appUrl) {
+    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
+  }
+  return undefined;
+};
+
+const ParticipanteCard = ({
+  item,
+  basePath,
+}: {
+  item: MesaParticipante;
+  basePath: string;
+}) => {
   const imgSrc = resolveParticipantImage(item);
-  const href = item?.id ? `/vereadores/${item.id}` : undefined;
+  const href = getParticipanteHref(item);
+
   const party = Array.isArray(item?.partido)
     ? item.partido
         .map((p) => p.token)
@@ -140,6 +158,16 @@ const MesaView = ({ content }: MesaViewProps) => {
 
   const legislaturaHref = resolveEprocessosFacadePath(content.legislatura_id);
   const legislaturaLabel = content.legislatura;
+
+  const rawId = content?.['@id'] || '';
+  const appUrl = flattenToAppURL(rawId) || '';
+  let basePath = '/vereadores';
+  const match = appUrl.match(
+    /^(.*)\/(mesa-diretora|vereadores|comissoes)(\/|$)/,
+  );
+  if (match) {
+    basePath = match[1];
+  }
 
   return (
     <Container
@@ -194,7 +222,11 @@ const MesaView = ({ content }: MesaViewProps) => {
         {sortedItems.length ? (
           <div className="mesa-participantes-grid">
             {sortedItems.map((item, idx) => (
-              <ParticipanteCard key={`${item.id}-${idx}`} item={item} />
+              <ParticipanteCard
+                key={`${item.id}-${idx}`}
+                item={item}
+                basePath={basePath}
+              />
             ))}
           </div>
         ) : (

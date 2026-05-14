@@ -97,39 +97,11 @@
   }
 }
 
-#page-document.view-wrapper.norma-view {
-  &.layout {
-    @include layout-container-width();
-    @include adjustMarginsToContainer($layout-container-width);
-  }
-
-  &.default {
-    @include default-container-width();
-    @include adjustMarginsToContainer($default-container-width);
-  }
-
-  &.narrow {
-    @include narrow-container-width();
-    @include adjustMarginsToContainer($narrow-container-width);
+.normas-view {
+  .documentFirstHeading,
+  .documentDescription {
+    color: var(--eprocessos-foreground-color);
   }
 }
 
-#page-add,
-#page-edit {
-  #page-document.view-wrapper.norma-view {
-    &.layout {
-      @include layout-container-width();
-      @include adjustMarginsToEditContainer($layout-container-width);
-    }
-
-    &.default {
-      @include default-container-width();
-      @include adjustMarginsToEditContainer($default-container-width);
-    }
-
-    &.narrow {
-      @include narrow-container-width();
-      @include adjustMarginsToEditContainer($narrow-container-width);
-    }
-  }
-}
+@include generate-document-views('norma-view', 'normas-view');

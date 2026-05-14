@@ -1,15 +1,13 @@
-import { defineMessages, useIntl } from 'react-intl';
-
 import type { ComissaoParticipante } from '@simplesconsultoria/volto-eprocessos/types';
-import { TableBody } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
-import { Cell } from 'react-aria-components';
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
 import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import Avatar from '@simplesconsultoria/volto-eprocessos/components/Avatar/Avatar';
+import { defineMessages, useIntl } from 'react-intl';
+import { useMemo } from 'react';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
 
 const messages = defineMessages({
   tableLabel: {
@@ -59,37 +57,24 @@ interface ParticipantesProps {
 const Participantes = ({ items }: ParticipantesProps) => {
   const intl = useIntl();
 
-  if (!items?.length) {
-    return <p>{intl.formatMessage(messages.emptyParticipants)}</p>;
-  }
+  const columns = [
+    column('photo', intl.formatMessage(messages.photo)),
+    column('name', intl.formatMessage(messages.name)),
+    column('role', intl.formatMessage(messages.role)),
+    column('term', intl.formatMessage(messages.term)),
+    column('party', intl.formatMessage(messages.party)),
+  ];
 
-  const sorted = [...items].sort((a, b) => {
-    const oa = Number.isFinite((a as any).ordem) ? (a as any).ordem : 999;
-    const ob = Number.isFinite((b as any).ordem) ? (b as any).ordem : 999;
-    if (oa !== ob) return oa - ob;
-    return ((a as any).title || '').localeCompare((b as any).title || '');
-  });
-
-  return (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full comissao-participantes'}
-    >
-      <TableHeader>
-        <Column className={'photo'}>
-          {intl.formatMessage(messages.photo)}
-        </Column>
-        <Column isRowHeader className={'name'}>
-          {intl.formatMessage(messages.name)}
-        </Column>
-        <Column className={'role'}>{intl.formatMessage(messages.role)}</Column>
-        <Column className={'term'}>{intl.formatMessage(messages.term)}</Column>
-        <Column className={'party'}>
-          {intl.formatMessage(messages.party)}
-        </Column>
-      </TableHeader>
-      <TableBody>
-        {sorted.map((item, idx) => {
+  const rows = useMemo(
+    () =>
+      [...(items ?? [])]
+        .sort((a, b) => {
+          const oa = Number.isFinite((a as any).ordem) ? (a as any).ordem : 999;
+          const ob = Number.isFinite((b as any).ordem) ? (b as any).ordem : 999;
+          if (oa !== ob) return oa - ob;
+          return ((a as any).title || '').localeCompare((b as any).title || '');
+        })
+        .map((item) => {
           const href = item['@id'];
           const party = Array.isArray((item as any).partido)
             ? (item as any).partido
@@ -100,51 +85,47 @@ const Participantes = ({ items }: ParticipantesProps) => {
 
           const imgSrc = resolveParticipanteImage(item);
 
-          return (
-            <Row
-              key={`${(item as any).id}-${idx}`}
-              className="comissao-participante"
-            >
-              {/* MUDANÇA AQUI: De Column para Cell */}
-              <Cell
-                className="foto"
-                textValue={intl.formatMessage(messages.photo)}
-              >
-                <Avatar
-                  href={href}
-                  src={imgSrc}
-                  alt={(item as any).title || ''}
-                  size="3rem"
-                />
-              </Cell>
+          return {
+            photo: cell(
+              'photo',
+              (item as any).title || '',
+              <Avatar
+                href={href}
+                src={imgSrc}
+                alt={(item as any).title || ''}
+                size="3rem"
+              />,
+            ),
+            name: cell(
+              'name',
+              (item as any).title || '',
+              <Link
+                item={href ?? null}
+                title={(item as any).title}
+                defaultValue={(item as any).title}
+              />,
+            ),
+            role: cell('role', (item as any).cargo || '', (item as any).cargo),
+            term: cell(
+              'term',
+              (item as any).mandato || '-',
+              (item as any).mandato || '-',
+            ),
+            party: cell('party', party || '-', party || '-'),
+          };
+        }),
+    [items],
+  );
 
-              <Cell className="nome" textValue={(item as any).title || ''}>
-                <Link
-                  item={href ?? null}
-                  title={(item as any).title}
-                  defaultValue={(item as any).title}
-                />
-              </Cell>
-
-              <Cell className="cargo" textValue={(item as any).cargo || ''}>
-                {(item as any).cargo}
-              </Cell>
-
-              <Cell
-                className="mandato"
-                textValue={(item as any).mandato || '-'}
-              >
-                {(item as any).mandato || '-'}
-              </Cell>
-
-              <Cell className="partido" textValue={party || '-'}>
-                {party || '-'}
-              </Cell>
-            </Row>
-          );
-        })}
-      </TableBody>
-    </Table>
+  return (
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.emptyParticipants)}
+      columns={columns}
+      items={rows}
+      className="comissao-participantes"
+      rowClassName="comissao-participante"
+    />
   );
 };
 

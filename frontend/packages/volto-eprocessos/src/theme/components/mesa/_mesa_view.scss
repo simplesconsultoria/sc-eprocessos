@@ -45,39 +45,4 @@
   }
 }
 
-#page-document.view-wrapper.mesa-view {
-  &.layout {
-    @include layout-container-width();
-    @include adjustMarginsToContainer($layout-container-width);
-  }
-
-  &.default {
-    @include default-container-width();
-    @include adjustMarginsToContainer($default-container-width);
-  }
-
-  &.narrow {
-    @include narrow-container-width();
-    @include adjustMarginsToContainer($narrow-container-width);
-  }
-}
-
-#page-add,
-#page-edit {
-  #page-document.view-wrapper.mesa-view {
-    &.layout {
-      @include layout-container-width();
-      @include adjustMarginsToEditContainer($layout-container-width);
-    }
-
-    &.default {
-      @include default-container-width();
-      @include adjustMarginsToEditContainer($default-container-width);
-    }
-
-    &.narrow {
-      @include narrow-container-width();
-      @include adjustMarginsToEditContainer($narrow-container-width);
-    }
-  }
-}
+@include generate-document-views('mesa-view');

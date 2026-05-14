@@ -170,7 +170,7 @@ const NormaView = ({ content }: NormaViewProps) => {
           </div>
 
           {content.description ? (
-            <p className="norma-card__ementa">{content.description}</p>
+            <h2 className="norma-card__ementa">{content.description}</h2>
           ) : null}
 
           <div className="norma-card__meta">

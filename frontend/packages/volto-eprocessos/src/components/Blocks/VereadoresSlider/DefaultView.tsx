@@ -69,7 +69,7 @@ const messages = defineMessages({
 });
 
 const getVereadorItemPath = (
-  item?: VereadoresSliderItem,
+  item: VereadoresSliderItem | undefined,
 ): string | undefined => {
   const raw = item?.['@id'];
   if (raw) {
@@ -78,12 +78,11 @@ const getVereadorItemPath = (
       return path.startsWith('/') ? path : `/${path}`;
     }
   }
-  if (item?.id) return `/vereadores/${item.id}`;
   return undefined;
 };
 
 const resolveItemImageSrc = (
-  item?: VereadoresSliderItem,
+  item: VereadoresSliderItem | undefined,
 ): string | undefined => {
   const base = getVereadorItemPath(item);
   const download = item?.image?.[0]?.download;

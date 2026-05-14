@@ -27,41 +27,6 @@
       }
     }
   }
-  table {
-    border-collapse: collapse;
-
-    tr {
-      border-bottom: 1px solid
-        color-mix(in srgb, var(--eprocessos-foreground-color) 15%, transparent);
-
-      th {
-        padding: 0.5rem 0;
-        text-align: left;
-      }
-    }
-
-    tbody {
-      tr {
-        padding: 10px 0;
-        background-color: var(--eprocessos-color);
-      }
-
-      tr:nth-child(even) {
-        background-color: color-mix(
-          in srgb,
-          var(--eprocessos-color) 90%,
-          var(--eprocessos-foreground-color) 10%
-        );
-      }
-    }
-  }
-
-  .comissao-panels {
-    table.full {
-      width: 100%;
-    }
-  }
-
   .comissao-participantes {
     .photo,
     .foto {
@@ -171,6 +136,10 @@
         }
       }
     }
+    .id {
+      padding: 0 0.25rem;
+      text-align: center;
+    }
   }
 
   .comissao-reunioes {
@@ -178,39 +147,4 @@
   }
 }
 
-#page-document.view-wrapper.comissao-view {
-  &.layout {
-    @include layout-container-width();
-    @include adjustMarginsToContainer($layout-container-width);
-  }
-
-  &.default {
-    @include default-container-width();
-    @include adjustMarginsToContainer($default-container-width);
-  }
-
-  &.narrow {
-    @include narrow-container-width();
-    @include adjustMarginsToContainer($narrow-container-width);
-  }
-}
-
-#page-add,
-#page-edit {
-  #page-document.view-wrapper.comissao-view {
-    &.layout {
-      @include layout-container-width();
-      @include adjustMarginsToEditContainer($layout-container-width);
-    }
-
-    &.default {
-      @include default-container-width();
-      @include adjustMarginsToEditContainer($default-container-width);
-    }
-
-    &.narrow {
-      @include narrow-container-width();
-      @include adjustMarginsToEditContainer($narrow-container-width);
-    }
-  }
-}
+@include generate-document-views('comissao-view');

@@ -1,0 +1,1 @@
+Fixed the React Aria table structure in the vereador and comissão views, restoring the correct header/body balance and updating vereador links to follow the current `/vereadores/vereadores/{id}` path. @humanaice
