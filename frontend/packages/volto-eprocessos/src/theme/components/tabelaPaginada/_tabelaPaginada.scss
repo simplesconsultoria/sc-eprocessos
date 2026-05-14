@@ -1,0 +1,30 @@
+table.paginada {
+  &.full {
+    width: 100%;
+  }
+  thead.react-aria-TableHeader {
+    tr {
+      th {
+        text-align: left;
+      }
+    }
+  }
+  tbody.react-aria-TableBody {
+    tr {
+      td {
+        padding: 5px 0;
+        p.noResults {
+          width: 100%;
+          padding: $spacing-small;
+          text-align: center;
+        }
+      }
+    }
+  }
+  td {
+    .badge-type,
+    .pill {
+      @include eprocessos-pill-badge();
+    }
+  }
+}

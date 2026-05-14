@@ -1,0 +1,1 @@
+Shadowed Volto's `View.jsx` so the route's querystring is forwarded to `getContent` and re-fetched when `location.search` changes — required by facade views that mount filter forms. @ericof

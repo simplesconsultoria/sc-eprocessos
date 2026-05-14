@@ -1,0 +1,1 @@
+Added a reusable `TabelaPaginada` component — a paginated wrapper around `<Table>` from `@plone/components` that takes a column definition + per-row cell config, ships its own empty-state, and uses Volto's `Pagination` (default page size = 25). Exports `column()` and `cell()` helpers to keep callers terse. @ericof

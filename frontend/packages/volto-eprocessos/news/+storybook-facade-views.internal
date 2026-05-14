@@ -1,0 +1,1 @@
+Added Storybook stories for `FilterForm`, the three facade views (`SessoesView`, `NormasView`, `MateriasView`) and their list components (`SessoesLista`, `NormasLista`, `MateriasLista`). @ericof
