@@ -4,6 +4,7 @@ import Icon from '@plone/volto/components/theme/Icon/Icon';
 import personSVG from '@plone/volto/icons/user.svg';
 
 interface AvatarProps {
+  href?: string;
   src?: string;
   alt: string;
   size?: string;
@@ -13,6 +14,7 @@ interface AvatarProps {
 }
 
 const Avatar = ({
+  href,
   src,
   alt,
   size,
@@ -44,6 +46,7 @@ const Avatar = ({
     .filter(Boolean)
     .join(' ');
 
+  const imgSrc = src && src.startsWith('http') ? src : `${href}/${src}`;
   if (!src || failed) {
     return (
       <span className={wrapperClass} style={wrapStyle}>
@@ -57,13 +60,12 @@ const Avatar = ({
       </span>
     );
   }
-
   return (
     <span className={wrapperClass} style={wrapStyle}>
       <img
         ref={imgRef}
         className="eprocessos-avatar__img"
-        src={src}
+        src={imgSrc}
         alt={alt}
         onError={() => setFailed(true)}
         loading={loading}
