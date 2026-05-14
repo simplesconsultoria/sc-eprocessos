@@ -1,0 +1,1 @@
+Added a Storybook story for the `Avatar` component covering the placeholder fallback, the image + `href` composition, custom sizes, and the broken-image fallback path. @ericof
