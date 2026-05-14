@@ -12,5 +12,4 @@ class Comissoes(EProcessosFacade):
     """Facade for committees."""
 
     service_name: str = "comissoes"
-    display_form: bool = False
     item_class: type[EProcessosItem] = ComissaoItem

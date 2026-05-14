@@ -12,5 +12,4 @@ class Legislaturas(EProcessosFacade):
     """Facade for legislative terms."""
 
     service_name: str = "legislaturas"
-    display_form: bool = False
     item_class: type[EProcessosItem] = LegislaturaItem

@@ -12,5 +12,4 @@ class Mesas(EProcessosFacade):
     """Facade for executive board periods."""
 
     service_name: str = "mesas"
-    display_form: bool = False
     item_class: type[EProcessosItem] = MesaItem

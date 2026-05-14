@@ -59,7 +59,11 @@ class IEProcessosFacade(Interface):
     """Base marker for all e-Processos facade content types."""
 
 
-class INormas(IEProcessosFacade):
+class IEProcessosSearchableFacade(IEProcessosFacade):
+    """Base marker for all e-Processos searchable facade content types."""
+
+
+class INormas(IEProcessosSearchableFacade):
     """Marker for the Normas facade."""
 
 
@@ -79,11 +83,11 @@ class IComissoes(IEProcessosFacade):
     """Marker for the Comissoes facade."""
 
 
-class IMaterias(IEProcessosFacade):
+class IMaterias(IEProcessosSearchableFacade):
     """Marker for the Materias facade."""
 
 
-class ISessoes(IEProcessosFacade):
+class ISessoes(IEProcessosSearchableFacade):
     """Marker for the Sessoes facade."""
 
 

@@ -1,13 +1,8 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
-  <!-- Summary serializer metadata -->
-  <utility
-      factory=".summary.JSONSummarySerializerMetadata"
-      name="sc.eprocessos.summary_serializer_metadata"
-      />
-
-  <!-- Facade serializer -->
+  <!-- Facade serializers -->
   <adapter factory=".facade.SerializeFacadeToJson" />
+  <adapter factory=".facade.SerializeSearchableFacadeToJson" />
   <adapter factory=".collections.vereadores.SerializeVereadoresCollectionToJson" />
 
   <!-- Item serializers -->

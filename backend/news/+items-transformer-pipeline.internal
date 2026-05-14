@@ -1,0 +1,1 @@
+Refactored `BaseItemSerializer` around a transformer pipeline: subclasses declare `_transform_*` methods (run alphabetically) and a `collections` tuple that rewrites `@id` URLs and proxies image fields for nested items. The plone.restapi expandable elements (`?expand=breadcrumbs,actions,…`) are now wired in for non-persistent items. @ericof
