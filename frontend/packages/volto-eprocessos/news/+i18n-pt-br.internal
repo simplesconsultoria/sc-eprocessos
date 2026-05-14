@@ -1,0 +1,1 @@
+Filled in pt_BR translations for the new `FilterForm`, `SessoesLista`, `NormasLista`, `MateriasLista` strings and for the pending `VereadoresSlider` autoplay/carousel labels, and fixed `SessoesLista.tableLabel` (a copy-paste artifact had it defaulting to "Participants"). @ericof

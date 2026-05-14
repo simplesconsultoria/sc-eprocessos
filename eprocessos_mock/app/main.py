@@ -2,20 +2,14 @@
 
 from __future__ import annotations
 
-from contextlib import asynccontextmanager
-from fastapi import FastAPI
-from fastapi import Query
-from fastapi.responses import JSONResponse
-from fastapi.responses import Response
-
-from app import recorder
-from app import storage
-from app.settings import DATA_DIR
-from app.settings import RECORD_MODE
-from app.settings import UPSTREAM_URL
-
 import logging
+from contextlib import asynccontextmanager
 
+from fastapi import FastAPI, Query
+from fastapi.responses import JSONResponse, Response
+
+from app import recorder, storage
+from app.settings import DATA_DIR, RECORD_MODE, UPSTREAM_URL
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -115,10 +109,12 @@ async def vereadores_detail(item_id: str):
 
 @app.get("/@@normas")
 async def normas_list(
-    ano: int = Query(...),
+    ano: int | None = Query(None),
     tipo: int | None = Query(None),
 ):
-    params: dict[str, str] = {"ano": str(ano)}
+    params: dict[str, str] = {}
+    if ano is not None:
+        params["ano"] = str(ano)
     if tipo is not None:
         params["tipo"] = str(tipo)
     return await _serve_list("normas", "/@@normas", **params)
@@ -173,10 +169,12 @@ async def comissoes_detail(item_id: str):
 
 @app.get("/@@materias")
 async def materias_list(
-    ano: int = Query(...),
+    ano: int | None = Query(None),
     tipo: int | None = Query(None),
 ):
-    params: dict[str, str] = {"ano": str(ano)}
+    params: dict[str, str] = {}
+    if ano is not None:
+        params["ano"] = str(ano)
     if tipo is not None:
         params["tipo"] = str(tipo)
     return await _serve_list("materias", "/@@materias", **params)
@@ -188,6 +186,11 @@ async def materias_detail(item_id: str):
 
 
 # -- Sessões ------------------------------------------------------------------
+
+
+@app.get("/@@sessoes")
+async def sessoes_list_help():
+    return await _serve_list("sessoes", "/@@sessoes")
 
 
 @app.get("/@@sessoes/tipo/{tipo}/ano/{ano}")

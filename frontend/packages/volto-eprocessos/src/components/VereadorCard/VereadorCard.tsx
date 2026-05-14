@@ -30,12 +30,12 @@ const VereadorCard = ({
   className,
 }: VereadorCardProps) => {
   const wrapperClass = ['vereador-outer', className].filter(Boolean).join(' ');
-
   const inner = (
     <div className="vereador-card">
       {header ? <div className="vereador-card-header">{header}</div> : null}
       <div className="vereador-card-image">
         <Avatar
+          href={href}
           src={imageSrc}
           alt={name}
           size={avatarSize || '7.5rem'}

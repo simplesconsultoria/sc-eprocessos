@@ -3,30 +3,6 @@
   "@type": "Materias",
   "UID": "61b5038681cd43e899c90f8a2ae78faa",
   "allow_discussion": null,
-  "blocks": {
-    "2bd4972d-28ec-46d8-94f7-8ffc5f9c5b8d": {
-      "@type": "description"
-    },
-    "2e94e25c-cf8b-4437-94b0-e52287e673ba": {
-      "@type": "listing",
-      "headlineTag": "h2",
-      "variation": "default"
-    },
-    "c97bebf5-92c5-4d91-8b08-a5dc9c02e28a": {
-      "@type": "slate"
-    },
-    "f5990cda-6691-4d28-b7d3-d20b077340cc": {
-      "@type": "title"
-    }
-  },
-  "blocks_layout": {
-    "items": [
-      "f5990cda-6691-4d28-b7d3-d20b077340cc",
-      "2bd4972d-28ec-46d8-94f7-8ffc5f9c5b8d",
-      "2e94e25c-cf8b-4437-94b0-e52287e673ba",
-      "c97bebf5-92c5-4d91-8b08-a5dc9c02e28a"
-    ]
-  },
   "changeNote": "",
   "created": "2026-04-06T20:35:10+00:00",
   "description": "Mat\u00e9rias",

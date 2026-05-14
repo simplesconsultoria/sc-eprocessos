@@ -45,6 +45,17 @@ class BaseService:
             parts.extend([key, str(value)])
         return self._url(*parts)
 
+    def vocabularies(self) -> dict[str, Any]:
+        """Fetch the filter vocabularies advertised by the endpoint.
+
+        The upstream returns a payload with a ``filtros`` key shaped as
+        ``{field: [{"id": ..., "title": ...}, ...]}`` when the root URL
+        is called with no path arguments. Endpoints that do not expose
+        filters return an empty dict.
+        """
+        data = self._request("GET", self._url())
+        return data.get("filtros", {})
+
     def _request(
         self,
         method: str,

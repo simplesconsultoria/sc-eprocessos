@@ -27,51 +27,6 @@
       }
     }
   }
-  table {
-    border-collapse: collapse;
-
-    thead {
-      tr {
-        // Borda um pouco mais destacada para separar o cabeçalho do conteúdo
-        border-bottom: 2px solid var(--eprocessos-foreground-color);
-
-        th {
-          padding: 0.5rem 0.25rem; // Mais respiro horizontal
-          font-weight: 600; // Garante o negrito no cabeçalho
-          text-align: left;
-        }
-      }
-    }
-
-    tr {
-      border-bottom: 1px solid
-        color-mix(in srgb, var(--eprocessos-foreground-color) 15%, transparent);
-    }
-
-    tbody {
-      tr {
-        background-color: var(--eprocessos-color);
-        td {
-          padding: 0.5rem 0.25rem;
-        }
-      }
-
-      tr:nth-child(even) {
-        background-color: color-mix(
-          in srgb,
-          var(--eprocessos-color) 90%,
-          var(--eprocessos-foreground-color) 10%
-        );
-      }
-    }
-  }
-
-  .comissao-panels {
-    table.full {
-      width: 100%;
-    }
-  }
-
   .comissao-participantes {
     .photo,
     .foto {
@@ -192,39 +147,4 @@
   }
 }
 
-#page-document.view-wrapper.comissao-view {
-  &.layout {
-    @include layout-container-width();
-    @include adjustMarginsToContainer($layout-container-width);
-  }
-
-  &.default {
-    @include default-container-width();
-    @include adjustMarginsToContainer($default-container-width);
-  }
-
-  &.narrow {
-    @include narrow-container-width();
-    @include adjustMarginsToContainer($narrow-container-width);
-  }
-}
-
-#page-add,
-#page-edit {
-  #page-document.view-wrapper.comissao-view {
-    &.layout {
-      @include layout-container-width();
-      @include adjustMarginsToEditContainer($layout-container-width);
-    }
-
-    &.default {
-      @include default-container-width();
-      @include adjustMarginsToEditContainer($default-container-width);
-    }
-
-    &.narrow {
-      @include narrow-container-width();
-      @include adjustMarginsToEditContainer($narrow-container-width);
-    }
-  }
-}
+@include generate-document-views('comissao-view');

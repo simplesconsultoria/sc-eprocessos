@@ -1,0 +1,122 @@
+{
+  "@id": "/@@materias",
+  "@type": "Materias",
+  "description": "Lista de matérias legislativas",
+  "exemplo": {
+    "urlExemplo": "/@@materias?ano=2025&tipo=3"
+  },
+  "filtros": {
+    "ano": [
+      {
+        "id": "2026",
+        "title": "2026"
+      },
+      {
+        "id": "2025",
+        "title": "2025"
+      },
+      {
+        "id": "2024",
+        "title": "2024"
+      },
+      {
+        "id": "2023",
+        "title": "2023"
+      },
+      {
+        "id": "2022",
+        "title": "2022"
+      },
+      {
+        "id": "2021",
+        "title": "2021"
+      },
+      {
+        "id": "2020",
+        "title": "2020"
+      },
+      {
+        "id": "2019",
+        "title": "2019"
+      },
+      {
+        "id": "2018",
+        "title": "2018"
+      },
+      {
+        "id": "2017",
+        "title": "2017"
+      },
+      {
+        "id": "2016",
+        "title": "2016"
+      },
+      {
+        "id": "2015",
+        "title": "2015"
+      },
+      {
+        "id": "2014",
+        "title": "2014"
+      }
+    ],
+    "tipo": [
+      {
+        "id": "1",
+        "title": "Projeto de Lei Ordinária"
+      },
+      {
+        "id": "2",
+        "title": "Projeto de Resolução"
+      },
+      {
+        "id": "3",
+        "title": "Projeto de Decreto Legislativo"
+      },
+      {
+        "id": "4",
+        "title": "Proposta de Emenda à Lei Orgânica"
+      },
+      {
+        "id": "5",
+        "title": "Projeto de Lei Complementar"
+      },
+      {
+        "id": "6",
+        "title": "Requerimento"
+      },
+      {
+        "id": "7",
+        "title": "Indicação"
+      },
+      {
+        "id": "8",
+        "title": "Moção"
+      },
+      {
+        "id": "9",
+        "title": "Pedido de Informação"
+      },
+      {
+        "id": "12",
+        "title": "Veto"
+      },
+      {
+        "id": "15",
+        "title": "Proposição de Lei"
+      },
+      {
+        "id": "16",
+        "title": "Proposição de Lei Complementar"
+      },
+      {
+        "id": "17",
+        "title": "Emenda Impositiva"
+      },
+      {
+        "id": "18",
+        "title": "Denúncia"
+      }
+    ]
+  }
+}

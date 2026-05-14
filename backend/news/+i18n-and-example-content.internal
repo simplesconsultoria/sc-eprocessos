@@ -1,0 +1,1 @@
+Refreshed the pt_BR / en / es / de / it translation catalogs after `make i18n` against the new `_form_config_title` messages, and refreshed the bundled example content so it matches the new searchable-facade schema (no more `display_form`, no `form_config` JSONField). @ericof

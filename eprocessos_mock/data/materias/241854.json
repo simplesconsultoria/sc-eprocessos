@@ -1,0 +1,203 @@
+{
+  "@id": "/@@materias/241854",
+  "@type": "Materia",
+  "accessoryDocument": [
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 13:51:21",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2057.pdf",
+          "filename": "2057.pdf",
+          "size": "205.7 KB"
+        }
+      ],
+      "id": "2057",
+      "odtDownload": null,
+      "title": "CERTIDÃO FUTEL"
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 14:25:02",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2059.pdf",
+          "filename": "2059.pdf",
+          "size": "236.1 KB"
+        }
+      ],
+      "id": "2059",
+      "odtDownload": null,
+      "title": "Certidão 1"
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 14:25:28",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2060.pdf",
+          "filename": "2060.pdf",
+          "size": "213.4 KB"
+        }
+      ],
+      "id": "2060",
+      "odtDownload": null,
+      "title": "Certidão 2"
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 14:26:04",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2061.pdf",
+          "filename": "2061.pdf",
+          "size": "200.4 KB"
+        }
+      ],
+      "id": "2061",
+      "odtDownload": null,
+      "title": "Certidão 3"
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 14:26:34",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2062.pdf",
+          "filename": "2062.pdf",
+          "size": "212.4 KB"
+        }
+      ],
+      "id": "2062",
+      "odtDownload": null,
+      "title": "Certidão 4"
+    },
+    {
+      "authorship": "DTL",
+      "canDelete": false,
+      "canSign": false,
+      "canViewSignatures": false,
+      "cod_materia": 241854,
+      "date": "2026-01-07 14:49:16",
+      "description": "Anexo",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/2066.pdf",
+          "filename": "2066.pdf",
+          "size": "145.9 KB"
+        }
+      ],
+      "id": "2066",
+      "odtDownload": null,
+      "title": "Certidão 5"
+    }
+  ],
+  "amendment": [
+    {
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "title": "Antônio Carrijo"
+        }
+      ],
+      "date": "2026-01-08",
+      "description": "Emenda ao art. 1º do projeto de Lei n.º 879/2026",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=emenda/177_emenda.pdf",
+          "filename": "177_emenda.pdf",
+          "size": "516.7 KB"
+        }
+      ],
+      "id": "177",
+      "title": "Emenda Modificativa nº 1"
+    }
+  ],
+  "attached": [],
+  "authorship": [
+    {
+      "description": "Parlamentar",
+      "firstAuthor": true,
+      "title": "Antônio Carrijo (PP)"
+    }
+  ],
+  "committeeOpinion": [],
+  "date": "2026-01-07",
+  "description": "DENOMINA DE POLIESPORTIVO MARIA MATIAS FERREIRA O LOGRADOURO PÚBLICO QUE ESPECIFICA. ",
+  "file": [
+    {
+      "content-type": "application/pdf",
+      "download": "/@@sapl_documentos_download?path=materia/241854_texto_integral.pdf",
+      "filename": "241854_texto_integral.pdf",
+      "size": "528.4 KB"
+    }
+  ],
+  "id": "241854",
+  "inProgress": true,
+  "permissions": {
+    "canAddDocument": false,
+    "canTramitar": false,
+    "showAcompanhar": false,
+    "showPastaDigital": true,
+    "tramitarModalUrl": ""
+  },
+  "processing": [
+    {
+      "date": "2026-02-02 10:48:51",
+      "deadline": "2026-02-18",
+      "description": "<p>Comiss&atilde;o de Legisla&ccedil;&atilde;o, Justi&ccedil;a e Reda&ccedil;&atilde;o</p>\r\n<p>Comiss&atilde;o de Pol&iacute;tica Urbana, Habita&ccedil;&atilde;o e Urbanismo</p>",
+      "destinationUnit": "Seção de Apoio às Comissões",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/tramitacao/722594_tram.pdf",
+          "filename": "722594_tram.pdf",
+          "size": "21.4 KB"
+        }
+      ],
+      "last": true,
+      "sourceUnit": "Departamento Técnico Legislativo",
+      "title": "Encaminhado à Comissão"
+    }
+  ],
+  "processingRegime": "Ordinário",
+  "processingRegime_id": "1",
+  "quorum": "Maioria simples",
+  "quorum_id": "1",
+  "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=241854",
+  "substitute": [],
+  "title": "Projeto de Lei Ordinária nº 879/2026",
+  "voteResult": []
+}

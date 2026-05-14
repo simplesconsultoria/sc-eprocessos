@@ -91,3 +91,21 @@ export interface ListResponse<TItem> {
   description: string;
   items: TItem[];
 }
+
+/**
+ * Shape of the ``form_config`` payload emitted by searchable facades
+ * (see backend ``EProcessosSearchableFacade`` subclasses). Matches the
+ * schema shape consumed by Volto's ``@plone/volto/components/manage/Form``.
+ */
+export interface FormConfigFieldset {
+  id: string;
+  title: string;
+  fields: string[];
+}
+
+export interface FormConfig {
+  title: string;
+  fieldsets: FormConfigFieldset[];
+  properties: Record<string, Record<string, unknown>>;
+  required: string[];
+}

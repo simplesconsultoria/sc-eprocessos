@@ -1,0 +1,9 @@
+{
+  "@id": "/@@normas",
+  "@type": "Normas",
+  "ano": "1997",
+  "description": "Lista de normas jurídicas do ano 1997 (tip_norma=1)",
+  "items": [],
+  "ordem": "data_desc",
+  "tipNorma": "1"
+}

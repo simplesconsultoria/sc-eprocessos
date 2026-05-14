@@ -1,0 +1,79 @@
+{
+  "@id": "/@@materias",
+  "@type": "Materias",
+  "description": "Lista de Projeto de Resolução do ano de 2025",
+  "items": [
+    {
+      "@id": "/@@materias/239808",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Antônio Augusto Queijinho (PSDB)"
+        }
+      ],
+      "date": "2025-12-01",
+      "description": "DISPÕE SOBRE A INSTITUIÇÃO DO PROTOCOLO DE INTEGRIDADE PARA RECEBIMENTO E TRAMITAÇÃO DE DENÚNCIAS NA CÂMARA MUNICIPAL DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/239808_texto_integral.pdf",
+          "filename": "239808_texto_integral.pdf",
+          "size": "509.4 KB"
+        }
+      ],
+      "id": "239808",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=239808",
+      "title": "Projeto de Resolução nº 3/2025"
+    },
+    {
+      "@id": "/@@materias/232542",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Mesa Diretora",
+          "firstAuthor": true,
+          "title": "Mesa Diretora"
+        }
+      ],
+      "date": "2025-09-22",
+      "description": "DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL E DÁ OUTRAS PROVIDÊNCIAS",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/232542_texto_integral.pdf",
+          "filename": "232542_texto_integral.pdf",
+          "size": "2.1 MB"
+        }
+      ],
+      "id": "232542",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=232542",
+      "title": "Projeto de Resolução nº 2/2025"
+    },
+    {
+      "@id": "/@@materias/212967",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        }
+      ],
+      "date": "2025-03-26",
+      "description": "ACRESCENTA DISPOSITIVOS NO ART. 3º DA RESOLUÇÃO 061, DE 02 DE DEZEMBRO DE 2005, QUE DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/212967_texto_integral.pdf",
+          "filename": "212967_texto_integral.pdf",
+          "size": "401.6 KB"
+        }
+      ],
+      "id": "212967",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=212967",
+      "title": "Projeto de Resolução nº 1/2025"
+    }
+  ]
+}

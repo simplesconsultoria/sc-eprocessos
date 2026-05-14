@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2026-04-14T18:11:12.220Z\n"
+"POT-Creation-Date: 2026-05-14T14:07:09.460Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -123,6 +123,26 @@ msgstr ""
 #. Default: "Download"
 #: components/FileAttachment/FileAttachment
 msgid "File attachment download"
+msgstr ""
+
+#. Default: "Filtering by:"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.appliedFilters"
+msgstr ""
+
+#. Default: "Clear"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.cancelLabel"
+msgstr ""
+
+#. Default: "Use the filters below to refine the results."
+#: components/FilterForm/FilterForm
+msgid "FilterForm.formDescription"
+msgstr ""
+
+#. Default: "Filter"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.submitLabel"
 msgstr ""
 
 #. Default: "Councilors"
@@ -315,6 +335,31 @@ msgstr ""
 msgid "Materia view vote results heading"
 msgstr ""
 
+#. Default: "Authorship"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.authorship"
+msgstr ""
+
+#. Default: "Date"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.date"
+msgstr ""
+
+#. Default: "No matters."
+#: components/Materias/MateriasLista
+msgid "MateriasLista.emptyResults"
+msgstr ""
+
+#. Default: "Matters"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.tableLabel"
+msgstr ""
+
+#. Default: "Title"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.title"
+msgstr ""
+
 #. Default: "Current"
 #: components/Mesa/MesaView
 msgid "Mesa view current badge"
@@ -423,6 +468,41 @@ msgstr ""
 #. Default: "Status"
 #: components/Norma/NormaView
 msgid "Norma view status label"
+msgstr ""
+
+#. Default: "Date"
+#: components/Normas/NormasLista
+msgid "NormasLista.date"
+msgstr ""
+
+#. Default: "Description"
+#: components/Normas/NormasLista
+msgid "NormasLista.description"
+msgstr ""
+
+#. Default: "No norms."
+#: components/Normas/NormasLista
+msgid "NormasLista.emptyResults"
+msgstr ""
+
+#. Default: "Norms"
+#: components/Normas/NormasLista
+msgid "NormasLista.tableLabel"
+msgstr ""
+
+#. Default: "Title"
+#: components/Normas/NormasLista
+msgid "NormasLista.title"
+msgstr ""
+
+#. Default: "abre em uma nova janela"
+#: components/FileAttachment/FileAttachment
+msgid "Opens in a new window"
+msgstr ""
+
+#. Default: "Este documento PDF pode ter limitações de acessibilidade e requer um programa externo para visualização."
+#: components/FileAttachment/FileAttachment
+msgid "PDF document warning"
 msgstr ""
 
 #. Default: "Minutes"
@@ -543,6 +623,41 @@ msgstr ""
 #. Default: "Voting type"
 #: components/Sessao/Votacao
 msgid "Sessao view votacao type label"
+msgstr ""
+
+#. Default: "Date"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.date"
+msgstr ""
+
+#. Default: "No sessions."
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.emptyResults"
+msgstr ""
+
+#. Default: "End Time"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.endTime"
+msgstr ""
+
+#. Default: "Start Time"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.startTime"
+msgstr ""
+
+#. Default: "Sessions"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.tableLabel"
+msgstr ""
+
+#. Default: "Title"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.title"
+msgstr ""
+
+#. Default: "Type"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.type"
 msgstr ""
 
 #. Default: "Committee"
@@ -696,6 +811,11 @@ msgstr ""
 msgid "Vereadores slider block"
 msgstr ""
 
+#. Default: "Councilors carousel"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider carousel label"
+msgstr ""
+
 #. Default: "No councilor."
 #: components/Blocks/VereadoresSlider/DefaultView
 msgid "Vereadores slider empty"
@@ -726,9 +846,24 @@ msgstr ""
 msgid "Vereadores slider next"
 msgstr ""
 
+#. Default: "Pause autoplay"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider pause autoplay"
+msgstr ""
+
 #. Default: "Previous"
 #: components/Blocks/VereadoresSlider/DefaultView
 msgid "Vereadores slider previous"
+msgstr ""
+
+#. Default: "Resume autoplay"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider resume autoplay"
+msgstr ""
+
+#. Default: "Slide {current} of {total}"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider slide label"
 msgstr ""
 
 #. Default: "Source (Councilors)"

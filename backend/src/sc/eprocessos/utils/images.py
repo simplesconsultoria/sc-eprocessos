@@ -27,14 +27,15 @@ def _local_proxy_url(download: str, eprocessos_root: str) -> str:
     parsed = urlparse(download)
     path = parsed.path
     query = parse_qs(parsed.query)
+    url = download
     if path.endswith(SAPL_DOWNLOAD_VIEW) or path.endswith("/sapl_documentos_download"):
         upstream_path = (query.get("path") or [""])[0]
-        return f"{proxy_url}sapl_documentos_download/{upstream_path.lstrip('/')}"
-    if download.startswith(eprocessos_root):
-        return download.replace(eprocessos_root, proxy_url)
-    if download.startswith("/"):
-        return proxy_url + download.lstrip("/")
-    return download
+        url = f"{proxy_url}sapl_documentos_download/{upstream_path.lstrip('/')}"
+    elif download.startswith(eprocessos_root):
+        url = download.replace(eprocessos_root, proxy_url)
+    elif download.startswith("/"):
+        url = proxy_url + download.lstrip("/")
+    return url
 
 
 def process_image_field(
@@ -67,3 +68,30 @@ def process_image_field(
         }
     main_image["scales"] = scales
     return field_name, {field_name: [main_image]}
+
+
+def process_image(image_data: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    eprocessos_root: str = api.portal.get_registry_record("eprocessos.base_url")
+    results = []
+    for raw_item in image_data:
+        item = deepcopy(raw_item)
+        download = item.get("download", "")
+        image_url = _local_proxy_url(download, eprocessos_root)
+        item["download"] = f"{image_url}"
+        results.append(item)
+    return results
+
+
+def image_from_url_foto(url_foto: str) -> list[dict[str, Any]]:
+    eprocessos_root: str = api.portal.get_registry_record("eprocessos.base_url")
+    filename = url_foto.split("/")[-1]
+    image_url = _local_proxy_url(url_foto, eprocessos_root)
+    item = {
+        "content-type": "image/jpeg",
+        "download": f"{image_url}",
+        "filename": filename,
+        "height": 0,
+        "size": 0,
+        "width": 0,
+    }
+    return [item]

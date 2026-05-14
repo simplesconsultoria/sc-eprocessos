@@ -8,4 +8,4 @@ from zope.component import adapter
 
 @adapter(ILegislaturaItem, IBrowserLayer)
 class SerializeLegislaturaItemToJson(BaseItemSerializer):
-    pass
+    collections: tuple[str, ...] = ("items",)

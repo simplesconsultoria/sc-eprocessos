@@ -1,4 +1,4 @@
-import { Container, Button } from '@plone/components';
+import { Container } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
@@ -56,6 +56,20 @@ const resolveVereadorImage = (
   return resolveEprocessosAssetUrl(download || item?.url_foto);
 };
 
+/**
+ * Resolve vereador href from item['@id'].
+ */
+const getVereadorHref = (
+  item: LegislaturaVereadorRef | undefined,
+): string | undefined => {
+  if (!item) return undefined;
+  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
+  if (typeof appUrl === 'string' && appUrl) {
+    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
+  }
+  return undefined;
+};
+
 // Dates are ISO-like (YYYY-MM-DD), lexicographic compare works.
 const isCurrentByDateRange = (start?: string, end?: string): boolean => {
   if (!start || !end) return false;
@@ -83,17 +97,6 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
   const isCurrent =
     (content as any).atual === true ||
     isCurrentByDateRange(content.start, content.end);
-
-  const rawId = content?.['@id'] || '';
-  const appUrl = flattenToAppURL(rawId) || '';
-  let basePath = '/vereadores';
-
-  const match = appUrl.match(
-    /^(.*)\/(legislaturas|mesa-diretora|vereadores|comissoes)(\/|$)/,
-  );
-  if (match) {
-    basePath = match[1];
-  }
 
   return (
     <Container
@@ -135,9 +138,7 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
         {items.length ? (
           <div className="vereadores-grid">
             {items.map((item) => {
-              const href = item?.id
-                ? `${basePath}/vereadores/${item.id}`.replace(/\/\//g, '/')
-                : undefined;
+              const href = getVereadorHref(item);
 
               const party = Array.isArray(item?.partido)
                 ? item.partido
@@ -155,12 +156,9 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
                   name={item.title}
                   party={party}
                 >
-                  <Button
-                    className="vereador-card-body-button"
-                    aria-label={intl.formatMessage(messages.viewDetails)}
-                  >
+                  <span className="vereador-card-body-button">
                     {intl.formatMessage(messages.viewDetails)}
-                  </Button>
+                  </span>
                 </VereadorCard>
               );
             })}

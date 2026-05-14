@@ -1,0 +1,1 @@
+Honored `plone.exportimport.interfaces.IExportImportRequestMarker` on the facade serializers and `_get_filtros` so the upstream e-Processos client is not invoked during export bundle creation or import replay. @ericof

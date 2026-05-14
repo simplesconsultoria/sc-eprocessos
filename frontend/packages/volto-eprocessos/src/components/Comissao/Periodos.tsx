@@ -1,5 +1,6 @@
 import { defineMessages, useIntl } from 'react-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
@@ -7,11 +8,10 @@ import downSVG from '@plone/volto/icons/down.svg';
 import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 
 import type { ComissaoPeriodo } from '@simplesconsultoria/volto-eprocessos/types';
-import { TableBody, Cell } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
 
 const messages = defineMessages({
@@ -74,6 +74,20 @@ const getParticipanteLabel = (item: PeriodoParticipante): string => {
 
 const getParticipanteCargo = (item: PeriodoParticipante): string => {
   return (item?.cargo || item?.mandato || '').toString();
+};
+
+/**
+ * Resolve participante href from item['@id'].
+ */
+const getParticipanteHref = (
+  item: PeriodoParticipante | undefined,
+): string | undefined => {
+  if (!item) return undefined;
+  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
+  if (typeof appUrl === 'string' && appUrl) {
+    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
+  }
+  return undefined;
 };
 
 const sortComposicao = (
@@ -231,7 +245,7 @@ const Composicao = ({
           <div className="comissao-composicao-menu-body">
             {sorted.map((item, idx) => {
               const id = item?.id;
-              const href = id ? `/vereadores/vereadores/${id}` : undefined;
+              const href = getParticipanteHref(item);
               const name = getParticipanteLabel(item) || '-';
               const party = getPartyLabel(item);
               const cargo = getParticipanteCargo(item);
@@ -274,58 +288,57 @@ const Composicao = ({
 const Periodos = ({ periods }: PeriodosProps) => {
   const intl = useIntl();
 
-  if (!periods?.length) {
-    return <p>{intl.formatMessage(messages.emptyPeriods)}</p>;
-  }
+  const columns = [
+    column('id', intl.formatMessage(messages.idPeriodo)),
+    column('start', intl.formatMessage(messages.start)),
+    column('end', intl.formatMessage(messages.end)),
+    column('composition', intl.formatMessage(messages.composition)),
+  ];
 
-  const sorted = [...periods].sort((a, b) => {
-    const sa = (a.start || '').toString();
-    const sb = (b.start || '').toString();
-    if (sa !== sb) return sb.localeCompare(sa);
-    const ea = (a.end || '').toString();
-    const eb = (b.end || '').toString();
-    return eb.localeCompare(ea);
-  });
+  const rows = useMemo(
+    () =>
+      [...(periods ?? [])]
+        .sort((a, b) => {
+          const sa = (a.start || '').toString();
+          const sb = (b.start || '').toString();
+          if (sa !== sb) return sb.localeCompare(sa);
+          const ea = (a.end || '').toString();
+          const eb = (b.end || '').toString();
+          return eb.localeCompare(ea);
+        })
+        .map((p, idx) => ({
+          id: cell('id', String((p as any).id ?? idx), (p as any).id ?? '-'),
+          start: cell(
+            'start',
+            p.start ?? '',
+            <DataCurta date={p.start} defaultValue="-" />,
+          ),
+          end: cell(
+            'end',
+            p.end ?? '',
+            <DataCurta date={p.end} defaultValue="-" />,
+          ),
+          composition: cell(
+            'composition',
+            String((p as any).items?.length ?? ''),
+            <Composicao
+              items={(p as any).items}
+              periodKey={String((p as any).id ?? idx)}
+            />,
+          ),
+        })),
+    [periods],
+  );
 
   return (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full comissao-periodos'}
-    >
-      <TableHeader>
-        <Column isRowHeader className={'id'}>
-          {intl.formatMessage(messages.idPeriodo)}
-        </Column>
-        <Column isRowHeader className={'start'}>
-          {intl.formatMessage(messages.start)}
-        </Column>
-        <Column isRowHeader className={'end'}>
-          {intl.formatMessage(messages.end)}
-        </Column>
-        <Column isRowHeader className={'composition'}>
-          {intl.formatMessage(messages.composition)}
-        </Column>
-      </TableHeader>
-      <TableBody>
-        {sorted.map((p, idx) => (
-          <Row key={(p as any).id ?? idx} className="comissao-periodo">
-            <Cell className="id">{(p as any).id ?? '-'}</Cell>
-            <Cell>
-              <DataCurta date={p.start} defaultValue="-" />
-            </Cell>
-            <Cell>
-              <DataCurta date={p.end} defaultValue="-" />
-            </Cell>
-            <Cell className="composicao">
-              <Composicao
-                items={(p as any).items}
-                periodKey={String((p as any).id ?? idx)}
-              />
-            </Cell>
-          </Row>
-        ))}
-      </TableBody>
-    </Table>
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.emptyPeriods)}
+      columns={columns}
+      items={rows}
+      className="comissao-periodos"
+      rowClassName="comissao-periodo"
+    />
   );
 };
 

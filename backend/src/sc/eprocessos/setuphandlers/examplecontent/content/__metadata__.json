@@ -78,6 +78,34 @@
           "Manager",
           "Site Administrator"
         ]
+      },
+      "sc.eprocessos: Add Comissoes": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Legislaturas": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Materias": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Mesas": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Normas": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Sessoes": {
+        "acquire": false,
+        "roles": []
+      },
+      "sc.eprocessos: Add Vereadores": {
+        "acquire": false,
+        "roles": []
       }
     }
   },

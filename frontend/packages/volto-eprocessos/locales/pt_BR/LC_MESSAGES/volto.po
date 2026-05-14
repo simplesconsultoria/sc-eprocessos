@@ -128,6 +128,26 @@ msgstr "Tipo"
 msgid "File attachment download"
 msgstr "Baixar"
 
+#. Default: "Filtering by:"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.appliedFilters"
+msgstr "Filtrando por:"
+
+#. Default: "Clear"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.cancelLabel"
+msgstr "Limpar"
+
+#. Default: "Use the filters below to refine the results."
+#: components/FilterForm/FilterForm
+msgid "FilterForm.formDescription"
+msgstr "Use os filtros abaixo para refinar os resultados."
+
+#. Default: "Filter"
+#: components/FilterForm/FilterForm
+msgid "FilterForm.submitLabel"
+msgstr "Filtrar"
+
 #. Default: "Councilors"
 #: components/Legislatura/LegislaturaView
 msgid "Legislatura view councilors heading"
@@ -318,6 +338,31 @@ msgstr "Texto original"
 msgid "Materia view vote results heading"
 msgstr "Resultados da votação"
 
+#. Default: "Authorship"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.authorship"
+msgstr "Autoria"
+
+#. Default: "Date"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.date"
+msgstr "Data"
+
+#. Default: "No matters."
+#: components/Materias/MateriasLista
+msgid "MateriasLista.emptyResults"
+msgstr "Nenhuma matéria."
+
+#. Default: "Matters"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.tableLabel"
+msgstr "Matérias"
+
+#. Default: "Title"
+#: components/Materias/MateriasLista
+msgid "MateriasLista.title"
+msgstr "Título"
+
 #. Default: "Current"
 #: components/Mesa/MesaView
 msgid "Mesa view current badge"
@@ -427,6 +472,41 @@ msgstr "Matérias relacionadas"
 #: components/Norma/NormaView
 msgid "Norma view status label"
 msgstr "Situação"
+
+#. Default: "Date"
+#: components/Normas/NormasLista
+msgid "NormasLista.date"
+msgstr "Data"
+
+#. Default: "Description"
+#: components/Normas/NormasLista
+msgid "NormasLista.description"
+msgstr "Descrição"
+
+#. Default: "No norms."
+#: components/Normas/NormasLista
+msgid "NormasLista.emptyResults"
+msgstr "Nenhuma norma."
+
+#. Default: "Norms"
+#: components/Normas/NormasLista
+msgid "NormasLista.tableLabel"
+msgstr "Normas"
+
+#. Default: "Title"
+#: components/Normas/NormasLista
+msgid "NormasLista.title"
+msgstr "Título"
+
+#. Default: "abre em uma nova janela"
+#: components/FileAttachment/FileAttachment
+msgid "Opens in a new window"
+msgstr "abre em uma nova janela"
+
+#. Default: "Este documento PDF pode ter limitações de acessibilidade e requer um programa externo para visualização."
+#: components/FileAttachment/FileAttachment
+msgid "PDF document warning"
+msgstr "Este documento PDF pode ter limitações de acessibilidade e requer um programa externo para visualização."
 
 #. Default: "Minutes"
 #: components/Sessao/SessaoView
@@ -547,6 +627,41 @@ msgstr "Turno"
 #: components/Sessao/Votacao
 msgid "Sessao view votacao type label"
 msgstr "Tipo de votação"
+
+#. Default: "Date"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.date"
+msgstr "Data"
+
+#. Default: "No sessions."
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.emptyResults"
+msgstr "Nenhuma sessão."
+
+#. Default: "End Time"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.endTime"
+msgstr "Hora de término"
+
+#. Default: "Start Time"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.startTime"
+msgstr "Hora de início"
+
+#. Default: "Sessions"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.tableLabel"
+msgstr "Sessões"
+
+#. Default: "Title"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.title"
+msgstr "Título"
+
+#. Default: "Type"
+#: components/Sessoes/SessoesLista
+msgid "SessoesLista.type"
+msgstr "Tipo"
 
 #. Default: "Committee"
 #: components/Vereador/Comissoes
@@ -699,6 +814,11 @@ msgstr "Segundos entre as alternâncias (mínimo 1)."
 msgid "Vereadores slider block"
 msgstr "Vereadores (slider)"
 
+#. Default: "Councilors carousel"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider carousel label"
+msgstr "Carrossel de vereadores"
+
 #. Default: "No councilor."
 #: components/Blocks/VereadoresSlider/DefaultView
 msgid "Vereadores slider empty"
@@ -729,10 +849,25 @@ msgstr "Selecione a fonte de vereadores na barra lateral."
 msgid "Vereadores slider next"
 msgstr "Próximo"
 
+#. Default: "Pause autoplay"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider pause autoplay"
+msgstr "Pausar reprodução automática"
+
 #. Default: "Previous"
 #: components/Blocks/VereadoresSlider/DefaultView
 msgid "Vereadores slider previous"
 msgstr "Anterior"
+
+#. Default: "Resume autoplay"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider resume autoplay"
+msgstr "Retomar reprodução automática"
+
+#. Default: "Slide {current} of {total}"
+#: components/Blocks/VereadoresSlider/DefaultView
+msgid "Vereadores slider slide label"
+msgstr "Slide {current} de {total}"
 
 #. Default: "Source (Councilors)"
 #: components/Blocks/VereadoresSlider/schema

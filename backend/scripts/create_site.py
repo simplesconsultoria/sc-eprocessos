@@ -1,9 +1,11 @@
 from AccessControl.SecurityManagement import newSecurityManager
+from plone.exportimport.interfaces import IExportImportRequestMarker
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
 from Products.GenericSetup.tool import SetupTool
 from sc.eprocessos.interfaces import IBrowserLayer
 from Testing.makerequest import makerequest
+from zope.globalrequest import setRequest
 from zope.interface import directlyProvidedBy
 from zope.interface import directlyProvides
 
@@ -33,11 +35,19 @@ app = makerequest(globals()["app"])
 
 request = app.REQUEST
 
-ifaces = [IBrowserLayer]
+# Apply ``IExportImportRequestMarker`` so searchable facades short-circuit
+# their ``form_config`` vocabulary fetch — the marker only gets attached
+# inside ``plone.exportimport``'s own ``request_provides`` context, which
+# does not wrap GenericSetup profile imports nor ``addPloneSite``.
+ifaces = [IBrowserLayer, IExportImportRequestMarker]
 for iface in directlyProvidedBy(request):
     ifaces.append(iface)
 
 directlyProvides(request, *ifaces)
+
+# Publish the request to ``zope.globalrequest`` so ``getRequest()`` returns
+# our marked request from anywhere in the import flow.
+setRequest(request)
 
 admin = app.acl_users.getUserById("admin")
 admin = admin.__of__(app.acl_users)

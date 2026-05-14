@@ -1,0 +1,1 @@
+eprocessos_mock now serves the parameterless `/@@sessoes`, `/@@normas`, and `/@@materias` listings (carrying the `filtros` payload) consumed by the searchable-facade vocabulary endpoint. @ericof

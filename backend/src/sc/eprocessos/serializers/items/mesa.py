@@ -8,4 +8,4 @@ from zope.component import adapter
 
 @adapter(IMesaItem, IBrowserLayer)
 class SerializeMesaItemToJson(BaseItemSerializer):
-    pass
+    collections: tuple[str, ...] = ("items",)

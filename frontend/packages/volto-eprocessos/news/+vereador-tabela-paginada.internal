@@ -1,0 +1,1 @@
+Migrated the `Vereador` detail tables (`Filiacoes`, `Comissoes`, `MesaDiretora`, `Mandatos`) to the new `TabelaPaginada` component. Empty states now render a consistent message, the first column is the row header (a11y), and the four files drop their hand-rolled `<Table>` scaffolding. @ericof

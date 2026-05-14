@@ -3,6 +3,8 @@ export type {
   Authorship,
   BaseItem,
   FileAttachment,
+  FormConfig,
+  FormConfigFieldset,
   ImageAttachment,
   ImageScale,
   ListResponse,
@@ -30,6 +32,7 @@ export type {
   NormaMateriaRef,
   NormaAutor,
 } from './Norma';
+export type { Normas } from './Normas';
 
 // Materias
 export type {
@@ -39,6 +42,7 @@ export type {
   MateriaProcessing,
   MateriaVoteResult,
 } from './Materia';
+export type { Materias } from './Materias';
 
 // Legislaturas
 export type {
@@ -77,3 +81,4 @@ export type {
   VotacaoItem,
   VotacaoVoto,
 } from './Sessao';
+export type { Sessoes } from './Sessoes';

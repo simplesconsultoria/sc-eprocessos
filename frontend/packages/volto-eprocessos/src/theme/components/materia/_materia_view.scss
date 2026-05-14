@@ -300,39 +300,11 @@
   }
 }
 
-#page-document.view-wrapper.materia-view {
-  &.layout {
-    @include layout-container-width();
-    @include adjustMarginsToContainer($layout-container-width);
-  }
-
-  &.default {
-    @include default-container-width();
-    @include adjustMarginsToContainer($default-container-width);
-  }
-
-  &.narrow {
-    @include narrow-container-width();
-    @include adjustMarginsToContainer($narrow-container-width);
+.materias-view {
+  .documentFirstHeading,
+  .documentDescription {
+    color: var(--eprocessos-foreground-color);
   }
 }
 
-#page-add,
-#page-edit {
-  #page-document.view-wrapper.materia-view {
-    &.layout {
-      @include layout-container-width();
-      @include adjustMarginsToEditContainer($layout-container-width);
-    }
-
-    &.default {
-      @include default-container-width();
-      @include adjustMarginsToEditContainer($default-container-width);
-    }
-
-    &.narrow {
-      @include narrow-container-width();
-      @include adjustMarginsToEditContainer($narrow-container-width);
-    }
-  }
-}
+@include generate-document-views('materia-view', 'materias-view');

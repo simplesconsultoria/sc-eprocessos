@@ -22,7 +22,6 @@ EXPECTED_BEHAVIORS = (
     "plone.shortname",
     "plone.excludefromnavigation",
     "plone.versioning",
-    "volto.blocks",
 )
 
 
@@ -83,9 +82,10 @@ class TestContentType:
         """Materias facade maps to the 'materias' client service."""
         assert self.content.service_name == "materias"
 
-    def test_display_form(self):
-        """Materias requires a search form (ano + tipo)."""
-        assert self.content.display_form is True
+    def test_form_config_title(self):
+        """Materias carries its own form title — verifies that subclasses
+        override the base default via ``_form_config_title``."""
+        assert self.content._form_config_title == "Filtrar matérias"
 
     def test_item_class(self):
         """Traversed items are MateriaItem instances."""

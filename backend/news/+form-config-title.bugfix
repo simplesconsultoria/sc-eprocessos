@@ -1,0 +1,1 @@
+Honored each subclass's `_form_config_title` in `EProcessosSearchableFacade.form_config` — it was hardcoded to "Filtrar sessões" regardless of the concrete type. @ericof

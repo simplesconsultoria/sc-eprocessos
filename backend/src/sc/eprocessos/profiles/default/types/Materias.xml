@@ -29,7 +29,6 @@
     <element value="plone.shortname" />
     <element value="plone.excludefromnavigation" />
     <element value="plone.versioning" />
-    <element value="volto.blocks" />
   </property>
   <alias from="(Default)"
          to="(dynamic view)"

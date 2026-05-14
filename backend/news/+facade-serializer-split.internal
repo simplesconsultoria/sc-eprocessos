@@ -1,0 +1,1 @@
+Split facade serialization into `SerializeFacadeToJson` (for `IEProcessosFacade`) and `SerializeSearchableFacadeToJson` (for `IEProcessosSearchableFacade`); dropped the obsolete `display_form` flag and the standalone `@@formdata` endpoint. @ericof

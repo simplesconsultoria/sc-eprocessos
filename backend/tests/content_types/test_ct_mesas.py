@@ -83,10 +83,6 @@ class TestContentType:
         """Mesas facade maps to the 'mesas' client service."""
         assert self.content.service_name == "mesas"
 
-    def test_display_form(self):
-        """Mesas lists results directly (no search form)."""
-        assert self.content.display_form is False
-
     def test_item_class(self):
         """Traversed items are MesaItem instances."""
         assert self.content.item_class is MesaItem

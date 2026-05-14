@@ -12,5 +12,4 @@ class Vereadores(EProcessosFacade):
     """Facade for city councilors."""
 
     service_name: str = "vereadores"
-    display_form: bool = False
     item_class: type[EProcessosItem] = VereadorItem

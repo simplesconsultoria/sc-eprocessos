@@ -3,30 +3,6 @@
   "@type": "Normas",
   "UID": "40685dc342de44908b1b029efef98ae7",
   "allow_discussion": null,
-  "blocks": {
-    "3d58dea8-35f6-4362-925d-ed1b74637898": {
-      "@type": "description"
-    },
-    "9432f420-6776-48d7-8d6f-464a4be7efa5": {
-      "@type": "slate"
-    },
-    "db0cb0ba-7841-4af2-a498-74362a81aaad": {
-      "@type": "title"
-    },
-    "e417542d-cc8a-4a6f-8ea1-13cc70df3ff2": {
-      "@type": "listing",
-      "headlineTag": "h2",
-      "variation": "default"
-    }
-  },
-  "blocks_layout": {
-    "items": [
-      "db0cb0ba-7841-4af2-a498-74362a81aaad",
-      "3d58dea8-35f6-4362-925d-ed1b74637898",
-      "e417542d-cc8a-4a6f-8ea1-13cc70df3ff2",
-      "9432f420-6776-48d7-8d6f-464a4be7efa5"
-    ]
-  },
   "changeNote": "",
   "created": "2026-04-06T20:35:47+00:00",
   "description": "Normas",

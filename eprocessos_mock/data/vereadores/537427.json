@@ -317,8 +317,32 @@
     "page": 1,
     "page_size": 10,
     "ordem_dat_apresentacao": "desc",
-    "total": 12942,
+    "total": 12944,
     "items": [
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=259634",
+        "id": "259634",
+        "title": "REQ 20999/2026",
+        "ementa": "Encaminhamento ao Plenário do Parecer Contrário emitido pela CLJR ao PROJETO DE LEI ORDINÁRIA N° 979/2026, nos termos do art. 172 do Regimento Interno.",
+        "data_apresentacao": "12/05/2026",
+        "tipo": "Requerimento",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
+      {
+        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=259607",
+        "id": "259607",
+        "title": "MOC 875/2026",
+        "ementa": "Aplauso para a Igreja Batista Vida Nova Church.",
+        "data_apresentacao": "12/05/2026",
+        "tipo": "Moção",
+        "item_kind": "materia",
+        "emenda_impositiva": false,
+        "ano": "2026",
+        "ultima_votacao_resultado": "Aprovado"
+      },
       {
         "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=258464",
         "id": "258464",
@@ -414,30 +438,6 @@
         "emenda_impositiva": false,
         "ano": "2026",
         "ultima_votacao_resultado": "Aprovado"
-      },
-      {
-        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=257440",
-        "id": "257440",
-        "title": "MOC 837/2026",
-        "ementa": "Aplauso para BNI TRIÂNGULO NORTE.",
-        "data_apresentacao": "15/04/2026",
-        "tipo": "Moção",
-        "item_kind": "materia",
-        "emenda_impositiva": false,
-        "ano": "2026",
-        "ultima_votacao_resultado": "Aprovado"
-      },
-      {
-        "@id": "/consultas/materia/materia_mostrar_proc?cod_materia=256789",
-        "id": "256789",
-        "title": "IND 26145/2026",
-        "ementa": "Solicitando à SECRETARIA MUNICIPAL DE INFRAESTRUTURA a realização de tapa buraco na Avenida Alexandre Ribeiro Guimarães, 642, no bairro Saraiva, CEP 38408-050.",
-        "data_apresentacao": "10/04/2026",
-        "tipo": "Indicação",
-        "item_kind": "materia",
-        "emenda_impositiva": false,
-        "ano": "2026",
-        "ultima_votacao_resultado": "Aprovado"
       }
     ],
     "filters": {
@@ -465,7 +465,7 @@
         {
           "value": "MOC",
           "label": "Moção",
-          "count": 182
+          "count": 183
         },
         {
           "value": "PINFO",
@@ -500,14 +500,14 @@
         {
           "value": "REQ",
           "label": "Requerimento",
-          "count": 7535
+          "count": 7536
         }
       ],
       "ano": [
         {
           "value": "2026",
           "label": "2026",
-          "count": 1780
+          "count": 1782
         },
         {
           "value": "2025",
@@ -556,7 +556,7 @@
         {
           "value": "MOC",
           "label": "Moção",
-          "count": 182
+          "count": 183
         },
         {
           "value": "PINFO",
@@ -591,14 +591,14 @@
         {
           "value": "REQ",
           "label": "Requerimento",
-          "count": 7535
+          "count": 7536
         }
       ],
       "ano": [
         {
           "value": "2026",
           "label": "2026",
-          "count": 1780
+          "count": 1782
         },
         {
           "value": "2025",
@@ -865,7 +865,7 @@
         {
           "tipo": "MOC",
           "ano": "2026",
-          "count": 4
+          "count": 5
         },
         {
           "tipo": "PL",
@@ -875,7 +875,7 @@
         {
           "tipo": "REQ",
           "ano": "2026",
-          "count": 15
+          "count": 16
         }
       ]
     }
@@ -1161,8 +1161,161 @@
     "page": 1,
     "page_size": 10,
     "ordem_data_sessao": "desc",
-    "total": 706,
+    "total": 715,
     "items": [
+      {
+        "id": "69602",
+        "sessao_id": "1696",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1696&dat_sessao=14/05/2026",
+        "title": "9ª Reunião Ordinária",
+        "identificacao_sessao": "9ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "9",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-14",
+        "data_sessao_br": "14/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69629",
+        "sessao_id": "1697",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1697&dat_sessao=14/05/2026",
+        "title": "1ª Reunião Extraordinária",
+        "identificacao_sessao": "1ª Reunião Extraordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "1",
+        "tipo_sessao_id": "2",
+        "tipo_sessao": "Extraordinária",
+        "data_sessao": "2026-05-14",
+        "data_sessao_br": "14/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69575",
+        "sessao_id": "1695",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1695&dat_sessao=13/05/2026",
+        "title": "8ª Reunião Ordinária",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "8",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-13",
+        "data_sessao_br": "13/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69548",
+        "sessao_id": "1694",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1694&dat_sessao=12/05/2026",
+        "title": "7ª Reunião Ordinária",
+        "identificacao_sessao": "7ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "7",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-12",
+        "data_sessao_br": "12/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69521",
+        "sessao_id": "1693",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1693&dat_sessao=11/05/2026",
+        "title": "6ª Reunião Ordinária",
+        "identificacao_sessao": "6ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "6",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-11",
+        "data_sessao_br": "11/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69494",
+        "sessao_id": "1692",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1692&dat_sessao=08/05/2026",
+        "title": "5ª Reunião Ordinária",
+        "identificacao_sessao": "5ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "5",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-08",
+        "data_sessao_br": "08/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69467",
+        "sessao_id": "1691",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1691&dat_sessao=07/05/2026",
+        "title": "4ª Reunião Ordinária",
+        "identificacao_sessao": "4ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "4",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-07",
+        "data_sessao_br": "07/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69440",
+        "sessao_id": "1690",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1690&dat_sessao=06/05/2026",
+        "title": "3ª Reunião Ordinária",
+        "identificacao_sessao": "3ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "3",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-06",
+        "data_sessao_br": "06/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
+      {
+        "id": "69413",
+        "sessao_id": "1689",
+        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1689&dat_sessao=05/05/2026",
+        "title": "2ª Reunião Ordinária",
+        "identificacao_sessao": "2ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "numero_sessao": "2",
+        "tipo_sessao_id": "1",
+        "tipo_sessao": "Ordinária",
+        "data_sessao": "2026-05-05",
+        "data_sessao_br": "05/05/2026",
+        "ano": "2026",
+        "frequencia": "P",
+        "frequencia_label": "Presente",
+        "justificativa": ""
+      },
       {
         "id": "69386",
         "sessao_id": "1688",
@@ -1179,159 +1332,6 @@
         "frequencia": "P",
         "frequencia_label": "Presente",
         "justificativa": ""
-      },
-      {
-        "id": "69332",
-        "sessao_id": "1686",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1686&dat_sessao=16/04/2026",
-        "title": "10ª Reunião Ordinária",
-        "identificacao_sessao": "10ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "10",
-        "tipo_sessao_id": "1",
-        "tipo_sessao": "Ordinária",
-        "data_sessao": "2026-04-16",
-        "data_sessao_br": "16/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69359",
-        "sessao_id": "1687",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1687&dat_sessao=16/04/2026",
-        "title": "5ª Reunião Extraordinária",
-        "identificacao_sessao": "5ª Reunião Extraordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "5",
-        "tipo_sessao_id": "2",
-        "tipo_sessao": "Extraordinária",
-        "data_sessao": "2026-04-16",
-        "data_sessao_br": "16/04/2026",
-        "ano": "2026",
-        "frequencia": "F",
-        "frequencia_label": "Falta",
-        "justificativa": ""
-      },
-      {
-        "id": "69278",
-        "sessao_id": "1684",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
-        "title": "9ª Reunião Ordinária",
-        "identificacao_sessao": "9ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "9",
-        "tipo_sessao_id": "1",
-        "tipo_sessao": "Ordinária",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69305",
-        "sessao_id": "1685",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
-        "title": "4ª Reunião Extraordinária",
-        "identificacao_sessao": "4ª Reunião Extraordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "4",
-        "tipo_sessao_id": "2",
-        "tipo_sessao": "Extraordinária",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69224",
-        "sessao_id": "1682",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1682&dat_sessao=14/04/2026",
-        "title": "8ª Reunião Ordinária",
-        "identificacao_sessao": "8ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "8",
-        "tipo_sessao_id": "1",
-        "tipo_sessao": "Ordinária",
-        "data_sessao": "2026-04-14",
-        "data_sessao_br": "14/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69251",
-        "sessao_id": "1683",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1683&dat_sessao=14/04/2026",
-        "title": "3ª Reunião Extraordinária",
-        "identificacao_sessao": "3ª Reunião Extraordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "3",
-        "tipo_sessao_id": "2",
-        "tipo_sessao": "Extraordinária",
-        "data_sessao": "2026-04-14",
-        "data_sessao_br": "14/04/2026",
-        "ano": "2026",
-        "frequencia": "F",
-        "frequencia_label": "Falta",
-        "justificativa": ""
-      },
-      {
-        "id": "69170",
-        "sessao_id": "1680",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1680&dat_sessao=13/04/2026",
-        "title": "7ª Reunião Ordinária",
-        "identificacao_sessao": "7ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "7",
-        "tipo_sessao_id": "1",
-        "tipo_sessao": "Ordinária",
-        "data_sessao": "2026-04-13",
-        "data_sessao_br": "13/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69197",
-        "sessao_id": "1681",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1681&dat_sessao=13/04/2026",
-        "title": "2ª Reunião Extraordinária",
-        "identificacao_sessao": "2ª Reunião Extraordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "2",
-        "tipo_sessao_id": "2",
-        "tipo_sessao": "Extraordinária",
-        "data_sessao": "2026-04-13",
-        "data_sessao_br": "13/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
-      },
-      {
-        "id": "69143",
-        "sessao_id": "1679",
-        "@id": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1679&dat_sessao=10/04/2026",
-        "title": "6ª Reunião Ordinária",
-        "identificacao_sessao": "6ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "numero_sessao": "6",
-        "tipo_sessao_id": "1",
-        "tipo_sessao": "Ordinária",
-        "data_sessao": "2026-04-10",
-        "data_sessao_br": "10/04/2026",
-        "ano": "2026",
-        "frequencia": "P",
-        "frequencia_label": "Presente",
-        "justificativa": ""
       }
     ],
     "filters": {
@@ -1340,11 +1340,11 @@
       "tipo_desc": ""
     },
     "resumo": {
-      "presencas": 309,
+      "presencas": 318,
       "ausencias_justificadas": 6,
       "faltas": 391,
-      "total_sessoes": 706,
-      "frequencia_percentual": 44.62
+      "total_sessoes": 715,
+      "frequencia_percentual": 45.31
     },
     "facets_select": {
       "tipo": [
@@ -1356,12 +1356,12 @@
         {
           "value": "2",
           "label": "Extraordinária",
-          "count": 122
+          "count": 123
         },
         {
           "value": "1",
           "label": "Ordinária",
-          "count": 580
+          "count": 588
         },
         {
           "value": "3",
@@ -1373,7 +1373,7 @@
         {
           "value": "2026",
           "label": "2026",
-          "count": 49
+          "count": 58
         },
         {
           "value": "2025",
@@ -1412,12 +1412,12 @@
         {
           "value": "2",
           "label": "Extraordinária",
-          "count": 122
+          "count": 123
         },
         {
           "value": "1",
           "label": "Ordinária",
-          "count": 580
+          "count": 588
         },
         {
           "value": "3",
@@ -1429,7 +1429,7 @@
         {
           "value": "2026",
           "label": "2026",
-          "count": 49
+          "count": 58
         },
         {
           "value": "2025",
@@ -1468,12 +1468,12 @@
         {
           "value": "2",
           "label": "Extraordinária",
-          "count": 122
+          "count": 123
         },
         {
           "value": "1",
           "label": "Ordinária",
-          "count": 580
+          "count": 588
         },
         {
           "value": "3",
@@ -1485,7 +1485,7 @@
         {
           "value": "2026",
           "label": "2026",
-          "count": 49
+          "count": 58
         },
         {
           "value": "2025",
@@ -1582,12 +1582,12 @@
         {
           "tipo": "1",
           "ano": "2026",
-          "count": 31
+          "count": 39
         },
         {
           "tipo": "2",
           "ano": "2026",
-          "count": 18
+          "count": 19
         }
       ]
     }
@@ -1596,213 +1596,213 @@
     "page": 1,
     "page_size": 10,
     "ordem_data_sessao": "desc",
-    "total": 406,
+    "total": 418,
     "items": [
       {
-        "cod_materia": 255963,
-        "cod_votacao": "129783",
-        "id": "129783",
-        "title": "PL 1071/2026",
-        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "cod_materia": 232632,
+        "cod_votacao": "132517",
+        "id": "132517",
+        "title": "PL 670/2025",
+        "ementa": "PERMITE AOS PROFISSIONAIS DE EDUCAÇÃO FÍSICA, QUE PRESTAM SERVIÇOS COMO PERSONAL TRAINERS, O LIVRE ACESSO ÀS ACADEMIAS DE GINÁSTICA NO MUNICÍPIO DE UBERLÂNDIA",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=232632",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
+        "data_sessao": "2026-05-14",
+        "data_sessao_br": "14/05/2026",
+        "data_votacao": "2026-05-14",
+        "data_votacao_br": "14/05/2026",
         "identificacao_sessao": "9ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1696&dat_sessao=14/05/2026",
+        "vot_parlamentar": "Nao",
+        "voto_classe": "nao",
+        "voto_label": "Não",
+        "autoria": "Sérvio Túlio (PSDB)"
+      },
+      {
+        "cod_materia": 259175,
+        "cod_votacao": "132393",
+        "id": "132393",
+        "title": "PL 1139/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE NO VALOR DE R$ 20.000,00 (VINTE MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259175",
+        "tipo": "Projeto de Lei Ordinária",
+        "ano": "2026",
+        "data_sessao": "2026-05-13",
+        "data_sessao_br": "13/05/2026",
+        "data_votacao": "2026-05-13",
+        "data_votacao_br": "13/05/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
+        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1695&dat_sessao=13/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 255963,
-        "cod_votacao": "129784",
-        "id": "129784",
-        "title": "PL 1071/2026",
-        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "cod_materia": 259375,
+        "cod_votacao": "132394",
+        "id": "132394",
+        "title": "PL 1145/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL, NO VALOR DE R$ 390.000,00 (TREZENTOS E NOVENTA MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, ÀS ENTIDADES QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259375",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "9ª Reunião Ordinária",
+        "data_sessao": "2026-05-13",
+        "data_sessao_br": "13/05/2026",
+        "data_votacao": "2026-05-13",
+        "data_votacao_br": "13/05/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1695&dat_sessao=13/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 255963,
-        "cod_votacao": "129785",
-        "id": "129785",
-        "title": "PL 1071/2026",
-        "ementa": "AUTORIZA O PODER EXECUTIVO A CONTRATAR OPERAÇÕES DE CRÉDITO COM O BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S/A – BDMG, E DÁ OUTRAS PROVIDÊNCIAS.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255963",
+        "cod_materia": 259376,
+        "cod_votacao": "132395",
+        "id": "132395",
+        "title": "PL 1146/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 110.000,00 (CENTO E DEZ MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259376",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "data_sessao": "2026-05-13",
+        "data_sessao_br": "13/05/2026",
+        "data_votacao": "2026-05-13",
+        "data_votacao_br": "13/05/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1695&dat_sessao=13/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 255964,
-        "cod_votacao": "129786",
-        "id": "129786",
-        "title": "PL 1072/2026",
-        "ementa": "ALTERA OS ANEXOS V – PROGRAMAS DE GOVERNO E VI – METAS E PRIORIDADES PARA 2026 – DA LEI Nº 14.649, DE 17 DE DEZEMBRO DE 2025, E SUAS ALTERAÇÕES – PLANO PLURIANUAL – PPA 2026-2029, AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 859.500,00 (OITOCENTOS E CINQUENTA E NOVE MIL E QUINHENTOS REAIS) NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA E DÁ OUTRAS PROVIDÊNCIAS.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255964",
+        "cod_materia": 259377,
+        "cod_votacao": "132396",
+        "id": "132396",
+        "title": "PL 1147/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 750.000,00 (SETECENTOS E CINQUENTA MIL REAIS) E A TRANSFERÊNCIA DE RECURSOS NO MESMO VALOR ÀS ENTIDADES QUE MENCIONAM.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259377",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "9ª Reunião Ordinária",
+        "data_sessao": "2026-05-13",
+        "data_sessao_br": "13/05/2026",
+        "data_votacao": "2026-05-13",
+        "data_votacao_br": "13/05/2026",
+        "identificacao_sessao": "8ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1695&dat_sessao=13/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 255964,
-        "cod_votacao": "129787",
-        "id": "129787",
-        "title": "PL 1072/2026",
-        "ementa": "ALTERA OS ANEXOS V – PROGRAMAS DE GOVERNO E VI – METAS E PRIORIDADES PARA 2026 – DA LEI Nº 14.649, DE 17 DE DEZEMBRO DE 2025, E SUAS ALTERAÇÕES – PLANO PLURIANUAL – PPA 2026-2029, AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO VALOR DE R$ 859.500,00 (OITOCENTOS E CINQUENTA E NOVE MIL E QUINHENTOS REAIS) NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA E DÁ OUTRAS PROVIDÊNCIAS.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=255964",
-        "tipo": "Projeto de Lei Ordinária",
+        "cod_materia": 259178,
+        "cod_votacao": "132273",
+        "id": "132273",
+        "title": "PLC 75/2026",
+        "ementa": "REGULAMENTA O §2º DO ARTIGO 1º DA LEI COMPLEMENTAR Nº 747 DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259178",
+        "tipo": "Projeto de Lei Complementar",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "data_sessao": "2026-05-12",
+        "data_sessao_br": "12/05/2026",
+        "data_votacao": "2026-05-12",
+        "data_votacao_br": "12/05/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1694&dat_sessao=12/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 256307,
-        "cod_votacao": "129788",
-        "id": "129788",
-        "title": "PL 1075/2026",
-        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
+        "cod_materia": 259176,
+        "cod_votacao": "132278",
+        "id": "132278",
+        "title": "PL 1140/2026",
+        "ementa": "AUTORIZA ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE SERVIÇOS URBANOS NO VALOR DE R$ 60.951.351,33 (SESSENTA MILHÕES, NOVECENTOS E CINQUENTA E UM MIL, TREZENTOS E CINQUENTA E UM REAIS E TRINTA E TRÊS CENTAVOS).",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259176",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "9ª Reunião Ordinária",
+        "data_sessao": "2026-05-12",
+        "data_sessao_br": "12/05/2026",
+        "data_votacao": "2026-05-12",
+        "data_votacao_br": "12/05/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1694&dat_sessao=12/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 256307,
-        "cod_votacao": "129789",
-        "id": "129789",
-        "title": "PL 1075/2026",
-        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
+        "cod_materia": 259177,
+        "cod_votacao": "132279",
+        "id": "132279",
+        "title": "PL 1141/2026",
+        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 2.128.881,60 (DOIS MILHÕES, CENTO E VINTE E OITO MIL, OITOCENTOS E OITENTA E UM REAIS E SESSENTA CENTAVOS) E A TRANSFERÊNCIA DE RECURSOS NO MESMO VALOR ÀS ENTIDADES QUE MENCIONA.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259177",
         "tipo": "Projeto de Lei Ordinária",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "9ª Reunião Ordinária",
+        "data_sessao": "2026-05-12",
+        "data_sessao_br": "12/05/2026",
+        "data_votacao": "2026-05-12",
+        "data_votacao_br": "12/05/2026",
+        "identificacao_sessao": "7ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1694&dat_sessao=12/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 256307,
-        "cod_votacao": "129790",
-        "id": "129790",
-        "title": "PL 1075/2026",
-        "ementa": "REVOGA OS DISPOSITIVOS QUE MENCIONA.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=256307",
-        "tipo": "Projeto de Lei Ordinária",
+        "cod_materia": 259178,
+        "cod_votacao": "132120",
+        "id": "132120",
+        "title": "PLC 75/2026",
+        "ementa": "REGULAMENTA O §2º DO ARTIGO 1º DA LEI COMPLEMENTAR Nº 747 DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259178",
+        "tipo": "Projeto de Lei Complementar",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "data_sessao": "2026-05-11",
+        "data_sessao_br": "11/05/2026",
+        "data_votacao": "2026-05-11",
+        "data_votacao_br": "11/05/2026",
+        "identificacao_sessao": "6ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1693&dat_sessao=11/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
         "autoria": "Prefeito Municipal"
       },
       {
-        "cod_materia": 257232,
-        "cod_votacao": "129792",
-        "id": "129792",
-        "title": "PL 1117/2026",
-        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE CULTURA E TURISMO NO VALOR DE R$ 300.000,00 (TREZENTOS MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=257232",
-        "tipo": "Projeto de Lei Ordinária",
+        "cod_materia": 259178,
+        "cod_votacao": "132121",
+        "id": "132121",
+        "title": "PLC 75/2026",
+        "ementa": "REGULAMENTA O §2º DO ARTIGO 1º DA LEI COMPLEMENTAR Nº 747 DE 6 DE JANEIRO DE 2023, QUE “INSTITUI O REGIME DE PREVIDÊNCIA COMPLEMENTAR NO ÂMBITO DO MUNICÍPIO; FIXA O LIMITE MÁXIMO PARA A CONCESSÃO DE APOSENTADORIAS E PENSÕES PELO REGIME DE PREVIDÊNCIA DE QUE TRATA O ARTIGO 40 DA CONSTITUIÇÃO FEDERAL; AUTORIZA A ADESÃO AO PLANO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR; E DÁ OUTRAS PROVIDÊNCIAS”.",
+        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=259178",
+        "tipo": "Projeto de Lei Complementar",
         "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "4ª Reunião Extraordinária",
+        "data_sessao": "2026-05-11",
+        "data_sessao_br": "11/05/2026",
+        "data_votacao": "2026-05-11",
+        "data_votacao_br": "11/05/2026",
+        "identificacao_sessao": "6ª Reunião Ordinária",
         "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1685&dat_sessao=15/04/2026",
-        "vot_parlamentar": "Sim",
-        "voto_classe": "sim",
-        "voto_label": "Sim",
-        "autoria": "Prefeito Municipal"
-      },
-      {
-        "cod_materia": 257233,
-        "cod_votacao": "129793",
-        "id": "129793",
-        "title": "PL 1118/2026",
-        "ementa": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 80.000,00 (OITENTA MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
-        "materia_href": "/consultas/materia/materia_mostrar_proc?cod_materia=257233",
-        "tipo": "Projeto de Lei Ordinária",
-        "ano": "2026",
-        "data_sessao": "2026-04-15",
-        "data_sessao_br": "15/04/2026",
-        "data_votacao": "2026-04-15",
-        "data_votacao_br": "15/04/2026",
-        "identificacao_sessao": "9ª Reunião Ordinária",
-        "identificacao_legislativa": "2ª Sessão Legislativa da 20ª Legislatura",
-        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1684&dat_sessao=15/04/2026",
+        "sessao_href": "/consultas/sessao_plenaria/agenda_sessao_plen_mostrar_proc?cod_sessao_plen=1693&dat_sessao=11/05/2026",
         "vot_parlamentar": "Sim",
         "voto_classe": "sim",
         "voto_label": "Sim",
@@ -1810,8 +1810,8 @@
       }
     ],
     "resumo": {
-      "voto_sim": 395,
-      "voto_nao": 11,
+      "voto_sim": 406,
+      "voto_nao": 12,
       "voto_abstencao": 0
     },
     "filters": {
@@ -1840,12 +1840,12 @@
         {
           "value": "PLC",
           "label": "Projeto de Lei Complementar",
-          "count": 80
+          "count": 83
         },
         {
           "value": "PL",
           "label": "Projeto de Lei Ordinária",
-          "count": 316
+          "count": 325
         },
         {
           "value": "PELO",
@@ -1862,12 +1862,12 @@
         {
           "value": "sim",
           "label": "Sim",
-          "count": 395
+          "count": 406
         },
         {
           "value": "nao",
           "label": "Não",
-          "count": 11
+          "count": 12
         },
         {
           "value": "abstencao",
@@ -1896,12 +1896,12 @@
         {
           "value": "PLC",
           "label": "Projeto de Lei Complementar",
-          "count": 80
+          "count": 83
         },
         {
           "value": "PL",
           "label": "Projeto de Lei Ordinária",
-          "count": 316
+          "count": 325
         },
         {
           "value": "PELO",
@@ -1918,12 +1918,12 @@
         {
           "value": "sim",
           "label": "Sim",
-          "count": 395
+          "count": 406
         },
         {
           "value": "nao",
           "label": "Não",
-          "count": 11
+          "count": 12
         },
         {
           "value": "abstencao",
@@ -1935,7 +1935,7 @@
         {
           "tipo": "PL",
           "voto": "nao",
-          "count": 9
+          "count": 10
         },
         {
           "tipo": "PLC",
@@ -1965,12 +1965,12 @@
         {
           "tipo": "PL",
           "voto": "sim",
-          "count": 307
+          "count": 315
         },
         {
           "tipo": "PLC",
           "voto": "sim",
-          "count": 78
+          "count": 81
         },
         {
           "tipo": "VET",

@@ -1,0 +1,31 @@
+{
+  "@id": "/@@materias",
+  "@type": "Materias",
+  "description": "Lista de Projeto de Resolução do ano de 2026",
+  "items": [
+    {
+      "@id": "/@@materias/258968",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        }
+      ],
+      "date": "2026-05-05",
+      "description": "INSTITUI O SERVIÇO DE ORIENTAÇÃO E DEFESA DO CONSUMIDOR – PROCON CÂMARA – NO ÂMBITO DA CÂMARA MUNICIPAL DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/258968_texto_integral.pdf",
+          "filename": "258968_texto_integral.pdf",
+          "size": "551.5 KB"
+        }
+      ],
+      "id": "258968",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=258968",
+      "title": "Projeto de Resolução nº 4/2026"
+    }
+  ]
+}

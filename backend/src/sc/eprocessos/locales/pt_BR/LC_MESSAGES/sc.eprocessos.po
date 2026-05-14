@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-14 18:17+0000\n"
+"POT-Creation-Date: 2026-05-13 23:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: sc.eprocessos\n"
 
-#: sc/eprocessos/interfaces.py:45
+#: sc/eprocessos/interfaces.py:46
 msgid "Cache TTL"
 msgstr "TTL do cache"
 
@@ -26,7 +26,7 @@ msgstr "Comissões"
 msgid "Create example content to showcase this addon."
 msgstr "Criar conteúdo de exemplo para demonstrar este add-on."
 
-#: sc/eprocessos/interfaces.py:27
+#: sc/eprocessos/interfaces.py:28
 msgid "Default timeout"
 msgstr "Tempo limite padrão"
 
@@ -64,9 +64,17 @@ msgstr "Fachada para legislaturas"
 msgid "Facade for plenary sessions"
 msgstr "Fachada para sessões plenárias"
 
+#: sc/eprocessos/interfaces.py:67
+msgid "Form configuration"
+msgstr "Configuração do formulário"
+
 #: sc/eprocessos/profiles.zcml:13
 msgid "Integração do e-Processos com Plone sites"
 msgstr "Integração do e-Processos com Plone sites"
+
+#: sc/eprocessos/interfaces.py:68
+msgid "JSON configuration for the filter form."
+msgstr "Configuração JSON para o formulário de filtro."
 
 #: sc/eprocessos/profiles/default/types/Legislaturas.xml
 msgid "Legislaturas"
@@ -76,7 +84,7 @@ msgstr "Legislaturas"
 msgid "Matérias Legislativas"
 msgstr "Matérias Legislativas"
 
-#: sc/eprocessos/interfaces.py:33
+#: sc/eprocessos/interfaces.py:34
 msgid "Maximum retries"
 msgstr "Número máximo de tentativas"
 
@@ -100,7 +108,7 @@ msgstr "Plone e-Processos: Instalar"
 msgid "Plone e-Processos: Uninstall"
 msgstr "Plone e-Processos: Desinstalar"
 
-#: sc/eprocessos/interfaces.py:39
+#: sc/eprocessos/interfaces.py:40
 msgid "Retry delay"
 msgstr "Atraso entre tentativas"
 
@@ -108,23 +116,23 @@ msgstr "Atraso entre tentativas"
 msgid "Sessões Plenárias"
 msgstr "Sessões Plenárias"
 
-#: sc/eprocessos/interfaces.py:22
+#: sc/eprocessos/interfaces.py:23
 msgid "The base URL for the e-Processos API."
 msgstr "A URL base para a API do e-Processos."
 
-#: sc/eprocessos/interfaces.py:28
+#: sc/eprocessos/interfaces.py:29
 msgid "The default timeout for the e-Processos API client."
 msgstr "O tempo limite padrão para o cliente da API do e-Processos."
 
-#: sc/eprocessos/interfaces.py:40
+#: sc/eprocessos/interfaces.py:41
 msgid "The delay between retries for the e-Processos API client."
 msgstr "O atraso entre tentativas para o cliente da API do e-Processos."
 
-#: sc/eprocessos/interfaces.py:34
+#: sc/eprocessos/interfaces.py:35
 msgid "The maximum number of retries for the e-Processos API client."
 msgstr "O número máximo de tentativas para o cliente da API do e-Processos."
 
-#: sc/eprocessos/interfaces.py:46
+#: sc/eprocessos/interfaces.py:47
 msgid "Time-to-live, in seconds, for cached e-Processos responses. Set to 0 to effectively disable caching."
 msgstr "Tempo de vida (TTL), em segundos, para respostas do e-Processos em cache. Defina como 0 para desabilitar o cache na prática."
 
@@ -147,6 +155,6 @@ msgstr "Visualizar"
 msgid "e-Processos Settings"
 msgstr "Configurações do e-Processos"
 
-#: sc/eprocessos/interfaces.py:21
+#: sc/eprocessos/interfaces.py:22
 msgid "e-Processos base address"
 msgstr "Endereço base do e-Processos"

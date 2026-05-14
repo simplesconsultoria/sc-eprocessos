@@ -7,9 +7,8 @@ from copy import deepcopy
 from plone.restapi.interfaces import ISerializeToJson
 from plone.restapi.serializer.expansion import expandable_elements
 from sc.eprocessos import logger
+from sc.eprocessos import utils
 from sc.eprocessos.client.exceptions import EProcessosError
-from sc.eprocessos.utils import facade_urls
-from sc.eprocessos.utils import parse_eprocessos_url
 from zope.interface import implementer
 
 
@@ -33,9 +32,9 @@ class BaseItemSerializer:
 
     def rewrite_id(self, value: str) -> str:
         """Rewrite an e-Processos @id URL to the local facade URL."""
-        parts = parse_eprocessos_url(value)
+        parts = utils.parse_eprocessos_url(value)
         if parts:
-            urls = facade_urls()
+            urls = utils.facade_urls()
             repl = urls.get(parts.service)
             if parts.prefix and repl:
                 return value.replace(parts.prefix, repl, 1)
@@ -51,7 +50,12 @@ class BaseItemSerializer:
             for item in raw_value:
                 item_path = item.get("@id", "")
                 if item_path:
-                    item["@id"] = self.rewrite_id(item_path)
+                    item_path = self.rewrite_id(item_path)
+                    item["@id"] = item_path
+                if image := item.get("image", []):
+                    item["image"] = utils.process_image(image)
+                elif url_foto := item.get("url_foto", ""):
+                    item["image"] = utils.image_from_url_foto(url_foto)
                 value.append(item)
             result[attr] = value
 

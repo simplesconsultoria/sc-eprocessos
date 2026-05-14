@@ -1,0 +1,22 @@
+.filter-form {
+  margin: $spacing-medium 0;
+  .applied-filters {
+    width: 100%;
+    padding: $spacing-small;
+    .applied-filters-label {
+      display: none;
+    }
+    .applied-filter {
+      padding-right: $spacing-small;
+      .applied-filter-field {
+        font-weight: bold;
+      }
+      .applied-filter-value {
+        font-style: italic;
+      }
+    }
+  }
+  .results {
+    margin-top: $spacing-medium;
+  }
+}
