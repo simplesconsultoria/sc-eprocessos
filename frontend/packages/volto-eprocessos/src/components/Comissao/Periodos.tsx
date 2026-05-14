@@ -1,5 +1,6 @@
 import { defineMessages, useIntl } from 'react-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
@@ -73,6 +74,20 @@ const getParticipanteLabel = (item: PeriodoParticipante): string => {
 
 const getParticipanteCargo = (item: PeriodoParticipante): string => {
   return (item?.cargo || item?.mandato || '').toString();
+};
+
+/**
+ * Resolve participante href from item['@id'].
+ */
+const getParticipanteHref = (
+  item: PeriodoParticipante | undefined,
+): string | undefined => {
+  if (!item) return undefined;
+  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
+  if (typeof appUrl === 'string' && appUrl) {
+    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
+  }
+  return undefined;
 };
 
 const sortComposicao = (
@@ -230,7 +245,7 @@ const Composicao = ({
           <div className="comissao-composicao-menu-body">
             {sorted.map((item, idx) => {
               const id = item?.id;
-              const href = id ? `/vereadores/vereadores/${id}` : undefined;
+              const href = getParticipanteHref(item);
               const name = getParticipanteLabel(item) || '-';
               const party = getPartyLabel(item);
               const cargo = getParticipanteCargo(item);

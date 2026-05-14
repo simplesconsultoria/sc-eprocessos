@@ -92,6 +92,20 @@ const sortMembers = (items: MesaParticipante[]): MesaParticipante[] => {
   });
 };
 
+/**
+ * Resolve mesa participante href from item['@id'].
+ */
+const getParticipanteHref = (
+  item: MesaParticipante | undefined,
+): string | undefined => {
+  if (!item) return undefined;
+  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
+  if (typeof appUrl === 'string' && appUrl) {
+    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
+  }
+  return undefined;
+};
+
 const ParticipanteCard = ({
   item,
   basePath,
@@ -100,9 +114,7 @@ const ParticipanteCard = ({
   basePath: string;
 }) => {
   const imgSrc = resolveParticipantImage(item);
-  const href = item?.id
-    ? `${basePath}/vereadores/${item.id}`.replace(/\/\//g, '/')
-    : undefined;
+  const href = getParticipanteHref(item);
 
   const party = Array.isArray(item?.partido)
     ? item.partido

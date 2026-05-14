@@ -71,7 +71,6 @@ const messages = defineMessages({
 
 const getVereadorItemPath = (
   item: VereadoresSliderItem | undefined,
-  basePathFallback: string,
 ): string | undefined => {
   const raw = item?.['@id'];
   if (raw) {
@@ -80,17 +79,13 @@ const getVereadorItemPath = (
       return path.startsWith('/') ? path : `/${path}`;
     }
   }
-  if (item?.id) {
-    return `${basePathFallback}/vereadores/${item.id}`.replace(/\/\//g, '/');
-  }
   return undefined;
 };
 
 const resolveItemImageSrc = (
   item: VereadoresSliderItem | undefined,
-  basePathFallback: string,
 ): string | undefined => {
-  const base = getVereadorItemPath(item, basePathFallback);
+  const base = getVereadorItemPath(item);
   const download = item?.image?.[0]?.download;
 
   if (!base || !download) return undefined;
@@ -146,13 +141,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const rowRef = useRef<HTMLDivElement | null>(null);
   const measureRef = useRef<HTMLDivElement | null>(null);
   const carouselInnerRef = useRef<HTMLDivElement | null>(null);
-
-  const basePathFallback = useMemo(() => {
-    const match = location.pathname.match(
-      /^(.*)\/(mesa-diretora|vereadores|comissoes)(\/|$)/,
-    );
-    return match ? match[1] : '/vereadores';
-  }, [location.pathname]);
 
   const safeItems = useMemo(() => (Array.isArray(items) ? items : []), [items]);
 
@@ -351,7 +339,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
 
   const current = safeItems[index];
 
-  const imageSrc = resolveItemImageSrc(current, basePathFallback);
+  const imageSrc = resolveItemImageSrc(current);
   const name = current?.fullname || current?.title || '';
   const party = current?.description || '';
 
@@ -393,7 +381,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     );
   }
 
-  const itemHref = getVereadorItemPath(current, basePathFallback);
+  const itemHref = getVereadorItemPath(current);
 
   const allLinkIsInternal = allHref ? isInternalURL(allHref) : false;
   const allLinkTo =
