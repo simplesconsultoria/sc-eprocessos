@@ -83,10 +83,6 @@ class TestContentType:
         """Legislaturas facade maps to the 'legislaturas' client service."""
         assert self.content.service_name == "legislaturas"
 
-    def test_display_form(self):
-        """Legislaturas lists results directly (no search form)."""
-        assert self.content.display_form is False
-
     def test_item_class(self):
         """Traversed items are LegislaturaItem instances."""
         assert self.content.item_class is LegislaturaItem

@@ -83,10 +83,6 @@ class TestContentType:
         """Vereadores facade maps to the 'vereadores' client service."""
         assert self.content.service_name == "vereadores"
 
-    def test_display_form(self):
-        """Vereadores lists results directly (no search form)."""
-        assert self.content.display_form is False
-
     def test_item_class(self):
         """Traversed items are VereadorItem instances."""
         assert self.content.item_class is VereadorItem

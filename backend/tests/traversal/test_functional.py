@@ -94,13 +94,13 @@ class TestFacadeSerialization:
         assert response.status_code == 200
         data = response.json()
         assert data["service_name"] == "vereadores"
-        assert data["display_form"] is False
+        assert "form_config" not in data
 
-    def test_normas_facade_includes_display_form(
+    def test_normas_facade_includes_form_config(
         self, api_session: RelativeSession, normas_facade: EProcessosFacade
     ) -> None:
         response = api_session.get(f"/{normas_facade.id}")
         assert response.status_code == 200
         data = response.json()
         assert data["service_name"] == "normas"
-        assert data["display_form"] is True
+        assert "form_config" in data

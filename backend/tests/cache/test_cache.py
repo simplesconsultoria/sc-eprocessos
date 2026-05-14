@@ -122,38 +122,38 @@ class TestFetchDataCache:
             assert mock_get_client.return_value.vereadores.get.call_count == 2
 
 
-class TestFormDataCache:
+class TestListItemsCache:
     """The parameterized list endpoint should cache by (service, params)."""
 
     def test_hit_same_params(self):
-        from sc.eprocessos.services import formdata
+        from sc.eprocessos.serializers import facade
 
         expected = {"items": [{"id": "1"}], "description": "ok"}
-        with patch("sc.eprocessos.services.formdata.get_client") as mock_get_client:
+        with patch("sc.eprocessos.serializers.facade.get_client") as mock_get_client:
             mock_get_client.return_value.normas.list.return_value = expected
-            a = formdata._fetch_form_list("normas", ano=2026, tipo=1)
-            b = formdata._fetch_form_list("normas", ano=2026, tipo=1)
+            a = facade._list_items("normas", ano=2026, tipo=1)
+            b = facade._list_items("normas", ano=2026, tipo=1)
             assert a == b == expected
             assert mock_get_client.return_value.normas.list.call_count == 1
 
     def test_miss_different_params(self):
-        from sc.eprocessos.services import formdata
+        from sc.eprocessos.serializers import facade
 
-        with patch("sc.eprocessos.services.formdata.get_client") as mock_get_client:
+        with patch("sc.eprocessos.serializers.facade.get_client") as mock_get_client:
             mock_get_client.return_value.normas.list.side_effect = [
                 {"items": [{"id": "1"}], "description": "2025"},
                 {"items": [{"id": "2"}], "description": "2026"},
             ]
-            a = formdata._fetch_form_list("normas", ano=2025, tipo=1)
-            b = formdata._fetch_form_list("normas", ano=2026, tipo=1)
+            a = facade._list_items("normas", ano=2025, tipo=1)
+            b = facade._list_items("normas", ano=2026, tipo=1)
             assert a["description"] == "2025"
             assert b["description"] == "2026"
             assert mock_get_client.return_value.normas.list.call_count == 2
 
     def test_miss_different_service(self):
-        from sc.eprocessos.services import formdata
+        from sc.eprocessos.serializers import facade
 
-        with patch("sc.eprocessos.services.formdata.get_client") as mock_get_client:
+        with patch("sc.eprocessos.serializers.facade.get_client") as mock_get_client:
             mock_get_client.return_value.normas.list.return_value = {
                 "items": [],
                 "description": "normas",
@@ -162,8 +162,8 @@ class TestFormDataCache:
                 "items": [],
                 "description": "materias",
             }
-            a = formdata._fetch_form_list("normas", ano=2026, tipo=1)
-            b = formdata._fetch_form_list("materias", ano=2026, tipo=6)
+            a = facade._list_items("normas", ano=2026, tipo=1)
+            b = facade._list_items("materias", ano=2026, tipo=6)
             assert a["description"] == "normas"
             assert b["description"] == "materias"
 

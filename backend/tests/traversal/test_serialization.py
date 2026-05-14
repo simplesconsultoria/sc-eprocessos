@@ -1,4 +1,4 @@
-"""Integration tests for item serialization, formdata, and error handling.
+"""Integration tests for item serialization and error handling.
 
 These tests run in-process (no WSGI server) so VCR cassettes and
 mocks work correctly for intercepting external API calls.

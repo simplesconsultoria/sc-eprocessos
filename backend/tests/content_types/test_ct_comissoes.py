@@ -83,10 +83,6 @@ class TestContentType:
         """Comissoes facade maps to the 'comissoes' client service."""
         assert self.content.service_name == "comissoes"
 
-    def test_display_form(self):
-        """Comissoes lists results directly (no search form)."""
-        assert self.content.display_form is False
-
     def test_item_class(self):
         """Traversed items are ComissaoItem instances."""
         assert self.content.item_class is ComissaoItem
