@@ -7,11 +7,10 @@ import downSVG from '@plone/volto/icons/down.svg';
 import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 
 import type { ComissaoPeriodo } from '@simplesconsultoria/volto-eprocessos/types';
-import { TableBody, Cell } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
 
 const messages = defineMessages({
@@ -274,58 +273,57 @@ const Composicao = ({
 const Periodos = ({ periods }: PeriodosProps) => {
   const intl = useIntl();
 
-  if (!periods?.length) {
-    return <p>{intl.formatMessage(messages.emptyPeriods)}</p>;
-  }
+  const columns = [
+    column('id', intl.formatMessage(messages.idPeriodo)),
+    column('start', intl.formatMessage(messages.start)),
+    column('end', intl.formatMessage(messages.end)),
+    column('composition', intl.formatMessage(messages.composition)),
+  ];
 
-  const sorted = [...periods].sort((a, b) => {
-    const sa = (a.start || '').toString();
-    const sb = (b.start || '').toString();
-    if (sa !== sb) return sb.localeCompare(sa);
-    const ea = (a.end || '').toString();
-    const eb = (b.end || '').toString();
-    return eb.localeCompare(ea);
-  });
+  const rows = useMemo(
+    () =>
+      [...(periods ?? [])]
+        .sort((a, b) => {
+          const sa = (a.start || '').toString();
+          const sb = (b.start || '').toString();
+          if (sa !== sb) return sb.localeCompare(sa);
+          const ea = (a.end || '').toString();
+          const eb = (b.end || '').toString();
+          return eb.localeCompare(ea);
+        })
+        .map((p, idx) => ({
+          id: cell('id', String((p as any).id ?? idx), (p as any).id ?? '-'),
+          start: cell(
+            'start',
+            p.start ?? '',
+            <DataCurta date={p.start} defaultValue="-" />,
+          ),
+          end: cell(
+            'end',
+            p.end ?? '',
+            <DataCurta date={p.end} defaultValue="-" />,
+          ),
+          composition: cell(
+            'composition',
+            String((p as any).items?.length ?? ''),
+            <Composicao
+              items={(p as any).items}
+              periodKey={String((p as any).id ?? idx)}
+            />,
+          ),
+        })),
+    [periods],
+  );
 
   return (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full comissao-periodos'}
-    >
-      <TableHeader>
-        <Column isRowHeader className={'id'}>
-          {intl.formatMessage(messages.idPeriodo)}
-        </Column>
-        <Column isRowHeader className={'start'}>
-          {intl.formatMessage(messages.start)}
-        </Column>
-        <Column isRowHeader className={'end'}>
-          {intl.formatMessage(messages.end)}
-        </Column>
-        <Column isRowHeader className={'composition'}>
-          {intl.formatMessage(messages.composition)}
-        </Column>
-      </TableHeader>
-      <TableBody>
-        {sorted.map((p, idx) => (
-          <Row key={(p as any).id ?? idx} className="comissao-periodo">
-            <Cell className="id">{(p as any).id ?? '-'}</Cell>
-            <Cell>
-              <DataCurta date={p.start} defaultValue="-" />
-            </Cell>
-            <Cell>
-              <DataCurta date={p.end} defaultValue="-" />
-            </Cell>
-            <Cell className="composicao">
-              <Composicao
-                items={(p as any).items}
-                periodKey={String((p as any).id ?? idx)}
-              />
-            </Cell>
-          </Row>
-        ))}
-      </TableBody>
-    </Table>
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.emptyPeriods)}
+      columns={columns}
+      items={rows}
+      className="comissao-periodos"
+      rowClassName="comissao-periodo"
+    />
   );
 };
 

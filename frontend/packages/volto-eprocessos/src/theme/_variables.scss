@@ -85,11 +85,13 @@
 @mixin eprocessos-pill-badge(
   $background: var(--eprocessos-accent-color),
   $color: var(--eprocessos-accent-foreground-color),
-  $padding: 0.25rem 0.75rem
+  $padding: 0.25rem 0.75rem,
+  $border: 0
 ) {
   display: inline-flex;
   align-items: center;
   padding: $padding;
+  border: $border;
   border-radius: 999px;
   background-color: $background;
   color: $color;
@@ -191,6 +193,52 @@
         $foreground-color 60%,
         $hover-foreground-color 40%
       );
+    }
+  }
+}
+
+@mixin apply-container-logic($is-edit: false) {
+  $configs: (
+    'layout': $layout-container-width,
+    'default': $default-container-width,
+    'narrow': $narrow-container-width,
+  );
+
+  @each $name, $width in $configs {
+    &.#{$name} {
+      // Includes de largura
+      @if $name == 'layout' {
+        @include layout-container-width();
+      } @else if $name == 'default' {
+        @include default-container-width();
+      } @else if $name == 'narrow' {
+        @include narrow-container-width();
+      }
+
+      // Logica de margem
+      @if $is-edit {
+        @include adjustMarginsToEditContainer($width);
+      } @else {
+        @include adjustMarginsToContainer($width);
+      }
+    }
+  }
+}
+
+// O Mixin principal que gera os seletores
+@mixin generate-document-views($classes...) {
+  @each $class in $classes {
+    // Contexto Normal
+    #page-document.view-wrapper.#{$class} {
+      @include apply-container-logic($is-edit: false);
+    }
+
+    // Contexto Edição
+    #page-add,
+    #page-edit {
+      #page-document.view-wrapper.#{$class} {
+        @include apply-container-logic($is-edit: true);
+      }
     }
   }
 }

@@ -1,4 +1,4 @@
-import { Container, Button } from '@plone/components';
+import { Container } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
@@ -155,12 +155,9 @@ const LegislaturaView = ({ content }: LegislaturaViewProps) => {
                   name={item.title}
                   party={party}
                 >
-                  <Button
-                    className="vereador-card-body-button"
-                    aria-label={intl.formatMessage(messages.viewDetails)}
-                  >
+                  <span className="vereador-card-body-button">
                     {intl.formatMessage(messages.viewDetails)}
-                  </Button>
+                  </span>
                 </VereadorCard>
               );
             })}

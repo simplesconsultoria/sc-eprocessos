@@ -1,30 +1,182 @@
-table.paginada {
-  &.full {
-    width: 100%;
-  }
-  thead.react-aria-TableHeader {
-    tr {
-      th {
-        text-align: left;
+.filter-form {
+  .react-aria-Disclosure {
+    h3 button.react-aria-Button {
+      color: var(--eprocessos-foreground-color);
+    }
+    .react-aria-DisclosurePanel {
+      .ui.raised.segments {
+        border-color: var(--eprocessos-foreground-color);
+        .ui.segment {
+          background-color: var(--eprocessos-color);
+          color: var(--eprocessos-foreground-color);
+          .ui.secondary.segment {
+            background-color: var(--eprocessos-secondary-color);
+            color: var(--eprocessos-secondary-foreground-color);
+          }
+          .inline.field {
+            label {
+              color: var(--eprocessos-foreground-color);
+            }
+          }
+          .react-select-container {
+            .react-select__single-value {
+              color: var(--eprocessos-foreground-color);
+            }
+            .react-select__menu {
+              background-color: var(--eprocessos-color);
+              div {
+                &.react-select__option--is-focused {
+                  background-color: color-mix(
+                    in srgb,
+                    var(--eprocessos-foreground-color) 10%,
+                    var(--eprocessos-color)
+                  );
+                  color: var(--eprocessos-foreground-color);
+                  svg {
+                    fill: var(--eprocessos-foreground-color) !important;
+                  }
+                }
+                &.react-select__option--is-selected {
+                  background-color: var(--eprocessos-foreground-color);
+                  color: var(--eprocessos-color);
+                  svg {
+                    fill: var(--eprocessos-color) !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .ui.clearing.segment.actions {
+          .primary {
+            background-color: var(--eprocessos-secondary-color);
+            color: var(--eprocessos-secondary-foreground-color);
+            &:hover {
+              background-color: color-mix(
+                in srgb,
+                var(--eprocessos-secondary-foreground-color) 10%,
+                var(--eprocessos-secondary-color)
+              );
+            }
+            &:focus {
+              outline: 2px solid var(--eprocessos-secondary-foreground-color);
+            }
+          }
+          .secondary {
+            border: 1px solid var(--eprocessos-foreground-color);
+            background-color: var(--eprocessos-color);
+            color: var(--eprocessos-foreground-color);
+            &:hover {
+              background-color: color-mix(
+                in srgb,
+                var(--eprocessos-foreground-color) 10%,
+                var(--eprocessos-color)
+              );
+            }
+            &:focus {
+              outline: 2px solid var(--eprocessos-foreground-color);
+            }
+          }
+        }
       }
     }
   }
-  tbody.react-aria-TableBody {
-    tr {
-      td {
-        padding: 5px 0;
+  .results {
+    table.paginada {
+      --table-space: 0.5rem 1rem;
+      &.full {
+        width: 100%;
+      }
+      margin-bottom: $spacing-large;
+      border-collapse: collapse;
+
+      thead.react-aria-TableHeader {
+        tr {
+          border-bottom: 2px solid var(--eprocessos-foreground-color);
+
+          th {
+            padding: var(--table-space);
+            color: var(--eprocessos-foreground-color);
+            font-weight: 600;
+            text-align: left;
+          }
+        }
+      }
+      tr {
+        border-bottom: 1px solid
+          color-mix(
+            in srgb,
+            var(--eprocessos-foreground-color) 15%,
+            transparent
+          );
+      }
+      tbody.react-aria-TableBody {
+        tr {
+          background-color: var(--eprocessos-color);
+          transition: background-color 0.2s ease;
+
+          &:nth-child(even) {
+            background-color: color-mix(
+              in srgb,
+              var(--eprocessos-color) 90%,
+              var(--eprocessos-foreground-color) 10%
+            );
+          }
+
+          td {
+            padding: var(--table-space);
+            color: var(--eprocessos-foreground-color);
+          }
+        }
         p.noResults {
           width: 100%;
           padding: $spacing-small;
           text-align: center;
         }
       }
+      td {
+        .badge-type,
+        .pill {
+          @include eprocessos-pill-badge(
+            var(--eprocessos-secondary-color),
+            var(--eprocessos-secondary-foreground-color),
+            0.25rem 0.75rem,
+            var(--eprocessos-secondary-foreground-color) 1px solid
+          );
+        }
+      }
     }
-  }
-  td {
-    .badge-type,
-    .pill {
-      @include eprocessos-pill-badge();
+    .ui.secondary.attached.menu {
+      border-color: var(--eprocessos-foreground-color);
+      background-color: var(--eprocessos-color);
+      .item {
+        height: 100%;
+        padding: 0.75rem 1rem;
+        border-radius: 0;
+        margin: 0;
+        background-color: transparent;
+        color: var(--eprocessos-foreground-color);
+        line-height: unset;
+        &.disabled {
+          background-color: transparent;
+          color: color-mix(
+            in srgb,
+            var(--eprocessos-foreground-color) 30%,
+            var(--eprocessos-color)
+          ) !important;
+        }
+        &.active {
+          background-color: var(--eprocessos-foreground-color);
+          color: var(--eprocessos-color);
+        }
+        &:not(.active):not(.disabled):hover {
+          background-color: color-mix(
+            in srgb,
+            var(--eprocessos-foreground-color) 10%,
+            var(--eprocessos-color)
+          );
+        }
+      }
     }
   }
 }
