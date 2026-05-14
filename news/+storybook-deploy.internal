@@ -1,0 +1,1 @@
+Enabled `storybook-deploy` in the frontend CI workflow so the addon's Storybook is published on every successful build. @ericof
