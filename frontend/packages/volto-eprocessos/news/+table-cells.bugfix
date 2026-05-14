@@ -1,0 +1,1 @@
+Fixed react-aria-components Table structure in `Comissao` (`Participantes`, `Periodos`) — `<Column>` was wrapped in `<Row>` inside `<TableHeader>` and body rows used `<Column>` instead of `<Cell>`, which broke the cell/column count assertion. Also adapted `Participantes` image URL resolution to the new `process_image` semantics (no implicit path prefix). @ericof

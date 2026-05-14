@@ -1,11 +1,12 @@
-import { TableBody } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import { useMemo } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import type { Filiacao as FiliacaoType } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
+
+import type { Filiacao as FiliacaoType } from '@simplesconsultoria/volto-eprocessos/types';
 
 const messages = defineMessages({
   tableLabel: {
@@ -24,25 +25,11 @@ const messages = defineMessages({
     id: 'Vereador party affiliations column disaffiliation',
     defaultMessage: 'Disaffiliation',
   },
+  empty: {
+    id: 'Vereador party affiliations empty',
+    defaultMessage: 'No party affiliations recorded.',
+  },
 });
-
-interface FiliacaoProps {
-  item: FiliacaoType;
-}
-
-const Filiacao = ({ item }: FiliacaoProps) => {
-  return (
-    <Row className="filiacao">
-      <Column className="token">{item.token}</Column>
-      <Column>
-        <DataCurta date={item.data_filiacao} />
-      </Column>
-      <Column>
-        <DataCurta date={item.data_desfiliacao} />
-      </Column>
-    </Row>
-  );
-};
 
 interface FiliacoesProps {
   items: FiliacaoType[];
@@ -50,20 +37,39 @@ interface FiliacoesProps {
 
 const Filiacoes = ({ items }: FiliacoesProps) => {
   const intl = useIntl();
+
+  const columns = [
+    column('party', intl.formatMessage(messages.party)),
+    column('affiliation', intl.formatMessage(messages.affiliation)),
+    column('disaffiliation', intl.formatMessage(messages.disaffiliation)),
+  ];
+
+  const rows = useMemo(
+    () =>
+      (items ?? []).map((item) => ({
+        party: cell('party', item.token ?? '', item.token),
+        affiliation: cell(
+          'affiliation',
+          item.data_filiacao ?? '',
+          <DataCurta date={item.data_filiacao} />,
+        ),
+        disaffiliation: cell(
+          'disaffiliation',
+          item.data_desfiliacao ?? '',
+          <DataCurta date={item.data_desfiliacao} />,
+        ),
+      })),
+    [items],
+  );
+
   return (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full filiacoes'}
-    >
-      <TableHeader>
-        <Column isRowHeader>{intl.formatMessage(messages.party)}</Column>
-        <Column>{intl.formatMessage(messages.affiliation)}</Column>
-        <Column>{intl.formatMessage(messages.disaffiliation)}</Column>
-      </TableHeader>
-      <TableBody>
-        {items && items.map((item, idx) => <Filiacao key={idx} item={item} />)}
-      </TableBody>
-    </Table>
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.empty)}
+      columns={columns}
+      items={rows}
+      rowClassName="filiacao"
+    />
   );
 };
 

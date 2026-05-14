@@ -1,12 +1,13 @@
-import { TableBody, Cell } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import { useMemo } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import type { ParticipacaoComissao } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
+
+import type { ParticipacaoComissao } from '@simplesconsultoria/volto-eprocessos/types';
 
 const messages = defineMessages({
   tableLabel: {
@@ -35,58 +36,47 @@ const messages = defineMessages({
   },
 });
 
-interface ParticipacaoProps {
-  item: ParticipacaoComissao;
-}
-
-const Participacao = ({ item }: ParticipacaoProps) => {
-  return (
-    <Row className="participacao-comissao">
-      {/* MUDANÇA: `<Column>` alterado para `<Cell>` com a prop `textValue` */}
-      <Cell className="comissao" textValue={item.comissao || 'Comissão'}>
-        <Link item={item} title={item.comissao} />
-      </Cell>
-      <Cell className="titulo" textValue={item.title || 'Título'}>
-        {item.title}
-      </Cell>
-      <Cell textValue={item.start || 'Início'}>
-        <DataCurta date={item.start} />
-      </Cell>
-      <Cell textValue={item.end || 'Fim'}>
-        <DataCurta date={item.end} />
-      </Cell>
-    </Row>
-  );
-};
-
 interface ComissoesProps {
   items: ParticipacaoComissao[];
 }
 
 const Comissoes = ({ items }: ComissoesProps) => {
   const intl = useIntl();
-  return items && items.length > 0 ? (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full comissoes'}
-    >
-      <TableHeader>
-        <Row>
-          {/* Aqui continua sendo `<Column>`, pois é o cabeçalho */}
-          <Column isRowHeader>{intl.formatMessage(messages.committee)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.start)}</Column>
-          <Column isRowHeader>{intl.formatMessage(messages.end)}</Column>
-        </Row>
-      </TableHeader>
-      <TableBody>
-        {items.map((item, idx) => (
-          <Participacao key={idx} item={item} />
-        ))}
-      </TableBody>
-    </Table>
-  ) : (
-    <p>{intl.formatMessage(messages.empty)}</p>
+
+  const columns = [
+    column('committee', intl.formatMessage(messages.committee)),
+    column('title', intl.formatMessage(messages.title)),
+    column('start', intl.formatMessage(messages.start)),
+    column('end', intl.formatMessage(messages.end)),
+  ];
+
+  const rows = useMemo(
+    () =>
+      (items ?? []).map((item) => ({
+        committee: cell(
+          'committee',
+          item.comissao ?? '',
+          <Link item={item} title={item.comissao} />,
+        ),
+        title: cell(
+          'title',
+          item.title ?? '',
+          <span className="pill">{item.title}</span>,
+        ),
+        start: cell('start', item.start ?? '', <DataCurta date={item.start} />),
+        end: cell('end', item.end ?? '', <DataCurta date={item.end} />),
+      })),
+    [items],
+  );
+
+  return (
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.empty)}
+      columns={columns}
+      items={rows}
+      rowClassName="participacao-comissao"
+    />
   );
 };
 

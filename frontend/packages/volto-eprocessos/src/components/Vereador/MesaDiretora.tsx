@@ -1,11 +1,12 @@
-import { TableBody } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import { useMemo } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import type { ParticipacaoMesa } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
+
+import type { ParticipacaoMesa } from '@simplesconsultoria/volto-eprocessos/types';
 
 const messages = defineMessages({
   tableLabel: {
@@ -30,48 +31,37 @@ const messages = defineMessages({
   },
 });
 
-interface ParticipacaoProps {
-  item: ParticipacaoMesa;
-}
-
-const Participacao = ({ item }: ParticipacaoProps) => {
-  return (
-    <Row className="participacao-mesa-diretora">
-      <Column className="titulo">{item.title}</Column>
-      <Column>
-        <DataCurta date={item.start} />
-      </Column>
-      <Column>
-        <DataCurta date={item.end} />
-      </Column>
-    </Row>
-  );
-};
-
 interface MesaDiretoraProps {
   items: ParticipacaoMesa[];
 }
 
 const MesaDiretora = ({ items }: MesaDiretoraProps) => {
   const intl = useIntl();
-  return items && items.length > 0 ? (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full mesas'}
-    >
-      <TableHeader>
-        <Column isRowHeader>{intl.formatMessage(messages.title)}</Column>
-        <Column>{intl.formatMessage(messages.start)}</Column>
-        <Column>{intl.formatMessage(messages.end)}</Column>
-      </TableHeader>
-      <TableBody>
-        {items.map((item, idx) => (
-          <Participacao key={idx} item={item} />
-        ))}
-      </TableBody>
-    </Table>
-  ) : (
-    <p>{intl.formatMessage(messages.empty)}</p>
+
+  const columns = [
+    column('title', intl.formatMessage(messages.title)),
+    column('start', intl.formatMessage(messages.start)),
+    column('end', intl.formatMessage(messages.end)),
+  ];
+
+  const rows = useMemo(
+    () =>
+      (items ?? []).map((item) => ({
+        title: cell('title', item.title ?? '', item.title),
+        start: cell('start', item.start ?? '', <DataCurta date={item.start} />),
+        end: cell('end', item.end ?? '', <DataCurta date={item.end} />),
+      })),
+    [items],
+  );
+
+  return (
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.empty)}
+      columns={columns}
+      items={rows}
+      rowClassName="participacao-mesa-diretora"
+    />
   );
 };
 

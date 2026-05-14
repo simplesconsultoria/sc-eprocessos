@@ -46,7 +46,10 @@ const resolveParticipanteImage = (
   item: ComissaoParticipante,
 ): string | undefined => {
   const download = (item as any)?.image?.[0]?.download;
-  return resolveEprocessosAssetUrl(download || (item as any)?.url_foto);
+  const relativeUrl = resolveEprocessosAssetUrl(
+    download || (item as any)?.url_foto,
+  );
+  return `${item['@id']}/${relativeUrl}`;
 };
 
 interface ParticipantesProps {
@@ -73,29 +76,21 @@ const Participantes = ({ items }: ParticipantesProps) => {
       className={'full comissao-participantes'}
     >
       <TableHeader>
-        <Row>
-          <Column isRowHeader className={'photo'}>
-            {intl.formatMessage(messages.photo)}
-          </Column>
-          <Column isRowHeader className={'name'}>
-            {intl.formatMessage(messages.name)}
-          </Column>
-          <Column isRowHeader className={'role'}>
-            {intl.formatMessage(messages.role)}
-          </Column>
-          <Column isRowHeader className={'term'}>
-            {intl.formatMessage(messages.term)}
-          </Column>
-          <Column isRowHeader className={'party'}>
-            {intl.formatMessage(messages.party)}
-          </Column>
-        </Row>
+        <Column className={'photo'}>
+          {intl.formatMessage(messages.photo)}
+        </Column>
+        <Column isRowHeader className={'name'}>
+          {intl.formatMessage(messages.name)}
+        </Column>
+        <Column className={'role'}>{intl.formatMessage(messages.role)}</Column>
+        <Column className={'term'}>{intl.formatMessage(messages.term)}</Column>
+        <Column className={'party'}>
+          {intl.formatMessage(messages.party)}
+        </Column>
       </TableHeader>
       <TableBody>
         {sorted.map((item, idx) => {
-          const href = (item as any)?.id
-            ? `/vereadores/${(item as any).id}`
-            : undefined;
+          const href = item['@id'];
           const party = Array.isArray((item as any).partido)
             ? (item as any).partido
                 .map((p: any) => p.token)
@@ -116,6 +111,7 @@ const Participantes = ({ items }: ParticipantesProps) => {
                 textValue={intl.formatMessage(messages.photo)}
               >
                 <Avatar
+                  href={href}
                   src={imgSrc}
                   alt={(item as any).title || ''}
                   size="3rem"

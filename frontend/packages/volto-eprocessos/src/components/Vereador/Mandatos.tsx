@@ -1,11 +1,12 @@
-import { TableBody } from 'react-aria-components';
-import { Table } from '@plone/components';
-import { TableHeader } from '@plone/components';
-import { Row } from '@plone/components';
-import { Column } from '@plone/components';
+import { useMemo } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import type { Mandato as MandatoType } from '@simplesconsultoria/volto-eprocessos/types';
 import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Data';
+import TabelaPaginada, {
+  cell,
+  column,
+} from '@simplesconsultoria/volto-eprocessos/components/TabelaPaginada/TabelaPaginada';
+
+import type { Mandato as MandatoType } from '@simplesconsultoria/volto-eprocessos/types';
 
 const messages = defineMessages({
   tableLabel: {
@@ -32,27 +33,11 @@ const messages = defineMessages({
     id: 'Vereador terms column votes',
     defaultMessage: 'Votes',
   },
+  empty: {
+    id: 'Vereador terms empty',
+    defaultMessage: 'No terms recorded.',
+  },
 });
-
-interface MandatoProps {
-  item: MandatoType;
-}
-
-const Mandato = ({ item }: MandatoProps) => {
-  return (
-    <Row className="mandato">
-      <Column className="mandato">{item.id}</Column>
-      <Column>
-        <DataCurta date={item.start} />
-      </Column>
-      <Column>
-        <DataCurta date={item.end} />
-      </Column>
-      <Column>{item.natureza}</Column>
-      <Column>{item.votos}</Column>
-    </Row>
-  );
-};
 
 interface MandatosProps {
   items: MandatoType[];
@@ -60,22 +45,35 @@ interface MandatosProps {
 
 const Mandatos = ({ items }: MandatosProps) => {
   const intl = useIntl();
+
+  const columns = [
+    column('legislature', intl.formatMessage(messages.legislature)),
+    column('start', intl.formatMessage(messages.start)),
+    column('end', intl.formatMessage(messages.end)),
+    column('nature', intl.formatMessage(messages.nature)),
+    column('votes', intl.formatMessage(messages.votes)),
+  ];
+
+  const rows = useMemo(
+    () =>
+      (items ?? []).map((item) => ({
+        legislature: cell('legislature', String(item.id), item.id),
+        start: cell('start', item.start ?? '', <DataCurta date={item.start} />),
+        end: cell('end', item.end ?? '', <DataCurta date={item.end} />),
+        nature: cell('nature', item.natureza ?? '', item.natureza),
+        votes: cell('votes', String(item.votos ?? ''), item.votos),
+      })),
+    [items],
+  );
+
   return (
-    <Table
-      aria-label={intl.formatMessage(messages.tableLabel)}
-      className={'full mandatos'}
-    >
-      <TableHeader>
-        <Column isRowHeader>{intl.formatMessage(messages.legislature)}</Column>
-        <Column>{intl.formatMessage(messages.start)}</Column>
-        <Column>{intl.formatMessage(messages.end)}</Column>
-        <Column>{intl.formatMessage(messages.nature)}</Column>
-        <Column>{intl.formatMessage(messages.votes)}</Column>
-      </TableHeader>
-      <TableBody>
-        {items && items.map((item, idx) => <Mandato key={idx} item={item} />)}
-      </TableBody>
-    </Table>
+    <TabelaPaginada
+      label={intl.formatMessage(messages.tableLabel)}
+      noResultsMessage={intl.formatMessage(messages.empty)}
+      columns={columns}
+      items={rows}
+      rowClassName="mandato"
+    />
   );
 };
 
