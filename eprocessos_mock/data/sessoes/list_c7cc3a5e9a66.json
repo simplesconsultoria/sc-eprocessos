@@ -4,11 +4,221 @@
   "description": "Lista de reuniões plenárias",
   "items": [
     {
+      "@id": "/@@sessoes/id/1696",
+      "@id_presenca": "/@@sessoes/id/1696/presenca",
+      "@id_votacao": "/@@sessoes/id/1696/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [],
+      "date": "2026-05-14",
+      "description": "14/05/2026 09:00",
+      "endTime": "",
+      "id": "1696",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1696_pauta_sessao.pdf",
+          "filename": "1696_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "9ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1695",
+      "@id_presenca": "/@@sessoes/id/1695/presenca",
+      "@id_votacao": "/@@sessoes/id/1695/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1695_ata_sessao.pdf",
+          "filename": "1695_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-13",
+      "description": "13/05/2026 09:00",
+      "endTime": "",
+      "id": "1695",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1695_pauta_sessao.pdf",
+          "filename": "1695_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "8ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1694",
+      "@id_presenca": "/@@sessoes/id/1694/presenca",
+      "@id_votacao": "/@@sessoes/id/1694/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1694_ata_sessao.pdf",
+          "filename": "1694_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-12",
+      "description": "12/05/2026 09:00",
+      "endTime": "",
+      "id": "1694",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1694_pauta_sessao.pdf",
+          "filename": "1694_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "7ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1693",
+      "@id_presenca": "/@@sessoes/id/1693/presenca",
+      "@id_votacao": "/@@sessoes/id/1693/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1693_ata_sessao.pdf",
+          "filename": "1693_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-11",
+      "description": "11/05/2026 09:00",
+      "endTime": "",
+      "id": "1693",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1693_pauta_sessao.pdf",
+          "filename": "1693_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "6ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1692",
+      "@id_presenca": "/@@sessoes/id/1692/presenca",
+      "@id_votacao": "/@@sessoes/id/1692/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1692_ata_sessao.pdf",
+          "filename": "1692_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-08",
+      "description": "08/05/2026 09:00",
+      "endTime": "",
+      "id": "1692",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1692_pauta_sessao.pdf",
+          "filename": "1692_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "5ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1691",
+      "@id_presenca": "/@@sessoes/id/1691/presenca",
+      "@id_votacao": "/@@sessoes/id/1691/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1691_ata_sessao.pdf",
+          "filename": "1691_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-07",
+      "description": "07/05/2026 09:00",
+      "endTime": "",
+      "id": "1691",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1691_pauta_sessao.pdf",
+          "filename": "1691_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "4ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
+      "@id": "/@@sessoes/id/1690",
+      "@id_presenca": "/@@sessoes/id/1690/presenca",
+      "@id_votacao": "/@@sessoes/id/1690/votacao",
+      "@type": "SessaoPlenaria",
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1690_ata_sessao.pdf",
+          "filename": "1690_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "date": "2026-05-06",
+      "description": "06/05/2026 09:00",
+      "endTime": "",
+      "id": "1690",
+      "pauta": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=pauta_sessao/1690_pauta_sessao.pdf",
+          "filename": "1690_pauta_sessao.pdf",
+          "size": ""
+        }
+      ],
+      "startTime": "09:00",
+      "title": "3ª Reunião Ordinária",
+      "type": "Ordinária",
+      "type_id": 1
+    },
+    {
       "@id": "/@@sessoes/id/1689",
       "@id_presenca": "/@@sessoes/id/1689/presenca",
       "@id_votacao": "/@@sessoes/id/1689/votacao",
       "@type": "SessaoPlenaria",
-      "ata": [],
+      "ata": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=ata_sessao/1689_ata_sessao.pdf",
+          "filename": "1689_ata_sessao.pdf",
+          "size": ""
+        }
+      ],
       "date": "2026-05-05",
       "description": "05/05/2026 09:00",
       "endTime": "",

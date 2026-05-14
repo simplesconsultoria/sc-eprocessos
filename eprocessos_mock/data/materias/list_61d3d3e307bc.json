@@ -1,0 +1,346 @@
+{
+  "@id": "/@@materias",
+  "@type": "Materias",
+  "description": "Lista de Projeto de Resolução do ano de 2023",
+  "items": [
+    {
+      "@id": "/@@materias/185638",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Antônio Augusto Queijinho (PSDB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Leandro Neves (PRD)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Raphael Leles (União Brasil)"
+        }
+      ],
+      "date": "2023-12-14",
+      "description": "CRIA A FRENTE PARLAMENTAR PELO DESENVOLVIMENTO, EMPREENDEDORISMO E GERAÇÃO DE EMPREGO E DÁ OUTRAS PROVIDÊNCIAS",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/185638_texto_integral.pdf",
+          "filename": "185638_texto_integral.pdf",
+          "size": "567.4 KB"
+        }
+      ],
+      "id": "185638",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=185638",
+      "title": "Projeto de Resolução nº 29/2023"
+    },
+    {
+      "@id": "/@@materias/164455",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        }
+      ],
+      "date": "2023-03-13",
+      "description": "ACRESCENTA DISPOSITIVOS NO ART. 3º DA RESOLUÇÃO Nº 061, DE 02 DE DEZEMBRO DE 2005, QUE DISPÕE SOBRE A CONCESSÃO DE HOMENAGENS E HONRARIAS PELO PODER LEGISLATIVO MUNICIPAL.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/164455_texto_integral.pdf",
+          "filename": "164455_texto_integral.pdf",
+          "size": "227.1 KB"
+        }
+      ],
+      "id": "164455",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=164455",
+      "title": "Projeto de Resolução nº 28/2023"
+    },
+    {
+      "@id": "/@@materias/164146",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Eduardo Moraes (REPUBLICANOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Neemias Miquéias (PODEMOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Sérgio do Bom Preço (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Thais Andrade (União Brasil)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Zezinho Mendonça (PP)"
+        }
+      ],
+      "date": "2023-03-09",
+      "description": "ALTERA O ART. 172 DA RESOLUÇÃO Nº 031, DE 19 DE DEZEMBRO DE 2002, QUE \"DISPÕE SOBRE O REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS\"",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/164146_texto_integral.pdf",
+          "filename": "164146_texto_integral.pdf",
+          "size": "125.1 KB"
+        }
+      ],
+      "id": "164146",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=164146",
+      "title": "Projeto de Resolução nº 27/2023"
+    },
+    {
+      "@id": "/@@materias/156996",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Antônio Carrijo (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Cláudia Guerra (PDT)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Dr. Igino (PT)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Dudu Luiz Eduardo (Solidariedade)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Eduardo Moraes (REPUBLICANOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Fabão (PV)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Gilberto Rezende (MDB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Gilvan Masferrer (PSB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Leandro Neves (PRD)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Murilo Ferreira (REDE)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Odair José (Solidariedade)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Raphael Leles (União Brasil)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Sargento Ednaldo (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Thais Andrade (União Brasil)"
+        }
+      ],
+      "date": "2023-02-06",
+      "description": "ALTERA A RESOLUÇÃO Nº 31, DE 19 DE DEZEMBRO DE 2002, QUE \"DISPÕE SOBRE O REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE UBERLÂNDIA\"",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/156996_texto_integral.pdf",
+          "filename": "156996_texto_integral.pdf",
+          "size": "556 KB"
+        }
+      ],
+      "id": "156996",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=156996",
+      "title": "Projeto de Resolução nº 25/2023"
+    },
+    {
+      "@id": "/@@materias/160566",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Eduardo Moraes (REPUBLICANOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Neemias Miquéias (PODEMOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Sérgio do Bom Preço (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Thais Andrade (União Brasil)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Zezinho Mendonça (PP)"
+        }
+      ],
+      "date": "2023-02-03",
+      "description": "ALTERA DISPOSITIVOS DA RESOLUÇÃO Nº 031, DE 19 DE DEZEMBRO DE 2002, QUE \"DISPÕE SOBRE O REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE UBERLÂNDIA E DÁ OUTRAS PROVIDÊNCIAS\"",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/160566_texto_integral.pdf",
+          "filename": "160566_texto_integral.pdf",
+          "size": "166.6 KB"
+        }
+      ],
+      "id": "160566",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=160566",
+      "title": "Projeto de Resolução nº 26/2023"
+    },
+    {
+      "@id": "/@@materias/157959",
+      "@type": "Materia",
+      "authorship": [
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Abatenio Marquez (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Amanda Gondim (PSB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Anderson Lima (PL)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Cláudia Guerra (PDT)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Dr. Igino (PT)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Fabão (PV)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Gilberto Rezende (MDB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Gilvan Masferrer (PSB)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Gláucia da Saúde (PL)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Ivan Nunes (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Liza Prado (CIDADANIA)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Neemias Miquéias (PODEMOS)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Sargento Rildo (PP)"
+        },
+        {
+          "description": "Parlamentar",
+          "firstAuthor": true,
+          "title": "Zezinho Mendonça (PP)"
+        }
+      ],
+      "date": "2023-01-16",
+      "description": "ALTERA O INCISO XIV, DO ART. 102 DA RESOLUÇÃO Nº 031, DE 19 DE DEZEMBRO DE 2002, QUE DISPÕE SOBRE O REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE UBERLÂNDIA.",
+      "file": [
+        {
+          "content-type": "application/pdf",
+          "download": "/@@sapl_documentos_download?path=materia/157959_texto_integral.pdf",
+          "filename": "157959_texto_integral.pdf",
+          "size": "1.8 MB"
+        }
+      ],
+      "id": "157959",
+      "remoteUrl": "/consultas/materia/materia_mostrar_proc?cod_materia=157959",
+      "title": "Projeto de Resolução nº 24/2023"
+    }
+  ]
+}

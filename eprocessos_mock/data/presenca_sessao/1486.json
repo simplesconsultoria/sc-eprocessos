@@ -1,0 +1,26 @@
+{
+  "@id": "/@@sessoes/id/1486/presenca",
+  "@type": "presencaSessao",
+  "chamadaRegimental": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "description": "9ª Reunião Ordinária - 12/12/2024",
+  "ordemDia": [
+    {
+      "ausentes": [],
+      "ausentes_qtde": "0",
+      "justificados": [],
+      "justificados_qtde": "0",
+      "presentes": [],
+      "presentes_qtde": "0"
+    }
+  ],
+  "title": "Listas de presença na reunião plenária"
+}

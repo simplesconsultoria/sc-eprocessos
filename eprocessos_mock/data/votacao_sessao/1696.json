@@ -1,0 +1,359 @@
+{
+  "@id": "/@@sessoes/id/1696/votacao",
+  "@type": "votacaoNominal",
+  "description": "9ª Reunião Ordinária – 14/05/2026",
+  "items": [
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259637",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A TRANSFERÊNCIA DE RECURSOS DO ORÇAMENTO DA SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE NO VALOR DE R$ 300.000,00 (TREZENTOS MIL REAIS) À ENTIDADE QUE  MENCIONA.",
+      "favoravel": 0,
+      "id": "259637",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1151/2026",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259638",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A TRANSFERÊNCIA DE RECURSOS DO ORÇAMENTO DA SECRETARIA MUNICIPAL DE SAÚDE, NO VALOR DE R$ 445.000,00 (QUATROCENTOS E QUARENTA E CINCO MIL REAIS), ÀS ENTIDADES QUE MENCIONA.",
+      "favoravel": 0,
+      "id": "259638",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1152/2026",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "1ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259175",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE GESTÃO AMBIENTAL E SUSTENTABILIDADE NO VALOR DE R$ 20.000,00 (VINTE MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+      "favoravel": 0,
+      "id": "259175",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1139/2026",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "contrario": 0,
+      "favoravel": 0,
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Simbólica",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259375",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL, NO VALOR DE R$ 390.000,00 (TREZENTOS E NOVENTA MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, ÀS ENTIDADES QUE MENCIONA.",
+      "favoravel": 0,
+      "id": "259375",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1145/2026",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259376",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A ABERTURA DE CRÉDITO SUPLEMENTAR NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 110.000,00 (CENTO E DEZ MIL REAIS), E A TRANSFERÊNCIA DE RECURSOS, NO MESMO VALOR, À ENTIDADE QUE MENCIONA.",
+      "favoravel": 0,
+      "id": "259376",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1146/2026",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/259377",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Externo",
+          "id": "434780",
+          "primeiro_autor": true,
+          "title": "Prefeito Municipal"
+        }
+      ],
+      "contrario": 0,
+      "description": "AUTORIZA A ABERTURA DE CRÉDITO ESPECIAL NO ORÇAMENTO DA SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SOCIAL NO VALOR DE R$ 750.000,00 (SETECENTOS E CINQUENTA MIL REAIS) E A TRANSFERÊNCIA DE RECURSOS NO MESMO VALOR ÀS ENTIDADES QUE MENCIONAM.",
+      "favoravel": 0,
+      "id": "259377",
+      "presidencia": 0,
+      "quorum": "Maioria absoluta",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 1147/2026",
+      "turno": "2ª Discussão",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    },
+    {
+      "@id": "/@@materias/232632",
+      "@type": "Materia",
+      "abstencao": 0,
+      "apuracao": [],
+      "ausente": 0,
+      "autoria": [
+        {
+          "description": "Parlamentar",
+          "id": "543274",
+          "primeiro_autor": true,
+          "title": "Sérvio Túlio"
+        }
+      ],
+      "contrario": 0,
+      "description": "PERMITE AOS PROFISSIONAIS DE EDUCAÇÃO FÍSICA, QUE PRESTAM SERVIÇOS COMO PERSONAL TRAINERS, O LIVRE ACESSO ÀS ACADEMIAS DE GINÁSTICA NO MUNICÍPIO DE UBERLÂNDIA",
+      "favoravel": 0,
+      "id": "232632",
+      "presidencia": 0,
+      "quorum": "Maioria simples",
+      "tipo_votacao": "Nominal",
+      "title": "Projeto de Lei Ordinária nº 670/2025",
+      "turno": "Apreciar parecer contrário",
+      "votos": [
+        {
+          "abstencao": [],
+          "ausente": [],
+          "contrario": [],
+          "favoravel": [],
+          "presidencia": []
+        }
+      ]
+    }
+  ],
+  "title": "Lista de votação nominal"
+}
