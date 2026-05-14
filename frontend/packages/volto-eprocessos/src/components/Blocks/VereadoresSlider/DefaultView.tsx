@@ -6,7 +6,6 @@ import React, {
   useState,
 } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { useLocation } from 'react-router-dom';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import ConditionalLink from '@plone/volto/components/manage/ConditionalLink/ConditionalLink';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
@@ -131,7 +130,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   autoplayIntervalSeconds,
 }) => {
   const intl = useIntl();
-  const location = useLocation();
   const [index, setIndex] = useState(0);
   const [enterFrom, setEnterFrom] = useState<'left' | 'right' | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
