@@ -231,7 +231,7 @@ const Composicao = ({
           <div className="comissao-composicao-menu-body">
             {sorted.map((item, idx) => {
               const id = item?.id;
-              const href = id ? `/vereadores/${id}` : undefined;
+              const href = id ? `/vereadores/vereadores/${id}` : undefined;
               const name = getParticipanteLabel(item) || '-';
               const party = getPartyLabel(item);
               const cargo = getParticipanteCargo(item);
@@ -296,11 +296,13 @@ const Periodos = ({ periods }: PeriodosProps) => {
         <Column isRowHeader className={'id'}>
           {intl.formatMessage(messages.idPeriodo)}
         </Column>
-        <Column className={'start'}>
+        <Column isRowHeader className={'start'}>
           {intl.formatMessage(messages.start)}
         </Column>
-        <Column className={'end'}>{intl.formatMessage(messages.end)}</Column>
-        <Column className={'composition'}>
+        <Column isRowHeader className={'end'}>
+          {intl.formatMessage(messages.end)}
+        </Column>
+        <Column isRowHeader className={'composition'}>
           {intl.formatMessage(messages.composition)}
         </Column>
       </TableHeader>

@@ -76,15 +76,19 @@ const Participantes = ({ items }: ParticipantesProps) => {
       className={'full comissao-participantes'}
     >
       <TableHeader>
-        <Column className={'photo'}>
+        <Column isRowHeader className={'photo'}>
           {intl.formatMessage(messages.photo)}
         </Column>
         <Column isRowHeader className={'name'}>
           {intl.formatMessage(messages.name)}
         </Column>
-        <Column className={'role'}>{intl.formatMessage(messages.role)}</Column>
-        <Column className={'term'}>{intl.formatMessage(messages.term)}</Column>
-        <Column className={'party'}>
+        <Column isRowHeader className={'role'}>
+          {intl.formatMessage(messages.role)}
+        </Column>
+        <Column isRowHeader className={'term'}>
+          {intl.formatMessage(messages.term)}
+        </Column>
+        <Column isRowHeader className={'party'}>
           {intl.formatMessage(messages.party)}
         </Column>
       </TableHeader>
