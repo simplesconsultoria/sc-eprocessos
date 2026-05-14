@@ -36,7 +36,7 @@
     "admin"
   ],
   "description": "Atividade legislativa",
-  "effective": "2026-04-07T12:21:01+00:00",
+  "effective": "2026-04-07T12:21:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},

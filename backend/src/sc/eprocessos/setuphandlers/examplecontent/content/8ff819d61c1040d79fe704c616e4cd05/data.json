@@ -3,30 +3,6 @@
   "@type": "Sessoes",
   "UID": "8ff819d61c1040d79fe704c616e4cd05",
   "allow_discussion": null,
-  "blocks": {
-    "29e0876c-2722-4072-973a-cc6eea04f7a8": {
-      "@type": "slate"
-    },
-    "59342636-eb58-4886-9659-62f2b69c52c3": {
-      "@type": "description"
-    },
-    "66df8a6c-3cd7-44fc-a28d-0ff1cee399ef": {
-      "@type": "listing",
-      "headlineTag": "h2",
-      "variation": "default"
-    },
-    "b758cca1-c9d5-4b36-9647-14f36d1faf6d": {
-      "@type": "title"
-    }
-  },
-  "blocks_layout": {
-    "items": [
-      "b758cca1-c9d5-4b36-9647-14f36d1faf6d",
-      "59342636-eb58-4886-9659-62f2b69c52c3",
-      "66df8a6c-3cd7-44fc-a28d-0ff1cee399ef",
-      "29e0876c-2722-4072-973a-cc6eea04f7a8"
-    ]
-  },
   "changeNote": "",
   "created": "2026-04-06T20:36:12+00:00",
   "description": "Sess\u00f5es plen\u00e1rias",
