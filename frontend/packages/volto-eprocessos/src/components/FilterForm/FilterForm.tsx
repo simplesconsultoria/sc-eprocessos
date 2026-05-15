@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import { useHistory, useLocation } from 'react-router-dom';
 import qs from 'query-string';
@@ -63,6 +63,7 @@ function FilterForm<TItem>({
   const location = useLocation();
   const hasItems = !!items?.length;
   const [formData, setFormData] = useState<Record<string, unknown>>({});
+  const containerRef = useRef<HTMLDivElement>(null);
   // Volto's `<Form>` reads ``formData`` only in its constructor; bumping
   // this key on Cancel forces a remount so the cleared ``formData`` prop
   // actually takes effect. Submit doesn't bump it, so the just-submitted
@@ -81,6 +82,96 @@ function FilterForm<TItem>({
   useEffect(() => {
     setFormData(qs.parse(location.search) as Record<string, unknown>);
   }, [location.search]);
+
+  useEffect(() => {
+    const root = containerRef.current;
+    if (!root) return;
+
+    const isValidLabelTarget = (el: Element | null): el is HTMLElement => {
+      if (!el) return false;
+
+      if (
+        el instanceof HTMLSelectElement ||
+        el instanceof HTMLTextAreaElement
+      ) {
+        return true;
+      }
+
+      if (el instanceof HTMLInputElement) {
+        return !['hidden', 'submit', 'reset', 'button', 'image'].includes(
+          el.type,
+        );
+      }
+
+      return false;
+    };
+
+    const applyA11yFixes = () => {
+      // Ensure invisible fieldsets still expose an accessible name.
+      root.querySelectorAll('fieldset.invisible').forEach((fieldset) => {
+        if (fieldset.querySelector('legend')) return;
+        const legend = document.createElement('legend');
+        legend.className = 'sr-only';
+        legend.textContent =
+          schema.title || intl.formatMessage(messages.formDescription);
+        fieldset.prepend(legend);
+      });
+
+      // If label[for] points to a missing control, bind it to the first
+      // control found in the same field wrapper.
+      root.querySelectorAll('label[for]').forEach((label) => {
+        const targetId = label.getAttribute('for');
+        if (!targetId) return;
+
+        const existingTarget = root.ownerDocument.getElementById(targetId);
+        if (isValidLabelTarget(existingTarget)) return;
+
+        const field = label.closest('.field');
+        const controls = field?.querySelectorAll('input, select, textarea');
+        const control =
+          Array.from(controls ?? []).find((candidate) =>
+            isValidLabelTarget(candidate),
+          ) ?? null;
+
+        if (control) {
+          control.setAttribute('id', targetId);
+          return;
+        }
+
+        // Custom controls (like react-select) are often div-based and cannot
+        // be linked with label[for]. Preserve an accessible name and remove
+        // the invalid/orphan label node.
+        const customControl =
+          field?.querySelector('[role="combobox"]') ??
+          field?.querySelector('.react-select__control');
+        if (customControl && label.textContent?.trim()) {
+          customControl.setAttribute('aria-label', label.textContent.trim());
+        }
+
+        label.remove();
+      });
+
+      // Avoid duplicated accessible names announced from aria-label + title.
+      root
+        .querySelectorAll<HTMLButtonElement>('button[aria-label][title]')
+        .forEach((button) => {
+          if (
+            button.getAttribute('aria-label') === button.getAttribute('title')
+          ) {
+            button.removeAttribute('title');
+          }
+        });
+    };
+
+    applyA11yFixes();
+
+    const observer = new MutationObserver(() => {
+      applyA11yFixes();
+    });
+    observer.observe(root, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, [intl, schema.title, resetKey]);
 
   // Filters currently applied via the querystring — built from ``formData``
   // (values) joined to ``schema.properties`` (labels). Empty values and
@@ -101,7 +192,7 @@ function FilterForm<TItem>({
     });
   }, [formData, schema]);
 
-  const onCancel = (submitted: Record<string, unknown>) => {
+  const onCancel = (_submitted: Record<string, unknown>) => {
     const cleaned = {};
     history.push({
       pathname: location.pathname,
@@ -126,7 +217,7 @@ function FilterForm<TItem>({
   };
 
   return (
-    <div className="filter-form">
+    <div className="filter-form" ref={containerRef}>
       <Disclosure isExpanded={isExpanded} onExpandedChange={setIsExpanded}>
         <div>
           {!isExpanded && appliedFilters.length > 0 ? (
@@ -148,9 +239,9 @@ function FilterForm<TItem>({
               </Button>
             </div>
           ) : (
-            <h3>
+            <h2>
               <Button slot="trigger">{schema.title}</Button>
-            </h3>
+            </h2>
           )}
         </div>
         <DisclosurePanel>

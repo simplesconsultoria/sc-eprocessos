@@ -1,18 +1,153 @@
 .filter-form {
   margin: $spacing-medium 0;
+
+  .sr-only {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    color: var(--eprocessos-foreground-color) !important;
+    white-space: nowrap;
+  }
+
   .applied-filters {
     width: 100%;
     padding: $spacing-small;
+
     .applied-filters-label {
       display: none;
+      color: var(--eprocessos-foreground-color);
     }
     .applied-filter {
       padding-right: $spacing-small;
       .applied-filter-field {
+        color: var(--eprocessos-foreground-color);
         font-weight: bold;
       }
       .applied-filter-value {
+        color: var(--eprocessos-foreground-color);
         font-style: italic;
+      }
+    }
+
+    button.ui.primary.button {
+      border: 1px solid var(--eprocessos-secondary-foreground-color);
+      background-color: var(--eprocessos-secondary-color);
+      color: var(--eprocessos-secondary-foreground-color);
+      cursor: pointer;
+      &:hover {
+        background-color: color-mix(
+          in srgb,
+          var(--eprocessos-secondary-foreground-color) 10%,
+          var(--eprocessos-secondary-color)
+        );
+      }
+      &:focus {
+        outline: 2px solid var(--eprocessos-link-color);
+      }
+    }
+  }
+  .react-aria-Disclosure {
+    h2 button.react-aria-Button {
+      color: var(--eprocessos-foreground-color);
+      &:hover {
+        color: var(--eprocessos-link-color);
+      }
+      &:focus {
+        outline: 2px solid var(--eprocessos-link-color);
+      }
+    }
+    .react-aria-DisclosurePanel {
+      .ui.raised.segments {
+        border-color: var(--eprocessos-foreground-color);
+        .ui.segment {
+          background-color: var(--eprocessos-color);
+          color: var(--eprocessos-foreground-color);
+          .ui.secondary.segment {
+            background-color: var(--eprocessos-secondary-color);
+            color: var(--eprocessos-secondary-foreground-color);
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+          .inline.field {
+            label {
+              color: var(--eprocessos-foreground-color);
+            }
+          }
+          .react-select-container {
+            .react-select__control {
+              background-color: var(--eprocessos-color) !important;
+              color: var(--eprocessos-foreground-color) !important;
+              .react-select__placeholder {
+                color: color-mix(
+                  in srgb,
+                  var(--eprocessos-foreground-color) 70%,
+                  var(--eprocessos-color)
+                ) !important;
+              }
+            }
+            .react-select__single-value {
+              color: var(--eprocessos-foreground-color);
+            }
+            .react-select__menu {
+              background-color: var(--eprocessos-color);
+              div {
+                &.react-select__option--is-focused {
+                  background-color: color-mix(
+                    in srgb,
+                    var(--eprocessos-foreground-color) 10%,
+                    var(--eprocessos-color)
+                  );
+                  color: var(--eprocessos-foreground-color);
+                  svg {
+                    fill: var(--eprocessos-foreground-color) !important;
+                  }
+                }
+                &.react-select__option--is-selected {
+                  background-color: var(--eprocessos-foreground-color);
+                  color: var(--eprocessos-color);
+                  svg {
+                    fill: var(--eprocessos-color) !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .ui.clearing.segment.actions {
+          .primary {
+            background-color: var(--eprocessos-foreground-color);
+            color: var(--eprocessos-color);
+            &:hover {
+              background-color: color-mix(
+                in srgb,
+                var(--eprocessos-color) 10%,
+                var(--eprocessos-foreground-color)
+              );
+            }
+            &:focus {
+              outline: 2px solid var(--eprocessos-color);
+            }
+          }
+          .secondary {
+            border: 1px solid var(--eprocessos-foreground-color);
+            background-color: var(--eprocessos-color);
+            color: var(--eprocessos-foreground-color);
+            &:hover {
+              background-color: color-mix(
+                in srgb,
+                var(--eprocessos-foreground-color) 10%,
+                var(--eprocessos-color)
+              );
+            }
+            &:focus {
+              outline: 2px solid var(--eprocessos-foreground-color);
+            }
+          }
+        }
       }
     }
   }

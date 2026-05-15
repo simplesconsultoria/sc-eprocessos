@@ -66,7 +66,7 @@ const FileAttachment = ({ item, className }: FileAttachmentProps) => {
             aria-label={ariaLabel}
             title={isPDF ? intl.formatMessage(messages.pdfWarning) : undefined}
           >
-            {label + pdfSuffix}
+            {label + ' ' + pdfSuffix}
           </a>
         </>
       ) : (

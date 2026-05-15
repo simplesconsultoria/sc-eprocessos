@@ -80,7 +80,7 @@
         .materia-badge {
           display: inline-flex;
           align-items: center;
-          padding: 0.2rem 0.6rem;
+          padding: 0.5rem 0.5rem;
           border-radius: 999px;
           background-color: var(--eprocessos-secondary-color);
           box-shadow: inset 0 0 0 1px
@@ -110,6 +110,10 @@
     }
   }
 
+  .materia-committee-opinions {
+    color: var(--eprocessos-foreground-color);
+  }
+
   .materia-votes {
     &__header {
       display: flex;
@@ -128,6 +132,9 @@
       font-size: 0.95em;
       opacity: 0.75;
       white-space: nowrap;
+      time {
+        color: var(--eprocessos-foreground-color);
+      }
     }
 
     .materia-vote-results {
