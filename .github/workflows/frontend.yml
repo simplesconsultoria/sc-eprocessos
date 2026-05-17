@@ -57,9 +57,12 @@ jobs:
       - unit
       - i18n
     with:
-      node-version: ${{ needs.config.outputs.node-version }}
+      node-version: ${{ inputs.node-version }}
       working-directory: ${{ inputs.working-directory }}
       deploy: ${{ inputs.storybook-deploy }}
+    permissions:
+      contents: read
+      packages: write
 
   release:
     name: "Frontend: Build and publish container image"
