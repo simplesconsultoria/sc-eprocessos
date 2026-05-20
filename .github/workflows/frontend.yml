@@ -54,7 +54,7 @@ jobs:
       working-directory: ${{ inputs.working-directory }}
 
   storybook:
-    name: "Storybook"
+    name: "Storybook build and deploy"
     uses: plone/meta/.github/workflows/frontend-storybook.yml@issue-373
     needs:
       - code-analysis
