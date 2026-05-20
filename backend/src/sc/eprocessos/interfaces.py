@@ -50,6 +50,11 @@ class IEProcessosSettings(Interface):
         required=False,
         default=300,
     )
+    proxy_images = schema.Bool(
+        title=_("Proxy images"),
+        description=_("Whether to proxy images through Plone or not."),
+        default=False,
+    )
 
 
 # --- Facade interfaces (Dexterity content, persistent) ---
