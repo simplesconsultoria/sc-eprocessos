@@ -47,7 +47,9 @@ const resolveParticipanteImage = (
   const relativeUrl = resolveEprocessosAssetUrl(
     download || (item as any)?.url_foto,
   );
-  return `${item['@id']}/${relativeUrl}`;
+  return download && download.startsWith('http')
+    ? download
+    : `${item['@id']}/${relativeUrl}`;
 };
 
 interface ParticipantesProps {

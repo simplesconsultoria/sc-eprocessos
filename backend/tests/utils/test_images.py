@@ -13,8 +13,9 @@ from typing import Any
 import pytest
 
 
-REGISTRY_SETTINGS: dict[str, str | int | float] = {
+REGISTRY_SETTINGS: dict[str, str | int | float | bool] = {
     "eprocessos.base_url": "https://e-processos.example.com",
+    "eprocessos.proxy_images": True,
 }
 
 EPROCESSOS_ROOT_SLASH = "https://e-processos.example.com/"
@@ -348,3 +349,229 @@ class TestImageFromUrlFoto:
         assert item["height"] == 0
         assert item["width"] == 0
         assert item["size"] == 0
+
+
+# ---------------------------------------------------------------------------
+# Direct mode — ``eprocessos.proxy_images=False`` makes the helpers emit
+# absolute upstream URLs instead of ``@@images/...`` paths.
+# ---------------------------------------------------------------------------
+
+
+class TestLocalProxyUrlDirectMode:
+    """``_local_proxy_url`` with ``proxy_images=False`` returns upstream URLs.
+
+    Relative inputs are absolutized against ``eprocessos_root``; URLs that
+    are already absolute (matching root or not) pass through unchanged.
+    """
+
+    @pytest.mark.parametrize(
+        "url,root,expected",
+        [
+            pytest.param(
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914",
+                id="sapl_view_relative_absolutized",
+            ),
+            pytest.param(
+                "https://e-processos.example.com/@@sapl_documentos_download"
+                "?path=parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914",
+                id="sapl_view_absolute_canonicalized",
+            ),
+            pytest.param(
+                "/@@sapl_documentos_download?path=/parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914",
+                id="sapl_view_leading_slash_in_path_param_is_stripped",
+            ),
+            pytest.param(
+                "/@@sapl_documentos_download",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com/@@sapl_documentos_download?path=",
+                id="sapl_view_missing_path_param",
+            ),
+            pytest.param(
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                id="absolute_under_root_passthrough",
+            ),
+            pytest.param(
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_NO_SLASH,
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                id="absolute_under_root_no_trailing_slash_no_double",
+            ),
+            pytest.param(
+                "/sapl_documentos/parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                id="relative_legacy_absolutized_root_with_slash",
+            ),
+            pytest.param(
+                "/sapl_documentos/parlamentar/fotos/546914",
+                EPROCESSOS_ROOT_NO_SLASH,
+                "https://e-processos.example.com/sapl_documentos/parlamentar/fotos/546914",
+                id="relative_legacy_absolutized_root_no_slash",
+            ),
+            pytest.param(
+                "/some/other/path",
+                EPROCESSOS_ROOT_SLASH,
+                "https://e-processos.example.com/some/other/path",
+                id="relative_arbitrary_path_absolutized",
+            ),
+            pytest.param(
+                "https://other-host.com/some/image.png",
+                EPROCESSOS_ROOT_SLASH,
+                "https://other-host.com/some/image.png",
+                id="passthrough_external_host",
+            ),
+            pytest.param(
+                "",
+                EPROCESSOS_ROOT_SLASH,
+                "",
+                id="passthrough_empty_string",
+            ),
+        ],
+    )
+    def test_rewrite(self, url: str, root: str, expected: str):
+        assert _local_proxy_url(url, root, proxy_images=False) == expected
+
+
+@pytest.fixture()
+def _direct_mode(portal: PloneSite) -> None:
+    """Flip ``eprocessos.proxy_images`` to False for this test."""
+    api.portal.set_registry_record("eprocessos.proxy_images", False)
+
+
+class TestProcessImageFieldDirectMode:
+    """``process_image_field`` with ``proxy_images=False`` returns absolute
+    upstream URLs for both the main download and every scale."""
+
+    @pytest.mark.parametrize(
+        "image,expected_download",
+        [
+            pytest.param(
+                SAMPLE_IMAGE,
+                "https://e-processos.example.com"
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                id="absolute_url",
+            ),
+            pytest.param(
+                SAMPLE_IMAGE_RELATIVE,
+                "https://e-processos.example.com"
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                id="relative_url",
+            ),
+            pytest.param(
+                SAMPLE_IMAGE_DOWNLOAD_VIEW,
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914_foto",
+                id="sapl_documentos_download_view",
+            ),
+        ],
+    )
+    def test_rewrites_download(
+        self, _direct_mode: None, image: dict[str, Any], expected_download: str
+    ):
+        _, scales = process_image_field("image", [image.copy()])
+        assert scales["image"][0]["download"] == expected_download
+
+    def test_scales_share_the_same_absolute_url(self, _direct_mode: None):
+        """Without the proxy, scales lose their meaning — every variant
+        points at the same full-size upstream URL. We keep the dict shape
+        so the Plone/Volto contract for image fields stays intact."""
+        _, scales = process_image_field("image", [SAMPLE_IMAGE_RELATIVE.copy()])
+        main_image = scales["image"][0]
+        urls = {scale_data["download"] for scale_data in main_image["scales"].values()}
+        assert urls == {main_image["download"]}
+        assert main_image["download"].startswith("https://e-processos.example.com/")
+
+    def test_includes_plone_scales_shape(self, _direct_mode: None):
+        """The ``scales`` dict is still present and structurally identical
+        to the proxy-mode output."""
+        _, scales = process_image_field("image", [SAMPLE_IMAGE.copy()])
+        main_image = scales["image"][0]
+        assert "scales" in main_image
+        assert len(main_image["scales"]) > 0
+        for scale_data in main_image["scales"].values():
+            assert "download" in scale_data
+            assert isinstance(scale_data["width"], int)
+            assert isinstance(scale_data["height"], int)
+
+
+class TestProcessImageDirectMode:
+    """``process_image`` with ``proxy_images=False`` emits absolute URLs."""
+
+    @pytest.mark.parametrize(
+        "image,expected_download",
+        [
+            pytest.param(
+                SAMPLE_IMAGE,
+                "https://e-processos.example.com"
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                id="absolute_url",
+            ),
+            pytest.param(
+                SAMPLE_IMAGE_RELATIVE,
+                "https://e-processos.example.com"
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                id="relative_url",
+            ),
+            pytest.param(
+                SAMPLE_IMAGE_DOWNLOAD_VIEW,
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914_foto",
+                id="sapl_documentos_download_view",
+            ),
+        ],
+    )
+    def test_rewrites_download(
+        self, _direct_mode: None, image: dict[str, Any], expected_download: str
+    ):
+        result = process_image([image.copy()])
+        assert result[0]["download"] == expected_download
+
+    def test_external_host_passthrough(self, _direct_mode: None):
+        image = SAMPLE_IMAGE.copy()
+        image["download"] = "https://other-host.com/some/image.png"
+        result = process_image([image])
+        assert result[0]["download"] == "https://other-host.com/some/image.png"
+
+
+class TestImageFromUrlFotoDirectMode:
+    """``image_from_url_foto`` with ``proxy_images=False`` emits absolute URLs."""
+
+    @pytest.mark.parametrize(
+        "url_foto,expected_download",
+        [
+            pytest.param(
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914_foto",
+                "https://e-processos.example.com"
+                "/@@sapl_documentos_download?path=parlamentar/fotos/546914_foto",
+                id="sapl_view_relative_absolutized",
+            ),
+            pytest.param(
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                "https://e-processos.example.com"
+                "/sapl_documentos/parlamentar/fotos/546914_foto",
+                id="legacy_relative_absolutized",
+            ),
+            pytest.param(
+                "https://other-host.com/some/portrait.jpg",
+                "https://other-host.com/some/portrait.jpg",
+                id="external_passthrough",
+            ),
+        ],
+    )
+    def test_rewrites_url_foto(
+        self, _direct_mode: None, url_foto: str, expected_download: str
+    ):
+        result = image_from_url_foto(url_foto)
+        assert len(result) == 1
+        assert result[0]["download"] == expected_download

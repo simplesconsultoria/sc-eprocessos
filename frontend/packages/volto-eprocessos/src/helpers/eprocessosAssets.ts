@@ -128,10 +128,27 @@ const getSapldocumentosBaseUrl = (): string => {
   return base.replace(/\/$/, '');
 };
 
+const isSaplAssetPath = (path: string): boolean =>
+  path.startsWith('/sapl_documentos/') ||
+  path.startsWith('/sapl_documentos_download/') ||
+  path.startsWith('/@@sapl_documentos_download') ||
+  path.startsWith('/@@images/sapl_documentos_download/');
+
+const isSaplAssetAbsoluteUrl = (url: string): boolean => {
+  try {
+    return isSaplAssetPath(new URL(url).pathname);
+  } catch {
+    return false;
+  }
+};
+
 /**
  * Resolve an asset URL that comes from e-Processos payloads.
  *
- * - External absolute URLs are kept.
+ * - Absolute upstream URLs (sapl_documentos/* shapes) are kept verbatim
+ *   so the browser fetches them directly from e-Processos. This covers
+ *   the `eprocessos.proxy_images=False` mode on the backend.
+ * - Other external absolute URLs are also kept.
  * - Internal absolute URLs are flattened to app paths.
  * - Relative `/sapl_documentos/...` URLs are served by the local mock
  *   during development (port 8000) when running on localhost.
@@ -145,6 +162,11 @@ export const resolveEprocessosAssetUrl = (
 
   // Absolute URL.
   if (sanitized.startsWith('http://') || sanitized.startsWith('https://')) {
+    // Upstream e-Processos asset → return as-is regardless of host, so the
+    // browser fetches directly. This bypasses Volto's substring-based
+    // ``isInternalURL`` which could mis-classify hosts that share a
+    // domain suffix with Plone's ``publicURL``.
+    if (isSaplAssetAbsoluteUrl(sanitized)) return sanitized;
     if (!isInternalURL(sanitized)) return sanitized;
     const flattened = stripApiPrefix(flattenToAppURL(sanitized));
     const path = flattened.startsWith('/') ? flattened : `/${flattened}`;
@@ -153,12 +175,7 @@ export const resolveEprocessosAssetUrl = (
 
   const path = sanitized.startsWith('/') ? sanitized : `/${sanitized}`;
 
-  if (
-    path.startsWith('/sapl_documentos/') ||
-    path.startsWith('/sapl_documentos_download/') ||
-    path.startsWith('/@@sapl_documentos_download') ||
-    path.startsWith('/@@images/sapl_documentos_download/')
-  ) {
+  if (isSaplAssetPath(path)) {
     return `${getSapldocumentosBaseUrl()}${path}`;
   }
 
