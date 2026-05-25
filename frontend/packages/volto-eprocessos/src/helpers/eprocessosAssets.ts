@@ -1,6 +1,11 @@
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import { addSubpathPrefix, isInternalURL } from '@plone/volto/helpers/Url/Url';
 
+const getEnv = (): Record<string, string | undefined> => {
+  const env = (globalThis as any)?.process?.env;
+  return (env || {}) as Record<string, string | undefined>;
+};
+
 const stripApiPrefix = (url: string): string =>
   url.startsWith('/++api++')
     ? url.slice('/++api++'.length)
@@ -19,6 +24,12 @@ const ensureLeadingSlash = (value: string): string =>
 const normalizeBasePath = (value: string): string =>
   ensureLeadingSlash(value.trim()).replace(/\/+$/, '');
 
+const getAtividadeLegislativaBasePath = (): string => {
+  const env = getEnv();
+  const raw = env.EPROCESSOS_ATIVIDADE_LEGISLATIVA_PATH;
+  return normalizeBasePath(raw && raw.trim() ? raw : '/atividade-legislativa');
+};
+
 export type PathRewriteRule = {
   test: (path: string) => boolean;
   rewrite: (path: string) => string;
@@ -36,6 +47,20 @@ export const rewritePath = (
 };
 
 const stripFacadePrefix = (path: string): string => path.replace(/^\/@@/, '/');
+
+export const DEFAULT_EPROCESSOS_FACADE_REWRITES: PathRewriteRule[] = [
+  {
+    // Backend traversal returns `/@@legislaturas/{id}`, but the canonical
+    // frontend route lives under `/atividade-legislativa/legislaturas/{id}`.
+    test: (path) => path.startsWith('/legislaturas/'),
+    rewrite: (path) => `${getAtividadeLegislativaBasePath()}${path}`,
+  },
+  {
+    // Canonical routes for legislative activity live under `/atividade-legislativa/*`.
+    test: (path) => path.startsWith('/materias/'),
+    rewrite: (path) => `${getAtividadeLegislativaBasePath()}${path}`,
+  },
+];
 
 type ParsedFacadeItem = {
   service: string;
@@ -147,7 +172,7 @@ export const resolveEprocessosFacadePath = (
     stripFacadePrefix?: boolean;
   },
 ): string | undefined => {
-  const allowExternal = options?.allowExternal ?? false;
+  const allowExternal = options?.allowExternal ?? true;
   const shouldStripFacadePrefix = options?.stripFacadePrefix ?? true;
 
   const appPath = resolveEprocessosAppPath(raw, { allowExternal });
@@ -158,8 +183,16 @@ export const resolveEprocessosFacadePath = (
   const normalized = shouldStripFacadePrefix
     ? stripFacadePrefix(appPath)
     : appPath;
-  const rules = options?.rewrites ?? [];
+  const rules = options?.rewrites ?? DEFAULT_EPROCESSOS_FACADE_REWRITES;
   return rewritePath(normalized, rules);
+};
+
+const getSapldocumentosBaseUrl = (): string => {
+  const env = getEnv();
+  const explicit =
+    env.EPROCESSOS_ASSETS_BASE_URL || env.EPROCESSOS_MOCK_PUBLIC_URL;
+  const base = (explicit || 'http://localhost:8000').trim();
+  return base.replace(/\/$/, '');
 };
 
 export const resolveEprocessosVereadorPath = (
@@ -186,10 +219,27 @@ export const resolveEprocessosVereadorPath = (
   });
 };
 
+const isSaplAssetPath = (path: string): boolean =>
+  path.startsWith('/sapl_documentos/') ||
+  path.startsWith('/sapl_documentos_download/') ||
+  path.startsWith('/@@sapl_documentos_download') ||
+  path.startsWith('/@@images/sapl_documentos_download/');
+
+const isSaplAssetAbsoluteUrl = (url: string): boolean => {
+  try {
+    return isSaplAssetPath(new URL(url).pathname);
+  } catch {
+    return false;
+  }
+};
+
 /**
  * Resolve an asset URL that comes from e-Processos payloads.
  *
- * - External absolute URLs are kept.
+ * - Absolute upstream URLs (sapl_documentos/* shapes) are kept verbatim
+ *   so the browser fetches them directly from e-Processos. This covers
+ *   the `eprocessos.proxy_images=False` mode on the backend.
+ * - Other external absolute URLs are also kept.
  * - Internal absolute URLs are flattened to app paths.
  * - Relative URLs are treated as local paths.
  */
@@ -202,6 +252,11 @@ export const resolveEprocessosAssetUrl = (
 
   // Absolute URL.
   if (sanitized.startsWith('http://') || sanitized.startsWith('https://')) {
+    // Upstream e-Processos asset → return as-is regardless of host, so the
+    // browser fetches directly. This bypasses Volto's substring-based
+    // ``isInternalURL`` which could mis-classify hosts that share a
+    // domain suffix with Plone's ``publicURL``.
+    if (isSaplAssetAbsoluteUrl(sanitized)) return sanitized;
     if (!isInternalURL(sanitized)) return sanitized;
     const flattened = stripApiPrefix(flattenToAppURL(sanitized));
     const path = flattened.startsWith('/') ? flattened : `/${flattened}`;
@@ -209,6 +264,10 @@ export const resolveEprocessosAssetUrl = (
   }
 
   const path = sanitized.startsWith('/') ? sanitized : `/${sanitized}`;
+
+  if (isSaplAssetPath(path)) {
+    return `${getSapldocumentosBaseUrl()}${path}`;
+  }
 
   return addSubpathPrefix(path);
 };

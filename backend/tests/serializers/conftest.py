@@ -18,11 +18,12 @@ from zope.interface import directlyProvides
 import pytest
 
 
-REGISTRY_SETTINGS: dict[str, str | int | float] = {
+REGISTRY_SETTINGS: dict[str, str | int | float | bool] = {
     "eprocessos.base_url": "https://e-processos.camarauberlandia.mg.gov.br",
     "eprocessos.default_timeout": 30,
     "eprocessos.max_retries": 1,
     "eprocessos.retry_delay": 0.0,
+    "eprocessos.proxy_images": True,
 }
 
 

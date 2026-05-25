@@ -1,0 +1,1 @@
+Added `eprocessos.proxy_images` setting (default: `false`) to control whether image and document downloads are served through the Plone `@@images` proxy or directly from their upstream e-Processos URLs. When disabled, image fields — including every Plone scale — are returned as absolute upstream URLs. @ericof

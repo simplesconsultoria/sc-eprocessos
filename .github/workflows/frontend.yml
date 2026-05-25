@@ -22,6 +22,10 @@ on:
         required: false
         type: boolean
         default: true
+      storybook-deploy-mode:
+        required: false
+        type: string
+        default: 'action'
       working-directory:
         required: false
         type: string
@@ -50,8 +54,8 @@ jobs:
       working-directory: ${{ inputs.working-directory }}
 
   storybook:
-    name: "Storybook"
-    uses: plone/meta/.github/workflows/frontend-storybook.yml@2.x
+    name: "Storybook build and deploy"
+    uses: plone/meta/.github/workflows/frontend-storybook.yml@issue-373
     needs:
       - code-analysis
       - unit
@@ -60,9 +64,12 @@ jobs:
       node-version: ${{ inputs.node-version }}
       working-directory: ${{ inputs.working-directory }}
       deploy: ${{ inputs.storybook-deploy }}
+      deploy_mode: ${{ inputs.storybook-deploy-mode }}
     permissions:
       contents: read
       packages: write
+      pages: write
+      id-token: write
 
   release:
     name: "Frontend: Build and publish container image"
