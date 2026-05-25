@@ -1,6 +1,5 @@
 import { Container } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
-import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import type {
   Mesa,
   MesaParticipante,
@@ -9,7 +8,8 @@ import { DataCurta } from '@simplesconsultoria/volto-eprocessos/components/Widge
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
 import {
   resolveEprocessosAssetUrl,
-  resolveEprocessosFacadePath,
+  resolveEprocessosAppPath,
+  resolveEprocessosVereadorPath,
 } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import VereadorCard from '@simplesconsultoria/volto-eprocessos/components/VereadorCard/VereadorCard';
 
@@ -97,13 +97,10 @@ const sortMembers = (items: MesaParticipante[]): MesaParticipante[] => {
  */
 const getParticipanteHref = (
   item: MesaParticipante | undefined,
+  basePath?: string,
 ): string | undefined => {
   if (!item) return undefined;
-  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
-  if (typeof appUrl === 'string' && appUrl) {
-    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
-  }
-  return undefined;
+  return resolveEprocessosVereadorPath(item['@id'], { basePath });
 };
 
 const ParticipanteCard = ({
@@ -111,10 +108,10 @@ const ParticipanteCard = ({
   basePath,
 }: {
   item: MesaParticipante;
-  basePath: string;
+  basePath?: string;
 }) => {
   const imgSrc = resolveParticipantImage(item);
-  const href = getParticipanteHref(item);
+  const href = getParticipanteHref(item, basePath);
 
   const party = Array.isArray(item?.partido)
     ? item.partido
@@ -156,18 +153,16 @@ const MesaView = ({ content }: MesaViewProps) => {
 
   const isCurrent = (content as any).atual === true;
 
-  const legislaturaHref = resolveEprocessosFacadePath(content.legislatura_id);
+  const legislaturaHref = resolveEprocessosAppPath(content.legislatura_id, {
+    allowExternal: false,
+  });
   const legislaturaLabel = content.legislatura;
 
-  const rawId = content?.['@id'] || '';
-  const appUrl = flattenToAppURL(rawId) || '';
-  let basePath = '/vereadores';
-  const match = appUrl.match(
-    /^(.*)\/(mesa-diretora|vereadores|comissoes)(\/|$)/,
+  const parentPath = resolveEprocessosAppPath(
+    (content as any).parent?.['@id'],
+    { allowExternal: false },
   );
-  if (match) {
-    basePath = match[1];
-  }
+  const basePath = parentPath ? parentPath.replace(/\/[^/]+$/, '') : undefined;
 
   return (
     <Container

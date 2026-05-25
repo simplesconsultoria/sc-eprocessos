@@ -1,6 +1,5 @@
 import { defineMessages, useIntl } from 'react-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
@@ -8,6 +7,7 @@ import downSVG from '@plone/volto/icons/down.svg';
 import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 
 import type { ComissaoPeriodo } from '@simplesconsultoria/volto-eprocessos/types';
+import { resolveEprocessosVereadorPath } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import TabelaPaginada, {
   cell,
   column,
@@ -55,6 +55,7 @@ const messages = defineMessages({
 
 interface PeriodosProps {
   periods: Array<ComissaoPeriodo & Record<string, any>>;
+  basePath?: string;
 }
 
 type PeriodoParticipante = Record<string, any>;
@@ -81,13 +82,10 @@ const getParticipanteCargo = (item: PeriodoParticipante): string => {
  */
 const getParticipanteHref = (
   item: PeriodoParticipante | undefined,
+  basePath?: string,
 ): string | undefined => {
   if (!item) return undefined;
-  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
-  if (typeof appUrl === 'string' && appUrl) {
-    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
-  }
-  return undefined;
+  return resolveEprocessosVereadorPath(item['@id'], { basePath });
 };
 
 const sortComposicao = (
@@ -104,9 +102,11 @@ const sortComposicao = (
 const Composicao = ({
   items,
   periodKey,
+  basePath,
 }: {
   items?: PeriodoParticipante[];
   periodKey: string;
+  basePath?: string;
 }) => {
   const intl = useIntl();
   const [open, setOpen] = useState(false);
@@ -245,7 +245,7 @@ const Composicao = ({
           <div className="comissao-composicao-menu-body">
             {sorted.map((item, idx) => {
               const id = item?.id;
-              const href = getParticipanteHref(item);
+              const href = getParticipanteHref(item, basePath);
               const name = getParticipanteLabel(item) || '-';
               const party = getPartyLabel(item);
               const cargo = getParticipanteCargo(item);
@@ -285,7 +285,7 @@ const Composicao = ({
   );
 };
 
-const Periodos = ({ periods }: PeriodosProps) => {
+const Periodos = ({ periods, basePath }: PeriodosProps) => {
   const intl = useIntl();
 
   const columns = [
@@ -324,10 +324,11 @@ const Periodos = ({ periods }: PeriodosProps) => {
             <Composicao
               items={(p as any).items}
               periodKey={String((p as any).id ?? idx)}
+              basePath={basePath}
             />,
           ),
         })),
-    [periods],
+    [periods, basePath],
   );
 
   return (

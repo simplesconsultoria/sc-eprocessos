@@ -9,11 +9,8 @@ import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import ConditionalLink from '@plone/volto/components/manage/ConditionalLink/ConditionalLink';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
-import {
-  addSubpathPrefix,
-  getFieldURL,
-  isInternalURL,
-} from '@plone/volto/helpers/Url/Url';
+import { getFieldURL, isInternalURL } from '@plone/volto/helpers/Url/Url';
+import { resolveEprocessosVereadorPath } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import leftSVG from '@plone/volto/icons/left-key.svg';
 import rightSVG from '@plone/volto/icons/right-key.svg';
 import playSVG from '@plone/volto/icons/play.svg';
@@ -68,36 +65,24 @@ const messages = defineMessages({
   },
 });
 
-const getVereadorItemPath = (
-  item: VereadoresSliderItem | undefined,
-): string | undefined => {
-  const raw = item?.['@id'];
-  if (raw) {
-    const path = flattenToAppURL(raw);
-    if (typeof path === 'string' && path) {
-      return path.startsWith('/') ? path : `/${path}`;
-    }
-  }
-  return undefined;
-};
-
 const resolveItemImageSrc = (
   item: VereadoresSliderItem | undefined,
 ): string | undefined => {
-  const base = getVereadorItemPath(item);
-  const download = item?.image?.[0]?.download;
+  if (!item) return undefined;
 
-  if (!base || !download) return undefined;
+  const download = item.image?.[0]?.download;
+  if (download) {
+    if (download.startsWith('http')) return download;
 
-  const sanitized = download.startsWith('/++api++')
-    ? download.slice('/++api++'.length)
-    : download;
+    if (item['@id']) {
+      const basePath = flattenToAppURL(item['@id']).replace(/\/+$/, '');
+      const cleanDownload = download.replace(/^\/+/, '');
 
-  const isBareImages =
-    sanitized.startsWith('@@images/') || sanitized.startsWith('/@@images/');
-  if (!isBareImages) return undefined;
+      return `${basePath}/${cleanDownload}`;
+    }
+  }
 
-  return addSubpathPrefix(`${base}/${sanitized.replace(/^\//, '')}`);
+  return item.url_foto;
 };
 
 const getSingleLink = (
@@ -341,6 +326,14 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const name = current?.fullname || current?.title || '';
   const party = current?.description || '';
 
+  const rawItemId = current?.['@id'];
+  const itemResolvedPath = resolveEprocessosVereadorPath(rawItemId, {
+    allowExternal: true,
+  });
+  const itemIsInternal = itemResolvedPath
+    ? isInternalURL(itemResolvedPath)
+    : false;
+
   const allHref = useMemo(() => getSingleLink(allLink), [allLink]);
   const allLabel =
     (allLinkLabel || '').trim() ||
@@ -378,8 +371,6 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
       </p>
     );
   }
-
-  const itemHref = getVereadorItemPath(current);
 
   const allLinkIsInternal = allHref ? isInternalURL(allHref) : false;
   const allLinkTo =
@@ -455,8 +446,9 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
               aria-atomic="true"
             >
               <ConditionalLink
-                condition={!isEditMode && !!itemHref}
-                to={itemHref || ''}
+                condition={!isEditMode && !!itemResolvedPath}
+                to={itemIsInternal ? itemResolvedPath : undefined}
+                href={!itemIsInternal ? itemResolvedPath : undefined}
                 className="vereadores-slider-block__item-link"
               >
                 <div className="vereadores-slider-block__row row" ref={rowRef}>

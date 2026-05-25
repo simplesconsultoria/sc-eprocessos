@@ -9,7 +9,7 @@ import { Form } from '@plone/volto/components/manage/Form';
 import type { FormConfig } from '@simplesconsultoria/volto-eprocessos/types';
 
 interface FilterFormProps<TItem> {
-  schema: FormConfig;
+  schema?: FormConfig;
   items?: TItem[];
   ResultsComponent: React.ComponentType<{ items: TItem[] }>;
 }
@@ -64,17 +64,10 @@ function FilterForm<TItem>({
   const hasItems = !!items?.length;
   const [formData, setFormData] = useState<Record<string, unknown>>({});
   const containerRef = useRef<HTMLDivElement>(null);
-  // Volto's `<Form>` reads ``formData`` only in its constructor; bumping
-  // this key on Cancel forces a remount so the cleared ``formData`` prop
-  // actually takes effect. Submit doesn't bump it, so the just-submitted
-  // values stay visible when the user re-opens the panel via "Alterar".
-  const [resetKey, setResetKey] = useState(0);
 
-  // The filter pane is collapsed once results are visible and expanded
-  // otherwise (initial render with no params, or a search that returned
-  // nothing). Manual toggles between transitions are preserved — the
-  // effect only re-syncs when ``hasItems`` itself flips.
+  const [resetKey, setResetKey] = useState(0);
   const [isExpanded, setIsExpanded] = useState<boolean>(!hasItems);
+
   useEffect(() => {
     setIsExpanded(!hasItems);
   }, [hasItems]);
@@ -107,18 +100,15 @@ function FilterForm<TItem>({
     };
 
     const applyA11yFixes = () => {
-      // Ensure invisible fieldsets still expose an accessible name.
       root.querySelectorAll('fieldset.invisible').forEach((fieldset) => {
         if (fieldset.querySelector('legend')) return;
         const legend = document.createElement('legend');
         legend.className = 'sr-only';
         legend.textContent =
-          schema.title || intl.formatMessage(messages.formDescription);
+          schema?.title || intl.formatMessage(messages.formDescription);
         fieldset.prepend(legend);
       });
 
-      // If label[for] points to a missing control, bind it to the first
-      // control found in the same field wrapper.
       root.querySelectorAll('label[for]').forEach((label) => {
         const targetId = label.getAttribute('for');
         if (!targetId) return;
@@ -138,9 +128,6 @@ function FilterForm<TItem>({
           return;
         }
 
-        // Custom controls (like react-select) are often div-based and cannot
-        // be linked with label[for]. Preserve an accessible name and remove
-        // the invalid/orphan label node.
         const customControl =
           field?.querySelector('[role="combobox"]') ??
           field?.querySelector('.react-select__control');
@@ -151,7 +138,6 @@ function FilterForm<TItem>({
         label.remove();
       });
 
-      // Avoid duplicated accessible names announced from aria-label + title.
       root
         .querySelectorAll<HTMLButtonElement>('button[aria-label][title]')
         .forEach((button) => {
@@ -171,15 +157,16 @@ function FilterForm<TItem>({
     observer.observe(root, { childList: true, subtree: true });
 
     return () => observer.disconnect();
-  }, [intl, schema.title, resetKey]);
+  }, [intl, schema?.title, resetKey]);
 
-  // Filters currently applied via the querystring — built from ``formData``
-  // (values) joined to ``schema.properties`` (labels). Empty values and
-  // params not declared in the schema are skipped.
   const appliedFilters = useMemo<AppliedFilter[]>(() => {
+    if (!schema?.properties) return [];
+
     return Object.entries(formData).flatMap(([key, value]) => {
       if (value === '' || value == null) return [];
-      const property = schema.properties[key];
+      const property = schema.properties[key] as
+        | Record<string, unknown>
+        | undefined;
       if (!property) return [];
       const rawValue = Array.isArray(value) ? value.join(', ') : String(value);
       return [
@@ -218,49 +205,52 @@ function FilterForm<TItem>({
 
   return (
     <div className="filter-form" ref={containerRef}>
-      <Disclosure isExpanded={isExpanded} onExpandedChange={setIsExpanded}>
-        <div>
-          {!isExpanded && appliedFilters.length > 0 ? (
-            <div className="applied-filters">
-              <span className="applied-filters-label">
-                {intl.formatMessage(messages.appliedFilters)}
-              </span>
-              {appliedFilters.map(({ key, fieldLabel, valueLabel }) => (
-                <span key={key} className="applied-filter">
-                  <span className="applied-filter-field">{fieldLabel}:</span>{' '}
-                  <span className="applied-filter-value">{valueLabel}</span>
+      {schema ? (
+        <Disclosure isExpanded={isExpanded} onExpandedChange={setIsExpanded}>
+          <div>
+            {!isExpanded && appliedFilters.length > 0 ? (
+              <div className="applied-filters">
+                <span className="applied-filters-label">
+                  {intl.formatMessage(messages.appliedFilters)}
                 </span>
-              ))}
-              <Button
-                className="ui primary right floated button"
-                slot="trigger"
-              >
-                Alterar
-              </Button>
-            </div>
-          ) : (
-            <h2>
-              <Button slot="trigger">{schema.title}</Button>
-            </h2>
-          )}
-        </div>
-        <DisclosurePanel>
-          <Form
-            key={resetKey}
-            description={intl.formatMessage(messages.formDescription)}
-            isEditForm={false}
-            textButtons={true}
-            submitLabel={intl.formatMessage(messages.submitLabel)}
-            cancelLabel={intl.formatMessage(messages.cancelLabel)}
-            onSubmit={onSubmit}
-            onCancel={onCancel}
-            schema={schema}
-            formData={formData}
-          />
-        </DisclosurePanel>
-      </Disclosure>
+                {appliedFilters.map(({ key, fieldLabel, valueLabel }) => (
+                  <span key={key} className="applied-filter">
+                    <span className="applied-filter-field">{fieldLabel}:</span>{' '}
+                    <span className="applied-filter-value">{valueLabel}</span>
+                  </span>
+                ))}
+                <Button
+                  className="ui primary right floated button"
+                  slot="trigger"
+                >
+                  Alterar
+                </Button>
+              </div>
+            ) : (
+              <h2>
+                <Button slot="trigger">{schema.title}</Button>
+              </h2>
+            )}
+          </div>
+          <DisclosurePanel>
+            <Form
+              key={resetKey}
+              description={intl.formatMessage(messages.formDescription)}
+              isEditForm={false}
+              textButtons={true}
+              submitLabel={intl.formatMessage(messages.submitLabel)}
+              cancelLabel={intl.formatMessage(messages.cancelLabel)}
+              onSubmit={onSubmit}
+              onCancel={onCancel}
+              schema={schema}
+              formData={formData}
+            />
+          </DisclosurePanel>
+        </Disclosure>
+      ) : null}
+
       <div className="results">
-        {items && items.length > 0 ? <ResultsComponent items={items} /> : null}
+        {items ? <ResultsComponent items={items} /> : null}
       </div>
     </div>
   );

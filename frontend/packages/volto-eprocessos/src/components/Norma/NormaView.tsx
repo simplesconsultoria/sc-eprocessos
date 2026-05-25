@@ -10,7 +10,7 @@ import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Li
 import { FileAttachmentList } from '@simplesconsultoria/volto-eprocessos/components/FileAttachment/FileAttachment';
 import {
   resolveEprocessosAssetUrl,
-  resolveEprocessosFacadePath,
+  resolveEprocessosAppPath,
 } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 
 interface NormaViewProps {
@@ -81,7 +81,7 @@ const messages = defineMessages({
 });
 
 const MateriaItem = ({ item }: { item: NormaMateriaRef }) => {
-  const href = resolveEprocessosFacadePath(item?.['@id']) || undefined;
+  const href = resolveEprocessosAppPath(item?.['@id']);
   const authors = Array.isArray(item?.autoria)
     ? item.autoria.map((a) => a.title).filter(Boolean)
     : [];
@@ -132,7 +132,7 @@ const NormaView = ({ content }: NormaViewProps) => {
 
   const primaryMateria = materias[0];
   const primaryMateriaHref = primaryMateria
-    ? resolveEprocessosFacadePath(primaryMateria['@id'])
+    ? resolveEprocessosAppPath(primaryMateria['@id'])
     : undefined;
   const primaryMateriaAuthors = Array.isArray(primaryMateria?.autoria)
     ? primaryMateria.autoria

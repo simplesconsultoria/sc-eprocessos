@@ -45,95 +45,93 @@
       text-align: center;
     }
     .comissao-periodo {
-      .composicao {
-        text-align: center;
-        .comissao-composicao {
-          position: relative;
+      text-align: center;
+      .comissao-composicao {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        &-toggle {
           display: inline-flex;
           align-items: center;
-          &-toggle {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.25rem;
-            @include eprocessos-surface(8px, $with-shadow: false);
-            cursor: pointer;
-            font: inherit;
-            text-align: left;
+          justify-content: center;
+          padding: 0.25rem;
+          @include eprocessos-surface(8px, $with-shadow: false);
+          cursor: pointer;
+          font: inherit;
+          text-align: left;
+        }
+        &-menu {
+          position: absolute;
+          z-index: 10;
+          top: calc(100% + 0.35rem);
+          right: 0;
+          display: flex;
+          overflow: hidden;
+          width: min(24rem, calc(100vw - 1rem));
+          max-height: var(--comissao-composicao-max-h, 22rem);
+          box-sizing: border-box;
+          flex-direction: column;
+          padding: 0;
+          transform: translateX(var(--comissao-composicao-shift-x, 0px));
+          @include eprocessos-surface(12px);
+          &[data-placement='top'] {
+            top: auto;
+            bottom: calc(100% + 0.35rem);
           }
-          &-menu {
-            position: absolute;
-            z-index: 10;
-            top: calc(100% + 0.35rem);
-            right: 0;
+          &-header {
             display: flex;
-            overflow: hidden;
-            width: min(24rem, calc(100vw - 1rem));
-            max-height: var(--comissao-composicao-max-h, 22rem);
-            box-sizing: border-box;
-            flex-direction: column;
-            padding: 0;
-            transform: translateX(var(--comissao-composicao-shift-x, 0px));
-            @include eprocessos-surface(12px);
-            &[data-placement='top'] {
-              top: auto;
-              bottom: calc(100% + 0.35rem);
-            }
-            &-header {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              padding: 0.5rem 0.5rem 0;
-            }
-            &-body {
-              overflow: auto;
-              padding: 0.35rem 0;
-              overscroll-behavior: contain;
-            }
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0.5rem 0;
           }
-          &-title {
-            padding: 0 0.25rem;
+          &-body {
+            overflow: auto;
+            padding: 0.35rem 0;
+            overscroll-behavior: contain;
           }
-          &-close {
-            @include eprocessos-icon-button(8px, 0.15rem);
-          }
-          &-link,
-          &-item {
-            display: block;
-            text-decoration: none;
-            @include text-color-template(
-              $foreground-color: var(--eprocessos-secondary-foreground-color),
-              $hover: true,
-              $hover-foreground-color: var(--eprocessos-link-color)
-            );
-            &:not(:last-child) {
-              border-bottom: 1px solid
-                var(--eprocessos-secondary-foreground-color);
-            }
-          }
-          &-line1 {
-            overflow-wrap: anywhere;
-            word-break: break-word;
-          }
-          &-cargo {
-            font-weight: 700;
-            overflow-wrap: anywhere;
-            word-break: break-word;
-          }
-          &-row {
-            padding: 0.55rem 0.75rem;
+        }
+        &-title {
+          padding: 0 0.25rem;
+        }
+        &-close {
+          @include eprocessos-icon-button(8px, 0.15rem);
+        }
+        &-link,
+        &-item {
+          display: block;
+          text-decoration: none;
+          @include text-color-template(
+            $foreground-color: var(--eprocessos-secondary-foreground-color),
+            $hover: true,
+            $hover-foreground-color: var(--eprocessos-link-color)
+          );
+          &:not(:last-child) {
             border-bottom: 1px solid
-              color-mix(
-                in srgb,
-                var(--eprocessos-foreground-color) 10%,
-                transparent
-              );
+              var(--eprocessos-secondary-foreground-color);
           }
         }
-
-        .comissao-composicao-menu-body > :last-child .comissao-composicao-row {
-          border-bottom: 0;
+        &-line1 {
+          overflow-wrap: anywhere;
+          word-break: break-word;
         }
+        &-cargo {
+          font-weight: 700;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+        }
+        &-row {
+          padding: 0.55rem 0.75rem;
+          border-bottom: 1px solid
+            color-mix(
+              in srgb,
+              var(--eprocessos-foreground-color) 10%,
+              transparent
+            );
+        }
+      }
+
+      .comissao-composicao-menu-body > :last-child .comissao-composicao-row {
+        border-bottom: 0;
       }
     }
     .id {

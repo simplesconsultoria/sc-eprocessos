@@ -1,5 +1,6 @@
 import { Container } from '@plone/components';
 import { defineMessages, useIntl } from 'react-intl';
+import { resolveEprocessosAppPath } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 
 import type { Comissao } from '@simplesconsultoria/volto-eprocessos/types';
 
@@ -55,11 +56,17 @@ const ComissaoView = ({ content }: ComissaoViewProps) => {
   const meetings = normalizeMeetings((content as any).reunioes);
   const periods = normalizePeriods((content as any).periodos);
 
+  const parentPath = resolveEprocessosAppPath(
+    (content as any).parent?.['@id'],
+    { allowExternal: false },
+  );
+  const basePath = parentPath ? parentPath.replace(/\/[^/]+$/, '') : undefined;
+
   const panels = [
     {
       id: 'participantes',
       title: intl.formatMessage(messages.participants),
-      content: <Participantes items={participants} />,
+      content: <Participantes items={participants} basePath={basePath} />,
     },
     {
       id: 'reunioes',
@@ -69,7 +76,7 @@ const ComissaoView = ({ content }: ComissaoViewProps) => {
     {
       id: 'periodos',
       title: intl.formatMessage(messages.periods),
-      content: <Periodos periods={periods} />,
+      content: <Periodos periods={periods} basePath={basePath} />,
     },
   ];
 

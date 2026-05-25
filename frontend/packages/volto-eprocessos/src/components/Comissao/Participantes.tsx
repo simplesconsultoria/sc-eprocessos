@@ -1,6 +1,9 @@
 import type { ComissaoParticipante } from '@simplesconsultoria/volto-eprocessos/types';
 import { Link } from '@simplesconsultoria/volto-eprocessos/components/Widgets/Link';
-import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
+import {
+  resolveEprocessosAssetUrl,
+  resolveEprocessosVereadorPath,
+} from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import Avatar from '@simplesconsultoria/volto-eprocessos/components/Avatar/Avatar';
 import { defineMessages, useIntl } from 'react-intl';
 import { useMemo } from 'react';
@@ -44,17 +47,15 @@ const resolveParticipanteImage = (
   item: ComissaoParticipante,
 ): string | undefined => {
   const download = (item as any)?.image?.[0]?.download;
-  const relativeUrl = resolveEprocessosAssetUrl(
-    download || (item as any)?.url_foto,
-  );
-  return `${item['@id']}/${relativeUrl}`;
+  return resolveEprocessosAssetUrl(download || (item as any)?.url_foto);
 };
 
 interface ParticipantesProps {
   items: ComissaoParticipante[];
+  basePath?: string;
 }
 
-const Participantes = ({ items }: ParticipantesProps) => {
+const Participantes = ({ items, basePath }: ParticipantesProps) => {
   const intl = useIntl();
 
   const columns = [
@@ -75,7 +76,9 @@ const Participantes = ({ items }: ParticipantesProps) => {
           return ((a as any).title || '').localeCompare((b as any).title || '');
         })
         .map((item) => {
-          const href = item['@id'];
+          const href = resolveEprocessosVereadorPath(item['@id'], {
+            basePath,
+          });
           const party = Array.isArray((item as any).partido)
             ? (item as any).partido
                 .map((p: any) => p.token)
@@ -114,7 +117,7 @@ const Participantes = ({ items }: ParticipantesProps) => {
             party: cell('party', party || '-', party || '-'),
           };
         }),
-    [items],
+    [items, basePath],
   );
 
   return (

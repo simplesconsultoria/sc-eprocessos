@@ -46,7 +46,13 @@ const Avatar = ({
     .filter(Boolean)
     .join(' ');
 
-  const imgSrc = src && src.startsWith('http') ? src : `${href}/${src}`;
+  let imgSrc = src;
+  if (src && !src.startsWith('http')) {
+    const cleanHref = (href || '').replace(/\/+$/, '');
+    const cleanSrc = src.replace(/^\/+/, '');
+    imgSrc = cleanHref ? `${cleanHref}/${cleanSrc}` : `/${cleanSrc}`;
+  }
+
   if (!src || failed) {
     return (
       <span className={wrapperClass} style={wrapStyle}>
@@ -60,6 +66,7 @@ const Avatar = ({
       </span>
     );
   }
+
   return (
     <span className={wrapperClass} style={wrapStyle}>
       <img
