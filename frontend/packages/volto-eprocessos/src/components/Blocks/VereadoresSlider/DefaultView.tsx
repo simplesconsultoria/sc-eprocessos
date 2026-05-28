@@ -9,11 +9,8 @@ import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import ConditionalLink from '@plone/volto/components/manage/ConditionalLink/ConditionalLink';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
-import {
-  addSubpathPrefix,
-  getFieldURL,
-  isInternalURL,
-} from '@plone/volto/helpers/Url/Url';
+import { getFieldURL, isInternalURL } from '@plone/volto/helpers/Url/Url';
+import { resolveEprocessosAssetUrl } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 import leftSVG from '@plone/volto/icons/left-key.svg';
 import rightSVG from '@plone/volto/icons/right-key.svg';
 import playSVG from '@plone/volto/icons/play.svg';
@@ -84,20 +81,9 @@ const getVereadorItemPath = (
 const resolveItemImageSrc = (
   item: VereadoresSliderItem | undefined,
 ): string | undefined => {
-  const base = getVereadorItemPath(item);
-  const download = item?.image?.[0]?.download;
-
-  if (!base || !download) return undefined;
-
-  const sanitized = download.startsWith('/++api++')
-    ? download.slice('/++api++'.length)
-    : download;
-
-  const isBareImages =
-    sanitized.startsWith('@@images/') || sanitized.startsWith('/@@images/');
-  if (!isBareImages) return undefined;
-
-  return addSubpathPrefix(`${base}/${sanitized.replace(/^\//, '')}`);
+  const raw = item?.image?.[0]?.download;
+  if (!raw) return undefined;
+  return resolveEprocessosAssetUrl(raw);
 };
 
 const getSingleLink = (

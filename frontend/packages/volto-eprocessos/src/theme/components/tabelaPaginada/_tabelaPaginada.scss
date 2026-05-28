@@ -59,7 +59,8 @@ table.paginada {
   }
 }
 // Paginação
-.ui.secondary.attached.menu {
+
+.results .ui.secondary.attached.menu {
   border-color: var(--eprocessos-foreground-color);
   background-color: var(--eprocessos-color);
   .item {
