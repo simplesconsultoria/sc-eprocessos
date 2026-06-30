@@ -1,6 +1,6 @@
 import { defineMessages, useIntl } from 'react-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
+import { resolveEprocessosFacadePath } from '@simplesconsultoria/volto-eprocessos/helpers/eprocessosAssets';
 
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
@@ -83,11 +83,7 @@ const getParticipanteHref = (
   item: PeriodoParticipante | undefined,
 ): string | undefined => {
   if (!item) return undefined;
-  const appUrl = item?.['@id'] ? flattenToAppURL(item['@id']) : undefined;
-  if (typeof appUrl === 'string' && appUrl) {
-    return appUrl.startsWith('/') ? appUrl : `/${appUrl}`;
-  }
-  return undefined;
+  return resolveEprocessosFacadePath(item?.['@id']);
 };
 
 const sortComposicao = (
