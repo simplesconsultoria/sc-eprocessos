@@ -1,0 +1,44 @@
+// =============================================================================
+// Controle de Hifenização e Quebra de Linha (e-Processos)
+// Desativa a hifenização automática (hyphens: auto) herdada do @kitconcept/volto-light-theme.
+// Em português, a hifenização automática quebra palavras ao final de frases no celular
+// (ex.: "Vereado-res").
+// Mantém hyphens: manual e quebra natural com overflow-wrap: break-word.
+// =============================================================================
+
+.vereadores-slider-block,
+.vereador-card,
+.norma-view,
+.materia-view,
+.sessao-view,
+.comissao-view,
+.mesa-view,
+.legislatura-view,
+.tabela-paginada {
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  li,
+  a,
+  span,
+  .title,
+  .headline {
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+}

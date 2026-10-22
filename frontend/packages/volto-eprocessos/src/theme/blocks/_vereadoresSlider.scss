@@ -59,8 +59,12 @@
     margin: 0;
     @include text-heading-h2();
     color: var(--theme-top-high-contrast-foreground-color, currentColor);
-    word-break: keep-all;
-    word-wrap: none;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   &__controls {
@@ -158,8 +162,12 @@
       --theme-top-high-contrast-foreground-color,
       currentColor
     ) !important;
-    word-break: keep-all;
-    word-wrap: break-word;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   &__party {
@@ -169,8 +177,12 @@
       --theme-top-low-contrast-foreground-color,
       currentColor
     ) !important;
-    word-break: keep-all;
-    word-wrap: none;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   &__all-link {
@@ -268,6 +280,14 @@
   .vereadores-slider-block__heading {
     @include text-heading-h3();
     @include add(weight, bold);
+  }
+}
+
+@container vereadoresSlider (max-width: 480px) {
+  .vereadores-slider-block__heading {
+    @include text-heading-h3();
+    font-size: 1.5rem;
+    line-height: 1.875rem;
   }
 }
 
