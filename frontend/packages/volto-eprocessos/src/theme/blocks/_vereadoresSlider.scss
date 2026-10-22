@@ -57,14 +57,14 @@
 
   &__heading {
     margin: 0;
-    @include text-heading-h2();
     color: var(--theme-top-high-contrast-foreground-color, currentColor);
     -webkit-hyphens: manual;
     -moz-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    word-break: normal;
     overflow-wrap: break-word;
+    word-break: normal;
+    @include text-heading-h2();
   }
 
   &__controls {
@@ -157,7 +157,6 @@
   &__name {
     border: 0 !important;
     margin: 0 0 0.5rem !important;
-    @include text-heading-h3();
     color: var(
       --theme-top-high-contrast-foreground-color,
       currentColor
@@ -166,13 +165,13 @@
     -moz-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    word-break: normal;
     overflow-wrap: break-word;
+    word-break: normal;
+    @include text-heading-h3();
   }
 
   &__party {
     margin: 0 !important;
-    @include introduction();
     color: var(
       --theme-top-low-contrast-foreground-color,
       currentColor
@@ -181,8 +180,9 @@
     -moz-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    word-break: normal;
     overflow-wrap: break-word;
+    word-break: normal;
+    @include introduction();
   }
 
   &__all-link {
