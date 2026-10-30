@@ -34,12 +34,14 @@ export interface VereadoresSliderItem {
 }
 
 export interface VereadoresSliderBlockData {
+  '@type': string;
   source?: Array<{ '@id'?: string; title?: string }>;
   allLink?: Array<{ '@id'?: string; title?: string }>;
   allLinkLabel?: string;
   autoplay?: boolean;
   autoplayIntervalSeconds?: number;
   styles?: any;
+  [key: string]: any;
 }
 
 const VereadoresSliderBlockInfo: BlockConfigBase = {

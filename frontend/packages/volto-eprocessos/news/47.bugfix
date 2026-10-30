@@ -1,0 +1,1 @@
+O formulário da barra lateral do bloco vereadoresSlider lê o schema da configuração do bloco e passa ao BlockDataForm as mesmas props do core, de modo que os erros de validação e o `navRoot` e o `contentType` chegam aos campos. @ericof

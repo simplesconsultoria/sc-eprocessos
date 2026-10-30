@@ -15,13 +15,13 @@ interface Props {
 }
 
 const Edit: React.FC<Props> = (props) => {
-  const { data, onChangeBlock, block, selected } = props;
+  const { selected } = props;
 
   return (
     <>
       <View {...props} isEditMode />
       <SidebarPortal selected={selected}>
-        <Data data={data} block={block} onChangeBlock={onChangeBlock} />
+        <Data {...props} />
       </SidebarPortal>
     </>
   );
