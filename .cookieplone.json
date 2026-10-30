@@ -6,7 +6,7 @@
     "email": "contato@simplesconsultoria.com.br",
     "use_prerelease_versions": "yes",
     "plone_version": "6.2.0rc1",
-    "volto_version": "19.0.0-alpha.27",
+    "volto_version": "19.6.1",
     "python_package_name": "sc.eprocessos",
     "npm_package_name": "@simplesconsultoria/volto-eprocessos",
     "github_organization": "simplesconsultoria",

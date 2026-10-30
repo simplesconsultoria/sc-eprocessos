@@ -1,0 +1,1 @@
+Atualiza o Volto de 19.0.0-alpha.36 para 19.6.1 e fixa o webpack no catálogo do Volto nos overrides do pnpm, para que o Storybook continue a ser construído. @ericof

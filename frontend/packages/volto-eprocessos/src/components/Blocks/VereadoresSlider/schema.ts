@@ -44,9 +44,9 @@ const messages = defineMessages({
   },
 });
 
-export const VereadoresSliderBlockSchema = (props: BlockSchemaProps): any => {
-  const { intl } = props;
-
+export const VereadoresSliderBlockSchema = ({
+  intl,
+}: Pick<BlockSchemaProps, 'intl'>): any => {
   return {
     title: intl.formatMessage(messages.blockTitle),
     fieldsets: [
