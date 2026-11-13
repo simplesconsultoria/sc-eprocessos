@@ -10,19 +10,20 @@ import html
 
 
 def filiacao(data: dict) -> str:
-    """Construct a filiacao string from the data."""
-    filiacao = ""
+    """Return the acronym of the councilor's current party.
 
-    if partido := data.get("partido", ""):
-        filiacao = (
-            partido[0]["token"]
-            if isinstance(partido, list) and len(partido) > 0
-            else ""
-        )
-    elif (filiacoes := data.get("filiacoes", [])) and len(filiacoes) > 0:
-        filiacao = filiacoes[0].get("token", "")
+    The acronym comes from ``partido_atual``. When it is missing, the
+    current entry of ``filiacoes`` is used instead.
 
-    return filiacao
+    :param data: The councilor data returned by e-Processos.
+    :returns: The party acronym, or an empty string when there is none.
+    """
+    partido = data.get("partido_atual")
+    if isinstance(partido, dict) and (sigla := partido.get("sgl")):
+        return sigla
+    filiacoes = data.get("filiacoes") or []
+    atuais = [f for f in filiacoes if f.get("filiacao_atual")]
+    return atuais[0].get("token", "") if atuais else ""
 
 
 @adapter(IVereadorItem, IBrowserLayer)

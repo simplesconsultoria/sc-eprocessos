@@ -1,0 +1,1 @@
+Fixed the party shown for a councilor: it now comes from the `partido_atual` field, falling back to the current entry in `filiacoes` instead of the first one. @ericof

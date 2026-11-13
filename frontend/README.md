@@ -168,6 +168,40 @@ Run unit tests.
 make test
 ```
 
+### Document a block
+
+The Volto server publishes the schema and the documentation of every block at the [`@blocks-schema` endpoint](https://6.docs.plone.org/volto/reference/blocks-schema-endpoint.html).
+Agents, such as an LLM that creates pages through the Plone MCP server, read it to write block data correctly.
+
+Every block in this add-on ships its documentation in a `docs.block.md` file next to its code, such as [`VereadoresSlider/docs.block.md`](packages/volto-eprocessos/src/components/Blocks/VereadoresSlider/docs.block.md).
+There is nothing to register: Volto collects the `*.block.md` files when it builds.
+Follow the conventions in [Document your blocks](https://6.docs.plone.org/volto/blocks/documentation.html):
+
+-   The frontmatter names the block by its ID, `block: <id>`.
+-   The first paragraph is the summary, which the endpoint uses as the block's `description`.
+-   Headings inside the file start at `###`.
+-   Describe the stored data, not the editor interface, and explain every field of the schema.
+-   Add a minimal example and one that uses every field, as `json` code blocks.
+
+Add a `docs.test.ts` next to it, modeled on [`VereadoresSlider/docs.test.ts`](packages/volto-eprocessos/src/components/Blocks/VereadoresSlider/docs.test.ts).
+It resolves the block schema and fails when a field has no explanation, or when an example uses a field the schema does not have, so the documentation cannot drift from the schema.
+It runs with `make test`.
+
+A project that customizes one of these blocks documents its changes in its own add-on:
+
+-   A variation gets its own `*.block.md` file, with `variation: <id>` in the frontmatter.
+-   For added fields, a `*.block.md` file for the same block replaces this add-on's file, so it must describe every field.
+    To keep this file and append to it, set a `docs` function in the block configuration instead.
+
+To read the result, start the frontend and request the endpoint with a token from the `@login` endpoint of the Plone REST API.
+The example uses the `admin` user that `make backend-create-site` creates.
+
+```shell
+TOKEN=$(curl -s -H "Content-Type: application/json" -d '{"login": "admin", "password": "admin"}' http://localhost:8080/Plone/@login | jq -r .token)
+curl -H "Authorization: Bearer $TOKEN" http://localhost:3000/@blocks-schema/vereadoresSlider
+curl -H "Authorization: Bearer $TOKEN" -H "Accept: text/markdown" http://localhost:3000/@blocks-schema/vereadoresSlider
+```
+
 ### Run Cypress tests
 
 Run each of these steps in separate terminal sessions.

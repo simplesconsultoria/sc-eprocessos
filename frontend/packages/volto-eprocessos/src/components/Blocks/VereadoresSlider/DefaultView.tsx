@@ -96,6 +96,7 @@ const getSingleLink = (
 
 export interface VereadoresSliderDefaultViewProps {
   items: VereadoresSliderItem[];
+  title?: string;
   isEditMode?: boolean;
   isLoading?: boolean;
   hasError?: boolean;
@@ -107,6 +108,7 @@ export interface VereadoresSliderDefaultViewProps {
 
 const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   items,
+  title,
   isEditMode,
   isLoading,
   hasError,
@@ -327,6 +329,8 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
   const name = current?.fullname || current?.title || '';
   const party = current?.description || '';
 
+  const heading = (title || '').trim() || intl.formatMessage(messages.heading);
+
   const allHref = useMemo(() => getSingleLink(allLink), [allLink]);
   const allLabel =
     (allLinkLabel || '').trim() ||
@@ -385,7 +389,7 @@ const DefaultView: React.FC<VereadoresSliderDefaultViewProps> = ({
     >
       <div className="vereadores-slider-block__header">
         <h2 className="vereadores-slider-block__heading section-heading text-highlight">
-          {intl.formatMessage(messages.heading)}
+          {heading}
         </h2>
 
         <div className="vereadores-slider-block__controls carousel-controls">
