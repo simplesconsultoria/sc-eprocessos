@@ -1,0 +1,1 @@
+Fixed the councilors listing showing no party: listing items carry the party in `partido`, which is now used when `partido_atual` is missing. @ericof

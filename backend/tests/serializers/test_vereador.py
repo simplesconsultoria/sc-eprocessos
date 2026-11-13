@@ -1,6 +1,7 @@
 """Tests for VereadorItem serialization."""
 
 from pathlib import Path
+from sc.eprocessos.cache import invalidate_all
 from sc.eprocessos.serializers.items.vereador import filiacao
 from unittest.mock import patch
 
@@ -32,7 +33,52 @@ _FILIACOES = [
 
 @pytest.fixture()
 def facade(portal, content_factory):
-    return content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
+    facade = content_factory(portal, "Vereadores", id="vereadores", title="Vereadores")
+    # The listing is cached in RAM; flush it so each test hits its cassette.
+    invalidate_all()
+    return facade
+
+
+class TestVereadoresListingSerialization:
+    """Test the serialization of the councilors listed by the facade.
+
+    Listed items carry ``partido`` (a list of ``{token, title}``) and
+    neither ``partido_atual`` nor ``filiacoes``.
+    """
+
+    pytestmark = pytest.mark.vcr(_c("TestVereadoresList.test_list"))
+
+    @pytest.fixture(autouse=True)
+    def _setup(self, vcr, facade, serialize):
+        self.data = serialize(facade)
+        self.items = {item["id"]: item for item in self.data["items"]}
+
+    def test_items_total(self):
+        assert self.data["items_total"] == 27
+        assert len(self.items) == 27
+
+    @pytest.mark.parametrize(
+        "item_id,fullname,expected",
+        [
+            ("546914", "Abatenio de Andrade Marquez Neto", "PP"),
+            ("25988", None, "AVANTE"),
+            ("26010", None, "PL"),
+            ("552091", None, "PT"),
+            ("537436", None, "União Brasil"),
+        ],
+    )
+    def test_item_description_is_partido(
+        self, item_id: str, fullname: str | None, expected: str
+    ):
+        item = self.items[item_id]
+        assert item["@type"] == "Vereador"
+        assert item["description"] == expected
+        if fullname:
+            assert item["fullname"] == fullname
+
+    def test_every_item_has_partido(self):
+        missing = [i for i, item in self.items.items() if not item["description"]]
+        assert missing == []
 
 
 class TestVereadorSerialization:
@@ -110,6 +156,15 @@ class TestFiliacao:
             ({"partido_atual": None, "filiacoes": None}, ""),
             ({"filiacoes": [{"filiacao_atual": True}]}, ""),
             ({}, ""),
+            ({"partido": [{"token": "PP", "title": "PROGRESSISTAS"}]}, "PP"),
+            ({"partido": [], "filiacoes": _FILIACOES}, "PL"),
+            (
+                {
+                    "partido_atual": _PARTIDO_ATUAL,
+                    "partido": [{"token": "PT", "title": "PARTIDO DOS TRABALHADORES"}],
+                },
+                "PL",
+            ),
         ],
         ids=[
             "partido-atual",
@@ -124,6 +179,9 @@ class TestFiliacao:
             "null-filiacoes",
             "current-filiacao-without-token",
             "no-data",
+            "listing-partido",
+            "empty-partido-uses-current-filiacao",
+            "partido-atual-wins-over-partido",
         ],
     )
     def test_filiacao(self, data: dict, expected: str):
