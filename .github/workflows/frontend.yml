@@ -53,23 +53,66 @@ jobs:
       node-version: ${{ inputs.node-version }}
       working-directory: ${{ inputs.working-directory }}
 
+  # plone/meta's frontend-storybook.yml on 2.x only deploys to a gh-pages
+  # branch. This repository publishes GitHub Pages with actions/deploy-pages,
+  # so the build and the deploy live here until plone/meta#373 is released.
   storybook:
-    name: "Storybook build and deploy"
-    uses: plone/meta/.github/workflows/frontend-storybook.yml@issue-373
+    name: "Storybook build"
+    runs-on: ubuntu-latest
     needs:
       - code-analysis
       - unit
       - i18n
-    with:
-      node-version: ${{ inputs.node-version }}
-      working-directory: ${{ inputs.working-directory }}
-      deploy: ${{ inputs.storybook-deploy }}
-      deploy_mode: ${{ inputs.storybook-deploy-mode }}
     permissions:
       contents: read
-      packages: write
+    defaults:
+      run:
+        working-directory: ${{ inputs.working-directory }}
+    steps:
+      - name: Main checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Setup uv
+        uses: plone/meta/.github/actions/setup_uv@2.x
+        with:
+          working-directory: ${{ inputs.working-directory }}
+
+      - name: Setup codebase
+        uses: plone/meta/.github/actions/setup_frontend@2.x
+        with:
+          node-version: ${{ inputs.node-version }}
+          working-directory: ${{ inputs.working-directory }}
+
+      - name: Generate Storybook
+        run: make storybook-build
+
+      - name: Upload Storybook pages artifact
+        if: ${{ github.ref == 'refs/heads/main' && inputs.storybook-deploy && inputs.storybook-deploy-mode == 'action' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ${{ inputs.working-directory }}/.storybook-build
+
+  storybook-deploy:
+    name: "Storybook deploy"
+    runs-on: ubuntu-latest
+    needs:
+      - storybook
+    if: ${{ github.ref == 'refs/heads/main' && inputs.storybook-deploy && inputs.storybook-deploy-mode == 'action' }}
+    permissions:
       pages: write
       id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
 
   release:
     name: "Frontend: Build and publish container image"
@@ -103,6 +146,7 @@ jobs:
       - i18n
       - unit
       - storybook
+      - storybook-deploy
       - release
     steps:
       - name: Write report
@@ -114,4 +158,5 @@ jobs:
           echo '| i18n | ${{ needs.i18n.result }} |' >> $GITHUB_STEP_SUMMARY
           echo '| unit | ${{ needs.unit.result }} |' >> $GITHUB_STEP_SUMMARY
           echo '| storybook | ${{ needs.storybook.result }} |' >> $GITHUB_STEP_SUMMARY
+          echo '| storybook-deploy | ${{ needs.storybook-deploy.result }} |' >> $GITHUB_STEP_SUMMARY
           echo '| release | ${{ needs.release.result }} |' >> $GITHUB_STEP_SUMMARY

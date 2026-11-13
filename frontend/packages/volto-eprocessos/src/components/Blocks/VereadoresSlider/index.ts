@@ -35,6 +35,7 @@ export interface VereadoresSliderItem {
 
 export interface VereadoresSliderBlockData {
   '@type': string;
+  title?: string;
   source?: Array<{ '@id'?: string; title?: string }>;
   allLink?: Array<{ '@id'?: string; title?: string }>;
   allLinkLabel?: string;

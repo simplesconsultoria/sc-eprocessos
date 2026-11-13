@@ -138,6 +138,7 @@ const View: React.FC<Props> = ({ data, className, isEditMode, style }) => {
         ) : (
           <DefaultView
             items={items}
+            title={data.title}
             isEditMode={isEditMode ?? false}
             isLoading={isLoading}
             hasError={hasError}
