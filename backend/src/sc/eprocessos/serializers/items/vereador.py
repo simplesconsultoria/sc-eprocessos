@@ -12,15 +12,19 @@ import html
 def filiacao(data: dict) -> str:
     """Return the acronym of the councilor's current party.
 
-    The acronym comes from ``partido_atual``. When it is missing, the
-    current entry of ``filiacoes`` is used instead.
+    The acronym comes from ``partido_atual`` (councilor detail). When it is
+    missing, the first entry of ``partido`` (listing items) is used, and
+    then the current entry of ``filiacoes``.
 
     :param data: The councilor data returned by e-Processos.
     :returns: The party acronym, or an empty string when there is none.
     """
-    partido = data.get("partido_atual")
-    if isinstance(partido, dict) and (sigla := partido.get("sgl")):
+    partido_atual = data.get("partido_atual")
+    if isinstance(partido_atual, dict) and (sigla := partido_atual.get("sgl")):
         return sigla
+    partido = data.get("partido")
+    if isinstance(partido, list) and partido and (token := partido[0].get("token")):
+        return token
     filiacoes = data.get("filiacoes") or []
     atuais = [f for f in filiacoes if f.get("filiacao_atual")]
     return atuais[0].get("token", "") if atuais else ""
